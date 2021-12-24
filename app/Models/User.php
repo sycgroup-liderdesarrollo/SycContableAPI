@@ -80,10 +80,14 @@ class User extends Authenticatable
     }
     public function covenants()
     {
-        return $this->belongsToMany(Covenant::class);
+        return $this->belongsToMany(Covenant::class)->withTimestamps(); //el timestamps es para mandar las horas
     }
     public function roles()
     {
         return $this->belongsToMany(Role::class);
+    }
+    public function payroll()
+    {
+        return $this->hasOne(Payroll::class);
     }
 }

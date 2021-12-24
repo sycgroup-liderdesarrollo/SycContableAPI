@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CovenantUser\CreateCovenantUserRequest;
 use App\Http\Requests\User\CreateUserRequest;
 use App\Http\Requests\User\UpdateUserRequest;
 use App\Models\User;
@@ -33,6 +34,8 @@ class UserController extends Controller
         $user->salaryType;
         $user->headquarter;
         $user->identificationType;
+        $user->covenants;
+        $user->payroll;
         return $user;
     }
     public function update(UpdateUserRequest $request, User $user)
@@ -44,6 +47,14 @@ class UserController extends Controller
     {
         $user->delete();
         return $user;
+    }
+    public function asignarConvenio($id, $id2 , Request $request) //request para recibir dues, paid dues y values
+    //$id es el id del usuario, $id2 es el id del convenio
+    {
+        $user = User::find($id); //encuentra al usuario
+        $user->covenants()->attach($id2,$request->all()); //le asigna a ese usuario el id del convenio y todo lo que vaya en la request
+        return $user->covenants;
+
     }
 
 }

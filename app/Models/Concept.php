@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Concept extends Model
 {
     use HasFactory;
-    protected $fillable = ['name','calculated'];
+    protected $fillable = ['name','calculated', 'concept_type_id'];
 
     public function covenant()
     {

@@ -16,7 +16,7 @@ class CreateConceptsTable extends Migration
         Schema::create('concepts', function (Blueprint $table) {
             $table->id();
             //datos basicos
-            $table->string('name');
+            $table->string('name')->unique();
             $table->boolean('calculated');
             //llave foranea
             $table->foreignId('concept_type_id')->references('id')->on('concept_types');
