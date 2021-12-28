@@ -72,7 +72,6 @@ Route::apiResource('concept', ConceptController::class);
 
 Route::apiResource('payroll', PayrollController::class);
 
-
 Route::get('consultaPayroll', [PayrollController::class, 'consultDatePeriod']);
 
 Route::get('consultaCovenant', [CovenantController::class, 'consultCovenant']);

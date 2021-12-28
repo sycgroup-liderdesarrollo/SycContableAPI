@@ -54,6 +54,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    protected $with = ['position'];
+
     public function businessLine()
     {
         return  $this->belongsTo(BusinessLine::class);
