@@ -16,8 +16,8 @@ class CreateSettingRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'string|max:45|unique:settings,name',
-            'value'=>'integer'
+            'name'=>'required|string|max:45|unique:settings,name',
+            'value'=>'required|integer'
         ];
     }
 }

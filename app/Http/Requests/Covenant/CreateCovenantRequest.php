@@ -27,9 +27,9 @@ class CreateCovenantRequest extends FormRequest
             'name'=>'required|string|unique:covenant,name',
             'active'=>'required|boolean',
             'value'=>'required|integer',
-            'covenant_type_id'=>'integer',
-            'periodicity_type_id'=>'integer',
-            'concept_id'=>'integer'
+            'covenant_type_id'=>'required|integer',
+            'periodicity_type_id'=>'required|integer',
+            'concept_id'=>'required|integer'
         ];
     }
 }

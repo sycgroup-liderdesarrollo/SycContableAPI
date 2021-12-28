@@ -24,7 +24,7 @@ class CreateConceptRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'unique:concepts,name|required|string|min:5',
+            'name'=>'name|required|string|min:5',
             'calculated'=>'boolean|required',
             'concept_type_id'=>'integer|required'
         ];

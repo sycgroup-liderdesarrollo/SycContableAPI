@@ -45,12 +45,12 @@
     </span>
 </a>
 <div class="tocify-wrapper">
-
+    
             <div class="lang-selector">
                                             <button type="button" class="lang-button" data-language-name="bash">bash</button>
                                             <button type="button" class="lang-button" data-language-name="javascript">javascript</button>
                     </div>
-
+    
     <div class="search">
         <input type="text" class="search" id="input-search" placeholder="Search">
     </div>
@@ -60,15 +60,15 @@
                     <li class="tocify-item level-1" data-unique="introduction">
                         <a href="#introduction">Introduction</a>
                     </li>
-
+                                            
                                                                     </ul>
                                                 <ul id="tocify-header-1" class="tocify-header">
                     <li class="tocify-item level-1" data-unique="authenticating-requests">
                         <a href="#authenticating-requests">Authenticating requests</a>
                     </li>
-
+                                            
                                                 </ul>
-
+                    
                     <ul id="tocify-header-2" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="endpoints">
                     <a href="#endpoints">Endpoints</a>
@@ -331,8 +331,8 @@
                     </li>
                                                     </ul>
                             </ul>
-
-
+        
+                        
             </div>
 
             <ul class="toc-footer" id="toc-footer">
@@ -362,7 +362,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 
         <h1 id="endpoints">Endpoints</h1>
 
-
+    
 
             <h2 id="endpoints-GETapi-user">GET api/user</h2>
 
@@ -415,48 +415,63 @@ access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Jhonatan&quot;,
-        &quot;last_name&quot;: &quot;Gamboa&quot;,
-        &quot;second_last_name&quot;: &quot;Velandia&quot;,
-        &quot;identification_number&quot;: &quot;1232599547&quot;,
-        &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-        &quot;out_date&quot;: null,
-        &quot;base_salary&quot;: 6980,
-        &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-        &quot;email_verified_at&quot;: null,
-        &quot;position_id&quot;: 1,
-        &quot;business_line_id&quot;: 1,
-        &quot;contract_type_id&quot;: 1,
-        &quot;salary_type_id&quot;: 1,
-        &quot;headquarter_id&quot;: 1,
-        &quot;identification_type_id&quot;: 1,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 4,
-        &quot;name&quot;: &quot;Maurucio&quot;,
-        &quot;last_name&quot;: &quot;Velandia&quot;,
-        &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-        &quot;identification_number&quot;: &quot;165656565&quot;,
-        &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-        &quot;out_date&quot;: null,
-        &quot;base_salary&quot;: 855120,
-        &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-        &quot;email_verified_at&quot;: null,
-        &quot;position_id&quot;: 1,
-        &quot;business_line_id&quot;: 1,
-        &quot;contract_type_id&quot;: 1,
-        &quot;salary_type_id&quot;: 1,
-        &quot;headquarter_id&quot;: 1,
-        &quot;identification_type_id&quot;: 1,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Jhonatan&quot;,
+            &quot;last_name&quot;: &quot;Gamboa&quot;,
+            &quot;second_last_name&quot;: &quot;Velandia&quot;,
+            &quot;identification_number&quot;: &quot;1232599547&quot;,
+            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
+            &quot;out_date&quot;: null,
+            &quot;base_salary&quot;: 6980,
+            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
+            &quot;email_verified_at&quot;: null,
+            &quot;position_id&quot;: 1,
+            &quot;business_line_id&quot;: 1,
+            &quot;contract_type_id&quot;: 1,
+            &quot;salary_type_id&quot;: 1,
+            &quot;headquarter_id&quot;: 1,
+            &quot;identification_type_id&quot;: 1,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Maurucio&quot;,
+            &quot;last_name&quot;: &quot;Velandia&quot;,
+            &quot;second_last_name&quot;: &quot;Gamboa&quot;,
+            &quot;identification_number&quot;: &quot;165656565&quot;,
+            &quot;admission_date&quot;: &quot;2021-12-15&quot;,
+            &quot;out_date&quot;: null,
+            &quot;base_salary&quot;: 855120,
+            &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
+            &quot;email_verified_at&quot;: null,
+            &quot;position_id&quot;: 1,
+            &quot;business_line_id&quot;: 1,
+            &quot;contract_type_id&quot;: 1,
+            &quot;salary_type_id&quot;: 1,
+            &quot;headquarter_id&quot;: 1,
+            &quot;identification_type_id&quot;: 1,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-user" hidden>
@@ -517,21 +532,21 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"\",
-    \"last_name\": \"ubhr\",
-    \"second_last_name\": \"dolorem\",
-    \"identification_number\": \"nostrum\",
-    \"email\": \"davis.daphney@example.org\",
-    \"password\": \"aliquid\",
-    \"admission_date\": \"2021-12-28T16:53:30\",
-    \"out_date\": \"2021-12-28T16:53:30\",
-    \"base_salary\": 8,
-    \"position_id\": 18,
-    \"business_line_id\": 9,
-    \"contract_type_id\": 6,
-    \"salary_type_id\": 18,
-    \"headquarter_id\": 9,
-    \"identification_type_id\": 1
+    \"name\": \"vmckw\",
+    \"last_name\": \"mqpsz\",
+    \"second_last_name\": \"optio\",
+    \"identification_number\": \"et\",
+    \"email\": \"raquel49@example.com\",
+    \"password\": \"architecto\",
+    \"admission_date\": \"2021-12-28T20:03:21\",
+    \"out_date\": \"2021-12-28T20:03:21\",
+    \"base_salary\": 10,
+    \"position_id\": 14,
+    \"business_line_id\": 1,
+    \"contract_type_id\": 5,
+    \"salary_type_id\": 5,
+    \"headquarter_id\": 17,
+    \"identification_type_id\": 4
 }"
 </code></pre></div>
 
@@ -547,21 +562,21 @@ const headers = {
 };
 
 let body = {
-    "name": "",
-    "last_name": "ubhr",
-    "second_last_name": "dolorem",
-    "identification_number": "nostrum",
-    "email": "davis.daphney@example.org",
-    "password": "aliquid",
-    "admission_date": "2021-12-28T16:53:30",
-    "out_date": "2021-12-28T16:53:30",
-    "base_salary": 8,
-    "position_id": 18,
-    "business_line_id": 9,
-    "contract_type_id": 6,
-    "salary_type_id": 18,
-    "headquarter_id": 9,
-    "identification_type_id": 1
+    "name": "vmckw",
+    "last_name": "mqpsz",
+    "second_last_name": "optio",
+    "identification_number": "et",
+    "email": "raquel49@example.com",
+    "password": "architecto",
+    "admission_date": "2021-12-28T20:03:21",
+    "out_date": "2021-12-28T20:03:21",
+    "base_salary": 10,
+    "position_id": 14,
+    "business_line_id": 1,
+    "contract_type_id": 5,
+    "salary_type_id": 5,
+    "headquarter_id": 17,
+    "identification_type_id": 4
 };
 
 fetch(url, {
@@ -619,7 +634,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-user"
-               value=""
+               value="vmckw"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -629,7 +644,7 @@ fetch(url, {
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-user"
-               value="ubhr"
+               value="mqpsz"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -639,7 +654,7 @@ fetch(url, {
                 <input type="text"
                name="second_last_name"
                data-endpoint="POSTapi-user"
-               value="dolorem"
+               value="optio"
                data-component="body" hidden>
     <br>
 
@@ -649,7 +664,7 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-user"
-               value="nostrum"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -659,7 +674,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user"
-               value="davis.daphney@example.org"
+               value="raquel49@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -669,17 +684,17 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user"
-               value="aliquid"
+               value="architecto"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>admission_date</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+            <b><code>admission_date</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
                 <input type="text"
                name="admission_date"
                data-endpoint="POSTapi-user"
-               value="2021-12-28T16:53:30"
+               value="2021-12-28T20:03:21"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -689,77 +704,77 @@ fetch(url, {
                 <input type="text"
                name="out_date"
                data-endpoint="POSTapi-user"
-               value="2021-12-28T16:53:30"
+               value="2021-12-28T20:03:21"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
         </p>
                 <p>
-            <b><code>base_salary</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>base_salary</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="base_salary"
                data-endpoint="POSTapi-user"
-               value="8"
+               value="10"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>position_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>position_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="position_id"
                data-endpoint="POSTapi-user"
-               value="18"
+               value="14"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>business_line_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>business_line_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="business_line_id"
                data-endpoint="POSTapi-user"
-               value="9"
+               value="1"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>contract_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>contract_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="contract_type_id"
                data-endpoint="POSTapi-user"
-               value="6"
+               value="5"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>salary_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>salary_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="salary_type_id"
                data-endpoint="POSTapi-user"
-               value="18"
+               value="5"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>headquarter_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>headquarter_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="headquarter_id"
                data-endpoint="POSTapi-user"
-               value="9"
+               value="17"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-user"
-               value="1"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -779,14 +794,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/user/7" \
+    --get "http://localhost:8000/api/user/17" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/7"
+    "http://localhost:8000/api/user/17"
 );
 
 const headers = {
@@ -818,120 +833,177 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;Jhonatan&quot;,
-    &quot;last_name&quot;: &quot;Gamboa&quot;,
-    &quot;second_last_name&quot;: &quot;Velandia&quot;,
-    &quot;identification_number&quot;: &quot;1232599547&quot;,
-    &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-    &quot;out_date&quot;: null,
-    &quot;base_salary&quot;: 6980,
-    &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-    &quot;email_verified_at&quot;: null,
-    &quot;position_id&quot;: 1,
-    &quot;business_line_id&quot;: 1,
-    &quot;contract_type_id&quot;: 1,
-    &quot;salary_type_id&quot;: 1,
-    &quot;headquarter_id&quot;: 1,
-    &quot;identification_type_id&quot;: 1,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;business_line&quot;: {
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
         &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;syc&quot;,
+        &quot;name&quot;: &quot;Jhonatan&quot;,
+        &quot;last_name&quot;: &quot;Gamboa&quot;,
+        &quot;second_last_name&quot;: &quot;Velandia&quot;,
+        &quot;identification_number&quot;: &quot;1232599547&quot;,
+        &quot;admission_date&quot;: &quot;2021-12-17&quot;,
+        &quot;out_date&quot;: null,
+        &quot;base_salary&quot;: 6980,
+        &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
+        &quot;email_verified_at&quot;: null,
+        &quot;position_id&quot;: 1,
+        &quot;business_line_id&quot;: 1,
+        &quot;contract_type_id&quot;: 1,
+        &quot;salary_type_id&quot;: 1,
+        &quot;headquarter_id&quot;: 1,
+        &quot;identification_type_id&quot;: 1,
         &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;position&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;gerente&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;contract_type&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;indefinido&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;salary_type&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;fijo&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;headquarter&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Pereira&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;identification_type&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;cedula&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;covenants&quot;: [
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Tatuajes&quot;,
-            &quot;active&quot;: 1,
-            &quot;value&quot;: 20850,
-            &quot;covenant_type_id&quot;: 1,
-            &quot;periodicity_type_id&quot;: 2,
-            &quot;concept_id&quot;: 9,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;user_id&quot;: 1,
-                &quot;covenant_id&quot;: 2,
-                &quot;created_at&quot;: &quot;2021-12-24T13:20:15.000000Z&quot;,
-                &quot;updated_at&quot;: &quot;2021-12-24T13:20:15.000000Z&quot;
-            }
-        },
-        {
+        &quot;updated_at&quot;: null,
+        &quot;position&quot;: {
             &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Lentes&quot;,
-            &quot;active&quot;: 1,
-            &quot;value&quot;: 15990,
-            &quot;covenant_type_id&quot;: 1,
-            &quot;periodicity_type_id&quot;: 1,
-            &quot;concept_id&quot;: 4,
+            &quot;name&quot;: &quot;gerente&quot;,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;user_id&quot;: 1,
-                &quot;covenant_id&quot;: 1,
-                &quot;created_at&quot;: &quot;2021-12-24T13:21:00.000000Z&quot;,
-                &quot;updated_at&quot;: &quot;2021-12-24T13:21:00.000000Z&quot;
-            }
+            &quot;updated_at&quot;: null
         },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Salud&quot;,
-            &quot;active&quot;: 1,
-            &quot;value&quot;: 8750,
-            &quot;covenant_type_id&quot;: 2,
-            &quot;periodicity_type_id&quot;: 2,
-            &quot;concept_id&quot;: 7,
+        &quot;business_line&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;syc&quot;,
             &quot;created_at&quot;: null,
             &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;user_id&quot;: 1,
-                &quot;covenant_id&quot;: 4,
-                &quot;created_at&quot;: &quot;2021-12-24T13:21:06.000000Z&quot;,
-                &quot;updated_at&quot;: &quot;2021-12-24T13:21:06.000000Z&quot;
+            &quot;users&quot;: [
+                {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Jhonatan&quot;,
+                    &quot;last_name&quot;: &quot;Gamboa&quot;,
+                    &quot;second_last_name&quot;: &quot;Velandia&quot;,
+                    &quot;identification_number&quot;: &quot;1232599547&quot;,
+                    &quot;admission_date&quot;: &quot;2021-12-17&quot;,
+                    &quot;out_date&quot;: null,
+                    &quot;base_salary&quot;: 6980,
+                    &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
+                    &quot;email_verified_at&quot;: null,
+                    &quot;position_id&quot;: 1,
+                    &quot;business_line_id&quot;: 1,
+                    &quot;contract_type_id&quot;: 1,
+                    &quot;salary_type_id&quot;: 1,
+                    &quot;headquarter_id&quot;: 1,
+                    &quot;identification_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;position&quot;: {
+                        &quot;id&quot;: 1,
+                        &quot;name&quot;: &quot;gerente&quot;,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null
+                    }
+                },
+                {
+                    &quot;id&quot;: 4,
+                    &quot;name&quot;: &quot;Maurucio&quot;,
+                    &quot;last_name&quot;: &quot;Velandia&quot;,
+                    &quot;second_last_name&quot;: &quot;Gamboa&quot;,
+                    &quot;identification_number&quot;: &quot;165656565&quot;,
+                    &quot;admission_date&quot;: &quot;2021-12-15&quot;,
+                    &quot;out_date&quot;: null,
+                    &quot;base_salary&quot;: 855120,
+                    &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
+                    &quot;email_verified_at&quot;: null,
+                    &quot;position_id&quot;: 1,
+                    &quot;business_line_id&quot;: 1,
+                    &quot;contract_type_id&quot;: 1,
+                    &quot;salary_type_id&quot;: 1,
+                    &quot;headquarter_id&quot;: 1,
+                    &quot;identification_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;position&quot;: {
+                        &quot;id&quot;: 1,
+                        &quot;name&quot;: &quot;gerente&quot;,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null
+                    }
+                }
+            ]
+        },
+        &quot;contract_type&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;indefinido&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null
+        },
+        &quot;salary_type&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;fijo&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null
+        },
+        &quot;headquarter&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Pereira&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null
+        },
+        &quot;identification_type&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;cedula&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null
+        },
+        &quot;covenants&quot;: [
+            {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Tatuajes&quot;,
+                &quot;active&quot;: 1,
+                &quot;value&quot;: 20850,
+                &quot;covenant_type_id&quot;: 1,
+                &quot;periodicity_type_id&quot;: 2,
+                &quot;concept_id&quot;: 9,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;pivot&quot;: {
+                    &quot;user_id&quot;: 1,
+                    &quot;covenant_id&quot;: 2,
+                    &quot;created_at&quot;: &quot;2021-12-24T13:20:15.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2021-12-24T13:20:15.000000Z&quot;
+                }
+            },
+            {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;Lentes&quot;,
+                &quot;active&quot;: 1,
+                &quot;value&quot;: 15990,
+                &quot;covenant_type_id&quot;: 1,
+                &quot;periodicity_type_id&quot;: 1,
+                &quot;concept_id&quot;: 4,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;pivot&quot;: {
+                    &quot;user_id&quot;: 1,
+                    &quot;covenant_id&quot;: 1,
+                    &quot;created_at&quot;: &quot;2021-12-24T13:21:00.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2021-12-24T13:21:00.000000Z&quot;
+                }
+            },
+            {
+                &quot;id&quot;: 4,
+                &quot;name&quot;: &quot;Salud&quot;,
+                &quot;active&quot;: 1,
+                &quot;value&quot;: 8750,
+                &quot;covenant_type_id&quot;: 2,
+                &quot;periodicity_type_id&quot;: 2,
+                &quot;concept_id&quot;: 7,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;pivot&quot;: {
+                    &quot;user_id&quot;: 1,
+                    &quot;covenant_id&quot;: 4,
+                    &quot;created_at&quot;: &quot;2021-12-24T13:21:06.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2021-12-24T13:21:06.000000Z&quot;
+                }
             }
+        ],
+        &quot;payroll&quot;: {
+            &quot;id&quot;: 1,
+            &quot;days_settled&quot;: 15,
+            &quot;period_id&quot;: 1,
+            &quot;user_id&quot;: 1,
+            &quot;created_at&quot;: &quot;2021-11-23T15:05:46.000000Z&quot;,
+            &quot;updated_at&quot;: null
         }
-    ],
-    &quot;payroll&quot;: {
-        &quot;id&quot;: 1,
-        &quot;days_settled&quot;: 15,
-        &quot;period_id&quot;: 1,
-        &quot;user_id&quot;: 1,
-        &quot;created_at&quot;: &quot;2021-11-23T15:05:46.000000Z&quot;,
-        &quot;updated_at&quot;: null
     }
 }</code>
  </pre>
@@ -981,7 +1053,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-user--id-"
-               value="7"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -1001,32 +1073,32 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/user/15" \
+    "http://localhost:8000/api/user/12" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"eftmy\",
-    \"last_name\": \"xanm\",
-    \"second_last_name\": \"modi\",
-    \"identification_number\": \"qui\",
-    \"email\": \"harvey.reagan@example.net\",
-    \"password\": \"repellat\",
-    \"admission_date\": \"2021-12-28T16:53:30\",
-    \"out_date\": \"2021-12-28T16:53:30\",
-    \"base_salary\": 6,
-    \"position_id\": 7,
-    \"business_line_id\": 4,
-    \"contract_type_id\": 20,
-    \"salary_type_id\": 19,
-    \"headquarter_id\": 5,
-    \"identification_type_id\": 5
+    \"name\": \"wbjl\",
+    \"last_name\": \"wdaj\",
+    \"second_last_name\": \"quae\",
+    \"identification_number\": \"libero\",
+    \"email\": \"ewilliamson@example.net\",
+    \"password\": \"sint\",
+    \"admission_date\": \"2021-12-28T20:03:21\",
+    \"out_date\": \"2021-12-28T20:03:21\",
+    \"base_salary\": 2,
+    \"position_id\": 13,
+    \"business_line_id\": 13,
+    \"contract_type_id\": 12,
+    \"salary_type_id\": 4,
+    \"headquarter_id\": 17,
+    \"identification_type_id\": 13
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/15"
+    "http://localhost:8000/api/user/12"
 );
 
 const headers = {
@@ -1035,21 +1107,21 @@ const headers = {
 };
 
 let body = {
-    "name": "eftmy",
-    "last_name": "xanm",
-    "second_last_name": "modi",
-    "identification_number": "qui",
-    "email": "harvey.reagan@example.net",
-    "password": "repellat",
-    "admission_date": "2021-12-28T16:53:30",
-    "out_date": "2021-12-28T16:53:30",
-    "base_salary": 6,
-    "position_id": 7,
-    "business_line_id": 4,
-    "contract_type_id": 20,
-    "salary_type_id": 19,
-    "headquarter_id": 5,
-    "identification_type_id": 5
+    "name": "wbjl",
+    "last_name": "wdaj",
+    "second_last_name": "quae",
+    "identification_number": "libero",
+    "email": "ewilliamson@example.net",
+    "password": "sint",
+    "admission_date": "2021-12-28T20:03:21",
+    "out_date": "2021-12-28T20:03:21",
+    "base_salary": 2,
+    "position_id": 13,
+    "business_line_id": 13,
+    "contract_type_id": 12,
+    "salary_type_id": 4,
+    "headquarter_id": 17,
+    "identification_type_id": 13
 };
 
 fetch(url, {
@@ -1111,7 +1183,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-user--id-"
-               value="15"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -1122,7 +1194,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-user--id-"
-               value="eftmy"
+               value="wbjl"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -1132,7 +1204,7 @@ fetch(url, {
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-user--id-"
-               value="xanm"
+               value="wdaj"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -1142,7 +1214,7 @@ fetch(url, {
                 <input type="text"
                name="second_last_name"
                data-endpoint="PUTapi-user--id-"
-               value="modi"
+               value="quae"
                data-component="body" hidden>
     <br>
 
@@ -1152,7 +1224,7 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-user--id-"
-               value="qui"
+               value="libero"
                data-component="body" hidden>
     <br>
 
@@ -1162,7 +1234,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-user--id-"
-               value="harvey.reagan@example.net"
+               value="ewilliamson@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -1172,7 +1244,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-user--id-"
-               value="repellat"
+               value="sint"
                data-component="body" hidden>
     <br>
 
@@ -1182,7 +1254,7 @@ fetch(url, {
                 <input type="text"
                name="admission_date"
                data-endpoint="PUTapi-user--id-"
-               value="2021-12-28T16:53:30"
+               value="2021-12-28T20:03:21"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1192,7 +1264,7 @@ fetch(url, {
                 <input type="text"
                name="out_date"
                data-endpoint="PUTapi-user--id-"
-               value="2021-12-28T16:53:30"
+               value="2021-12-28T20:03:21"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1202,7 +1274,7 @@ fetch(url, {
                 <input type="number"
                name="base_salary"
                data-endpoint="PUTapi-user--id-"
-               value="6"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -1212,7 +1284,7 @@ fetch(url, {
                 <input type="number"
                name="position_id"
                data-endpoint="PUTapi-user--id-"
-               value="7"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -1222,7 +1294,7 @@ fetch(url, {
                 <input type="number"
                name="business_line_id"
                data-endpoint="PUTapi-user--id-"
-               value="4"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -1232,7 +1304,7 @@ fetch(url, {
                 <input type="number"
                name="contract_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="20"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -1242,7 +1314,7 @@ fetch(url, {
                 <input type="number"
                name="salary_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="19"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -1252,7 +1324,7 @@ fetch(url, {
                 <input type="number"
                name="headquarter_id"
                data-endpoint="PUTapi-user--id-"
-               value="5"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -1262,7 +1334,7 @@ fetch(url, {
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="5"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -1282,14 +1354,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/user/18" \
+    "http://localhost:8000/api/user/16" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/18"
+    "http://localhost:8000/api/user/16"
 );
 
 const headers = {
@@ -1351,7 +1423,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-user--id-"
-               value="18"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -1504,12 +1576,12 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"neque\",
+    \"name\": \"est\",
     \"active\": false,
-    \"value\": 5,
-    \"covenant_type_id\": 9,
-    \"periodicity_type_id\": 12,
-    \"concept_id\": 19
+    \"value\": 10,
+    \"covenant_type_id\": 5,
+    \"periodicity_type_id\": 2,
+    \"concept_id\": 12
 }"
 </code></pre></div>
 
@@ -1525,12 +1597,12 @@ const headers = {
 };
 
 let body = {
-    "name": "neque",
+    "name": "est",
     "active": false,
-    "value": 5,
-    "covenant_type_id": 9,
-    "periodicity_type_id": 12,
-    "concept_id": 19
+    "value": 10,
+    "covenant_type_id": 5,
+    "periodicity_type_id": 2,
+    "concept_id": 12
 };
 
 fetch(url, {
@@ -1588,7 +1660,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-covenant"
-               value="neque"
+               value="est"
                data-component="body" hidden>
     <br>
 
@@ -1619,37 +1691,37 @@ fetch(url, {
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-covenant"
+               value="10"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>covenant_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="covenant_type_id"
+               data-endpoint="POSTapi-covenant"
                value="5"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>covenant_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="covenant_type_id"
-               data-endpoint="POSTapi-covenant"
-               value="9"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="POSTapi-covenant"
-               value="12"
+               value="2"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>concept_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>concept_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="concept_id"
                data-endpoint="POSTapi-covenant"
-               value="19"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -1669,14 +1741,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/covenant/10" \
+    --get "http://localhost:8000/api/covenant/20" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant/10"
+    "http://localhost:8000/api/covenant/20"
 );
 
 const headers = {
@@ -1760,6 +1832,12 @@ access-control-allow-origin: *
             &quot;pivot&quot;: {
                 &quot;covenant_id&quot;: 1,
                 &quot;user_id&quot;: 1
+            },
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
             }
         }
     ]
@@ -1811,7 +1889,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenant--id-"
-               value="10"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -1831,23 +1909,23 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/covenant/19" \
+    "http://localhost:8000/api/covenant/3" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"fugiat\",
+    \"name\": \"dolorum\",
     \"active\": false,
-    \"value\": 19,
-    \"covenant_type_id\": 2,
+    \"value\": 4,
+    \"covenant_type_id\": 18,
     \"periodicity_type_id\": 9,
-    \"concept_id\": 18
+    \"concept_id\": 10
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant/19"
+    "http://localhost:8000/api/covenant/3"
 );
 
 const headers = {
@@ -1856,12 +1934,12 @@ const headers = {
 };
 
 let body = {
-    "name": "fugiat",
+    "name": "dolorum",
     "active": false,
-    "value": 19,
-    "covenant_type_id": 2,
+    "value": 4,
+    "covenant_type_id": 18,
     "periodicity_type_id": 9,
-    "concept_id": 18
+    "concept_id": 10
 };
 
 fetch(url, {
@@ -1923,7 +2001,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenant--id-"
-               value="19"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -1934,7 +2012,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-covenant--id-"
-               value="fugiat"
+               value="dolorum"
                data-component="body" hidden>
     <br>
 
@@ -1965,7 +2043,7 @@ fetch(url, {
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-covenant--id-"
-               value="19"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -1975,7 +2053,7 @@ fetch(url, {
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="2"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -1995,7 +2073,7 @@ fetch(url, {
                 <input type="number"
                name="concept_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="18"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -2015,14 +2093,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/covenant/17" \
+    "http://localhost:8000/api/covenant/10" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant/17"
+    "http://localhost:8000/api/covenant/10"
 );
 
 const headers = {
@@ -2084,7 +2162,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenant--id-"
-               value="17"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -2290,14 +2368,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/covenantType/5" \
+    --get "http://localhost:8000/api/covenantType/13" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType/5"
+    "http://localhost:8000/api/covenantType/13"
 );
 
 const headers = {
@@ -2405,7 +2483,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenantType--id-"
-               value="5"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -2425,14 +2503,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/covenantType/5" \
+    "http://localhost:8000/api/covenantType/13" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType/5"
+    "http://localhost:8000/api/covenantType/13"
 );
 
 const headers = {
@@ -2498,7 +2576,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenantType--id-"
-               value="5"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -2518,14 +2596,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/covenantType/1" \
+    "http://localhost:8000/api/covenantType/7" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType/1"
+    "http://localhost:8000/api/covenantType/7"
 );
 
 const headers = {
@@ -2587,7 +2665,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenantType--id-"
-               value="1"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -2793,14 +2871,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/periodicityType/19" \
+    --get "http://localhost:8000/api/periodicityType/3" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType/19"
+    "http://localhost:8000/api/periodicityType/3"
 );
 
 const headers = {
@@ -2897,7 +2975,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-periodicityType--id-"
-               value="19"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -2917,14 +2995,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/periodicityType/16" \
+    "http://localhost:8000/api/periodicityType/5" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType/16"
+    "http://localhost:8000/api/periodicityType/5"
 );
 
 const headers = {
@@ -2990,7 +3068,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="16"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -3010,14 +3088,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/periodicityType/18" \
+    "http://localhost:8000/api/periodicityType/16" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType/18"
+    "http://localhost:8000/api/periodicityType/16"
 );
 
 const headers = {
@@ -3079,7 +3157,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-periodicityType--id-"
-               value="18"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -3198,11 +3276,11 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"y\",
-    \"address\": \"ve\",
-    \"phone\": \"jad\",
-    \"identification_number\": \"\",
-    \"identification_type_id\": 8
+    \"name\": \"hjvn\",
+    \"address\": \"kikv\",
+    \"phone\": \"t\",
+    \"identification_number\": \"dwyak\",
+    \"identification_type_id\": 14
 }"
 </code></pre></div>
 
@@ -3218,11 +3296,11 @@ const headers = {
 };
 
 let body = {
-    "name": "y",
-    "address": "ve",
-    "phone": "jad",
-    "identification_number": "",
-    "identification_type_id": 8
+    "name": "hjvn",
+    "address": "kikv",
+    "phone": "t",
+    "identification_number": "dwyak",
+    "identification_type_id": 14
 };
 
 fetch(url, {
@@ -3280,7 +3358,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-provider"
-               value="y"
+               value="hjvn"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3290,7 +3368,7 @@ fetch(url, {
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-provider"
-               value="ve"
+               value="kikv"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3300,7 +3378,7 @@ fetch(url, {
                 <input type="text"
                name="phone"
                data-endpoint="POSTapi-provider"
-               value="jad"
+               value="t"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3310,17 +3388,17 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-provider"
-               value=""
+               value="dwyak"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
         </p>
                 <p>
-            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-provider"
-               value="8"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -3340,14 +3418,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/provider/16" \
+    --get "http://localhost:8000/api/provider/20" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider/16"
+    "http://localhost:8000/api/provider/20"
 );
 
 const headers = {
@@ -3839,7 +3917,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-provider--id-"
-               value="16"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -3859,22 +3937,22 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/provider/19" \
+    "http://localhost:8000/api/provider/3" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"fgmcin\",
-    \"address\": \"s\",
-    \"phone\": \"v\",
-    \"identification_number\": \"zmqvd\",
-    \"identification_type_id\": 19
+    \"name\": \"yfw\",
+    \"address\": \"vqb\",
+    \"phone\": \"fkhn\",
+    \"identification_number\": \"brvf\",
+    \"identification_type_id\": 12
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider/19"
+    "http://localhost:8000/api/provider/3"
 );
 
 const headers = {
@@ -3883,11 +3961,11 @@ const headers = {
 };
 
 let body = {
-    "name": "fgmcin",
-    "address": "s",
-    "phone": "v",
-    "identification_number": "zmqvd",
-    "identification_type_id": 19
+    "name": "yfw",
+    "address": "vqb",
+    "phone": "fkhn",
+    "identification_number": "brvf",
+    "identification_type_id": 12
 };
 
 fetch(url, {
@@ -3949,7 +4027,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-provider--id-"
-               value="19"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -3960,7 +4038,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-provider--id-"
-               value="fgmcin"
+               value="yfw"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 10 characters.</p>
@@ -3970,7 +4048,7 @@ fetch(url, {
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-provider--id-"
-               value="s"
+               value="vqb"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3980,7 +4058,7 @@ fetch(url, {
                 <input type="text"
                name="phone"
                data-endpoint="PUTapi-provider--id-"
-               value="v"
+               value="fkhn"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3990,7 +4068,7 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-provider--id-"
-               value="zmqvd"
+               value="brvf"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -4000,7 +4078,7 @@ fetch(url, {
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="19"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -4020,14 +4098,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/provider/7" \
+    "http://localhost:8000/api/provider/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider/7"
+    "http://localhost:8000/api/provider/2"
 );
 
 const headers = {
@@ -4089,7 +4167,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-provider--id-"
-               value="7"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -4152,7 +4230,61 @@ access-control-allow-origin: *
         &quot;id&quot;: 1,
         &quot;name&quot;: &quot;syc&quot;,
         &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
+        &quot;updated_at&quot;: null,
+        &quot;users&quot;: [
+            {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;Jhonatan&quot;,
+                &quot;last_name&quot;: &quot;Gamboa&quot;,
+                &quot;second_last_name&quot;: &quot;Velandia&quot;,
+                &quot;identification_number&quot;: &quot;1232599547&quot;,
+                &quot;admission_date&quot;: &quot;2021-12-17&quot;,
+                &quot;out_date&quot;: null,
+                &quot;base_salary&quot;: 6980,
+                &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;position&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;gerente&quot;,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null
+                }
+            },
+            {
+                &quot;id&quot;: 4,
+                &quot;name&quot;: &quot;Maurucio&quot;,
+                &quot;last_name&quot;: &quot;Velandia&quot;,
+                &quot;second_last_name&quot;: &quot;Gamboa&quot;,
+                &quot;identification_number&quot;: &quot;165656565&quot;,
+                &quot;admission_date&quot;: &quot;2021-12-15&quot;,
+                &quot;out_date&quot;: null,
+                &quot;base_salary&quot;: 855120,
+                &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;position&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;gerente&quot;,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null
+                }
+            }
+        ]
     }
 ]</code>
  </pre>
@@ -4289,14 +4421,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/businessLine/14" \
+    --get "http://localhost:8000/api/businessLine/6" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine/14"
+    "http://localhost:8000/api/businessLine/6"
 );
 
 const headers = {
@@ -4351,7 +4483,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         },
         {
             &quot;id&quot;: 4,
@@ -4371,7 +4509,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         }
     ]
 }</code>
@@ -4422,7 +4566,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-businessLine--id-"
-               value="14"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -4442,14 +4586,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/businessLine/9" \
+    "http://localhost:8000/api/businessLine/20" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine/9"
+    "http://localhost:8000/api/businessLine/20"
 );
 
 const headers = {
@@ -4515,7 +4659,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-businessLine--id-"
-               value="9"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -4535,14 +4679,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/businessLine/7" \
+    "http://localhost:8000/api/businessLine/12" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine/7"
+    "http://localhost:8000/api/businessLine/12"
 );
 
 const headers = {
@@ -4604,7 +4748,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-businessLine--id-"
-               value="7"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -4804,14 +4948,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/position/8" \
+    --get "http://localhost:8000/api/position/11" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position/8"
+    "http://localhost:8000/api/position/11"
 );
 
 const headers = {
@@ -4895,7 +5039,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-position--id-"
-               value="8"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -4915,14 +5059,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/position/5" \
+    "http://localhost:8000/api/position/8" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position/5"
+    "http://localhost:8000/api/position/8"
 );
 
 const headers = {
@@ -4988,7 +5132,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-position--id-"
-               value="5"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -5008,14 +5152,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/position/3" \
+    "http://localhost:8000/api/position/20" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position/3"
+    "http://localhost:8000/api/position/20"
 );
 
 const headers = {
@@ -5077,7 +5221,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-position--id-"
-               value="3"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -5345,7 +5489,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         },
         {
             &quot;id&quot;: 4,
@@ -5365,7 +5515,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         }
     ]
 }</code>
@@ -5436,14 +5592,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/contractType/11" \
+    "http://localhost:8000/api/contractType/17" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contractType/11"
+    "http://localhost:8000/api/contractType/17"
 );
 
 const headers = {
@@ -5509,7 +5665,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-contractType--id-"
-               value="11"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -5529,14 +5685,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/contractType/9" \
+    "http://localhost:8000/api/contractType/20" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contractType/9"
+    "http://localhost:8000/api/contractType/20"
 );
 
 const headers = {
@@ -5598,7 +5754,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contractType--id-"
-               value="9"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -5804,14 +5960,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/salaryType/1" \
+    --get "http://localhost:8000/api/salaryType/18" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType/1"
+    "http://localhost:8000/api/salaryType/18"
 );
 
 const headers = {
@@ -5866,7 +6022,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         },
         {
             &quot;id&quot;: 4,
@@ -5886,7 +6048,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         }
     ]
 }</code>
@@ -5937,7 +6105,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-salaryType--id-"
-               value="1"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -5957,14 +6125,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/salaryType/3" \
+    "http://localhost:8000/api/salaryType/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType/3"
+    "http://localhost:8000/api/salaryType/2"
 );
 
 const headers = {
@@ -6030,7 +6198,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-salaryType--id-"
-               value="3"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -6050,14 +6218,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/salaryType/13" \
+    "http://localhost:8000/api/salaryType/10" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType/13"
+    "http://localhost:8000/api/salaryType/10"
 );
 
 const headers = {
@@ -6119,7 +6287,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-salaryType--id-"
-               value="13"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -6325,14 +6493,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/headQuarter/20" \
+    --get "http://localhost:8000/api/headQuarter/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter/20"
+    "http://localhost:8000/api/headQuarter/1"
 );
 
 const headers = {
@@ -6387,7 +6555,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         },
         {
             &quot;id&quot;: 4,
@@ -6407,7 +6581,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         }
     ]
 }</code>
@@ -6458,7 +6638,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-headQuarter--id-"
-               value="20"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -6478,14 +6658,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/headQuarter/4" \
+    "http://localhost:8000/api/headQuarter/10" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter/4"
+    "http://localhost:8000/api/headQuarter/10"
 );
 
 const headers = {
@@ -6551,7 +6731,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-headQuarter--id-"
-               value="4"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -6571,14 +6751,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/headQuarter/17" \
+    "http://localhost:8000/api/headQuarter/18" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter/17"
+    "http://localhost:8000/api/headQuarter/18"
 );
 
 const headers = {
@@ -6640,7 +6820,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-headQuarter--id-"
-               value="17"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -6846,14 +7026,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/identificationType/8" \
+    --get "http://localhost:8000/api/identificationType/9" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType/8"
+    "http://localhost:8000/api/identificationType/9"
 );
 
 const headers = {
@@ -6908,7 +7088,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         },
         {
             &quot;id&quot;: 4,
@@ -6928,7 +7114,13 @@ access-control-allow-origin: *
             &quot;headquarter_id&quot;: 1,
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+            &quot;updated_at&quot;: null,
+            &quot;position&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null
+            }
         }
     ],
     &quot;provider&quot;: []
@@ -6980,7 +7172,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-identificationType--id-"
-               value="8"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -7000,14 +7192,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/identificationType/8" \
+    "http://localhost:8000/api/identificationType/5" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType/8"
+    "http://localhost:8000/api/identificationType/5"
 );
 
 const headers = {
@@ -7073,7 +7265,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-identificationType--id-"
-               value="8"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -7093,14 +7285,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/identificationType/14" \
+    "http://localhost:8000/api/identificationType/19" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType/14"
+    "http://localhost:8000/api/identificationType/19"
 );
 
 const headers = {
@@ -7162,7 +7354,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-identificationType--id-"
-               value="14"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -7368,14 +7560,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/period/9" \
+    --get "http://localhost:8000/api/period/19" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period/9"
+    "http://localhost:8000/api/period/19"
 );
 
 const headers = {
@@ -7459,7 +7651,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-period--id-"
-               value="9"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -7479,14 +7671,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/period/10" \
+    "http://localhost:8000/api/period/12" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period/10"
+    "http://localhost:8000/api/period/12"
 );
 
 const headers = {
@@ -7552,7 +7744,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-period--id-"
-               value="10"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -7572,14 +7764,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/period/11" \
+    "http://localhost:8000/api/period/2" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period/11"
+    "http://localhost:8000/api/period/2"
 );
 
 const headers = {
@@ -7641,7 +7833,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-period--id-"
-               value="11"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -7699,7 +7891,15 @@ access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[]</code>
+<code class="language-json">[
+    {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq&quot;,
+        &quot;value&quot;: 13,
+        &quot;created_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;
+    }
+]</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-setting" hidden>
@@ -7760,8 +7960,8 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq\",
-    \"value\": 13
+    \"name\": \"avfsaddvwmzovaadijmvsustbsztltzbruzonvgzirxra\",
+    \"value\": 11
 }"
 </code></pre></div>
 
@@ -7777,8 +7977,8 @@ const headers = {
 };
 
 let body = {
-    "name": "fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq",
-    "value": 13
+    "name": "avfsaddvwmzovaadijmvsustbsztltzbruzonvgzirxra",
+    "value": 11
 };
 
 fetch(url, {
@@ -7832,21 +8032,21 @@ fetch(url, {
         </p>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-setting"
-               value="fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq"
+               value="avfsaddvwmzovaadijmvsustbsztltzbruzonvgzirxra"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 45 characters.</p>
         </p>
                 <p>
-            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-setting"
-               value="13"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -7866,14 +8066,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/setting/15" \
+    --get "http://localhost:8000/api/setting/4" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting/15"
+    "http://localhost:8000/api/setting/4"
 );
 
 const headers = {
@@ -7890,7 +8090,7 @@ fetch(url, {
 
 <span id="example-responses-GETapi-setting--id-">
             <blockquote>
-            <p>Example response (404):</p>
+            <p>Example response (200):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -7905,418 +8105,11 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;No query results for model [App\\Models\\Setting] 1&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-    &quot;line&quot;: 385,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-            &quot;line&quot;: 332,
-            &quot;function&quot;: &quot;prepareException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 172,
-            &quot;function&quot;: &quot;handleException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 127,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 55,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 697,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 672,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 636,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 625,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
-            &quot;line&quot;: 52,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 222,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 179,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 117,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 75,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 48,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 653,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 136,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 298,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1005,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 94,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
+    &quot;id&quot;: 1,
+    &quot;name&quot;: &quot;fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq&quot;,
+    &quot;value&quot;: 13,
+    &quot;created_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;,
+    &quot;updated_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;
 }</code>
  </pre>
     </span>
@@ -8365,7 +8158,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-setting--id-"
-               value="15"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -8385,19 +8178,19 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/setting/12" \
+    "http://localhost:8000/api/setting/8" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"r\",
-    \"value\": 16
+    \"name\": \"\",
+    \"value\": 15
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting/12"
+    "http://localhost:8000/api/setting/8"
 );
 
 const headers = {
@@ -8406,8 +8199,8 @@ const headers = {
 };
 
 let body = {
-    "name": "r",
-    "value": 16
+    "name": "",
+    "value": 15
 };
 
 fetch(url, {
@@ -8469,7 +8262,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-setting--id-"
-               value="12"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -8480,7 +8273,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-setting--id-"
-               value="r"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -8490,7 +8283,7 @@ fetch(url, {
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-setting--id-"
-               value="16"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -8510,14 +8303,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/setting/20" \
+    "http://localhost:8000/api/setting/15" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting/20"
+    "http://localhost:8000/api/setting/15"
 );
 
 const headers = {
@@ -8579,7 +8372,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-setting--id-"
-               value="20"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -8785,14 +8578,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/conceptType/12" \
+    --get "http://localhost:8000/api/conceptType/14" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType/12"
+    "http://localhost:8000/api/conceptType/14"
 );
 
 const headers = {
@@ -8894,7 +8687,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-conceptType--id-"
-               value="12"
+               value="14"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -8914,14 +8707,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/conceptType/9" \
+    "http://localhost:8000/api/conceptType/16" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType/9"
+    "http://localhost:8000/api/conceptType/16"
 );
 
 const headers = {
@@ -8987,7 +8780,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-conceptType--id-"
-               value="9"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -9007,14 +8800,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/conceptType/13" \
+    "http://localhost:8000/api/conceptType/10" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType/13"
+    "http://localhost:8000/api/conceptType/10"
 );
 
 const headers = {
@@ -9076,7 +8869,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-conceptType--id-"
-               value="13"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -9244,9 +9037,9 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"c\",
+    \"name\": \"dvhhl\",
     \"calculated\": false,
-    \"concept_type_id\": 13
+    \"concept_type_id\": 7
 }"
 </code></pre></div>
 
@@ -9262,9 +9055,9 @@ const headers = {
 };
 
 let body = {
-    "name": "c",
+    "name": "dvhhl",
     "calculated": false,
-    "concept_type_id": 13
+    "concept_type_id": 7
 };
 
 fetch(url, {
@@ -9322,7 +9115,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-concept"
-               value="c"
+               value="dvhhl"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9353,7 +9146,7 @@ fetch(url, {
                 <input type="number"
                name="concept_type_id"
                data-endpoint="POSTapi-concept"
-               value="13"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -9373,14 +9166,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/concept/20" \
+    --get "http://localhost:8000/api/concept/7" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept/20"
+    "http://localhost:8000/api/concept/7"
 );
 
 const headers = {
@@ -9493,7 +9286,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-concept--id-"
-               value="20"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -9513,20 +9306,20 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/concept/19" \
+    "http://localhost:8000/api/concept/4" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"rw\",
-    \"calculated\": false,
-    \"concept_type_id\": 20
+    \"name\": \"ctca\",
+    \"calculated\": true,
+    \"concept_type_id\": 9
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept/19"
+    "http://localhost:8000/api/concept/4"
 );
 
 const headers = {
@@ -9535,9 +9328,9 @@ const headers = {
 };
 
 let body = {
-    "name": "rw",
-    "calculated": false,
-    "concept_type_id": 20
+    "name": "ctca",
+    "calculated": true,
+    "concept_type_id": 9
 };
 
 fetch(url, {
@@ -9599,7 +9392,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-concept--id-"
-               value="19"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -9610,7 +9403,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-concept--id-"
-               value="rw"
+               value="ctca"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9641,7 +9434,7 @@ fetch(url, {
                 <input type="number"
                name="concept_type_id"
                data-endpoint="PUTapi-concept--id-"
-               value="20"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -9661,14 +9454,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/concept/8" \
+    "http://localhost:8000/api/concept/15" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept/8"
+    "http://localhost:8000/api/concept/15"
 );
 
 const headers = {
@@ -9730,7 +9523,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-concept--id-"
-               value="8"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -9948,14 +9741,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/payroll/14" \
+    --get "http://localhost:8000/api/payroll/8" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll/14"
+    "http://localhost:8000/api/payroll/8"
 );
 
 const headers = {
@@ -10017,7 +9810,13 @@ access-control-allow-origin: *
         &quot;headquarter_id&quot;: 1,
         &quot;identification_type_id&quot;: 1,
         &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
+        &quot;updated_at&quot;: null,
+        &quot;position&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;gerente&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null
+        }
     },
     &quot;concepts&quot;: [
         {
@@ -10154,7 +9953,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-payroll--id-"
-               value="14"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -10174,14 +9973,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/payroll/12" \
+    "http://localhost:8000/api/payroll/19" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll/12"
+    "http://localhost:8000/api/payroll/19"
 );
 
 const headers = {
@@ -10247,7 +10046,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-payroll--id-"
-               value="12"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -10267,14 +10066,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/payroll/5" \
+    "http://localhost:8000/api/payroll/20" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll/5"
+    "http://localhost:8000/api/payroll/20"
 );
 
 const headers = {
@@ -10336,7 +10135,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-payroll--id-"
-               value="5"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -10546,14 +10345,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/payrollConcept/non/non" \
+    "http://localhost:8000/api/payrollConcept/delectus/quod" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payrollConcept/non/non"
+    "http://localhost:8000/api/payrollConcept/delectus/quod"
 );
 
 const headers = {
@@ -10615,7 +10414,7 @@ fetch(url, {
                 <input type="text"
                name="id"
                data-endpoint="POSTapi-payrollConcept--id---id2-"
-               value="non"
+               value="delectus"
                data-component="url" hidden>
     <br>
 <p>The ID of the payrollConcept.</p>
@@ -10625,7 +10424,7 @@ fetch(url, {
                 <input type="text"
                name="id2"
                data-endpoint="POSTapi-payrollConcept--id---id2-"
-               value="non"
+               value="quod"
                data-component="url" hidden>
     <br>
 
@@ -10645,14 +10444,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/user/asignarConvenio/suscipit/aspernatur" \
+    "http://localhost:8000/api/user/asignarConvenio/omnis/ratione" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/asignarConvenio/suscipit/aspernatur"
+    "http://localhost:8000/api/user/asignarConvenio/omnis/ratione"
 );
 
 const headers = {
@@ -10714,7 +10513,7 @@ fetch(url, {
                 <input type="text"
                name="id"
                data-endpoint="POSTapi-user-asignarConvenio--id---id2-"
-               value="suscipit"
+               value="omnis"
                data-component="url" hidden>
     <br>
 <p>The ID of the asignarConvenio.</p>
@@ -10724,7 +10523,7 @@ fetch(url, {
                 <input type="text"
                name="id2"
                data-endpoint="POSTapi-user-asignarConvenio--id---id2-"
-               value="aspernatur"
+               value="ratione"
                data-component="url" hidden>
     <br>
 
@@ -10826,9 +10625,9 @@ access-control-allow-origin: *
         </p>
                     </form>
 
+    
 
-
-
+        
     </div>
     <div class="dark-box">
                     <div class="lang-selector">

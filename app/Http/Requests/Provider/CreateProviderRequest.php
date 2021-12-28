@@ -28,7 +28,7 @@ class CreateProviderRequest extends FormRequest
             'address' => 'string|required|min:5',
             'phone' => 'string|required|min:5',
             'identification_number' => 'string|required|min:5|unique:providers,identification_number',
-            'identification_type_id' => 'integer'
+            'identification_type_id' => 'required|integer'
         ];
     }
 }

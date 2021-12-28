@@ -24,7 +24,7 @@ class UpdateConceptRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'unique:concepts,name|string|min:5',
+            'name'=>'name|string|min:5',
             'calculated'=>'boolean',
             'concept_type_id'=>'integer'
         ];

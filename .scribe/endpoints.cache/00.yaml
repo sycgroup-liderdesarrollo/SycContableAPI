@@ -21,7 +21,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null}]'
+        content: '{"status":true,"data":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -49,105 +49,105 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: ''
+        example: vmckw
         type: string
         custom: []
       last_name:
         name: last_name
         description: 'Must be at least 5 characters.'
         required: true
-        example: ubhr
+        example: mqpsz
         type: string
         custom: []
       second_last_name:
         name: second_last_name
         description: ''
         required: false
-        example: dolorem
+        example: optio
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: ''
         required: true
-        example: nostrum
+        example: et
         type: string
         custom: []
       email:
         name: email
         description: 'Must be a valid email address.'
         required: true
-        example: davis.daphney@example.org
+        example: raquel49@example.com
         type: string
         custom: []
       password:
         name: password
         description: ''
         required: true
-        example: aliquid
+        example: architecto
         type: string
         custom: []
       admission_date:
         name: admission_date
         description: 'Must be a valid date.'
-        required: false
-        example: '2021-12-28T16:53:30'
+        required: true
+        example: '2021-12-28T20:03:21'
         type: string
         custom: []
       out_date:
         name: out_date
         description: 'Must be a valid date.'
         required: false
-        example: '2021-12-28T16:53:30'
+        example: '2021-12-28T20:03:21'
         type: string
         custom: []
       base_salary:
         name: base_salary
         description: ''
-        required: false
-        example: 8
+        required: true
+        example: 10
         type: integer
         custom: []
       position_id:
         name: position_id
         description: ''
-        required: false
-        example: 18
+        required: true
+        example: 14
         type: integer
         custom: []
       business_line_id:
         name: business_line_id
         description: ''
-        required: false
-        example: 9
+        required: true
+        example: 1
         type: integer
         custom: []
       contract_type_id:
         name: contract_type_id
         description: ''
-        required: false
-        example: 6
+        required: true
+        example: 5
         type: integer
         custom: []
       salary_type_id:
         name: salary_type_id
         description: ''
-        required: false
-        example: 18
+        required: true
+        example: 5
         type: integer
         custom: []
       headquarter_id:
         name: headquarter_id
         description: ''
-        required: false
-        example: 9
+        required: true
+        example: 17
         type: integer
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
-        required: false
-        example: 1
+        required: true
+        example: 4
         type: integer
         custom: []
     responses: []
@@ -169,7 +169,7 @@ endpoints:
         name: id
         description: 'The ID of the user.'
         required: true
-        example: 7
+        example: 17
         type: integer
         custom: []
     queryParameters: []
@@ -177,7 +177,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"business_line":{"id":1,"name":"syc","created_at":null,"updated_at":null},"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null},"contract_type":{"id":1,"name":"indefinido","created_at":null,"updated_at":null},"salary_type":{"id":1,"name":"fijo","created_at":null,"updated_at":null},"headquarter":{"id":1,"name":"Pereira","created_at":null,"updated_at":null},"identification_type":{"id":1,"name":"cedula","created_at":null,"updated_at":null},"covenants":[{"id":2,"name":"Tatuajes","active":1,"value":20850,"covenant_type_id":1,"periodicity_type_id":2,"concept_id":9,"created_at":null,"updated_at":null,"pivot":{"user_id":1,"covenant_id":2,"created_at":"2021-12-24T13:20:15.000000Z","updated_at":"2021-12-24T13:20:15.000000Z"}},{"id":1,"name":"Lentes","active":1,"value":15990,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":4,"created_at":null,"updated_at":null,"pivot":{"user_id":1,"covenant_id":1,"created_at":"2021-12-24T13:21:00.000000Z","updated_at":"2021-12-24T13:21:00.000000Z"}},{"id":4,"name":"Salud","active":1,"value":8750,"covenant_type_id":2,"periodicity_type_id":2,"concept_id":7,"created_at":null,"updated_at":null,"pivot":{"user_id":1,"covenant_id":4,"created_at":"2021-12-24T13:21:06.000000Z","updated_at":"2021-12-24T13:21:06.000000Z"}}],"payroll":{"id":1,"days_settled":15,"period_id":1,"user_id":1,"created_at":"2021-11-23T15:05:46.000000Z","updated_at":null}}'
+        content: '{"status":true,"data":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null},"business_line":{"id":1,"name":"syc","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]},"contract_type":{"id":1,"name":"indefinido","created_at":null,"updated_at":null},"salary_type":{"id":1,"name":"fijo","created_at":null,"updated_at":null},"headquarter":{"id":1,"name":"Pereira","created_at":null,"updated_at":null},"identification_type":{"id":1,"name":"cedula","created_at":null,"updated_at":null},"covenants":[{"id":2,"name":"Tatuajes","active":1,"value":20850,"covenant_type_id":1,"periodicity_type_id":2,"concept_id":9,"created_at":null,"updated_at":null,"pivot":{"user_id":1,"covenant_id":2,"created_at":"2021-12-24T13:20:15.000000Z","updated_at":"2021-12-24T13:20:15.000000Z"}},{"id":1,"name":"Lentes","active":1,"value":15990,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":4,"created_at":null,"updated_at":null,"pivot":{"user_id":1,"covenant_id":1,"created_at":"2021-12-24T13:21:00.000000Z","updated_at":"2021-12-24T13:21:00.000000Z"}},{"id":4,"name":"Salud","active":1,"value":8750,"covenant_type_id":2,"periodicity_type_id":2,"concept_id":7,"created_at":null,"updated_at":null,"pivot":{"user_id":1,"covenant_id":4,"created_at":"2021-12-24T13:21:06.000000Z","updated_at":"2021-12-24T13:21:06.000000Z"}}],"payroll":{"id":1,"days_settled":15,"period_id":1,"user_id":1,"created_at":"2021-11-23T15:05:46.000000Z","updated_at":null}}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -204,7 +204,7 @@ endpoints:
         name: id
         description: 'The ID of the user.'
         required: true
-        example: 15
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -213,105 +213,105 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: false
-        example: eftmy
+        example: wbjl
         type: string
         custom: []
       last_name:
         name: last_name
         description: 'Must be at least 5 characters.'
         required: false
-        example: xanm
+        example: wdaj
         type: string
         custom: []
       second_last_name:
         name: second_last_name
         description: ''
         required: false
-        example: modi
+        example: quae
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: ''
         required: false
-        example: qui
+        example: libero
         type: string
         custom: []
       email:
         name: email
         description: 'Must be a valid email address.'
         required: false
-        example: harvey.reagan@example.net
+        example: ewilliamson@example.net
         type: string
         custom: []
       password:
         name: password
         description: ''
         required: false
-        example: repellat
+        example: sint
         type: string
         custom: []
       admission_date:
         name: admission_date
         description: 'Must be a valid date.'
         required: false
-        example: '2021-12-28T16:53:30'
+        example: '2021-12-28T20:03:21'
         type: string
         custom: []
       out_date:
         name: out_date
         description: 'Must be a valid date.'
         required: false
-        example: '2021-12-28T16:53:30'
+        example: '2021-12-28T20:03:21'
         type: string
         custom: []
       base_salary:
         name: base_salary
         description: ''
         required: false
-        example: 6
+        example: 2
         type: integer
         custom: []
       position_id:
         name: position_id
         description: ''
         required: false
-        example: 7
+        example: 13
         type: integer
         custom: []
       business_line_id:
         name: business_line_id
         description: ''
         required: false
-        example: 4
+        example: 13
         type: integer
         custom: []
       contract_type_id:
         name: contract_type_id
         description: ''
         required: false
-        example: 20
+        example: 12
         type: integer
         custom: []
       salary_type_id:
         name: salary_type_id
         description: ''
         required: false
-        example: 19
+        example: 4
         type: integer
         custom: []
       headquarter_id:
         name: headquarter_id
         description: ''
         required: false
-        example: 5
+        example: 17
         type: integer
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: false
-        example: 5
+        example: 13
         type: integer
         custom: []
     responses: []
@@ -333,7 +333,7 @@ endpoints:
         name: id
         description: 'The ID of the user.'
         required: true
-        example: 18
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -386,7 +386,7 @@ endpoints:
         name: name
         description: ''
         required: true
-        example: neque
+        example: est
         type: string
         custom: []
       active:
@@ -400,28 +400,28 @@ endpoints:
         name: value
         description: ''
         required: true
-        example: 5
+        example: 10
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
-        required: false
-        example: 9
+        required: true
+        example: 5
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
-        required: false
-        example: 12
+        required: true
+        example: 2
         type: integer
         custom: []
       concept_id:
         name: concept_id
         description: ''
-        required: false
-        example: 19
+        required: true
+        example: 12
         type: integer
         custom: []
     responses: []
@@ -443,7 +443,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 10
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -451,7 +451,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"name":"Lentes","active":1,"value":15990,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":4,"created_at":null,"updated_at":null,"covenant_type":{"id":1,"name":"cuota","created_at":null,"updated_at":null},"periodicity_type":{"id":1,"name":"Quincenal","created_at":null,"updated_at":null},"concept":{"id":4,"name":"Cuota lentes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null},"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"pivot":{"covenant_id":1,"user_id":1}}]}'
+        content: '{"id":1,"name":"Lentes","active":1,"value":15990,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":4,"created_at":null,"updated_at":null,"covenant_type":{"id":1,"name":"cuota","created_at":null,"updated_at":null},"periodicity_type":{"id":1,"name":"Quincenal","created_at":null,"updated_at":null},"concept":{"id":4,"name":"Cuota lentes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null},"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"pivot":{"covenant_id":1,"user_id":1},"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -478,7 +478,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 19
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -487,7 +487,7 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: fugiat
+        example: dolorum
         type: string
         custom: []
       active:
@@ -501,14 +501,14 @@ endpoints:
         name: value
         description: ''
         required: false
-        example: 19
+        example: 4
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: false
-        example: 2
+        example: 18
         type: integer
         custom: []
       periodicity_type_id:
@@ -522,7 +522,7 @@ endpoints:
         name: concept_id
         description: ''
         required: false
-        example: 18
+        example: 10
         type: integer
         custom: []
     responses: []
@@ -544,7 +544,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 17
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -612,7 +612,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 5
+        example: 13
         type: integer
         custom: []
     queryParameters: []
@@ -647,7 +647,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 5
+        example: 13
         type: integer
         custom: []
     queryParameters: []
@@ -671,7 +671,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 1
+        example: 7
         type: integer
         custom: []
     queryParameters: []
@@ -739,7 +739,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 19
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -774,7 +774,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 16
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -798,7 +798,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 18
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -851,35 +851,35 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: 'y'
+        example: hjvn
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: true
-        example: ve
+        example: kikv
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: true
-        example: jad
+        example: t
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: 'Must be at least 5 characters.'
         required: true
-        example: ''
+        example: dwyak
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
-        required: false
-        example: 8
+        required: true
+        example: 14
         type: integer
         custom: []
     responses: []
@@ -901,7 +901,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 16
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -1350,7 +1350,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 19
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -1359,35 +1359,35 @@ endpoints:
         name: name
         description: 'Must not be greater than 10 characters.'
         required: false
-        example: fgmcin
+        example: yfw
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: false
-        example: s
+        example: vqb
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: false
-        example: v
+        example: fkhn
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: 'Must be at least 5 characters.'
         required: false
-        example: zmqvd
+        example: brvf
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: false
-        example: 19
+        example: 12
         type: integer
         custom: []
     responses: []
@@ -1409,7 +1409,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 7
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -1434,7 +1434,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '[{"id":1,"name":"syc","created_at":null,"updated_at":null}]'
+        content: '[{"id":1,"name":"syc","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]}]'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -1477,7 +1477,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 14
+        example: 6
         type: integer
         custom: []
     queryParameters: []
@@ -1485,7 +1485,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"name":"syc","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null}]}'
+        content: '{"id":1,"name":"syc","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -1512,7 +1512,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 9
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -1536,7 +1536,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 7
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -1604,7 +1604,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 8
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -1639,7 +1639,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 5
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -1663,7 +1663,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 3
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -1739,7 +1739,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"name":"indefinido","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null}]}'
+        content: '{"id":1,"name":"indefinido","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -1766,7 +1766,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 11
+        example: 17
         type: integer
         custom: []
     queryParameters: []
@@ -1790,7 +1790,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 9
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -1858,7 +1858,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 1
+        example: 18
         type: integer
         custom: []
     queryParameters: []
@@ -1866,7 +1866,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"name":"fijo","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null}]}'
+        content: '{"id":1,"name":"fijo","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -1893,7 +1893,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 3
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -1917,7 +1917,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 13
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -1985,7 +1985,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 20
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -1993,7 +1993,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"name":"Pereira","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null}]}'
+        content: '{"id":1,"name":"Pereira","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -2020,7 +2020,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 4
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -2044,7 +2044,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 17
+        example: 18
         type: integer
         custom: []
     queryParameters: []
@@ -2112,7 +2112,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 8
+        example: 9
         type: integer
         custom: []
     queryParameters: []
@@ -2120,7 +2120,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"name":"cedula","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null}],"provider":[]}'
+        content: '{"id":1,"name":"cedula","created_at":null,"updated_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},{"id":4,"name":"Maurucio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"165656565","admission_date":"2021-12-15","out_date":null,"base_salary":855120,"email":"asdfasdf@gmailc.p","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}}],"provider":[]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -2147,7 +2147,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 8
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -2171,7 +2171,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 14
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -2239,7 +2239,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 9
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -2274,7 +2274,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 10
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -2298,7 +2298,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 11
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -2323,7 +2323,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '[]'
+        content: '[{"id":1,"name":"fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq","value":13,"created_at":"2021-12-28T20:00:36.000000Z","updated_at":"2021-12-28T20:00:36.000000Z"}]'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -2350,15 +2350,15 @@ endpoints:
       name:
         name: name
         description: 'Must not be greater than 45 characters.'
-        required: false
-        example: fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq
+        required: true
+        example: avfsaddvwmzovaadijmvsustbsztltzbruzonvgzirxra
         type: string
         custom: []
       value:
         name: value
         description: ''
-        required: false
-        example: 13
+        required: true
+        example: 11
         type: integer
         custom: []
     responses: []
@@ -2380,429 +2380,15 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 15
+        example: 4
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 404
-        content: |-
-          {
-              "message": "No query results for model [App\\Models\\Setting] 1",
-              "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
-              "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
-              "line": 385,
-              "trace": [
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
-                      "line": 332,
-                      "function": "prepareException",
-                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php",
-                      "line": 54,
-                      "function": "render",
-                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
-                      "line": 51,
-                      "function": "render",
-                      "class": "NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 172,
-                      "function": "handleException",
-                      "class": "Illuminate\\Routing\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 127,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 103,
-                      "function": "handleRequest",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 55,
-                      "function": "handleRequestUsingNamedLimiter",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 103,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 697,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 672,
-                      "function": "runRouteWithinStack",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 636,
-                      "function": "runRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 625,
-                      "function": "dispatchToRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 167,
-                      "function": "dispatch",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 128,
-                      "function": "Illuminate\\Foundation\\Http\\{closure}",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
-                      "line": 31,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
-                      "line": 40,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
-                      "line": 27,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
-                      "line": 86,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php",
-                      "line": 52,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Fruitcake\\Cors\\HandleCors",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php",
-                      "line": 39,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Http\\Middleware\\TrustProxies",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 103,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 142,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 111,
-                      "function": "sendRequestThroughRouter",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 299,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 287,
-                      "function": "callLaravelOrLumenRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 89,
-                      "function": "makeApiCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 45,
-                      "function": "makeResponseCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 35,
-                      "function": "makeResponseCallIfConditionsPass",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 222,
-                      "function": "__invoke",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 179,
-                      "function": "iterateThroughStrategies",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 116,
-                      "function": "fetchResponses",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 117,
-                      "function": "processRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 75,
-                      "function": "extractEndpointsInfoFromLaravelApp",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 51,
-                      "function": "extractEndpointsInfoAndWriteToDisk",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php",
-                      "line": 48,
-                      "function": "get",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 36,
-                      "function": "handle",
-                      "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
-                      "line": 40,
-                      "function": "Illuminate\\Container\\{closure}",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 93,
-                      "function": "unwrapIfClosure",
-                      "class": "Illuminate\\Container\\Util",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 37,
-                      "function": "callBoundMethod",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
-                      "line": 653,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 136,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\Container",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php",
-                      "line": 298,
-                      "function": "execute",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 121,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Command\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php",
-                      "line": 1005,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php",
-                      "line": 299,
-                      "function": "doRunCommand",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php",
-                      "line": 171,
-                      "function": "doRun",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php",
-                      "line": 94,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php",
-                      "line": 129,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\syc_contable\\artisan",
-                      "line": 37,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Console\\Kernel",
-                      "type": "->"
-                  }
-              ]
-          }
+        status: 200
+        content: '{"id":1,"name":"fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq","value":13,"created_at":"2021-12-28T20:00:36.000000Z","updated_at":"2021-12-28T20:00:36.000000Z"}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -2829,7 +2415,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 12
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -2838,14 +2424,14 @@ endpoints:
         name: name
         description: 'Must be at least 3 characters.'
         required: false
-        example: r
+        example: ''
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 16
+        example: 15
         type: integer
         custom: []
     responses: []
@@ -2867,7 +2453,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 20
+        example: 15
         type: integer
         custom: []
     queryParameters: []
@@ -2935,7 +2521,7 @@ endpoints:
         name: id
         description: 'The ID of the conceptType.'
         required: true
-        example: 12
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -2970,7 +2556,7 @@ endpoints:
         name: id
         description: 'The ID of the conceptType.'
         required: true
-        example: 9
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -2994,7 +2580,7 @@ endpoints:
         name: id
         description: 'The ID of the conceptType.'
         required: true
-        example: 13
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -3047,7 +2633,7 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: c
+        example: dvhhl
         type: string
         custom: []
       calculated:
@@ -3061,7 +2647,7 @@ endpoints:
         name: concept_type_id
         description: ''
         required: true
-        example: 13
+        example: 7
         type: integer
         custom: []
     responses: []
@@ -3083,7 +2669,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 20
+        example: 7
         type: integer
         custom: []
     queryParameters: []
@@ -3118,7 +2704,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 19
+        example: 4
         type: integer
         custom: []
     queryParameters: []
@@ -3127,21 +2713,21 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: false
-        example: rw
+        example: ctca
         type: string
         custom: []
       calculated:
         name: calculated
         description: ''
         required: false
-        example: false
+        example: true
         type: boolean
         custom: []
       concept_type_id:
         name: concept_type_id
         description: ''
         required: false
-        example: 20
+        example: 9
         type: integer
         custom: []
     responses: []
@@ -3163,7 +2749,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 8
+        example: 15
         type: integer
         custom: []
     queryParameters: []
@@ -3231,7 +2817,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 14
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -3239,7 +2825,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"id":1,"days_settled":15,"period_id":1,"user_id":1,"created_at":"2021-11-23T15:05:46.000000Z","updated_at":null,"period":{"id":1,"name":"5 a 20","created_at":null,"updated_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null},"concepts":[{"id":1,"name":"dias trabajados","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":1,"created_at":"2021-12-17T18:56:24.000000Z","updated_at":"2021-12-17T18:56:24.000000Z","count":15,"unit_value":20000,"total_value":300000}},{"id":3,"name":"comisiones","calculated":1,"concept_type_id":1,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":3,"created_at":"2021-12-17T19:22:18.000000Z","updated_at":"2021-12-17T19:22:18.000000Z","count":5,"unit_value":30000,"total_value":150000}},{"id":2,"name":"faltas y tardanzas","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":2,"created_at":null,"updated_at":null,"count":3,"unit_value":20000,"total_value":20000}},{"id":4,"name":"Cuota lentes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":4,"created_at":"2021-12-24T13:51:42.000000Z","updated_at":"2021-12-24T13:51:42.000000Z","count":1,"unit_value":15990,"total_value":15990}},{"id":9,"name":"Cuota tatuajes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":9,"created_at":null,"updated_at":null,"count":1,"unit_value":13850,"total_value":13850}}]}'
+        content: '{"id":1,"days_settled":15,"period_id":1,"user_id":1,"created_at":"2021-11-23T15:05:46.000000Z","updated_at":null,"period":{"id":1,"name":"5 a 20","created_at":null,"updated_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599547","admission_date":"2021-12-17","out_date":null,"base_salary":6980,"email":"gamboa@gmail,com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"position":{"id":1,"name":"gerente","created_at":null,"updated_at":null}},"concepts":[{"id":1,"name":"dias trabajados","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":1,"created_at":"2021-12-17T18:56:24.000000Z","updated_at":"2021-12-17T18:56:24.000000Z","count":15,"unit_value":20000,"total_value":300000}},{"id":3,"name":"comisiones","calculated":1,"concept_type_id":1,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":3,"created_at":"2021-12-17T19:22:18.000000Z","updated_at":"2021-12-17T19:22:18.000000Z","count":5,"unit_value":30000,"total_value":150000}},{"id":2,"name":"faltas y tardanzas","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":2,"created_at":null,"updated_at":null,"count":3,"unit_value":20000,"total_value":20000}},{"id":4,"name":"Cuota lentes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":4,"created_at":"2021-12-24T13:51:42.000000Z","updated_at":"2021-12-24T13:51:42.000000Z","count":1,"unit_value":15990,"total_value":15990}},{"id":9,"name":"Cuota tatuajes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"pivot":{"payroll_id":1,"concept_id":9,"created_at":null,"updated_at":null,"count":1,"unit_value":13850,"total_value":13850}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -3266,7 +2852,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 12
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -3290,7 +2876,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 5
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -3368,14 +2954,14 @@ endpoints:
         name: id
         description: 'The ID of the payrollConcept.'
         required: true
-        example: non
+        example: delectus
         type: string
         custom: []
       id2:
         name: id2
         description: ''
         required: true
-        example: non
+        example: quod
         type: string
         custom: []
     queryParameters: []
@@ -3399,14 +2985,14 @@ endpoints:
         name: id
         description: 'The ID of the asignarConvenio.'
         required: true
-        example: suscipit
+        example: omnis
         type: string
         custom: []
       id2:
         name: id2
         description: ''
         required: true
-        example: aspernatur
+        example: ratione
         type: string
         custom: []
     queryParameters: []

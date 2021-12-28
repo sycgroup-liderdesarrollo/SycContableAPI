@@ -11,6 +11,7 @@ class BusinessLineController extends Controller
     public function index()
     {
         $businessLine = BusinessLine::all();
+
         return $businessLine;
     }
 

@@ -32,16 +32,16 @@ class CreateUserRequest extends FormRequest
             'email'=>'required|email|unique:users,email',
             'password'=>'required|string',
 
-            'admission_date'=>'date',
+            'admission_date'=>'required|date',
             'out_date'=>'date',
 
-            'base_salary'=>'integer',
-            'position_id'=>'integer',
-            'business_line_id' => 'integer',
-            'contract_type_id'=> 'integer',
-            'salary_type_id'=> 'integer',
-            'headquarter_id'=> 'integer',
-            'identification_type_id'=> 'integer',
+            'base_salary'=>'required|integer',
+            'position_id'=>'required|integer',
+            'business_line_id' => 'required|integer',
+            'contract_type_id'=> 'required|integer',
+            'salary_type_id'=> 'required|integer',
+            'headquarter_id'=> 'required|integer',
+            'identification_type_id'=> 'required|integer',
         ];
     }
 }

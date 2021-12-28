@@ -10,6 +10,7 @@ class BusinessLine extends Model
 {
     use HasFactory;
     protected $fillable = ['name'];
+    protected $with = ['users'];
 
     public function users()
     {
