@@ -11,30 +11,31 @@ class SettingController extends Controller
 {
     public function index()
     {
-        $setting = Setting::all();
-        return $setting;
+        $settings = Setting::all();
+        return response()->json(['status'=>true,'data'=>$settings]);
     }
 
     public function store(CreateSettingRequest $request)
     {
         $setting = Setting::create($request->all());
-        return $setting;
+        return response()->json(['status'=>true,'data'=>$setting]);
+
     }
 
     public function show(Setting $setting)
     {
-        return $setting;
+        return response()->json(['status'=>true,'data'=>$setting]);
     }
 
     public function update(UpdateSettingRequest $request, Setting $setting)
     {
         $setting->update($request->all());
-        return $setting;
+        return response()->json(['status'=>true,'data'=>$setting]);
     }
 
     public function destroy(Setting $setting)
     {
         $setting->delete();
-        return $setting;
+        return response()->json(['status'=>true,'data'=>$setting]);
     }
 }

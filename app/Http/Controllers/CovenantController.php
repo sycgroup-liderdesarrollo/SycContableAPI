@@ -12,13 +12,13 @@ class CovenantController extends Controller
 {
     public function index()
     {
-        $covenant = Covenant::all();
-        return $covenant;
+        $covenants = Covenant::all();
+        return response()->json(['status'=>true,'data'=>$covenants]);
     }
     public function store(CreateCovenantRequest $request, Covenant $covenant)
     {
         $covenant = Covenant::create($request->all());
-        return $covenant;
+        return response()->json(['status'=>true,'data'=>$covenant]);
     }
     public function show(Covenant $covenant)
     {
@@ -26,17 +26,17 @@ class CovenantController extends Controller
         $covenant->periodicityType;
         $covenant->concept;
         $covenant->users;
-        return $covenant;
+        return response()->json(['status'=>true,'data'=>$covenant]);
     }
     public function update(UpdateCovenantRequest $request, Covenant $covenant)
     {
         $covenant->update($request->all());
-        return $covenant;
+        return response()->json(['status'=>true,'data'=>$covenant]);
     }
     public function destroy(Covenant $covenant)
     {
         $covenant->delete();
-        return $covenant;
+        return response()->json(['status'=>true,'data'=>$covenant]);
     }
     public function consultCovenant(Request $request)
     {
@@ -55,6 +55,6 @@ class CovenantController extends Controller
         ->where('concept_types.id', $request->input('concept_type_id'))
         ->where('periodicity_types.id', $request->input('periodicity_type_id'))
         ->get();
-        return $covenant;
+        return response()->json(['status'=>true,'data'=>$covenant]);
     }
 }

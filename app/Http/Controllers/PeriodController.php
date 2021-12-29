@@ -10,29 +10,30 @@ class PeriodController extends Controller
 
     public function index()
     {
-        $period = Period::all();
-        return $period;
+        $periods = Period::all();
+        return response()->json(['status'=>true,'data'=>$periods]);
     }
 
     public function store(Request $request)
     {
         $period = Period::create($request->all());
-        return $period;
+        return response()->json(['status'=>true,'data'=>$period]);
     }
 
     public function show(Period $period)
     {
-        return $period;
+        return response()->json(['status'=>true,'data'=>$period]);
     }
 
     public function update(Request $request, Period $period)
     {
         $period->update($request->all());
+        return response()->json(['status'=>true,'data'=>$period]);
     }
 
     public function destroy(Period $period)
     {
         $period->delete();
-        return $period;
+        return response()->json(['status'=>true,'data'=>$period]);
     }
 }

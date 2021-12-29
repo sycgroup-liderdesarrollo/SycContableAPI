@@ -10,6 +10,7 @@ class Payroll extends Model
 {
     use HasFactory;
     protected $fillable=['days_settled', 'period_id', 'user_id'];
+    protected $with = ['period'];
 
     public function concepts()
     {

@@ -10,32 +10,32 @@ class IdentificationTypeController extends Controller
 
     public function index()
     {
-        $identificationType = identificationType::all();
-        return $identificationType;
+        $identificationTypes = identificationType::all();
+        return response()->json(['status'=>true,'data'=>$identificationTypes]);
     }
 
     public function store(Request $request)
     {
         $identificationType = identificationType::create($request->all());
-        return $identificationType;
+        return response()->json(['status'=>true,'data'=>$identificationType]);
     }
 
     public function show(identificationType $identificationType)
     {
         $identificationType->users;
         $identificationType->provider;
-        return $identificationType;
+        return response()->json(['status'=>true,'data'=>$identificationType]);
     }
 
     public function update(Request $request, identificationType $identificationType)
     {
         $identificationType->update($request->all());
-        return $identificationType;
+        return response()->json(['status'=>true,'data'=>$identificationType]);
     }
 
     public function destroy(identificationType $identificationType)
     {
         $identificationType->delete();
-        return $identificationType;
+        return response()->json(['status'=>true,'data'=>$identificationType]);
     }
 }

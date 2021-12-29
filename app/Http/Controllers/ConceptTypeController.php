@@ -10,31 +10,31 @@ class ConceptTypeController extends Controller
 
     public function index()
     {
-        $conceptType = ConceptType::all();
-        return $conceptType;
+        $conceptTypes = ConceptType::all();
+        return response()->json(['status'=>true,'data'=>$conceptTypes]);
     }
 
     public function store(Request $request)
     {
         $conceptType = ConceptType::create($request->all());
-        return $conceptType;
+        return response()->json(['status'=>true,'data'=>$conceptType]);
     }
 
     public function show(ConceptType $conceptType)
     {
         $conceptType->concept;
-        return $conceptType;
+        return response()->json(['status'=>true,'data'=>$conceptType]);
     }
 
     public function update(Request $request, ConceptType $conceptType)
     {
         $conceptType->update($request->all());
-        return $conceptType;
+        return response()->json(['status'=>true,'data'=>$conceptType]);
     }
 
     public function destroy(ConceptType $conceptType)
     {
         $conceptType->delete();
-        return $conceptType;
+        return response()->json(['status'=>true,'data'=>$conceptType]);
     }
 }

@@ -12,32 +12,36 @@ class ConceptController extends Controller
 
     public function index()
     {
-        $concept = Concept::all();
-        return $concept;
+        $concepts = Concept::all();
+        return response()->json(['status'=>true,'data'=>$concepts]);
     }
 
     public function store(CreateConceptRequest $request)
     {
         $concept = Concept::create($request->all());
-        return $concept;
+        return response()->json(['status'=>true,'data'=>$concept]);
+
     }
 
     public function show(Concept $concept)
     {
         $concept->payrolls;
         $concept->covenant;
-        return $concept;
+        return response()->json(['status'=>true,'data'=>$concept]);
+
     }
 
     public function update(UpdateConceptRequest $request, Concept $concept)
     {
         $concept->update($request->all());
-        return $concept;
+        return response()->json(['status'=>true,'data'=>$concept]);
+
     }
 
     public function destroy(Concept $concept)
     {
         $concept->delete();
-        return $concept;
+        return response()->json(['status'=>true,'data'=>$concept]);
+
     }
 }

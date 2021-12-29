@@ -11,27 +11,28 @@ class ProviderController extends Controller
 {
     public function index()
     {
-        $provider = Provider::all();
-        return $provider;
+        $providers = Provider::all();
+        return response()->json(['status'=>true,'data'=>$providers]);
     }
     public function store(CreateProviderRequest $request, Provider $provider)
     {
         $provider = Provider::create($request->all());
-        return $provider;
+        return response()->json(['status'=>true,'data'=>$provider]);
+
     }
     public function update(UpdateProviderRequest $request, Provider $provider)
     {
         $provider->update($request->all());
-        return $provider;
+        return response()->json(['status'=>true,'data'=>$provider]);
     }
     public function show(Provider $provider)
     {
         $provider->identificationType;
-        return $provider;
+        return response()->json(['status'=>true,'data'=>$provider]);
     }
     public function destroy(Provider $provider)
     {
         $provider->delete();
-        return $provider;
+        return response()->json(['status'=>true,'data'=>$provider]);
     }
 }

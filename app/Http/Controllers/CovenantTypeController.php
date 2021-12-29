@@ -10,31 +10,30 @@ class CovenantTypeController extends Controller
 
     public function index()
     {
-        $covenantType = CovenantType::all();
-        return $covenantType;
+        $covenantTypes = CovenantType::all();
+        return response()->json(['status'=>true,'data'=>$covenantTypes]);
     }
 
     public function store(Request $request)
     {
         $covenantType = CovenantType::create($request->all());
-        return $covenantType;
+        return response()->json(['status'=>true,'data'=>$covenantType]);
     }
-
     public function show(CovenantType $covenantType)
     {
         $covenantType->covenant;
-        return $covenantType;
+        return response()->json(['status'=>true,'data'=>$covenantType]);
     }
 
     public function update(Request $request, CovenantType $covenantType)
     {
         $covenantType->update($request->all());
-        return $covenantType;
+        return response()->json(['status'=>true,'data'=>$covenantType]);
     }
 
     public function destroy(CovenantType $covenantType)
     {
         $covenantType->delete();
-        return $covenantType;
+        return response()->json(['status'=>true,'data'=>$covenantType]);
     }
 }

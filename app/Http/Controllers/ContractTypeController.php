@@ -10,31 +10,31 @@ class ContractTypeController extends Controller
 
     public function index()
     {
-        $contractType = ContractType::all();
-        return $contractType;
+        $contractTypes = ContractType::all();
+        return response()->json(['status'=>true,'data'=>$contractTypes]);
     }
 
     public function store(Request $request)
     {
         $contractType = ContractType::create($request->all());
-        return $contractType;
+        return response()->json(['status'=>true,'data'=>$contractType]);
     }
 
     public function show(ContractType $contractType)
     {
         $contractType->users;
-        return $contractType;
+        return response()->json(['status'=>true,'data'=>$contractType]);
     }
 
     public function update(Request $request, ContractType $contractType)
     {
         $contractType->update($request->all());
-        return $contractType;
+        return response()->json(['status'=>true,'data'=>$contractType]);
     }
 
     public function destroy(ContractType $contractType)
     {
         $contractType->delete();
-        return $contractType;
+        return response()->json(['status'=>true,'data'=>$contractType]);
     }
 }

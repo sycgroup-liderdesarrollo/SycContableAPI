@@ -10,34 +10,33 @@ class SalaryTypeController extends Controller
 
     public function index()
     {
-        $salaryType = SalaryType::all();
-        return $salaryType;
+        $salaryTypes = SalaryType::all();
+        return response()->json(['status'=>true,'data'=>$salaryTypes]);
     }
 
 
     public function store(Request $request)
     {
         $salaryType = SalaryType::create($request->all());
-        return $salaryType;
+        return response()->json(['status'=>true,'data'=>$salaryType]);
     }
 
     public function show(SalaryType $salaryType)
     {
-        $salaryType->users;
-        return $salaryType;
+        return response()->json(['status'=>true,'data'=>$salaryType]);
     }
 
 
     public function update(Request $request, SalaryType $salaryType)
     {
         $salaryType->update($request->all());
-        return $salaryType;
+        return response()->json(['status'=>true,'data'=>$salaryType]);
     }
 
 
     public function destroy(SalaryType $salaryType)
     {
         $salaryType->delete();
-        return $salaryType;
+        return response()->json(['status'=>true,'data'=>$salaryType]);
     }
 }

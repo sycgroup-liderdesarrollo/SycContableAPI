@@ -9,31 +9,31 @@ class PeriodicityTypeController extends Controller
 {
     public function index()
     {
-        $periodicityType = PeriodicityType::all();
-        return $periodicityType;
+        $periodicityTypes = PeriodicityType::all();
+        return response()->json(['status'=>true,'data'=>$periodicityTypes]);
     }
 
     public function store(Request $request)
     {
         $periodicityType = PeriodicityType::create($request->all());
-        return $periodicityType;
+        return response()->json(['status'=>true,'data'=>$periodicityType]);
     }
 
     public function show(PeriodicityType $periodicityType)
     {
         $periodicityType->covenant;
-        return $periodicityType;
+        return response()->json(['status'=>true,'data'=>$periodicityType]);
     }
 
     public function update(Request $request, PeriodicityType $periodicityType)
     {
         $periodicityType->update($request->all());
-        return $periodicityType;
+        return response()->json(['status'=>true,'data'=>$periodicityType]);
     }
 
     public function destroy(PeriodicityType $periodicityType)
     {
         $periodicityType->delete();
-        return $periodicityType;
+        return response()->json(['status'=>true,'data'=>$periodicityType]);
     }
 }

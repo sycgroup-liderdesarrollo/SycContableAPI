@@ -14,14 +14,14 @@ class PayrollController extends Controller
 
     public function index()
     {
-        $payroll = Payroll::all();
-        return $payroll;
+        $payrolls = Payroll::all();
+        return response()->json(['status'=>true,'data'=>$payrolls]);
     }
 
     public function store(Request $request)
     {
         $payroll = Payroll::create($request->all());
-        return $payroll;
+        return response()->json(['status'=>true,'data'=>$payroll]);
     }
 
     public function show(Payroll $payroll)
@@ -29,26 +29,27 @@ class PayrollController extends Controller
         $payroll->period;
         $payroll->user;
         $payroll->concepts;
-        return $payroll;
+        return response()->json(['status'=>true,'data'=>$payroll]);
     }
 
     public function update(Request $request, Payroll $payroll)
     {
         $payroll->update($request->all());
-        return $payroll;
+        return response()->json(['status'=>true,'data'=>$payroll]);
     }
 
     public function destroy(Payroll $payroll)
     {
         $payroll->delete();
-        return $payroll;
+        return response()->json(['status'=>true,'data'=>$payroll]);
     }
     public function asignarConcepto($id, $id2, Request $request)
     {   //id para la payroll y el id2 para el concepto
         $payroll = Payroll::find($id);
 
         $payroll->concepts()->attach($id2, ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
-        return $payroll->concepts;
+        $payroll->concepts;
+        return response()->json(['status'=>true,'data'=>$payroll]);
     }
     public function PDFi($payroll)
     {
@@ -66,12 +67,11 @@ class PayrollController extends Controller
         ->where('user_id', '=', 1)
         ->whereDate('created_at', $request->input('created_at'))
         ->get();
-        return $payroll;
+        return response()->json(['status'=>true,'data'=>$payroll]);
     }
     public function consultDeduccion(Request $request)
     {
         $payroll = DB::table('payrolls')
-       //->select(DB::raw('SUM(concept_payroll.total_value) AS total'))
         ->join('concept_payroll', 'concept_payroll.payroll_id', '=', 'payrolls.id')
         ->join('concepts', 'concept_payroll.concept_id', '=', 'concepts.id')
         ->join('concept_types', 'concepts.concept_type_id', '=', 'concept_types.id')
@@ -91,7 +91,6 @@ class PayrollController extends Controller
         ->where('covenants.id', $request->input('covenants_id'))
 
         ->get();
-
-        return $payroll;
+        return response()->json(['status'=>true,'data'=>$payroll]);
     }
 }
