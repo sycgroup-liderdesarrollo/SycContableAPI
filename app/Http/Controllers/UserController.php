@@ -13,7 +13,7 @@ class UserController extends Controller
 {
     public function index()
     {
-        $users=User::all();
+        $users=User::with('position')->get();
 
         return response()->json(['status'=>true,'data'=>$users]);
     }
@@ -29,15 +29,6 @@ class UserController extends Controller
     }
     public function show(User $user)
     {
-        $user->businessLine;
-        $user->position;
-        $user->contractType;
-        $user->salaryType;
-        $user->headquarter;
-        $user->identificationType;
-        $user->covenants;
-        $user->payroll;
-
         return response()->json(['status'=>true,'data'=>$user]);
     }
     public function update(UpdateUserRequest $request, User $user)
