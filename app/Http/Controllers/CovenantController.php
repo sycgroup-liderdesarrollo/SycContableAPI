@@ -25,7 +25,6 @@ class CovenantController extends Controller
         $covenant->covenantType;
         $covenant->periodicityType;
         $covenant->concept;
-        $covenant->users;
         return response()->json(['status'=>true,'data'=>$covenant]);
     }
     public function update(UpdateCovenantRequest $request, Covenant $covenant)
@@ -38,6 +37,11 @@ class CovenantController extends Controller
         $covenant->delete();
         return response()->json(['status'=>true,'data'=>$covenant]);
     }
+    /**
+     * @queryParam covenant_id int ID de llave foranea para el convenio. Example: 1
+     * @queryParam concept_type_id ID de llave foranea para el tipo de concepto (deduccion, devengado). Example: 1
+     * @queryParam
+     */
     public function consultCovenant(Request $request)
     {
         $covenant = DB::table('covenants')

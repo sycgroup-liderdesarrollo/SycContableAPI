@@ -17,7 +17,11 @@ class PayrollController extends Controller
         $payrolls = Payroll::all();
         return response()->json(['status'=>true,'data'=>$payrolls]);
     }
-
+/**
+ * @bodyParam days_settled int required Los dias trabajados. Example: 15
+ * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
+ * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
+ */
     public function store(Request $request)
     {
         $payroll = Payroll::create($request->all());
@@ -31,7 +35,11 @@ class PayrollController extends Controller
         $payroll->concepts;
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
-
+/**
+ * @bodyParam days_settled int required Los dias trabajados. Example: 15
+ * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
+ * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
+ */
     public function update(Request $request, Payroll $payroll)
     {
         $payroll->update($request->all());
@@ -60,12 +68,17 @@ class PayrollController extends Controller
         return $pdf->stream(); //se peude usar un ->download() y stream();
     }
 
+    /**
+     * @queryParam period_id int required El id del periodo de la nomina que se va a consultar. Example: 1
+     * @queryParam user_id int required El id del usuario de la nomina. Example: 2
+     * @queryParam created_at date required La fecha con el MES de la nomina. Example: 12
+     */
     public function consultDatePeriod(Request $request)
     {
         $payroll = DB::table('payrolls')
         ->where('period_id', '=', $request->input('period_id'))
-        ->where('user_id', '=', 1)
-        ->whereDate('created_at', $request->input('created_at'))
+        ->where('user_id', '=', $request->input('user_id'))
+        ->whereMonth('created_at', '=', $request->input('created_at'))
         ->get();
         return response()->json(['status'=>true,'data'=>$payroll]);
     }

@@ -14,7 +14,9 @@ class SalaryTypeController extends Controller
         return response()->json(['status'=>true,'data'=>$salaryTypes]);
     }
 
-
+    /**
+     * @bodyParam name required El nombre del cargo. Example: Fijo
+     */
     public function store(Request $request)
     {
         $salaryType = SalaryType::create($request->all());
@@ -26,7 +28,9 @@ class SalaryTypeController extends Controller
         return response()->json(['status'=>true,'data'=>$salaryType]);
     }
 
-
+    /**
+     * @bodyParam name required El nombre del tipo de salario. Example: Fijo
+     */
     public function update(Request $request, SalaryType $salaryType)
     {
         $salaryType->update($request->all());

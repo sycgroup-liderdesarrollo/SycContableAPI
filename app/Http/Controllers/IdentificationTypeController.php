@@ -13,7 +13,9 @@ class IdentificationTypeController extends Controller
         $identificationTypes = identificationType::all();
         return response()->json(['status'=>true,'data'=>$identificationTypes]);
     }
-
+    /**
+     * @bodyParam name required El nombre del tipo de identificacion. Example: Cedula de ciudadania
+     */
     public function store(Request $request)
     {
         $identificationType = identificationType::create($request->all());
@@ -26,7 +28,9 @@ class IdentificationTypeController extends Controller
         $identificationType->provider;
         return response()->json(['status'=>true,'data'=>$identificationType]);
     }
-
+    /**
+     * @bodyParam name required El nombre del tipo de identificacion. Example: Cedula de ciudadania
+     */
     public function update(Request $request, identificationType $identificationType)
     {
         $identificationType->update($request->all());

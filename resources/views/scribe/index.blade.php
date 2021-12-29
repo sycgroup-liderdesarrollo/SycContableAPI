@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Laravel Documentation</title>
+    <title>SyC Contable API</title>
 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
 
@@ -21,8 +21,7 @@
 
     <style id="language-style">
         /* starts out as display none and is replaced with js later  */
-                    body .content .bash-example code { display: none; }
-                    body .content .javascript-example code { display: none; }
+                    body .content .PHP-example code { display: none; }
             </style>
 
     <script>
@@ -36,7 +35,7 @@
 
 </head>
 
-<body data-languages="[&quot;bash&quot;,&quot;javascript&quot;]">
+<body data-languages="[&quot;PHP&quot;]">
 
 <a href="#" id="nav-button">
     <span>
@@ -45,10 +44,10 @@
     </span>
 </a>
 <div class="tocify-wrapper">
+            <img src="https://media-exp1.licdn.com/dms/image/C560BAQFjWmGTmZL-bw/company-logo_200_200/0/1596636307248?e=2159024400&amp;v=beta&amp;t=BIz4ner1q2khkSTXb7zDhByPxqOjsb7fbkARbecpq1o" alt="logo" class="logo" style="padding-top: 10px;" width="230px"/>
     
             <div class="lang-selector">
-                                            <button type="button" class="lang-button" data-language-name="bash">bash</button>
-                                            <button type="button" class="lang-button" data-language-name="javascript">javascript</button>
+                                            <button type="button" class="lang-button" data-language-name="PHP">PHP</button>
                     </div>
     
     <div class="search">
@@ -318,7 +317,7 @@
                         <a href="#endpoints-GETapi-consultaPayroll">GET api/consultaPayroll</a>
                     </li>
                                     <li class="tocify-item level-2" data-unique="endpoints-GETapi-consultaCovenant">
-                        <a href="#endpoints-GETapi-consultaCovenant">GET api/consultaCovenant</a>
+                        <a href="#endpoints-GETapi-consultaCovenant">Consulta las deducciones por convenios, periodos, y concepto</a>
                     </li>
                                     <li class="tocify-item level-2" data-unique="endpoints-POSTapi-payrollConcept--id---id2-">
                         <a href="#endpoints-POSTapi-payrollConcept--id---id2-">POST api/payrollConcept/{id}/{id2}</a>
@@ -341,7 +340,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: December 28 2021</li>
+        <li>Last updated: December 29 2021</li>
     </ul>
 </div>
 
@@ -349,9 +348,8 @@
     <div class="dark-box"></div>
     <div class="content">
         <h1 id="introduction">Introduction</h1>
-<p>This documentation aims to provide all the information you need to work with our API.</p>
-<aside>As you scroll, you'll see code examples for working with the API in different programming languages in the dark area to the right (or as part of the content on mobile).
-You can switch the language used with the tabs at the top right (or from the nav menu at the top left on mobile).</aside>
+<p>Esta documentación tiene como objetivo proporcionar toda la información que necesita para trabajar con nuestra API.</p>
+<aside>A medida que se desplaza, verá ejemplos de código para trabajar con la API.</aside>
 <blockquote>
 <p>Base URL</p>
 </blockquote>
@@ -375,27 +373,19 @@ You can switch the language used with the tabs at the top right (or from the nav
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/user" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/user',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -410,7 +400,7 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 59
+x-ratelimit-remaining: 58
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -419,15 +409,15 @@ access-control-allow-origin: *
     &quot;status&quot;: true,
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Jhonatan&quot;,
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Mauricio&quot;,
             &quot;last_name&quot;: &quot;Gamboa&quot;,
-            &quot;second_last_name&quot;: &quot;Velandia&quot;,
-            &quot;identification_number&quot;: &quot;1232599547&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
+            &quot;second_last_name&quot;: &quot;Velandioa&quot;,
+            &quot;identification_number&quot;: &quot;21165&quot;,
+            &quot;admission_date&quot;: &quot;2021-12-29&quot;,
             &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 6980,
-            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
+            &quot;base_salary&quot;: 123213,
+            &quot;email&quot;: &quot;adsasd&quot;,
             &quot;email_verified_at&quot;: null,
             &quot;position_id&quot;: 1,
             &quot;business_line_id&quot;: 1,
@@ -437,37 +427,13 @@ access-control-allow-origin: *
             &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
             &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null,
             &quot;position&quot;: {
                 &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
+                &quot;name&quot;: &quot;Gerente&quot;,
                 &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Maurucio&quot;,
-            &quot;last_name&quot;: &quot;Velandia&quot;,
-            &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-            &quot;identification_number&quot;: &quot;165656565&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 855120,
-            &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
             }
         }
     ]
@@ -526,64 +492,36 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/user" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"vmckw\",
-    \"last_name\": \"mqpsz\",
-    \"second_last_name\": \"optio\",
-    \"identification_number\": \"et\",
-    \"email\": \"raquel49@example.com\",
-    \"password\": \"architecto\",
-    \"admission_date\": \"2021-12-28T20:03:21\",
-    \"out_date\": \"2021-12-28T20:03:21\",
-    \"base_salary\": 10,
-    \"position_id\": 14,
-    \"business_line_id\": 1,
-    \"contract_type_id\": 5,
-    \"salary_type_id\": 5,
-    \"headquarter_id\": 17,
-    \"identification_type_id\": 4
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/user',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'tlv',
+            'last_name' =&gt; 'bmkn',
+            'second_last_name' =&gt; 'voluptatum',
+            'identification_number' =&gt; 'eos',
+            'email' =&gt; 'bartoletti.bertrand@example.org',
+            'password' =&gt; 'quod',
+            'admission_date' =&gt; '2021-12-29T20:28:29',
+            'out_date' =&gt; '2021-12-29T20:28:29',
+            'base_salary' =&gt; 4,
+            'position_id' =&gt; 12,
+            'business_line_id' =&gt; 15,
+            'contract_type_id' =&gt; 5,
+            'salary_type_id' =&gt; 5,
+            'headquarter_id' =&gt; 4,
+            'identification_type_id' =&gt; 4,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "vmckw",
-    "last_name": "mqpsz",
-    "second_last_name": "optio",
-    "identification_number": "et",
-    "email": "raquel49@example.com",
-    "password": "architecto",
-    "admission_date": "2021-12-28T20:03:21",
-    "out_date": "2021-12-28T20:03:21",
-    "base_salary": 10,
-    "position_id": 14,
-    "business_line_id": 1,
-    "contract_type_id": 5,
-    "salary_type_id": 5,
-    "headquarter_id": 17,
-    "identification_type_id": 4
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -634,7 +572,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-user"
-               value="vmckw"
+               value="tlv"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -644,7 +582,7 @@ fetch(url, {
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-user"
-               value="mqpsz"
+               value="bmkn"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -654,7 +592,7 @@ fetch(url, {
                 <input type="text"
                name="second_last_name"
                data-endpoint="POSTapi-user"
-               value="optio"
+               value="voluptatum"
                data-component="body" hidden>
     <br>
 
@@ -664,7 +602,7 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-user"
-               value="et"
+               value="eos"
                data-component="body" hidden>
     <br>
 
@@ -674,7 +612,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user"
-               value="raquel49@example.com"
+               value="bartoletti.bertrand@example.org"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -684,7 +622,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user"
-               value="architecto"
+               value="quod"
                data-component="body" hidden>
     <br>
 
@@ -694,7 +632,7 @@ fetch(url, {
                 <input type="text"
                name="admission_date"
                data-endpoint="POSTapi-user"
-               value="2021-12-28T20:03:21"
+               value="2021-12-29T20:28:29"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -704,7 +642,7 @@ fetch(url, {
                 <input type="text"
                name="out_date"
                data-endpoint="POSTapi-user"
-               value="2021-12-28T20:03:21"
+               value="2021-12-29T20:28:29"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -714,7 +652,7 @@ fetch(url, {
                 <input type="number"
                name="base_salary"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -724,7 +662,7 @@ fetch(url, {
                 <input type="number"
                name="position_id"
                data-endpoint="POSTapi-user"
-               value="14"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -734,7 +672,7 @@ fetch(url, {
                 <input type="number"
                name="business_line_id"
                data-endpoint="POSTapi-user"
-               value="1"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -764,7 +702,7 @@ fetch(url, {
                 <input type="number"
                name="headquarter_id"
                data-endpoint="POSTapi-user"
-               value="17"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -792,33 +730,25 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/user/17" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/17"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/user/11',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
 <span id="example-responses-GETapi-user--id-">
             <blockquote>
-            <p>Example response (200):</p>
+            <p>Example response (404):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -827,184 +757,424 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 58
+x-ratelimit-remaining: 57
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Jhonatan&quot;,
-        &quot;last_name&quot;: &quot;Gamboa&quot;,
-        &quot;second_last_name&quot;: &quot;Velandia&quot;,
-        &quot;identification_number&quot;: &quot;1232599547&quot;,
-        &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-        &quot;out_date&quot;: null,
-        &quot;base_salary&quot;: 6980,
-        &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-        &quot;email_verified_at&quot;: null,
-        &quot;position_id&quot;: 1,
-        &quot;business_line_id&quot;: 1,
-        &quot;contract_type_id&quot;: 1,
-        &quot;salary_type_id&quot;: 1,
-        &quot;headquarter_id&quot;: 1,
-        &quot;identification_type_id&quot;: 1,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null,
-        &quot;position&quot;: {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;gerente&quot;,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\User] 1&quot;,
+    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
+    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+    &quot;line&quot;: 385,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+            &quot;line&quot;: 332,
+            &quot;function&quot;: &quot;prepareException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
-        &quot;business_line&quot;: {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;syc&quot;,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;users&quot;: [
-                {
-                    &quot;id&quot;: 1,
-                    &quot;name&quot;: &quot;Jhonatan&quot;,
-                    &quot;last_name&quot;: &quot;Gamboa&quot;,
-                    &quot;second_last_name&quot;: &quot;Velandia&quot;,
-                    &quot;identification_number&quot;: &quot;1232599547&quot;,
-                    &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-                    &quot;out_date&quot;: null,
-                    &quot;base_salary&quot;: 6980,
-                    &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-                    &quot;email_verified_at&quot;: null,
-                    &quot;position_id&quot;: 1,
-                    &quot;business_line_id&quot;: 1,
-                    &quot;contract_type_id&quot;: 1,
-                    &quot;salary_type_id&quot;: 1,
-                    &quot;headquarter_id&quot;: 1,
-                    &quot;identification_type_id&quot;: 1,
-                    &quot;created_at&quot;: null,
-                    &quot;updated_at&quot;: null,
-                    &quot;position&quot;: {
-                        &quot;id&quot;: 1,
-                        &quot;name&quot;: &quot;gerente&quot;,
-                        &quot;created_at&quot;: null,
-                        &quot;updated_at&quot;: null
-                    }
-                },
-                {
-                    &quot;id&quot;: 4,
-                    &quot;name&quot;: &quot;Maurucio&quot;,
-                    &quot;last_name&quot;: &quot;Velandia&quot;,
-                    &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-                    &quot;identification_number&quot;: &quot;165656565&quot;,
-                    &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-                    &quot;out_date&quot;: null,
-                    &quot;base_salary&quot;: 855120,
-                    &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-                    &quot;email_verified_at&quot;: null,
-                    &quot;position_id&quot;: 1,
-                    &quot;business_line_id&quot;: 1,
-                    &quot;contract_type_id&quot;: 1,
-                    &quot;salary_type_id&quot;: 1,
-                    &quot;headquarter_id&quot;: 1,
-                    &quot;identification_type_id&quot;: 1,
-                    &quot;created_at&quot;: null,
-                    &quot;updated_at&quot;: null,
-                    &quot;position&quot;: {
-                        &quot;id&quot;: 1,
-                        &quot;name&quot;: &quot;gerente&quot;,
-                        &quot;created_at&quot;: null,
-                        &quot;updated_at&quot;: null
-                    }
-                }
-            ]
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
-        &quot;contract_type&quot;: {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;indefinido&quot;,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
-        &quot;salary_type&quot;: {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;fijo&quot;,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 172,
+            &quot;function&quot;: &quot;handleException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
-        &quot;headquarter&quot;: {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Pereira&quot;,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
-        &quot;identification_type&quot;: {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;cedula&quot;,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
-        &quot;covenants&quot;: [
-            {
-                &quot;id&quot;: 2,
-                &quot;name&quot;: &quot;Tatuajes&quot;,
-                &quot;active&quot;: 1,
-                &quot;value&quot;: 20850,
-                &quot;covenant_type_id&quot;: 1,
-                &quot;periodicity_type_id&quot;: 2,
-                &quot;concept_id&quot;: 9,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null,
-                &quot;pivot&quot;: {
-                    &quot;user_id&quot;: 1,
-                    &quot;covenant_id&quot;: 2,
-                    &quot;created_at&quot;: &quot;2021-12-24T13:20:15.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2021-12-24T13:20:15.000000Z&quot;
-                }
-            },
-            {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;Lentes&quot;,
-                &quot;active&quot;: 1,
-                &quot;value&quot;: 15990,
-                &quot;covenant_type_id&quot;: 1,
-                &quot;periodicity_type_id&quot;: 1,
-                &quot;concept_id&quot;: 4,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null,
-                &quot;pivot&quot;: {
-                    &quot;user_id&quot;: 1,
-                    &quot;covenant_id&quot;: 1,
-                    &quot;created_at&quot;: &quot;2021-12-24T13:21:00.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2021-12-24T13:21:00.000000Z&quot;
-                }
-            },
-            {
-                &quot;id&quot;: 4,
-                &quot;name&quot;: &quot;Salud&quot;,
-                &quot;active&quot;: 1,
-                &quot;value&quot;: 8750,
-                &quot;covenant_type_id&quot;: 2,
-                &quot;periodicity_type_id&quot;: 2,
-                &quot;concept_id&quot;: 7,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null,
-                &quot;pivot&quot;: {
-                    &quot;user_id&quot;: 1,
-                    &quot;covenant_id&quot;: 4,
-                    &quot;created_at&quot;: &quot;2021-12-24T13:21:06.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2021-12-24T13:21:06.000000Z&quot;
-                }
-            }
-        ],
-        &quot;payroll&quot;: {
-            &quot;id&quot;: 1,
-            &quot;days_settled&quot;: 15,
-            &quot;period_id&quot;: 1,
-            &quot;user_id&quot;: 1,
-            &quot;created_at&quot;: &quot;2021-11-23T15:05:46.000000Z&quot;,
-            &quot;updated_at&quot;: null
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 697,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 672,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
+            &quot;line&quot;: 31,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
+            &quot;line&quot;: 39,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 142,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 111,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 287,
+            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 89,
+            &quot;function&quot;: &quot;makeApiCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;makeResponseCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 35,
+            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 222,
+            &quot;function&quot;: &quot;__invoke&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 179,
+            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;fetchResponses&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 117,
+            &quot;function&quot;: &quot;processRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 75,
+            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 48,
+            &quot;function&quot;: &quot;get&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 36,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;callBoundMethod&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
+            &quot;line&quot;: 653,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 136,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
+            &quot;line&quot;: 298,
+            &quot;function&quot;: &quot;execute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 121,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 1005,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;doRunCommand&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;doRun&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
+            &quot;line&quot;: 94,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
+            &quot;line&quot;: 129,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\artisan&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         }
-    }
+    ]
 }</code>
  </pre>
     </span>
@@ -1053,7 +1223,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-user--id-"
-               value="17"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -1071,64 +1241,36 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/user/12" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"wbjl\",
-    \"last_name\": \"wdaj\",
-    \"second_last_name\": \"quae\",
-    \"identification_number\": \"libero\",
-    \"email\": \"ewilliamson@example.net\",
-    \"password\": \"sint\",
-    \"admission_date\": \"2021-12-28T20:03:21\",
-    \"out_date\": \"2021-12-28T20:03:21\",
-    \"base_salary\": 2,
-    \"position_id\": 13,
-    \"business_line_id\": 13,
-    \"contract_type_id\": 12,
-    \"salary_type_id\": 4,
-    \"headquarter_id\": 17,
-    \"identification_type_id\": 13
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/12"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/user/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'ejfn',
+            'last_name' =&gt; 'gvq',
+            'second_last_name' =&gt; 'ut',
+            'identification_number' =&gt; 'et',
+            'email' =&gt; 'leuschke.isabell@example.org',
+            'password' =&gt; 'nostrum',
+            'admission_date' =&gt; '2021-12-29T20:28:29',
+            'out_date' =&gt; '2021-12-29T20:28:29',
+            'base_salary' =&gt; 2,
+            'position_id' =&gt; 2,
+            'business_line_id' =&gt; 11,
+            'contract_type_id' =&gt; 20,
+            'salary_type_id' =&gt; 20,
+            'headquarter_id' =&gt; 5,
+            'identification_type_id' =&gt; 2,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "wbjl",
-    "last_name": "wdaj",
-    "second_last_name": "quae",
-    "identification_number": "libero",
-    "email": "ewilliamson@example.net",
-    "password": "sint",
-    "admission_date": "2021-12-28T20:03:21",
-    "out_date": "2021-12-28T20:03:21",
-    "base_salary": 2,
-    "position_id": 13,
-    "business_line_id": 13,
-    "contract_type_id": 12,
-    "salary_type_id": 4,
-    "headquarter_id": 17,
-    "identification_type_id": 13
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -1183,7 +1325,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -1194,7 +1336,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-user--id-"
-               value="wbjl"
+               value="ejfn"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -1204,7 +1346,7 @@ fetch(url, {
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-user--id-"
-               value="wdaj"
+               value="gvq"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -1214,7 +1356,7 @@ fetch(url, {
                 <input type="text"
                name="second_last_name"
                data-endpoint="PUTapi-user--id-"
-               value="quae"
+               value="ut"
                data-component="body" hidden>
     <br>
 
@@ -1224,7 +1366,7 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-user--id-"
-               value="libero"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -1234,7 +1376,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-user--id-"
-               value="ewilliamson@example.net"
+               value="leuschke.isabell@example.org"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -1244,7 +1386,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-user--id-"
-               value="sint"
+               value="nostrum"
                data-component="body" hidden>
     <br>
 
@@ -1254,7 +1396,7 @@ fetch(url, {
                 <input type="text"
                name="admission_date"
                data-endpoint="PUTapi-user--id-"
-               value="2021-12-28T20:03:21"
+               value="2021-12-29T20:28:29"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1264,7 +1406,7 @@ fetch(url, {
                 <input type="text"
                name="out_date"
                data-endpoint="PUTapi-user--id-"
-               value="2021-12-28T20:03:21"
+               value="2021-12-29T20:28:29"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1284,7 +1426,7 @@ fetch(url, {
                 <input type="number"
                name="position_id"
                data-endpoint="PUTapi-user--id-"
-               value="13"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -1294,7 +1436,7 @@ fetch(url, {
                 <input type="number"
                name="business_line_id"
                data-endpoint="PUTapi-user--id-"
-               value="13"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -1304,7 +1446,7 @@ fetch(url, {
                 <input type="number"
                name="contract_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -1314,7 +1456,7 @@ fetch(url, {
                 <input type="number"
                name="salary_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="4"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -1324,7 +1466,7 @@ fetch(url, {
                 <input type="number"
                name="headquarter_id"
                data-endpoint="PUTapi-user--id-"
-               value="17"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -1334,7 +1476,7 @@ fetch(url, {
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="13"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -1352,27 +1494,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/user/16" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/16"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/user/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -1423,7 +1557,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-user--id-"
-               value="16"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -1441,27 +1575,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/covenant" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenant',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -1476,46 +1602,35 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 57
+x-ratelimit-remaining: 56
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Lentes&quot;,
-        &quot;active&quot;: 1,
-        &quot;value&quot;: 15990,
-        &quot;covenant_type_id&quot;: 1,
-        &quot;periodicity_type_id&quot;: 1,
-        &quot;concept_id&quot;: 4,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;Tatuajes&quot;,
-        &quot;active&quot;: 1,
-        &quot;value&quot;: 20850,
-        &quot;covenant_type_id&quot;: 1,
-        &quot;periodicity_type_id&quot;: 2,
-        &quot;concept_id&quot;: 9,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 4,
-        &quot;name&quot;: &quot;Salud&quot;,
-        &quot;active&quot;: 1,
-        &quot;value&quot;: 8750,
-        &quot;covenant_type_id&quot;: 2,
-        &quot;periodicity_type_id&quot;: 2,
-        &quot;concept_id&quot;: 7,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Lentes&quot;,
+            &quot;active&quot;: 1,
+            &quot;value&quot;: 1200,
+            &quot;covenant_type_id&quot;: 1,
+            &quot;periodicity_type_id&quot;: 1,
+            &quot;concept_id&quot;: 1,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null,
+            &quot;covenant_type&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;Cuota&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            }
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-covenant" hidden>
@@ -1570,46 +1685,27 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/covenant" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"est\",
-    \"active\": false,
-    \"value\": 10,
-    \"covenant_type_id\": 5,
-    \"periodicity_type_id\": 2,
-    \"concept_id\": 12
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/covenant',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'ad',
+            'active' =&gt; true,
+            'value' =&gt; 20,
+            'covenant_type_id' =&gt; 17,
+            'periodicity_type_id' =&gt; 20,
+            'concept_id' =&gt; 16,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "est",
-    "active": false,
-    "value": 10,
-    "covenant_type_id": 5,
-    "periodicity_type_id": 2,
-    "concept_id": 12
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -1660,7 +1756,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-covenant"
-               value="est"
+               value="ad"
                data-component="body" hidden>
     <br>
 
@@ -1691,7 +1787,7 @@ fetch(url, {
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-covenant"
-               value="10"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -1701,7 +1797,7 @@ fetch(url, {
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="POSTapi-covenant"
-               value="5"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -1711,7 +1807,7 @@ fetch(url, {
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="POSTapi-covenant"
-               value="2"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -1721,7 +1817,7 @@ fetch(url, {
                 <input type="number"
                name="concept_id"
                data-endpoint="POSTapi-covenant"
-               value="12"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -1739,27 +1835,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/covenant/20" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant/20"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenant/3',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -1774,73 +1862,48 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 56
+x-ratelimit-remaining: 55
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;Lentes&quot;,
-    &quot;active&quot;: 1,
-    &quot;value&quot;: 15990,
-    &quot;covenant_type_id&quot;: 1,
-    &quot;periodicity_type_id&quot;: 1,
-    &quot;concept_id&quot;: 4,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;covenant_type&quot;: {
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
         &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;cuota&quot;,
+        &quot;name&quot;: &quot;Lentes&quot;,
+        &quot;active&quot;: 1,
+        &quot;value&quot;: 1200,
+        &quot;covenant_type_id&quot;: 1,
+        &quot;periodicity_type_id&quot;: 1,
+        &quot;concept_id&quot;: 1,
         &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;periodicity_type&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Quincenal&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;concept&quot;: {
-        &quot;id&quot;: 4,
-        &quot;name&quot;: &quot;Cuota lentes&quot;,
-        &quot;calculated&quot;: 0,
-        &quot;concept_type_id&quot;: 2,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;users&quot;: [
-        {
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;covenant_type&quot;: {
             &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Jhonatan&quot;,
-            &quot;last_name&quot;: &quot;Gamboa&quot;,
-            &quot;second_last_name&quot;: &quot;Velandia&quot;,
-            &quot;identification_number&quot;: &quot;1232599547&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 6980,
-            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
+            &quot;name&quot;: &quot;Cuota&quot;,
             &quot;created_at&quot;: null,
             &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;covenant_id&quot;: 1,
-                &quot;user_id&quot;: 1
-            },
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
+            &quot;deleted_at&quot;: null
+        },
+        &quot;periodicity_type&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Quincenal&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        &quot;concept&quot;: {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Cuota Lentes&quot;,
+            &quot;calculated&quot;: 0,
+            &quot;concept_type_id&quot;: 2,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
         }
-    ]
+    }
 }</code>
  </pre>
     </span>
@@ -1889,7 +1952,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenant--id-"
-               value="20"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -1907,46 +1970,27 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/covenant/3" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"dolorum\",
-    \"active\": false,
-    \"value\": 4,
-    \"covenant_type_id\": 18,
-    \"periodicity_type_id\": 9,
-    \"concept_id\": 10
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant/3"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/covenant/12',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'ad',
+            'active' =&gt; true,
+            'value' =&gt; 6,
+            'covenant_type_id' =&gt; 20,
+            'periodicity_type_id' =&gt; 9,
+            'concept_id' =&gt; 17,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "dolorum",
-    "active": false,
-    "value": 4,
-    "covenant_type_id": 18,
-    "periodicity_type_id": 9,
-    "concept_id": 10
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2001,7 +2045,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenant--id-"
-               value="3"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -2012,7 +2056,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-covenant--id-"
-               value="dolorum"
+               value="ad"
                data-component="body" hidden>
     <br>
 
@@ -2043,7 +2087,7 @@ fetch(url, {
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-covenant--id-"
-               value="4"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -2053,7 +2097,7 @@ fetch(url, {
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="18"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -2073,7 +2117,7 @@ fetch(url, {
                 <input type="number"
                name="concept_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="10"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -2091,27 +2135,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/covenant/10" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenant/10"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/covenant/10',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2180,27 +2216,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/covenantType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenantType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2215,25 +2243,30 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 55
+x-ratelimit-remaining: 54
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;cuota&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;permanente&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Cuota&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Permanente&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-covenantType" hidden>
@@ -2288,27 +2321,19 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/covenantType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/covenantType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2366,27 +2391,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/covenantType/13" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType/13"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenantType/19',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2401,40 +2418,41 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 54
+x-ratelimit-remaining: 53
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;cuota&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;covenant&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Lentes&quot;,
-            &quot;active&quot;: 1,
-            &quot;value&quot;: 15990,
-            &quot;covenant_type_id&quot;: 1,
-            &quot;periodicity_type_id&quot;: 1,
-            &quot;concept_id&quot;: 4,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Tatuajes&quot;,
-            &quot;active&quot;: 1,
-            &quot;value&quot;: 20850,
-            &quot;covenant_type_id&quot;: 1,
-            &quot;periodicity_type_id&quot;: 2,
-            &quot;concept_id&quot;: 9,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        }
-    ]
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Cuota&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;covenant&quot;: [
+            {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;Lentes&quot;,
+                &quot;active&quot;: 1,
+                &quot;value&quot;: 1200,
+                &quot;covenant_type_id&quot;: 1,
+                &quot;periodicity_type_id&quot;: 1,
+                &quot;concept_id&quot;: 1,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null,
+                &quot;covenant_type&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Cuota&quot;,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null
+                }
+            }
+        ]
+    }
 }</code>
  </pre>
     </span>
@@ -2483,7 +2501,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenantType--id-"
-               value="13"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -2501,27 +2519,19 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/covenantType/13" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType/13"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/covenantType/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2576,7 +2586,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenantType--id-"
-               value="13"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -2594,27 +2604,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/covenantType/7" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/covenantType/7"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/covenantType/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2665,7 +2667,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenantType--id-"
-               value="7"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -2683,27 +2685,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/periodicityType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/periodicityType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2718,25 +2712,30 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 53
+x-ratelimit-remaining: 52
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Quincenal&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;Mensual&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Quincenal&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Mensual&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-periodicityType" hidden>
@@ -2791,27 +2790,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/periodicityType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/periodicityType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'ipsa',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2856,7 +2850,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/periodicityType</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-periodicityType"
+               value="ipsa"
+               data-component="body" hidden>
+    <br>
+<p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-periodicityType--id-">GET api/periodicityType/{id}</h2>
 
@@ -2869,27 +2874,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/periodicityType/3" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType/3"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/periodicityType/8',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -2904,29 +2901,41 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 52
+x-ratelimit-remaining: 51
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;Quincenal&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;covenant&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Lentes&quot;,
-            &quot;active&quot;: 1,
-            &quot;value&quot;: 15990,
-            &quot;covenant_type_id&quot;: 1,
-            &quot;periodicity_type_id&quot;: 1,
-            &quot;concept_id&quot;: 4,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        }
-    ]
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Quincenal&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;covenant&quot;: [
+            {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;Lentes&quot;,
+                &quot;active&quot;: 1,
+                &quot;value&quot;: 1200,
+                &quot;covenant_type_id&quot;: 1,
+                &quot;periodicity_type_id&quot;: 1,
+                &quot;concept_id&quot;: 1,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null,
+                &quot;covenant_type&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Cuota&quot;,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null
+                }
+            }
+        ]
+    }
 }</code>
  </pre>
     </span>
@@ -2975,7 +2984,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-periodicityType--id-"
-               value="3"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -2993,27 +3002,19 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/periodicityType/5" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType/5"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/periodicityType/15',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -3068,7 +3069,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="5"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -3086,27 +3087,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/periodicityType/16" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/periodicityType/16"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/periodicityType/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -3157,7 +3150,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-periodicityType--id-"
-               value="16"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -3175,27 +3168,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/provider" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/provider',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -3210,12 +3195,15 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 51
+x-ratelimit-remaining: 50
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: []
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-provider" hidden>
@@ -3270,44 +3258,26 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/provider" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"hjvn\",
-    \"address\": \"kikv\",
-    \"phone\": \"t\",
-    \"identification_number\": \"dwyak\",
-    \"identification_type_id\": 14
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/provider',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; '',
+            'address' =&gt; 'hzbhg',
+            'phone' =&gt; '',
+            'identification_number' =&gt; 'eqgsk',
+            'identification_type_id' =&gt; 18,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "hjvn",
-    "address": "kikv",
-    "phone": "t",
-    "identification_number": "dwyak",
-    "identification_type_id": 14
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -3358,7 +3328,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-provider"
-               value="hjvn"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3368,7 +3338,7 @@ fetch(url, {
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-provider"
-               value="kikv"
+               value="hzbhg"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3378,7 +3348,7 @@ fetch(url, {
                 <input type="text"
                name="phone"
                data-endpoint="POSTapi-provider"
-               value="t"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3388,7 +3358,7 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-provider"
-               value="dwyak"
+               value="eqgsk"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -3398,7 +3368,7 @@ fetch(url, {
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-provider"
-               value="14"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -3416,27 +3386,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/provider/20" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider/20"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/provider/12',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -3451,7 +3413,7 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 50
+x-ratelimit-remaining: 49
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -3917,7 +3879,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-provider--id-"
-               value="20"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -3935,44 +3897,26 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/provider/3" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"yfw\",
-    \"address\": \"vqb\",
-    \"phone\": \"fkhn\",
-    \"identification_number\": \"brvf\",
-    \"identification_type_id\": 12
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider/3"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/provider/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'lkeh',
+            'address' =&gt; 'flioi',
+            'phone' =&gt; 'ppfwe',
+            'identification_number' =&gt; 'qzap',
+            'identification_type_id' =&gt; 7,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "yfw",
-    "address": "vqb",
-    "phone": "fkhn",
-    "identification_number": "brvf",
-    "identification_type_id": 12
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4027,7 +3971,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-provider--id-"
-               value="3"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -4038,7 +3982,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-provider--id-"
-               value="yfw"
+               value="lkeh"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 10 characters.</p>
@@ -4048,7 +3992,7 @@ fetch(url, {
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-provider--id-"
-               value="vqb"
+               value="flioi"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -4058,7 +4002,7 @@ fetch(url, {
                 <input type="text"
                name="phone"
                data-endpoint="PUTapi-provider--id-"
-               value="fkhn"
+               value="ppfwe"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -4068,7 +4012,7 @@ fetch(url, {
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-provider--id-"
-               value="brvf"
+               value="qzap"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -4078,7 +4022,7 @@ fetch(url, {
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="12"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -4096,27 +4040,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/provider/2" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/provider/2"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/provider/20',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4167,7 +4103,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-provider--id-"
-               value="2"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -4185,27 +4121,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/businessLine" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/businessLine',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4220,73 +4148,44 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 49
+x-ratelimit-remaining: 48
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;syc&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null,
-        &quot;users&quot;: [
-            {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;Jhonatan&quot;,
-                &quot;last_name&quot;: &quot;Gamboa&quot;,
-                &quot;second_last_name&quot;: &quot;Velandia&quot;,
-                &quot;identification_number&quot;: &quot;1232599547&quot;,
-                &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-                &quot;out_date&quot;: null,
-                &quot;base_salary&quot;: 6980,
-                &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-                &quot;email_verified_at&quot;: null,
-                &quot;position_id&quot;: 1,
-                &quot;business_line_id&quot;: 1,
-                &quot;contract_type_id&quot;: 1,
-                &quot;salary_type_id&quot;: 1,
-                &quot;headquarter_id&quot;: 1,
-                &quot;identification_type_id&quot;: 1,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null,
-                &quot;position&quot;: {
-                    &quot;id&quot;: 1,
-                    &quot;name&quot;: &quot;gerente&quot;,
-                    &quot;created_at&quot;: null,
-                    &quot;updated_at&quot;: null
-                }
-            },
-            {
-                &quot;id&quot;: 4,
-                &quot;name&quot;: &quot;Maurucio&quot;,
-                &quot;last_name&quot;: &quot;Velandia&quot;,
-                &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-                &quot;identification_number&quot;: &quot;165656565&quot;,
-                &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-                &quot;out_date&quot;: null,
-                &quot;base_salary&quot;: 855120,
-                &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-                &quot;email_verified_at&quot;: null,
-                &quot;position_id&quot;: 1,
-                &quot;business_line_id&quot;: 1,
-                &quot;contract_type_id&quot;: 1,
-                &quot;salary_type_id&quot;: 1,
-                &quot;headquarter_id&quot;: 1,
-                &quot;identification_type_id&quot;: 1,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null,
-                &quot;position&quot;: {
-                    &quot;id&quot;: 1,
-                    &quot;name&quot;: &quot;gerente&quot;,
-                    &quot;created_at&quot;: null,
-                    &quot;updated_at&quot;: null
-                }
-            }
-        ]
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;SyC Group&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Lefemme&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Xisfo&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;LS Building&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-businessLine" hidden>
@@ -4341,27 +4240,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/businessLine" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/businessLine',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'SyC Group',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4406,7 +4300,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/businessLine</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-businessLine"
+               value="SyC Group"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la linea de negocions.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-businessLine--id-">GET api/businessLine/{id}</h2>
 
@@ -4419,27 +4324,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/businessLine/6" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine/6"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/businessLine/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4454,70 +4351,43 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 48
+x-ratelimit-remaining: 47
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;syc&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;users&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Jhonatan&quot;,
-            &quot;last_name&quot;: &quot;Gamboa&quot;,
-            &quot;second_last_name&quot;: &quot;Velandia&quot;,
-            &quot;identification_number&quot;: &quot;1232599547&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 6980,
-            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;SyC Group&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;users&quot;: [
+            {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Mauricio&quot;,
+                &quot;last_name&quot;: &quot;Gamboa&quot;,
+                &quot;second_last_name&quot;: &quot;Velandioa&quot;,
+                &quot;identification_number&quot;: &quot;21165&quot;,
+                &quot;admission_date&quot;: &quot;2021-12-29&quot;,
+                &quot;out_date&quot;: null,
+                &quot;base_salary&quot;: 123213,
+                &quot;email&quot;: &quot;adsasd&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
                 &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
             }
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Maurucio&quot;,
-            &quot;last_name&quot;: &quot;Velandia&quot;,
-            &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-            &quot;identification_number&quot;: &quot;165656565&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 855120,
-            &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
-        }
-    ]
+        ]
+    }
 }</code>
  </pre>
     </span>
@@ -4566,7 +4436,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-businessLine--id-"
-               value="6"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -4584,27 +4454,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/businessLine/20" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine/20"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/businessLine/16',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'SyC Group',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4659,12 +4524,23 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-businessLine--id-"
-               value="20"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-businessLine--id-"
+               value="SyC Group"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la linea de negocions.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-businessLine--id-">DELETE api/businessLine/{id}</h2>
 
@@ -4677,27 +4553,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/businessLine/12" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/businessLine/12"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/businessLine/16',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4748,7 +4616,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-businessLine--id-"
-               value="12"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -4766,27 +4634,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/position" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/position',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4801,19 +4661,44 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 47
+x-ratelimit-remaining: 46
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;gerente&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Gerente&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Lider&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Auxiliar&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Aprendiz&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-position" hidden>
@@ -4868,27 +4753,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/position" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/position',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Jefe',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4933,7 +4813,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/position</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-position"
+               value="Jefe"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del cargo.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-position--id-">GET api/position/{id}</h2>
 
@@ -4946,27 +4837,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/position/11" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position/11"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/position/6',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -4981,16 +4864,20 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 46
+x-ratelimit-remaining: 45
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;gerente&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Gerente&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null
+    }
 }</code>
  </pre>
     </span>
@@ -5039,7 +4926,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-position--id-"
-               value="11"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -5057,27 +4944,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/position/8" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position/8"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/position/3',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Jefe',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5132,12 +5014,23 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-position--id-"
-               value="8"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-position--id-"
+               value="Jefe"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del cargo.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-position--id-">DELETE api/position/{id}</h2>
 
@@ -5150,27 +5043,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/position/20" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/position/20"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/position/15',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5221,7 +5106,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-position--id-"
-               value="20"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -5239,27 +5124,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/contractType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contractType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contractType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5274,25 +5151,44 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 45
+x-ratelimit-remaining: 44
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;indefinido&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;prestacion de servicio&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Indefinido&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Obra o labor&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Prestacion de servicios&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Aprendizaje&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-contractType" hidden>
@@ -5347,27 +5243,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/contractType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contractType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/contractType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Indefinido',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5412,7 +5303,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/contractType</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-contractType"
+               value="Indefinido"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del contrato.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-contractType--id-">GET api/contractType/{id}</h2>
 
@@ -5425,27 +5327,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/contractType/8" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contractType/8"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contractType/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5460,70 +5354,43 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 44
+x-ratelimit-remaining: 43
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;indefinido&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;users&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Jhonatan&quot;,
-            &quot;last_name&quot;: &quot;Gamboa&quot;,
-            &quot;second_last_name&quot;: &quot;Velandia&quot;,
-            &quot;identification_number&quot;: &quot;1232599547&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 6980,
-            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Indefinido&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;users&quot;: [
+            {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Mauricio&quot;,
+                &quot;last_name&quot;: &quot;Gamboa&quot;,
+                &quot;second_last_name&quot;: &quot;Velandioa&quot;,
+                &quot;identification_number&quot;: &quot;21165&quot;,
+                &quot;admission_date&quot;: &quot;2021-12-29&quot;,
+                &quot;out_date&quot;: null,
+                &quot;base_salary&quot;: 123213,
+                &quot;email&quot;: &quot;adsasd&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
                 &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
             }
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Maurucio&quot;,
-            &quot;last_name&quot;: &quot;Velandia&quot;,
-            &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-            &quot;identification_number&quot;: &quot;165656565&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 855120,
-            &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
-        }
-    ]
+        ]
+    }
 }</code>
  </pre>
     </span>
@@ -5572,7 +5439,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-contractType--id-"
-               value="8"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -5590,27 +5457,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/contractType/17" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contractType/17"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/contractType/17',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Indefinido',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5670,7 +5532,18 @@ fetch(url, {
     <br>
 <p>The ID of the contractType.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-contractType--id-"
+               value="Indefinido"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del contrato.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-contractType--id-">DELETE api/contractType/{id}</h2>
 
@@ -5683,27 +5556,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/contractType/20" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contractType/20"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/contractType/7',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5754,7 +5619,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contractType--id-"
-               value="20"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -5772,27 +5637,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/salaryType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/salaryType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5807,25 +5664,37 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 43
+x-ratelimit-remaining: 42
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;fijo&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;variable&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Fijo&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Variable&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Integral&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-salaryType" hidden>
@@ -5880,27 +5749,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/salaryType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/salaryType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Fijo',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5945,7 +5809,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/salaryType</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-salaryType"
+               value="Fijo"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del cargo.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-salaryType--id-">GET api/salaryType/{id}</h2>
 
@@ -5958,27 +5833,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/salaryType/18" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType/18"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/salaryType/11',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -5993,70 +5860,20 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 42
+x-ratelimit-remaining: 41
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;fijo&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;users&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Jhonatan&quot;,
-            &quot;last_name&quot;: &quot;Gamboa&quot;,
-            &quot;second_last_name&quot;: &quot;Velandia&quot;,
-            &quot;identification_number&quot;: &quot;1232599547&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 6980,
-            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Maurucio&quot;,
-            &quot;last_name&quot;: &quot;Velandia&quot;,
-            &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-            &quot;identification_number&quot;: &quot;165656565&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 855120,
-            &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
-        }
-    ]
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Fijo&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null
+    }
 }</code>
  </pre>
     </span>
@@ -6105,7 +5922,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-salaryType--id-"
-               value="18"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -6123,27 +5940,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/salaryType/2" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType/2"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/salaryType/3',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Fijo',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6198,12 +6010,23 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-salaryType--id-"
-               value="2"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-salaryType--id-"
+               value="Fijo"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del tipo de salario.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-salaryType--id-">DELETE api/salaryType/{id}</h2>
 
@@ -6216,27 +6039,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/salaryType/10" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/salaryType/10"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/salaryType/2',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6287,7 +6102,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-salaryType--id-"
-               value="10"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -6305,27 +6120,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/headQuarter" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/headQuarter',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6340,25 +6147,51 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 41
+x-ratelimit-remaining: 40
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Pereira&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;Mainzales&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Pereira&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Manizales&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Medellin&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Dosquebradas&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 5,
+            &quot;name&quot;: &quot;Bogota&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-headQuarter" hidden>
@@ -6413,27 +6246,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/headQuarter" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/headQuarter',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Pereira',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6478,7 +6306,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/headQuarter</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-headQuarter"
+               value="Pereira"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la sucursal.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-headQuarter--id-">GET api/headQuarter/{id}</h2>
 
@@ -6491,27 +6330,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/headQuarter/1" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter/1"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/headQuarter/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6526,70 +6357,43 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 40
+x-ratelimit-remaining: 39
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;Pereira&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;users&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Jhonatan&quot;,
-            &quot;last_name&quot;: &quot;Gamboa&quot;,
-            &quot;second_last_name&quot;: &quot;Velandia&quot;,
-            &quot;identification_number&quot;: &quot;1232599547&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 6980,
-            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Pereira&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;users&quot;: [
+            {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Mauricio&quot;,
+                &quot;last_name&quot;: &quot;Gamboa&quot;,
+                &quot;second_last_name&quot;: &quot;Velandioa&quot;,
+                &quot;identification_number&quot;: &quot;21165&quot;,
+                &quot;admission_date&quot;: &quot;2021-12-29&quot;,
+                &quot;out_date&quot;: null,
+                &quot;base_salary&quot;: 123213,
+                &quot;email&quot;: &quot;adsasd&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
                 &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
             }
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Maurucio&quot;,
-            &quot;last_name&quot;: &quot;Velandia&quot;,
-            &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-            &quot;identification_number&quot;: &quot;165656565&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 855120,
-            &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
-        }
-    ]
+        ]
+    }
 }</code>
  </pre>
     </span>
@@ -6638,7 +6442,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-headQuarter--id-"
-               value="1"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -6656,27 +6460,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/headQuarter/10" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter/10"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/headQuarter/2',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Pereira',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6731,12 +6530,23 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-headQuarter--id-"
-               value="10"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-headQuarter--id-"
+               value="Pereira"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la sucursal.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-headQuarter--id-">DELETE api/headQuarter/{id}</h2>
 
@@ -6749,27 +6559,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/headQuarter/18" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/headQuarter/18"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/headQuarter/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6838,27 +6640,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/identificationType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/identificationType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -6873,25 +6667,30 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 39
+x-ratelimit-remaining: 38
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;cedula&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;nit&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Cedula de ciudadania&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;NIT&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-identificationType" hidden>
@@ -6946,27 +6745,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/identificationType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/identificationType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Cedula de ciudadania',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7011,7 +6805,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/identificationType</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-identificationType"
+               value="Cedula de ciudadania"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del tipo de identificacion.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-identificationType--id-">GET api/identificationType/{id}</h2>
 
@@ -7024,27 +6829,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/identificationType/9" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType/9"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/identificationType/20',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7059,71 +6856,44 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 38
+x-ratelimit-remaining: 37
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;cedula&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;users&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Jhonatan&quot;,
-            &quot;last_name&quot;: &quot;Gamboa&quot;,
-            &quot;second_last_name&quot;: &quot;Velandia&quot;,
-            &quot;identification_number&quot;: &quot;1232599547&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 6980,
-            &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Cedula de ciudadania&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;users&quot;: [
+            {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Mauricio&quot;,
+                &quot;last_name&quot;: &quot;Gamboa&quot;,
+                &quot;second_last_name&quot;: &quot;Velandioa&quot;,
+                &quot;identification_number&quot;: &quot;21165&quot;,
+                &quot;admission_date&quot;: &quot;2021-12-29&quot;,
+                &quot;out_date&quot;: null,
+                &quot;base_salary&quot;: 123213,
+                &quot;email&quot;: &quot;adsasd&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
                 &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
             }
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Maurucio&quot;,
-            &quot;last_name&quot;: &quot;Velandia&quot;,
-            &quot;second_last_name&quot;: &quot;Gamboa&quot;,
-            &quot;identification_number&quot;: &quot;165656565&quot;,
-            &quot;admission_date&quot;: &quot;2021-12-15&quot;,
-            &quot;out_date&quot;: null,
-            &quot;base_salary&quot;: 855120,
-            &quot;email&quot;: &quot;asdfasdf@gmailc.p&quot;,
-            &quot;email_verified_at&quot;: null,
-            &quot;position_id&quot;: 1,
-            &quot;business_line_id&quot;: 1,
-            &quot;contract_type_id&quot;: 1,
-            &quot;salary_type_id&quot;: 1,
-            &quot;headquarter_id&quot;: 1,
-            &quot;identification_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;position&quot;: {
-                &quot;id&quot;: 1,
-                &quot;name&quot;: &quot;gerente&quot;,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null
-            }
-        }
-    ],
-    &quot;provider&quot;: []
+        ],
+        &quot;provider&quot;: []
+    }
 }</code>
  </pre>
     </span>
@@ -7172,7 +6942,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-identificationType--id-"
-               value="9"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -7190,27 +6960,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/identificationType/5" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType/5"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/identificationType/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Cedula de ciudadania',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7265,12 +7030,23 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-identificationType--id-"
-               value="5"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-identificationType--id-"
+               value="Cedula de ciudadania"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del tipo de identificacion.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-identificationType--id-">DELETE api/identificationType/{id}</h2>
 
@@ -7283,27 +7059,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/identificationType/19" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/identificationType/19"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/identificationType/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7354,7 +7122,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-identificationType--id-"
-               value="19"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -7372,27 +7140,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/period" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/period',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7407,25 +7167,30 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 37
+x-ratelimit-remaining: 36
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;5 a 20&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;20 a 5&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;5 a 19&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;20 a 4&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-period" hidden>
@@ -7480,27 +7245,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/period" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/period',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; '5 a 19',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7545,7 +7305,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/period</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-period"
+               value="5 a 19"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-period--id-">GET api/period/{id}</h2>
 
@@ -7558,27 +7329,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/period/19" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period/19"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/period/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7593,16 +7356,20 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 36
+x-ratelimit-remaining: 35
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;5 a 20&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;5 a 19&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null
+    }
 }</code>
  </pre>
     </span>
@@ -7651,7 +7418,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-period--id-"
-               value="19"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -7669,27 +7436,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/period/12" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period/12"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/period/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; '5 a 19',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7744,12 +7506,23 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-period--id-"
-               value="12"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-period--id-"
+               value="5 a 19"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-period--id-">DELETE api/period/{id}</h2>
 
@@ -7762,27 +7535,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/period/2" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/period/2"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/period/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7833,7 +7598,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-period--id-"
-               value="2"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -7851,27 +7616,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/setting" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/setting',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -7886,20 +7643,15 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 35
+x-ratelimit-remaining: 34
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq&quot;,
-        &quot;value&quot;: 13,
-        &quot;created_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: []
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-setting" hidden>
@@ -7954,38 +7706,23 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/setting" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"avfsaddvwmzovaadijmvsustbsztltzbruzonvgzirxra\",
-    \"value\": 11
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/setting',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'zhejpau',
+            'value' =&gt; 11,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "avfsaddvwmzovaadijmvsustbsztltzbruzonvgzirxra",
-    "value": 11
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8036,7 +7773,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-setting"
-               value="avfsaddvwmzovaadijmvsustbsztltzbruzonvgzirxra"
+               value="zhejpau"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 45 characters.</p>
@@ -8064,33 +7801,25 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/setting/4" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting/4"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/setting/7',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
 <span id="example-responses-GETapi-setting--id-">
             <blockquote>
-            <p>Example response (200):</p>
+            <p>Example response (404):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -8099,17 +7828,424 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 34
+x-ratelimit-remaining: 33
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;fhtijieqmhdqejkxkjxslvdcizkbfxzktgfurwsxwdq&quot;,
-    &quot;value&quot;: 13,
-    &quot;created_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;,
-    &quot;updated_at&quot;: &quot;2021-12-28T20:00:36.000000Z&quot;
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Setting] 1&quot;,
+    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
+    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+    &quot;line&quot;: 385,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+            &quot;line&quot;: 332,
+            &quot;function&quot;: &quot;prepareException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 172,
+            &quot;function&quot;: &quot;handleException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 697,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 672,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
+            &quot;line&quot;: 31,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
+            &quot;line&quot;: 39,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 142,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 111,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 287,
+            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 89,
+            &quot;function&quot;: &quot;makeApiCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;makeResponseCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 35,
+            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 222,
+            &quot;function&quot;: &quot;__invoke&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 179,
+            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;fetchResponses&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 117,
+            &quot;function&quot;: &quot;processRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 75,
+            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 48,
+            &quot;function&quot;: &quot;get&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 36,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;callBoundMethod&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
+            &quot;line&quot;: 653,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 136,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
+            &quot;line&quot;: 298,
+            &quot;function&quot;: &quot;execute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 121,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 1005,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;doRunCommand&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;doRun&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
+            &quot;line&quot;: 94,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
+            &quot;line&quot;: 129,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\artisan&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
 }</code>
  </pre>
     </span>
@@ -8158,7 +8294,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-setting--id-"
-               value="4"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -8176,38 +8312,23 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/setting/8" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"\",
-    \"value\": 15
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting/8"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/setting/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'dx',
+            'value' =&gt; 15,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "",
-    "value": 15
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8262,7 +8383,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-setting--id-"
-               value="8"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -8273,7 +8394,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-setting--id-"
-               value=""
+               value="dx"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -8301,27 +8422,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/setting/15" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/setting/15"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/setting/6',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8372,7 +8485,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-setting--id-"
-               value="15"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -8390,27 +8503,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/conceptType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/conceptType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8425,25 +8530,30 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 33
+x-ratelimit-remaining: 32
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;devengados&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;deducciones&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Devengado&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Deduccion&quot;,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-conceptType" hidden>
@@ -8498,27 +8608,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/conceptType" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/conceptType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Devengado',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8563,7 +8668,18 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/conceptType</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-conceptType"
+               value="Devengado"
+               data-component="body" hidden>
+    <br>
+<p>El tipo de concepto, ya viene definido.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-conceptType--id-">GET api/conceptType/{id}</h2>
 
@@ -8576,27 +8692,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/conceptType/14" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType/14"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/conceptType/12',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8611,34 +8719,40 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 32
+x-ratelimit-remaining: 31
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;devengados&quot;,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;concept&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;dias trabajados&quot;,
-            &quot;calculated&quot;: 0,
-            &quot;concept_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;comisiones&quot;,
-            &quot;calculated&quot;: 1,
-            &quot;concept_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        }
-    ]
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Devengado&quot;,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;concept&quot;: [
+            {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Salario basico&quot;,
+                &quot;calculated&quot;: 0,
+                &quot;concept_type_id&quot;: 1,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            },
+            {
+                &quot;id&quot;: 3,
+                &quot;name&quot;: &quot;Auxilio de transporte&quot;,
+                &quot;calculated&quot;: 0,
+                &quot;concept_type_id&quot;: 1,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            }
+        ]
+    }
 }</code>
  </pre>
     </span>
@@ -8687,7 +8801,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-conceptType--id-"
-               value="14"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -8705,27 +8819,22 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/conceptType/16" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType/16"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/conceptType/9',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Devengado',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8780,12 +8889,23 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-conceptType--id-"
-               value="16"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-conceptType--id-"
+               value="Devengado"
+               data-component="body" hidden>
+    <br>
+<p>El tipo de concepto, ya viene definido.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-conceptType--id-">DELETE api/conceptType/{id}</h2>
 
@@ -8798,27 +8918,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/conceptType/10" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/conceptType/10"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/conceptType/17',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8869,7 +8981,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-conceptType--id-"
-               value="10"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -8887,27 +8999,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/concept" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/concept',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -8922,61 +9026,43 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 31
+x-ratelimit-remaining: 30
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;dias trabajados&quot;,
-        &quot;calculated&quot;: 0,
-        &quot;concept_type_id&quot;: 1,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;faltas y tardanzas&quot;,
-        &quot;calculated&quot;: 0,
-        &quot;concept_type_id&quot;: 2,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 3,
-        &quot;name&quot;: &quot;comisiones&quot;,
-        &quot;calculated&quot;: 1,
-        &quot;concept_type_id&quot;: 1,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 4,
-        &quot;name&quot;: &quot;Cuota lentes&quot;,
-        &quot;calculated&quot;: 0,
-        &quot;concept_type_id&quot;: 2,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 7,
-        &quot;name&quot;: &quot;Cuota permanente salud&quot;,
-        &quot;calculated&quot;: 0,
-        &quot;concept_type_id&quot;: 2,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 9,
-        &quot;name&quot;: &quot;Cuota tatuajes&quot;,
-        &quot;calculated&quot;: 0,
-        &quot;concept_type_id&quot;: 2,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Cuota Lentes&quot;,
+            &quot;calculated&quot;: 0,
+            &quot;concept_type_id&quot;: 2,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Salario basico&quot;,
+            &quot;calculated&quot;: 0,
+            &quot;concept_type_id&quot;: 1,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Auxilio de transporte&quot;,
+            &quot;calculated&quot;: 0,
+            &quot;concept_type_id&quot;: 1,
+            &quot;created_at&quot;: null,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-concept" hidden>
@@ -9031,40 +9117,24 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/concept" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"dvhhl\",
-    \"calculated\": false,
-    \"concept_type_id\": 7
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/concept',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'yi',
+            'calculated' =&gt; true,
+            'concept_type_id' =&gt; 10,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "dvhhl",
-    "calculated": false,
-    "concept_type_id": 7
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -9115,7 +9185,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-concept"
-               value="dvhhl"
+               value="yi"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9146,7 +9216,7 @@ fetch(url, {
                 <input type="number"
                name="concept_type_id"
                data-endpoint="POSTapi-concept"
-               value="7"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -9164,27 +9234,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/concept/7" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept/7"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/concept/15',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -9199,45 +9261,42 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 30
+x-ratelimit-remaining: 29
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;dias trabajados&quot;,
-    &quot;calculated&quot;: 0,
-    &quot;concept_type_id&quot;: 1,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
-    &quot;payrolls&quot;: [
-        {
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Cuota Lentes&quot;,
+        &quot;calculated&quot;: 0,
+        &quot;concept_type_id&quot;: 2,
+        &quot;created_at&quot;: null,
+        &quot;updated_at&quot;: null,
+        &quot;deleted_at&quot;: null,
+        &quot;payrolls&quot;: [],
+        &quot;covenant&quot;: {
             &quot;id&quot;: 1,
-            &quot;days_settled&quot;: 15,
-            &quot;period_id&quot;: 1,
-            &quot;user_id&quot;: 1,
-            &quot;created_at&quot;: &quot;2021-11-23T15:05:46.000000Z&quot;,
+            &quot;name&quot;: &quot;Lentes&quot;,
+            &quot;active&quot;: 1,
+            &quot;value&quot;: 1200,
+            &quot;covenant_type_id&quot;: 1,
+            &quot;periodicity_type_id&quot;: 1,
+            &quot;concept_id&quot;: 1,
+            &quot;created_at&quot;: null,
             &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;concept_id&quot;: 1,
-                &quot;payroll_id&quot;: 1
-            }
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;days_settled&quot;: 13,
-            &quot;period_id&quot;: 2,
-            &quot;user_id&quot;: 4,
-            &quot;created_at&quot;: &quot;2021-12-31T18:45:49.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2021-12-17T18:45:49.000000Z&quot;,
-            &quot;pivot&quot;: {
-                &quot;concept_id&quot;: 1,
-                &quot;payroll_id&quot;: 2
+            &quot;deleted_at&quot;: null,
+            &quot;covenant_type&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;Cuota&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
             }
         }
-    ],
-    &quot;covenant&quot;: null
+    }
 }</code>
  </pre>
     </span>
@@ -9286,7 +9345,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-concept--id-"
-               value="7"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -9304,40 +9363,24 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/concept/4" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json" \
-    --data "{
-    \"name\": \"ctca\",
-    \"calculated\": true,
-    \"concept_type_id\": 9
-}"
-</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept/4"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/concept/3',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'tda',
+            'calculated' =&gt; false,
+            'concept_type_id' =&gt; 20,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-let body = {
-    "name": "ctca",
-    "calculated": true,
-    "concept_type_id": 9
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-    body: JSON.stringify(body),
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -9392,7 +9435,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-concept--id-"
-               value="4"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -9403,7 +9446,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-concept--id-"
-               value="ctca"
+               value="tda"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9434,7 +9477,7 @@ fetch(url, {
                 <input type="number"
                name="concept_type_id"
                data-endpoint="PUTapi-concept--id-"
-               value="9"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -9452,27 +9495,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/concept/15" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/concept/15"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/concept/19',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -9523,7 +9558,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-concept--id-"
-               value="15"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -9541,27 +9576,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/payroll" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/payroll',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -9576,37 +9603,64 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 29
+x-ratelimit-remaining: 28
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[
-    {
-        &quot;id&quot;: 1,
-        &quot;days_settled&quot;: 15,
-        &quot;period_id&quot;: 1,
-        &quot;user_id&quot;: 1,
-        &quot;created_at&quot;: &quot;2021-11-23T15:05:46.000000Z&quot;,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;days_settled&quot;: 13,
-        &quot;period_id&quot;: 2,
-        &quot;user_id&quot;: 4,
-        &quot;created_at&quot;: &quot;2021-12-31T18:45:49.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2021-12-17T18:45:49.000000Z&quot;
-    },
-    {
-        &quot;id&quot;: 3,
-        &quot;days_settled&quot;: 12,
-        &quot;period_id&quot;: 1,
-        &quot;user_id&quot;: 4,
-        &quot;created_at&quot;: &quot;2021-11-23T10:43:50.000000Z&quot;,
-        &quot;updated_at&quot;: null
-    }
-]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;days_settled&quot;: 15,
+            &quot;period_id&quot;: 1,
+            &quot;user_id&quot;: 2,
+            &quot;created_at&quot;: &quot;2021-12-29T14:08:36.000000Z&quot;,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null,
+            &quot;period&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;5 a 19&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;days_settled&quot;: 13,
+            &quot;period_id&quot;: 2,
+            &quot;user_id&quot;: 2,
+            &quot;created_at&quot;: &quot;2021-12-29T14:12:59.000000Z&quot;,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null,
+            &quot;period&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;20 a 4&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;days_settled&quot;: 15,
+            &quot;period_id&quot;: 2,
+            &quot;user_id&quot;: 1,
+            &quot;created_at&quot;: &quot;2021-12-29T19:59:15.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2021-12-29T19:59:15.000000Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;period&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;20 a 4&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            }
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-payroll" hidden>
@@ -9661,27 +9715,24 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/payroll" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/payroll',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'days_settled' =&gt; 15,
+            'period_id' =&gt; 1,
+            'user_id' =&gt; 2,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -9726,7 +9777,38 @@ fetch(url, {
             <small class="badge badge-black">POST</small>
             <b><code>api/payroll</code></b>
         </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>days_settled</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="days_settled"
+               data-endpoint="POSTapi-payroll"
+               value="15"
+               data-component="body" hidden>
+    <br>
+<p>Los dias trabajados.</p>
+        </p>
+                <p>
+            <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="period_id"
+               data-endpoint="POSTapi-payroll"
+               value="1"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.</p>
+        </p>
+                <p>
+            <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="POSTapi-payroll"
+               value="2"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del usuario.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-payroll--id-">GET api/payroll/{id}</h2>
 
@@ -9739,27 +9821,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/payroll/8" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll/8"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/payroll/16',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -9774,137 +9848,51 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 28
+x-ratelimit-remaining: 27
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 1,
-    &quot;days_settled&quot;: 15,
-    &quot;period_id&quot;: 1,
-    &quot;user_id&quot;: 1,
-    &quot;created_at&quot;: &quot;2021-11-23T15:05:46.000000Z&quot;,
-    &quot;updated_at&quot;: null,
-    &quot;period&quot;: {
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
         &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;5 a 20&quot;,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    &quot;user&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Jhonatan&quot;,
-        &quot;last_name&quot;: &quot;Gamboa&quot;,
-        &quot;second_last_name&quot;: &quot;Velandia&quot;,
-        &quot;identification_number&quot;: &quot;1232599547&quot;,
-        &quot;admission_date&quot;: &quot;2021-12-17&quot;,
-        &quot;out_date&quot;: null,
-        &quot;base_salary&quot;: 6980,
-        &quot;email&quot;: &quot;gamboa@gmail,com&quot;,
-        &quot;email_verified_at&quot;: null,
-        &quot;position_id&quot;: 1,
-        &quot;business_line_id&quot;: 1,
-        &quot;contract_type_id&quot;: 1,
-        &quot;salary_type_id&quot;: 1,
-        &quot;headquarter_id&quot;: 1,
-        &quot;identification_type_id&quot;: 1,
-        &quot;created_at&quot;: null,
+        &quot;days_settled&quot;: 15,
+        &quot;period_id&quot;: 1,
+        &quot;user_id&quot;: 2,
+        &quot;created_at&quot;: &quot;2021-12-29T14:08:36.000000Z&quot;,
         &quot;updated_at&quot;: null,
-        &quot;position&quot;: {
+        &quot;deleted_at&quot;: null,
+        &quot;period&quot;: {
             &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;gerente&quot;,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        }
-    },
-    &quot;concepts&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;dias trabajados&quot;,
-            &quot;calculated&quot;: 0,
-            &quot;concept_type_id&quot;: 1,
+            &quot;name&quot;: &quot;5 a 19&quot;,
             &quot;created_at&quot;: null,
             &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;payroll_id&quot;: 1,
-                &quot;concept_id&quot;: 1,
-                &quot;created_at&quot;: &quot;2021-12-17T18:56:24.000000Z&quot;,
-                &quot;updated_at&quot;: &quot;2021-12-17T18:56:24.000000Z&quot;,
-                &quot;count&quot;: 15,
-                &quot;unit_value&quot;: 20000,
-                &quot;total_value&quot;: 300000
-            }
+            &quot;deleted_at&quot;: null
         },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;comisiones&quot;,
-            &quot;calculated&quot;: 1,
-            &quot;concept_type_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;payroll_id&quot;: 1,
-                &quot;concept_id&quot;: 3,
-                &quot;created_at&quot;: &quot;2021-12-17T19:22:18.000000Z&quot;,
-                &quot;updated_at&quot;: &quot;2021-12-17T19:22:18.000000Z&quot;,
-                &quot;count&quot;: 5,
-                &quot;unit_value&quot;: 30000,
-                &quot;total_value&quot;: 150000
-            }
-        },
-        {
+        &quot;user&quot;: {
             &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;faltas y tardanzas&quot;,
-            &quot;calculated&quot;: 0,
-            &quot;concept_type_id&quot;: 2,
+            &quot;name&quot;: &quot;Mauricio&quot;,
+            &quot;last_name&quot;: &quot;Gamboa&quot;,
+            &quot;second_last_name&quot;: &quot;Velandioa&quot;,
+            &quot;identification_number&quot;: &quot;21165&quot;,
+            &quot;admission_date&quot;: &quot;2021-12-29&quot;,
+            &quot;out_date&quot;: null,
+            &quot;base_salary&quot;: 123213,
+            &quot;email&quot;: &quot;adsasd&quot;,
+            &quot;email_verified_at&quot;: null,
+            &quot;position_id&quot;: 1,
+            &quot;business_line_id&quot;: 1,
+            &quot;contract_type_id&quot;: 1,
+            &quot;salary_type_id&quot;: 1,
+            &quot;headquarter_id&quot;: 1,
+            &quot;identification_type_id&quot;: 1,
             &quot;created_at&quot;: null,
             &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;payroll_id&quot;: 1,
-                &quot;concept_id&quot;: 2,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null,
-                &quot;count&quot;: 3,
-                &quot;unit_value&quot;: 20000,
-                &quot;total_value&quot;: 20000
-            }
+            &quot;deleted_at&quot;: null
         },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Cuota lentes&quot;,
-            &quot;calculated&quot;: 0,
-            &quot;concept_type_id&quot;: 2,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;payroll_id&quot;: 1,
-                &quot;concept_id&quot;: 4,
-                &quot;created_at&quot;: &quot;2021-12-24T13:51:42.000000Z&quot;,
-                &quot;updated_at&quot;: &quot;2021-12-24T13:51:42.000000Z&quot;,
-                &quot;count&quot;: 1,
-                &quot;unit_value&quot;: 15990,
-                &quot;total_value&quot;: 15990
-            }
-        },
-        {
-            &quot;id&quot;: 9,
-            &quot;name&quot;: &quot;Cuota tatuajes&quot;,
-            &quot;calculated&quot;: 0,
-            &quot;concept_type_id&quot;: 2,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;payroll_id&quot;: 1,
-                &quot;concept_id&quot;: 9,
-                &quot;created_at&quot;: null,
-                &quot;updated_at&quot;: null,
-                &quot;count&quot;: 1,
-                &quot;unit_value&quot;: 13850,
-                &quot;total_value&quot;: 13850
-            }
-        }
-    ]
+        &quot;concepts&quot;: []
+    }
 }</code>
  </pre>
     </span>
@@ -9953,7 +9941,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-payroll--id-"
-               value="8"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -9971,27 +9959,24 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/payroll/19" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll/19"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/payroll/6',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'days_settled' =&gt; 15,
+            'period_id' =&gt; 1,
+            'user_id' =&gt; 2,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "PUT",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -10046,12 +10031,43 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-payroll--id-"
-               value="19"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>days_settled</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="days_settled"
+               data-endpoint="PUTapi-payroll--id-"
+               value="15"
+               data-component="body" hidden>
+    <br>
+<p>Los dias trabajados.</p>
+        </p>
+                <p>
+            <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="period_id"
+               data-endpoint="PUTapi-payroll--id-"
+               value="1"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.</p>
+        </p>
+                <p>
+            <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="PUTapi-payroll--id-"
+               value="2"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del usuario.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-DELETEapi-payroll--id-">DELETE api/payroll/{id}</h2>
 
@@ -10064,27 +10080,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/payroll/20" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payroll/20"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/payroll/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -10135,7 +10143,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-payroll--id-"
-               value="20"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -10153,27 +10161,24 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/consultaPayroll" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/consultaPayroll"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/consultaPayroll',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'period_id'=&gt; '1',
+            'user_id'=&gt; '2',
+            'created_at'=&gt; '12',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -10188,12 +10193,25 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 27
+x-ratelimit-remaining: 26
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;days_settled&quot;: 15,
+            &quot;period_id&quot;: 1,
+            &quot;user_id&quot;: 2,
+            &quot;created_at&quot;: &quot;2021-12-29 14:08:36&quot;,
+            &quot;updated_at&quot;: null,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-consultaPayroll" hidden>
@@ -10235,9 +10253,40 @@ access-control-allow-origin: *
             <small class="badge badge-green">GET</small>
             <b><code>api/consultaPayroll</code></b>
         </p>
-                    </form>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="period_id"
+               data-endpoint="GETapi-consultaPayroll"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>El id del periodo de la nomina que se va a consultar.</p>
+            </p>
+                    <p>
+                <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="GETapi-consultaPayroll"
+               value="2"
+               data-component="query" hidden>
+    <br>
+<p>El id del usuario de la nomina.</p>
+            </p>
+                    <p>
+                <b><code>created_at</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="created_at"
+               data-endpoint="GETapi-consultaPayroll"
+               value="12"
+               data-component="query" hidden>
+    <br>
+<p>date La fecha con el MES de la nomina.</p>
+            </p>
+                </form>
 
-            <h2 id="endpoints-GETapi-consultaCovenant">GET api/consultaCovenant</h2>
+            <h2 id="endpoints-GETapi-consultaCovenant">Consulta las deducciones por convenios, periodos, y concepto</h2>
 
 <p>
 </p>
@@ -10248,27 +10297,19 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/consultaCovenant" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/consultaCovenant"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/consultaCovenant',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -10283,12 +10324,15 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 26
+x-ratelimit-remaining: 25
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: []
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-consultaCovenant" hidden>
@@ -10343,27 +10387,19 @@ access-control-allow-origin: *
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/payrollConcept/delectus/quod" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/payrollConcept/delectus/quod"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/payrollConcept/est/doloremque',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -10414,7 +10450,7 @@ fetch(url, {
                 <input type="text"
                name="id"
                data-endpoint="POSTapi-payrollConcept--id---id2-"
-               value="delectus"
+               value="est"
                data-component="url" hidden>
     <br>
 <p>The ID of the payrollConcept.</p>
@@ -10424,7 +10460,7 @@ fetch(url, {
                 <input type="text"
                name="id2"
                data-endpoint="POSTapi-payrollConcept--id---id2-"
-               value="quod"
+               value="doloremque"
                data-component="url" hidden>
     <br>
 
@@ -10442,27 +10478,24 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/user/asignarConvenio/omnis/ratione" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/asignarConvenio/omnis/ratione"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/user/asignarConvenio/1/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'dues' =&gt; 9,
+            'paid_dues' =&gt; 9,
+            'value' =&gt; 9,
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "POST",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -10509,26 +10542,57 @@ fetch(url, {
         </p>
                     <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
                     <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
                name="id"
                data-endpoint="POSTapi-user-asignarConvenio--id---id2-"
-               value="omnis"
+               value="1"
                data-component="url" hidden>
     <br>
-<p>The ID of the asignarConvenio.</p>
+<p>El id del usuario.</p>
             </p>
                     <p>
-                <b><code>id2</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
+                <b><code>id2</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
                name="id2"
                data-endpoint="POSTapi-user-asignarConvenio--id---id2-"
-               value="ratione"
+               value="1"
                data-component="url" hidden>
     <br>
-
+<p>El id2 del convenio.</p>
             </p>
-                    </form>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>dues</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="dues"
+               data-endpoint="POSTapi-user-asignarConvenio--id---id2-"
+               value="9"
+               data-component="body" hidden>
+    <br>
+<p>Las deudas totales del usuario.</p>
+        </p>
+                <p>
+            <b><code>paid_dues</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="paid_dues"
+               data-endpoint="POSTapi-user-asignarConvenio--id---id2-"
+               value="9"
+               data-component="body" hidden>
+    <br>
+<p>Las deudas pagadas del usuario.</p>
+        </p>
+                <p>
+            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="value"
+               data-endpoint="POSTapi-user-asignarConvenio--id---id2-"
+               value="9"
+               data-component="body" hidden>
+    <br>
+<p>El valor de cada deuda.</p>
+        </p>
+        </form>
 
             <h2 id="endpoints-GETapi-consultDeduccion">GET api/consultDeduccion</h2>
 
@@ -10541,27 +10605,19 @@ fetch(url, {
 <blockquote>Example request:</blockquote>
 
 
-<div class="bash-example">
-    <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/consultDeduccion" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"</code></pre></div>
-
-
-<div class="javascript-example">
-    <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/consultDeduccion"
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/consultDeduccion',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
 );
-
-const headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre></div>
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
@@ -10576,12 +10632,15 @@ fetch(url, {
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 25
+x-ratelimit-remaining: 24
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
-<code class="language-json">[]</code>
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: []
+}</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-consultDeduccion" hidden>
@@ -10631,8 +10690,7 @@ access-control-allow-origin: *
     </div>
     <div class="dark-box">
                     <div class="lang-selector">
-                                                        <button type="button" class="lang-button" data-language-name="bash">bash</button>
-                                                        <button type="button" class="lang-button" data-language-name="javascript">javascript</button>
+                                                        <button type="button" class="lang-button" data-language-name="PHP">PHP</button>
                             </div>
             </div>
 </div>

@@ -13,7 +13,9 @@ class HeadquarterController extends Controller
         $headQuarters = Headquarter::all();
         return response()->json(['status'=>true,'data'=>$headQuarters]);
     }
-
+    /**
+     * @bodyParam name required El nombre de la sucursal. Example: Pereira
+     */
     public function store(Request $request)
     {
         $headQuarter = Headquarter::create($request->all());
@@ -25,7 +27,9 @@ class HeadquarterController extends Controller
         $headQuarter->users;
         return response()->json(['status'=>true,'data'=>$headQuarter]);
     }
-
+    /**
+     * @bodyParam name required El nombre de la sucursal. Example: Pereira
+     */
     public function update(Request $request, Headquarter $headQuarter)
     {
         $headQuarter->update($request->all());

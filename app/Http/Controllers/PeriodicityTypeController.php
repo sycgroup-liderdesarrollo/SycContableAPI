@@ -12,7 +12,9 @@ class PeriodicityTypeController extends Controller
         $periodicityTypes = PeriodicityType::all();
         return response()->json(['status'=>true,'data'=>$periodicityTypes]);
     }
-
+    /**
+     * @bodyParam name required El nombre, si es quincenal o mensual, ya viene definido por defecto
+     */
     public function store(Request $request)
     {
         $periodicityType = PeriodicityType::create($request->all());

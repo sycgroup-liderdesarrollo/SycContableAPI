@@ -14,7 +14,9 @@ class BusinessLineController extends Controller
 
         return response()->json(['status'=>true,'data'=> $businessLines]);
     }
-
+    /**
+     * @bodyParam name required El nombre de la linea de negocions. Example: SyC Group
+     */
     public function store(Request $request)
     {
         $businessLine=BusinessLine::create($request->all());
@@ -30,7 +32,9 @@ class BusinessLineController extends Controller
 
     }
 
-
+    /**
+     * @bodyParam name required El nombre de la linea de negocions. Example: SyC Group
+     */
     public function update(Request $request, BusinessLine $businessLine)
     {
         $businessLine->update($request->all());

@@ -13,7 +13,9 @@ class ContractTypeController extends Controller
         $contractTypes = ContractType::all();
         return response()->json(['status'=>true,'data'=>$contractTypes]);
     }
-
+    /**
+     * @bodyParam name required El nombre del contrato. Example: Indefinido
+     */
     public function store(Request $request)
     {
         $contractType = ContractType::create($request->all());
@@ -25,7 +27,9 @@ class ContractTypeController extends Controller
         $contractType->users;
         return response()->json(['status'=>true,'data'=>$contractType]);
     }
-
+    /**
+     * @bodyParam name required El nombre del contrato. Example: Indefinido
+     */
     public function update(Request $request, ContractType $contractType)
     {
         $contractType->update($request->all());

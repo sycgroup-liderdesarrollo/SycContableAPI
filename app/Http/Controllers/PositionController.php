@@ -13,7 +13,9 @@ class PositionController extends Controller
         $positions = Position::all();
         return response()->json(['status'=>true,'data'=>$positions]);
     }
-
+    /**
+     * @bodyParam name required El nombre del cargo. Example: Jefe
+     */
     public function store(Request $request)
     {
         $position = Position::create($request->all());
@@ -26,7 +28,9 @@ class PositionController extends Controller
         return response()->json(['status'=>true,'data'=>$position]);
     }
 
-
+    /**
+     * @bodyParam name required El nombre del cargo. Example: Jefe
+     */
     public function update(Request $request, Position $position)
     {
         $position->update($request->all());

@@ -9,7 +9,7 @@ return [
     /*
      * The HTML <title> for the generated documentation. If this is empty, Scribe will infer it from config('app.name').
      */
-    'title' => null,
+    'title' => "SyC Contable API",
 
     /*
      * A short description of your API. Will be included in the docs webpage, Postman collection and OpenAPI spec.
@@ -247,10 +247,10 @@ return [
      * Text to place in the "Introduction" section, right after the `description`. Markdown and HTML are supported.
      */
     'intro_text' => <<<INTRO
-This documentation aims to provide all the information you need to work with our API.
 
-<aside>As you scroll, you'll see code examples for working with the API in different programming languages in the dark area to the right (or as part of the content on mobile).
-You can switch the language used with the tabs at the top right (or from the nav menu at the top left on mobile).</aside>
+Esta documentación tiene como objetivo proporcionar toda la información que necesita para trabajar con nuestra API.
+
+<aside>A medida que se desplaza, verá ejemplos de código para trabajar con la API.</aside>
 INTRO
     ,
 
@@ -261,8 +261,7 @@ INTRO
      *
      */
     'example_languages' => [
-        'bash',
-        'javascript',
+        'PHP'
     ],
 
     /*
@@ -313,7 +312,7 @@ INTRO
      * - 'logo' => 'img/logo.png' // for `laravel` type
      *
      */
-    'logo' => false,
+    'logo' => 'https://media-exp1.licdn.com/dms/image/C560BAQFjWmGTmZL-bw/company-logo_200_200/0/1596636307248?e=2159024400&v=beta&t=BIz4ner1q2khkSTXb7zDhByPxqOjsb7fbkARbecpq1o',
 
     /*
      * If you would like the package to generate the same example values for parameters on each run,

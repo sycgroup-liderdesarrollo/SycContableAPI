@@ -41,6 +41,13 @@ class UserController extends Controller
         $user->delete();
         return $user;
     }
+    /**
+     * @urlParam id int required El id del usuario. Example: 1
+     * @urlParam id2 int required El id2 del convenio. Example: 1
+     * @bodyParam dues int required Las deudas totales del usuario. Example: 9
+     * @bodyParam paid_dues int required Las deudas pagadas del usuario. Example: 9
+     * @bodyParam value int required El valor de cada deuda. Example: 9
+     */
     public function asignarConvenio($id, $id2 , Request $request) //request para recibir dues, paid dues y values
     //$id es el id del usuario, $id2 es el id del convenio
     {

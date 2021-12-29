@@ -13,7 +13,9 @@ class PeriodController extends Controller
         $periods = Period::all();
         return response()->json(['status'=>true,'data'=>$periods]);
     }
-
+    /**
+     * @bodyParam name required El nombre de periodo que se usaria para la nomina, ya viene definido por defecto. Example: 5 a 19
+     */
     public function store(Request $request)
     {
         $period = Period::create($request->all());
@@ -24,7 +26,9 @@ class PeriodController extends Controller
     {
         return response()->json(['status'=>true,'data'=>$period]);
     }
-
+    /**
+     * @bodyParam name required El nombre de periodo que se usaria para la nomina, ya viene definido por defecto. Example: 5 a 19
+     */
     public function update(Request $request, Period $period)
     {
         $period->update($request->all());
