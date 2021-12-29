@@ -15,7 +15,8 @@ class Covenant extends Model
         'value',
         'covenant_type_id',
         'periodicity_type_id',
-        'concept_id'
+        'concept_id',
+        'deleted_at'
     ];
     protected $with = ['covenantType'];
     public function periodicityType()

@@ -10,7 +10,8 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Payroll extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $fillable=['days_settled', 'period_id', 'user_id'];
+    protected $fillable=['days_settled', 'period_id', 'user_id',
+    'deleted_at'];
     protected $with = ['period'];
 
     public function concepts()

@@ -8,7 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class ConceptType extends Model
 {
     use HasFactory;
-    protected $fillable = ['name'];
+    protected $fillable = ['name',
+    'deleted_at'];
 
     public function concept()
     {

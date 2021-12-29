@@ -14,7 +14,8 @@ class Provider extends Model
         'address',
         'phone',
         'identification_number',
-        'identification_type_id'
+        'identification_type_id',
+        'deleted_at'
     ];
     public function identificationType()
     {

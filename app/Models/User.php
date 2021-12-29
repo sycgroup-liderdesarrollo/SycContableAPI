@@ -33,7 +33,8 @@ class User extends Authenticatable
         'contract_type_id',
         'salary_type_id',
         'headquarter_id',
-        'identification_type_id'
+        'identification_type_id',
+        'deleted_at'
     ];
 
     /**

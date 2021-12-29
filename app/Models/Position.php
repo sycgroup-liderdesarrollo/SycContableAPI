@@ -9,7 +9,8 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Position extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $fillable = ['name'];
+    protected $fillable = ['name',
+    'deleted_at'];
 
     public function user()
     {
