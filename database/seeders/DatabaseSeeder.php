@@ -2,6 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Http\Controllers\IdentificationTypeController;
+use App\Models\ContractType;
+use App\Models\Position;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +16,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        $this->call([
+            PositionSeeder::class,
+            BusinessLineSeeder::class,
+            ContractTypeSeeder::class,
+            SalaryTypeSeeder::class,
+            HeadquarterSeeder::class,
+            IdentificationTypeSeeder::class,
+            ConceptTypeSeeder::class,
+            CovenantTypeSeeder::class,
+            PeriodicityTypeSeeder::class,
+            PeriodSeeder::class,
+            ConceptSeeder::class
+        ]);
     }
 }

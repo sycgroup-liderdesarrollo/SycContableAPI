@@ -48,8 +48,7 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         $user->delete();
-        return response()->json(['status'=>true,'data'=>$user]);
-
+        return $user;
     }
     public function asignarConvenio($id, $id2 , Request $request) //request para recibir dues, paid dues y values
     //$id es el id del usuario, $id2 es el id del convenio

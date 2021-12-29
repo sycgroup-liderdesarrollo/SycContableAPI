@@ -24,6 +24,8 @@ class CreateCovenantUserTable extends Migration
             $table->foreignId('covenant_id')->references('id')->on('covenants');
             //
             $table->timestamps();
+            $table->softDeletes();
+
         });
     }
 

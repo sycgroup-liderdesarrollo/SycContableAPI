@@ -24,6 +24,7 @@ class CreateConceptPayrollTable extends Migration
             $table->foreignId('payroll_id')->references('id')->on('payrolls');
             //
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

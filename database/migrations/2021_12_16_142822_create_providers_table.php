@@ -23,6 +23,8 @@ class CreateProvidersTable extends Migration
             //llave foranea
             $table->foreignId('identification_type_id')->references('id')->on('identification_types');
             $table->timestamps();
+            $table->softDeletes();
+
         });
     }
 

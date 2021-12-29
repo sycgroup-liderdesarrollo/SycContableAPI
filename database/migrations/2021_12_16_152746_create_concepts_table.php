@@ -22,6 +22,7 @@ class CreateConceptsTable extends Migration
             $table->foreignId('concept_type_id')->references('id')->on('concept_types');
             //
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
