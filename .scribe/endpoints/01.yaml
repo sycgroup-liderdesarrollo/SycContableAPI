@@ -1,10 +1,10 @@
-name: 'Business Line'
+name: Concept
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/businessLine
+    uri: api/concept
     metadata:
       title: ''
       description: ''
@@ -19,19 +19,19 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"SyC Group","created_at":null,"updated_at":null,"deleted_at":null},{"id":2,"name":"Lefemme","created_at":null,"updated_at":null,"deleted_at":null},{"id":3,"name":"Xisfo","created_at":null,"updated_at":null,"deleted_at":null},{"id":4,"name":"LS Building","created_at":null,"updated_at":null,"deleted_at":null}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Salario basico","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},{"id":2,"name":"Auxilio de transporte","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},{"id":3,"name":"Cuota de tatuajess","calculated":0,"concept_type_id":2,"created_at":"2021-12-30T15:26:38.000000Z","updated_at":"2021-12-30T16:29:02.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '49'
+          x-ratelimit-remaining: '31'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
   -
     httpMethods:
       - POST
-    uri: api/businessLine
+    uri: api/concept
     metadata:
       title: ''
       description: ''
@@ -45,17 +45,31 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre de la linea de negocions.'
-        required: false
-        example: 'SyC Group'
-        type: required
+        description: 'Must be at least 5 characters.'
+        required: true
+        example: komz
+        type: string
+        custom: []
+      calculated:
+        name: calculated
+        description: ''
+        required: true
+        example: true
+        type: boolean
+        custom: []
+      concept_type_id:
+        name: concept_type_id
+        description: ''
+        required: true
+        example: 20
+        type: integer
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - GET
-    uri: 'api/businessLine/{id}'
+    uri: 'api/concept/{id}'
     metadata:
       title: ''
       description: ''
@@ -67,9 +81,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the businessLine.'
+        description: 'The ID of the concept.'
         required: true
-        example: 9
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -77,12 +91,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"SyC Group","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":1,"name":"Jhonatan4","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599679","admission_date":"2021-12-30","out_date":"2021-12-30","base_salary":12000,"email":"gamboa@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2021-12-30T15:57:39.000000Z","updated_at":"2021-12-30T16:07:53.000000Z","deleted_at":null}]}}'
+        content: '{"status":true,"data":{"id":1,"name":"Salario basico","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"payrolls":[],"covenant":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '48'
+          x-ratelimit-remaining: '30'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -90,7 +104,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/businessLine/{id}'
+    uri: 'api/concept/{id}'
     metadata:
       title: ''
       description: ''
@@ -102,26 +116,40 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the businessLine.'
+        description: 'The ID of the concept.'
         required: true
-        example: 19
+        example: 15
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre de la linea de negocions.'
+        description: ''
         required: false
-        example: 'SyC Group'
-        type: required
+        example: natus
+        type: string
+        custom: []
+      calculated:
+        name: calculated
+        description: ''
+        required: false
+        example: false
+        type: boolean
+        custom: []
+      concept_type_id:
+        name: concept_type_id
+        description: ''
+        required: false
+        example: 7
+        type: integer
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - DELETE
-    uri: 'api/businessLine/{id}'
+    uri: 'api/concept/{id}'
     metadata:
       title: ''
       description: ''
@@ -133,9 +161,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the businessLine.'
+        description: 'The ID of the concept.'
         required: true
-        example: 20
+        example: 17
         type: integer
         custom: []
     queryParameters: []

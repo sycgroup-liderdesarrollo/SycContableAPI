@@ -6,7 +6,9 @@ use App\Http\Requests\Concept\CreateConceptRequest;
 use App\Http\Requests\Concept\UpdateConceptRequest;
 use App\Models\Concept;
 use Illuminate\Http\Request;
-
+/**
+ * @group Concept
+ */
 class ConceptController extends Controller
 {
 

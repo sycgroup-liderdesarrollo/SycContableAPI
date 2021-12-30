@@ -1,0 +1,392 @@
+name: User
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/user
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":[{"id":1,"name":"Jhonatan4","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599679","admission_date":"2021-12-30","out_date":"2021-12-30","base_salary":12000,"email":"gamboa@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2021-12-30T15:57:39.000000Z","updated_at":"2021-12-30T16:07:53.000000Z","deleted_at":null,"position":{"id":1,"name":"Gerente","created_at":null,"updated_at":null,"deleted_at":null}}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '59'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/user
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'Must be at least 5 characters.'
+        required: true
+        example: dyzre
+        type: string
+        custom: []
+      last_name:
+        name: last_name
+        description: 'Must be at least 5 characters.'
+        required: true
+        example: cqvu
+        type: string
+        custom: []
+      second_last_name:
+        name: second_last_name
+        description: ''
+        required: false
+        example: itaque
+        type: string
+        custom: []
+      identification_number:
+        name: identification_number
+        description: ''
+        required: true
+        example: vel
+        type: string
+        custom: []
+      email:
+        name: email
+        description: 'Must be a valid email address.'
+        required: true
+        example: heloise.prohaska@example.org
+        type: string
+        custom: []
+      password:
+        name: password
+        description: ''
+        required: true
+        example: ipsum
+        type: string
+        custom: []
+      admission_date:
+        name: admission_date
+        description: 'Must be a valid date.'
+        required: true
+        example: '2021-12-30T16:46:50'
+        type: string
+        custom: []
+      out_date:
+        name: out_date
+        description: 'Must be a valid date.'
+        required: false
+        example: '2021-12-30T16:46:50'
+        type: string
+        custom: []
+      base_salary:
+        name: base_salary
+        description: ''
+        required: true
+        example: 17
+        type: integer
+        custom: []
+      position_id:
+        name: position_id
+        description: ''
+        required: true
+        example: 18
+        type: integer
+        custom: []
+      business_line_id:
+        name: business_line_id
+        description: ''
+        required: true
+        example: 12
+        type: integer
+        custom: []
+      contract_type_id:
+        name: contract_type_id
+        description: ''
+        required: true
+        example: 7
+        type: integer
+        custom: []
+      salary_type_id:
+        name: salary_type_id
+        description: ''
+        required: true
+        example: 11
+        type: integer
+        custom: []
+      headquarter_id:
+        name: headquarter_id
+        description: ''
+        required: true
+        example: 14
+        type: integer
+        custom: []
+      identification_type_id:
+        name: identification_type_id
+        description: ''
+        required: true
+        example: 16
+        type: integer
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/user/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the user.'
+        required: true
+        example: 4
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":{"id":1,"name":"Jhonatan4","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599679","admission_date":"2021-12-30","out_date":"2021-12-30","base_salary":12000,"email":"gamboa@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2021-12-30T15:57:39.000000Z","updated_at":"2021-12-30T16:07:53.000000Z","deleted_at":null}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '58'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/user/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the user.'
+        required: true
+        example: 9
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/user/asignarConvenio/{id}/{id2}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'El id del usuario.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+      id2:
+        name: id2
+        description: 'El id2 del convenio.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      dues:
+        name: dues
+        description: 'Las deudas totales del usuario.'
+        required: true
+        example: 9
+        type: integer
+        custom: []
+      paid_dues:
+        name: paid_dues
+        description: 'Las deudas pagadas del usuario.'
+        required: true
+        example: 9
+        type: integer
+        custom: []
+      value:
+        name: value
+        description: 'El valor de cada deuda.'
+        required: true
+        example: 9
+        type: integer
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - PUT
+      - PATCH
+    uri: 'api/user/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the user.'
+        required: true
+        example: 4
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'Must be at least 5 characters.'
+        required: false
+        example: v
+        type: string
+        custom: []
+      last_name:
+        name: last_name
+        description: 'Must be at least 5 characters.'
+        required: false
+        example: ohd
+        type: string
+        custom: []
+      second_last_name:
+        name: second_last_name
+        description: ''
+        required: false
+        example: neque
+        type: string
+        custom: []
+      identification_number:
+        name: identification_number
+        description: ''
+        required: false
+        example: autem
+        type: string
+        custom: []
+      email:
+        name: email
+        description: 'Must be a valid email address.'
+        required: false
+        example: feil.adolphus@example.org
+        type: string
+        custom: []
+      password:
+        name: password
+        description: ''
+        required: false
+        example: aspernatur
+        type: string
+        custom: []
+      admission_date:
+        name: admission_date
+        description: 'Must be a valid date.'
+        required: false
+        example: '2021-12-30T16:46:50'
+        type: string
+        custom: []
+      out_date:
+        name: out_date
+        description: 'Must be a valid date.'
+        required: false
+        example: '2021-12-30T16:46:50'
+        type: string
+        custom: []
+      base_salary:
+        name: base_salary
+        description: ''
+        required: false
+        example: 16
+        type: integer
+        custom: []
+      position_id:
+        name: position_id
+        description: ''
+        required: false
+        example: 12
+        type: integer
+        custom: []
+      business_line_id:
+        name: business_line_id
+        description: ''
+        required: false
+        example: 8
+        type: integer
+        custom: []
+      contract_type_id:
+        name: contract_type_id
+        description: ''
+        required: false
+        example: 12
+        type: integer
+        custom: []
+      salary_type_id:
+        name: salary_type_id
+        description: ''
+        required: false
+        example: 13
+        type: integer
+        custom: []
+      headquarter_id:
+        name: headquarter_id
+        description: ''
+        required: false
+        example: 11
+        type: integer
+        custom: []
+      identification_type_id:
+        name: identification_type_id
+        description: ''
+        required: false
+        example: 17
+        type: integer
+        custom: []
+    responses: []
+    responseFields: []

@@ -8,7 +8,9 @@ use App\Http\Requests\User\UpdateUserRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-
+/**
+ * @group User
+ */
 class UserController extends Controller
 {
     public function index()

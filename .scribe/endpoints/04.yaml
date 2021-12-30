@@ -1,0 +1,262 @@
+name: Covenant
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/covenant
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":[{"id":1,"name":"Tatto2","active":1,"value":12990,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":3,"created_at":"2021-12-30T15:26:38.000000Z","updated_at":"2021-12-30T16:22:49.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null}}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '57'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/covenant
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: ''
+        required: true
+        example: dolorem
+        type: string
+        custom: []
+      active:
+        name: active
+        description: ''
+        required: false
+        example: false
+        type: boolean
+        custom: []
+      value:
+        name: value
+        description: ''
+        required: true
+        example: 20
+        type: integer
+        custom: []
+      covenant_type_id:
+        name: covenant_type_id
+        description: ''
+        required: true
+        example: 9
+        type: integer
+        custom: []
+      periodicity_type_id:
+        name: periodicity_type_id
+        description: ''
+        required: true
+        example: 3
+        type: integer
+        custom: []
+      concept_name:
+        name: concept_name
+        description: 'Es el nombre del concepto con el que se cargará en la nomina.'
+        required: false
+        example: 'Cuota de convenio por salud'
+        type: string
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/covenant/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the covenant.'
+        required: true
+        example: 6
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":{"id":1,"name":"Tatto2","active":1,"value":12990,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":3,"created_at":"2021-12-30T15:26:38.000000Z","updated_at":"2021-12-30T16:22:49.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"periodicity_type":{"id":1,"name":"Quincenal","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":3,"name":"Cuota de tatuajess","calculated":0,"concept_type_id":2,"created_at":"2021-12-30T15:26:38.000000Z","updated_at":"2021-12-30T16:29:02.000000Z","deleted_at":null}}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '56'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PUT
+      - PATCH
+    uri: 'api/covenant/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the covenant.'
+        required: true
+        example: 3
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: ''
+        required: false
+        example: voluptatem
+        type: string
+        custom: []
+      active:
+        name: active
+        description: ''
+        required: false
+        example: false
+        type: boolean
+        custom: []
+      value:
+        name: value
+        description: ''
+        required: false
+        example: 12
+        type: integer
+        custom: []
+      covenant_type_id:
+        name: covenant_type_id
+        description: ''
+        required: false
+        example: 14
+        type: integer
+        custom: []
+      periodicity_type_id:
+        name: periodicity_type_id
+        description: ''
+        required: false
+        example: 14
+        type: integer
+        custom: []
+      concept_id:
+        name: concept_id
+        description: ''
+        required: false
+        example: 17
+        type: integer
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/covenant/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the covenant.'
+        required: true
+        example: 15
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/consultaCovenant
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters:
+      covenant_id:
+        name: covenant_id
+        description: 'ID de llave foranea para el convenio.'
+        required: false
+        example: 1
+        type: integer
+        custom: []
+      concept_type_id:
+        name: concept_type_id
+        description: 'ID de llave foranea para el tipo de concepto (deduccion, devengado).'
+        required: false
+        example: 1
+        type: integer
+        custom: []
+      periodicity_type_id:
+        name: periodicity_type_id
+        description: 'ID de llave foranea para el periodo (quincenal, mensual).'
+        required: false
+        example: 1
+        type: integer
+        custom: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":[]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '26'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []

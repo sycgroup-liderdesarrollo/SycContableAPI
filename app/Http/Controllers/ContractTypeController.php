@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\ContractType;
 use Illuminate\Http\Request;
 
+/**
+ * @group Contract Type
+ */
 class ContractTypeController extends Controller
 {
 

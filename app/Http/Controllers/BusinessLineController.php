@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\BusinessLine;
 use Illuminate\Http\Request;
 
+/**
+ * @group Business Line
+ */
+
 class BusinessLineController extends Controller
 {
 

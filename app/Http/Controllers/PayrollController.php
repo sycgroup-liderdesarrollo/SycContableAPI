@@ -8,7 +8,9 @@ use PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use mysqli;
-
+/**
+ * @group Payroll
+ */
 class PayrollController extends Controller
 {
 

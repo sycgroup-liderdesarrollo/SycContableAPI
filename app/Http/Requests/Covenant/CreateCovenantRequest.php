@@ -24,12 +24,12 @@ class CreateCovenantRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'required|string|unique:covenant,name',
-            'active'=>'required|boolean',
+            'name'=>'required|string|unique:covenants,name',
+            'active'=>'boolean',
             'value'=>'required|integer',
             'covenant_type_id'=>'required|integer',
             'periodicity_type_id'=>'required|integer',
-            'concept_id'=>'integer'
+            'concept_name'=>'required|string|min:3'
         ];
     }
 }

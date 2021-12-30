@@ -23,20 +23,21 @@ class UpdateUserRequest extends FormRequest
      *
      * @return array
      */
-    public function rules(Request $request)
+    public function rules()
     {
         return [
             'name'=>'string|min:5',
             'last_name'=>'string|min:5',
             'second_last_name' => 'string',
+
             'identification_number'=>[
                 'string',
-                Rule::unique('users','identification_number')->ignore($request->user),
+                Rule::unique('users','identification_number')->ignore($this->user),
             ],
 
             'email'=>[
                 'email',
-                Rule::unique('users','email')->ignore($request->user),
+                Rule::unique('users','email')->ignore($this->user),
             ],
 
             'password'=>'string',

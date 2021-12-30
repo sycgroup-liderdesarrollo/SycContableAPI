@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\ConceptType;
 use Illuminate\Http\Request;
-
+/**
+ * @group Concept Type
+ */
 class ConceptTypeController extends Controller
 {
 

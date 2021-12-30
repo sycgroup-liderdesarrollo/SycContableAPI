@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\identificationType;
 use Illuminate\Http\Request;
-
+/**
+ * @group Identification Type
+ */
 class IdentificationTypeController extends Controller
 {
 

@@ -17,7 +17,7 @@ class CreateCovenantsTable extends Migration
             $table->id();
             //datos basicos
             $table->string('name');
-            $table->boolean('active');
+            $table->boolean('active')->default(true);
             $table->integer('value');
             //llaves foraneas
             $table->foreignId('covenant_type_id')->references('id')->on('covenant_types');

@@ -3,6 +3,7 @@
 namespace App\Http\Requests\Concept;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class UpdateConceptRequest extends FormRequest
 {
@@ -24,7 +25,10 @@ class UpdateConceptRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'name|string|min:5',
+            'name'=>[
+                'string',
+                Rule::unique('concepts','name')->ignore($this->concept)
+            ],
             'calculated'=>'boolean',
             'concept_type_id'=>'integer'
         ];

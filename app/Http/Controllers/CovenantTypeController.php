@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\CovenantType;
 use Illuminate\Http\Request;
-
+/**
+ * @group Covenant Type
+ */
 class CovenantTypeController extends Controller
 {
 

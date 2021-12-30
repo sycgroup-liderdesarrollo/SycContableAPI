@@ -6,7 +6,9 @@ use App\Http\Requests\Provider\CreateProviderRequest;
 use App\Http\Requests\Provider\UpdateProviderRequest;
 use App\Models\Provider;
 use Illuminate\Http\Request;
-
+/**
+ * @group Provider
+ */
 class ProviderController extends Controller
 {
     public function index()

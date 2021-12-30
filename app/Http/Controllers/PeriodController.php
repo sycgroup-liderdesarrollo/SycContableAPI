@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Period;
 use Illuminate\Http\Request;
-
+/**
+ * @group Period
+ */
 class PeriodController extends Controller
 {
 

@@ -4,10 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Covenant\UpdateCovenantRequest;
 use App\Http\Requests\Covenant\CreateCovenantRequest;
+use App\Models\Concept;
 use App\Models\Covenant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-
+/**
+ * @group Covenant
+ */
 class CovenantController extends Controller
 {
     public function index()
@@ -15,9 +18,14 @@ class CovenantController extends Controller
         $covenants = Covenant::all();
         return response()->json(['status'=>true,'data'=>$covenants]);
     }
+    /**
+     * @bodyParam concept_name string Es el nombre del concepto con el que se cargará en la nomina. Example: Cuota de convenio por salud
+     */
     public function store(CreateCovenantRequest $request, Covenant $covenant)
     {
         $covenant = Covenant::create($request->all());
+        $covenant->save();
+
         return response()->json(['status'=>true,'data'=>$covenant]);
     }
     public function show(Covenant $covenant)

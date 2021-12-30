@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\PeriodicityType;
 use Illuminate\Http\Request;
-
+/**
+ * @group Periodicity Type
+ */
 class PeriodicityTypeController extends Controller
 {
     public function index()

@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Headquarter;
 use Illuminate\Http\Request;
-
+/**
+ * @group Headquarter
+ */
 class HeadquarterController extends Controller
 {
 

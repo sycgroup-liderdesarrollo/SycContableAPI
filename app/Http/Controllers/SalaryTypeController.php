@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\SalaryType;
 use Illuminate\Http\Request;
-
+/**
+ * @group Salary Type
+ */
 class SalaryTypeController extends Controller
 {
 

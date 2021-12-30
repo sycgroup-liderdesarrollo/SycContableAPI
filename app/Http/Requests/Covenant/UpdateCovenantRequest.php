@@ -3,6 +3,7 @@
 namespace App\Http\Requests\Covenant;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class UpdateCovenantRequest extends FormRequest
 {
@@ -16,6 +17,7 @@ class UpdateCovenantRequest extends FormRequest
         return true;
     }
 
+    //'name'=>'unique:covenants,name|string',
     /**
      * Get the validation rules that apply to the request.
      *
@@ -24,7 +26,10 @@ class UpdateCovenantRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'unique:covenants,name|string',
+            'name'=>[
+            'string',
+                Rule::unique('covenants', 'name')->ignore($this->covenant)
+            ],
             'active'=>'boolean',
             'value'=>'integer',
             'covenant_type_id'=>'integer',
