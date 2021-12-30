@@ -26,7 +26,9 @@ class PeriodicityTypeController extends Controller
         $periodicityType->covenant;
         return response()->json(['status'=>true,'data'=>$periodicityType]);
     }
-
+    /**
+     * @bodyParam name required El nombre, si es quincenal o mensual, ya viene definido por defecto
+     */
     public function update(Request $request, PeriodicityType $periodicityType)
     {
         $periodicityType->update($request->all());

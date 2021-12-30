@@ -27,7 +27,8 @@ class DatabaseSeeder extends Seeder
             CovenantTypeSeeder::class,
             PeriodicityTypeSeeder::class,
             PeriodSeeder::class,
-            ConceptSeeder::class
+            ConceptSeeder::class,
+            SettingSeeder::class
         ]);
     }
 }

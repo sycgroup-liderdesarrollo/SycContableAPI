@@ -15,7 +15,7 @@ class SalaryTypeController extends Controller
     }
 
     /**
-     * @bodyParam name required El nombre del cargo. Example: Fijo
+     * @bodyParam name required El nombre del tipo de salario. Example: Jefe
      */
     public function store(Request $request)
     {
@@ -29,7 +29,7 @@ class SalaryTypeController extends Controller
     }
 
     /**
-     * @bodyParam name required El nombre del tipo de salario. Example: Fijo
+     * @bodyParam name required El nombre del tipo de salario. Example: Jefe
      */
     public function update(Request $request, SalaryType $salaryType)
     {

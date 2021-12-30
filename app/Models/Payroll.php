@@ -12,7 +12,7 @@ class Payroll extends Model
     use HasFactory, SoftDeletes;
     protected $fillable=['days_settled', 'period_id', 'user_id',
     'deleted_at'];
-    protected $with = ['period'];
+    protected $with = ['period','user'];
 
     public function concepts()
     {

@@ -13,7 +13,9 @@ class CovenantTypeController extends Controller
         $covenantTypes = CovenantType::all();
         return response()->json(['status'=>true,'data'=>$covenantTypes]);
     }
-
+    /**
+     * @bodyParam name string required El nombre del tipo de convenio, cuotas o permanente, ya viene definido. Example: Cuotas
+     */
     public function store(Request $request)
     {
         $covenantType = CovenantType::create($request->all());
@@ -24,7 +26,9 @@ class CovenantTypeController extends Controller
         $covenantType->covenant;
         return response()->json(['status'=>true,'data'=>$covenantType]);
     }
-
+    /**
+     * @bodyParam name string required El nombre del tipo de convenio, cuotas o permanente, ya viene definido. Example: Cuotas
+     */
     public function update(Request $request, CovenantType $covenantType)
     {
         $covenantType->update($request->all());

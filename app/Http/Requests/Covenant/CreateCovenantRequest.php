@@ -29,7 +29,7 @@ class CreateCovenantRequest extends FormRequest
             'value'=>'required|integer',
             'covenant_type_id'=>'required|integer',
             'periodicity_type_id'=>'required|integer',
-            'concept_id'=>'required|integer'
+            'concept_id'=>'integer'
         ];
     }
 }

@@ -39,8 +39,8 @@ class CovenantController extends Controller
     }
     /**
      * @queryParam covenant_id int ID de llave foranea para el convenio. Example: 1
-     * @queryParam concept_type_id ID de llave foranea para el tipo de concepto (deduccion, devengado). Example: 1
-     * @queryParam
+     * @queryParam concept_type_id int ID de llave foranea para el tipo de concepto (deduccion, devengado). Example: 1
+     * @queryParam periodicity_type_id int ID de llave foranea para el periodo (quincenal, mensual). Example: 1
      */
     public function consultCovenant(Request $request)
     {

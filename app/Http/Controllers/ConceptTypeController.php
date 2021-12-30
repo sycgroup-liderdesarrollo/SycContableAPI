@@ -14,7 +14,7 @@ class ConceptTypeController extends Controller
         return response()->json(['status'=>true,'data'=>$conceptTypes]);
     }
     /**
-     * @bodyParam name required El tipo de concepto, ya viene definido. Example: Devengado
+     * @bodyParam name required El tipo de concepto, ya viene definido (Deduccion, devengado). Example: Devengado
      */
     public function store(Request $request)
     {
@@ -28,7 +28,7 @@ class ConceptTypeController extends Controller
         return response()->json(['status'=>true,'data'=>$conceptType]);
     }
     /**
-     * @bodyParam name required El tipo de concepto, ya viene definido. Example: Devengado
+     * @bodyParam name required El tipo de concepto, ya viene definido (Deduccion, devengado). Example: Devengado
      */
     public function update(Request $request, ConceptType $conceptType)
     {

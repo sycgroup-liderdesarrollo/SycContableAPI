@@ -21,12 +21,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":2,"name":"Mauricio","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"adsasd","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"position":{"id":1,"name":"Gerente","created_at":null,"updated_at":null,"deleted_at":null}}]}'
+        content: '{"status":true,"data":[{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null,"position":{"id":1,"name":"Gerente","created_at":null,"updated_at":null,"deleted_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '58'
+          x-ratelimit-remaining: '59'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -49,105 +49,105 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: tlv
+        example: dgyt
         type: string
         custom: []
       last_name:
         name: last_name
         description: 'Must be at least 5 characters.'
         required: true
-        example: bmkn
+        example: xop
         type: string
         custom: []
       second_last_name:
         name: second_last_name
         description: ''
         required: false
-        example: voluptatum
+        example: error
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: ''
         required: true
-        example: eos
+        example: eveniet
         type: string
         custom: []
       email:
         name: email
         description: 'Must be a valid email address.'
         required: true
-        example: bartoletti.bertrand@example.org
+        example: borer.watson@example.com
         type: string
         custom: []
       password:
         name: password
         description: ''
         required: true
-        example: quod
+        example: molestiae
         type: string
         custom: []
       admission_date:
         name: admission_date
         description: 'Must be a valid date.'
         required: true
-        example: '2021-12-29T20:28:29'
+        example: '2021-12-30T14:02:25'
         type: string
         custom: []
       out_date:
         name: out_date
         description: 'Must be a valid date.'
         required: false
-        example: '2021-12-29T20:28:29'
+        example: '2021-12-30T14:02:25'
         type: string
         custom: []
       base_salary:
         name: base_salary
         description: ''
         required: true
-        example: 4
+        example: 6
         type: integer
         custom: []
       position_id:
         name: position_id
         description: ''
         required: true
-        example: 12
+        example: 8
         type: integer
         custom: []
       business_line_id:
         name: business_line_id
         description: ''
         required: true
-        example: 15
+        example: 3
         type: integer
         custom: []
       contract_type_id:
         name: contract_type_id
         description: ''
         required: true
-        example: 5
+        example: 12
         type: integer
         custom: []
       salary_type_id:
         name: salary_type_id
         description: ''
         required: true
-        example: 5
+        example: 7
         type: integer
         custom: []
       headquarter_id:
         name: headquarter_id
         description: ''
         required: true
-        example: 4
+        example: 13
         type: integer
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: true
-        example: 4
+        example: 2
         type: integer
         custom: []
     responses: []
@@ -169,7 +169,7 @@ endpoints:
         name: id
         description: 'The ID of the user.'
         required: true
-        example: 11
+        example: 17
         type: integer
         custom: []
     queryParameters: []
@@ -596,139 +596,9 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '57'
+          x-ratelimit-remaining: '58'
           access-control-allow-origin: '*'
         description: null
-    responseFields: []
-  -
-    httpMethods:
-      - PUT
-      - PATCH
-    uri: 'api/user/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the user.'
-        required: true
-        example: 1
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'Must be at least 5 characters.'
-        required: false
-        example: ejfn
-        type: string
-        custom: []
-      last_name:
-        name: last_name
-        description: 'Must be at least 5 characters.'
-        required: false
-        example: gvq
-        type: string
-        custom: []
-      second_last_name:
-        name: second_last_name
-        description: ''
-        required: false
-        example: ut
-        type: string
-        custom: []
-      identification_number:
-        name: identification_number
-        description: ''
-        required: false
-        example: et
-        type: string
-        custom: []
-      email:
-        name: email
-        description: 'Must be a valid email address.'
-        required: false
-        example: leuschke.isabell@example.org
-        type: string
-        custom: []
-      password:
-        name: password
-        description: ''
-        required: false
-        example: nostrum
-        type: string
-        custom: []
-      admission_date:
-        name: admission_date
-        description: 'Must be a valid date.'
-        required: false
-        example: '2021-12-29T20:28:29'
-        type: string
-        custom: []
-      out_date:
-        name: out_date
-        description: 'Must be a valid date.'
-        required: false
-        example: '2021-12-29T20:28:29'
-        type: string
-        custom: []
-      base_salary:
-        name: base_salary
-        description: ''
-        required: false
-        example: 2
-        type: integer
-        custom: []
-      position_id:
-        name: position_id
-        description: ''
-        required: false
-        example: 2
-        type: integer
-        custom: []
-      business_line_id:
-        name: business_line_id
-        description: ''
-        required: false
-        example: 11
-        type: integer
-        custom: []
-      contract_type_id:
-        name: contract_type_id
-        description: ''
-        required: false
-        example: 20
-        type: integer
-        custom: []
-      salary_type_id:
-        name: salary_type_id
-        description: ''
-        required: false
-        example: 20
-        type: integer
-        custom: []
-      headquarter_id:
-        name: headquarter_id
-        description: ''
-        required: false
-        example: 5
-        type: integer
-        custom: []
-      identification_type_id:
-        name: identification_type_id
-        description: ''
-        required: false
-        example: 2
-        type: integer
-        custom: []
-    responses: []
     responseFields: []
   -
     httpMethods:
@@ -747,7 +617,7 @@ endpoints:
         name: id
         description: 'The ID of the user.'
         required: true
-        example: 5
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -777,7 +647,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '56'
+          x-ratelimit-remaining: '57'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -800,42 +670,42 @@ endpoints:
         name: name
         description: ''
         required: true
-        example: ad
+        example: autem
         type: string
         custom: []
       active:
         name: active
         description: ''
         required: true
-        example: true
+        example: false
         type: boolean
         custom: []
       value:
         name: value
         description: ''
         required: true
-        example: 20
+        example: 17
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: true
-        example: 17
+        example: 2
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: true
-        example: 20
+        example: 2
         type: integer
         custom: []
       concept_id:
         name: concept_id
         description: ''
-        required: true
-        example: 16
+        required: false
+        example: 7
         type: integer
         custom: []
     responses: []
@@ -857,7 +727,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 3
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -870,7 +740,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '55'
+          x-ratelimit-remaining: '56'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -892,7 +762,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 12
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -901,7 +771,7 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: ad
+        example: harum
         type: string
         custom: []
       active:
@@ -915,21 +785,21 @@ endpoints:
         name: value
         description: ''
         required: false
-        example: 6
+        example: 3
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: false
-        example: 20
+        example: 2
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: false
-        example: 9
+        example: 16
         type: integer
         custom: []
       concept_id:
@@ -958,7 +828,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 10
+        example: 4
         type: integer
         custom: []
     queryParameters: []
@@ -988,7 +858,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '54'
+          x-ratelimit-remaining: '55'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1006,7 +876,14 @@ endpoints:
       Accept: application/json
     urlParameters: []
     queryParameters: []
-    bodyParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'El nombre del tipo de convenio, cuotas o permanente, ya viene definido.'
+        required: true
+        example: Cuotas
+        type: string
+        custom: []
     responses: []
     responseFields: []
   -
@@ -1026,7 +903,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 19
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -1039,7 +916,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '53'
+          x-ratelimit-remaining: '54'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1061,11 +938,18 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 5
+        example: 7
         type: integer
         custom: []
     queryParameters: []
-    bodyParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'El nombre del tipo de convenio, cuotas o permanente, ya viene definido.'
+        required: true
+        example: Cuotas
+        type: string
+        custom: []
     responses: []
     responseFields: []
   -
@@ -1085,7 +969,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 5
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -1115,7 +999,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '52'
+          x-ratelimit-remaining: '53'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1138,7 +1022,7 @@ endpoints:
         name: name
         description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: ipsa
+        example: natus
         type: required
         custom: []
     responses: []
@@ -1160,7 +1044,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 8
+        example: 17
         type: integer
         custom: []
     queryParameters: []
@@ -1173,7 +1057,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '51'
+          x-ratelimit-remaining: '52'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1195,11 +1079,18 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 15
+        example: 14
         type: integer
         custom: []
     queryParameters: []
-    bodyParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
+        required: false
+        example: eaque
+        type: required
+        custom: []
     responses: []
     responseFields: []
   -
@@ -1249,7 +1140,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '50'
+          x-ratelimit-remaining: '51'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1272,14 +1163,14 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: ''
+        example: wgl
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: true
-        example: hzbhg
+        example: gpau
         type: string
         custom: []
       phone:
@@ -1293,14 +1184,14 @@ endpoints:
         name: identification_number
         description: 'Must be at least 5 characters.'
         required: true
-        example: eqgsk
+        example: oqus
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: true
-        example: 18
+        example: 12
         type: integer
         custom: []
     responses: []
@@ -1322,7 +1213,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 12
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -1749,7 +1640,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '49'
+          x-ratelimit-remaining: '50'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1771,7 +1662,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 13
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -1780,35 +1671,35 @@ endpoints:
         name: name
         description: 'Must not be greater than 10 characters.'
         required: false
-        example: lkeh
+        example: fzklyuh
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: false
-        example: flioi
+        example: uose
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: false
-        example: ppfwe
+        example: ''
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: 'Must be at least 5 characters.'
         required: false
-        example: qzap
+        example: gijy
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: false
-        example: 7
+        example: 1
         type: integer
         custom: []
     responses: []
@@ -1830,7 +1721,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 20
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -1860,7 +1751,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '48'
+          x-ratelimit-remaining: '49'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1905,7 +1796,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 18
+        example: 7
         type: integer
         custom: []
     queryParameters: []
@@ -1913,12 +1804,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"SyC Group","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mauricio","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"adsasd","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null}]}}'
+        content: '{"status":true,"data":{"id":1,"name":"SyC Group","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null}]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '47'
+          x-ratelimit-remaining: '48'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -1940,7 +1831,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 16
+        example: 17
         type: integer
         custom: []
     queryParameters: []
@@ -1971,7 +1862,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 16
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -2001,7 +1892,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '46'
+          x-ratelimit-remaining: '47'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2046,7 +1937,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 6
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -2059,7 +1950,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '45'
+          x-ratelimit-remaining: '46'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2081,7 +1972,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 3
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -2112,7 +2003,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 15
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -2142,7 +2033,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '44'
+          x-ratelimit-remaining: '45'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2187,7 +2078,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 1
+        example: 15
         type: integer
         custom: []
     queryParameters: []
@@ -2195,12 +2086,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Indefinido","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mauricio","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"adsasd","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null}]}}'
+        content: '{"status":true,"data":{"id":1,"name":"Indefinido","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null}]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '43'
+          x-ratelimit-remaining: '44'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2222,7 +2113,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 17
+        example: 7
         type: integer
         custom: []
     queryParameters: []
@@ -2253,7 +2144,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 7
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -2283,7 +2174,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '42'
+          x-ratelimit-remaining: '43'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2304,9 +2195,9 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del cargo.'
+        description: 'El nombre del tipo de salario.'
         required: false
-        example: Fijo
+        example: Jefe
         type: required
         custom: []
     responses: []
@@ -2328,7 +2219,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 11
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -2341,7 +2232,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '41'
+          x-ratelimit-remaining: '42'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2372,7 +2263,7 @@ endpoints:
         name: name
         description: 'El nombre del tipo de salario.'
         required: false
-        example: Fijo
+        example: Jefe
         type: required
         custom: []
     responses: []
@@ -2394,7 +2285,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 2
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -2424,7 +2315,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '40'
+          x-ratelimit-remaining: '41'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2469,7 +2360,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 13
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -2477,12 +2368,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Pereira","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mauricio","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"adsasd","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null}]}}'
+        content: '{"status":true,"data":{"id":1,"name":"Pereira","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null}]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '39'
+          x-ratelimit-remaining: '40'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2504,7 +2395,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 2
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -2535,7 +2426,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 18
+        example: 6
         type: integer
         custom: []
     queryParameters: []
@@ -2565,7 +2456,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '38'
+          x-ratelimit-remaining: '39'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2610,7 +2501,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 20
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -2618,12 +2509,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mauricio","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"adsasd","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null}],"provider":[]}}'
+        content: '{"status":true,"data":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null}],"provider":[]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '37'
+          x-ratelimit-remaining: '38'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2645,7 +2536,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 18
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -2676,7 +2567,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 1
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -2706,7 +2597,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '36'
+          x-ratelimit-remaining: '37'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2751,7 +2642,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 1
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -2764,7 +2655,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '35'
+          x-ratelimit-remaining: '36'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2786,7 +2677,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 5
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -2817,7 +2708,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 13
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -2847,7 +2738,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '34'
+          x-ratelimit-remaining: '35'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -2870,14 +2761,14 @@ endpoints:
         name: name
         description: 'Must not be greater than 45 characters.'
         required: true
-        example: zhejpau
+        example: kvtkjkptmnjwnstuhlsjlpwqrmodikaak
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: true
-        example: 11
+        example: 4
         type: integer
         custom: []
     responses: []
@@ -2899,7 +2790,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 7
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -3326,7 +3217,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '33'
+          x-ratelimit-remaining: '34'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3348,7 +3239,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 13
+        example: 18
         type: integer
         custom: []
     queryParameters: []
@@ -3357,14 +3248,14 @@ endpoints:
         name: name
         description: 'Must be at least 3 characters.'
         required: false
-        example: dx
+        example: z
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 15
+        example: 16
         type: integer
         custom: []
     responses: []
@@ -3386,7 +3277,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 6
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -3416,7 +3307,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '32'
+          x-ratelimit-remaining: '33'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3437,7 +3328,7 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El tipo de concepto, ya viene definido.'
+        description: 'El tipo de concepto, ya viene definido (Deduccion, devengado).'
         required: false
         example: Devengado
         type: required
@@ -3474,7 +3365,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '31'
+          x-ratelimit-remaining: '32'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3496,14 +3387,14 @@ endpoints:
         name: id
         description: 'The ID of the conceptType.'
         required: true
-        example: 9
+        example: 15
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El tipo de concepto, ya viene definido.'
+        description: 'El tipo de concepto, ya viene definido (Deduccion, devengado).'
         required: false
         example: Devengado
         type: required
@@ -3557,7 +3448,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '30'
+          x-ratelimit-remaining: '31'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3580,7 +3471,7 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: yi
+        example: ''
         type: string
         custom: []
       calculated:
@@ -3594,7 +3485,7 @@ endpoints:
         name: concept_type_id
         description: ''
         required: true
-        example: 10
+        example: 20
         type: integer
         custom: []
     responses: []
@@ -3616,7 +3507,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 15
+        example: 6
         type: integer
         custom: []
     queryParameters: []
@@ -3624,12 +3515,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Cuota Lentes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"deleted_at":null,"payrolls":[],"covenant":{"id":1,"name":"Lentes","active":1,"value":1200,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null}}}}'
+        content: '{"status":true,"data":{"id":1,"name":"Cuota Lentes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"deleted_at":null,"payrolls":[{"id":1,"days_settled":15,"period_id":1,"user_id":2,"created_at":"2021-12-29T14:08:36.000000Z","updated_at":null,"deleted_at":null,"pivot":{"concept_id":1,"payroll_id":1},"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null}}],"covenant":{"id":1,"name":"Lentes","active":1,"value":1200,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null}}}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '29'
+          x-ratelimit-remaining: '30'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3651,7 +3542,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 3
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -3660,7 +3551,7 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: false
-        example: tda
+        example: x
         type: string
         custom: []
       calculated:
@@ -3674,7 +3565,7 @@ endpoints:
         name: concept_type_id
         description: ''
         required: false
-        example: 20
+        example: 17
         type: integer
         custom: []
     responses: []
@@ -3696,7 +3587,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 19
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -3721,12 +3612,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"days_settled":15,"period_id":1,"user_id":2,"created_at":"2021-12-29T14:08:36.000000Z","updated_at":null,"deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null}},{"id":2,"days_settled":13,"period_id":2,"user_id":2,"created_at":"2021-12-29T14:12:59.000000Z","updated_at":null,"deleted_at":null,"period":{"id":2,"name":"20 a 4","created_at":null,"updated_at":null,"deleted_at":null}},{"id":3,"days_settled":15,"period_id":2,"user_id":1,"created_at":"2021-12-29T19:59:15.000000Z","updated_at":"2021-12-29T19:59:15.000000Z","deleted_at":null,"period":{"id":2,"name":"20 a 4","created_at":null,"updated_at":null,"deleted_at":null}}]}'
+        content: '{"status":true,"data":[{"id":1,"days_settled":15,"period_id":1,"user_id":2,"created_at":"2021-12-29T14:08:36.000000Z","updated_at":null,"deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null}},{"id":2,"days_settled":13,"period_id":2,"user_id":2,"created_at":"2021-12-29T14:12:59.000000Z","updated_at":null,"deleted_at":null,"period":{"id":2,"name":"20 a 4","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null}},{"id":3,"days_settled":15,"period_id":2,"user_id":1,"created_at":"2021-12-29T19:59:15.000000Z","updated_at":"2021-12-29T19:59:15.000000Z","deleted_at":null,"period":{"id":2,"name":"20 a 4","created_at":null,"updated_at":null,"deleted_at":null},"user":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '28'
+          x-ratelimit-remaining: '29'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3785,7 +3676,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 16
+        example: 13
         type: integer
         custom: []
     queryParameters: []
@@ -3793,12 +3684,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"days_settled":15,"period_id":1,"user_id":2,"created_at":"2021-12-29T14:08:36.000000Z","updated_at":null,"deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Mauricio","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"adsasd","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},"concepts":[]}}'
+        content: '{"status":true,"data":{"id":1,"days_settled":15,"period_id":1,"user_id":2,"created_at":"2021-12-29T14:08:36.000000Z","updated_at":null,"deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Mersy","last_name":"Gamboa","second_last_name":"Velandioa","identification_number":"21165","admission_date":"2021-12-29","out_date":null,"base_salary":123213,"email":"prueba@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":"2021-12-29T21:11:40.000000Z","deleted_at":null},"concepts":[{"id":1,"name":"Cuota Lentes","calculated":0,"concept_type_id":2,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":1,"concept_id":1,"created_at":"2021-12-29T22:00:19.000000Z","updated_at":"2021-12-29T22:00:19.000000Z","count":1,"unit_value":10000,"total_value":10000}},{"id":2,"name":"Salario basico","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":1,"concept_id":2,"created_at":"2021-12-29T21:45:34.000000Z","updated_at":"2021-12-29T21:45:34.000000Z","count":15,"unit_value":30000,"total_value":450000}}]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '27'
+          x-ratelimit-remaining: '28'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3820,7 +3711,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 6
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -3865,7 +3756,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 1
+        example: 4
         type: integer
         custom: []
     queryParameters: []
@@ -3916,7 +3807,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '26'
+          x-ratelimit-remaining: '27'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3925,7 +3816,7 @@ endpoints:
       - GET
     uri: api/consultaCovenant
     metadata:
-      title: 'Consulta las deducciones por convenios, periodos, y concepto'
+      title: ''
       description: ''
       authenticated: false
       custom: []
@@ -3933,7 +3824,28 @@ endpoints:
       Content-Type: application/json
       Accept: application/json
     urlParameters: []
-    queryParameters: []
+    queryParameters:
+      covenant_id:
+        name: covenant_id
+        description: 'ID de llave foranea para el convenio.'
+        required: false
+        example: 1
+        type: integer
+        custom: []
+      concept_type_id:
+        name: concept_type_id
+        description: 'ID de llave foranea para el tipo de concepto (deduccion, devengado).'
+        required: false
+        example: 1
+        type: integer
+        custom: []
+      periodicity_type_id:
+        name: periodicity_type_id
+        description: 'ID de llave foranea para el periodo (quincenal, mensual).'
+        required: false
+        example: 1
+        type: integer
+        custom: []
     bodyParameters: []
     responses:
       -
@@ -3943,7 +3855,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '25'
+          x-ratelimit-remaining: '26'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -3962,20 +3874,34 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the payrollConcept.'
+        description: 'El id de la nomina a la que se le asignará el concepto.'
         required: true
-        example: est
-        type: string
+        example: 1
+        type: integer
         custom: []
       id2:
         name: id2
-        description: ''
+        description: 'El id del concepto.'
         required: true
-        example: doloremque
-        type: string
+        example: 2
+        type: integer
         custom: []
     queryParameters: []
-    bodyParameters: []
+    bodyParameters:
+      count:
+        name: count
+        description: 'La cantidad de veces que se cobra un concepto en la nomina.'
+        required: true
+        example: 15
+        type: integer
+        custom: []
+      unit_value:
+        name: unit_value
+        description: 'El valor unitario del concepto.'
+        required: true
+        example: 30000
+        type: integer
+        custom: []
     responses: []
     responseFields: []
   -
@@ -4043,17 +3969,31 @@ endpoints:
       Content-Type: application/json
       Accept: application/json
     urlParameters: []
-    queryParameters: []
+    queryParameters:
+      period_id:
+        name: period_id
+        description: 'ID de llave foranea para el periodo de la nomina que se va a consultar (5 a 19, 20 a 4).'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+      covenants_id:
+        name: covenants_id
+        description: 'ID de llave foranea para el convenio que se va a consultar.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
     bodyParameters: []
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[]}'
+        content: '{"status":true,"data":[{"nomina_id":1,"concepto":"Cuota Lentes","tipo_concepto":"Deduccion","convenio":"Lentes","nombre_usuario":"Mersy","periodo":"5 a 19","valor_cobrado":10000}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '24'
+          x-ratelimit-remaining: '25'
           access-control-allow-origin: '*'
         description: null
     responseFields: []

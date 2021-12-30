@@ -51,6 +51,12 @@ class PayrollController extends Controller
         $payroll->delete();
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
+    /**
+     * @urlParam id int required El id de la nomina a la que se le asignará el concepto. Example: 1
+     * @urlParam id2 int required El id del concepto. Example: 2
+     * @bodyParam count int required La cantidad de veces que se cobra un concepto en la nomina. Example: 15
+     * @bodyParam unit_value int required El valor unitario del concepto. Example: 30000
+     */
     public function asignarConcepto($id, $id2, Request $request)
     {   //id para la payroll y el id2 para el concepto
         $payroll = Payroll::find($id);
@@ -59,6 +65,7 @@ class PayrollController extends Controller
         $payroll->concepts;
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
+
     public function PDFi($payroll)
     {
         $payroll = Payroll::find($payroll);
@@ -82,6 +89,10 @@ class PayrollController extends Controller
         ->get();
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
+    /**
+     * @queryParam period_id int required ID de llave foranea para el periodo de la nomina que se va a consultar (5 a 19, 20 a 4). Example: 1
+     * @queryParam covenants_id int required ID de llave foranea para el convenio que se va a consultar. Example: 1
+     */
     public function consultDeduccion(Request $request)
     {
         $payroll = DB::table('payrolls')
