@@ -49,7 +49,7 @@ endpoints:
         name: name
         description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: ipsa
+        example: odio
         type: required
         custom: []
     responses: []
@@ -71,7 +71,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 16
+        example: 18
         type: integer
         custom: []
     queryParameters: []
@@ -106,7 +106,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 20
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +137,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 12
+        example: 19
         type: integer
         custom: []
     queryParameters: []

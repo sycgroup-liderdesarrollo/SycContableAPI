@@ -71,7 +71,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 10
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -106,7 +106,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 10
+        example: 13
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +137,7 @@ endpoints:
         name: id
         description: 'The ID of the position.'
         required: true
-        example: 2
+        example: 10
         type: integer
         custom: []
     queryParameters: []

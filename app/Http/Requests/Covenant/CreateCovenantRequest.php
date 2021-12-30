@@ -25,7 +25,6 @@ class CreateCovenantRequest extends FormRequest
     {
         return [
             'name'=>'required|string|unique:covenants,name',
-            'active'=>'boolean',
             'value'=>'required|integer',
             'covenant_type_id'=>'required|integer',
             'periodicity_type_id'=>'required|integer',

@@ -47,35 +47,35 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: oqyhs
+        example: rskq
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: true
-        example: yxoyd
+        example: nlgyb
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: true
-        example: ''
+        example: ye
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: 'Must be at least 5 characters.'
         required: true
-        example: lukrb
+        example: yifio
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: true
-        example: 8
+        example: 9
         type: integer
         custom: []
     responses: []
@@ -97,7 +97,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 1
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -132,7 +132,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 13
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -141,35 +141,35 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: dolor
+        example: ipsam
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: false
-        example: dguaa
+        example: sm
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: false
-        example: laeny
+        example: ''
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: ''
         required: false
-        example: dolores
+        example: sapiente
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: false
-        example: 15
+        example: 12
         type: integer
         custom: []
     responses: []
@@ -191,7 +191,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 15
+        example: 19
         type: integer
         custom: []
     queryParameters: []
