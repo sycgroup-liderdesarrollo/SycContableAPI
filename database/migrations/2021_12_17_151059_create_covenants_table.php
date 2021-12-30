@@ -22,7 +22,8 @@ class CreateCovenantsTable extends Migration
             //llaves foraneas
             $table->foreignId('covenant_type_id')->references('id')->on('covenant_types');
             $table->foreignId('periodicity_type_id')->references('id')->on('periodicity_types');
-            $table->foreignId('concept_id')->references('id')->on('concepts')->nullable();
+            $table->unsignedBigInteger('concept_id')->nullable();
+            $table->foreign('concept_id')->references('id')->on('concepts')->onDelete('set null');
             //
             $table->timestamps();
             $table->softDeletes();
