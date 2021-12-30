@@ -11,7 +11,6 @@ class Covenant extends Model
     use HasFactory, SoftDeletes;
     protected $fillable=[
         'name',
-        'active',
         'value',
         'covenant_type_id',
         'periodicity_type_id',
