@@ -25,7 +25,7 @@ class CovenantCuotaAssignJob implements ShouldQueue
         foreach ($covenants as $covenant) {
             foreach ($covenant->users as $user) {
                 $payrollUser = $user->lastPayroll;
-                if ($user->pivot->paid_dues != $user->pivot->dues) {
+                if ($user->pivot->paid_dues < $user->pivot->dues) {
                     $payrollUser->concepts()->attach($covenant->concept_id, ['count' => 1,'unit_value'=>$user->pivot->value , 'total_value'=>$user->pivot->value]);
                     $user->covenants()->updateExistingPivot($covenant->id,['paid_dues'=>$user->pivot->paid_dues+1]);
                     return response()->json(['status'=>true, 'data'=>"El concepto se cargó con exito!"]);
