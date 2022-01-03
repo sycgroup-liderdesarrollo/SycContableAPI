@@ -22,4 +22,8 @@ class Concept extends Model
     {
         return $this->belongsToMany(Payroll::class);
     }
+    public function setting()
+    {
+        $this->belongsTo(Setting::class);
+    }
 }

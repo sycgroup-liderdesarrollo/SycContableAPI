@@ -30,7 +30,8 @@ class UpdateConceptRequest extends FormRequest
                 Rule::unique('concepts','name')->ignore($this->concept)
             ],
             'calculated'=>'boolean',
-            'concept_type_id'=>'integer'
+            'concept_type_id'=>'integer',
+            'setting_id'=>'integer'
         ];
     }
 }

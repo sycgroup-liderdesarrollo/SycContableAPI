@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Events\NominaEvent;
+use App\Models\Concept;
 use App\Models\Payroll;
 use PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use mysqli;
 /**
  * @group Payroll
  */
@@ -20,13 +20,21 @@ class PayrollController extends Controller
         return response()->json(['status'=>true,'data'=>$payrolls]);
     }
 /**
- * @bodyParam days_settled int required Los dias trabajados. Example: 15
  * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
  * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
  */
     public function store(Request $request)
     {
         $payroll = Payroll::create($request->all());
+
+        $value = DB::table('concepts')
+        ->join('settings','concepts.setting_id', 'settings.id')
+        ->where('settings.id',2)
+        ->select('settings.value')
+        ->value('settings.value');
+
+        $payroll->concepts()->attach(1 ,['count' => 15, 'unit_value'=>$payroll->user->base_salary/30, 'total_value'=>($payroll->count ?? 15)*($payroll->user->base_salary/30)]);
+        $payroll->concepts()->attach(2 ,['count' => 1, 'unit_value'=>$value, 'total_value'=>$value]);
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
 
@@ -38,7 +46,6 @@ class PayrollController extends Controller
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
 /**
- * @bodyParam days_settled int required Los dias trabajados. Example: 15
  * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
  * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
  */

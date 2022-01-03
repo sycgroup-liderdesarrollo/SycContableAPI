@@ -26,7 +26,8 @@ class CreateConceptRequest extends FormRequest
         return [
             'name'=>'name|required|string|min:5|unique:concepts,name',
             'calculated'=>'boolean|required',
-            'concept_type_id'=>'integer|required'
+            'concept_type_id'=>'integer|required',
+            'setting_id'=>'integer'
         ];
     }
 }

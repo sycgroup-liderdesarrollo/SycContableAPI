@@ -15,8 +15,6 @@ class CreatePayrollsTable extends Migration
     {
         Schema::create('payrolls', function (Blueprint $table) {
             $table->id();
-            //datos basicos
-            $table->integer('days_settled');
             //llave foranea
             $table->foreignId('period_id')->references('id')->on('periods');
             $table->foreignId('user_id')->references('id')->on('users');

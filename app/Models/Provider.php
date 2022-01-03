@@ -17,6 +17,7 @@ class Provider extends Model
         'identification_type_id',
         'deleted_at'
     ];
+    protected $with = ['identificationType'];
     public function identificationType()
     {
         return $this->belongsTo(identificationType::class);

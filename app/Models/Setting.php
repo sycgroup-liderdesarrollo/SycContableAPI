@@ -9,4 +9,9 @@ class Setting extends Model
 {
     use HasFactory;
     protected $fillable =['name','value'];
+
+    public function concepts()
+    {
+        $this->hasMany(Concept::class);
+    }
 }

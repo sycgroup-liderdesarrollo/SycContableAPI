@@ -14,7 +14,7 @@ class SettingSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('settings')->insert(['name'=>'Salario minimo','value'=>'908.526']);
-        DB::table('settings')->insert(['name'=>'Auxilio de transporte','value'=>'106.454']);
+        DB::table('settings')->insert(['name'=>'Salario minimo','value'=>'908526']);
+        DB::table('settings')->insert(['name'=>'Auxilio de transporte','value'=>'106454']);
     }
 }

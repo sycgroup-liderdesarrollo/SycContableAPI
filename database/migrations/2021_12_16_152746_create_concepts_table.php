@@ -19,6 +19,8 @@ class CreateConceptsTable extends Migration
             $table->string('name')->unique();
             $table->boolean('calculated');
             //llave foranea
+            $table->unsignedBigInteger('setting_id')->nullable();
+            $table->foreign('setting_id')->references('id')->on('settings')->onDelete('set null');
             $table->foreignId('concept_type_id')->references('id')->on('concept_types');
             //
             $table->timestamps();

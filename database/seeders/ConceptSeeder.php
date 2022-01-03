@@ -14,7 +14,7 @@ class ConceptSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('concepts')->insert(['name'=>'Salario basico', 'calculated'=>false, 'concept_type_id'=>1]);
-        DB::table('concepts')->insert(['name'=>'Auxilio de transporte', 'calculated'=>false, 'concept_type_id'=>1]);
+        DB::table('concepts')->insert(['name'=>'Salario basico', 'calculated'=>false, 'concept_type_id'=>1, 'setting_id'=>1]);
+        DB::table('concepts')->insert(['name'=>'Auxilio de transporte', 'calculated'=>false, 'concept_type_id'=>1, 'setting_id'=>2]);
     }
 }
