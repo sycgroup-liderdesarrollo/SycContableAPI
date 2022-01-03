@@ -38,6 +38,7 @@ class BusinessLineController extends Controller
 
     /**
      * @bodyParam name required El nombre de la linea de negocions. Example: SyC Group
+     * @bodyParam active boolean El estado de la linea de negocios, si esta activa o no.
      */
     public function update(Request $request, BusinessLine $businessLine)
     {

@@ -19,7 +19,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Salario basico","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},{"id":2,"name":"Auxilio de transporte","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},{"id":3,"name":"Cuota de tatuajess","calculated":0,"concept_type_id":2,"created_at":"2021-12-30T15:26:38.000000Z","updated_at":"2021-12-30T16:29:02.000000Z","deleted_at":null}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Salario basico","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},{"id":2,"name":"Auxilio de transporte","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},{"id":3,"name":"prueba 7","calculated":0,"concept_type_id":2,"created_at":"2021-12-30T20:39:18.000000Z","updated_at":"2021-12-30T21:02:26.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -47,21 +47,21 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: apzr
+        example: t
         type: string
         custom: []
       calculated:
         name: calculated
         description: ''
         required: true
-        example: false
+        example: true
         type: boolean
         custom: []
       concept_type_id:
         name: concept_type_id
         description: ''
         required: true
-        example: 9
+        example: 12
         type: integer
         custom: []
     responses: []
@@ -83,7 +83,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 17
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -91,7 +91,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Salario basico","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"payrolls":[{"id":1,"days_settled":15,"period_id":1,"user_id":1,"created_at":"2021-12-30T18:29:27.000000Z","updated_at":"2021-12-30T18:29:27.000000Z","deleted_at":null,"pivot":{"concept_id":1,"payroll_id":1},"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan4","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599679","admission_date":"2021-12-30","out_date":"2021-12-30","base_salary":12000,"email":"gamboa@gmail.com","email_verified_at":null,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2021-12-30T15:57:39.000000Z","updated_at":"2021-12-30T16:07:53.000000Z","deleted_at":null}}],"covenant":null}}'
+        content: '{"status":true,"data":{"id":1,"name":"Salario basico","calculated":0,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"payrolls":[],"covenant":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -118,7 +118,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 2
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -127,21 +127,21 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: ipsam
+        example: sit
         type: string
         custom: []
       calculated:
         name: calculated
         description: ''
         required: false
-        example: false
+        example: true
         type: boolean
         custom: []
       concept_type_id:
         name: concept_type_id
         description: ''
         required: false
-        example: 10
+        example: 4
         type: integer
         custom: []
     responses: []
@@ -163,7 +163,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 15
+        example: 10
         type: integer
         custom: []
     queryParameters: []

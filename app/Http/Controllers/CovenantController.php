@@ -38,7 +38,14 @@ class CovenantController extends Controller
     public function update(UpdateCovenantRequest $request, Covenant $covenant)
     {
         $covenant->update($request->all());
+
+        if($request->concept_name){
+            $covenant->concept->name = $request->concept_name;
+            $covenant->concept->save();
+        }
+
         return response()->json(['status'=>true,'data'=>$covenant]);
+
     }
     public function destroy(Covenant $covenant)
     {

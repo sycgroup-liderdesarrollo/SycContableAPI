@@ -16,6 +16,7 @@ class CreateBusinessLinesTable extends Migration
         Schema::create('business_lines', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->boolean('active')->default(true);
             $table->timestamps();
             $table->softDeletes();
         });

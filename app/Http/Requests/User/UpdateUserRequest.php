@@ -41,7 +41,7 @@ class UpdateUserRequest extends FormRequest
             ],
 
             'password'=>'string',
-
+            'active'=>'boolean',
             'admission_date'=>'date',
             'out_date'=>'date|nullable',
 

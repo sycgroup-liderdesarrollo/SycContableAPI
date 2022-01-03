@@ -28,7 +28,7 @@ class CovenantObserver
      */
     public function updated(Covenant $covenant)
     {
-        //
+
     }
 
     /**
