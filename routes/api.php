@@ -66,6 +66,10 @@ Route::apiResource('concept', ConceptController::class);
 
 Route::apiResource('payroll', PayrollController::class);
 
+Route::prefix('payroll')->group( function(){
+    Route::get('user/{user}',[PayrollController::class,'userPayroll']);
+});
+
 Route::get('consultaPayroll', [PayrollController::class, 'consultDatePeriod']);
 
 Route::get('consultaCovenant', [CovenantController::class, 'consultCovenant']);
@@ -79,3 +83,4 @@ Route::post('user/asignarConvenio/{id}/{id2}', [UserController::class, 'asignarC
 Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
 
 Route::get('prueba', [PayrollController::class, 'prueba']);
+

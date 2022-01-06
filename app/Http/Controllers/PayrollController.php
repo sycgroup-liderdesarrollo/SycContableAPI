@@ -6,6 +6,7 @@ use App\Events\NominaEvent;
 use App\Models\Concept;
 use App\Models\Covenant;
 use App\Models\Payroll;
+use App\Models\User;
 use Carbon\Carbon;
 use GuzzleHttp\Psr7\Message;
 use PDF;
@@ -35,6 +36,11 @@ class PayrollController extends Controller
     }
     public function show(Payroll $payroll)
     {
+        return response()->json(['status'=>true,'data'=>$payroll]);
+    }
+    public function userPayroll(User $user)
+    {
+        $payroll = $user->lastPayroll;
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
 /**
@@ -124,34 +130,60 @@ class PayrollController extends Controller
         $covenants = Covenant::where('covenant_type_id',2)->get();
 
         $comunConcepts = Concept::where('id', '<=', '2')->get();
-
+        Log::info($comunConcepts);
         $actualDate = Carbon::now()->format('Y-m-d');
+        Log::info($actualDate. " fecha actual");
 
         $ifExistCovenantPayroll = DB::table('concept_payroll')
         ->whereDate('created_at', Carbon::now()->format('Y-m-d'))
         ->select(DB::raw('DATE_FORMAT(created_at, "%Y-%m-%d") as created_at'))
         ->value('created_at');
+        Log::info($ifExistCovenantPayroll. " fecha database");
+
+        $usersComun = DB::table('users')
+        ->where('active', '=','1')
+        ->get();
+        Log::info($usersComun." usuarios que existen");
 
         $value = DB::table('settings')
         ->where('id',2)
         ->select('value')
         ->value('value');
+        if($ifExistCovenantPayroll != $actualDate){
+            foreach ($covenants as $covenant) {
+                $users = $covenant->users;
+                foreach ($users as $user) {
 
-        foreach ($covenants as $covenant) {
-            $users = $covenant->users;
+                    Log::info($user->id." id del usurio");
+                    Log::info("entró al for");
 
-            foreach ($users as $user) {
-                $payrollUser = $user->lastPayroll;
+                    $payrollUser = $user->lastPayroll;
 
-                if($ifExistCovenantPayroll != $actualDate){
+                    Log::info($covenant->concept_id." id concepto ".$user." id usuario");
+
                     $payrollUser->concepts()->attach($covenant->concept_id, ['count' => 1,'unit_value'=>$covenant->value , 'total_value'=>$covenant->value]);
+
+                    Log::info('lo creó');
                 }
             }
-        }
-        foreach ($comunConcepts as $concept) {
-            Log::info($concept);
-            }
+            foreach($usersComun as $userComun){
 
+                Log::info('entró al foreach de conceptos comunes');
+
+                Log::info($userComun->id." id del usuario activo");
+
+                $payrollUserComun = $user->lastPayroll;
+
+                $payrollUser->concepts()->attach(1 ,['count' => 15, 'unit_value'=>$payrollUser->user->base_salary/30, 'total_value'=>($payrollUser->count ?? 15)*($payrollUser->user->base_salary/30)]);
+                $payrollUser->concepts()->attach(2 ,['count' => 1, 'unit_value'=>$value, 'total_value'=>$value]);
+
+                Log::info('lo creó '.$payrollUser);
+            }
+        }
+        else {
+            return response()->json(['status'=>true,'data'=> "No se puede volver a crear el mismo concepto en la payroll!"]);
+
+        }
         return response()->json(['status'=>true,'data'=>$payrollUser]);
     }
 }
