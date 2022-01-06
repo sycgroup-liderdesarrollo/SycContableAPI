@@ -6,9 +6,13 @@ use App\Events\NominaEvent;
 use App\Models\Concept;
 use App\Models\Covenant;
 use App\Models\Payroll;
+use Carbon\Carbon;
+use GuzzleHttp\Psr7\Message;
 use PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+
 /**
  * @group Payroll
  */
@@ -26,14 +30,11 @@ class PayrollController extends Controller
  */
     public function store(Request $request)
     {
-        $payroll = Payroll::create($request->all());
-        return response()->json(['status'=>true,'data'=>$payroll]);
+       $payroll = Payroll::create($request->all());
+       return response()->json(['status'=>true,'data'=>$payroll]);
     }
     public function show(Payroll $payroll)
     {
-        $payroll->period;
-        $payroll->user;
-        $payroll->concepts;
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
 /**
@@ -120,17 +121,38 @@ class PayrollController extends Controller
 
     public function prueba()
     {
-        $permanentCovenants = Covenant::where('covenant_type_id',2)->get();
+        $covenants = Covenant::where('covenant_type_id',2)->get();
 
-        foreach ($permanentCovenants as $permanentCovenant) {
-            $users = $permanentCovenant->users;
+        $comunConcepts = Concept::where('id', '<=', '2')->get();
+
+        $actualDate = Carbon::now()->format('Y-m-d');
+
+        $ifExistCovenantPayroll = DB::table('concept_payroll')
+        ->whereDate('created_at', Carbon::now()->format('Y-m-d'))
+        ->select(DB::raw('DATE_FORMAT(created_at, "%Y-%m-%d") as created_at'))
+        ->value('created_at');
+
+        $value = DB::table('settings')
+        ->where('id',2)
+        ->select('value')
+        ->value('value');
+
+        foreach ($covenants as $covenant) {
+            $users = $covenant->users;
+
             foreach ($users as $user) {
                 $payrollUser = $user->lastPayroll;
-                $payrollUser->concepts()->attach($permanentCovenant->concept_id, ['count' => 1,'unit_value'=>$permanentCovenant->value , 'total_value'=>$permanentCovenant->value]);
 
-                return response()->json(['status'=>true,'data'=>$payrollUser]);
+                if($ifExistCovenantPayroll != $actualDate){
+                    $payrollUser->concepts()->attach($covenant->concept_id, ['count' => 1,'unit_value'=>$covenant->value , 'total_value'=>$covenant->value]);
+                }
             }
         }
+        foreach ($comunConcepts as $concept) {
+            Log::info($concept);
+            }
 
+        return response()->json(['status'=>true,'data'=>$payrollUser]);
     }
 }
+//arreglar poner conceptos comunes de salario y aux trans en la nomina sin que se repita
