@@ -24,7 +24,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '35'
+          x-ratelimit-remaining: '33'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -47,14 +47,14 @@ endpoints:
         name: name
         description: 'Must not be greater than 45 characters.'
         required: true
-        example: pxtwfnrnhqdwqh
+        example: aivpblyq
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: true
-        example: 15
+        example: 20
         type: integer
         custom: []
     responses: []
@@ -76,7 +76,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 7
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -89,7 +89,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '34'
+          x-ratelimit-remaining: '32'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -111,7 +111,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 19
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -120,7 +120,7 @@ endpoints:
         name: name
         description: 'Must be at least 3 characters.'
         required: false
-        example: glg
+        example: va
         type: string
         custom: []
       value:
@@ -149,7 +149,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 4
+        example: 20
         type: integer
         custom: []
     queryParameters: []

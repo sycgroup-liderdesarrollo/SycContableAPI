@@ -11,9 +11,13 @@ use Illuminate\Http\Request;
  */
 class ConceptController extends Controller
 {
-    public function index()
+    /**
+     * @queryParam type int Filtro para buscar por tipo, 1 = devengado, 2 = deducciones. Example: 1
+     */
+    public function index(Request $request)
     {
-        $concepts = Concept::all();
+        $concept_type_id = $request->query('type', null);
+        $concepts = Concept::conceptTypeFilter($concept_type_id)->get();
         return response()->json(['status'=>true,'data'=>$concepts]);
     }
     public function store(CreateConceptRequest $request)

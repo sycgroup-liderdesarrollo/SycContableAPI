@@ -24,7 +24,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '39'
+          x-ratelimit-remaining: '37'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -69,7 +69,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 14
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -82,7 +82,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '38'
+          x-ratelimit-remaining: '36'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -104,7 +104,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 4
+        example: 7
         type: integer
         custom: []
     queryParameters: []
@@ -135,7 +135,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 5
+        example: 19
         type: integer
         custom: []
     queryParameters: []

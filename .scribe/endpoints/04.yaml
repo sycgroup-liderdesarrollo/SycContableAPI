@@ -24,7 +24,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '57'
+          x-ratelimit-remaining: '55'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -47,14 +47,14 @@ endpoints:
         name: name
         description: ''
         required: true
-        example: doloribus
+        example: consequuntur
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: true
-        example: 4
+        example: 5
         type: integer
         custom: []
       covenant_type_id:
@@ -68,7 +68,7 @@ endpoints:
         name: periodicity_type_id
         description: ''
         required: true
-        example: 2
+        example: 16
         type: integer
         custom: []
       concept_name:
@@ -97,7 +97,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 8
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -110,7 +110,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '56'
+          x-ratelimit-remaining: '54'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -132,7 +132,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 4
+        example: 9
         type: integer
         custom: []
     queryParameters: []
@@ -141,42 +141,42 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: consequatur
+        example: itaque
         type: string
         custom: []
       active:
         name: active
         description: ''
         required: false
-        example: true
+        example: false
         type: boolean
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 5
+        example: 20
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: false
-        example: 12
+        example: 7
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: false
-        example: 6
+        example: 18
         type: integer
         custom: []
       concept_id:
         name: concept_id
         description: ''
         required: false
-        example: 3
+        example: 13
         type: integer
         custom: []
     responses: []
@@ -198,7 +198,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 7
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -249,7 +249,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '25'
+          x-ratelimit-remaining: '23'
           access-control-allow-origin: '*'
         description: null
     responseFields: []

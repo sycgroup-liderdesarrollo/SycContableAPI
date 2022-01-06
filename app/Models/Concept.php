@@ -26,4 +26,8 @@ class Concept extends Model
     {
         $this->belongsTo(Setting::class);
     }
+    public function scopeConceptTypeFilter($query, $type)
+    {
+        return $query->where('concept_type_id','like','%'.$type.'%');
+    }
 }

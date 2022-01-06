@@ -26,7 +26,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '29'
+          x-ratelimit-remaining: '27'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -78,7 +78,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 19
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -505,7 +505,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '28'
+          x-ratelimit-remaining: '26'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -527,7 +527,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 15
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -565,7 +565,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 6
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -616,7 +616,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '26'
+          x-ratelimit-remaining: '24'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -657,7 +657,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '24'
+          x-ratelimit-remaining: '22'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -678,7 +678,7 @@ endpoints:
         name: user
         description: ''
         required: true
-        example: 12
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -688,7 +688,7 @@ endpoints:
         status: 404
         content: |-
           {
-              "message": "No query results for model [App\\Models\\User] 12",
+              "message": "No query results for model [App\\Models\\User] 8",
               "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
               "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
               "line": 385,
@@ -1105,7 +1105,7 @@ endpoints:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '27'
+          x-ratelimit-remaining: '25'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
