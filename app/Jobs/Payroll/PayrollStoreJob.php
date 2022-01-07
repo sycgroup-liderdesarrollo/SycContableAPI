@@ -23,12 +23,11 @@ class PayrollStoreJob implements ShouldQueue
     public function handle()
     {
         $date = Carbon::now()->format('d');
-        if($date == 1 || $date==15){
+        if($date == 1 || $date == 15){
             $period = 1;
         }else{
             $period = 2;
         }
-
         $users = DB::table('users')
         ->where('active', '=','1')
         ->get();

@@ -448,7 +448,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: January 6 2022</li>
+        <li>Last updated: January 7 2022</li>
     </ul>
 </div>
 
@@ -508,7 +508,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 47
+x-ratelimit-remaining: 49
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -691,7 +691,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/businessLine/8',
+    'http://localhost:8000/api/businessLine/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -715,7 +715,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 46
+x-ratelimit-remaining: 48
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -738,7 +738,7 @@ access-control-allow-origin: *
                 &quot;identification_number&quot;: &quot;12325859967&quot;,
                 &quot;admission_date&quot;: &quot;2022-01-03&quot;,
                 &quot;out_date&quot;: &quot;2022-01-03&quot;,
-                &quot;base_salary&quot;: 900000,
+                &quot;base_salary&quot;: 1820000,
                 &quot;email&quot;: &quot;kyler36@example.com&quot;,
                 &quot;email_verified_at&quot;: null,
                 &quot;active&quot;: 1,
@@ -868,7 +868,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-businessLine--id-"
-               value="8"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -889,7 +889,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/businessLine/20',
+    'http://localhost:8000/api/businessLine/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -957,7 +957,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-businessLine--id-"
-               value="20"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1010,7 +1010,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/businessLine/2',
+    'http://localhost:8000/api/businessLine/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1070,7 +1070,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-businessLine--id-"
-               value="2"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1122,7 +1122,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 29
+x-ratelimit-remaining: 31
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -1227,10 +1227,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'rxo',
-            'calculated' =&gt; true,
-            'concept_type_id' =&gt; 1,
-            'setting_id' =&gt; 16,
+            'name' =&gt; 'mjp',
+            'calculated' =&gt; false,
+            'concept_type_id' =&gt; 18,
+            'setting_id' =&gt; 12,
         ],
     ]
 );
@@ -1286,7 +1286,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-concept"
-               value="rxo"
+               value="mjp"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -1317,7 +1317,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_type_id"
                data-endpoint="POSTapi-concept"
-               value="1"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -1327,7 +1327,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="POSTapi-concept"
-               value="16"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -1348,7 +1348,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/concept/16',
+    'http://localhost:8000/api/concept/14',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1372,7 +1372,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 28
+x-ratelimit-remaining: 30
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -1415,7 +1415,7 @@ access-control-allow-origin: *
                     &quot;identification_number&quot;: &quot;12325859967&quot;,
                     &quot;admission_date&quot;: &quot;2022-01-03&quot;,
                     &quot;out_date&quot;: &quot;2022-01-03&quot;,
-                    &quot;base_salary&quot;: 900000,
+                    &quot;base_salary&quot;: 1820000,
                     &quot;email&quot;: &quot;kyler36@example.com&quot;,
                     &quot;email_verified_at&quot;: null,
                     &quot;active&quot;: 1,
@@ -1431,6 +1431,25 @@ access-control-allow-origin: *
                 },
                 &quot;concepts&quot;: [
                     {
+                        &quot;id&quot;: 1,
+                        &quot;name&quot;: &quot;Salario basico&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: 1,
+                        &quot;concept_type_id&quot;: 1,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 303,
+                            &quot;concept_id&quot;: 1,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;count&quot;: 15,
+                            &quot;unit_value&quot;: 60667,
+                            &quot;total_value&quot;: 910000
+                        }
+                    },
+                    {
                         &quot;id&quot;: 5,
                         &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
                         &quot;calculated&quot;: 1,
@@ -1442,8 +1461,8 @@ access-control-allow-origin: *
                         &quot;pivot&quot;: {
                             &quot;payroll_id&quot;: 303,
                             &quot;concept_id&quot;: 5,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                             &quot;count&quot;: 1,
                             &quot;unit_value&quot;: 5000,
                             &quot;total_value&quot;: 5000
@@ -1461,55 +1480,17 @@ access-control-allow-origin: *
                         &quot;pivot&quot;: {
                             &quot;payroll_id&quot;: 303,
                             &quot;concept_id&quot;: 7,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                             &quot;count&quot;: 1,
                             &quot;unit_value&quot;: 65000,
                             &quot;total_value&quot;: 65000
-                        }
-                    },
-                    {
-                        &quot;id&quot;: 1,
-                        &quot;name&quot;: &quot;Salario basico&quot;,
-                        &quot;calculated&quot;: 1,
-                        &quot;setting_id&quot;: 1,
-                        &quot;concept_type_id&quot;: 1,
-                        &quot;created_at&quot;: null,
-                        &quot;updated_at&quot;: null,
-                        &quot;deleted_at&quot;: null,
-                        &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 303,
-                            &quot;concept_id&quot;: 1,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;count&quot;: 15,
-                            &quot;unit_value&quot;: 30000,
-                            &quot;total_value&quot;: 450000
-                        }
-                    },
-                    {
-                        &quot;id&quot;: 2,
-                        &quot;name&quot;: &quot;Auxilio de transporte&quot;,
-                        &quot;calculated&quot;: 1,
-                        &quot;setting_id&quot;: 2,
-                        &quot;concept_type_id&quot;: 1,
-                        &quot;created_at&quot;: null,
-                        &quot;updated_at&quot;: null,
-                        &quot;deleted_at&quot;: null,
-                        &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 303,
-                            &quot;concept_id&quot;: 2,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;count&quot;: 1,
-                            &quot;unit_value&quot;: 106454,
-                            &quot;total_value&quot;: 106454
                         }
                     }
                 ]
             },
             {
-                &quot;id&quot;: 304,
+                &quot;id&quot;: 307,
                 &quot;period_id&quot;: 1,
                 &quot;user_id&quot;: 2,
                 &quot;created_at&quot;: &quot;2022-02-01T05:00:28.000000Z&quot;,
@@ -1517,7 +1498,7 @@ access-control-allow-origin: *
                 &quot;deleted_at&quot;: null,
                 &quot;pivot&quot;: {
                     &quot;concept_id&quot;: 1,
-                    &quot;payroll_id&quot;: 304
+                    &quot;payroll_id&quot;: 307
                 },
                 &quot;period&quot;: {
                     &quot;id&quot;: 1,
@@ -1550,44 +1531,6 @@ access-control-allow-origin: *
                 },
                 &quot;concepts&quot;: [
                     {
-                        &quot;id&quot;: 5,
-                        &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
-                        &quot;calculated&quot;: 1,
-                        &quot;setting_id&quot;: null,
-                        &quot;concept_type_id&quot;: 2,
-                        &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
-                        &quot;deleted_at&quot;: null,
-                        &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 304,
-                            &quot;concept_id&quot;: 5,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;count&quot;: 1,
-                            &quot;unit_value&quot;: 5000,
-                            &quot;total_value&quot;: 5000
-                        }
-                    },
-                    {
-                        &quot;id&quot;: 7,
-                        &quot;name&quot;: &quot;Cuota EPS&quot;,
-                        &quot;calculated&quot;: 0,
-                        &quot;setting_id&quot;: null,
-                        &quot;concept_type_id&quot;: 2,
-                        &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
-                        &quot;deleted_at&quot;: null,
-                        &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 304,
-                            &quot;concept_id&quot;: 7,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;count&quot;: 1,
-                            &quot;unit_value&quot;: 65000,
-                            &quot;total_value&quot;: 65000
-                        }
-                    },
-                    {
                         &quot;id&quot;: 1,
                         &quot;name&quot;: &quot;Salario basico&quot;,
                         &quot;calculated&quot;: 1,
@@ -1597,10 +1540,10 @@ access-control-allow-origin: *
                         &quot;updated_at&quot;: null,
                         &quot;deleted_at&quot;: null,
                         &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 304,
+                            &quot;payroll_id&quot;: 307,
                             &quot;concept_id&quot;: 1,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                             &quot;count&quot;: 15,
                             &quot;unit_value&quot;: 30000,
                             &quot;total_value&quot;: 450000
@@ -1616,19 +1559,57 @@ access-control-allow-origin: *
                         &quot;updated_at&quot;: null,
                         &quot;deleted_at&quot;: null,
                         &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 304,
+                            &quot;payroll_id&quot;: 307,
                             &quot;concept_id&quot;: 2,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                             &quot;count&quot;: 1,
                             &quot;unit_value&quot;: 106454,
                             &quot;total_value&quot;: 106454
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 5,
+                        &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: null,
+                        &quot;concept_type_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 307,
+                            &quot;concept_id&quot;: 5,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 5000,
+                            &quot;total_value&quot;: 5000
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 7,
+                        &quot;name&quot;: &quot;Cuota EPS&quot;,
+                        &quot;calculated&quot;: 0,
+                        &quot;setting_id&quot;: null,
+                        &quot;concept_type_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 307,
+                            &quot;concept_id&quot;: 7,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 65000,
+                            &quot;total_value&quot;: 65000
                         }
                     }
                 ]
             },
             {
-                &quot;id&quot;: 305,
+                &quot;id&quot;: 309,
                 &quot;period_id&quot;: 1,
                 &quot;user_id&quot;: 3,
                 &quot;created_at&quot;: &quot;2022-02-01T05:00:28.000000Z&quot;,
@@ -1636,7 +1617,7 @@ access-control-allow-origin: *
                 &quot;deleted_at&quot;: null,
                 &quot;pivot&quot;: {
                     &quot;concept_id&quot;: 1,
-                    &quot;payroll_id&quot;: 305
+                    &quot;payroll_id&quot;: 309
                 },
                 &quot;period&quot;: {
                     &quot;id&quot;: 1,
@@ -1678,10 +1659,10 @@ access-control-allow-origin: *
                         &quot;updated_at&quot;: null,
                         &quot;deleted_at&quot;: null,
                         &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 305,
+                            &quot;payroll_id&quot;: 309,
                             &quot;concept_id&quot;: 1,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                             &quot;count&quot;: 15,
                             &quot;unit_value&quot;: 30000,
                             &quot;total_value&quot;: 450000
@@ -1697,10 +1678,310 @@ access-control-allow-origin: *
                         &quot;updated_at&quot;: null,
                         &quot;deleted_at&quot;: null,
                         &quot;pivot&quot;: {
-                            &quot;payroll_id&quot;: 305,
+                            &quot;payroll_id&quot;: 309,
                             &quot;concept_id&quot;: 2,
-                            &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                            &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                            &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 106454,
+                            &quot;total_value&quot;: 106454
+                        }
+                    }
+                ]
+            },
+            {
+                &quot;id&quot;: 310,
+                &quot;period_id&quot;: 2,
+                &quot;user_id&quot;: 1,
+                &quot;created_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+                &quot;updated_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+                &quot;deleted_at&quot;: null,
+                &quot;pivot&quot;: {
+                    &quot;concept_id&quot;: 1,
+                    &quot;payroll_id&quot;: 310
+                },
+                &quot;period&quot;: {
+                    &quot;id&quot;: 2,
+                    &quot;name&quot;: &quot;16 a 30&quot;,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null
+                },
+                &quot;user&quot;: {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Jhonatan&quot;,
+                    &quot;last_name&quot;: &quot;Gamboa&quot;,
+                    &quot;second_last_name&quot;: &quot;Velandia&quot;,
+                    &quot;identification_number&quot;: &quot;12325859967&quot;,
+                    &quot;admission_date&quot;: &quot;2022-01-03&quot;,
+                    &quot;out_date&quot;: &quot;2022-01-03&quot;,
+                    &quot;base_salary&quot;: 1820000,
+                    &quot;email&quot;: &quot;kyler36@example.com&quot;,
+                    &quot;email_verified_at&quot;: null,
+                    &quot;active&quot;: 1,
+                    &quot;position_id&quot;: 1,
+                    &quot;business_line_id&quot;: 1,
+                    &quot;contract_type_id&quot;: 1,
+                    &quot;salary_type_id&quot;: 1,
+                    &quot;headquarter_id&quot;: 1,
+                    &quot;identification_type_id&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-03T23:06:44.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-03T23:06:44.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                &quot;concepts&quot;: [
+                    {
+                        &quot;id&quot;: 1,
+                        &quot;name&quot;: &quot;Salario basico&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: 1,
+                        &quot;concept_type_id&quot;: 1,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 310,
+                            &quot;concept_id&quot;: 1,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 15,
+                            &quot;unit_value&quot;: 60667,
+                            &quot;total_value&quot;: 910000
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 5,
+                        &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: null,
+                        &quot;concept_type_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 310,
+                            &quot;concept_id&quot;: 5,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 5000,
+                            &quot;total_value&quot;: 5000
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 7,
+                        &quot;name&quot;: &quot;Cuota EPS&quot;,
+                        &quot;calculated&quot;: 0,
+                        &quot;setting_id&quot;: null,
+                        &quot;concept_type_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 310,
+                            &quot;concept_id&quot;: 7,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 65000,
+                            &quot;total_value&quot;: 65000
+                        }
+                    }
+                ]
+            },
+            {
+                &quot;id&quot;: 311,
+                &quot;period_id&quot;: 2,
+                &quot;user_id&quot;: 2,
+                &quot;created_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+                &quot;updated_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+                &quot;deleted_at&quot;: null,
+                &quot;pivot&quot;: {
+                    &quot;concept_id&quot;: 1,
+                    &quot;payroll_id&quot;: 311
+                },
+                &quot;period&quot;: {
+                    &quot;id&quot;: 2,
+                    &quot;name&quot;: &quot;16 a 30&quot;,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null
+                },
+                &quot;user&quot;: {
+                    &quot;id&quot;: 2,
+                    &quot;name&quot;: &quot;Beee&quot;,
+                    &quot;last_name&quot;: &quot;Gamboa&quot;,
+                    &quot;second_last_name&quot;: &quot;Velandia&quot;,
+                    &quot;identification_number&quot;: &quot;1232599789&quot;,
+                    &quot;admission_date&quot;: &quot;2022-01-03&quot;,
+                    &quot;out_date&quot;: &quot;2022-01-03&quot;,
+                    &quot;base_salary&quot;: 900000,
+                    &quot;email&quot;: &quot;jarvis23@example.com&quot;,
+                    &quot;email_verified_at&quot;: null,
+                    &quot;active&quot;: 1,
+                    &quot;position_id&quot;: 1,
+                    &quot;business_line_id&quot;: 1,
+                    &quot;contract_type_id&quot;: 1,
+                    &quot;salary_type_id&quot;: 1,
+                    &quot;headquarter_id&quot;: 1,
+                    &quot;identification_type_id&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-04T00:03:06.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-04T00:03:06.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                &quot;concepts&quot;: [
+                    {
+                        &quot;id&quot;: 1,
+                        &quot;name&quot;: &quot;Salario basico&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: 1,
+                        &quot;concept_type_id&quot;: 1,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 311,
+                            &quot;concept_id&quot;: 1,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 15,
+                            &quot;unit_value&quot;: 30000,
+                            &quot;total_value&quot;: 450000
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 2,
+                        &quot;name&quot;: &quot;Auxilio de transporte&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: 2,
+                        &quot;concept_type_id&quot;: 1,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 311,
+                            &quot;concept_id&quot;: 2,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 106454,
+                            &quot;total_value&quot;: 106454
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 5,
+                        &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: null,
+                        &quot;concept_type_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 311,
+                            &quot;concept_id&quot;: 5,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 5000,
+                            &quot;total_value&quot;: 5000
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 7,
+                        &quot;name&quot;: &quot;Cuota EPS&quot;,
+                        &quot;calculated&quot;: 0,
+                        &quot;setting_id&quot;: null,
+                        &quot;concept_type_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 311,
+                            &quot;concept_id&quot;: 7,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 1,
+                            &quot;unit_value&quot;: 65000,
+                            &quot;total_value&quot;: 65000
+                        }
+                    }
+                ]
+            },
+            {
+                &quot;id&quot;: 312,
+                &quot;period_id&quot;: 2,
+                &quot;user_id&quot;: 3,
+                &quot;created_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+                &quot;updated_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+                &quot;deleted_at&quot;: null,
+                &quot;pivot&quot;: {
+                    &quot;concept_id&quot;: 1,
+                    &quot;payroll_id&quot;: 312
+                },
+                &quot;period&quot;: {
+                    &quot;id&quot;: 2,
+                    &quot;name&quot;: &quot;16 a 30&quot;,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null
+                },
+                &quot;user&quot;: {
+                    &quot;id&quot;: 3,
+                    &quot;name&quot;: &quot;Mauricio&quot;,
+                    &quot;last_name&quot;: &quot;Velandia&quot;,
+                    &quot;second_last_name&quot;: &quot;Gamboa&quot;,
+                    &quot;identification_number&quot;: &quot;123456789&quot;,
+                    &quot;admission_date&quot;: &quot;2022-01-04&quot;,
+                    &quot;out_date&quot;: null,
+                    &quot;base_salary&quot;: 900000,
+                    &quot;email&quot;: &quot;gamboa@gmail.com&quot;,
+                    &quot;email_verified_at&quot;: null,
+                    &quot;active&quot;: 1,
+                    &quot;position_id&quot;: 1,
+                    &quot;business_line_id&quot;: 1,
+                    &quot;contract_type_id&quot;: 1,
+                    &quot;salary_type_id&quot;: 1,
+                    &quot;headquarter_id&quot;: 1,
+                    &quot;identification_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null
+                },
+                &quot;concepts&quot;: [
+                    {
+                        &quot;id&quot;: 1,
+                        &quot;name&quot;: &quot;Salario basico&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: 1,
+                        &quot;concept_type_id&quot;: 1,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 312,
+                            &quot;concept_id&quot;: 1,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;count&quot;: 15,
+                            &quot;unit_value&quot;: 30000,
+                            &quot;total_value&quot;: 450000
+                        }
+                    },
+                    {
+                        &quot;id&quot;: 2,
+                        &quot;name&quot;: &quot;Auxilio de transporte&quot;,
+                        &quot;calculated&quot;: 1,
+                        &quot;setting_id&quot;: 2,
+                        &quot;concept_type_id&quot;: 1,
+                        &quot;created_at&quot;: null,
+                        &quot;updated_at&quot;: null,
+                        &quot;deleted_at&quot;: null,
+                        &quot;pivot&quot;: {
+                            &quot;payroll_id&quot;: 312,
+                            &quot;concept_id&quot;: 2,
+                            &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                            &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
                             &quot;count&quot;: 1,
                             &quot;unit_value&quot;: 106454,
                             &quot;total_value&quot;: 106454
@@ -1759,7 +2040,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-concept--id-"
-               value="16"
+               value="14"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -1780,17 +2061,17 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/concept/18',
+    'http://localhost:8000/api/concept/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'voluptatem',
-            'calculated' =&gt; false,
-            'concept_type_id' =&gt; 1,
-            'setting_id' =&gt; 11,
+            'name' =&gt; 'magni',
+            'calculated' =&gt; true,
+            'concept_type_id' =&gt; 12,
+            'setting_id' =&gt; 12,
         ],
     ]
 );
@@ -1850,7 +2131,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-concept--id-"
-               value="18"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -1861,7 +2142,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-concept--id-"
-               value="voluptatem"
+               value="magni"
                data-component="body" hidden>
     <br>
 
@@ -1892,7 +2173,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_type_id"
                data-endpoint="PUTapi-concept--id-"
-               value="1"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -1902,7 +2183,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="PUTapi-concept--id-"
-               value="11"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -1923,7 +2204,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/concept/8',
+    'http://localhost:8000/api/concept/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1983,7 +2264,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-concept--id-"
-               value="8"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -2032,7 +2313,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 31
+x-ratelimit-remaining: 33
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -2197,7 +2478,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/conceptType/2',
+    'http://localhost:8000/api/conceptType/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2221,7 +2502,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 30
+x-ratelimit-remaining: 32
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -2305,7 +2586,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-conceptType--id-"
-               value="2"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2326,7 +2607,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/conceptType/2',
+    'http://localhost:8000/api/conceptType/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2393,7 +2674,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-conceptType--id-"
-               value="2"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2425,7 +2706,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/conceptType/19',
+    'http://localhost:8000/api/conceptType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2485,7 +2766,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-conceptType--id-"
-               value="19"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2534,7 +2815,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 43
+x-ratelimit-remaining: 45
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -2713,7 +2994,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contractType/15',
+    'http://localhost:8000/api/contractType/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2737,7 +3018,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 42
+x-ratelimit-remaining: 44
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -2759,7 +3040,7 @@ access-control-allow-origin: *
                 &quot;identification_number&quot;: &quot;12325859967&quot;,
                 &quot;admission_date&quot;: &quot;2022-01-03&quot;,
                 &quot;out_date&quot;: &quot;2022-01-03&quot;,
-                &quot;base_salary&quot;: 900000,
+                &quot;base_salary&quot;: 1820000,
                 &quot;email&quot;: &quot;kyler36@example.com&quot;,
                 &quot;email_verified_at&quot;: null,
                 &quot;active&quot;: 1,
@@ -2889,7 +3170,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-contractType--id-"
-               value="15"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -2910,7 +3191,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/contractType/15',
+    'http://localhost:8000/api/contractType/13',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2977,7 +3258,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-contractType--id-"
-               value="15"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3009,7 +3290,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/contractType/1',
+    'http://localhost:8000/api/contractType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3069,7 +3350,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contractType--id-"
-               value="1"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3118,7 +3399,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 55
+x-ratelimit-remaining: 57
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -3308,10 +3589,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'consequuntur',
-            'value' =&gt; 5,
-            'covenant_type_id' =&gt; 11,
-            'periodicity_type_id' =&gt; 16,
+            'name' =&gt; 'deleniti',
+            'value' =&gt; 11,
+            'covenant_type_id' =&gt; 17,
+            'periodicity_type_id' =&gt; 7,
             'concept_name' =&gt; 'Cuota de convenio por salud',
         ],
     ]
@@ -3368,7 +3649,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-covenant"
-               value="consequuntur"
+               value="deleniti"
                data-component="body" hidden>
     <br>
 
@@ -3378,7 +3659,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-covenant"
-               value="5"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -3388,7 +3669,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="POSTapi-covenant"
-               value="11"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -3398,7 +3679,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="POSTapi-covenant"
-               value="16"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -3429,7 +3710,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenant/2',
+    'http://localhost:8000/api/covenant/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3453,7 +3734,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 54
+x-ratelimit-remaining: 56
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -3544,7 +3825,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenant--id-"
-               value="2"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -3565,19 +3846,19 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenant/9',
+    'http://localhost:8000/api/covenant/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'itaque',
-            'active' =&gt; false,
-            'value' =&gt; 20,
-            'covenant_type_id' =&gt; 7,
-            'periodicity_type_id' =&gt; 18,
-            'concept_id' =&gt; 13,
+            'name' =&gt; 'officia',
+            'active' =&gt; true,
+            'value' =&gt; 14,
+            'covenant_type_id' =&gt; 18,
+            'periodicity_type_id' =&gt; 8,
+            'concept_id' =&gt; 8,
         ],
     ]
 );
@@ -3637,7 +3918,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenant--id-"
-               value="9"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -3648,7 +3929,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-covenant--id-"
-               value="itaque"
+               value="officia"
                data-component="body" hidden>
     <br>
 
@@ -3679,7 +3960,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-covenant--id-"
-               value="20"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -3689,7 +3970,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="7"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -3699,7 +3980,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="18"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -3709,7 +3990,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="13"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -3730,7 +4011,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/covenant/1',
+    'http://localhost:8000/api/covenant/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3790,7 +4071,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenant--id-"
-               value="1"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -3840,7 +4121,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 23
+x-ratelimit-remaining: 25
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -3965,7 +4246,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 53
+x-ratelimit-remaining: 55
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -4130,7 +4411,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenantType/10',
+    'http://localhost:8000/api/covenantType/14',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4154,7 +4435,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 52
+x-ratelimit-remaining: 54
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -4276,7 +4557,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenantType--id-"
-               value="10"
+               value="14"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4297,7 +4578,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenantType/16',
+    'http://localhost:8000/api/covenantType/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4364,7 +4645,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenantType--id-"
-               value="16"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4396,7 +4677,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/covenantType/13',
+    'http://localhost:8000/api/covenantType/17',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4456,7 +4737,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenantType--id-"
-               value="13"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4505,7 +4786,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 39
+x-ratelimit-remaining: 41
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -4691,7 +4972,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/headQuarter/15',
+    'http://localhost:8000/api/headQuarter/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4715,7 +4996,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 38
+x-ratelimit-remaining: 40
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -4737,7 +5018,7 @@ access-control-allow-origin: *
                 &quot;identification_number&quot;: &quot;12325859967&quot;,
                 &quot;admission_date&quot;: &quot;2022-01-03&quot;,
                 &quot;out_date&quot;: &quot;2022-01-03&quot;,
-                &quot;base_salary&quot;: 900000,
+                &quot;base_salary&quot;: 1820000,
                 &quot;email&quot;: &quot;kyler36@example.com&quot;,
                 &quot;email_verified_at&quot;: null,
                 &quot;active&quot;: 1,
@@ -4867,7 +5148,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-headQuarter--id-"
-               value="15"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -4888,7 +5169,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/headQuarter/13',
+    'http://localhost:8000/api/headQuarter/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4955,7 +5236,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-headQuarter--id-"
-               value="13"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -4987,7 +5268,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/headQuarter/7',
+    'http://localhost:8000/api/headQuarter/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5047,7 +5328,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-headQuarter--id-"
-               value="7"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -5096,7 +5377,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 37
+x-ratelimit-remaining: 39
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -5261,7 +5542,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/identificationType/10',
+    'http://localhost:8000/api/identificationType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5285,7 +5566,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 36
+x-ratelimit-remaining: 38
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -5307,7 +5588,7 @@ access-control-allow-origin: *
                 &quot;identification_number&quot;: &quot;12325859967&quot;,
                 &quot;admission_date&quot;: &quot;2022-01-03&quot;,
                 &quot;out_date&quot;: &quot;2022-01-03&quot;,
-                &quot;base_salary&quot;: 900000,
+                &quot;base_salary&quot;: 1820000,
                 &quot;email&quot;: &quot;kyler36@example.com&quot;,
                 &quot;email_verified_at&quot;: null,
                 &quot;active&quot;: 1,
@@ -5438,7 +5719,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-identificationType--id-"
-               value="10"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -5459,7 +5740,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/identificationType/7',
+    'http://localhost:8000/api/identificationType/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5526,7 +5807,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-identificationType--id-"
-               value="7"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -5558,7 +5839,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/identificationType/19',
+    'http://localhost:8000/api/identificationType/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5618,7 +5899,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-identificationType--id-"
-               value="19"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -5667,7 +5948,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 27
+x-ratelimit-remaining: 29
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -5697,7 +5978,7 @@ access-control-allow-origin: *
                 &quot;identification_number&quot;: &quot;12325859967&quot;,
                 &quot;admission_date&quot;: &quot;2022-01-03&quot;,
                 &quot;out_date&quot;: &quot;2022-01-03&quot;,
-                &quot;base_salary&quot;: 900000,
+                &quot;base_salary&quot;: 1820000,
                 &quot;email&quot;: &quot;kyler36@example.com&quot;,
                 &quot;email_verified_at&quot;: null,
                 &quot;active&quot;: 1,
@@ -5713,6 +5994,25 @@ access-control-allow-origin: *
             },
             &quot;concepts&quot;: [
                 {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Salario basico&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: 1,
+                    &quot;concept_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 303,
+                        &quot;concept_id&quot;: 1,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;count&quot;: 15,
+                        &quot;unit_value&quot;: 60667,
+                        &quot;total_value&quot;: 910000
+                    }
+                },
+                {
                     &quot;id&quot;: 5,
                     &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
                     &quot;calculated&quot;: 1,
@@ -5724,8 +6024,8 @@ access-control-allow-origin: *
                     &quot;pivot&quot;: {
                         &quot;payroll_id&quot;: 303,
                         &quot;concept_id&quot;: 5,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                         &quot;count&quot;: 1,
                         &quot;unit_value&quot;: 5000,
                         &quot;total_value&quot;: 5000
@@ -5743,55 +6043,17 @@ access-control-allow-origin: *
                     &quot;pivot&quot;: {
                         &quot;payroll_id&quot;: 303,
                         &quot;concept_id&quot;: 7,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                         &quot;count&quot;: 1,
                         &quot;unit_value&quot;: 65000,
                         &quot;total_value&quot;: 65000
-                    }
-                },
-                {
-                    &quot;id&quot;: 1,
-                    &quot;name&quot;: &quot;Salario basico&quot;,
-                    &quot;calculated&quot;: 1,
-                    &quot;setting_id&quot;: 1,
-                    &quot;concept_type_id&quot;: 1,
-                    &quot;created_at&quot;: null,
-                    &quot;updated_at&quot;: null,
-                    &quot;deleted_at&quot;: null,
-                    &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 303,
-                        &quot;concept_id&quot;: 1,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;count&quot;: 15,
-                        &quot;unit_value&quot;: 30000,
-                        &quot;total_value&quot;: 450000
-                    }
-                },
-                {
-                    &quot;id&quot;: 2,
-                    &quot;name&quot;: &quot;Auxilio de transporte&quot;,
-                    &quot;calculated&quot;: 1,
-                    &quot;setting_id&quot;: 2,
-                    &quot;concept_type_id&quot;: 1,
-                    &quot;created_at&quot;: null,
-                    &quot;updated_at&quot;: null,
-                    &quot;deleted_at&quot;: null,
-                    &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 303,
-                        &quot;concept_id&quot;: 2,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;count&quot;: 1,
-                        &quot;unit_value&quot;: 106454,
-                        &quot;total_value&quot;: 106454
                     }
                 }
             ]
         },
         {
-            &quot;id&quot;: 304,
+            &quot;id&quot;: 307,
             &quot;period_id&quot;: 1,
             &quot;user_id&quot;: 2,
             &quot;created_at&quot;: &quot;2022-02-01T05:00:28.000000Z&quot;,
@@ -5828,44 +6090,6 @@ access-control-allow-origin: *
             },
             &quot;concepts&quot;: [
                 {
-                    &quot;id&quot;: 5,
-                    &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
-                    &quot;calculated&quot;: 1,
-                    &quot;setting_id&quot;: null,
-                    &quot;concept_type_id&quot;: 2,
-                    &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
-                    &quot;deleted_at&quot;: null,
-                    &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 304,
-                        &quot;concept_id&quot;: 5,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;count&quot;: 1,
-                        &quot;unit_value&quot;: 5000,
-                        &quot;total_value&quot;: 5000
-                    }
-                },
-                {
-                    &quot;id&quot;: 7,
-                    &quot;name&quot;: &quot;Cuota EPS&quot;,
-                    &quot;calculated&quot;: 0,
-                    &quot;setting_id&quot;: null,
-                    &quot;concept_type_id&quot;: 2,
-                    &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
-                    &quot;deleted_at&quot;: null,
-                    &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 304,
-                        &quot;concept_id&quot;: 7,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;count&quot;: 1,
-                        &quot;unit_value&quot;: 65000,
-                        &quot;total_value&quot;: 65000
-                    }
-                },
-                {
                     &quot;id&quot;: 1,
                     &quot;name&quot;: &quot;Salario basico&quot;,
                     &quot;calculated&quot;: 1,
@@ -5875,10 +6099,10 @@ access-control-allow-origin: *
                     &quot;updated_at&quot;: null,
                     &quot;deleted_at&quot;: null,
                     &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 304,
+                        &quot;payroll_id&quot;: 307,
                         &quot;concept_id&quot;: 1,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                         &quot;count&quot;: 15,
                         &quot;unit_value&quot;: 30000,
                         &quot;total_value&quot;: 450000
@@ -5894,19 +6118,57 @@ access-control-allow-origin: *
                     &quot;updated_at&quot;: null,
                     &quot;deleted_at&quot;: null,
                     &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 304,
+                        &quot;payroll_id&quot;: 307,
                         &quot;concept_id&quot;: 2,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                         &quot;count&quot;: 1,
                         &quot;unit_value&quot;: 106454,
                         &quot;total_value&quot;: 106454
+                    }
+                },
+                {
+                    &quot;id&quot;: 5,
+                    &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: null,
+                    &quot;concept_type_id&quot;: 2,
+                    &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 307,
+                        &quot;concept_id&quot;: 5,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 5000,
+                        &quot;total_value&quot;: 5000
+                    }
+                },
+                {
+                    &quot;id&quot;: 7,
+                    &quot;name&quot;: &quot;Cuota EPS&quot;,
+                    &quot;calculated&quot;: 0,
+                    &quot;setting_id&quot;: null,
+                    &quot;concept_type_id&quot;: 2,
+                    &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 307,
+                        &quot;concept_id&quot;: 7,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 65000,
+                        &quot;total_value&quot;: 65000
                     }
                 }
             ]
         },
         {
-            &quot;id&quot;: 305,
+            &quot;id&quot;: 309,
             &quot;period_id&quot;: 1,
             &quot;user_id&quot;: 3,
             &quot;created_at&quot;: &quot;2022-02-01T05:00:28.000000Z&quot;,
@@ -5952,10 +6214,10 @@ access-control-allow-origin: *
                     &quot;updated_at&quot;: null,
                     &quot;deleted_at&quot;: null,
                     &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 305,
+                        &quot;payroll_id&quot;: 309,
                         &quot;concept_id&quot;: 1,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
                         &quot;count&quot;: 15,
                         &quot;unit_value&quot;: 30000,
                         &quot;total_value&quot;: 450000
@@ -5971,10 +6233,298 @@ access-control-allow-origin: *
                     &quot;updated_at&quot;: null,
                     &quot;deleted_at&quot;: null,
                     &quot;pivot&quot;: {
-                        &quot;payroll_id&quot;: 305,
+                        &quot;payroll_id&quot;: 309,
                         &quot;concept_id&quot;: 2,
-                        &quot;created_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
-                        &quot;updated_at&quot;: &quot;2022-02-01T06:00:37.000000Z&quot;,
+                        &quot;created_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-07T13:23:11.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 106454,
+                        &quot;total_value&quot;: 106454
+                    }
+                }
+            ]
+        },
+        {
+            &quot;id&quot;: 310,
+            &quot;period_id&quot;: 2,
+            &quot;user_id&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;period&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;16 a 30&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            },
+            &quot;user&quot;: {
+                &quot;id&quot;: 1,
+                &quot;name&quot;: &quot;Jhonatan&quot;,
+                &quot;last_name&quot;: &quot;Gamboa&quot;,
+                &quot;second_last_name&quot;: &quot;Velandia&quot;,
+                &quot;identification_number&quot;: &quot;12325859967&quot;,
+                &quot;admission_date&quot;: &quot;2022-01-03&quot;,
+                &quot;out_date&quot;: &quot;2022-01-03&quot;,
+                &quot;base_salary&quot;: 1820000,
+                &quot;email&quot;: &quot;kyler36@example.com&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;active&quot;: 1,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
+                &quot;created_at&quot;: &quot;2022-01-03T23:06:44.000000Z&quot;,
+                &quot;updated_at&quot;: &quot;2022-01-03T23:06:44.000000Z&quot;,
+                &quot;deleted_at&quot;: null
+            },
+            &quot;concepts&quot;: [
+                {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Salario basico&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: 1,
+                    &quot;concept_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 310,
+                        &quot;concept_id&quot;: 1,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 15,
+                        &quot;unit_value&quot;: 60667,
+                        &quot;total_value&quot;: 910000
+                    }
+                },
+                {
+                    &quot;id&quot;: 5,
+                    &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: null,
+                    &quot;concept_type_id&quot;: 2,
+                    &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 310,
+                        &quot;concept_id&quot;: 5,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 5000,
+                        &quot;total_value&quot;: 5000
+                    }
+                },
+                {
+                    &quot;id&quot;: 7,
+                    &quot;name&quot;: &quot;Cuota EPS&quot;,
+                    &quot;calculated&quot;: 0,
+                    &quot;setting_id&quot;: null,
+                    &quot;concept_type_id&quot;: 2,
+                    &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 310,
+                        &quot;concept_id&quot;: 7,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 65000,
+                        &quot;total_value&quot;: 65000
+                    }
+                }
+            ]
+        },
+        {
+            &quot;id&quot;: 311,
+            &quot;period_id&quot;: 2,
+            &quot;user_id&quot;: 2,
+            &quot;created_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;period&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;16 a 30&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            },
+            &quot;user&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;Beee&quot;,
+                &quot;last_name&quot;: &quot;Gamboa&quot;,
+                &quot;second_last_name&quot;: &quot;Velandia&quot;,
+                &quot;identification_number&quot;: &quot;1232599789&quot;,
+                &quot;admission_date&quot;: &quot;2022-01-03&quot;,
+                &quot;out_date&quot;: &quot;2022-01-03&quot;,
+                &quot;base_salary&quot;: 900000,
+                &quot;email&quot;: &quot;jarvis23@example.com&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;active&quot;: 1,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
+                &quot;created_at&quot;: &quot;2022-01-04T00:03:06.000000Z&quot;,
+                &quot;updated_at&quot;: &quot;2022-01-04T00:03:06.000000Z&quot;,
+                &quot;deleted_at&quot;: null
+            },
+            &quot;concepts&quot;: [
+                {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Salario basico&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: 1,
+                    &quot;concept_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 311,
+                        &quot;concept_id&quot;: 1,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 15,
+                        &quot;unit_value&quot;: 30000,
+                        &quot;total_value&quot;: 450000
+                    }
+                },
+                {
+                    &quot;id&quot;: 2,
+                    &quot;name&quot;: &quot;Auxilio de transporte&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: 2,
+                    &quot;concept_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 311,
+                        &quot;concept_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 106454,
+                        &quot;total_value&quot;: 106454
+                    }
+                },
+                {
+                    &quot;id&quot;: 5,
+                    &quot;name&quot;: &quot;Cuota convenio Emi&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: null,
+                    &quot;concept_type_id&quot;: 2,
+                    &quot;created_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-04T01:18:21.000000Z&quot;,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 311,
+                        &quot;concept_id&quot;: 5,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 5000,
+                        &quot;total_value&quot;: 5000
+                    }
+                },
+                {
+                    &quot;id&quot;: 7,
+                    &quot;name&quot;: &quot;Cuota EPS&quot;,
+                    &quot;calculated&quot;: 0,
+                    &quot;setting_id&quot;: null,
+                    &quot;concept_type_id&quot;: 2,
+                    &quot;created_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-16T06:04:38.000000Z&quot;,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 311,
+                        &quot;concept_id&quot;: 7,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 1,
+                        &quot;unit_value&quot;: 65000,
+                        &quot;total_value&quot;: 65000
+                    }
+                }
+            ]
+        },
+        {
+            &quot;id&quot;: 312,
+            &quot;period_id&quot;: 2,
+            &quot;user_id&quot;: 3,
+            &quot;created_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-16T05:00:03.000000Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;period&quot;: {
+                &quot;id&quot;: 2,
+                &quot;name&quot;: &quot;16 a 30&quot;,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            },
+            &quot;user&quot;: {
+                &quot;id&quot;: 3,
+                &quot;name&quot;: &quot;Mauricio&quot;,
+                &quot;last_name&quot;: &quot;Velandia&quot;,
+                &quot;second_last_name&quot;: &quot;Gamboa&quot;,
+                &quot;identification_number&quot;: &quot;123456789&quot;,
+                &quot;admission_date&quot;: &quot;2022-01-04&quot;,
+                &quot;out_date&quot;: null,
+                &quot;base_salary&quot;: 900000,
+                &quot;email&quot;: &quot;gamboa@gmail.com&quot;,
+                &quot;email_verified_at&quot;: null,
+                &quot;active&quot;: 1,
+                &quot;position_id&quot;: 1,
+                &quot;business_line_id&quot;: 1,
+                &quot;contract_type_id&quot;: 1,
+                &quot;salary_type_id&quot;: 1,
+                &quot;headquarter_id&quot;: 1,
+                &quot;identification_type_id&quot;: 1,
+                &quot;created_at&quot;: null,
+                &quot;updated_at&quot;: null,
+                &quot;deleted_at&quot;: null
+            },
+            &quot;concepts&quot;: [
+                {
+                    &quot;id&quot;: 1,
+                    &quot;name&quot;: &quot;Salario basico&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: 1,
+                    &quot;concept_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 312,
+                        &quot;concept_id&quot;: 1,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;count&quot;: 15,
+                        &quot;unit_value&quot;: 30000,
+                        &quot;total_value&quot;: 450000
+                    }
+                },
+                {
+                    &quot;id&quot;: 2,
+                    &quot;name&quot;: &quot;Auxilio de transporte&quot;,
+                    &quot;calculated&quot;: 1,
+                    &quot;setting_id&quot;: 2,
+                    &quot;concept_type_id&quot;: 1,
+                    &quot;created_at&quot;: null,
+                    &quot;updated_at&quot;: null,
+                    &quot;deleted_at&quot;: null,
+                    &quot;pivot&quot;: {
+                        &quot;payroll_id&quot;: 312,
+                        &quot;concept_id&quot;: 2,
+                        &quot;created_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
+                        &quot;updated_at&quot;: &quot;2022-01-16T06:00:03.000000Z&quot;,
                         &quot;count&quot;: 1,
                         &quot;unit_value&quot;: 106454,
                         &quot;total_value&quot;: 106454
@@ -6160,7 +6710,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 26
+x-ratelimit-remaining: 28
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -6647,7 +7197,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/payroll/12',
+    'http://localhost:8000/api/payroll/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6715,7 +7265,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-payroll--id-"
-               value="12"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -6757,7 +7307,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/payroll/16',
+    'http://localhost:8000/api/payroll/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6817,7 +7367,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-payroll--id-"
-               value="16"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -6867,7 +7417,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 24
+x-ratelimit-remaining: 26
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -6992,7 +7542,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 22
+x-ratelimit-remaining: 24
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -7079,7 +7629,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/user/8',
+    'http://localhost:8000/api/payroll/user/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7094,7 +7644,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 
 <span id="example-responses-GETapi-payroll-user--user-">
             <blockquote>
-            <p>Example response (404):</p>
+            <p>Example response (200):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -7103,424 +7653,14 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 25
+x-ratelimit-remaining: 27
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;No query results for model [App\\Models\\User] 8&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-    &quot;line&quot;: 385,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-            &quot;line&quot;: 332,
-            &quot;function&quot;: &quot;prepareException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 172,
-            &quot;function&quot;: &quot;handleException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 127,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 55,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 697,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 672,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 636,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 625,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
-            &quot;line&quot;: 52,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 222,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 179,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 117,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 75,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 48,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 653,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 136,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 298,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1005,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 94,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\syc_contable\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
+    &quot;status&quot;: true,
+    &quot;data&quot;: null
 }</code>
  </pre>
     </span>
@@ -7569,7 +7709,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="user"
                data-endpoint="GETapi-payroll-user--user-"
-               value="8"
+               value="4"
                data-component="url" hidden>
     <br>
 
@@ -7734,7 +7874,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 35
+x-ratelimit-remaining: 37
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -7899,7 +8039,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/period/3',
+    'http://localhost:8000/api/period/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7923,7 +8063,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 34
+x-ratelimit-remaining: 36
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -7985,7 +8125,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-period--id-"
-               value="3"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8105,7 +8245,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/period/20',
+    'http://localhost:8000/api/period/14',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8165,7 +8305,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-period--id-"
-               value="20"
+               value="14"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8214,7 +8354,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 51
+x-ratelimit-remaining: 53
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -8302,7 +8442,7 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'vitae',
+            'name' =&gt; 'ut',
         ],
     ]
 );
@@ -8358,7 +8498,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-periodicityType"
-               value="vitae"
+               value="ut"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8379,7 +8519,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/periodicityType/2',
+    'http://localhost:8000/api/periodicityType/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8403,7 +8543,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 50
+x-ratelimit-remaining: 52
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -8583,7 +8723,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-periodicityType--id-"
-               value="2"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8604,14 +8744,14 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/periodicityType/1',
+    'http://localhost:8000/api/periodicityType/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'error',
+            'name' =&gt; 'cum',
         ],
     ]
 );
@@ -8671,7 +8811,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="1"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8682,7 +8822,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="error"
+               value="cum"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8703,7 +8843,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/periodicityType/6',
+    'http://localhost:8000/api/periodicityType/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8763,7 +8903,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-periodicityType--id-"
-               value="6"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8812,7 +8952,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 45
+x-ratelimit-remaining: 47
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -8991,7 +9131,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/position/9',
+    'http://localhost:8000/api/position/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9015,7 +9155,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 44
+x-ratelimit-remaining: 46
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -9077,7 +9217,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-position--id-"
-               value="9"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9098,7 +9238,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/position/20',
+    'http://localhost:8000/api/position/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9165,7 +9305,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-position--id-"
-               value="20"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9197,7 +9337,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/position/12',
+    'http://localhost:8000/api/position/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9257,7 +9397,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-position--id-"
-               value="12"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9306,7 +9446,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 49
+x-ratelimit-remaining: 51
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -9398,11 +9538,11 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'vifhi',
-            'address' =&gt; 'praus',
-            'phone' =&gt; 'sybm',
-            'identification_number' =&gt; 'ekjcu',
-            'identification_type_id' =&gt; 6,
+            'name' =&gt; '',
+            'address' =&gt; 'y',
+            'phone' =&gt; 'ul',
+            'identification_number' =&gt; 'yp',
+            'identification_type_id' =&gt; 8,
         ],
     ]
 );
@@ -9458,7 +9598,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-provider"
-               value="vifhi"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9468,7 +9608,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-provider"
-               value="praus"
+               value="y"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9478,7 +9618,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="POSTapi-provider"
-               value="sybm"
+               value="ul"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9488,7 +9628,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-provider"
-               value="ekjcu"
+               value="yp"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9498,7 +9638,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-provider"
-               value="6"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -9519,7 +9659,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/provider/14',
+    'http://localhost:8000/api/provider/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9543,7 +9683,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 48
+x-ratelimit-remaining: 50
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -9616,7 +9756,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-provider--id-"
-               value="14"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9637,18 +9777,18 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/provider/1',
+    'http://localhost:8000/api/provider/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'modi',
-            'address' =&gt; 'wsvhk',
-            'phone' =&gt; '',
-            'identification_number' =&gt; 'dignissimos',
-            'identification_type_id' =&gt; 6,
+            'name' =&gt; 'accusamus',
+            'address' =&gt; '',
+            'phone' =&gt; 'r',
+            'identification_number' =&gt; 'consequuntur',
+            'identification_type_id' =&gt; 2,
         ],
     ]
 );
@@ -9708,7 +9848,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-provider--id-"
-               value="1"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9719,7 +9859,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-provider--id-"
-               value="modi"
+               value="accusamus"
                data-component="body" hidden>
     <br>
 
@@ -9729,7 +9869,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-provider--id-"
-               value="wsvhk"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9739,7 +9879,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="PUTapi-provider--id-"
-               value=""
+               value="r"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9749,7 +9889,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-provider--id-"
-               value="dignissimos"
+               value="consequuntur"
                data-component="body" hidden>
     <br>
 
@@ -9759,7 +9899,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="6"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -9780,7 +9920,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/provider/3',
+    'http://localhost:8000/api/provider/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9840,7 +9980,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-provider--id-"
-               value="3"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9889,7 +10029,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 41
+x-ratelimit-remaining: 43
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -10061,7 +10201,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/salaryType/9',
+    'http://localhost:8000/api/salaryType/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10085,7 +10225,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 40
+x-ratelimit-remaining: 42
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -10147,7 +10287,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-salaryType--id-"
-               value="9"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -10168,7 +10308,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/salaryType/13',
+    'http://localhost:8000/api/salaryType/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10235,7 +10375,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-salaryType--id-"
-               value="13"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -10267,7 +10407,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/salaryType/8',
+    'http://localhost:8000/api/salaryType/17',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10327,7 +10467,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-salaryType--id-"
-               value="8"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -10376,7 +10516,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 33
+x-ratelimit-remaining: 35
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -10464,8 +10604,8 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'aivpblyq',
-            'value' =&gt; 20,
+            'name' =&gt; 'kbynkapcggebvtchtwoecafabvypkbdkksuv',
+            'value' =&gt; 16,
         ],
     ]
 );
@@ -10521,7 +10661,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-setting"
-               value="aivpblyq"
+               value="kbynkapcggebvtchtwoecafabvypkbdkksuv"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 45 characters.</p>
@@ -10531,7 +10671,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-setting"
-               value="20"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -10552,7 +10692,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/setting/19',
+    'http://localhost:8000/api/setting/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10576,7 +10716,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 32
+x-ratelimit-remaining: 34
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -10638,7 +10778,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-setting--id-"
-               value="19"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -10659,15 +10799,15 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/setting/16',
+    'http://localhost:8000/api/setting/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'va',
-            'value' =&gt; 3,
+            'name' =&gt; 'mgy',
+            'value' =&gt; 5,
         ],
     ]
 );
@@ -10727,7 +10867,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-setting--id-"
-               value="16"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -10738,7 +10878,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-setting--id-"
-               value="va"
+               value="mgy"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -10748,7 +10888,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-setting--id-"
-               value="3"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -10769,7 +10909,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/setting/20',
+    'http://localhost:8000/api/setting/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10829,7 +10969,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-setting--id-"
-               value="20"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -10882,7 +11022,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 57
+x-ratelimit-remaining: 59
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -10898,7 +11038,7 @@ access-control-allow-origin: *
             &quot;identification_number&quot;: &quot;12325859967&quot;,
             &quot;admission_date&quot;: &quot;2022-01-03&quot;,
             &quot;out_date&quot;: &quot;2022-01-03&quot;,
-            &quot;base_salary&quot;: 900000,
+            &quot;base_salary&quot;: 1820000,
             &quot;email&quot;: &quot;kyler36@example.com&quot;,
             &quot;email_verified_at&quot;: null,
             &quot;active&quot;: 1,
@@ -11006,21 +11146,21 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'xiw',
-            'last_name' =&gt; 'mltdi',
-            'second_last_name' =&gt; 'et',
-            'identification_number' =&gt; 'qui',
-            'email' =&gt; 'ksteuber@example.com',
-            'password' =&gt; 'eos',
-            'admission_date' =&gt; '2022-01-06T16:32:37',
-            'out_date' =&gt; '2022-01-06T16:32:37',
-            'base_salary' =&gt; 12,
-            'position_id' =&gt; 6,
-            'business_line_id' =&gt; 6,
-            'contract_type_id' =&gt; 11,
-            'salary_type_id' =&gt; 18,
-            'headquarter_id' =&gt; 5,
-            'identification_type_id' =&gt; 10,
+            'name' =&gt; 'safzk',
+            'last_name' =&gt; 'eoozm',
+            'second_last_name' =&gt; 'eum',
+            'identification_number' =&gt; 'delectus',
+            'email' =&gt; 'bahringer.shanel@example.com',
+            'password' =&gt; 'nesciunt',
+            'admission_date' =&gt; '2022-01-07T10:18:12',
+            'out_date' =&gt; '2022-01-07T10:18:12',
+            'base_salary' =&gt; 15,
+            'position_id' =&gt; 2,
+            'business_line_id' =&gt; 7,
+            'contract_type_id' =&gt; 17,
+            'salary_type_id' =&gt; 15,
+            'headquarter_id' =&gt; 14,
+            'identification_type_id' =&gt; 13,
         ],
     ]
 );
@@ -11076,7 +11216,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-user"
-               value="xiw"
+               value="safzk"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11086,7 +11226,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-user"
-               value="mltdi"
+               value="eoozm"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11096,7 +11236,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="POSTapi-user"
-               value="et"
+               value="eum"
                data-component="body" hidden>
     <br>
 
@@ -11106,7 +11246,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-user"
-               value="qui"
+               value="delectus"
                data-component="body" hidden>
     <br>
 
@@ -11116,7 +11256,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user"
-               value="ksteuber@example.com"
+               value="bahringer.shanel@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -11126,7 +11266,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user"
-               value="eos"
+               value="nesciunt"
                data-component="body" hidden>
     <br>
 
@@ -11136,7 +11276,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-06T16:32:37"
+               value="2022-01-07T10:18:12"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11146,7 +11286,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-06T16:32:37"
+               value="2022-01-07T10:18:12"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11156,7 +11296,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="POSTapi-user"
-               value="12"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -11166,7 +11306,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="POSTapi-user"
-               value="6"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -11176,7 +11316,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="business_line_id"
                data-endpoint="POSTapi-user"
-               value="6"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -11186,7 +11326,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="POSTapi-user"
-               value="11"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -11196,7 +11336,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="POSTapi-user"
-               value="18"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -11206,7 +11346,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="POSTapi-user"
-               value="5"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -11216,7 +11356,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -11261,7 +11401,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 56
+x-ratelimit-remaining: 58
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -11276,7 +11416,7 @@ access-control-allow-origin: *
         &quot;identification_number&quot;: &quot;12325859967&quot;,
         &quot;admission_date&quot;: &quot;2022-01-03&quot;,
         &quot;out_date&quot;: &quot;2022-01-03&quot;,
-        &quot;base_salary&quot;: 900000,
+        &quot;base_salary&quot;: 1820000,
         &quot;email&quot;: &quot;kyler36@example.com&quot;,
         &quot;email_verified_at&quot;: null,
         &quot;active&quot;: 1,
@@ -11359,7 +11499,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/user/17',
+    'http://localhost:8000/api/user/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11419,7 +11559,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-user--id-"
-               value="17"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -11440,29 +11580,29 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/user/14',
+    'http://localhost:8000/api/user/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'iaqc',
-            'last_name' =&gt; '',
-            'second_last_name' =&gt; 'laudantium',
-            'identification_number' =&gt; 'et',
-            'email' =&gt; 'arjun71@example.net',
-            'password' =&gt; 'dolores',
-            'active' =&gt; false,
-            'admission_date' =&gt; '2022-01-06T16:32:37',
-            'out_date' =&gt; '2022-01-06T16:32:37',
-            'base_salary' =&gt; 14,
-            'position_id' =&gt; 18,
-            'business_line_id' =&gt; 18,
-            'contract_type_id' =&gt; 18,
-            'salary_type_id' =&gt; 3,
-            'headquarter_id' =&gt; 4,
-            'identification_type_id' =&gt; 9,
+            'name' =&gt; 'iml',
+            'last_name' =&gt; 'kt',
+            'second_last_name' =&gt; 'aut',
+            'identification_number' =&gt; 'similique',
+            'email' =&gt; 'senger.keyshawn@example.com',
+            'password' =&gt; 'et',
+            'active' =&gt; true,
+            'admission_date' =&gt; '2022-01-07T10:18:12',
+            'out_date' =&gt; '2022-01-07T10:18:12',
+            'base_salary' =&gt; 16,
+            'position_id' =&gt; 17,
+            'business_line_id' =&gt; 7,
+            'contract_type_id' =&gt; 19,
+            'salary_type_id' =&gt; 13,
+            'headquarter_id' =&gt; 5,
+            'identification_type_id' =&gt; 15,
         ],
     ]
 );
@@ -11522,7 +11662,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-user--id-"
-               value="14"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -11533,7 +11673,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-user--id-"
-               value="iaqc"
+               value="iml"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11543,7 +11683,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-user--id-"
-               value=""
+               value="kt"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11553,7 +11693,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="PUTapi-user--id-"
-               value="laudantium"
+               value="aut"
                data-component="body" hidden>
     <br>
 
@@ -11563,7 +11703,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-user--id-"
-               value="et"
+               value="similique"
                data-component="body" hidden>
     <br>
 
@@ -11573,7 +11713,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-user--id-"
-               value="arjun71@example.net"
+               value="senger.keyshawn@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -11583,7 +11723,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-user--id-"
-               value="dolores"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -11614,7 +11754,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-06T16:32:37"
+               value="2022-01-07T10:18:12"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11624,7 +11764,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-06T16:32:37"
+               value="2022-01-07T10:18:12"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11634,7 +11774,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="PUTapi-user--id-"
-               value="14"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -11644,7 +11784,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="PUTapi-user--id-"
-               value="18"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -11654,7 +11794,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="business_line_id"
                data-endpoint="PUTapi-user--id-"
-               value="18"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -11664,7 +11804,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="18"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -11674,7 +11814,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="3"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -11684,7 +11824,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="PUTapi-user--id-"
-               value="4"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -11694,7 +11834,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="9"
+               value="15"
                data-component="body" hidden>
     <br>
 

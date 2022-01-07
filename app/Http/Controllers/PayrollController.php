@@ -2,14 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Covenant;
 use App\Models\Payroll;
 use App\Models\User;
-use Carbon\Carbon;
 use PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-
 /**
  * @group Payroll
  */
@@ -112,7 +109,6 @@ class PayrollController extends Controller
         )
         ->where('periods.id', $request->input('period_id'))
         ->where('covenants.id', $request->input('covenants_id'))
-
         ->get();
         return response()->json(['status'=>true,'data'=>$payroll]);
     }

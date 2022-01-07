@@ -61,3 +61,4 @@ Route::post('user/asignarConvenio/{user_id}/{covenant_id}', [UserController::cla
 Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
 
 
+
