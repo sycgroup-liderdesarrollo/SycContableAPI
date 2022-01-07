@@ -29,28 +29,25 @@ class CovenantAssignJob implements ShouldQueue
         $ifExistCovenantPayroll = DB::table('concept_payroll')
         ->whereDate('created_at', Carbon::now()->format('Y-m-d'))
         ->select(DB::raw('DATE_FORMAT(created_at, "%Y-%m-%d") as created_at'))
-        ->value('created_at');
+        ->pluck('created_at')->first();
         $usersComun = User::where('active', '=','1')->get();
         $setting = Setting::all();
         if($ifExistCovenantPayroll != $actualDate){
-            foreach ($covenants as $covenant) {
-                foreach ($covenant->users as $user) {
-                    $payrollUser = $user->lastPayroll;
-                    $payrollUser->concepts()->attach($covenant->concept_id, ['count' => 1,'unit_value'=>$covenant->value , 'total_value'=>$covenant->value]);
-                }
-            }
             foreach($usersComun as $userComun){
                 $payrollUserComun = $userComun->lastPayroll;
                 $payrollUserComun->concepts()->attach(1 ,['count' => 15, 'unit_value'=>$payrollUserComun->user->base_salary/30, 'total_value'=>($payrollUserComun->count ?? 15)*($payrollUserComun->user->base_salary/30)]);
                 if ($userComun->base_salary < ($setting[0]->value*2)) {
                     $payrollUserComun->concepts()->attach(2 ,['count' => 1, 'unit_value'=>$setting[1]->value, 'total_value'=>$setting[1]->value]);
                 }
+                $payrollUserComun->concepts()->attach(3 ,['count' => 1, 'unit_value'=>($userComun->base_salary*$setting[2]->value)/100, 'total_value'=>($userComun->base_salary*$setting[2]->value)/100]);
+                $payrollUserComun->concepts()->attach(4 ,['count' => 1, 'unit_value'=>($userComun->base_salary*$setting[3]->value)/100, 'total_value'=>($userComun->base_salary*$setting[3]->value)/100]);
+            }
+            foreach ($covenants as $covenant) {
+                foreach ($covenant->users as $user) {
+                    $payrollUser = $user->lastPayroll;
+                    $payrollUser->concepts()->attach($covenant->concept_id, ['count' => 1,'unit_value'=>$covenant->value , 'total_value'=>$covenant->value]);
+                }
             }
         }
-        else {
-            return response()->json(['status'=>true,'data'=> "No se puede volver a crear el mismo concepto en la payroll!"]);
-
-        }
-        return response()->json(['status'=>true,'data'=>$payrollUser]);
     }
 }
