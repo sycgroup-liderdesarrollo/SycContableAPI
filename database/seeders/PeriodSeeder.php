@@ -14,7 +14,7 @@ class PeriodSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('periods')->insert(['name'=>'5 a 19']);
-        DB::table('periods')->insert(['name'=>'20 a 4']);
+        DB::table('periods')->insert(['name'=>'1 a 15']);
+        DB::table('periods')->insert(['name'=>'16 a 30']);
     }
 }

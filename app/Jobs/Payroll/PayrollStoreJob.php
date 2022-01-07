@@ -3,6 +3,7 @@
 namespace App\Jobs\Payroll;
 
 use App\Models\Payroll;
+use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -22,29 +23,32 @@ class PayrollStoreJob implements ShouldQueue
     }
     public function handle()
     {
-        $date = Carbon::now()->format('d');
-        if($date == 1 || $date == 15){
-            $period = 1;
-        }else{
-            $period = 2;
-        }
-        $users = DB::table('users')
-        ->where('active', '=','1')
-        ->get();
+        switch (Carbon::now()->format('d')) {
+            case 1:
+                $period = 1;
+                break;
+            case 16:
+                $period = 2;
+                break;
 
-        $periodActual = DB::table('payrolls')
-        ->whereMonth('created_at', Carbon::now()->format('m'))
+            default:
+                break;
+        }
+
+        $payrollActual = Payroll::whereMonth('created_at', Carbon::now()->format('m'))
         ->whereYear('created_at', Carbon::now()->format('Y'))
+        ->where('period_id',$period)
         ->select('period_id')
-        ->value('period_id');
+        ->first();
 
-        if( $periodActual != $period){
+        if( !$payrollActual ){
+
+            $users = User::where('active', 1)->get();
+
             foreach ($users as $user){
-            $payroll = Payroll::create(['period_id'=>$period,'user_id'=>$user->id]);
+                Payroll::create(['period_id'=>$period,'user_id'=>$user->id]);
+            }
         }
-        }else{
-            return false;
-        }
-        return response(['status'=>200, 'data'=>$payroll]);
+
     }
 }
