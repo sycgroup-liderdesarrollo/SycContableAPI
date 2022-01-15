@@ -55,7 +55,7 @@ Route::prefix('payroll')->group( function(){
 Route::get('consultaPayroll', [PayrollController::class, 'consultDatePeriod']);
 Route::get('consultaCovenant', [CovenantController::class, 'consultCovenant']);
 //cargar conceptos, devengados y deducciones
-Route::post('payrollConcept/{payroll_id}/{concept_id}', [PayrollController::class, 'asignarConcepto']);
+Route::post('payrollConcept/{payroll_id}', [PayrollController::class, 'asignarConcepto']);
 //asignar un convenio a un usuario
 Route::post('user/asignarConvenio/{user_id}/{covenant_id}', [UserController::class, 'asignarConvenio']);
 Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
