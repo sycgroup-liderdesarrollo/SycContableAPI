@@ -11,7 +11,7 @@ class Payroll extends Model
 {
     use HasFactory, SoftDeletes;
     protected $fillable=['period_id', 'user_id','deleted_at'];
-    protected $with = ['period','user'];
+    protected $with = ['period','user', 'concepts'];
 
     public function concepts()
     {
