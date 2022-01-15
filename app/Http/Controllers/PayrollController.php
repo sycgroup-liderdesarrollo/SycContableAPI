@@ -59,6 +59,7 @@ class PayrollController extends Controller
     public function asignarConcepto($payroll_id, Request $request)
     {
         $payroll = Payroll::find($payroll_id);
+        $inutil=['conceptType' => $request->conceptType];
         $payroll->concepts()->attach(['concept_id'=>$request->concept_id], ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
