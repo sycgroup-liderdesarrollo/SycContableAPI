@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Events\NominaEvent;
 use App\Models\Concept;
+use App\Models\Covenant;
 use App\Models\Payroll;
 use PDF;
 use Illuminate\Http\Request;
@@ -26,18 +27,8 @@ class PayrollController extends Controller
     public function store(Request $request)
     {
         $payroll = Payroll::create($request->all());
-
-        $value = DB::table('concepts')
-        ->join('settings','concepts.setting_id', 'settings.id')
-        ->where('settings.id',2)
-        ->select('settings.value')
-        ->value('settings.value');
-
-        $payroll->concepts()->attach(1 ,['count' => 15, 'unit_value'=>$payroll->user->base_salary/30, 'total_value'=>($payroll->count ?? 15)*($payroll->user->base_salary/30)]);
-        $payroll->concepts()->attach(2 ,['count' => 1, 'unit_value'=>$value, 'total_value'=>$value]);
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
-
     public function show(Payroll $payroll)
     {
         $payroll->period;
@@ -125,5 +116,21 @@ class PayrollController extends Controller
 
         ->get();
         return response()->json(['status'=>true,'data'=>$payroll]);
+    }
+
+    public function prueba()
+    {
+        $permanentCovenants = Covenant::where('covenant_type_id',2)->get();
+
+        foreach ($permanentCovenants as $permanentCovenant) {
+            $users = $permanentCovenant->users;
+            foreach ($users as $user) {
+                $payrollUser = $user->lastPayroll;
+                $payrollUser->concepts()->attach($permanentCovenant->concept_id, ['count' => 1,'unit_value'=>$permanentCovenant->value , 'total_value'=>$permanentCovenant->value]);
+
+                return response()->json(['status'=>true,'data'=>$payrollUser]);
+            }
+        }
+
     }
 }

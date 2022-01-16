@@ -16,12 +16,6 @@ use App\Http\Controllers\ProviderController;
 use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\UserController;
-use App\Models\ContractType;
-use App\Models\Covenant;
-use App\Models\Payroll;
-use App\Models\Period;
-use App\Models\SalaryType;
-use Facade\FlareClient\Api;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -83,3 +77,5 @@ Route::post('payrollConcept/{id}/{id2}', [PayrollController::class, 'asignarConc
 Route::post('user/asignarConvenio/{id}/{id2}', [UserController::class, 'asignarConvenio']);
 
 Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
+
+Route::get('prueba', [PayrollController::class, 'prueba']);

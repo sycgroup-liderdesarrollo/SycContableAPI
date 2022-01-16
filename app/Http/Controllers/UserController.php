@@ -13,9 +13,16 @@ use Illuminate\Support\Facades\Hash;
  */
 class UserController extends Controller
 {
-    public function index()
+    /**
+     * @queryParam filter Aplica filtro para el nombre. Example: Jhonatan
+     * @queryParam active int Filtro para buscar por estado activo o inactivo 1=activo, 0=inactivo. Example: 1
+     */
+    public function index(Request $request)
     {
-        $users=User::with('position')->get();
+        $filter = $request->query('filter', null);
+        $active = $request->query('active', null);
+
+        $users = User::filter($filter)->active($active)->with('position')->get();
 
         return response()->json(['status'=>true,'data'=>$users]);
     }

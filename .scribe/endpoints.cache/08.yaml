@@ -21,7 +21,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:06:52.000000Z","updated_at":"2022-01-03T18:06:52.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":2,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:08:52.000000Z","updated_at":"2022-01-03T18:08:52.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":3,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:18:17.000000Z","updated_at":"2022-01-03T18:18:17.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":4,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:21:33.000000Z","updated_at":"2022-01-03T18:21:33.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":5,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:34:47.000000Z","updated_at":"2022-01-03T18:34:47.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":6,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:36:09.000000Z","updated_at":"2022-01-03T18:36:09.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":7,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:39:58.000000Z","updated_at":"2022-01-03T18:39:58.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":8,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:44:58.000000Z","updated_at":"2022-01-03T18:44:58.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":9,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:46:49.000000Z","updated_at":"2022-01-03T18:46:49.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":10,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:47:31.000000Z","updated_at":"2022-01-03T18:47:31.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":11,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:49:44.000000Z","updated_at":"2022-01-03T18:49:44.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":12,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:53:10.000000Z","updated_at":"2022-01-03T18:53:10.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}}]}'
+        content: '{"status":true,"data":[{"id":13,"period_id":2,"user_id":1,"created_at":"2021-12-16T01:00:00.000000Z","updated_at":"2021-12-16T01:00:00.000000Z","deleted_at":null,"period":{"id":2,"name":"20 a 4","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":15,"period_id":1,"user_id":1,"created_at":"2022-01-03T19:03:17.000000Z","updated_at":"2022-01-03T19:03:17.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":16,"period_id":2,"user_id":1,"created_at":"2022-01-03T19:12:13.000000Z","updated_at":"2022-01-03T19:12:13.000000Z","deleted_at":null,"period":{"id":2,"name":"20 a 4","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":17,"period_id":1,"user_id":1,"created_at":"2022-01-03T20:01:47.000000Z","updated_at":"2022-01-03T20:01:47.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":18,"period_id":1,"user_id":1,"created_at":"2022-01-03T20:06:13.000000Z","updated_at":"2022-01-03T20:06:13.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":19,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:04:16.000000Z","updated_at":"2022-01-04T13:04:16.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":20,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:11:14.000000Z","updated_at":"2022-01-04T13:11:14.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":21,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:12:23.000000Z","updated_at":"2022-01-04T13:12:23.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":22,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:12:59.000000Z","updated_at":"2022-01-04T13:12:59.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":23,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:13:24.000000Z","updated_at":"2022-01-04T13:13:24.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":24,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:14:53.000000Z","updated_at":"2022-01-04T13:14:53.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":25,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:17:20.000000Z","updated_at":"2022-01-04T13:17:20.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":26,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:18:01.000000Z","updated_at":"2022-01-04T13:18:01.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":27,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:18:57.000000Z","updated_at":"2022-01-04T13:18:57.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":28,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:21:13.000000Z","updated_at":"2022-01-04T13:21:13.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":29,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:23:56.000000Z","updated_at":"2022-01-04T13:23:56.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":30,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:26:14.000000Z","updated_at":"2022-01-04T13:26:14.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":31,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:28:04.000000Z","updated_at":"2022-01-04T13:28:04.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}},{"id":32,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:30:39.000000Z","updated_at":"2022-01-04T13:30:39.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -78,15 +78,429 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 20
+        example: 11
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":{"id":1,"period_id":1,"user_id":1,"created_at":"2022-01-03T18:06:52.000000Z","updated_at":"2022-01-03T18:06:52.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null},"concepts":[{"id":1,"name":"Salario basico","calculated":0,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":1,"concept_id":1,"created_at":"2022-01-03T18:06:52.000000Z","updated_at":"2022-01-03T18:06:52.000000Z","count":15,"unit_value":30000,"total_value":450000}}]}}'
+        status: 404
+        content: |-
+          {
+              "message": "No query results for model [App\\Models\\Payroll] 1",
+              "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+              "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
+              "line": 385,
+              "trace": [
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
+                      "line": 332,
+                      "function": "prepareException",
+                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php",
+                      "line": 54,
+                      "function": "render",
+                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+                      "line": 51,
+                      "function": "render",
+                      "class": "NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 172,
+                      "function": "handleException",
+                      "class": "Illuminate\\Routing\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+                      "line": 127,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+                      "line": 103,
+                      "function": "handleRequest",
+                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+                      "line": 55,
+                      "function": "handleRequestUsingNamedLimiter",
+                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 103,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 697,
+                      "function": "then",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 672,
+                      "function": "runRouteWithinStack",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 636,
+                      "function": "runRoute",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 625,
+                      "function": "dispatchToRoute",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+                      "line": 167,
+                      "function": "dispatch",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 128,
+                      "function": "Illuminate\\Foundation\\Http\\{closure}",
+                      "class": "Illuminate\\Foundation\\Http\\Kernel",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+                      "line": 21,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
+                      "line": 31,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+                      "line": 21,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
+                      "line": 40,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
+                      "line": 27,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
+                      "line": 86,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php",
+                      "line": 52,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Fruitcake\\Cors\\HandleCors",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php",
+                      "line": 39,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Http\\Middleware\\TrustProxies",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 103,
+                      "function": "Illuminate\\Pipeline\\{closure}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+                      "line": 142,
+                      "function": "then",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+                      "line": 111,
+                      "function": "sendRequestThroughRouter",
+                      "class": "Illuminate\\Foundation\\Http\\Kernel",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 299,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Kernel",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 287,
+                      "function": "callLaravelOrLumenRoute",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 89,
+                      "function": "makeApiCall",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 45,
+                      "function": "makeResponseCall",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 35,
+                      "function": "makeResponseCallIfConditionsPass",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
+                      "line": 222,
+                      "function": "__invoke",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
+                      "line": 179,
+                      "function": "iterateThroughStrategies",
+                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
+                      "line": 116,
+                      "function": "fetchResponses",
+                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
+                      "line": 117,
+                      "function": "processRoute",
+                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
+                      "line": 75,
+                      "function": "extractEndpointsInfoFromLaravelApp",
+                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
+                      "line": 51,
+                      "function": "extractEndpointsInfoAndWriteToDisk",
+                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php",
+                      "line": 48,
+                      "function": "get",
+                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+                      "line": 36,
+                      "function": "handle",
+                      "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
+                      "line": 40,
+                      "function": "Illuminate\\Container\\{closure}",
+                      "class": "Illuminate\\Container\\BoundMethod",
+                      "type": "::"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+                      "line": 93,
+                      "function": "unwrapIfClosure",
+                      "class": "Illuminate\\Container\\Util",
+                      "type": "::"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+                      "line": 37,
+                      "function": "callBoundMethod",
+                      "class": "Illuminate\\Container\\BoundMethod",
+                      "type": "::"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
+                      "line": 653,
+                      "function": "call",
+                      "class": "Illuminate\\Container\\BoundMethod",
+                      "type": "::"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
+                      "line": 136,
+                      "function": "call",
+                      "class": "Illuminate\\Container\\Container",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php",
+                      "line": 298,
+                      "function": "execute",
+                      "class": "Illuminate\\Console\\Command",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
+                      "line": 121,
+                      "function": "run",
+                      "class": "Symfony\\Component\\Console\\Command\\Command",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php",
+                      "line": 1005,
+                      "function": "run",
+                      "class": "Illuminate\\Console\\Command",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php",
+                      "line": 299,
+                      "function": "doRunCommand",
+                      "class": "Symfony\\Component\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\symfony\\console\\Application.php",
+                      "line": 171,
+                      "function": "doRun",
+                      "class": "Symfony\\Component\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php",
+                      "line": 94,
+                      "function": "run",
+                      "class": "Symfony\\Component\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php",
+                      "line": 129,
+                      "function": "run",
+                      "class": "Illuminate\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "C:\\Users\\User\\Documents\\syc_contable\\artisan",
+                      "line": 37,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Console\\Kernel",
+                      "type": "->"
+                  }
+              ]
+          }
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -113,7 +527,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 12
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -151,7 +565,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 14
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -283,12 +697,39 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[]}'
+        content: '{"status":true,"data":[{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000},{"nomina_id":29,"concepto":"Salud","tipo_concepto":"Deduccion","convenio":"Salud","nombre_usuario":"Jhonatan","periodo":"5 a 19","valor_cobrado":20000}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
           x-ratelimit-remaining: '25'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/prueba
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":{"id":32,"period_id":1,"user_id":1,"created_at":"2022-01-04T13:30:39.000000Z","updated_at":"2022-01-04T13:30:39.000000Z","deleted_at":null,"period":{"id":1,"name":"5 a 19","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":900000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T18:06:44.000000Z","updated_at":"2022-01-03T18:06:44.000000Z","deleted_at":null}}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '24'
           access-control-allow-origin: '*'
         description: null
     responseFields: []

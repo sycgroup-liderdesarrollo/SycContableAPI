@@ -69,7 +69,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 20
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -77,7 +77,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null,"covenant":[]}}'
+        content: '{"status":true,"data":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null,"covenant":[{"id":1,"name":"Salud","active":1,"value":20000,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":3,"created_at":"2022-01-03T19:03:38.000000Z","updated_at":"2022-01-03T19:03:38.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":3,"name":"Salud","calculated":1,"setting_id":null,"concept_type_id":2,"created_at":"2022-01-03T19:03:38.000000Z","updated_at":"2022-01-03T19:03:38.000000Z","deleted_at":null}},{"id":2,"name":"Lentes","active":1,"value":10000,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":4,"created_at":"2022-01-03T19:36:32.000000Z","updated_at":"2022-01-03T19:36:32.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":4,"name":"Cuota de convenio por lentes","calculated":1,"setting_id":null,"concept_type_id":2,"created_at":"2022-01-03T19:36:32.000000Z","updated_at":"2022-01-03T19:36:32.000000Z","deleted_at":null}}]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -104,7 +104,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 13
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -135,7 +135,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 15
+        example: 13
         type: integer
         custom: []
     queryParameters: []

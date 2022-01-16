@@ -73,8 +73,23 @@ class User extends Authenticatable
     {
         return $this->belongsToMany(Role::class);
     }
-    public function payroll()
+    public function payrolls()
     {
-        return $this->hasOne(Payroll::class);
+        return $this->hasMany(Payroll::class);
+    }
+
+    public function lastPayroll()
+    {
+        return $this->hasOne(Payroll::class)->latestOfMany();
+    }
+
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name','like','%'.$filter.'%');
+    }
+
+    public function scopeActive($query, $active)
+    {
+        return $query->where('active', 'like','%'.$active);
     }
 }
