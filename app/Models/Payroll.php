@@ -15,7 +15,7 @@ class Payroll extends Model
 
     public function concepts()
     {
-        return $this->belongsToMany(Concept::class)->withTimestamps()->withPivot('count', 'unit_value','total_value');
+        return $this->belongsToMany(Concept::class)->withTimestamps()->withPivot('count', 'unit_value','total_value', 'id');
     }
     public function period()
     {
