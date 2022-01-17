@@ -69,11 +69,11 @@ class PayrollController extends Controller
      * @urlParam payroll_id int required El id de la nomina a la que se le eliminará el concepto
      * @bodyParam id int required El id del concepto que se eliminará ubicado en la pivot
      */
-    public function eliminarConceptoPayroll($payroll_id, Request $request)
+    public function eliminarConceptoPayroll($payroll_id, $conceptPivotId)
     {
         $payroll = Payroll::find($payroll_id);
-        $payroll->concepts()->wherePivot('id', $request->id)->detach();
-        return response()->json(['status'=>true,'data'=>"Se eliminó con exitó el conceptPivotId: {$request->id}"]);
+        $payroll->concepts()->wherePivot('id', $conceptPivotId)->detach();
+        return response()->json(['status'=>true,'data'=>"Se eliminó con exitó el conceptPivotId: {$conceptPivotId}"]);
     }
     //hacer un detach para eliminar el ID de la pivot que se seleccione
     public function PDFi($payroll)
