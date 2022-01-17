@@ -71,7 +71,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 15
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -106,7 +106,7 @@ endpoints:
         name: id
         description: 'The ID of the period.'
         required: true
-        example: 19
+        example: 13
         type: integer
         custom: []
     queryParameters: []

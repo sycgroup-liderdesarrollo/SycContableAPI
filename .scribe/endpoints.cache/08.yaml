@@ -21,7 +21,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":319,"period_id":2,"user_id":1,"created_at":"2022-01-16T05:00:08.000000Z","updated_at":"2022-01-16T05:00:08.000000Z","deleted_at":null,"period":{"id":2,"name":"16 a 30","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1820000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T23:06:44.000000Z","updated_at":"2022-01-03T23:06:44.000000Z","deleted_at":null},"concepts":[{"id":1,"name":"Salario basico","calculated":1,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":319,"concept_id":1,"created_at":"2022-01-15T16:52:31.000000Z","updated_at":"2022-01-15T16:52:31.000000Z","count":15,"unit_value":30000,"total_value":450000,"id":896}},{"id":1,"name":"Salario basico","calculated":1,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":319,"concept_id":1,"created_at":"2022-01-17T13:31:48.000000Z","updated_at":"2022-01-17T13:31:48.000000Z","count":15,"unit_value":30000,"total_value":450000,"id":899}},{"id":1,"name":"Salario basico","calculated":1,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":319,"concept_id":1,"created_at":"2022-01-17T13:31:48.000000Z","updated_at":"2022-01-17T13:31:48.000000Z","count":15,"unit_value":30000,"total_value":450000,"id":900}},{"id":1,"name":"Salario basico","calculated":1,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":319,"concept_id":1,"created_at":"2022-01-17T13:31:49.000000Z","updated_at":"2022-01-17T13:31:49.000000Z","count":15,"unit_value":30000,"total_value":450000,"id":901}}]},{"id":320,"period_id":2,"user_id":2,"created_at":"2022-01-16T05:00:08.000000Z","updated_at":"2022-01-16T05:00:08.000000Z","deleted_at":null,"period":{"id":2,"name":"16 a 30","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Beee","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599789","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1000000,"email":"jarvis23@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-04T00:03:06.000000Z","updated_at":"2022-01-04T00:03:06.000000Z","deleted_at":null},"concepts":[]},{"id":321,"period_id":2,"user_id":3,"created_at":"2022-01-16T05:00:08.000000Z","updated_at":"2022-01-16T05:00:08.000000Z","deleted_at":null,"period":{"id":2,"name":"16 a 30","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":3,"name":"Mauricio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"123456789","admission_date":"2022-01-04","out_date":null,"base_salary":900000,"email":"gamboa@gmail.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},"concepts":[]},{"id":322,"period_id":1,"user_id":1,"created_at":"2022-02-01T05:00:49.000000Z","updated_at":"2022-02-01T05:00:49.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1820000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T23:06:44.000000Z","updated_at":"2022-01-03T23:06:44.000000Z","deleted_at":null},"concepts":[]},{"id":323,"period_id":1,"user_id":2,"created_at":"2022-02-01T05:00:49.000000Z","updated_at":"2022-02-01T05:00:49.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Beee","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599789","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1000000,"email":"jarvis23@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-04T00:03:06.000000Z","updated_at":"2022-01-04T00:03:06.000000Z","deleted_at":null},"concepts":[]},{"id":324,"period_id":1,"user_id":3,"created_at":"2022-02-01T05:00:49.000000Z","updated_at":"2022-02-01T05:00:49.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":3,"name":"Mauricio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"123456789","admission_date":"2022-01-04","out_date":null,"base_salary":900000,"email":"gamboa@gmail.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},"concepts":[]},{"id":325,"period_id":1,"user_id":1,"created_at":"2023-02-01T05:00:31.000000Z","updated_at":"2023-02-01T05:00:31.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1820000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T23:06:44.000000Z","updated_at":"2022-01-03T23:06:44.000000Z","deleted_at":null},"concepts":[]},{"id":326,"period_id":1,"user_id":2,"created_at":"2023-02-01T05:00:31.000000Z","updated_at":"2023-02-01T05:00:31.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Beee","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599789","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1000000,"email":"jarvis23@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-04T00:03:06.000000Z","updated_at":"2022-01-04T00:03:06.000000Z","deleted_at":null},"concepts":[]},{"id":327,"period_id":1,"user_id":3,"created_at":"2023-02-01T05:00:31.000000Z","updated_at":"2023-02-01T05:00:31.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":3,"name":"Mauricio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"123456789","admission_date":"2022-01-04","out_date":null,"base_salary":900000,"email":"gamboa@gmail.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},"concepts":[]}]}'
+        content: '{"status":true,"data":[{"id":319,"period_id":2,"user_id":1,"created_at":"2022-01-16T05:00:08.000000Z","updated_at":"2022-01-16T05:00:08.000000Z","deleted_at":null,"period":{"id":2,"name":"16 a 30","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1820000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T23:06:44.000000Z","updated_at":"2022-01-03T23:06:44.000000Z","deleted_at":null},"concepts":[{"id":1,"name":"Salario basico","calculated":1,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":319,"concept_id":1,"created_at":"2022-01-17T15:47:21.000000Z","updated_at":"2022-01-17T15:47:21.000000Z","count":15,"unit_value":30000,"total_value":450000,"id":902}},{"id":1,"name":"Salario basico","calculated":1,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":319,"concept_id":1,"created_at":"2022-01-17T15:47:22.000000Z","updated_at":"2022-01-17T15:47:22.000000Z","count":15,"unit_value":30000,"total_value":450000,"id":903}},{"id":1,"name":"Salario basico","calculated":1,"setting_id":1,"concept_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null,"pivot":{"payroll_id":319,"concept_id":1,"created_at":"2022-01-17T15:47:23.000000Z","updated_at":"2022-01-17T15:47:23.000000Z","count":15,"unit_value":30000,"total_value":450000,"id":905}}]},{"id":320,"period_id":2,"user_id":2,"created_at":"2022-01-16T05:00:08.000000Z","updated_at":"2022-01-16T05:00:08.000000Z","deleted_at":null,"period":{"id":2,"name":"16 a 30","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Beee","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599789","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1000000,"email":"jarvis23@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-04T00:03:06.000000Z","updated_at":"2022-01-04T00:03:06.000000Z","deleted_at":null},"concepts":[]},{"id":321,"period_id":2,"user_id":3,"created_at":"2022-01-16T05:00:08.000000Z","updated_at":"2022-01-16T05:00:08.000000Z","deleted_at":null,"period":{"id":2,"name":"16 a 30","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":3,"name":"Mauricio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"123456789","admission_date":"2022-01-04","out_date":null,"base_salary":900000,"email":"gamboa@gmail.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},"concepts":[]},{"id":322,"period_id":1,"user_id":1,"created_at":"2022-02-01T05:00:49.000000Z","updated_at":"2022-02-01T05:00:49.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1820000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T23:06:44.000000Z","updated_at":"2022-01-03T23:06:44.000000Z","deleted_at":null},"concepts":[]},{"id":323,"period_id":1,"user_id":2,"created_at":"2022-02-01T05:00:49.000000Z","updated_at":"2022-02-01T05:00:49.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Beee","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599789","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1000000,"email":"jarvis23@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-04T00:03:06.000000Z","updated_at":"2022-01-04T00:03:06.000000Z","deleted_at":null},"concepts":[]},{"id":324,"period_id":1,"user_id":3,"created_at":"2022-02-01T05:00:49.000000Z","updated_at":"2022-02-01T05:00:49.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":3,"name":"Mauricio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"123456789","admission_date":"2022-01-04","out_date":null,"base_salary":900000,"email":"gamboa@gmail.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},"concepts":[]},{"id":325,"period_id":1,"user_id":1,"created_at":"2023-02-01T05:00:31.000000Z","updated_at":"2023-02-01T05:00:31.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1820000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T23:06:44.000000Z","updated_at":"2022-01-03T23:06:44.000000Z","deleted_at":null},"concepts":[]},{"id":326,"period_id":1,"user_id":2,"created_at":"2023-02-01T05:00:31.000000Z","updated_at":"2023-02-01T05:00:31.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":2,"name":"Beee","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599789","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1000000,"email":"jarvis23@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-04T00:03:06.000000Z","updated_at":"2022-01-04T00:03:06.000000Z","deleted_at":null},"concepts":[]},{"id":327,"period_id":1,"user_id":3,"created_at":"2023-02-01T05:00:31.000000Z","updated_at":"2023-02-01T05:00:31.000000Z","deleted_at":null,"period":{"id":1,"name":"1 a 15","created_at":null,"updated_at":null,"deleted_at":null},"user":{"id":3,"name":"Mauricio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"123456789","admission_date":"2022-01-04","out_date":null,"base_salary":900000,"email":"gamboa@gmail.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},"concepts":[]}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -78,7 +78,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 6
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -527,7 +527,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 15
+        example: 4
         type: integer
         custom: []
     queryParameters: []
@@ -565,7 +565,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 18
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -678,7 +678,7 @@ endpoints:
         name: user
         description: ''
         required: true
-        example: 16
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -688,7 +688,7 @@ endpoints:
         status: 404
         content: |-
           {
-              "message": "No query results for model [App\\Models\\User] 16",
+              "message": "No query results for model [App\\Models\\User] 14",
               "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
               "file": "C:\\Users\\User\\Documents\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
               "line": 385,
@@ -1149,8 +1149,8 @@ endpoints:
     responseFields: []
   -
     httpMethods:
-      - POST
-    uri: 'api/payrollDeleteConcept/{payroll_id}'
+      - DELETE
+    uri: api/payrollDeleteConcept
     metadata:
       title: ''
       description: ''
@@ -1159,22 +1159,22 @@ endpoints:
     headers:
       Content-Type: application/json
       Accept: application/json
-    urlParameters:
+    urlParameters: []
+    queryParameters:
       payroll_id:
         name: payroll_id
         description: 'El id de la nomina a la que se le eliminará el concepto'
         required: true
-        example: 13
+        example: 10
         type: integer
         custom: []
-    queryParameters: []
-    bodyParameters:
-      id:
-        name: id
+      conceptPivot_id:
+        name: conceptPivot_id
         description: 'El id del concepto que se eliminará ubicado en la pivot'
         required: true
-        example: 13
+        example: 7
         type: integer
         custom: []
+    bodyParameters: []
     responses: []
     responseFields: []
