@@ -65,6 +65,10 @@ class PayrollController extends Controller
         $payroll->concepts()->attach(['concept_id'=>$request->concept_id], ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
+    /**
+     * @urlParam payroll_id int required El id de la nomina a la que se le eliminará el concepto
+     * @bodyParam id int required El id del concepto que se eliminará ubicado en la pivot
+     */
     public function eliminarConceptoPayroll($payroll_id, Request $request)
     {
         $payroll = Payroll::find($payroll_id);
