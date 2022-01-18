@@ -71,7 +71,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 10
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -106,7 +106,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 3
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +137,7 @@ endpoints:
         name: id
         description: 'The ID of the contractType.'
         required: true
-        example: 13
+        example: 10
         type: integer
         custom: []
     queryParameters: []

@@ -59,7 +59,7 @@ Route::post('payrollConcept/{payroll_id}', [PayrollController::class, 'asignarCo
 //eliminar conceptos
 Route::delete('payrollDeleteConcept/{payroll_id}', [PayrollController::class, 'eliminarConceptoPayroll']);
 //asignar un convenio a un usuario
-Route::post('user/asignarConvenio/{user_id}/{covenant_id}', [UserController::class, 'asignarConvenio']);
+Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
 Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
 
 

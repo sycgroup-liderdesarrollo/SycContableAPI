@@ -71,7 +71,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 16
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -79,7 +79,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null,"covenant":[{"id":2,"name":"Lentes","active":1,"value":10000,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":4,"created_at":"2022-01-04T00:36:32.000000Z","updated_at":"2022-01-04T00:36:32.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":4,"name":"Aporte AFP","calculated":1,"setting_id":null,"concept_type_id":2,"created_at":"2022-01-04T00:36:32.000000Z","updated_at":"2022-01-04T00:36:32.000000Z","deleted_at":null}}]}}'
+        content: '{"status":true,"data":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null,"covenant":[{"id":2,"name":"Lentes","active":1,"value":1984,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":4,"created_at":"2022-01-04T00:36:32.000000Z","updated_at":"2022-01-04T00:36:32.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":4,"name":"Aporte AFP","calculated":1,"setting_id":null,"concept_type_id":2,"created_at":"2022-01-04T00:36:32.000000Z","updated_at":"2022-01-04T00:36:32.000000Z","deleted_at":null}}]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -106,7 +106,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 13
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +137,7 @@ endpoints:
         name: id
         description: 'The ID of the covenantType.'
         required: true
-        example: 7
+        example: 11
         type: integer
         custom: []
     queryParameters: []
