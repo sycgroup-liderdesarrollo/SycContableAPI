@@ -76,12 +76,12 @@ class PayrollController extends Controller
         return response()->json(['status'=>true,'data'=>"Se eliminó con exitó el conceptPivotId: {$request->input('conceptPivotId')}"]);
     }
     //hacer un detach para eliminar el ID de la pivot que se seleccione
-    public function PDFi($payroll)
-    {
-        $payroll = Payroll::find($payroll);
-        $pdf = PDF::loadView('payroll.payroll', ['payroll'=>$payroll]);
-        return $pdf->stream(); //se peude usar un ->download() y stream();
-    }
+    // public function PDFi($payroll)
+    // {
+    //     $payroll = Payroll::find($payroll);
+    //     $pdf = PDF::loadView('payroll.payroll', ['payroll'=>$payroll]);
+    //     return $pdf->stream(); //se peude usar un ->download() y stream();
+    // }
 
     /**
      * @queryParam period_id int required El id del periodo de la nomina que se va a consultar. Example: 1

@@ -17,7 +17,7 @@ class Covenant extends Model
         'concept_id',
         'deleted_at'
     ];
-    protected $with = ['covenantType','concept'];
+    protected $with = ['covenantType','concept','periodicityType'];
     public function periodicityType()
     {
         return $this->belongsTo(PeriodicityType::class);

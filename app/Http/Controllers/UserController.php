@@ -51,7 +51,6 @@ class UserController extends Controller
      * @urlParam user_id int required El id del usuario. Example: 1
      * @bodyParam covenant_id int required El id2 del convenio. Example: 1
      * @bodyParam dues int required Las deudas totales del usuario. Example: 9
-     * @bodyParam paid_dues int required Las deudas pagadas del usuario. Example: 9
      */
     public function asignarConvenio($user_id, Request $request)
     {
