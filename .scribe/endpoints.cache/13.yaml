@@ -71,7 +71,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 12
+        example: 4
         type: integer
         custom: []
     queryParameters: []
@@ -106,7 +106,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 20
+        example: 7
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +137,7 @@ endpoints:
         name: id
         description: 'The ID of the salaryType.'
         required: true
-        example: 13
+        example: 5
         type: integer
         custom: []
     queryParameters: []

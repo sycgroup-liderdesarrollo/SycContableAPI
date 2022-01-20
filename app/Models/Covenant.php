@@ -14,10 +14,11 @@ class Covenant extends Model
         'value',
         'covenant_type_id',
         'periodicity_type_id',
+        'provider_id',
         'concept_id',
         'deleted_at'
     ];
-    protected $with = ['covenantType','concept','periodicityType'];
+    protected $with = ['covenantType','concept','periodicityType','provider'];
     public function periodicityType()
     {
         return $this->belongsTo(PeriodicityType::class);
@@ -33,5 +34,9 @@ class Covenant extends Model
     public function concept()
     {
         return $this->belongsTo(Concept::class);
+    }
+    public function provider()
+    {
+        return $this->belongsTo(Provider::class);
     }
 }

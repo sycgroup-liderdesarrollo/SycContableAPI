@@ -69,7 +69,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 7
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -77,7 +77,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null,"users":[{"id":1,"name":"Jhonatan","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"12325859967","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1820000,"email":"kyler36@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-03T23:06:44.000000Z","updated_at":"2022-01-03T23:06:44.000000Z","deleted_at":null},{"id":2,"name":"Beee","last_name":"Gamboa","second_last_name":"Velandia","identification_number":"1232599789","admission_date":"2022-01-03","out_date":"2022-01-03","base_salary":1000000,"email":"jarvis23@example.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":"2022-01-04T00:03:06.000000Z","updated_at":"2022-01-04T00:03:06.000000Z","deleted_at":null},{"id":3,"name":"Mauricio","last_name":"Velandia","second_last_name":"Gamboa","identification_number":"123456789","admission_date":"2022-01-04","out_date":null,"base_salary":900000,"email":"gamboa@gmail.com","email_verified_at":null,"active":1,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null},{"id":4,"name":"Blommor ","last_name":"a","second_last_name":"a","identification_number":"a","admission_date":"0000-00-00","out_date":null,"base_salary":1,"email":"s","email_verified_at":null,"active":0,"position_id":1,"business_line_id":1,"contract_type_id":1,"salary_type_id":1,"headquarter_id":1,"identification_type_id":1,"created_at":null,"updated_at":null,"deleted_at":null}],"provider":[]}}'
+        content: '{"status":true,"data":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null,"users":[],"provider":[{"id":1,"name":"Jhonatan","address":"Direccion","phone":"0424989845","identification_number":"12325996796","identification_type_id":1,"created_at":"2022-01-20T16:04:13.000000Z","updated_at":"2022-01-20T16:04:13.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}},{"id":2,"name":"Antonio","address":"Direccion","phone":"3113012514","identification_number":"445511522","identification_type_id":1,"created_at":"2022-01-20T16:05:59.000000Z","updated_at":"2022-01-20T16:05:59.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}}]}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -104,7 +104,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 1
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -135,7 +135,7 @@ endpoints:
         name: id
         description: 'The ID of the identificationType.'
         required: true
-        example: 4
+        example: 17
         type: integer
         custom: []
     queryParameters: []

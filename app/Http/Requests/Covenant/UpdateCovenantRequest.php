@@ -34,7 +34,8 @@ class UpdateCovenantRequest extends FormRequest
             'value'=>'integer',
             'covenant_type_id'=>'integer',
             'periodicity_type_id'=>'integer',
-            'concept_id'=>'integer'
+            'provider_id'=>'integer',
+            'concept_name'=>'string|min:3'
         ];
     }
 }

@@ -19,6 +19,7 @@ class CovenantController extends Controller
         return response()->json(['status'=>true,'data'=>$covenants]);
     }
     /**
+     * @bodyParam provider_id int Es el id del proveedor. Example: 1
      * @bodyParam concept_name string Es el nombre del concepto con el que se cargará en la nomina. Example: Cuota de convenio por salud
      */
     public function store(CreateCovenantRequest $request, Covenant $covenant)

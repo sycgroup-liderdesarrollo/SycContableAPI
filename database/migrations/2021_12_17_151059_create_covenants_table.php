@@ -18,12 +18,13 @@ class CreateCovenantsTable extends Migration
             //datos basicos
             $table->string('name');
             $table->boolean('active')->default(true);
-            $table->integer('value');
+            $table->integer('value')->nullable();
             //llaves foraneas
             $table->foreignId('covenant_type_id')->references('id')->on('covenant_types');
             $table->foreignId('periodicity_type_id')->references('id')->on('periodicity_types');
             $table->unsignedBigInteger('concept_id')->nullable();
             $table->foreign('concept_id')->references('id')->on('concepts')->onDelete('set null');
+            $table->foreignId('provider_id')->references('id')->on('providers');
             //
             $table->timestamps();
             $table->softDeletes();

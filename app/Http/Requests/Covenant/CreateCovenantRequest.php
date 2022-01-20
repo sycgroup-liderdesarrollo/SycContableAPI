@@ -25,9 +25,10 @@ class CreateCovenantRequest extends FormRequest
     {
         return [
             'name'=>'required|string|unique:covenants,name',
-            'value'=>'required|integer',
+            'value'=>'integer|nullable',
             'covenant_type_id'=>'required|integer',
             'periodicity_type_id'=>'required|integer',
+            'provider_id'=>'required|integer',
             'concept_name'=>'required|string|min:3'
         ];
     }

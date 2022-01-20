@@ -18,8 +18,13 @@ class Provider extends Model
         'deleted_at'
     ];
     protected $with = ['identificationType'];
+
     public function identificationType()
     {
         return $this->belongsTo(identificationType::class);
+    }
+    public function covenant()
+    {
+        return $this->hasOne(Covenant::class);
     }
 }
