@@ -50,6 +50,7 @@ class UserController extends Controller
     /**
      * @urlParam user_id int required El id del usuario. Example: 1
      * @bodyParam covenant_id int required El id2 del convenio. Example: 1
+     * @bodyParam value int El valor de la cuota que se le va a cobrar a éste usuario unicamente. Example: 5000
      * @bodyParam dues int required Las deudas totales del usuario. Example: 9
      */
     public function asignarConvenio($user_id, Request $request)
@@ -61,7 +62,7 @@ class UserController extends Controller
             return response()->json(['status'=>true,'data'=>"convenio asignado: '{$value->name}' al usuario '{$user->name}'"]);
         }
         else {
-            $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>$request->dues, 'paid_dues'=>0, 'value'=>$value->value]);
+            $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>$request->dues, 'paid_dues'=>0, 'value'=>$request->value]);
             return response()->json(['status'=>true,'data'=>"convenio asignado: '{$value->name}' al usuario '{$user->name}'"]);
         }
     }
