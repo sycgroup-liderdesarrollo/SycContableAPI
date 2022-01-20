@@ -29,7 +29,7 @@ class Covenant extends Model
     }
     public function users()
     {
-        return $this->belongsToMany(User::class);
+        return $this->belongsToMany(User::class)->withPivot('value','dues','paid_dues');
     }
     public function concept()
     {
