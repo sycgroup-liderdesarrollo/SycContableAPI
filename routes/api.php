@@ -30,37 +30,37 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware(['auth:api'])->group(function () {
+    
+    Route::apiResource('user', UserController::class);
+    Route::apiResource('covenant', CovenantController::class);
+    Route::apiResource('covenantType', CovenantTypeController::class);
+    Route::apiResource('periodicityType', PeriodicityTypeController::class);
+    Route::apiResource('provider', ProviderController::class);
+    Route::apiResource('businessLine', BusinessLineController::class);
+    Route::apiResource('position', PositionController::class);
+    Route::apiResource('contractType', ContractTypeController::class);
+    Route::apiResource('salaryType', SalaryTypeController::class);
+    Route::apiResource('headQuarter', HeadquarterController::class);
+    Route::apiResource('identificationType', IdentificationTypeController::class);
+    Route::apiResource('period', PeriodController::class);
+    Route::apiResource('setting', SettingController::class);
+    Route::apiResource('conceptType', ConceptTypeController::class);
+    Route::apiResource('concept', ConceptController::class);
+    Route::apiResource('payroll', PayrollController::class);
+    Route::prefix('payroll')->group( function(){
+        Route::get('user/{user}',[PayrollController::class,'userPayroll']);
+    });
+    Route::get('consultaPayroll', [PayrollController::class, 'consultDatePeriod']);
+    Route::get('consultaCovenant', [CovenantController::class, 'consultCovenant']);
+    //cargar conceptos, devengados y deducciones
+    Route::post('payrollConcept/{payroll_id}', [PayrollController::class, 'asignarConcepto']);
+    //eliminar conceptos
+    Route::delete('payrollDeleteConcept/{payroll_id}', [PayrollController::class, 'eliminarConceptoPayroll']);
+    //asignar un convenio a un usuario
+    Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
+    Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
 });
-Route::apiResource('user', UserController::class);
-Route::apiResource('covenant', CovenantController::class);
-Route::apiResource('covenantType', CovenantTypeController::class);
-Route::apiResource('periodicityType', PeriodicityTypeController::class);
-Route::apiResource('provider', ProviderController::class);
-Route::apiResource('businessLine', BusinessLineController::class);
-Route::apiResource('position', PositionController::class);
-Route::apiResource('contractType', ContractTypeController::class);
-Route::apiResource('salaryType', SalaryTypeController::class);
-Route::apiResource('headQuarter', HeadquarterController::class);
-Route::apiResource('identificationType', IdentificationTypeController::class);
-Route::apiResource('period', PeriodController::class);
-Route::apiResource('setting', SettingController::class);
-Route::apiResource('conceptType', ConceptTypeController::class);
-Route::apiResource('concept', ConceptController::class);
-Route::apiResource('payroll', PayrollController::class);
-Route::prefix('payroll')->group( function(){
-    Route::get('user/{user}',[PayrollController::class,'userPayroll']);
-});
-Route::get('consultaPayroll', [PayrollController::class, 'consultDatePeriod']);
-Route::get('consultaCovenant', [CovenantController::class, 'consultCovenant']);
-//cargar conceptos, devengados y deducciones
-Route::post('payrollConcept/{payroll_id}', [PayrollController::class, 'asignarConcepto']);
-//eliminar conceptos
-Route::delete('payrollDeleteConcept/{payroll_id}', [PayrollController::class, 'eliminarConceptoPayroll']);
-//asignar un convenio a un usuario
-Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
-Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
 
 
 
