@@ -39,7 +39,9 @@ class UserController extends Controller
     }
     public function update(UpdateUserRequest $request, User $user)
     {
-        $user->update($request->all());
+        $user->fill($request->all());
+        $user->password = Hash::make($user->password);
+        $user->save();
         return response()->json(['status'=>true,'data'=>$user]);
     }
     public function destroy(User $user)

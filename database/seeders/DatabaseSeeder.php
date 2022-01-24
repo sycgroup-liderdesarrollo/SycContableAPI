@@ -29,6 +29,7 @@ class DatabaseSeeder extends Seeder
             PeriodSeeder::class,
             SettingSeeder::class,
             ConceptSeeder::class,
+            UserSeeder::class
         ]);
     }
 }
