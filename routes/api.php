@@ -17,6 +17,7 @@ use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -60,6 +61,11 @@ Route::middleware(['auth:api'])->group(function () {
     //asignar un convenio a un usuario
     Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
     Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
+});
+
+Route::get('checkLogin', function (){
+    if(Auth::guard('api')->check()) return response()->json(['isLogined'=>true]);
+    return response()->json(['isLogined'=>false]);
 });
 
 
