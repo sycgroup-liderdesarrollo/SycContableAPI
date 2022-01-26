@@ -15,7 +15,7 @@ class CreateContactsTable extends Migration
             $table->string('last_name');
             $table->string('email')->unique();
             $table->string('position')->nullable();
-            $table->integer('phone');
+            $table->double('phone');
             //llave foranea
             $table->foreignId('provider_id')->references('id')->on('providers');
             //

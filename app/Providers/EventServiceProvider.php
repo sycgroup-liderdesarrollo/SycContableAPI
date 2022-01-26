@@ -5,7 +5,9 @@ namespace App\Providers;
 use App\Events\NominaEvent;
 use App\Listeners\NominaListen;
 use App\Models\Covenant;
+use App\Models\Provider;
 use App\Observers\CovenantObserver;
+use App\Observers\ProviderObserver;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -35,5 +37,6 @@ class EventServiceProvider extends ServiceProvider
     public function boot()
     {
         Covenant::observe(CovenantObserver::class);
+        Provider::observe(ProviderObserver::class);
     }
 }

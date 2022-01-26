@@ -25,7 +25,8 @@ class Provider extends Model
         'responsability_type_id',
         'deleted_at'
     ];
-    protected $with = ['identificationType'];
+    protected $with = ['identificationType','constitutionType','responsabilityType','city'];
+    protected $hidden = ['identification_type_id','responsability_type_id','constitution_type_id','city_id'];
 
     public function identificationType()
     {
@@ -46,5 +47,9 @@ class Provider extends Model
     public function contacts()
     {
         return $this->hasMany(Contact::class);
+    }
+    public function responsabilityType()
+    {
+        return $this->belongsTo(ResponsabilityType::class);
     }
 }

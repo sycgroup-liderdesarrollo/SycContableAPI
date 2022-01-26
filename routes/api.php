@@ -3,9 +3,11 @@
 use App\Http\Controllers\BusinessLineController;
 use App\Http\Controllers\ConceptController;
 use App\Http\Controllers\ConceptTypeController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContractTypeController;
 use App\Http\Controllers\CovenantController;
 use App\Http\Controllers\CovenantTypeController;
+use App\Http\Controllers\EmergencyContactController;
 use App\Http\Controllers\HeadquarterController;
 use App\Http\Controllers\IdentificationTypeController;
 use App\Http\Controllers\PayrollController;
@@ -16,7 +18,6 @@ use App\Http\Controllers\ProviderController;
 use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\UserController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -32,7 +33,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::middleware(['auth:api'])->group(function () {
-    
+
     Route::apiResource('user', UserController::class);
     Route::apiResource('covenant', CovenantController::class);
     Route::apiResource('covenantType', CovenantTypeController::class);
@@ -61,12 +62,13 @@ Route::middleware(['auth:api'])->group(function () {
     //asignar un convenio a un usuario
     Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
     Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
-});
-
-Route::get('checkLogin', function (){
-    if(Auth::guard('api')->check()) return response()->json(['isLogined'=>true]);
-    return response()->json(['isLogined'=>false]);
-});
+    });
+    Route::get('checkLogin', function (){
+        if(Auth::guard('api')->check()) return response()->json(['isLogined'=>true]);
+        return response()->json(['isLogined'=>false]);
+    });
+    Route::apiResource('emergencyContact', EmergencyContactController::class);
+    Route::apiResource('contact', ContactController::class);
 
 
 
