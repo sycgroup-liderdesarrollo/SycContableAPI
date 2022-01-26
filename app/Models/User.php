@@ -15,31 +15,40 @@ class User extends Authenticatable
 
     protected $fillable = [
         'name',
-        'email',
-        'password',
         'last_name',
         'second_last_name',
         'identification_number',
         'admission_date',
-        'out_date',
         'base_salary',
+        'email',
+        'password',
+        'address',
+        'neighborhood',
+        'birthday',
+        'children',
         'position_id',
-        'business_line_id',
         'contract_type_id',
         'salary_type_id',
         'headquarter_id',
         'identification_type_id',
-        'deleted_at'
+        'gender_id',
+        'health_provider_id',
+        'pension_fund_id',
+        'civil_statu_id',
+        'work_city_id',
+        'residence_city_id',
+        'expedition_place_id',
+        'strata_id',
+        'education_level_id',
+        'active',
+        'emergency_contact_id',
     ];
 
-    protected $hidden = ['password','remember_token',];
+    protected $hidden = ['password','remember_token','gender_id','position_id'];
+    protected $with = ['gender'];
 
-    protected $casts = ['email_verified_at' => 'datetime',];
+    protected $casts = ['email_verified_at' => 'datetime'];
 
-    public function businessLine()
-    {
-        return  $this->belongsTo(BusinessLine::class);
-    }
     public function position()
     {
         return $this->belongsTo(Position::class);
@@ -83,5 +92,33 @@ class User extends Authenticatable
     public function scopeActive($query, $active)
     {
         return $query->where('active', 'like','%'.$active);
+    }
+    public function city()
+    {
+        return $this->belongsTo(City::class);
+    }
+    public function civilStatus()
+    {
+        return $this->belongsTo(CivilStatu::class);
+    }
+    public function educationLevel()
+    {
+        return $this->belongsTo(EducationLevel::class);
+    }
+    public function gender()
+    {
+        return $this->belongsTo(Gender::class);
+    }
+    public function heatlhProvider()
+    {
+        return $this->belongsTo(HealthProvider::class);
+    }
+    public function pensionFund()
+    {
+        return $this->belongsTo(PensionFund::class);
+    }
+    public function strata()
+    {
+        return $this->belongsTo(Strata::class);
     }
 }

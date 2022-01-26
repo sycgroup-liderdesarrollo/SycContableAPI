@@ -1,10 +1,10 @@
-name: Position
+name: 'Periodicity Type'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/position
+    uri: api/periodicityType
     metadata:
       title: ''
       description: ''
@@ -18,20 +18,18 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Gerente","created_at":null,"updated_at":null,"deleted_at":null},{"id":2,"name":"Lider","created_at":null,"updated_at":null,"deleted_at":null},{"id":3,"name":"Auxiliar","created_at":null,"updated_at":null,"deleted_at":null},{"id":4,"name":"Aprendiz","created_at":null,"updated_at":null,"deleted_at":null}]}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '47'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
   -
     httpMethods:
       - POST
-    uri: api/position
+    uri: api/periodicityType
     metadata:
       title: ''
       description: ''
@@ -45,9 +43,9 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del cargo.'
+        description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: Jefe
+        example: autem
         type: required
         custom: []
     responses: []
@@ -55,7 +53,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/position/{id}'
+    uri: 'api/periodicityType/{id}'
     metadata:
       title: ''
       description: ''
@@ -67,22 +65,20 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the periodicityType.'
         required: true
-        example: 10
+        example: 6
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Gerente","created_at":null,"updated_at":null,"deleted_at":null}}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '46'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -90,7 +86,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/position/{id}'
+    uri: 'api/periodicityType/{id}'
     metadata:
       title: ''
       description: ''
@@ -102,18 +98,18 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the periodicityType.'
         required: true
-        example: 17
+        example: 20
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del cargo.'
+        description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: Jefe
+        example: repellendus
         type: required
         custom: []
     responses: []
@@ -121,7 +117,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/position/{id}'
+    uri: 'api/periodicityType/{id}'
     metadata:
       title: ''
       description: ''
@@ -133,9 +129,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the periodicityType.'
         required: true
-        example: 9
+        example: 19
         type: integer
         custom: []
     queryParameters: []

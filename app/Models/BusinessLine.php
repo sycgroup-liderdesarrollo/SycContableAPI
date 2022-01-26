@@ -12,8 +12,8 @@ class BusinessLine extends Model
     use HasFactory, SoftDeletes;
     protected $fillable = ['name','deleted_at'];
 
-    public function users()
+    public function position()
     {
-        return $this->hasMany(User::class);
+        return $this->hasOne(Position::class);
     }
 }

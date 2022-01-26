@@ -12,6 +12,7 @@ class Covenant extends Model
     protected $fillable=[
         'name',
         'value',
+        'active',
         'covenant_type_id',
         'periodicity_type_id',
         'provider_id',

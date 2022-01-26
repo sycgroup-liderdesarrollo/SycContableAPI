@@ -6,33 +6,32 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateProvidersTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         Schema::create('providers', function (Blueprint $table) {
             $table->id();
             //datos basicos
             $table->string('name');
+            $table->string('last_name')->nullable();
+            $table->string('trade_name');
             $table->string('address');
             $table->string('phone');
             $table->string('identification_number');
+            $table->boolean('iva');
+            $table->string('email')->unique();
+            $table->string('password');
             //llave foranea
             $table->foreignId('identification_type_id')->references('id')->on('identification_types');
+            $table->foreignId('constitution_type_id')->references('id')->on('constitution_types');
+            $table->foreignId('city_id')->references('id')->on('cities');
+            $table->foreignId('responsability_type_id')->references('id')->on('responsability_types');
+            //
             $table->timestamps();
             $table->softDeletes();
 
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('providers');

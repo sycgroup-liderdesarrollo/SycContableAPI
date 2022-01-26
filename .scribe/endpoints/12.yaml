@@ -1,10 +1,10 @@
-name: Provider
+name: Position
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/provider
+    uri: api/position
     metadata:
       title: ''
       description: ''
@@ -18,20 +18,18 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Jhonatan","address":"Direccion","phone":"0424989845","identification_number":"12325996796","identification_type_id":1,"created_at":"2022-01-20T16:04:13.000000Z","updated_at":"2022-01-20T16:04:13.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}},{"id":2,"name":"Antonio","address":"Direccion","phone":"3113012514","identification_number":"445511522","identification_type_id":1,"created_at":"2022-01-20T16:05:59.000000Z","updated_at":"2022-01-20T16:05:59.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}}]}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '51'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
   -
     httpMethods:
       - POST
-    uri: api/provider
+    uri: api/position
     metadata:
       title: ''
       description: ''
@@ -45,45 +43,17 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'Must be at least 5 characters.'
-        required: true
-        example: nxoi
-        type: string
-        custom: []
-      address:
-        name: address
-        description: 'Must be at least 5 characters.'
-        required: true
-        example: up
-        type: string
-        custom: []
-      phone:
-        name: phone
-        description: 'Must be at least 5 characters.'
-        required: true
-        example: ntmbj
-        type: string
-        custom: []
-      identification_number:
-        name: identification_number
-        description: 'Must be at least 5 characters.'
-        required: true
-        example: f
-        type: string
-        custom: []
-      identification_type_id:
-        name: identification_type_id
-        description: ''
-        required: true
-        example: 9
-        type: integer
+        description: 'El nombre del cargo.'
+        required: false
+        example: Jefe
+        type: required
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - GET
-    uri: 'api/provider/{id}'
+    uri: 'api/position/{id}'
     metadata:
       title: ''
       description: ''
@@ -95,22 +65,20 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the provider.'
+        description: 'The ID of the position.'
         required: true
-        example: 6
+        example: 4
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Jhonatan","address":"Direccion","phone":"0424989845","identification_number":"12325996796","identification_type_id":1,"created_at":"2022-01-20T16:04:13.000000Z","updated_at":"2022-01-20T16:04:13.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}}}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '50'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -118,7 +86,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/provider/{id}'
+    uri: 'api/position/{id}'
     metadata:
       title: ''
       description: ''
@@ -130,7 +98,7 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the provider.'
+        description: 'The ID of the position.'
         required: true
         example: 20
         type: integer
@@ -139,45 +107,17 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: ''
+        description: 'El nombre del cargo.'
         required: false
-        example: recusandae
-        type: string
-        custom: []
-      address:
-        name: address
-        description: 'Must be at least 5 characters.'
-        required: false
-        example: gl
-        type: string
-        custom: []
-      phone:
-        name: phone
-        description: 'Must be at least 5 characters.'
-        required: false
-        example: gj
-        type: string
-        custom: []
-      identification_number:
-        name: identification_number
-        description: ''
-        required: false
-        example: voluptas
-        type: string
-        custom: []
-      identification_type_id:
-        name: identification_type_id
-        description: ''
-        required: false
-        example: 5
-        type: integer
+        example: Jefe
+        type: required
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - DELETE
-    uri: 'api/provider/{id}'
+    uri: 'api/position/{id}'
     metadata:
       title: ''
       description: ''
@@ -189,9 +129,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the provider.'
+        description: 'The ID of the position.'
         required: true
-        example: 15
+        example: 2
         type: integer
         custom: []
     queryParameters: []

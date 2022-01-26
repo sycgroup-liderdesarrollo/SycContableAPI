@@ -20,13 +20,11 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":[{"id":3,"name":"Tatuajes","active":1,"value":null,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":5,"provider_id":1,"created_at":"2022-01-20T16:04:44.000000Z","updated_at":"2022-01-20T16:04:44.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":5,"name":"Cuota por tatuajes","calculated":0,"setting_id":null,"concept_type_id":2,"created_at":"2022-01-20T16:04:44.000000Z","updated_at":"2022-01-20T16:04:44.000000Z","deleted_at":null},"periodicity_type":{"id":1,"name":"Quincenal","created_at":null,"updated_at":null,"deleted_at":null},"provider":{"id":1,"name":"Jhonatan","address":"Direccion","phone":"0424989845","identification_number":"12325996796","identification_type_id":1,"created_at":"2022-01-20T16:04:13.000000Z","updated_at":"2022-01-20T16:04:13.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}}},{"id":4,"name":"Piercing","active":1,"value":null,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":6,"provider_id":1,"created_at":"2022-01-20T16:05:07.000000Z","updated_at":"2022-01-20T16:05:07.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":6,"name":"Cuota por piercing","calculated":0,"setting_id":null,"concept_type_id":2,"created_at":"2022-01-20T16:05:07.000000Z","updated_at":"2022-01-20T16:05:07.000000Z","deleted_at":null},"periodicity_type":{"id":1,"name":"Quincenal","created_at":null,"updated_at":null,"deleted_at":null},"provider":{"id":1,"name":"Jhonatan","address":"Direccion","phone":"0424989845","identification_number":"12325996796","identification_type_id":1,"created_at":"2022-01-20T16:04:13.000000Z","updated_at":"2022-01-20T16:04:13.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}}},{"id":5,"name":"Passion Burger","active":1,"value":null,"covenant_type_id":1,"periodicity_type_id":1,"concept_id":7,"provider_id":2,"created_at":"2022-01-20T16:07:05.000000Z","updated_at":"2022-01-20T16:07:05.000000Z","deleted_at":null,"covenant_type":{"id":1,"name":"Cuota","created_at":null,"updated_at":null,"deleted_at":null},"concept":{"id":7,"name":"Servicio de restaurante","calculated":0,"setting_id":null,"concept_type_id":2,"created_at":"2022-01-20T16:07:05.000000Z","updated_at":"2022-01-20T16:07:05.000000Z","deleted_at":null},"periodicity_type":{"id":1,"name":"Quincenal","created_at":null,"updated_at":null,"deleted_at":null},"provider":{"id":2,"name":"Antonio","address":"Direccion","phone":"3113012514","identification_number":"445511522","identification_type_id":1,"created_at":"2022-01-20T16:05:59.000000Z","updated_at":"2022-01-20T16:05:59.000000Z","deleted_at":null,"identification_type":{"id":1,"name":"Cedula de ciudadania","created_at":null,"updated_at":null,"deleted_at":null}}}]}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '57'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -49,28 +47,28 @@ endpoints:
         name: name
         description: ''
         required: true
-        example: perspiciatis
+        example: eos
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 18
+        example: 3
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: true
-        example: 4
+        example: 16
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: true
-        example: 20
+        example: 8
         type: integer
         custom: []
       provider_id:
@@ -106,434 +104,18 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 2
+        example: 18
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 404
-        content: |-
-          {
-              "message": "No query results for model [App\\Models\\Covenant] 1",
-              "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
-              "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
-              "line": 385,
-              "trace": [
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
-                      "line": 332,
-                      "function": "prepareException",
-                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php",
-                      "line": 54,
-                      "function": "render",
-                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
-                      "line": 51,
-                      "function": "render",
-                      "class": "NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 172,
-                      "function": "handleException",
-                      "class": "Illuminate\\Routing\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 127,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 103,
-                      "function": "handleRequest",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
-                      "line": 55,
-                      "function": "handleRequestUsingNamedLimiter",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 103,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 697,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 672,
-                      "function": "runRouteWithinStack",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 636,
-                      "function": "runRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 625,
-                      "function": "dispatchToRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 167,
-                      "function": "dispatch",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 128,
-                      "function": "Illuminate\\Foundation\\Http\\{closure}",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
-                      "line": 31,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
-                      "line": 40,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
-                      "line": 27,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
-                      "line": 86,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php",
-                      "line": 52,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Fruitcake\\Cors\\HandleCors",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php",
-                      "line": 39,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 167,
-                      "function": "handle",
-                      "class": "Illuminate\\Http\\Middleware\\TrustProxies",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 103,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 142,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 111,
-                      "function": "sendRequestThroughRouter",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 299,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 287,
-                      "function": "callLaravelOrLumenRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 89,
-                      "function": "makeApiCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 45,
-                      "function": "makeResponseCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 35,
-                      "function": "makeResponseCallIfConditionsPass",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 222,
-                      "function": "__invoke",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 179,
-                      "function": "iterateThroughStrategies",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 116,
-                      "function": "fetchResponses",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 117,
-                      "function": "processRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 75,
-                      "function": "extractEndpointsInfoFromLaravelApp",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 51,
-                      "function": "extractEndpointsInfoAndWriteToDisk",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php",
-                      "line": 48,
-                      "function": "get",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 36,
-                      "function": "handle",
-                      "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
-                      "line": 40,
-                      "function": "Illuminate\\Container\\{closure}",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 93,
-                      "function": "unwrapIfClosure",
-                      "class": "Illuminate\\Container\\Util",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 37,
-                      "function": "callBoundMethod",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
-                      "line": 653,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 136,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\Container",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php",
-                      "line": 298,
-                      "function": "execute",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 121,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Command\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php",
-                      "line": 1005,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php",
-                      "line": 299,
-                      "function": "doRunCommand",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php",
-                      "line": 171,
-                      "function": "doRun",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php",
-                      "line": 94,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php",
-                      "line": 129,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\artisan",
-                      "line": 37,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Console\\Kernel",
-                      "type": "->"
-                  }
-              ]
-          }
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '56'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -555,7 +137,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 12
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -564,49 +146,49 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: officiis
+        example: consectetur
         type: string
         custom: []
       active:
         name: active
         description: ''
         required: false
-        example: true
+        example: false
         type: boolean
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 13
+        example: 18
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: false
-        example: 18
+        example: 6
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: false
-        example: 17
+        example: 12
         type: integer
         custom: []
       provider_id:
         name: provider_id
         description: ''
         required: false
-        example: 3
+        example: 14
         type: integer
         custom: []
       concept_name:
         name: concept_name
         description: 'Must be at least 3 characters.'
         required: false
-        example: mmz
+        example: ''
         type: string
         custom: []
     responses: []
@@ -628,7 +210,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 7
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -673,13 +255,11 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":[]}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '25'
           access-control-allow-origin: '*'
         description: null
     responseFields: []

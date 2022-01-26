@@ -28,7 +28,6 @@ class BusinessLineController extends Controller
     }
     public function show(BusinessLine $businessLine)
     {
-        $businessLine->users;
         return response()->json(['status'=>true,'data'=> $businessLine]);
 
     }

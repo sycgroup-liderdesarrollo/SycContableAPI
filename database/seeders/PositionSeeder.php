@@ -14,9 +14,9 @@ class PositionSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('positions')->insert(['name'=>'Gerente']);
-        DB::table('positions')->insert(['name'=>'Lider']);
-        DB::table('positions')->insert(['name'=>'Auxiliar']);
-        DB::table('positions')->insert(['name'=>'Aprendiz']);
+        DB::table('positions')->insert(['name'=>'Gerente', 'business_line_id'=>1]);
+        DB::table('positions')->insert(['name'=>'Lider', 'business_line_id'=>1]);
+        DB::table('positions')->insert(['name'=>'Manager', 'business_line_id'=>2]);
+        DB::table('positions')->insert(['name'=>'Modelo', 'business_line_id'=>2]);
     }
 }

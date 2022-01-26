@@ -41,17 +41,31 @@ class UpdateUserRequest extends FormRequest
             ],
 
             'password'=>'string',
-            'active'=>'boolean',
             'admission_date'=>'date',
-            'out_date'=>'date|nullable',
+            'out_date'=>'date',
+            'address'=>'string',
+            'neighborhood'=>'string',
+            'birthday'=>'string',
+            'children'=>'string',
 
             'base_salary'=>'integer',
             'position_id'=>'integer',
-            'business_line_id' => 'integer',
             'contract_type_id'=> 'integer',
             'salary_type_id'=> 'integer',
             'headquarter_id'=> 'integer',
-            'identification_type_id'=> 'integer'
+            'identification_type_id'=> 'integer',
+            'gender_id'=> 'integer',
+            'health_provider_id'=> 'integer',
+            'pension_fund_id'=> 'integer',
+            'civil_statu_id'=> 'integer',
+            'work_city_id'=> 'integer',
+            'residence_city_id'=> 'integer',
+            'expedition_place_id'=> 'integer',
+            'strata_id'=> 'integer',
+            'education_level_id'=> 'integer',
+            'active'=> 'integer',
+            'emergency_contact_id'=> 'integer',
+
         ];
     }
 }
