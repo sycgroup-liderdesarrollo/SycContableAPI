@@ -45,7 +45,7 @@ endpoints:
         name: name
         description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: quidem
+        example: autem
         type: required
         custom: []
     responses: []
@@ -67,7 +67,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 11
+        example: 6
         type: integer
         custom: []
     queryParameters: []
@@ -100,7 +100,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 13
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -109,7 +109,7 @@ endpoints:
         name: name
         description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: doloremque
+        example: repellendus
         type: required
         custom: []
     responses: []
@@ -131,7 +131,7 @@ endpoints:
         name: id
         description: 'The ID of the periodicityType.'
         required: true
-        example: 4
+        example: 19
         type: integer
         custom: []
     queryParameters: []

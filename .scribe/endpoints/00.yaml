@@ -67,7 +67,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 15
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -100,7 +100,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 6
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -138,7 +138,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 17
+        example: 1
         type: integer
         custom: []
     queryParameters: []
