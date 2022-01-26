@@ -27,12 +27,26 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->boolean('active')->default(true);
+            $table->string('address');
+            $table->string('neighborhood');
+            $table->date('birthday');
+            $table->integer('children');
             //llaves foraneas
             $table->foreignId('position_id')->references('id')->on('positions');
             $table->foreignId('contract_type_id')->references('id')->on('contract_types');
             $table->foreignId('salary_type_id')->references('id')->on('salary_types');
             $table->foreignId('headquarter_id')->references('id')->on('headquarters');
             $table->foreignId('identification_type_id')->references('id')->on('identification_types');
+            $table->foreignId('gender_id')->references('id')->on('genders');
+            $table->foreignId('health_provider_id')->references('id')->on('health_providers');
+            $table->foreignId('pension_fund_id')->references('id')->on('pension_funds');
+            $table->foreignId('civil_statu_id')->references('id')->on('civil_status');
+            $table->foreignId('work_city_id')->references('id')->on('cities');
+            $table->foreignId('residence_city_id')->references('id')->on('cities');
+            $table->foreignId('expedition_place_id')->references('id')->on('cities');
+            $table->foreignId('strata_id')->references('id')->on('stratas');
+            $table->foreignId('education_level_id')->references('id')->on('education_levels');
+            $table->foreignId('emergency_contact_id')->references('id')->on('emergency_contacts');
             //
             $table->rememberToken();
             $table->timestamps();
@@ -41,11 +55,6 @@ class CreateUsersTable extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('users');

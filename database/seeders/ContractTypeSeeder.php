@@ -7,11 +7,6 @@ use Illuminate\Support\Facades\DB;
 
 class ContractTypeSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
         DB::table('contract_types')->insert(['name'=>'Indefinido']);

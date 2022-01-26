@@ -50,7 +50,9 @@ class UpdateUserRequest extends FormRequest
             'contract_type_id'=> 'integer',
             'salary_type_id'=> 'integer',
             'headquarter_id'=> 'integer',
-            'identification_type_id'=> 'integer'
+            'identification_type_id'=> 'integer',
+            'active',
+
         ];
     }
 }

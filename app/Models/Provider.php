@@ -11,10 +11,18 @@ class Provider extends Model
     use HasFactory, SoftDeletes;
     protected $fillable = [
         'name',
+        'last_name',
+        'trade_name',
         'address',
         'phone',
         'identification_number',
         'identification_type_id',
+        'iva',
+        'email',
+        'password',
+        'constitution_type_id',
+        'city_id',
+        'responsability_type_id',
         'deleted_at'
     ];
     protected $with = ['identificationType'];
@@ -26,5 +34,17 @@ class Provider extends Model
     public function covenant()
     {
         return $this->hasOne(Covenant::class);
+    }
+    public function city()
+    {
+        return $this->belongsTo(City::class);
+    }
+    public function constitutionType()
+    {
+        return $this->belongsTo(ConstitutionType::class);
+    }
+    public function contacts()
+    {
+        return $this->hasMany(Contact::class);
     }
 }

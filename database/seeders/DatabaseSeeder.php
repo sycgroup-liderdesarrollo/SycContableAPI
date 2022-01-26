@@ -2,21 +2,24 @@
 
 namespace Database\Seeders;
 
-use App\Http\Controllers\IdentificationTypeController;
-use App\Models\ContractType;
-use App\Models\Position;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
     public function run()
     {
         $this->call([
+            ConstitutionTypeSeeder::class,
+            CitiesSeeder::class,
+            CivilStatusSeeder::class,
+            EducationLevelSeeder::class,
+            KinshipSeeder::class,
+            EmergencyContactSeeder::class,
+            GenderSeeder::class,
+            HealthProvidersSeeder::class,
+            PensionFundSeeder::class,
+            ResponsabilityTypeSeeder::class,
+            StrataSeeder::class,
             BusinessLineSeeder::class,
             PositionSeeder::class,
             ContractTypeSeeder::class,
