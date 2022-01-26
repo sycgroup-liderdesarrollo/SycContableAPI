@@ -13,4 +13,5 @@ class Gender extends Model
     {
         return $this->hasMany(User::class);
     }
+
 }

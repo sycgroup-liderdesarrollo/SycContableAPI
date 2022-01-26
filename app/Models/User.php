@@ -44,9 +44,10 @@ class User extends Authenticatable
         'emergency_contact_id',
     ];
 
-    protected $hidden = ['password','remember_token',];
+    protected $hidden = ['password','remember_token','gender_id','position_id'];
+    protected $with = ['gender'];
 
-    protected $casts = ['email_verified_at' => 'datetime',];
+    protected $casts = ['email_verified_at' => 'datetime'];
 
     public function position()
     {
@@ -115,5 +116,9 @@ class User extends Authenticatable
     public function pensionFund()
     {
         return $this->belongsTo(PensionFund::class);
+    }
+    public function strata()
+    {
+        return $this->belongsTo(Strata::class);
     }
 }
