@@ -37,7 +37,6 @@ class CreateUserRequest extends FormRequest
 
             'base_salary'=>'required|integer',
             'position_id'=>'required|integer',
-            'business_line_id' => 'required|integer',
             'contract_type_id'=> 'required|integer',
             'salary_type_id'=> 'required|integer',
             'headquarter_id'=> 'required|integer',

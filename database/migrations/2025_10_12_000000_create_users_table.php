@@ -29,7 +29,6 @@ class CreateUsersTable extends Migration
             $table->boolean('active')->default(true);
             //llaves foraneas
             $table->foreignId('position_id')->references('id')->on('positions');
-            $table->foreignId('business_line_id')->references('id')->on('business_lines');
             $table->foreignId('contract_type_id')->references('id')->on('contract_types');
             $table->foreignId('salary_type_id')->references('id')->on('salary_types');
             $table->foreignId('headquarter_id')->references('id')->on('headquarters');

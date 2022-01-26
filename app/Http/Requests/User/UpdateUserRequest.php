@@ -47,7 +47,6 @@ class UpdateUserRequest extends FormRequest
 
             'base_salary'=>'integer',
             'position_id'=>'integer',
-            'business_line_id' => 'integer',
             'contract_type_id'=> 'integer',
             'salary_type_id'=> 'integer',
             'headquarter_id'=> 'integer',

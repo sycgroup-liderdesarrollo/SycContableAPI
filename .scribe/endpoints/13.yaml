@@ -1,10 +1,10 @@
-name: 'Salary Type'
+name: Provider
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/salaryType
+    uri: api/provider
     metadata:
       title: ''
       description: ''
@@ -18,20 +18,18 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Fijo","created_at":null,"updated_at":null,"deleted_at":null},{"id":2,"name":"Variable","created_at":null,"updated_at":null,"deleted_at":null},{"id":3,"name":"Integral","created_at":null,"updated_at":null,"deleted_at":null}]}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '43'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
   -
     httpMethods:
       - POST
-    uri: api/salaryType
+    uri: api/provider
     metadata:
       title: ''
       description: ''
@@ -45,17 +43,45 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del tipo de salario.'
-        required: false
-        example: Jefe
-        type: required
+        description: 'Must be at least 5 characters.'
+        required: true
+        example: iopy
+        type: string
+        custom: []
+      address:
+        name: address
+        description: 'Must be at least 5 characters.'
+        required: true
+        example: ob
+        type: string
+        custom: []
+      phone:
+        name: phone
+        description: 'Must be at least 5 characters.'
+        required: true
+        example: hnw
+        type: string
+        custom: []
+      identification_number:
+        name: identification_number
+        description: 'Must be at least 5 characters.'
+        required: true
+        example: bcvj
+        type: string
+        custom: []
+      identification_type_id:
+        name: identification_type_id
+        description: ''
+        required: true
+        example: 1
+        type: integer
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - GET
-    uri: 'api/salaryType/{id}'
+    uri: 'api/provider/{id}'
     metadata:
       title: ''
       description: ''
@@ -67,22 +93,20 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the salaryType.'
+        description: 'The ID of the provider.'
         required: true
-        example: 4
+        example: 3
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Fijo","created_at":null,"updated_at":null,"deleted_at":null}}'
+        status: 401
+        content: '{"message":"Unauthenticated."}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '42'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -90,7 +114,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/salaryType/{id}'
+    uri: 'api/provider/{id}'
     metadata:
       title: ''
       description: ''
@@ -102,26 +126,54 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the salaryType.'
+        description: 'The ID of the provider.'
         required: true
-        example: 7
+        example: 20
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del tipo de salario.'
+        description: ''
         required: false
-        example: Jefe
-        type: required
+        example: cumque
+        type: string
+        custom: []
+      address:
+        name: address
+        description: 'Must be at least 5 characters.'
+        required: false
+        example: aubdp
+        type: string
+        custom: []
+      phone:
+        name: phone
+        description: 'Must be at least 5 characters.'
+        required: false
+        example: zpq
+        type: string
+        custom: []
+      identification_number:
+        name: identification_number
+        description: ''
+        required: false
+        example: dolores
+        type: string
+        custom: []
+      identification_type_id:
+        name: identification_type_id
+        description: ''
+        required: false
+        example: 1
+        type: integer
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - DELETE
-    uri: 'api/salaryType/{id}'
+    uri: 'api/provider/{id}'
     metadata:
       title: ''
       description: ''
@@ -133,9 +185,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the salaryType.'
+        description: 'The ID of the provider.'
         required: true
-        example: 5
+        example: 13
         type: integer
         custom: []
     queryParameters: []

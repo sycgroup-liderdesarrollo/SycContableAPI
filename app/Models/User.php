@@ -24,7 +24,6 @@ class User extends Authenticatable
         'out_date',
         'base_salary',
         'position_id',
-        'business_line_id',
         'contract_type_id',
         'salary_type_id',
         'headquarter_id',
@@ -36,10 +35,6 @@ class User extends Authenticatable
 
     protected $casts = ['email_verified_at' => 'datetime',];
 
-    public function businessLine()
-    {
-        return  $this->belongsTo(BusinessLine::class);
-    }
     public function position()
     {
         return $this->belongsTo(Position::class);
