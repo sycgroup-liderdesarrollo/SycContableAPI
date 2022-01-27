@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use Illuminate\Http\Request;
-
+/**
+ * @group Contact
+ */
 class ContactController extends Controller
 {
     public function index()

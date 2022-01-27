@@ -1,10 +1,10 @@
-name: 'Salary Type'
+name: 'Health Provider'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/salaryType
+    uri: api/healthProvider
     metadata:
       title: ''
       description: ''
@@ -18,18 +18,20 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
+        status: 200
+        content: '{"status":true,"data":[{"id":1,"name":"Salud total","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":2,"name":"Sura","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":3,"name":"Nueva EPS","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '54'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
   -
     httpMethods:
       - POST
-    uri: api/salaryType
+    uri: api/healthProvider
     metadata:
       title: ''
       description: ''
@@ -40,20 +42,13 @@ endpoints:
       Accept: application/json
     urlParameters: []
     queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'El nombre del tipo de salario.'
-        required: false
-        example: Jefe
-        type: required
-        custom: []
+    bodyParameters: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - GET
-    uri: 'api/salaryType/{id}'
+    uri: 'api/healthProvider/{id}'
     metadata:
       title: ''
       description: ''
@@ -65,20 +60,22 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the salaryType.'
+        description: 'The ID of the healthProvider.'
         required: true
-        example: 4
+        example: 12
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
+        status: 200
+        content: '{"status":true,"data":{"id":1,"name":"Salud total","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '53'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -86,7 +83,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/salaryType/{id}'
+    uri: 'api/healthProvider/{id}'
     metadata:
       title: ''
       description: ''
@@ -98,26 +95,19 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the salaryType.'
+        description: 'The ID of the healthProvider.'
         required: true
-        example: 3
+        example: 19
         type: integer
         custom: []
     queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'El nombre del tipo de salario.'
-        required: false
-        example: Jefe
-        type: required
-        custom: []
+    bodyParameters: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - DELETE
-    uri: 'api/salaryType/{id}'
+    uri: 'api/healthProvider/{id}'
     metadata:
       title: ''
       description: ''
@@ -129,9 +119,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the salaryType.'
+        description: 'The ID of the healthProvider.'
         required: true
-        example: 2
+        example: 3
         type: integer
         custom: []
     queryParameters: []

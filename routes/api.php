@@ -2,13 +2,16 @@
 
 use App\Http\Controllers\BusinessLineController;
 use App\Http\Controllers\CityController;
+use App\Http\Controllers\CivilStatuController;
 use App\Http\Controllers\ConceptController;
 use App\Http\Controllers\ConceptTypeController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContractTypeController;
 use App\Http\Controllers\CovenantController;
 use App\Http\Controllers\CovenantTypeController;
+use App\Http\Controllers\EducationLevelController;
 use App\Http\Controllers\EmergencyContactController;
+use App\Http\Controllers\GenderController;
 use App\Http\Controllers\HeadquarterController;
 use App\Http\Controllers\HealthProviderController;
 use App\Http\Controllers\IdentificationTypeController;
@@ -21,8 +24,9 @@ use App\Http\Controllers\ProviderController;
 use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
+use App\Http\Controllers\StrataController;
 use App\Http\Controllers\UserController;
-use App\Models\HealthProvider;
+use App\Models\EducationLevel;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -78,6 +82,10 @@ Route::middleware(['auth:api'])->group(function () {
     Route::apiResource('pensionFund', PensionFundController::class);
     Route::apiResource('city', CityController::class);
     Route::apiResource('province', ProvinceController::class);
+    Route::apiResource('gender', GenderController::class);
+    Route::apiResource('civilStatu', CivilStatuController::class);
+    Route::apiResource('strata', StrataController::class);
+    Route::apiResource('educationLevel', EducationLevelController::class);
 
 
 
