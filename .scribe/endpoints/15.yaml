@@ -1,10 +1,10 @@
-name: Setting
+name: Province
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/setting
+    uri: api/province
     metadata:
       title: ''
       description: ''
@@ -14,141 +14,24 @@ endpoints:
       Content-Type: application/json
       Accept: application/json
     urlParameters: []
-    queryParameters: []
+    queryParameters:
+      name:
+        name: name
+        description: 'Filtro para buscar departamentos.'
+        required: false
+        example: Risaralda
+        type: string
+        custom: []
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
+        status: 200
+        content: '{"status":true,"data":[{"id":19,"danecode":66,"name":"Risaralda","prefix":606,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null,"cities":[{"id":92,"danecode":68575,"name":"Puerto Wilches","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":93,"danecode":68573,"name":"Puerto Parra","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":682,"danecode":66001,"name":"Pereira","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":683,"danecode":66045,"name":"Ap\u00eda","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":684,"danecode":66075,"name":"Balboa","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":685,"danecode":6617,"name":"Dosquebradas","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":686,"danecode":66318,"name":"Gu\u00e1tica","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":687,"danecode":66383,"name":"La Celia","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":688,"danecode":664,"name":"La Virginia","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":689,"danecode":6644,"name":"Marsella","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":690,"danecode":66456,"name":"Mistrat\u00f3","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":691,"danecode":66572,"name":"Pueblo Rico","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":692,"danecode":66594,"name":"Quinch\u00eda","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":693,"danecode":66687,"name":"Santuario","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":694,"danecode":68001,"name":"Bucaramanga","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":695,"danecode":68013,"name":"Aguada","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":696,"danecode":6802,"name":"Albania","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":697,"danecode":68051,"name":"Aratoca","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":698,"danecode":68077,"name":"Barbosa","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":699,"danecode":68079,"name":"Barichara","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":700,"danecode":68081,"name":"Barrancabermeja","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":701,"danecode":68092,"name":"Betulia","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":702,"danecode":68101,"name":"Bol\u00edvar","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":703,"danecode":68121,"name":"Cabrera","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":704,"danecode":68132,"name":"California","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":705,"danecode":68152,"name":"Carcas\u00ed","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":706,"danecode":6816,"name":"Cepit\u00e1","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":707,"danecode":68162,"name":"Cerrito","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":708,"danecode":68167,"name":"Charal\u00e1","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":709,"danecode":68169,"name":"Charta","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":710,"danecode":68179,"name":"Chipat\u00e1","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":711,"danecode":6819,"name":"Cimitarra","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":712,"danecode":68207,"name":"Concepci\u00f3n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":713,"danecode":68209,"name":"Confines","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":714,"danecode":68211,"name":"Contrataci\u00f3n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":715,"danecode":68217,"name":"Coromoro","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":716,"danecode":68229,"name":"Curit\u00ed","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":717,"danecode":68245,"name":"El Guacamayo","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":718,"danecode":68255,"name":"El Play\u00f3n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":719,"danecode":68264,"name":"Encino","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":720,"danecode":68266,"name":"Enciso","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":721,"danecode":68271,"name":"Flori\u00e1n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":722,"danecode":68276,"name":"Floridablanca","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":723,"danecode":68296,"name":"Gal\u00e1n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":724,"danecode":68298,"name":"Gambita","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":725,"danecode":68307,"name":"Gir\u00f3n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":726,"danecode":68318,"name":"Guaca","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":727,"danecode":6832,"name":"Guadalupe","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":728,"danecode":68322,"name":"Guapot\u00e1","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":729,"danecode":68324,"name":"Guavat\u00e1","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":730,"danecode":68327,"name":"G\u00fcepsa","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":731,"danecode":68368,"name":"Jes\u00fas Mar\u00eda","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":732,"danecode":6837,"name":"Jord\u00e1n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":733,"danecode":68377,"name":"La Belleza","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":734,"danecode":68385,"name":"Land\u00e1zuri","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":735,"danecode":68397,"name":"La Paz","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":736,"danecode":68406,"name":"Lebr\u00edja","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":737,"danecode":68418,"name":"Los Santos","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":738,"danecode":68425,"name":"Macaravita","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":739,"danecode":68432,"name":"M\u00e1laga","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":740,"danecode":68444,"name":"Matanza","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":741,"danecode":68464,"name":"Mogotes","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":742,"danecode":68468,"name":"Molagavita","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":743,"danecode":68498,"name":"Ocamonte","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":744,"danecode":685,"name":"Oiba","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":745,"danecode":68502,"name":"Onzaga","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":746,"danecode":68522,"name":"Palmar","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":747,"danecode":68533,"name":"P\u00e1ramo","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":748,"danecode":68547,"name":"Piedecuesta","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":749,"danecode":68549,"name":"Pinchote","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":750,"danecode":68572,"name":"Puente Nacional","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":751,"danecode":68615,"name":"Rionegro","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":752,"danecode":68669,"name":"San Andr\u00e9s","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":753,"danecode":68679,"name":"San Gil","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":754,"danecode":68682,"name":"San Joaqu\u00edn","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":755,"danecode":68686,"name":"San Miguel","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":756,"danecode":68705,"name":"Santa B\u00e1rbara","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":757,"danecode":68745,"name":"Simacota","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":758,"danecode":68755,"name":"Socorro","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":759,"danecode":6877,"name":"Suaita","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":760,"danecode":68773,"name":"Sucre","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":761,"danecode":6878,"name":"Surat\u00e1","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":762,"danecode":6882,"name":"Tona","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":763,"danecode":68861,"name":"V\u00e9lez","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":764,"danecode":68867,"name":"Vetas","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":765,"danecode":68872,"name":"Villanueva","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":766,"danecode":68895,"name":"Zapatoca","province_id":19,"active":1,"created_at":"2022-01-27T14:40:50.000000Z","updated_at":"2022-01-27T14:40:50.000000Z","deleted_at":null},{"id":884,"danecode":68524,"name":"Palmas del Socorro","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":913,"danecode":68689,"name":"San Vicente de Chucur\u00ed","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":914,"danecode":68684,"name":"San Jos\u00e9 de Miranda","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":916,"danecode":66682,"name":"Santa Rosa de Cabal","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":920,"danecode":6872,"name":"Santa Helena del Op\u00f3n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":935,"danecode":68655,"name":"Sabana de Torres","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":958,"danecode":68235,"name":"El Carmen de Chucur\u00ed","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":960,"danecode":66088,"name":"Bel\u00e9n de Umbr\u00eda","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":962,"danecode":68855,"name":"Valle de San Jos\u00e9","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":966,"danecode":68673,"name":"San Benito","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":970,"danecode":68344,"name":"Hato","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":1049,"danecode":68176,"name":"Chim\u00e1","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":1067,"danecode":68147,"name":"Capitanejo","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":1093,"danecode":6825,"name":"El Pe\u00f1\u00f3n","province_id":19,"active":1,"created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null}]}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '49'
           access-control-allow-origin: '*'
         description: null
-    responseFields: []
-  -
-    httpMethods:
-      - POST
-    uri: api/setting
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'Must not be greater than 45 characters.'
-        required: true
-        example: dzgekypwbirszqnsfypulraezcxtngfejkv
-        type: string
-        custom: []
-      value:
-        name: value
-        description: ''
-        required: true
-        example: 14
-        type: integer
-        custom: []
-    responses: []
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: 'api/setting/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the setting.'
-        required: true
-        example: 16
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - PUT
-      - PATCH
-    uri: 'api/setting/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the setting.'
-        required: true
-        example: 8
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'Must be at least 3 characters.'
-        required: false
-        example: xvo
-        type: string
-        custom: []
-      value:
-        name: value
-        description: ''
-        required: false
-        example: 4
-        type: integer
-        custom: []
-    responses: []
-    responseFields: []
-  -
-    httpMethods:
-      - DELETE
-    uri: 'api/setting/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the setting.'
-        required: true
-        example: 5
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters: []
-    responses: []
     responseFields: []

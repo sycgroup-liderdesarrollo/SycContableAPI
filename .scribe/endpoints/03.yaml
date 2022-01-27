@@ -1,10 +1,10 @@
-name: 'Contract Type'
+name: 'Concept Type'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/contractType
+    uri: api/conceptType
     metadata:
       title: ''
       description: ''
@@ -29,7 +29,7 @@ endpoints:
   -
     httpMethods:
       - POST
-    uri: api/contractType
+    uri: api/conceptType
     metadata:
       title: ''
       description: ''
@@ -43,9 +43,9 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del contrato.'
+        description: 'El tipo de concepto, ya viene definido (Deduccion, devengado).'
         required: false
-        example: Indefinido
+        example: Devengado
         type: required
         custom: []
     responses: []
@@ -53,7 +53,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/contractType/{id}'
+    uri: 'api/conceptType/{id}'
     metadata:
       title: ''
       description: ''
@@ -65,9 +65,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the contractType.'
+        description: 'The ID of the conceptType.'
         required: true
-        example: 9
+        example: 18
         type: integer
         custom: []
     queryParameters: []
@@ -86,7 +86,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/contractType/{id}'
+    uri: 'api/conceptType/{id}'
     metadata:
       title: ''
       description: ''
@@ -98,18 +98,18 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the contractType.'
+        description: 'The ID of the conceptType.'
         required: true
-        example: 15
+        example: 3
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del contrato.'
+        description: 'El tipo de concepto, ya viene definido (Deduccion, devengado).'
         required: false
-        example: Indefinido
+        example: Devengado
         type: required
         custom: []
     responses: []
@@ -117,7 +117,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/contractType/{id}'
+    uri: 'api/conceptType/{id}'
     metadata:
       title: ''
       description: ''
@@ -129,9 +129,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the contractType.'
+        description: 'The ID of the conceptType.'
         required: true
-        example: 6
+        example: 11
         type: integer
         custom: []
     queryParameters: []

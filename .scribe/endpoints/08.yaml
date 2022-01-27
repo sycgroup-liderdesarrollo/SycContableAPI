@@ -1,10 +1,10 @@
-name: 'Identification Type'
+name: Headquarter
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/identificationType
+    uri: api/headQuarter
     metadata:
       title: ''
       description: ''
@@ -29,7 +29,7 @@ endpoints:
   -
     httpMethods:
       - POST
-    uri: api/identificationType
+    uri: api/headQuarter
     metadata:
       title: ''
       description: ''
@@ -43,9 +43,9 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del tipo de identificacion.'
+        description: 'El nombre de la sucursal.'
         required: false
-        example: 'Cedula de ciudadania'
+        example: Pereira
         type: required
         custom: []
     responses: []
@@ -53,7 +53,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/identificationType/{id}'
+    uri: 'api/headQuarter/{id}'
     metadata:
       title: ''
       description: ''
@@ -65,9 +65,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the identificationType.'
+        description: 'The ID of the headQuarter.'
         required: true
-        example: 17
+        example: 5
         type: integer
         custom: []
     queryParameters: []
@@ -86,7 +86,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/identificationType/{id}'
+    uri: 'api/headQuarter/{id}'
     metadata:
       title: ''
       description: ''
@@ -98,18 +98,18 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the identificationType.'
+        description: 'The ID of the headQuarter.'
         required: true
-        example: 20
+        example: 5
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del tipo de identificacion.'
+        description: 'El nombre de la sucursal.'
         required: false
-        example: 'Cedula de ciudadania'
+        example: Pereira
         type: required
         custom: []
     responses: []
@@ -117,7 +117,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/identificationType/{id}'
+    uri: 'api/headQuarter/{id}'
     metadata:
       title: ''
       description: ''
@@ -129,9 +129,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the identificationType.'
+        description: 'The ID of the headQuarter.'
         required: true
-        example: 7
+        example: 15
         type: integer
         custom: []
     queryParameters: []

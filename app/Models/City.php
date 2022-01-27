@@ -12,8 +12,7 @@ class City extends Model
 
     public function scopeFilter($query, $filter)
     {
-        return $query->where('name', 'like', '%' . $filter . '%')
-            ->orWhere('danecode', 'like', '%' . $filter . '%');
+        return $query->where('name', 'like', '%'.$filter.'%');
     }
 
     public function province()

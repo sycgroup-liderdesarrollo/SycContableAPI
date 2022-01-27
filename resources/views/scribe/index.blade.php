@@ -69,6 +69,26 @@
                                                 </ul>
                     
                     <ul id="tocify-header-2" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="city">
+                    <a href="#city">City</a>
+                </li>
+                                    <ul id="tocify-subheader-city" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="city-GETapi-city">
+                        <a href="#city-GETapi-city">GET api/city</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-3" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="province">
+                    <a href="#province">Province</a>
+                </li>
+                                    <ul id="tocify-subheader-province" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="province-GETapi-province">
+                        <a href="#province-GETapi-province">GET api/province</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-4" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="business-line">
                     <a href="#business-line">Business Line</a>
                 </li>
@@ -90,7 +110,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-3" class="tocify-header">
+                    <ul id="tocify-header-5" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="concept">
                     <a href="#concept">Concept</a>
                 </li>
@@ -112,7 +132,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-4" class="tocify-header">
+                    <ul id="tocify-header-6" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="concept-type">
                     <a href="#concept-type">Concept Type</a>
                 </li>
@@ -134,7 +154,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-5" class="tocify-header">
+                    <ul id="tocify-header-7" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="contract-type">
                     <a href="#contract-type">Contract Type</a>
                 </li>
@@ -156,7 +176,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-6" class="tocify-header">
+                    <ul id="tocify-header-8" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="covenant">
                     <a href="#covenant">Covenant</a>
                 </li>
@@ -181,7 +201,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-7" class="tocify-header">
+                    <ul id="tocify-header-9" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="covenant-type">
                     <a href="#covenant-type">Covenant Type</a>
                 </li>
@@ -203,7 +223,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-8" class="tocify-header">
+                    <ul id="tocify-header-10" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="endpoints">
                     <a href="#endpoints">Endpoints</a>
                 </li>
@@ -273,7 +293,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-9" class="tocify-header">
+                    <ul id="tocify-header-11" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="headquarter">
                     <a href="#headquarter">Headquarter</a>
                 </li>
@@ -295,7 +315,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-10" class="tocify-header">
+                    <ul id="tocify-header-12" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="identification-type">
                     <a href="#identification-type">Identification Type</a>
                 </li>
@@ -317,7 +337,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-11" class="tocify-header">
+                    <ul id="tocify-header-13" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="payroll">
                     <a href="#payroll">Payroll</a>
                 </li>
@@ -354,7 +374,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-12" class="tocify-header">
+                    <ul id="tocify-header-14" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="period">
                     <a href="#period">Period</a>
                 </li>
@@ -376,7 +396,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-13" class="tocify-header">
+                    <ul id="tocify-header-15" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="periodicity-type">
                     <a href="#periodicity-type">Periodicity Type</a>
                 </li>
@@ -398,7 +418,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-14" class="tocify-header">
+                    <ul id="tocify-header-16" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="position">
                     <a href="#position">Position</a>
                 </li>
@@ -420,7 +440,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-15" class="tocify-header">
+                    <ul id="tocify-header-17" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="provider">
                     <a href="#provider">Provider</a>
                 </li>
@@ -442,7 +462,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-16" class="tocify-header">
+                    <ul id="tocify-header-18" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="salary-type">
                     <a href="#salary-type">Salary Type</a>
                 </li>
@@ -464,7 +484,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-17" class="tocify-header">
+                    <ul id="tocify-header-19" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="setting">
                     <a href="#setting">Setting</a>
                 </li>
@@ -486,7 +506,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-18" class="tocify-header">
+                    <ul id="tocify-header-20" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="user">
                     <a href="#user">User</a>
                 </li>
@@ -538,6 +558,1256 @@
 
         <h1 id="authenticating-requests">Authenticating requests</h1>
 <p>This API is not authenticated.</p>
+
+        <h1 id="city">City</h1>
+
+    
+
+            <h2 id="city-GETapi-city">GET api/city</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-city">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/city',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'name'=&gt; 'Pereira',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-city">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 50
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 682,
+            &quot;danecode&quot;: 66001,
+            &quot;name&quot;: &quot;Pereira&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-city" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-city"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-city"></code></pre>
+</span>
+<span id="execution-error-GETapi-city" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-city"></code></pre>
+</span>
+<form id="form-GETapi-city" data-method="GET"
+      data-path="api/city"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-city', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-city"
+                    onclick="tryItOut('GETapi-city');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-city"
+                    onclick="cancelTryOut('GETapi-city');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-city" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/city</code></b>
+        </p>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="GETapi-city"
+               value="Pereira"
+               data-component="query" hidden>
+    <br>
+<p>Filtro para buscar ciudades por nombre.</p>
+            </p>
+                </form>
+
+        <h1 id="province">Province</h1>
+
+    
+
+            <h2 id="province-GETapi-province">GET api/province</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-province">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/province',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'name'=&gt; 'Risaralda',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-province">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 49
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 19,
+            &quot;danecode&quot;: 66,
+            &quot;name&quot;: &quot;Risaralda&quot;,
+            &quot;prefix&quot;: 606,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+            &quot;deleted_at&quot;: null,
+            &quot;cities&quot;: [
+                {
+                    &quot;id&quot;: 92,
+                    &quot;danecode&quot;: 68575,
+                    &quot;name&quot;: &quot;Puerto Wilches&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 93,
+                    &quot;danecode&quot;: 68573,
+                    &quot;name&quot;: &quot;Puerto Parra&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 682,
+                    &quot;danecode&quot;: 66001,
+                    &quot;name&quot;: &quot;Pereira&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 683,
+                    &quot;danecode&quot;: 66045,
+                    &quot;name&quot;: &quot;Ap&iacute;a&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 684,
+                    &quot;danecode&quot;: 66075,
+                    &quot;name&quot;: &quot;Balboa&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 685,
+                    &quot;danecode&quot;: 6617,
+                    &quot;name&quot;: &quot;Dosquebradas&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 686,
+                    &quot;danecode&quot;: 66318,
+                    &quot;name&quot;: &quot;Gu&aacute;tica&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 687,
+                    &quot;danecode&quot;: 66383,
+                    &quot;name&quot;: &quot;La Celia&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 688,
+                    &quot;danecode&quot;: 664,
+                    &quot;name&quot;: &quot;La Virginia&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 689,
+                    &quot;danecode&quot;: 6644,
+                    &quot;name&quot;: &quot;Marsella&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 690,
+                    &quot;danecode&quot;: 66456,
+                    &quot;name&quot;: &quot;Mistrat&oacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 691,
+                    &quot;danecode&quot;: 66572,
+                    &quot;name&quot;: &quot;Pueblo Rico&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 692,
+                    &quot;danecode&quot;: 66594,
+                    &quot;name&quot;: &quot;Quinch&iacute;a&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 693,
+                    &quot;danecode&quot;: 66687,
+                    &quot;name&quot;: &quot;Santuario&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 694,
+                    &quot;danecode&quot;: 68001,
+                    &quot;name&quot;: &quot;Bucaramanga&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 695,
+                    &quot;danecode&quot;: 68013,
+                    &quot;name&quot;: &quot;Aguada&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 696,
+                    &quot;danecode&quot;: 6802,
+                    &quot;name&quot;: &quot;Albania&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 697,
+                    &quot;danecode&quot;: 68051,
+                    &quot;name&quot;: &quot;Aratoca&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 698,
+                    &quot;danecode&quot;: 68077,
+                    &quot;name&quot;: &quot;Barbosa&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 699,
+                    &quot;danecode&quot;: 68079,
+                    &quot;name&quot;: &quot;Barichara&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 700,
+                    &quot;danecode&quot;: 68081,
+                    &quot;name&quot;: &quot;Barrancabermeja&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 701,
+                    &quot;danecode&quot;: 68092,
+                    &quot;name&quot;: &quot;Betulia&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 702,
+                    &quot;danecode&quot;: 68101,
+                    &quot;name&quot;: &quot;Bol&iacute;var&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 703,
+                    &quot;danecode&quot;: 68121,
+                    &quot;name&quot;: &quot;Cabrera&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 704,
+                    &quot;danecode&quot;: 68132,
+                    &quot;name&quot;: &quot;California&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 705,
+                    &quot;danecode&quot;: 68152,
+                    &quot;name&quot;: &quot;Carcas&iacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 706,
+                    &quot;danecode&quot;: 6816,
+                    &quot;name&quot;: &quot;Cepit&aacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 707,
+                    &quot;danecode&quot;: 68162,
+                    &quot;name&quot;: &quot;Cerrito&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 708,
+                    &quot;danecode&quot;: 68167,
+                    &quot;name&quot;: &quot;Charal&aacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 709,
+                    &quot;danecode&quot;: 68169,
+                    &quot;name&quot;: &quot;Charta&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 710,
+                    &quot;danecode&quot;: 68179,
+                    &quot;name&quot;: &quot;Chipat&aacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 711,
+                    &quot;danecode&quot;: 6819,
+                    &quot;name&quot;: &quot;Cimitarra&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 712,
+                    &quot;danecode&quot;: 68207,
+                    &quot;name&quot;: &quot;Concepci&oacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 713,
+                    &quot;danecode&quot;: 68209,
+                    &quot;name&quot;: &quot;Confines&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 714,
+                    &quot;danecode&quot;: 68211,
+                    &quot;name&quot;: &quot;Contrataci&oacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 715,
+                    &quot;danecode&quot;: 68217,
+                    &quot;name&quot;: &quot;Coromoro&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 716,
+                    &quot;danecode&quot;: 68229,
+                    &quot;name&quot;: &quot;Curit&iacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 717,
+                    &quot;danecode&quot;: 68245,
+                    &quot;name&quot;: &quot;El Guacamayo&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 718,
+                    &quot;danecode&quot;: 68255,
+                    &quot;name&quot;: &quot;El Play&oacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 719,
+                    &quot;danecode&quot;: 68264,
+                    &quot;name&quot;: &quot;Encino&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 720,
+                    &quot;danecode&quot;: 68266,
+                    &quot;name&quot;: &quot;Enciso&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 721,
+                    &quot;danecode&quot;: 68271,
+                    &quot;name&quot;: &quot;Flori&aacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 722,
+                    &quot;danecode&quot;: 68276,
+                    &quot;name&quot;: &quot;Floridablanca&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 723,
+                    &quot;danecode&quot;: 68296,
+                    &quot;name&quot;: &quot;Gal&aacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 724,
+                    &quot;danecode&quot;: 68298,
+                    &quot;name&quot;: &quot;Gambita&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 725,
+                    &quot;danecode&quot;: 68307,
+                    &quot;name&quot;: &quot;Gir&oacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 726,
+                    &quot;danecode&quot;: 68318,
+                    &quot;name&quot;: &quot;Guaca&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 727,
+                    &quot;danecode&quot;: 6832,
+                    &quot;name&quot;: &quot;Guadalupe&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 728,
+                    &quot;danecode&quot;: 68322,
+                    &quot;name&quot;: &quot;Guapot&aacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 729,
+                    &quot;danecode&quot;: 68324,
+                    &quot;name&quot;: &quot;Guavat&aacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 730,
+                    &quot;danecode&quot;: 68327,
+                    &quot;name&quot;: &quot;G&uuml;epsa&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 731,
+                    &quot;danecode&quot;: 68368,
+                    &quot;name&quot;: &quot;Jes&uacute;s Mar&iacute;a&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 732,
+                    &quot;danecode&quot;: 6837,
+                    &quot;name&quot;: &quot;Jord&aacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 733,
+                    &quot;danecode&quot;: 68377,
+                    &quot;name&quot;: &quot;La Belleza&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 734,
+                    &quot;danecode&quot;: 68385,
+                    &quot;name&quot;: &quot;Land&aacute;zuri&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 735,
+                    &quot;danecode&quot;: 68397,
+                    &quot;name&quot;: &quot;La Paz&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 736,
+                    &quot;danecode&quot;: 68406,
+                    &quot;name&quot;: &quot;Lebr&iacute;ja&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 737,
+                    &quot;danecode&quot;: 68418,
+                    &quot;name&quot;: &quot;Los Santos&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 738,
+                    &quot;danecode&quot;: 68425,
+                    &quot;name&quot;: &quot;Macaravita&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 739,
+                    &quot;danecode&quot;: 68432,
+                    &quot;name&quot;: &quot;M&aacute;laga&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 740,
+                    &quot;danecode&quot;: 68444,
+                    &quot;name&quot;: &quot;Matanza&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 741,
+                    &quot;danecode&quot;: 68464,
+                    &quot;name&quot;: &quot;Mogotes&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 742,
+                    &quot;danecode&quot;: 68468,
+                    &quot;name&quot;: &quot;Molagavita&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 743,
+                    &quot;danecode&quot;: 68498,
+                    &quot;name&quot;: &quot;Ocamonte&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 744,
+                    &quot;danecode&quot;: 685,
+                    &quot;name&quot;: &quot;Oiba&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 745,
+                    &quot;danecode&quot;: 68502,
+                    &quot;name&quot;: &quot;Onzaga&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 746,
+                    &quot;danecode&quot;: 68522,
+                    &quot;name&quot;: &quot;Palmar&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 747,
+                    &quot;danecode&quot;: 68533,
+                    &quot;name&quot;: &quot;P&aacute;ramo&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 748,
+                    &quot;danecode&quot;: 68547,
+                    &quot;name&quot;: &quot;Piedecuesta&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 749,
+                    &quot;danecode&quot;: 68549,
+                    &quot;name&quot;: &quot;Pinchote&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 750,
+                    &quot;danecode&quot;: 68572,
+                    &quot;name&quot;: &quot;Puente Nacional&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 751,
+                    &quot;danecode&quot;: 68615,
+                    &quot;name&quot;: &quot;Rionegro&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 752,
+                    &quot;danecode&quot;: 68669,
+                    &quot;name&quot;: &quot;San Andr&eacute;s&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 753,
+                    &quot;danecode&quot;: 68679,
+                    &quot;name&quot;: &quot;San Gil&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 754,
+                    &quot;danecode&quot;: 68682,
+                    &quot;name&quot;: &quot;San Joaqu&iacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 755,
+                    &quot;danecode&quot;: 68686,
+                    &quot;name&quot;: &quot;San Miguel&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 756,
+                    &quot;danecode&quot;: 68705,
+                    &quot;name&quot;: &quot;Santa B&aacute;rbara&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 757,
+                    &quot;danecode&quot;: 68745,
+                    &quot;name&quot;: &quot;Simacota&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 758,
+                    &quot;danecode&quot;: 68755,
+                    &quot;name&quot;: &quot;Socorro&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 759,
+                    &quot;danecode&quot;: 6877,
+                    &quot;name&quot;: &quot;Suaita&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 760,
+                    &quot;danecode&quot;: 68773,
+                    &quot;name&quot;: &quot;Sucre&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 761,
+                    &quot;danecode&quot;: 6878,
+                    &quot;name&quot;: &quot;Surat&aacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 762,
+                    &quot;danecode&quot;: 6882,
+                    &quot;name&quot;: &quot;Tona&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 763,
+                    &quot;danecode&quot;: 68861,
+                    &quot;name&quot;: &quot;V&eacute;lez&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 764,
+                    &quot;danecode&quot;: 68867,
+                    &quot;name&quot;: &quot;Vetas&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 765,
+                    &quot;danecode&quot;: 68872,
+                    &quot;name&quot;: &quot;Villanueva&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 766,
+                    &quot;danecode&quot;: 68895,
+                    &quot;name&quot;: &quot;Zapatoca&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 884,
+                    &quot;danecode&quot;: 68524,
+                    &quot;name&quot;: &quot;Palmas del Socorro&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 913,
+                    &quot;danecode&quot;: 68689,
+                    &quot;name&quot;: &quot;San Vicente de Chucur&iacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 914,
+                    &quot;danecode&quot;: 68684,
+                    &quot;name&quot;: &quot;San Jos&eacute; de Miranda&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 916,
+                    &quot;danecode&quot;: 66682,
+                    &quot;name&quot;: &quot;Santa Rosa de Cabal&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 920,
+                    &quot;danecode&quot;: 6872,
+                    &quot;name&quot;: &quot;Santa Helena del Op&oacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 935,
+                    &quot;danecode&quot;: 68655,
+                    &quot;name&quot;: &quot;Sabana de Torres&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 958,
+                    &quot;danecode&quot;: 68235,
+                    &quot;name&quot;: &quot;El Carmen de Chucur&iacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 960,
+                    &quot;danecode&quot;: 66088,
+                    &quot;name&quot;: &quot;Bel&eacute;n de Umbr&iacute;a&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 962,
+                    &quot;danecode&quot;: 68855,
+                    &quot;name&quot;: &quot;Valle de San Jos&eacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 966,
+                    &quot;danecode&quot;: 68673,
+                    &quot;name&quot;: &quot;San Benito&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 970,
+                    &quot;danecode&quot;: 68344,
+                    &quot;name&quot;: &quot;Hato&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 1049,
+                    &quot;danecode&quot;: 68176,
+                    &quot;name&quot;: &quot;Chim&aacute;&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 1067,
+                    &quot;danecode&quot;: 68147,
+                    &quot;name&quot;: &quot;Capitanejo&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                },
+                {
+                    &quot;id&quot;: 1093,
+                    &quot;danecode&quot;: 6825,
+                    &quot;name&quot;: &quot;El Pe&ntilde;&oacute;n&quot;,
+                    &quot;province_id&quot;: 19,
+                    &quot;active&quot;: 1,
+                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;deleted_at&quot;: null
+                }
+            ]
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-province" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-province"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-province"></code></pre>
+</span>
+<span id="execution-error-GETapi-province" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-province"></code></pre>
+</span>
+<form id="form-GETapi-province" data-method="GET"
+      data-path="api/province"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-province', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-province"
+                    onclick="tryItOut('GETapi-province');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-province"
+                    onclick="cancelTryOut('GETapi-province');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-province" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/province</code></b>
+        </p>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="GETapi-province"
+               value="Risaralda"
+               data-component="query" hidden>
+    <br>
+<p>Filtro para buscar departamentos.</p>
+            </p>
+                </form>
 
         <h1 id="business-line">Business Line</h1>
 
@@ -728,7 +1998,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/businessLine/9',
+    'http://localhost:8000/api/businessLine/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -805,7 +2075,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-businessLine--id-"
-               value="9"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -826,7 +2096,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/businessLine/15',
+    'http://localhost:8000/api/businessLine/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -894,7 +2164,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-businessLine--id-"
-               value="15"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -947,7 +2217,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/businessLine/7',
+    'http://localhost:8000/api/businessLine/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1007,7 +2277,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-businessLine--id-"
-               value="7"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1140,10 +2410,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'xsy',
+            'name' =&gt; 'uf',
             'calculated' =&gt; false,
             'concept_type_id' =&gt; 18,
-            'setting_id' =&gt; 19,
+            'setting_id' =&gt; 20,
         ],
     ]
 );
@@ -1199,7 +2469,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-concept"
-               value="xsy"
+               value="uf"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -1240,7 +2510,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="POSTapi-concept"
-               value="19"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -1261,7 +2531,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/concept/10',
+    'http://localhost:8000/api/concept/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1338,7 +2608,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-concept--id-"
-               value="10"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -1359,17 +2629,17 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/concept/10',
+    'http://localhost:8000/api/concept/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'et',
+            'name' =&gt; 'recusandae',
             'calculated' =&gt; false,
-            'concept_type_id' =&gt; 20,
-            'setting_id' =&gt; 7,
+            'concept_type_id' =&gt; 11,
+            'setting_id' =&gt; 6,
         ],
     ]
 );
@@ -1429,7 +2699,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-concept--id-"
-               value="10"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -1440,7 +2710,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-concept--id-"
-               value="et"
+               value="recusandae"
                data-component="body" hidden>
     <br>
 
@@ -1471,7 +2741,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_type_id"
                data-endpoint="PUTapi-concept--id-"
-               value="20"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -1481,7 +2751,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="PUTapi-concept--id-"
-               value="7"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -1502,7 +2772,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/concept/7',
+    'http://localhost:8000/api/concept/17',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1562,7 +2832,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-concept--id-"
-               value="7"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -1758,7 +3028,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/conceptType/1',
+    'http://localhost:8000/api/conceptType/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1835,7 +3105,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-conceptType--id-"
-               value="1"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -1856,7 +3126,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/conceptType/15',
+    'http://localhost:8000/api/conceptType/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1923,7 +3193,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-conceptType--id-"
-               value="15"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -1955,7 +3225,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/conceptType/6',
+    'http://localhost:8000/api/conceptType/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2015,7 +3285,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-conceptType--id-"
-               value="6"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2211,7 +3481,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contractType/9',
+    'http://localhost:8000/api/contractType/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2288,7 +3558,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-contractType--id-"
-               value="9"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -2309,7 +3579,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/contractType/15',
+    'http://localhost:8000/api/contractType/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2376,7 +3646,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-contractType--id-"
-               value="15"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -2408,7 +3678,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/contractType/6',
+    'http://localhost:8000/api/contractType/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2468,7 +3738,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contractType--id-"
-               value="6"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -2587,10 +3857,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'ut',
-            'value' =&gt; 12,
-            'covenant_type_id' =&gt; 10,
-            'periodicity_type_id' =&gt; 1,
+            'name' =&gt; 'adipisci',
+            'value' =&gt; 8,
+            'covenant_type_id' =&gt; 12,
+            'periodicity_type_id' =&gt; 13,
             'provider_id' =&gt; 1,
             'concept_name' =&gt; 'Cuota de convenio por salud',
         ],
@@ -2648,7 +3918,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-covenant"
-               value="ut"
+               value="adipisci"
                data-component="body" hidden>
     <br>
 
@@ -2658,7 +3928,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-covenant"
-               value="12"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -2668,7 +3938,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="POSTapi-covenant"
-               value="10"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -2678,7 +3948,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="POSTapi-covenant"
-               value="1"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -2719,7 +3989,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenant/2',
+    'http://localhost:8000/api/covenant/13',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2796,7 +4066,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenant--id-"
-               value="2"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -2817,19 +4087,19 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenant/15',
+    'http://localhost:8000/api/covenant/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'quod',
+            'name' =&gt; 'nostrum',
             'active' =&gt; true,
-            'value' =&gt; 11,
-            'covenant_type_id' =&gt; 1,
-            'periodicity_type_id' =&gt; 5,
-            'provider_id' =&gt; 7,
+            'value' =&gt; 18,
+            'covenant_type_id' =&gt; 15,
+            'periodicity_type_id' =&gt; 2,
+            'provider_id' =&gt; 16,
             'concept_name' =&gt; '',
         ],
     ]
@@ -2890,7 +4160,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenant--id-"
-               value="15"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -2901,7 +4171,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-covenant--id-"
-               value="quod"
+               value="nostrum"
                data-component="body" hidden>
     <br>
 
@@ -2932,7 +4202,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-covenant--id-"
-               value="11"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -2942,7 +4212,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="1"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -2952,7 +4222,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="5"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -2962,7 +4232,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="provider_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="7"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -3372,7 +4642,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenantType/17',
+    'http://localhost:8000/api/covenantType/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3449,7 +4719,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenantType--id-"
-               value="17"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -3470,7 +4740,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenantType/8',
+    'http://localhost:8000/api/covenantType/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3537,7 +4807,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenantType--id-"
-               value="8"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -3569,7 +4839,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/covenantType/4',
+    'http://localhost:8000/api/covenantType/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3629,7 +4899,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenantType--id-"
-               value="4"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -3913,7 +5183,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/emergencyContact/19',
+    'http://localhost:8000/api/emergencyContact/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4001,7 +5271,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-emergencyContact--id-"
-               value="19"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -4022,7 +5292,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/emergencyContact/14',
+    'http://localhost:8000/api/emergencyContact/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4086,7 +5356,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-emergencyContact--id-"
-               value="14"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -4107,7 +5377,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/emergencyContact/14',
+    'http://localhost:8000/api/emergencyContact/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4167,7 +5437,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-emergencyContact--id-"
-               value="14"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -4348,7 +5618,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contact/1',
+    'http://localhost:8000/api/contact/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4838,7 +6108,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-contact--id-"
-               value="1"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the contact.</p>
@@ -4859,7 +6129,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/contact/15',
+    'http://localhost:8000/api/contact/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4923,7 +6193,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-contact--id-"
-               value="15"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the contact.</p>
@@ -4944,7 +6214,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/contact/16',
+    'http://localhost:8000/api/contact/14',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5004,7 +6274,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contact--id-"
-               value="16"
+               value="14"
                data-component="url" hidden>
     <br>
 <p>The ID of the contact.</p>
@@ -5207,7 +6477,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/healthProvider/5',
+    'http://localhost:8000/api/healthProvider/12',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5293,7 +6563,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-healthProvider--id-"
-               value="5"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -5314,7 +6584,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/healthProvider/17',
+    'http://localhost:8000/api/healthProvider/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5378,7 +6648,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-healthProvider--id-"
-               value="17"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -5399,7 +6669,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/healthProvider/1',
+    'http://localhost:8000/api/healthProvider/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5459,7 +6729,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-healthProvider--id-"
-               value="1"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -5655,7 +6925,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/pensionFund/5',
+    'http://localhost:8000/api/pensionFund/14',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5741,7 +7011,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-pensionFund--id-"
-               value="5"
+               value="14"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -5762,7 +7032,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/pensionFund/6',
+    'http://localhost:8000/api/pensionFund/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5826,7 +7096,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-pensionFund--id-"
-               value="6"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -5847,7 +7117,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/pensionFund/2',
+    'http://localhost:8000/api/pensionFund/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5907,7 +7177,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-pensionFund--id-"
-               value="2"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -6103,7 +7373,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/headQuarter/6',
+    'http://localhost:8000/api/headQuarter/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6180,7 +7450,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-headQuarter--id-"
-               value="6"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -6201,7 +7471,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/headQuarter/13',
+    'http://localhost:8000/api/headQuarter/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6268,7 +7538,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-headQuarter--id-"
-               value="13"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -6300,7 +7570,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/headQuarter/6',
+    'http://localhost:8000/api/headQuarter/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6360,7 +7630,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-headQuarter--id-"
-               value="6"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -6556,7 +7826,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/identificationType/17',
+    'http://localhost:8000/api/identificationType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6633,7 +7903,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-identificationType--id-"
-               value="17"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6654,7 +7924,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/identificationType/20',
+    'http://localhost:8000/api/identificationType/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6721,7 +7991,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-identificationType--id-"
-               value="20"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6753,7 +8023,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/identificationType/7',
+    'http://localhost:8000/api/identificationType/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6813,7 +8083,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-identificationType--id-"
-               value="7"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -7020,7 +8290,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/13',
+    'http://localhost:8000/api/payroll/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7097,7 +8367,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-payroll--id-"
-               value="13"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -7118,7 +8388,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/payroll/9',
+    'http://localhost:8000/api/payroll/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7186,7 +8456,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-payroll--id-"
-               value="9"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -7228,7 +8498,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/payroll/14',
+    'http://localhost:8000/api/payroll/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7288,7 +8558,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-payroll--id-"
-               value="14"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -7544,7 +8814,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/user/12',
+    'http://localhost:8000/api/payroll/user/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7621,7 +8891,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="user"
                data-endpoint="GETapi-payroll-user--user-"
-               value="12"
+               value="1"
                data-component="url" hidden>
     <br>
 
@@ -7748,7 +9018,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/payrollDeleteConcept/5',
+    'http://localhost:8000/api/payrollDeleteConcept/7',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7811,7 +9081,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="payroll_id"
                data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
-               value="5"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>El id de la nomina a la que se le eliminará el concepto</p>
@@ -8018,7 +9288,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/period/13',
+    'http://localhost:8000/api/period/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8095,7 +9365,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-period--id-"
-               value="13"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8116,7 +9386,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/period/7',
+    'http://localhost:8000/api/period/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8183,7 +9453,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-period--id-"
-               value="7"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8215,7 +9485,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/period/5',
+    'http://localhost:8000/api/period/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8275,7 +9545,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-period--id-"
-               value="5"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8394,7 +9664,7 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'temporibus',
+            'name' =&gt; 'adipisci',
         ],
     ]
 );
@@ -8450,7 +9720,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-periodicityType"
-               value="temporibus"
+               value="adipisci"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8471,7 +9741,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/periodicityType/3',
+    'http://localhost:8000/api/periodicityType/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8548,7 +9818,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-periodicityType--id-"
-               value="3"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8569,14 +9839,14 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/periodicityType/11',
+    'http://localhost:8000/api/periodicityType/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'eos',
+            'name' =&gt; 'voluptas',
         ],
     ]
 );
@@ -8636,7 +9906,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="11"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8647,7 +9917,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="eos"
+               value="voluptas"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8668,7 +9938,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/periodicityType/11',
+    'http://localhost:8000/api/periodicityType/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8728,7 +9998,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-periodicityType--id-"
-               value="11"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8924,7 +10194,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/position/3',
+    'http://localhost:8000/api/position/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9001,7 +10271,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-position--id-"
-               value="3"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9022,7 +10292,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/position/5',
+    'http://localhost:8000/api/position/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9089,7 +10359,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-position--id-"
-               value="5"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9121,7 +10391,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/position/7',
+    'http://localhost:8000/api/position/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9181,7 +10451,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-position--id-"
-               value="7"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9300,19 +10570,19 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'p',
-            'last_name' =&gt; '',
-            'trade_name' =&gt; 'i',
-            'address' =&gt; 'ylt',
-            'phone' =&gt; 'vuetk',
-            'identification_number' =&gt; 'gnq',
-            'identification_type_id' =&gt; 2,
-            'iva' =&gt; false,
-            'email' =&gt; 'kweissnat@example.org',
-            'password' =&gt; 'nobis',
-            'constitution_type_id' =&gt; 13,
-            'city_id' =&gt; 20,
-            'responsability_type_id' =&gt; 13,
+            'name' =&gt; 'e',
+            'last_name' =&gt; 'ehl',
+            'trade_name' =&gt; 'q',
+            'address' =&gt; 'xpwfc',
+            'phone' =&gt; 'eio',
+            'identification_number' =&gt; 'wmew',
+            'identification_type_id' =&gt; 13,
+            'iva' =&gt; true,
+            'email' =&gt; 'sbauch@example.net',
+            'password' =&gt; 'odio',
+            'constitution_type_id' =&gt; 15,
+            'city_id' =&gt; 14,
+            'responsability_type_id' =&gt; 5,
         ],
     ]
 );
@@ -9368,7 +10638,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-provider"
-               value="p"
+               value="e"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9378,7 +10648,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-provider"
-               value=""
+               value="ehl"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9388,7 +10658,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="trade_name"
                data-endpoint="POSTapi-provider"
-               value="i"
+               value="q"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9398,7 +10668,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-provider"
-               value="ylt"
+               value="xpwfc"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9408,7 +10678,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="POSTapi-provider"
-               value="vuetk"
+               value="eio"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9418,7 +10688,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-provider"
-               value="gnq"
+               value="wmew"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9428,7 +10698,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-provider"
-               value="2"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -9459,7 +10729,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-provider"
-               value="kweissnat@example.org"
+               value="sbauch@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -9469,7 +10739,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-provider"
-               value="nobis"
+               value="odio"
                data-component="body" hidden>
     <br>
 
@@ -9479,7 +10749,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="constitution_type_id"
                data-endpoint="POSTapi-provider"
-               value="13"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -9489,7 +10759,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="city_id"
                data-endpoint="POSTapi-provider"
-               value="20"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -9499,7 +10769,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="responsability_type_id"
                data-endpoint="POSTapi-provider"
-               value="13"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -9520,7 +10790,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/provider/10',
+    'http://localhost:8000/api/provider/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9597,7 +10867,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-provider--id-"
-               value="10"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9618,26 +10888,26 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/provider/3',
+    'http://localhost:8000/api/provider/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'exercitationem',
-            'last_name' =&gt; '',
-            'trade_name' =&gt; 'illum',
-            'address' =&gt; '',
-            'phone' =&gt; 'omlni',
-            'identification_number' =&gt; 'debitis',
-            'identification_type_id' =&gt; 1,
+            'name' =&gt; 'perferendis',
+            'last_name' =&gt; 'cl',
+            'trade_name' =&gt; 'nostrum',
+            'address' =&gt; 'xql',
+            'phone' =&gt; 'yia',
+            'identification_number' =&gt; 'odit',
+            'identification_type_id' =&gt; 17,
             'iva' =&gt; true,
-            'email' =&gt; 'kmclaughlin@example.org',
-            'password' =&gt; 'vel',
-            'constitution_type_id' =&gt; 6,
-            'city_id' =&gt; 14,
-            'responsability_type_id' =&gt; 13,
+            'email' =&gt; 'ratke.roosevelt@example.com',
+            'password' =&gt; 'sapiente',
+            'constitution_type_id' =&gt; 14,
+            'city_id' =&gt; 4,
+            'responsability_type_id' =&gt; 15,
         ],
     ]
 );
@@ -9697,7 +10967,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-provider--id-"
-               value="3"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9708,7 +10978,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-provider--id-"
-               value="exercitationem"
+               value="perferendis"
                data-component="body" hidden>
     <br>
 
@@ -9718,7 +10988,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-provider--id-"
-               value=""
+               value="cl"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9728,7 +10998,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="trade_name"
                data-endpoint="PUTapi-provider--id-"
-               value="illum"
+               value="nostrum"
                data-component="body" hidden>
     <br>
 
@@ -9738,7 +11008,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-provider--id-"
-               value=""
+               value="xql"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9748,7 +11018,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="PUTapi-provider--id-"
-               value="omlni"
+               value="yia"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9758,7 +11028,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-provider--id-"
-               value="debitis"
+               value="odit"
                data-component="body" hidden>
     <br>
 
@@ -9768,7 +11038,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="1"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -9799,7 +11069,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-provider--id-"
-               value="kmclaughlin@example.org"
+               value="ratke.roosevelt@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -9809,7 +11079,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-provider--id-"
-               value="vel"
+               value="sapiente"
                data-component="body" hidden>
     <br>
 
@@ -9819,7 +11089,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="constitution_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="6"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -9829,7 +11099,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="city_id"
                data-endpoint="PUTapi-provider--id-"
-               value="14"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -9839,7 +11109,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="responsability_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="13"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -9860,7 +11130,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/provider/13',
+    'http://localhost:8000/api/provider/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9920,7 +11190,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-provider--id-"
-               value="13"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -10116,7 +11386,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/salaryType/4',
+    'http://localhost:8000/api/salaryType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10193,7 +11463,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-salaryType--id-"
-               value="4"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -10214,7 +11484,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/salaryType/3',
+    'http://localhost:8000/api/salaryType/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10281,7 +11551,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-salaryType--id-"
-               value="3"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -10313,7 +11583,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/salaryType/2',
+    'http://localhost:8000/api/salaryType/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10373,7 +11643,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-salaryType--id-"
-               value="2"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -10492,8 +11762,8 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'dzgekypwbirszqnsfypulraezcxtngfejkv',
-            'value' =&gt; 14,
+            'name' =&gt; 'cycccpdupiryufwfpnsdlvnzciwwhddc',
+            'value' =&gt; 1,
         ],
     ]
 );
@@ -10549,7 +11819,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-setting"
-               value="dzgekypwbirszqnsfypulraezcxtngfejkv"
+               value="cycccpdupiryufwfpnsdlvnzciwwhddc"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 45 characters.</p>
@@ -10559,7 +11829,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-setting"
-               value="14"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -10580,7 +11850,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/setting/16',
+    'http://localhost:8000/api/setting/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10657,7 +11927,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-setting--id-"
-               value="16"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -10678,15 +11948,15 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/setting/8',
+    'http://localhost:8000/api/setting/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'xvo',
-            'value' =&gt; 4,
+            'name' =&gt; 'lu',
+            'value' =&gt; 9,
         ],
     ]
 );
@@ -10746,7 +12016,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-setting--id-"
-               value="8"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -10757,7 +12027,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-setting--id-"
-               value="xvo"
+               value="lu"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -10767,7 +12037,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-setting--id-"
-               value="4"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -10788,7 +12058,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/setting/5',
+    'http://localhost:8000/api/setting/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10848,7 +12118,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-setting--id-"
-               value="5"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -10992,35 +12262,35 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'y',
-            'last_name' =&gt; '',
-            'second_last_name' =&gt; 'iste',
-            'identification_number' =&gt; 'nam',
-            'email' =&gt; 'gwen48@example.com',
-            'password' =&gt; 'illum',
-            'admission_date' =&gt; '2022-01-27T09:45:56',
-            'out_date' =&gt; '2022-01-27T09:45:56',
-            'address' =&gt; 'dolorum',
-            'neighborhood' =&gt; 'quod',
-            'birthday' =&gt; 'cumque',
-            'children' =&gt; 'voluptatem',
-            'base_salary' =&gt; 8,
-            'position_id' =&gt; 7,
-            'contract_type_id' =&gt; 12,
-            'salary_type_id' =&gt; 5,
-            'headquarter_id' =&gt; 3,
-            'identification_type_id' =&gt; 17,
-            'gender_id' =&gt; 12,
-            'health_provider_id' =&gt; 5,
-            'pension_fund_id' =&gt; 8,
-            'civil_statu_id' =&gt; 10,
-            'work_city_id' =&gt; 5,
-            'residence_city_id' =&gt; 17,
-            'expedition_place_id' =&gt; 7,
-            'strata_id' =&gt; 18,
-            'education_level_id' =&gt; 4,
-            'active' =&gt; 9,
-            'emergency_contact_id' =&gt; 9,
+            'name' =&gt; 'klty',
+            'last_name' =&gt; 'fpt',
+            'second_last_name' =&gt; 'nemo',
+            'identification_number' =&gt; 'provident',
+            'email' =&gt; 'vboyle@example.net',
+            'password' =&gt; 'aspernatur',
+            'admission_date' =&gt; '2022-01-27T10:02:39',
+            'out_date' =&gt; '2022-01-27T10:02:39',
+            'address' =&gt; 'alias',
+            'neighborhood' =&gt; 'quaerat',
+            'birthday' =&gt; 'sed',
+            'children' =&gt; 'nihil',
+            'base_salary' =&gt; 10,
+            'position_id' =&gt; 14,
+            'contract_type_id' =&gt; 2,
+            'salary_type_id' =&gt; 18,
+            'headquarter_id' =&gt; 6,
+            'identification_type_id' =&gt; 16,
+            'gender_id' =&gt; 4,
+            'health_provider_id' =&gt; 20,
+            'pension_fund_id' =&gt; 7,
+            'civil_statu_id' =&gt; 12,
+            'work_city_id' =&gt; 11,
+            'residence_city_id' =&gt; 19,
+            'expedition_place_id' =&gt; 20,
+            'strata_id' =&gt; 17,
+            'education_level_id' =&gt; 10,
+            'active' =&gt; 10,
+            'emergency_contact_id' =&gt; 2,
         ],
     ]
 );
@@ -11076,7 +12346,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-user"
-               value="y"
+               value="klty"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11086,7 +12356,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-user"
-               value=""
+               value="fpt"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11096,7 +12366,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="POSTapi-user"
-               value="iste"
+               value="nemo"
                data-component="body" hidden>
     <br>
 
@@ -11106,7 +12376,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-user"
-               value="nam"
+               value="provident"
                data-component="body" hidden>
     <br>
 
@@ -11116,7 +12386,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user"
-               value="gwen48@example.com"
+               value="vboyle@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -11126,7 +12396,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user"
-               value="illum"
+               value="aspernatur"
                data-component="body" hidden>
     <br>
 
@@ -11136,7 +12406,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T09:45:56"
+               value="2022-01-27T10:02:39"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11146,7 +12416,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T09:45:56"
+               value="2022-01-27T10:02:39"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11156,7 +12426,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-user"
-               value="dolorum"
+               value="alias"
                data-component="body" hidden>
     <br>
 
@@ -11166,7 +12436,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="POSTapi-user"
-               value="quod"
+               value="quaerat"
                data-component="body" hidden>
     <br>
 
@@ -11176,7 +12446,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="POSTapi-user"
-               value="cumque"
+               value="sed"
                data-component="body" hidden>
     <br>
 
@@ -11186,7 +12456,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="children"
                data-endpoint="POSTapi-user"
-               value="voluptatem"
+               value="nihil"
                data-component="body" hidden>
     <br>
 
@@ -11196,7 +12466,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="POSTapi-user"
-               value="8"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -11206,7 +12476,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="POSTapi-user"
-               value="7"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -11216,7 +12486,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="POSTapi-user"
-               value="12"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -11226,7 +12496,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="POSTapi-user"
-               value="5"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -11236,7 +12506,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="POSTapi-user"
-               value="3"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -11246,7 +12516,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-user"
-               value="17"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -11256,7 +12526,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="POSTapi-user"
-               value="12"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -11266,7 +12536,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="POSTapi-user"
-               value="5"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -11276,7 +12546,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="pension_fund_id"
                data-endpoint="POSTapi-user"
-               value="8"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -11286,7 +12556,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -11296,7 +12566,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="POSTapi-user"
-               value="5"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -11306,7 +12576,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="POSTapi-user"
-               value="17"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -11316,7 +12586,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="expedition_place_id"
                data-endpoint="POSTapi-user"
-               value="7"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -11326,7 +12596,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="POSTapi-user"
-               value="18"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -11336,7 +12606,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="education_level_id"
                data-endpoint="POSTapi-user"
-               value="4"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -11346,7 +12616,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="POSTapi-user"
-               value="9"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -11356,7 +12626,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="emergency_contact_id"
                data-endpoint="POSTapi-user"
-               value="9"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -11377,7 +12647,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/user/9',
+    'http://localhost:8000/api/user/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11454,7 +12724,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-user--id-"
-               value="9"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -11475,7 +12745,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/user/13',
+    'http://localhost:8000/api/user/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11535,7 +12805,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-user--id-"
-               value="13"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -11556,41 +12826,41 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/user/11',
+    'http://localhost:8000/api/user/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'rr',
-            'last_name' =&gt; 'mgm',
-            'second_last_name' =&gt; 'similique',
-            'identification_number' =&gt; 'vel',
-            'email' =&gt; 'clara.parisian@example.org',
+            'name' =&gt; 'ggwru',
+            'last_name' =&gt; 'puo',
+            'second_last_name' =&gt; 'suscipit',
+            'identification_number' =&gt; 'et',
+            'email' =&gt; 'beatrice35@example.com',
             'password' =&gt; 'autem',
-            'admission_date' =&gt; '2022-01-27T09:45:56',
-            'out_date' =&gt; '2022-01-27T09:45:56',
-            'address' =&gt; 'placeat',
-            'neighborhood' =&gt; 'velit',
-            'birthday' =&gt; 'autem',
-            'children' =&gt; 'quasi',
-            'base_salary' =&gt; 7,
-            'position_id' =&gt; 1,
-            'contract_type_id' =&gt; 12,
-            'salary_type_id' =&gt; 18,
-            'headquarter_id' =&gt; 18,
-            'identification_type_id' =&gt; 12,
-            'gender_id' =&gt; 4,
-            'health_provider_id' =&gt; 5,
-            'pension_fund_id' =&gt; 16,
-            'civil_statu_id' =&gt; 15,
-            'work_city_id' =&gt; 9,
-            'residence_city_id' =&gt; 13,
-            'expedition_place_id' =&gt; 15,
-            'strata_id' =&gt; 3,
-            'education_level_id' =&gt; 19,
-            'active' =&gt; 20,
+            'admission_date' =&gt; '2022-01-27T10:02:39',
+            'out_date' =&gt; '2022-01-27T10:02:39',
+            'address' =&gt; 'quia',
+            'neighborhood' =&gt; 'temporibus',
+            'birthday' =&gt; 'et',
+            'children' =&gt; 'doloremque',
+            'base_salary' =&gt; 2,
+            'position_id' =&gt; 9,
+            'contract_type_id' =&gt; 11,
+            'salary_type_id' =&gt; 12,
+            'headquarter_id' =&gt; 16,
+            'identification_type_id' =&gt; 11,
+            'gender_id' =&gt; 8,
+            'health_provider_id' =&gt; 14,
+            'pension_fund_id' =&gt; 10,
+            'civil_statu_id' =&gt; 8,
+            'work_city_id' =&gt; 16,
+            'residence_city_id' =&gt; 1,
+            'expedition_place_id' =&gt; 12,
+            'strata_id' =&gt; 10,
+            'education_level_id' =&gt; 4,
+            'active' =&gt; 19,
             'emergency_contact_id' =&gt; 6,
         ],
     ]
@@ -11651,7 +12921,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-user--id-"
-               value="11"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -11662,7 +12932,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-user--id-"
-               value="rr"
+               value="ggwru"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11672,7 +12942,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-user--id-"
-               value="mgm"
+               value="puo"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -11682,7 +12952,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="PUTapi-user--id-"
-               value="similique"
+               value="suscipit"
                data-component="body" hidden>
     <br>
 
@@ -11692,7 +12962,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-user--id-"
-               value="vel"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -11702,7 +12972,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-user--id-"
-               value="clara.parisian@example.org"
+               value="beatrice35@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -11722,7 +12992,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T09:45:56"
+               value="2022-01-27T10:02:39"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11732,7 +13002,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T09:45:56"
+               value="2022-01-27T10:02:39"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -11742,7 +13012,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-user--id-"
-               value="placeat"
+               value="quia"
                data-component="body" hidden>
     <br>
 
@@ -11752,7 +13022,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="PUTapi-user--id-"
-               value="velit"
+               value="temporibus"
                data-component="body" hidden>
     <br>
 
@@ -11762,7 +13032,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="PUTapi-user--id-"
-               value="autem"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -11772,7 +13042,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="children"
                data-endpoint="PUTapi-user--id-"
-               value="quasi"
+               value="doloremque"
                data-component="body" hidden>
     <br>
 
@@ -11782,7 +13052,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="PUTapi-user--id-"
-               value="7"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -11792,7 +13062,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="PUTapi-user--id-"
-               value="1"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -11802,7 +13072,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -11812,7 +13082,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="18"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -11822,7 +13092,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="PUTapi-user--id-"
-               value="18"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -11832,7 +13102,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -11842,7 +13112,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="PUTapi-user--id-"
-               value="4"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -11852,7 +13122,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="PUTapi-user--id-"
-               value="5"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -11862,7 +13132,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="pension_fund_id"
                data-endpoint="PUTapi-user--id-"
-               value="16"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -11872,7 +13142,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="PUTapi-user--id-"
-               value="15"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -11882,7 +13152,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="9"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -11892,7 +13162,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="13"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -11902,7 +13172,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="expedition_place_id"
                data-endpoint="PUTapi-user--id-"
-               value="15"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -11912,7 +13182,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="PUTapi-user--id-"
-               value="3"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -11922,7 +13192,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="education_level_id"
                data-endpoint="PUTapi-user--id-"
-               value="19"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -11932,7 +13202,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="PUTapi-user--id-"
-               value="20"
+               value="19"
                data-component="body" hidden>
     <br>
 

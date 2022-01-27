@@ -1,10 +1,10 @@
-name: Position
+name: 'Periodicity Type'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/position
+    uri: api/periodicityType
     metadata:
       title: ''
       description: ''
@@ -29,7 +29,7 @@ endpoints:
   -
     httpMethods:
       - POST
-    uri: api/position
+    uri: api/periodicityType
     metadata:
       title: ''
       description: ''
@@ -43,9 +43,9 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del cargo.'
+        description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: Jefe
+        example: adipisci
         type: required
         custom: []
     responses: []
@@ -53,7 +53,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/position/{id}'
+    uri: 'api/periodicityType/{id}'
     metadata:
       title: ''
       description: ''
@@ -65,9 +65,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the periodicityType.'
         required: true
-        example: 3
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -86,7 +86,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/position/{id}'
+    uri: 'api/periodicityType/{id}'
     metadata:
       title: ''
       description: ''
@@ -98,18 +98,18 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the periodicityType.'
         required: true
-        example: 5
+        example: 19
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre del cargo.'
+        description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
         required: false
-        example: Jefe
+        example: voluptas
         type: required
         custom: []
     responses: []
@@ -117,7 +117,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/position/{id}'
+    uri: 'api/periodicityType/{id}'
     metadata:
       title: ''
       description: ''
@@ -129,9 +129,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the periodicityType.'
         required: true
-        example: 7
+        example: 6
         type: integer
         custom: []
     queryParameters: []

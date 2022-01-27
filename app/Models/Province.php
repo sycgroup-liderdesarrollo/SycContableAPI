@@ -14,13 +14,10 @@ class Province extends Model
 
     public function scopeFilter($query , $filter)
     {
-        return $query->where('danecode','like','%'.$filter.'%')
-                     ->orWhere('name','like','%'.$filter.'%')
-                     ->orWhere('prefix','like','%'.$filter.'%');
+        return $query->where('name','like','%'.$filter.'%');
     }
-
-    public function country()
+    public function cities()
     {
-        return $this->belongsTo(Country::class);
+        return $this->hasMany(City::class);
     }
 }
