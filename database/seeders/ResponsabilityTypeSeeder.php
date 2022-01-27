@@ -10,6 +10,7 @@ class ResponsabilityTypeSeeder extends Seeder
 
     public function run()
     {
-        ResponsabilityType::create(['name'=>'test']);
+        ResponsabilityType::create(['name'=>'Responsable de IVA']);
+        ResponsabilityType::create(['name'=>'No responsable de IVA']);
     }
 }
