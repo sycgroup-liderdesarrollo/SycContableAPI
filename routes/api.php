@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BusinessLineController;
+use App\Http\Controllers\CityController;
 use App\Http\Controllers\ConceptController;
 use App\Http\Controllers\ConceptTypeController;
 use App\Http\Controllers\ContactController;
@@ -9,15 +10,19 @@ use App\Http\Controllers\CovenantController;
 use App\Http\Controllers\CovenantTypeController;
 use App\Http\Controllers\EmergencyContactController;
 use App\Http\Controllers\HeadquarterController;
+use App\Http\Controllers\HealthProviderController;
 use App\Http\Controllers\IdentificationTypeController;
 use App\Http\Controllers\PayrollController;
+use App\Http\Controllers\PensionFundController;
 use App\Http\Controllers\PeriodController;
 use App\Http\Controllers\PeriodicityTypeController;
 use App\Http\Controllers\PositionController;
 use App\Http\Controllers\ProviderController;
+use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\UserController;
+use App\Models\HealthProvider;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -69,6 +74,10 @@ Route::middleware(['auth:api'])->group(function () {
     });
     Route::apiResource('emergencyContact', EmergencyContactController::class);
     Route::apiResource('contact', ContactController::class);
+    Route::apiResource('healthProvider', HealthProviderController::class);
+    Route::apiResource('pensionFund', PensionFundController::class);
+    Route::apiResource('city', CityController::class);
+    Route::apiResource('province', ProvinceController::class);
 
 
 
