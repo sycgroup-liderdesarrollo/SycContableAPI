@@ -1,10 +1,10 @@
-name: Period
+name: 'Identification Type'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/period
+    uri: api/identificationType
     metadata:
       title: ''
       description: ''
@@ -29,7 +29,7 @@ endpoints:
   -
     httpMethods:
       - POST
-    uri: api/period
+    uri: api/identificationType
     metadata:
       title: ''
       description: ''
@@ -43,9 +43,9 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.'
+        description: 'El nombre del tipo de identificacion.'
         required: false
-        example: '5 a 19'
+        example: 'Cedula de ciudadania'
         type: required
         custom: []
     responses: []
@@ -53,7 +53,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/period/{id}'
+    uri: 'api/identificationType/{id}'
     metadata:
       title: ''
       description: ''
@@ -65,9 +65,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the period.'
+        description: 'The ID of the identificationType.'
         required: true
-        example: 16
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -86,7 +86,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/period/{id}'
+    uri: 'api/identificationType/{id}'
     metadata:
       title: ''
       description: ''
@@ -98,18 +98,18 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the period.'
+        description: 'The ID of the identificationType.'
         required: true
-        example: 5
+        example: 19
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.'
+        description: 'El nombre del tipo de identificacion.'
         required: false
-        example: '5 a 19'
+        example: 'Cedula de ciudadania'
         type: required
         custom: []
     responses: []
@@ -117,7 +117,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/period/{id}'
+    uri: 'api/identificationType/{id}'
     metadata:
       title: ''
       description: ''
@@ -129,9 +129,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the period.'
+        description: 'The ID of the identificationType.'
         required: true
-        example: 18
+        example: 4
         type: integer
         custom: []
     queryParameters: []

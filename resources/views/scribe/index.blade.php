@@ -69,28 +69,46 @@
                                                 </ul>
                     
                     <ul id="tocify-header-2" class="tocify-header">
-                <li class="tocify-item level-1" data-unique="contact">
-                    <a href="#contact">Contact</a>
+                <li class="tocify-item level-1" data-unique="civil-statu">
+                    <a href="#civil-statu">Civil Statu</a>
                 </li>
-                                    <ul id="tocify-subheader-contact" class="tocify-subheader">
-                                                    <li class="tocify-item level-2" data-unique="contact-GETapi-contact">
-                        <a href="#contact-GETapi-contact">GET api/contact</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="contact-POSTapi-contact">
-                        <a href="#contact-POSTapi-contact">POST api/contact</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="contact-GETapi-contact--id-">
-                        <a href="#contact-GETapi-contact--id-">GET api/contact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="contact-PUTapi-contact--id-">
-                        <a href="#contact-PUTapi-contact--id-">PUT api/contact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="contact-DELETEapi-contact--id-">
-                        <a href="#contact-DELETEapi-contact--id-">DELETE api/contact/{id}</a>
+                                    <ul id="tocify-subheader-civil-statu" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="civil-statu-GETapi-civilStatu">
+                        <a href="#civil-statu-GETapi-civilStatu">GET api/civilStatu</a>
                     </li>
                                                     </ul>
                             </ul>
                     <ul id="tocify-header-3" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="education-level">
+                    <a href="#education-level">Education Level</a>
+                </li>
+                                    <ul id="tocify-subheader-education-level" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="education-level-GETapi-educationLevel">
+                        <a href="#education-level-GETapi-educationLevel">GET api/educationLevel</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-4" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="gender">
+                    <a href="#gender">Gender</a>
+                </li>
+                                    <ul id="tocify-subheader-gender" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="gender-GETapi-gender">
+                        <a href="#gender-GETapi-gender">GET api/gender</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-5" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="strata">
+                    <a href="#strata">Strata</a>
+                </li>
+                                    <ul id="tocify-subheader-strata" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="strata-GETapi-strata">
+                        <a href="#strata-GETapi-strata">GET api/strata</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-6" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="business-line">
                     <a href="#business-line">Business Line</a>
                 </li>
@@ -112,7 +130,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-4" class="tocify-header">
+                    <ul id="tocify-header-7" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="city">
                     <a href="#city">City</a>
                 </li>
@@ -122,7 +140,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-5" class="tocify-header">
+                    <ul id="tocify-header-8" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="concept">
                     <a href="#concept">Concept</a>
                 </li>
@@ -144,7 +162,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-6" class="tocify-header">
+                    <ul id="tocify-header-9" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="concept-type">
                     <a href="#concept-type">Concept Type</a>
                 </li>
@@ -166,7 +184,29 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-7" class="tocify-header">
+                    <ul id="tocify-header-10" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="contact">
+                    <a href="#contact">Contact</a>
+                </li>
+                                    <ul id="tocify-subheader-contact" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="contact-GETapi-contact">
+                        <a href="#contact-GETapi-contact">GET api/contact</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-POSTapi-contact">
+                        <a href="#contact-POSTapi-contact">POST api/contact</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-GETapi-contact--id-">
+                        <a href="#contact-GETapi-contact--id-">GET api/contact/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-PUTapi-contact--id-">
+                        <a href="#contact-PUTapi-contact--id-">PUT api/contact/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-DELETEapi-contact--id-">
+                        <a href="#contact-DELETEapi-contact--id-">DELETE api/contact/{id}</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-11" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="contract-type">
                     <a href="#contract-type">Contract Type</a>
                 </li>
@@ -188,7 +228,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-8" class="tocify-header">
+                    <ul id="tocify-header-12" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="covenant">
                     <a href="#covenant">Covenant</a>
                 </li>
@@ -213,7 +253,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-9" class="tocify-header">
+                    <ul id="tocify-header-13" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="covenant-type">
                     <a href="#covenant-type">Covenant Type</a>
                 </li>
@@ -235,7 +275,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-10" class="tocify-header">
+                    <ul id="tocify-header-14" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="emergency-contact">
                     <a href="#emergency-contact">Emergency Contact</a>
                 </li>
@@ -257,7 +297,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-11" class="tocify-header">
+                    <ul id="tocify-header-15" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="endpoints">
                     <a href="#endpoints">Endpoints</a>
                 </li>
@@ -267,7 +307,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-12" class="tocify-header">
+                    <ul id="tocify-header-16" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="headquarter">
                     <a href="#headquarter">Headquarter</a>
                 </li>
@@ -289,7 +329,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-13" class="tocify-header">
+                    <ul id="tocify-header-17" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="health-provider">
                     <a href="#health-provider">Health Provider</a>
                 </li>
@@ -311,7 +351,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-14" class="tocify-header">
+                    <ul id="tocify-header-18" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="identification-type">
                     <a href="#identification-type">Identification Type</a>
                 </li>
@@ -333,7 +373,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-15" class="tocify-header">
+                    <ul id="tocify-header-19" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="payroll">
                     <a href="#payroll">Payroll</a>
                 </li>
@@ -370,7 +410,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-16" class="tocify-header">
+                    <ul id="tocify-header-20" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="pension-fund">
                     <a href="#pension-fund">Pension Fund</a>
                 </li>
@@ -392,7 +432,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-17" class="tocify-header">
+                    <ul id="tocify-header-21" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="period">
                     <a href="#period">Period</a>
                 </li>
@@ -414,7 +454,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-18" class="tocify-header">
+                    <ul id="tocify-header-22" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="periodicity-type">
                     <a href="#periodicity-type">Periodicity Type</a>
                 </li>
@@ -436,7 +476,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-19" class="tocify-header">
+                    <ul id="tocify-header-23" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="position">
                     <a href="#position">Position</a>
                 </li>
@@ -458,7 +498,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-20" class="tocify-header">
+                    <ul id="tocify-header-24" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="provider">
                     <a href="#provider">Provider</a>
                 </li>
@@ -480,7 +520,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-21" class="tocify-header">
+                    <ul id="tocify-header-25" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="province">
                     <a href="#province">Province</a>
                 </li>
@@ -490,7 +530,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-22" class="tocify-header">
+                    <ul id="tocify-header-26" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="salary-type">
                     <a href="#salary-type">Salary Type</a>
                 </li>
@@ -512,7 +552,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-23" class="tocify-header">
+                    <ul id="tocify-header-27" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="setting">
                     <a href="#setting">Setting</a>
                 </li>
@@ -534,7 +574,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-24" class="tocify-header">
+                    <ul id="tocify-header-28" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="user">
                     <a href="#user">User</a>
                 </li>
@@ -587,25 +627,25 @@
         <h1 id="authenticating-requests">Authenticating requests</h1>
 <p>This API is not authenticated.</p>
 
-        <h1 id="contact">Contact</h1>
+        <h1 id="civil-statu">Civil Statu</h1>
 
     
 
-            <h2 id="contact-GETapi-contact">GET api/contact</h2>
+            <h2 id="civil-statu-GETapi-civilStatu">GET api/civilStatu</h2>
 
 <p>
 </p>
 
 
 
-<span id="example-requests-GETapi-contact">
+<span id="example-requests-GETapi-civilStatu">
 <blockquote>Example request:</blockquote>
 
 
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contact',
+    'http://localhost:8000/api/civilStatu',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -618,7 +658,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
-<span id="example-responses-GETapi-contact">
+<span id="example-responses-GETapi-civilStatu">
             <blockquote>
             <p>Example response (200):</p>
         </blockquote>
@@ -629,143 +669,96 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 56
+x-ratelimit-remaining: 47
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
     &quot;status&quot;: true,
-    &quot;data&quot;: []
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Soltero&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Casado&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Union Libre&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        }
+    ]
 }</code>
  </pre>
     </span>
-<span id="execution-results-GETapi-contact" hidden>
+<span id="execution-results-GETapi-civilStatu" hidden>
     <blockquote>Received response<span
-                id="execution-response-status-GETapi-contact"></span>:
+                id="execution-response-status-GETapi-civilStatu"></span>:
     </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-contact"></code></pre>
+    <pre class="json"><code id="execution-response-content-GETapi-civilStatu"></code></pre>
 </span>
-<span id="execution-error-GETapi-contact" hidden>
+<span id="execution-error-GETapi-civilStatu" hidden>
     <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-contact"></code></pre>
+    <pre><code id="execution-error-message-GETapi-civilStatu"></code></pre>
 </span>
-<form id="form-GETapi-contact" data-method="GET"
-      data-path="api/contact"
+<form id="form-GETapi-civilStatu" data-method="GET"
+      data-path="api/civilStatu"
       data-authed="0"
       data-hasfiles="0"
       data-isarraybody="0"
       data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
       autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact', this);">
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-civilStatu', this);">
     <h3>
         Request&nbsp;&nbsp;&nbsp;
                     <button type="button"
                     style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-contact"
-                    onclick="tryItOut('GETapi-contact');">Try it out ⚡
+                    id="btn-tryout-GETapi-civilStatu"
+                    onclick="tryItOut('GETapi-civilStatu');">Try it out ⚡
             </button>
             <button type="button"
                     style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-contact"
-                    onclick="cancelTryOut('GETapi-contact');" hidden>Cancel 🛑
+                    id="btn-canceltryout-GETapi-civilStatu"
+                    onclick="cancelTryOut('GETapi-civilStatu');" hidden>Cancel 🛑
             </button>&nbsp;&nbsp;
             <button type="submit"
                     style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-contact" hidden>Send Request 💥
+                    id="btn-executetryout-GETapi-civilStatu" hidden>Send Request 💥
             </button>
             </h3>
             <p>
             <small class="badge badge-green">GET</small>
-            <b><code>api/contact</code></b>
+            <b><code>api/civilStatu</code></b>
         </p>
                     </form>
 
-            <h2 id="contact-POSTapi-contact">POST api/contact</h2>
+        <h1 id="education-level">Education Level</h1>
+
+    
+
+            <h2 id="education-level-GETapi-educationLevel">GET api/educationLevel</h2>
 
 <p>
 </p>
 
 
 
-<span id="example-requests-POSTapi-contact">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/contact',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-contact">
-</span>
-<span id="execution-results-POSTapi-contact" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-contact"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-contact"></code></pre>
-</span>
-<span id="execution-error-POSTapi-contact" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-contact"></code></pre>
-</span>
-<form id="form-POSTapi-contact" data-method="POST"
-      data-path="api/contact"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-contact', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-contact"
-                    onclick="tryItOut('POSTapi-contact');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-contact"
-                    onclick="cancelTryOut('POSTapi-contact');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-contact" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/contact</code></b>
-        </p>
-                    </form>
-
-            <h2 id="contact-GETapi-contact--id-">GET api/contact/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-contact--id-">
+<span id="example-requests-GETapi-educationLevel">
 <blockquote>Example request:</blockquote>
 
 
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contact/19',
+    'http://localhost:8000/api/educationLevel',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -778,9 +771,9 @@ print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
-<span id="example-responses-GETapi-contact--id-">
+<span id="example-responses-GETapi-educationLevel">
             <blockquote>
-            <p>Example response (404):</p>
+            <p>Example response (200):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -789,494 +782,102 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 55
+x-ratelimit-remaining: 45
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;No query results for model [App\\Models\\Contact] 1&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-    &quot;line&quot;: 385,
-    &quot;trace&quot;: [
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
         {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-            &quot;line&quot;: 332,
-            &quot;function&quot;: &quot;prepareException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Basica&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
         },
         {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Bachiller&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
         },
         {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Tecnico&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
         },
         {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 172,
-            &quot;function&quot;: &quot;handleException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 127,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 55,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 697,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 672,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 636,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 625,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
-            &quot;line&quot;: 52,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 222,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 179,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 117,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 75,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 48,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 653,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 136,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 298,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1005,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 94,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Profesional&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
         }
     ]
 }</code>
  </pre>
     </span>
-<span id="execution-results-GETapi-contact--id-" hidden>
+<span id="execution-results-GETapi-educationLevel" hidden>
     <blockquote>Received response<span
-                id="execution-response-status-GETapi-contact--id-"></span>:
+                id="execution-response-status-GETapi-educationLevel"></span>:
     </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-contact--id-"></code></pre>
+    <pre class="json"><code id="execution-response-content-GETapi-educationLevel"></code></pre>
 </span>
-<span id="execution-error-GETapi-contact--id-" hidden>
+<span id="execution-error-GETapi-educationLevel" hidden>
     <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-contact--id-"></code></pre>
+    <pre><code id="execution-error-message-GETapi-educationLevel"></code></pre>
 </span>
-<form id="form-GETapi-contact--id-" data-method="GET"
-      data-path="api/contact/{id}"
+<form id="form-GETapi-educationLevel" data-method="GET"
+      data-path="api/educationLevel"
       data-authed="0"
       data-hasfiles="0"
       data-isarraybody="0"
       data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
       autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact--id-', this);">
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-educationLevel', this);">
     <h3>
         Request&nbsp;&nbsp;&nbsp;
                     <button type="button"
                     style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-contact--id-"
-                    onclick="tryItOut('GETapi-contact--id-');">Try it out ⚡
+                    id="btn-tryout-GETapi-educationLevel"
+                    onclick="tryItOut('GETapi-educationLevel');">Try it out ⚡
             </button>
             <button type="button"
                     style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-contact--id-"
-                    onclick="cancelTryOut('GETapi-contact--id-');" hidden>Cancel 🛑
+                    id="btn-canceltryout-GETapi-educationLevel"
+                    onclick="cancelTryOut('GETapi-educationLevel');" hidden>Cancel 🛑
             </button>&nbsp;&nbsp;
             <button type="submit"
                     style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-contact--id-" hidden>Send Request 💥
+                    id="btn-executetryout-GETapi-educationLevel" hidden>Send Request 💥
             </button>
             </h3>
             <p>
             <small class="badge badge-green">GET</small>
-            <b><code>api/contact/{id}</code></b>
+            <b><code>api/educationLevel</code></b>
         </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-contact--id-"
-               value="19"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contact.</p>
-            </p>
                     </form>
 
-            <h2 id="contact-PUTapi-contact--id-">PUT api/contact/{id}</h2>
+        <h1 id="gender">Gender</h1>
+
+    
+
+            <h2 id="gender-GETapi-gender">GET api/gender</h2>
 
 <p>
 </p>
 
 
 
-<span id="example-requests-PUTapi-contact--id-">
+<span id="example-requests-GETapi-gender">
 <blockquote>Example request:</blockquote>
 
 
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/contact/7',
+$response = $client-&gt;get(
+    'http://localhost:8000/api/gender',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1289,79 +890,101 @@ print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
-<span id="example-responses-PUTapi-contact--id-">
-</span>
-<span id="execution-results-PUTapi-contact--id-" hidden>
+<span id="example-responses-GETapi-gender">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 48
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Masculino&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Femenino&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-gender" hidden>
     <blockquote>Received response<span
-                id="execution-response-status-PUTapi-contact--id-"></span>:
+                id="execution-response-status-GETapi-gender"></span>:
     </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-contact--id-"></code></pre>
+    <pre class="json"><code id="execution-response-content-GETapi-gender"></code></pre>
 </span>
-<span id="execution-error-PUTapi-contact--id-" hidden>
+<span id="execution-error-GETapi-gender" hidden>
     <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-contact--id-"></code></pre>
+    <pre><code id="execution-error-message-GETapi-gender"></code></pre>
 </span>
-<form id="form-PUTapi-contact--id-" data-method="PUT"
-      data-path="api/contact/{id}"
+<form id="form-GETapi-gender" data-method="GET"
+      data-path="api/gender"
       data-authed="0"
       data-hasfiles="0"
       data-isarraybody="0"
       data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
       autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-contact--id-', this);">
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-gender', this);">
     <h3>
         Request&nbsp;&nbsp;&nbsp;
                     <button type="button"
                     style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-contact--id-"
-                    onclick="tryItOut('PUTapi-contact--id-');">Try it out ⚡
+                    id="btn-tryout-GETapi-gender"
+                    onclick="tryItOut('GETapi-gender');">Try it out ⚡
             </button>
             <button type="button"
                     style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-contact--id-"
-                    onclick="cancelTryOut('PUTapi-contact--id-');" hidden>Cancel 🛑
+                    id="btn-canceltryout-GETapi-gender"
+                    onclick="cancelTryOut('GETapi-gender');" hidden>Cancel 🛑
             </button>&nbsp;&nbsp;
             <button type="submit"
                     style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-contact--id-" hidden>Send Request 💥
+                    id="btn-executetryout-GETapi-gender" hidden>Send Request 💥
             </button>
             </h3>
             <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/contact/{id}</code></b>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/gender</code></b>
         </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/contact/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-contact--id-"
-               value="7"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contact.</p>
-            </p>
                     </form>
 
-            <h2 id="contact-DELETEapi-contact--id-">DELETE api/contact/{id}</h2>
+        <h1 id="strata">Strata</h1>
+
+    
+
+            <h2 id="strata-GETapi-strata">GET api/strata</h2>
 
 <p>
 </p>
 
 
 
-<span id="example-requests-DELETEapi-contact--id-">
+<span id="example-requests-GETapi-strata">
 <blockquote>Example request:</blockquote>
 
 
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/contact/3',
+$response = $client-&gt;get(
+    'http://localhost:8000/api/strata',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1374,58 +997,104 @@ print_r(json_decode((string) $body));</code></pre></div>
 
 </span>
 
-<span id="example-responses-DELETEapi-contact--id-">
-</span>
-<span id="execution-results-DELETEapi-contact--id-" hidden>
+<span id="example-responses-GETapi-strata">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 46
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Estato 1&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Estato 2&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Estato 3&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Estato 4&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 5,
+            &quot;name&quot;: &quot;Estato 5&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 6,
+            &quot;name&quot;: &quot;Estato 6&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-strata" hidden>
     <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-contact--id-"></span>:
+                id="execution-response-status-GETapi-strata"></span>:
     </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-contact--id-"></code></pre>
+    <pre class="json"><code id="execution-response-content-GETapi-strata"></code></pre>
 </span>
-<span id="execution-error-DELETEapi-contact--id-" hidden>
+<span id="execution-error-GETapi-strata" hidden>
     <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-contact--id-"></code></pre>
+    <pre><code id="execution-error-message-GETapi-strata"></code></pre>
 </span>
-<form id="form-DELETEapi-contact--id-" data-method="DELETE"
-      data-path="api/contact/{id}"
+<form id="form-GETapi-strata" data-method="GET"
+      data-path="api/strata"
       data-authed="0"
       data-hasfiles="0"
       data-isarraybody="0"
       data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
       autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-contact--id-', this);">
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-strata', this);">
     <h3>
         Request&nbsp;&nbsp;&nbsp;
                     <button type="button"
                     style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-contact--id-"
-                    onclick="tryItOut('DELETEapi-contact--id-');">Try it out ⚡
+                    id="btn-tryout-GETapi-strata"
+                    onclick="tryItOut('GETapi-strata');">Try it out ⚡
             </button>
             <button type="button"
                     style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-contact--id-"
-                    onclick="cancelTryOut('DELETEapi-contact--id-');" hidden>Cancel 🛑
+                    id="btn-canceltryout-GETapi-strata"
+                    onclick="cancelTryOut('GETapi-strata');" hidden>Cancel 🛑
             </button>&nbsp;&nbsp;
             <button type="submit"
                     style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-contact--id-" hidden>Send Request 💥
+                    id="btn-executetryout-GETapi-strata" hidden>Send Request 💥
             </button>
             </h3>
             <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/contact/{id}</code></b>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/strata</code></b>
         </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-contact--id-"
-               value="3"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contact.</p>
-            </p>
                     </form>
 
         <h1 id="business-line">Business Line</h1>
@@ -1617,7 +1286,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/businessLine/7',
+    'http://localhost:8000/api/businessLine/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1694,7 +1363,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-businessLine--id-"
-               value="7"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1715,7 +1384,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/businessLine/5',
+    'http://localhost:8000/api/businessLine/7',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1783,7 +1452,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-businessLine--id-"
-               value="5"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1836,7 +1505,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/businessLine/14',
+    'http://localhost:8000/api/businessLine/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1896,7 +1565,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-businessLine--id-"
-               value="14"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -2148,10 +1817,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'ke',
+            'name' =&gt; 'mnfbh',
             'calculated' =&gt; true,
-            'concept_type_id' =&gt; 10,
-            'setting_id' =&gt; 7,
+            'concept_type_id' =&gt; 3,
+            'setting_id' =&gt; 19,
         ],
     ]
 );
@@ -2207,7 +1876,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-concept"
-               value="ke"
+               value="mnfbh"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -2238,7 +1907,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_type_id"
                data-endpoint="POSTapi-concept"
-               value="10"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -2248,7 +1917,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="POSTapi-concept"
-               value="7"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -2269,7 +1938,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/concept/13',
+    'http://localhost:8000/api/concept/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2346,7 +2015,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-concept--id-"
-               value="13"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -2367,17 +2036,17 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/concept/15',
+    'http://localhost:8000/api/concept/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'eum',
-            'calculated' =&gt; true,
-            'concept_type_id' =&gt; 14,
-            'setting_id' =&gt; 16,
+            'name' =&gt; 'minus',
+            'calculated' =&gt; false,
+            'concept_type_id' =&gt; 12,
+            'setting_id' =&gt; 15,
         ],
     ]
 );
@@ -2437,7 +2106,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-concept--id-"
-               value="15"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -2448,7 +2117,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-concept--id-"
-               value="eum"
+               value="minus"
                data-component="body" hidden>
     <br>
 
@@ -2479,7 +2148,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_type_id"
                data-endpoint="PUTapi-concept--id-"
-               value="14"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -2489,7 +2158,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="PUTapi-concept--id-"
-               value="16"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -2510,7 +2179,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/concept/5',
+    'http://localhost:8000/api/concept/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2570,7 +2239,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-concept--id-"
-               value="5"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -2766,7 +2435,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/conceptType/11',
+    'http://localhost:8000/api/conceptType/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2843,7 +2512,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-conceptType--id-"
-               value="11"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2864,7 +2533,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/conceptType/4',
+    'http://localhost:8000/api/conceptType/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2931,7 +2600,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-conceptType--id-"
-               value="4"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2963,7 +2632,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/conceptType/14',
+    'http://localhost:8000/api/conceptType/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3023,10 +2692,465 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-conceptType--id-"
-               value="14"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
+            </p>
+                    </form>
+
+        <h1 id="contact">Contact</h1>
+
+    
+
+            <h2 id="contact-GETapi-contact">GET api/contact</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-contact">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contact',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-contact">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 56
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;JhonatanChe&quot;,
+            &quot;last_name&quot;: &quot;Velandia&quot;,
+            &quot;email&quot;: &quot;JhonatanGA3@gmail.com&quot;,
+            &quot;position&quot;: null,
+            &quot;phone&quot;: 26183232,
+            &quot;provider_id&quot;: 2,
+            &quot;created_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-contact" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-contact"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contact"></code></pre>
+</span>
+<span id="execution-error-GETapi-contact" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contact"></code></pre>
+</span>
+<form id="form-GETapi-contact" data-method="GET"
+      data-path="api/contact"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-contact"
+                    onclick="tryItOut('GETapi-contact');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-contact"
+                    onclick="cancelTryOut('GETapi-contact');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-contact" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/contact</code></b>
+        </p>
+                    </form>
+
+            <h2 id="contact-POSTapi-contact">POST api/contact</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-contact">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/contact',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-contact">
+</span>
+<span id="execution-results-POSTapi-contact" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-contact"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-contact"></code></pre>
+</span>
+<span id="execution-error-POSTapi-contact" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-contact"></code></pre>
+</span>
+<form id="form-POSTapi-contact" data-method="POST"
+      data-path="api/contact"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-contact', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-contact"
+                    onclick="tryItOut('POSTapi-contact');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-contact"
+                    onclick="cancelTryOut('POSTapi-contact');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-contact" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/contact</code></b>
+        </p>
+                    </form>
+
+            <h2 id="contact-GETapi-contact--id-">GET api/contact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-contact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contact/12',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-contact--id-">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 55
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;JhonatanChe&quot;,
+        &quot;last_name&quot;: &quot;Velandia&quot;,
+        &quot;email&quot;: &quot;JhonatanGA3@gmail.com&quot;,
+        &quot;position&quot;: null,
+        &quot;phone&quot;: 26183232,
+        &quot;provider_id&quot;: 2,
+        &quot;created_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
+        &quot;deleted_at&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-contact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-contact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contact--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-contact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contact--id-"></code></pre>
+</span>
+<form id="form-GETapi-contact--id-" data-method="GET"
+      data-path="api/contact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-contact--id-"
+                    onclick="tryItOut('GETapi-contact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-contact--id-"
+                    onclick="cancelTryOut('GETapi-contact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-contact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-contact--id-"
+               value="12"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contact.</p>
+            </p>
+                    </form>
+
+            <h2 id="contact-PUTapi-contact--id-">PUT api/contact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-contact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/contact/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-contact--id-">
+</span>
+<span id="execution-results-PUTapi-contact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-contact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-contact--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-contact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-contact--id-"></code></pre>
+</span>
+<form id="form-PUTapi-contact--id-" data-method="PUT"
+      data-path="api/contact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-contact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-contact--id-"
+                    onclick="tryItOut('PUTapi-contact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-contact--id-"
+                    onclick="cancelTryOut('PUTapi-contact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-contact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-contact--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contact.</p>
+            </p>
+                    </form>
+
+            <h2 id="contact-DELETEapi-contact--id-">DELETE api/contact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-contact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/contact/9',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-contact--id-">
+</span>
+<span id="execution-results-DELETEapi-contact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-contact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-contact--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-contact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-contact--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-contact--id-" data-method="DELETE"
+      data-path="api/contact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-contact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-contact--id-"
+                    onclick="tryItOut('DELETEapi-contact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-contact--id-"
+                    onclick="cancelTryOut('DELETEapi-contact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-contact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-contact--id-"
+               value="9"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contact.</p>
             </p>
                     </form>
 
@@ -3219,7 +3343,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contractType/10',
+    'http://localhost:8000/api/contractType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3296,7 +3420,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-contractType--id-"
-               value="10"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3317,7 +3441,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/contractType/13',
+    'http://localhost:8000/api/contractType/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3384,7 +3508,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-contractType--id-"
-               value="13"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3416,7 +3540,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/contractType/19',
+    'http://localhost:8000/api/contractType/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3476,7 +3600,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contractType--id-"
-               value="19"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3595,10 +3719,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'corporis',
-            'value' =&gt; 15,
-            'covenant_type_id' =&gt; 7,
-            'periodicity_type_id' =&gt; 11,
+            'name' =&gt; 'quia',
+            'value' =&gt; 4,
+            'covenant_type_id' =&gt; 9,
+            'periodicity_type_id' =&gt; 3,
             'provider_id' =&gt; 1,
             'concept_name' =&gt; 'Cuota de convenio por salud',
         ],
@@ -3656,7 +3780,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-covenant"
-               value="corporis"
+               value="quia"
                data-component="body" hidden>
     <br>
 
@@ -3666,7 +3790,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-covenant"
-               value="15"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -3676,7 +3800,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="POSTapi-covenant"
-               value="7"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -3686,7 +3810,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="POSTapi-covenant"
-               value="11"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -3727,7 +3851,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenant/9',
+    'http://localhost:8000/api/covenant/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3804,7 +3928,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenant--id-"
-               value="9"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -3825,20 +3949,20 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenant/6',
+    'http://localhost:8000/api/covenant/13',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'ducimus',
-            'active' =&gt; true,
-            'value' =&gt; 2,
-            'covenant_type_id' =&gt; 12,
-            'periodicity_type_id' =&gt; 10,
-            'provider_id' =&gt; 14,
-            'concept_name' =&gt; 'f',
+            'name' =&gt; 'eos',
+            'active' =&gt; false,
+            'value' =&gt; 5,
+            'covenant_type_id' =&gt; 18,
+            'periodicity_type_id' =&gt; 9,
+            'provider_id' =&gt; 13,
+            'concept_name' =&gt; 'h',
         ],
     ]
 );
@@ -3898,7 +4022,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenant--id-"
-               value="6"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -3909,7 +4033,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-covenant--id-"
-               value="ducimus"
+               value="eos"
                data-component="body" hidden>
     <br>
 
@@ -3940,7 +4064,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-covenant--id-"
-               value="2"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -3950,7 +4074,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="12"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -3960,7 +4084,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="10"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -3970,7 +4094,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="provider_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="14"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -3980,7 +4104,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="concept_name"
                data-endpoint="PUTapi-covenant--id-"
-               value="f"
+               value="h"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -4001,7 +4125,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/covenant/6',
+    'http://localhost:8000/api/covenant/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4061,7 +4185,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenant--id-"
-               value="6"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -4380,7 +4504,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenantType/4',
+    'http://localhost:8000/api/covenantType/13',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4457,7 +4581,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenantType--id-"
-               value="4"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4478,7 +4602,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenantType/5',
+    'http://localhost:8000/api/covenantType/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4545,7 +4669,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenantType--id-"
-               value="5"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4577,7 +4701,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/covenantType/16',
+    'http://localhost:8000/api/covenantType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4637,7 +4761,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenantType--id-"
-               value="16"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4832,7 +4956,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/emergencyContact/5',
+    'http://localhost:8000/api/emergencyContact/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4920,7 +5044,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-emergencyContact--id-"
-               value="5"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -5026,7 +5150,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/emergencyContact/14',
+    'http://localhost:8000/api/emergencyContact/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5086,7 +5210,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-emergencyContact--id-"
-               value="14"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -5375,7 +5499,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/headQuarter/20',
+    'http://localhost:8000/api/headQuarter/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5452,7 +5576,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-headQuarter--id-"
-               value="20"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -5473,7 +5597,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/headQuarter/18',
+    'http://localhost:8000/api/headQuarter/17',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5540,7 +5664,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-headQuarter--id-"
-               value="18"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -5572,7 +5696,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/headQuarter/5',
+    'http://localhost:8000/api/headQuarter/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5632,7 +5756,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-headQuarter--id-"
-               value="5"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -5839,7 +5963,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/healthProvider/13',
+    'http://localhost:8000/api/healthProvider/12',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5925,7 +6049,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-healthProvider--id-"
-               value="13"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -5946,7 +6070,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/healthProvider/11',
+    'http://localhost:8000/api/healthProvider/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6010,7 +6134,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-healthProvider--id-"
-               value="11"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -6031,7 +6155,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/healthProvider/14',
+    'http://localhost:8000/api/healthProvider/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6091,7 +6215,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-healthProvider--id-"
-               value="14"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -6287,7 +6411,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/identificationType/11',
+    'http://localhost:8000/api/identificationType/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6364,7 +6488,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-identificationType--id-"
-               value="11"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6385,7 +6509,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/identificationType/3',
+    'http://localhost:8000/api/identificationType/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6452,7 +6576,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-identificationType--id-"
-               value="3"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6484,7 +6608,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/identificationType/9',
+    'http://localhost:8000/api/identificationType/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6544,7 +6668,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-identificationType--id-"
-               value="9"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6751,7 +6875,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/13',
+    'http://localhost:8000/api/payroll/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6828,7 +6952,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-payroll--id-"
-               value="13"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -7275,7 +7399,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/user/18',
+    'http://localhost:8000/api/payroll/user/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7352,7 +7476,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="user"
                data-endpoint="GETapi-payroll-user--user-"
-               value="18"
+               value="20"
                data-component="url" hidden>
     <br>
 
@@ -7479,14 +7603,14 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/payrollDeleteConcept/8',
+    'http://localhost:8000/api/payrollDeleteConcept/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'query' =&gt; [
-            'conceptPivotId'=&gt; '10',
+            'conceptPivotId'=&gt; '9',
         ],
     ]
 );
@@ -7542,7 +7666,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="payroll_id"
                data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
-               value="8"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>El id de la nomina a la que se le eliminará el concepto</p>
@@ -7553,7 +7677,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="conceptPivotId"
                data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
-               value="10"
+               value="9"
                data-component="query" hidden>
     <br>
 <p>El id del concepto que se eliminará ubicado en la pivot</p>
@@ -7753,7 +7877,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/pensionFund/9',
+    'http://localhost:8000/api/pensionFund/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7839,7 +7963,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-pensionFund--id-"
-               value="9"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -7860,7 +7984,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/pensionFund/18',
+    'http://localhost:8000/api/pensionFund/7',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7924,7 +8048,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-pensionFund--id-"
-               value="18"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -7945,7 +8069,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/pensionFund/20',
+    'http://localhost:8000/api/pensionFund/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8005,7 +8129,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-pensionFund--id-"
-               value="20"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -8201,7 +8325,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/period/16',
+    'http://localhost:8000/api/period/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8278,7 +8402,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-period--id-"
-               value="16"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8299,7 +8423,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/period/5',
+    'http://localhost:8000/api/period/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8366,7 +8490,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-period--id-"
-               value="5"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8398,7 +8522,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/period/18',
+    'http://localhost:8000/api/period/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8458,7 +8582,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-period--id-"
-               value="18"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8577,7 +8701,7 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'numquam',
+            'name' =&gt; 'qui',
         ],
     ]
 );
@@ -8633,7 +8757,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-periodicityType"
-               value="numquam"
+               value="qui"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8654,7 +8778,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/periodicityType/4',
+    'http://localhost:8000/api/periodicityType/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8731,7 +8855,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-periodicityType--id-"
-               value="4"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8759,7 +8883,7 @@ $response = $client-&gt;put(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'minus',
+            'name' =&gt; 'aut',
         ],
     ]
 );
@@ -8830,7 +8954,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="minus"
+               value="aut"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8851,7 +8975,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/periodicityType/11',
+    'http://localhost:8000/api/periodicityType/12',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8911,7 +9035,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-periodicityType--id-"
-               value="11"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -9107,7 +9231,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/position/18',
+    'http://localhost:8000/api/position/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9184,7 +9308,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-position--id-"
-               value="18"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9205,7 +9329,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/position/18',
+    'http://localhost:8000/api/position/13',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9272,7 +9396,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-position--id-"
-               value="18"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9304,7 +9428,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/position/5',
+    'http://localhost:8000/api/position/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9364,7 +9488,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-position--id-"
-               value="5"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9483,19 +9607,19 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; '',
-            'last_name' =&gt; '',
-            'trade_name' =&gt; 'km',
-            'address' =&gt; '',
-            'phone' =&gt; 'egnm',
-            'identification_number' =&gt; 'nqh',
-            'identification_type_id' =&gt; 11,
-            'iva' =&gt; false,
-            'email' =&gt; 'yvon@example.com',
-            'password' =&gt; 'cupiditate',
-            'constitution_type_id' =&gt; 4,
-            'city_id' =&gt; 16,
-            'responsability_type_id' =&gt; 14,
+            'name' =&gt; 'o',
+            'last_name' =&gt; 'ucz',
+            'trade_name' =&gt; 'v',
+            'address' =&gt; 'tszl',
+            'phone' =&gt; 'xte',
+            'identification_number' =&gt; 'euutn',
+            'identification_type_id' =&gt; 1,
+            'iva' =&gt; true,
+            'email' =&gt; 'stacy66@example.org',
+            'password' =&gt; 'sit',
+            'constitution_type_id' =&gt; 16,
+            'city_id' =&gt; 17,
+            'responsability_type_id' =&gt; 7,
         ],
     ]
 );
@@ -9551,7 +9675,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-provider"
-               value=""
+               value="o"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9561,7 +9685,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-provider"
-               value=""
+               value="ucz"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9571,7 +9695,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="trade_name"
                data-endpoint="POSTapi-provider"
-               value="km"
+               value="v"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9581,7 +9705,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-provider"
-               value=""
+               value="tszl"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9591,7 +9715,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="POSTapi-provider"
-               value="egnm"
+               value="xte"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9601,7 +9725,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-provider"
-               value="nqh"
+               value="euutn"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9611,7 +9735,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-provider"
-               value="11"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -9642,7 +9766,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-provider"
-               value="yvon@example.com"
+               value="stacy66@example.org"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -9652,7 +9776,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-provider"
-               value="cupiditate"
+               value="sit"
                data-component="body" hidden>
     <br>
 
@@ -9662,7 +9786,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="constitution_type_id"
                data-endpoint="POSTapi-provider"
-               value="4"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -9672,7 +9796,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="city_id"
                data-endpoint="POSTapi-provider"
-               value="16"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -9682,7 +9806,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="responsability_type_id"
                data-endpoint="POSTapi-provider"
-               value="14"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -9703,7 +9827,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/provider/11',
+    'http://localhost:8000/api/provider/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9780,7 +9904,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-provider--id-"
-               value="11"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9801,26 +9925,26 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/provider/9',
+    'http://localhost:8000/api/provider/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'quam',
-            'last_name' =&gt; 'kgb',
-            'trade_name' =&gt; 'fugiat',
-            'address' =&gt; 'h',
-            'phone' =&gt; 'qk',
-            'identification_number' =&gt; 'nihil',
-            'identification_type_id' =&gt; 19,
-            'iva' =&gt; false,
-            'email' =&gt; 'nader.letitia@example.org',
-            'password' =&gt; 'distinctio',
-            'constitution_type_id' =&gt; 11,
-            'city_id' =&gt; 13,
-            'responsability_type_id' =&gt; 18,
+            'name' =&gt; 'qui',
+            'last_name' =&gt; 'dyc',
+            'trade_name' =&gt; 'optio',
+            'address' =&gt; 'j',
+            'phone' =&gt; 'ru',
+            'identification_number' =&gt; 'et',
+            'identification_type_id' =&gt; 11,
+            'iva' =&gt; true,
+            'email' =&gt; 'sydnee.adams@example.com',
+            'password' =&gt; 'fuga',
+            'constitution_type_id' =&gt; 14,
+            'city_id' =&gt; 19,
+            'responsability_type_id' =&gt; 9,
         ],
     ]
 );
@@ -9880,7 +10004,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-provider--id-"
-               value="9"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9891,7 +10015,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-provider--id-"
-               value="quam"
+               value="qui"
                data-component="body" hidden>
     <br>
 
@@ -9901,7 +10025,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-provider--id-"
-               value="kgb"
+               value="dyc"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9911,7 +10035,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="trade_name"
                data-endpoint="PUTapi-provider--id-"
-               value="fugiat"
+               value="optio"
                data-component="body" hidden>
     <br>
 
@@ -9921,7 +10045,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-provider--id-"
-               value="h"
+               value="j"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9931,7 +10055,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="PUTapi-provider--id-"
-               value="qk"
+               value="ru"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9941,7 +10065,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-provider--id-"
-               value="nihil"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -9951,7 +10075,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="19"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -9982,7 +10106,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-provider--id-"
-               value="nader.letitia@example.org"
+               value="sydnee.adams@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -9992,7 +10116,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-provider--id-"
-               value="distinctio"
+               value="fuga"
                data-component="body" hidden>
     <br>
 
@@ -10002,7 +10126,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="constitution_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="11"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -10012,7 +10136,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="city_id"
                data-endpoint="PUTapi-provider--id-"
-               value="13"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -10022,7 +10146,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="responsability_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="18"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -10043,7 +10167,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/provider/13',
+    'http://localhost:8000/api/provider/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10103,7 +10227,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-provider--id-"
-               value="13"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -11430,7 +11554,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/salaryType/5',
+    'http://localhost:8000/api/salaryType/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11507,7 +11631,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-salaryType--id-"
-               value="5"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11528,7 +11652,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/salaryType/20',
+    'http://localhost:8000/api/salaryType/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11595,7 +11719,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-salaryType--id-"
-               value="20"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11627,7 +11751,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/salaryType/10',
+    'http://localhost:8000/api/salaryType/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11687,7 +11811,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-salaryType--id-"
-               value="10"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11806,8 +11930,8 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'mopvnrxiisdfzxjgpwakoprxxva',
-            'value' =&gt; 17,
+            'name' =&gt; 'xicxywwnmnuhsh',
+            'value' =&gt; 12,
         ],
     ]
 );
@@ -11863,7 +11987,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-setting"
-               value="mopvnrxiisdfzxjgpwakoprxxva"
+               value="xicxywwnmnuhsh"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 45 characters.</p>
@@ -11873,7 +11997,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-setting"
-               value="17"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -11894,7 +12018,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/setting/20',
+    'http://localhost:8000/api/setting/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11971,7 +12095,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-setting--id-"
-               value="20"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -11992,15 +12116,15 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/setting/7',
+    'http://localhost:8000/api/setting/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'gsy',
-            'value' =&gt; 6,
+            'name' =&gt; 'xet',
+            'value' =&gt; 5,
         ],
     ]
 );
@@ -12060,7 +12184,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-setting--id-"
-               value="7"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -12071,7 +12195,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-setting--id-"
-               value="gsy"
+               value="xet"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -12081,7 +12205,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-setting--id-"
-               value="6"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -12102,7 +12226,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/setting/3',
+    'http://localhost:8000/api/setting/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12162,7 +12286,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-setting--id-"
-               value="3"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -12306,35 +12430,35 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'wnrm',
-            'last_name' =&gt; 'f',
-            'second_last_name' =&gt; 'est',
-            'identification_number' =&gt; 'nulla',
-            'email' =&gt; 'emilio.hand@example.com',
-            'password' =&gt; 'molestias',
-            'admission_date' =&gt; '2022-01-27T10:23:31',
-            'out_date' =&gt; '2022-01-27T10:23:31',
-            'address' =&gt; 'consequatur',
-            'neighborhood' =&gt; 'hic',
-            'birthday' =&gt; 'nesciunt',
-            'children' =&gt; 'excepturi',
-            'base_salary' =&gt; 12,
-            'position_id' =&gt; 5,
-            'contract_type_id' =&gt; 3,
-            'salary_type_id' =&gt; 14,
-            'headquarter_id' =&gt; 1,
-            'identification_type_id' =&gt; 15,
-            'gender_id' =&gt; 5,
-            'health_provider_id' =&gt; 9,
-            'pension_fund_id' =&gt; 7,
-            'civil_statu_id' =&gt; 4,
-            'work_city_id' =&gt; 17,
-            'residence_city_id' =&gt; 17,
-            'expedition_place_id' =&gt; 10,
-            'strata_id' =&gt; 8,
-            'education_level_id' =&gt; 2,
-            'active' =&gt; 1,
-            'emergency_contact_id' =&gt; 20,
+            'name' =&gt; '',
+            'last_name' =&gt; 'vchtk',
+            'second_last_name' =&gt; 'et',
+            'identification_number' =&gt; 'eligendi',
+            'email' =&gt; 'welch.darion@example.com',
+            'password' =&gt; 'consequuntur',
+            'admission_date' =&gt; '2022-01-27T11:03:49',
+            'out_date' =&gt; '2022-01-27T11:03:49',
+            'address' =&gt; 'iste',
+            'neighborhood' =&gt; 'blanditiis',
+            'birthday' =&gt; 'nobis',
+            'children' =&gt; 'nisi',
+            'base_salary' =&gt; 10,
+            'position_id' =&gt; 13,
+            'contract_type_id' =&gt; 7,
+            'salary_type_id' =&gt; 9,
+            'headquarter_id' =&gt; 12,
+            'identification_type_id' =&gt; 3,
+            'gender_id' =&gt; 8,
+            'health_provider_id' =&gt; 19,
+            'pension_fund_id' =&gt; 1,
+            'civil_statu_id' =&gt; 13,
+            'work_city_id' =&gt; 20,
+            'residence_city_id' =&gt; 2,
+            'expedition_place_id' =&gt; 17,
+            'strata_id' =&gt; 17,
+            'education_level_id' =&gt; 6,
+            'active' =&gt; 16,
+            'emergency_contact_id' =&gt; 18,
         ],
     ]
 );
@@ -12390,7 +12514,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-user"
-               value="wnrm"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -12400,7 +12524,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-user"
-               value="f"
+               value="vchtk"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -12410,7 +12534,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="POSTapi-user"
-               value="est"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -12420,7 +12544,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-user"
-               value="nulla"
+               value="eligendi"
                data-component="body" hidden>
     <br>
 
@@ -12430,7 +12554,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user"
-               value="emilio.hand@example.com"
+               value="welch.darion@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -12440,7 +12564,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user"
-               value="molestias"
+               value="consequuntur"
                data-component="body" hidden>
     <br>
 
@@ -12450,7 +12574,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T10:23:31"
+               value="2022-01-27T11:03:49"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -12460,7 +12584,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T10:23:31"
+               value="2022-01-27T11:03:49"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -12470,7 +12594,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-user"
-               value="consequatur"
+               value="iste"
                data-component="body" hidden>
     <br>
 
@@ -12480,7 +12604,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="POSTapi-user"
-               value="hic"
+               value="blanditiis"
                data-component="body" hidden>
     <br>
 
@@ -12490,7 +12614,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="POSTapi-user"
-               value="nesciunt"
+               value="nobis"
                data-component="body" hidden>
     <br>
 
@@ -12500,7 +12624,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="children"
                data-endpoint="POSTapi-user"
-               value="excepturi"
+               value="nisi"
                data-component="body" hidden>
     <br>
 
@@ -12510,7 +12634,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="POSTapi-user"
-               value="12"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -12520,7 +12644,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="POSTapi-user"
-               value="5"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -12530,7 +12654,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="POSTapi-user"
-               value="3"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -12540,7 +12664,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="POSTapi-user"
-               value="14"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -12550,7 +12674,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="POSTapi-user"
-               value="1"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -12560,7 +12684,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-user"
-               value="15"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -12570,7 +12694,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="POSTapi-user"
-               value="5"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -12580,7 +12704,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="POSTapi-user"
-               value="9"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -12590,7 +12714,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="pension_fund_id"
                data-endpoint="POSTapi-user"
-               value="7"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -12600,7 +12724,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="POSTapi-user"
-               value="4"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -12610,7 +12734,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="POSTapi-user"
-               value="17"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -12620,7 +12744,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="POSTapi-user"
-               value="17"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -12630,7 +12754,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="expedition_place_id"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -12640,7 +12764,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="POSTapi-user"
-               value="8"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -12650,7 +12774,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="education_level_id"
                data-endpoint="POSTapi-user"
-               value="2"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -12660,7 +12784,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="POSTapi-user"
-               value="1"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -12670,7 +12794,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="emergency_contact_id"
                data-endpoint="POSTapi-user"
-               value="20"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -12691,7 +12815,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/user/11',
+    'http://localhost:8000/api/user/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12768,7 +12892,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-user--id-"
-               value="11"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12789,7 +12913,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/user/18',
+    'http://localhost:8000/api/user/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12849,7 +12973,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-user--id-"
-               value="18"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12870,7 +12994,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/user/1',
+    'http://localhost:8000/api/user/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12878,34 +13002,34 @@ $response = $client-&gt;put(
         ],
         'json' =&gt; [
             'name' =&gt; '',
-            'last_name' =&gt; 'dr',
-            'second_last_name' =&gt; 'laudantium',
-            'identification_number' =&gt; 'quasi',
-            'email' =&gt; 'darian.hagenes@example.org',
-            'password' =&gt; 'qui',
-            'admission_date' =&gt; '2022-01-27T10:23:31',
-            'out_date' =&gt; '2022-01-27T10:23:31',
-            'address' =&gt; 'ut',
-            'neighborhood' =&gt; 'rerum',
-            'birthday' =&gt; 'officiis',
-            'children' =&gt; 'voluptatem',
-            'base_salary' =&gt; 1,
-            'position_id' =&gt; 11,
-            'contract_type_id' =&gt; 16,
-            'salary_type_id' =&gt; 19,
-            'headquarter_id' =&gt; 3,
-            'identification_type_id' =&gt; 9,
-            'gender_id' =&gt; 19,
-            'health_provider_id' =&gt; 3,
-            'pension_fund_id' =&gt; 5,
-            'civil_statu_id' =&gt; 10,
-            'work_city_id' =&gt; 1,
-            'residence_city_id' =&gt; 8,
-            'expedition_place_id' =&gt; 8,
-            'strata_id' =&gt; 13,
-            'education_level_id' =&gt; 2,
-            'active' =&gt; 12,
-            'emergency_contact_id' =&gt; 3,
+            'last_name' =&gt; 'fkx',
+            'second_last_name' =&gt; 'optio',
+            'identification_number' =&gt; 'voluptas',
+            'email' =&gt; 'justine.balistreri@example.com',
+            'password' =&gt; 'cumque',
+            'admission_date' =&gt; '2022-01-27T11:03:49',
+            'out_date' =&gt; '2022-01-27T11:03:49',
+            'address' =&gt; 'non',
+            'neighborhood' =&gt; 'rem',
+            'birthday' =&gt; 'quam',
+            'children' =&gt; 'non',
+            'base_salary' =&gt; 9,
+            'position_id' =&gt; 6,
+            'contract_type_id' =&gt; 11,
+            'salary_type_id' =&gt; 1,
+            'headquarter_id' =&gt; 14,
+            'identification_type_id' =&gt; 6,
+            'gender_id' =&gt; 12,
+            'health_provider_id' =&gt; 2,
+            'pension_fund_id' =&gt; 13,
+            'civil_statu_id' =&gt; 2,
+            'work_city_id' =&gt; 7,
+            'residence_city_id' =&gt; 4,
+            'expedition_place_id' =&gt; 14,
+            'strata_id' =&gt; 18,
+            'education_level_id' =&gt; 4,
+            'active' =&gt; 15,
+            'emergency_contact_id' =&gt; 14,
         ],
     ]
 );
@@ -12965,7 +13089,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-user--id-"
-               value="1"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12986,7 +13110,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-user--id-"
-               value="dr"
+               value="fkx"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -12996,7 +13120,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="PUTapi-user--id-"
-               value="laudantium"
+               value="optio"
                data-component="body" hidden>
     <br>
 
@@ -13006,7 +13130,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-user--id-"
-               value="quasi"
+               value="voluptas"
                data-component="body" hidden>
     <br>
 
@@ -13016,7 +13140,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-user--id-"
-               value="darian.hagenes@example.org"
+               value="justine.balistreri@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -13026,7 +13150,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-user--id-"
-               value="qui"
+               value="cumque"
                data-component="body" hidden>
     <br>
 
@@ -13036,7 +13160,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T10:23:31"
+               value="2022-01-27T11:03:49"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -13046,7 +13170,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T10:23:31"
+               value="2022-01-27T11:03:49"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -13056,7 +13180,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-user--id-"
-               value="ut"
+               value="non"
                data-component="body" hidden>
     <br>
 
@@ -13066,7 +13190,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="PUTapi-user--id-"
-               value="rerum"
+               value="rem"
                data-component="body" hidden>
     <br>
 
@@ -13076,7 +13200,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="PUTapi-user--id-"
-               value="officiis"
+               value="quam"
                data-component="body" hidden>
     <br>
 
@@ -13086,7 +13210,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="children"
                data-endpoint="PUTapi-user--id-"
-               value="voluptatem"
+               value="non"
                data-component="body" hidden>
     <br>
 
@@ -13096,7 +13220,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="PUTapi-user--id-"
-               value="1"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -13106,7 +13230,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="PUTapi-user--id-"
-               value="11"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -13116,7 +13240,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="16"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -13126,7 +13250,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="19"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -13136,7 +13260,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="PUTapi-user--id-"
-               value="3"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -13146,7 +13270,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="9"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -13156,7 +13280,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="PUTapi-user--id-"
-               value="19"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -13166,7 +13290,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="PUTapi-user--id-"
-               value="3"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -13176,7 +13300,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="pension_fund_id"
                data-endpoint="PUTapi-user--id-"
-               value="5"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -13186,7 +13310,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="PUTapi-user--id-"
-               value="10"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -13196,7 +13320,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="1"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -13206,7 +13330,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="8"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -13216,7 +13340,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="expedition_place_id"
                data-endpoint="PUTapi-user--id-"
-               value="8"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -13226,7 +13350,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="PUTapi-user--id-"
-               value="13"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -13236,7 +13360,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="education_level_id"
                data-endpoint="PUTapi-user--id-"
-               value="2"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -13246,7 +13370,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -13256,7 +13380,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="emergency_contact_id"
                data-endpoint="PUTapi-user--id-"
-               value="3"
+               value="14"
                data-component="body" hidden>
     <br>
 

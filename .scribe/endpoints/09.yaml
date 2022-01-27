@@ -1,10 +1,10 @@
-name: Endpoints
+name: 'Education Level'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/checkLogin
+    uri: api/educationLevel
     metadata:
       title: ''
       description: ''
@@ -19,12 +19,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"isLogined":false}'
+        content: '{"status":true,"data":[{"id":1,"name":"Basica","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z"},{"id":2,"name":"Bachiller","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z"},{"id":3,"name":"Tecnico","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z"},{"id":4,"name":"Profesional","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z"}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '59'
+          x-ratelimit-remaining: '45'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
