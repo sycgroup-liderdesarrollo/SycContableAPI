@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\PensionFund;
 use Illuminate\Http\Request;
-
+/**
+ * @group Pension Fund
+ */
 class PensionFundController extends Controller
 {
     public function index()

@@ -69,26 +69,28 @@
                                                 </ul>
                     
                     <ul id="tocify-header-2" class="tocify-header">
-                <li class="tocify-item level-1" data-unique="city">
-                    <a href="#city">City</a>
+                <li class="tocify-item level-1" data-unique="contact">
+                    <a href="#contact">Contact</a>
                 </li>
-                                    <ul id="tocify-subheader-city" class="tocify-subheader">
-                                                    <li class="tocify-item level-2" data-unique="city-GETapi-city">
-                        <a href="#city-GETapi-city">GET api/city</a>
+                                    <ul id="tocify-subheader-contact" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="contact-GETapi-contact">
+                        <a href="#contact-GETapi-contact">GET api/contact</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-POSTapi-contact">
+                        <a href="#contact-POSTapi-contact">POST api/contact</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-GETapi-contact--id-">
+                        <a href="#contact-GETapi-contact--id-">GET api/contact/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-PUTapi-contact--id-">
+                        <a href="#contact-PUTapi-contact--id-">PUT api/contact/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="contact-DELETEapi-contact--id-">
+                        <a href="#contact-DELETEapi-contact--id-">DELETE api/contact/{id}</a>
                     </li>
                                                     </ul>
                             </ul>
                     <ul id="tocify-header-3" class="tocify-header">
-                <li class="tocify-item level-1" data-unique="province">
-                    <a href="#province">Province</a>
-                </li>
-                                    <ul id="tocify-subheader-province" class="tocify-subheader">
-                                                    <li class="tocify-item level-2" data-unique="province-GETapi-province">
-                        <a href="#province-GETapi-province">GET api/province</a>
-                    </li>
-                                                    </ul>
-                            </ul>
-                    <ul id="tocify-header-4" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="business-line">
                     <a href="#business-line">Business Line</a>
                 </li>
@@ -107,6 +109,16 @@
                     </li>
                                     <li class="tocify-item level-2" data-unique="business-line-DELETEapi-businessLine--id-">
                         <a href="#business-line-DELETEapi-businessLine--id-">DELETE api/businessLine/{id}</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-4" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="city">
+                    <a href="#city">City</a>
+                </li>
+                                    <ul id="tocify-subheader-city" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="city-GETapi-city">
+                        <a href="#city-GETapi-city">GET api/city</a>
                     </li>
                                                     </ul>
                             </ul>
@@ -224,6 +236,28 @@
                                                     </ul>
                             </ul>
                     <ul id="tocify-header-10" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="emergency-contact">
+                    <a href="#emergency-contact">Emergency Contact</a>
+                </li>
+                                    <ul id="tocify-subheader-emergency-contact" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="emergency-contact-GETapi-emergencyContact">
+                        <a href="#emergency-contact-GETapi-emergencyContact">GET api/emergencyContact</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="emergency-contact-POSTapi-emergencyContact">
+                        <a href="#emergency-contact-POSTapi-emergencyContact">POST api/emergencyContact</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="emergency-contact-GETapi-emergencyContact--id-">
+                        <a href="#emergency-contact-GETapi-emergencyContact--id-">GET api/emergencyContact/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="emergency-contact-PUTapi-emergencyContact--id-">
+                        <a href="#emergency-contact-PUTapi-emergencyContact--id-">PUT api/emergencyContact/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="emergency-contact-DELETEapi-emergencyContact--id-">
+                        <a href="#emergency-contact-DELETEapi-emergencyContact--id-">DELETE api/emergencyContact/{id}</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-11" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="endpoints">
                     <a href="#endpoints">Endpoints</a>
                 </li>
@@ -231,69 +265,9 @@
                                                     <li class="tocify-item level-2" data-unique="endpoints-GETapi-checkLogin">
                         <a href="#endpoints-GETapi-checkLogin">GET api/checkLogin</a>
                     </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-emergencyContact">
-                        <a href="#endpoints-GETapi-emergencyContact">GET api/emergencyContact</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-POSTapi-emergencyContact">
-                        <a href="#endpoints-POSTapi-emergencyContact">POST api/emergencyContact</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-emergencyContact--id-">
-                        <a href="#endpoints-GETapi-emergencyContact--id-">GET api/emergencyContact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-PUTapi-emergencyContact--id-">
-                        <a href="#endpoints-PUTapi-emergencyContact--id-">PUT api/emergencyContact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-DELETEapi-emergencyContact--id-">
-                        <a href="#endpoints-DELETEapi-emergencyContact--id-">DELETE api/emergencyContact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-contact">
-                        <a href="#endpoints-GETapi-contact">GET api/contact</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-POSTapi-contact">
-                        <a href="#endpoints-POSTapi-contact">POST api/contact</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-contact--id-">
-                        <a href="#endpoints-GETapi-contact--id-">GET api/contact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-PUTapi-contact--id-">
-                        <a href="#endpoints-PUTapi-contact--id-">PUT api/contact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-DELETEapi-contact--id-">
-                        <a href="#endpoints-DELETEapi-contact--id-">DELETE api/contact/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-healthProvider">
-                        <a href="#endpoints-GETapi-healthProvider">GET api/healthProvider</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-POSTapi-healthProvider">
-                        <a href="#endpoints-POSTapi-healthProvider">POST api/healthProvider</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-healthProvider--id-">
-                        <a href="#endpoints-GETapi-healthProvider--id-">GET api/healthProvider/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-PUTapi-healthProvider--id-">
-                        <a href="#endpoints-PUTapi-healthProvider--id-">PUT api/healthProvider/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-DELETEapi-healthProvider--id-">
-                        <a href="#endpoints-DELETEapi-healthProvider--id-">DELETE api/healthProvider/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-pensionFund">
-                        <a href="#endpoints-GETapi-pensionFund">GET api/pensionFund</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-POSTapi-pensionFund">
-                        <a href="#endpoints-POSTapi-pensionFund">POST api/pensionFund</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-pensionFund--id-">
-                        <a href="#endpoints-GETapi-pensionFund--id-">GET api/pensionFund/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-PUTapi-pensionFund--id-">
-                        <a href="#endpoints-PUTapi-pensionFund--id-">PUT api/pensionFund/{id}</a>
-                    </li>
-                                    <li class="tocify-item level-2" data-unique="endpoints-DELETEapi-pensionFund--id-">
-                        <a href="#endpoints-DELETEapi-pensionFund--id-">DELETE api/pensionFund/{id}</a>
-                    </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-11" class="tocify-header">
+                    <ul id="tocify-header-12" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="headquarter">
                     <a href="#headquarter">Headquarter</a>
                 </li>
@@ -315,7 +289,29 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-12" class="tocify-header">
+                    <ul id="tocify-header-13" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="health-provider">
+                    <a href="#health-provider">Health Provider</a>
+                </li>
+                                    <ul id="tocify-subheader-health-provider" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="health-provider-GETapi-healthProvider">
+                        <a href="#health-provider-GETapi-healthProvider">GET api/healthProvider</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="health-provider-POSTapi-healthProvider">
+                        <a href="#health-provider-POSTapi-healthProvider">POST api/healthProvider</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="health-provider-GETapi-healthProvider--id-">
+                        <a href="#health-provider-GETapi-healthProvider--id-">GET api/healthProvider/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="health-provider-PUTapi-healthProvider--id-">
+                        <a href="#health-provider-PUTapi-healthProvider--id-">PUT api/healthProvider/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="health-provider-DELETEapi-healthProvider--id-">
+                        <a href="#health-provider-DELETEapi-healthProvider--id-">DELETE api/healthProvider/{id}</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-14" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="identification-type">
                     <a href="#identification-type">Identification Type</a>
                 </li>
@@ -337,7 +333,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-13" class="tocify-header">
+                    <ul id="tocify-header-15" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="payroll">
                     <a href="#payroll">Payroll</a>
                 </li>
@@ -374,7 +370,29 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-14" class="tocify-header">
+                    <ul id="tocify-header-16" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="pension-fund">
+                    <a href="#pension-fund">Pension Fund</a>
+                </li>
+                                    <ul id="tocify-subheader-pension-fund" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="pension-fund-GETapi-pensionFund">
+                        <a href="#pension-fund-GETapi-pensionFund">GET api/pensionFund</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="pension-fund-POSTapi-pensionFund">
+                        <a href="#pension-fund-POSTapi-pensionFund">POST api/pensionFund</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="pension-fund-GETapi-pensionFund--id-">
+                        <a href="#pension-fund-GETapi-pensionFund--id-">GET api/pensionFund/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="pension-fund-PUTapi-pensionFund--id-">
+                        <a href="#pension-fund-PUTapi-pensionFund--id-">PUT api/pensionFund/{id}</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="pension-fund-DELETEapi-pensionFund--id-">
+                        <a href="#pension-fund-DELETEapi-pensionFund--id-">DELETE api/pensionFund/{id}</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-17" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="period">
                     <a href="#period">Period</a>
                 </li>
@@ -396,7 +414,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-15" class="tocify-header">
+                    <ul id="tocify-header-18" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="periodicity-type">
                     <a href="#periodicity-type">Periodicity Type</a>
                 </li>
@@ -418,7 +436,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-16" class="tocify-header">
+                    <ul id="tocify-header-19" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="position">
                     <a href="#position">Position</a>
                 </li>
@@ -440,7 +458,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-17" class="tocify-header">
+                    <ul id="tocify-header-20" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="provider">
                     <a href="#provider">Provider</a>
                 </li>
@@ -462,7 +480,17 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-18" class="tocify-header">
+                    <ul id="tocify-header-21" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="province">
+                    <a href="#province">Province</a>
+                </li>
+                                    <ul id="tocify-subheader-province" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="province-GETapi-province">
+                        <a href="#province-GETapi-province">GET api/province</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-22" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="salary-type">
                     <a href="#salary-type">Salary Type</a>
                 </li>
@@ -484,7 +512,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-19" class="tocify-header">
+                    <ul id="tocify-header-23" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="setting">
                     <a href="#setting">Setting</a>
                 </li>
@@ -506,7 +534,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-20" class="tocify-header">
+                    <ul id="tocify-header-24" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="user">
                     <a href="#user">User</a>
                 </li>
@@ -558,6 +586,1322 @@
 
         <h1 id="authenticating-requests">Authenticating requests</h1>
 <p>This API is not authenticated.</p>
+
+        <h1 id="contact">Contact</h1>
+
+    
+
+            <h2 id="contact-GETapi-contact">GET api/contact</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-contact">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contact',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-contact">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 56
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: []
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-contact" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-contact"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contact"></code></pre>
+</span>
+<span id="execution-error-GETapi-contact" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contact"></code></pre>
+</span>
+<form id="form-GETapi-contact" data-method="GET"
+      data-path="api/contact"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-contact"
+                    onclick="tryItOut('GETapi-contact');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-contact"
+                    onclick="cancelTryOut('GETapi-contact');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-contact" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/contact</code></b>
+        </p>
+                    </form>
+
+            <h2 id="contact-POSTapi-contact">POST api/contact</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-contact">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/contact',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-contact">
+</span>
+<span id="execution-results-POSTapi-contact" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-contact"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-contact"></code></pre>
+</span>
+<span id="execution-error-POSTapi-contact" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-contact"></code></pre>
+</span>
+<form id="form-POSTapi-contact" data-method="POST"
+      data-path="api/contact"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-contact', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-contact"
+                    onclick="tryItOut('POSTapi-contact');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-contact"
+                    onclick="cancelTryOut('POSTapi-contact');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-contact" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/contact</code></b>
+        </p>
+                    </form>
+
+            <h2 id="contact-GETapi-contact--id-">GET api/contact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-contact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contact/19',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-contact--id-">
+            <blockquote>
+            <p>Example response (404):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 55
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Contact] 1&quot;,
+    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
+    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+    &quot;line&quot;: 385,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+            &quot;line&quot;: 332,
+            &quot;function&quot;: &quot;prepareException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 172,
+            &quot;function&quot;: &quot;handleException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 697,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 672,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
+            &quot;line&quot;: 31,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
+            &quot;line&quot;: 39,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 142,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 111,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 287,
+            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 89,
+            &quot;function&quot;: &quot;makeApiCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;makeResponseCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 35,
+            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 222,
+            &quot;function&quot;: &quot;__invoke&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 179,
+            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;fetchResponses&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 117,
+            &quot;function&quot;: &quot;processRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 75,
+            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 48,
+            &quot;function&quot;: &quot;get&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 36,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;callBoundMethod&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
+            &quot;line&quot;: 653,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 136,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
+            &quot;line&quot;: 298,
+            &quot;function&quot;: &quot;execute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 121,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 1005,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;doRunCommand&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;doRun&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
+            &quot;line&quot;: 94,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
+            &quot;line&quot;: 129,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\artisan&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-contact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-contact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contact--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-contact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contact--id-"></code></pre>
+</span>
+<form id="form-GETapi-contact--id-" data-method="GET"
+      data-path="api/contact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-contact--id-"
+                    onclick="tryItOut('GETapi-contact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-contact--id-"
+                    onclick="cancelTryOut('GETapi-contact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-contact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-contact--id-"
+               value="19"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contact.</p>
+            </p>
+                    </form>
+
+            <h2 id="contact-PUTapi-contact--id-">PUT api/contact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-contact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/contact/7',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-contact--id-">
+</span>
+<span id="execution-results-PUTapi-contact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-contact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-contact--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-contact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-contact--id-"></code></pre>
+</span>
+<form id="form-PUTapi-contact--id-" data-method="PUT"
+      data-path="api/contact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-contact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-contact--id-"
+                    onclick="tryItOut('PUTapi-contact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-contact--id-"
+                    onclick="cancelTryOut('PUTapi-contact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-contact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-contact--id-"
+               value="7"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contact.</p>
+            </p>
+                    </form>
+
+            <h2 id="contact-DELETEapi-contact--id-">DELETE api/contact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-contact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/contact/3',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-contact--id-">
+</span>
+<span id="execution-results-DELETEapi-contact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-contact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-contact--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-contact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-contact--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-contact--id-" data-method="DELETE"
+      data-path="api/contact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-contact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-contact--id-"
+                    onclick="tryItOut('DELETEapi-contact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-contact--id-"
+                    onclick="cancelTryOut('DELETEapi-contact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-contact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/contact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-contact--id-"
+               value="3"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contact.</p>
+            </p>
+                    </form>
+
+        <h1 id="business-line">Business Line</h1>
+
+    
+
+            <h2 id="business-line-GETapi-businessLine">GET api/businessLine</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-businessLine">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/businessLine',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-businessLine">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-businessLine" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-businessLine"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-businessLine"></code></pre>
+</span>
+<span id="execution-error-GETapi-businessLine" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-businessLine"></code></pre>
+</span>
+<form id="form-GETapi-businessLine" data-method="GET"
+      data-path="api/businessLine"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-businessLine', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-businessLine"
+                    onclick="tryItOut('GETapi-businessLine');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-businessLine"
+                    onclick="cancelTryOut('GETapi-businessLine');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-businessLine" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/businessLine</code></b>
+        </p>
+                    </form>
+
+            <h2 id="business-line-POSTapi-businessLine">POST api/businessLine</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-businessLine">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/businessLine',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'SyC Group',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-businessLine">
+</span>
+<span id="execution-results-POSTapi-businessLine" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-businessLine"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-businessLine"></code></pre>
+</span>
+<span id="execution-error-POSTapi-businessLine" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-businessLine"></code></pre>
+</span>
+<form id="form-POSTapi-businessLine" data-method="POST"
+      data-path="api/businessLine"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-businessLine', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-businessLine"
+                    onclick="tryItOut('POSTapi-businessLine');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-businessLine"
+                    onclick="cancelTryOut('POSTapi-businessLine');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-businessLine" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/businessLine</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-businessLine"
+               value="SyC Group"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la linea de negocions.</p>
+        </p>
+        </form>
+
+            <h2 id="business-line-GETapi-businessLine--id-">GET api/businessLine/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-businessLine--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/businessLine/7',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-businessLine--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-businessLine--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-businessLine--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-businessLine--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-businessLine--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-businessLine--id-"></code></pre>
+</span>
+<form id="form-GETapi-businessLine--id-" data-method="GET"
+      data-path="api/businessLine/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-businessLine--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-businessLine--id-"
+                    onclick="tryItOut('GETapi-businessLine--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-businessLine--id-"
+                    onclick="cancelTryOut('GETapi-businessLine--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-businessLine--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/businessLine/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-businessLine--id-"
+               value="7"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the businessLine.</p>
+            </p>
+                    </form>
+
+            <h2 id="business-line-PUTapi-businessLine--id-">PUT api/businessLine/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-businessLine--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/businessLine/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'SyC Group',
+            'active' =&gt; false,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-businessLine--id-">
+</span>
+<span id="execution-results-PUTapi-businessLine--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-businessLine--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-businessLine--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-businessLine--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-businessLine--id-"></code></pre>
+</span>
+<form id="form-PUTapi-businessLine--id-" data-method="PUT"
+      data-path="api/businessLine/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-businessLine--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-businessLine--id-"
+                    onclick="tryItOut('PUTapi-businessLine--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-businessLine--id-"
+                    onclick="cancelTryOut('PUTapi-businessLine--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-businessLine--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/businessLine/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/businessLine/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-businessLine--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the businessLine.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-businessLine--id-"
+               value="SyC Group"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la linea de negocions.</p>
+        </p>
+                <p>
+            <b><code>active</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
+                <label data-endpoint="PUTapi-businessLine--id-" hidden>
+            <input type="radio" name="active"
+                   value="true"
+                   data-endpoint="PUTapi-businessLine--id-"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="PUTapi-businessLine--id-" hidden>
+            <input type="radio" name="active"
+                   value="false"
+                   data-endpoint="PUTapi-businessLine--id-"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
+    <br>
+<p>El estado de la linea de negocios, si esta activa o no.</p>
+        </p>
+        </form>
+
+            <h2 id="business-line-DELETEapi-businessLine--id-">DELETE api/businessLine/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-businessLine--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/businessLine/14',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-businessLine--id-">
+</span>
+<span id="execution-results-DELETEapi-businessLine--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-businessLine--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-businessLine--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-businessLine--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-businessLine--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-businessLine--id-" data-method="DELETE"
+      data-path="api/businessLine/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-businessLine--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-businessLine--id-"
+                    onclick="tryItOut('DELETEapi-businessLine--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-businessLine--id-"
+                    onclick="cancelTryOut('DELETEapi-businessLine--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-businessLine--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/businessLine/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-businessLine--id-"
+               value="14"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the businessLine.</p>
+            </p>
+                    </form>
 
         <h1 id="city">City</h1>
 
@@ -677,6 +2021,8094 @@ access-control-allow-origin: *
 <p>Filtro para buscar ciudades por nombre.</p>
             </p>
                 </form>
+
+        <h1 id="concept">Concept</h1>
+
+    
+
+            <h2 id="concept-GETapi-concept">GET api/concept</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-concept">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/concept',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'type'=&gt; '1',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-concept">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-concept" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-concept"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-concept"></code></pre>
+</span>
+<span id="execution-error-GETapi-concept" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-concept"></code></pre>
+</span>
+<form id="form-GETapi-concept" data-method="GET"
+      data-path="api/concept"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-concept', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-concept"
+                    onclick="tryItOut('GETapi-concept');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-concept"
+                    onclick="cancelTryOut('GETapi-concept');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-concept" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/concept</code></b>
+        </p>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>type</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="type"
+               data-endpoint="GETapi-concept"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>Filtro para buscar por tipo, 1 = devengado, 2 = deducciones.</p>
+            </p>
+                </form>
+
+            <h2 id="concept-POSTapi-concept">POST api/concept</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-concept">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/concept',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'ke',
+            'calculated' =&gt; true,
+            'concept_type_id' =&gt; 10,
+            'setting_id' =&gt; 7,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-concept">
+</span>
+<span id="execution-results-POSTapi-concept" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-concept"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-concept"></code></pre>
+</span>
+<span id="execution-error-POSTapi-concept" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-concept"></code></pre>
+</span>
+<form id="form-POSTapi-concept" data-method="POST"
+      data-path="api/concept"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-concept', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-concept"
+                    onclick="tryItOut('POSTapi-concept');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-concept"
+                    onclick="cancelTryOut('POSTapi-concept');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-concept" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/concept</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-concept"
+               value="ke"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 5 characters.</p>
+        </p>
+                <p>
+            <b><code>calculated</code></b>&nbsp;&nbsp;<small>boolean</small>  &nbsp;
+                <label data-endpoint="POSTapi-concept" hidden>
+            <input type="radio" name="calculated"
+                   value="true"
+                   data-endpoint="POSTapi-concept"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="POSTapi-concept" hidden>
+            <input type="radio" name="calculated"
+                   value="false"
+                   data-endpoint="POSTapi-concept"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
+    <br>
+
+        </p>
+                <p>
+            <b><code>concept_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="concept_type_id"
+               data-endpoint="POSTapi-concept"
+               value="10"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>setting_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="setting_id"
+               data-endpoint="POSTapi-concept"
+               value="7"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+        </form>
+
+            <h2 id="concept-GETapi-concept--id-">GET api/concept/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-concept--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/concept/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-concept--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-concept--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-concept--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-concept--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-concept--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-concept--id-"></code></pre>
+</span>
+<form id="form-GETapi-concept--id-" data-method="GET"
+      data-path="api/concept/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-concept--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-concept--id-"
+                    onclick="tryItOut('GETapi-concept--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-concept--id-"
+                    onclick="cancelTryOut('GETapi-concept--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-concept--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/concept/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-concept--id-"
+               value="13"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the concept.</p>
+            </p>
+                    </form>
+
+            <h2 id="concept-PUTapi-concept--id-">PUT api/concept/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-concept--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/concept/15',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'eum',
+            'calculated' =&gt; true,
+            'concept_type_id' =&gt; 14,
+            'setting_id' =&gt; 16,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-concept--id-">
+</span>
+<span id="execution-results-PUTapi-concept--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-concept--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-concept--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-concept--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-concept--id-"></code></pre>
+</span>
+<form id="form-PUTapi-concept--id-" data-method="PUT"
+      data-path="api/concept/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-concept--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-concept--id-"
+                    onclick="tryItOut('PUTapi-concept--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-concept--id-"
+                    onclick="cancelTryOut('PUTapi-concept--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-concept--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/concept/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/concept/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-concept--id-"
+               value="15"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the concept.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-concept--id-"
+               value="eum"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>calculated</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
+                <label data-endpoint="PUTapi-concept--id-" hidden>
+            <input type="radio" name="calculated"
+                   value="true"
+                   data-endpoint="PUTapi-concept--id-"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="PUTapi-concept--id-" hidden>
+            <input type="radio" name="calculated"
+                   value="false"
+                   data-endpoint="PUTapi-concept--id-"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
+    <br>
+
+        </p>
+                <p>
+            <b><code>concept_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="concept_type_id"
+               data-endpoint="PUTapi-concept--id-"
+               value="14"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>setting_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="setting_id"
+               data-endpoint="PUTapi-concept--id-"
+               value="16"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+        </form>
+
+            <h2 id="concept-DELETEapi-concept--id-">DELETE api/concept/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-concept--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/concept/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-concept--id-">
+</span>
+<span id="execution-results-DELETEapi-concept--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-concept--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-concept--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-concept--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-concept--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-concept--id-" data-method="DELETE"
+      data-path="api/concept/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-concept--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-concept--id-"
+                    onclick="tryItOut('DELETEapi-concept--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-concept--id-"
+                    onclick="cancelTryOut('DELETEapi-concept--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-concept--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/concept/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-concept--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the concept.</p>
+            </p>
+                    </form>
+
+        <h1 id="concept-type">Concept Type</h1>
+
+    
+
+            <h2 id="concept-type-GETapi-conceptType">GET api/conceptType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-conceptType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/conceptType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-conceptType">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-conceptType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-conceptType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-conceptType"></code></pre>
+</span>
+<span id="execution-error-GETapi-conceptType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-conceptType"></code></pre>
+</span>
+<form id="form-GETapi-conceptType" data-method="GET"
+      data-path="api/conceptType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-conceptType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-conceptType"
+                    onclick="tryItOut('GETapi-conceptType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-conceptType"
+                    onclick="cancelTryOut('GETapi-conceptType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-conceptType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/conceptType</code></b>
+        </p>
+                    </form>
+
+            <h2 id="concept-type-POSTapi-conceptType">POST api/conceptType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-conceptType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/conceptType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Devengado',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-conceptType">
+</span>
+<span id="execution-results-POSTapi-conceptType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-conceptType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-conceptType"></code></pre>
+</span>
+<span id="execution-error-POSTapi-conceptType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-conceptType"></code></pre>
+</span>
+<form id="form-POSTapi-conceptType" data-method="POST"
+      data-path="api/conceptType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-conceptType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-conceptType"
+                    onclick="tryItOut('POSTapi-conceptType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-conceptType"
+                    onclick="cancelTryOut('POSTapi-conceptType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-conceptType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/conceptType</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-conceptType"
+               value="Devengado"
+               data-component="body" hidden>
+    <br>
+<p>El tipo de concepto, ya viene definido (Deduccion, devengado).</p>
+        </p>
+        </form>
+
+            <h2 id="concept-type-GETapi-conceptType--id-">GET api/conceptType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-conceptType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/conceptType/11',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-conceptType--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-conceptType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-conceptType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-conceptType--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-conceptType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-conceptType--id-"></code></pre>
+</span>
+<form id="form-GETapi-conceptType--id-" data-method="GET"
+      data-path="api/conceptType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-conceptType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-conceptType--id-"
+                    onclick="tryItOut('GETapi-conceptType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-conceptType--id-"
+                    onclick="cancelTryOut('GETapi-conceptType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-conceptType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/conceptType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-conceptType--id-"
+               value="11"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the conceptType.</p>
+            </p>
+                    </form>
+
+            <h2 id="concept-type-PUTapi-conceptType--id-">PUT api/conceptType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-conceptType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/conceptType/4',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Devengado',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-conceptType--id-">
+</span>
+<span id="execution-results-PUTapi-conceptType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-conceptType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-conceptType--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-conceptType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-conceptType--id-"></code></pre>
+</span>
+<form id="form-PUTapi-conceptType--id-" data-method="PUT"
+      data-path="api/conceptType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-conceptType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-conceptType--id-"
+                    onclick="tryItOut('PUTapi-conceptType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-conceptType--id-"
+                    onclick="cancelTryOut('PUTapi-conceptType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-conceptType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/conceptType/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/conceptType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-conceptType--id-"
+               value="4"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the conceptType.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-conceptType--id-"
+               value="Devengado"
+               data-component="body" hidden>
+    <br>
+<p>El tipo de concepto, ya viene definido (Deduccion, devengado).</p>
+        </p>
+        </form>
+
+            <h2 id="concept-type-DELETEapi-conceptType--id-">DELETE api/conceptType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-conceptType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/conceptType/14',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-conceptType--id-">
+</span>
+<span id="execution-results-DELETEapi-conceptType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-conceptType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-conceptType--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-conceptType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-conceptType--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-conceptType--id-" data-method="DELETE"
+      data-path="api/conceptType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-conceptType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-conceptType--id-"
+                    onclick="tryItOut('DELETEapi-conceptType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-conceptType--id-"
+                    onclick="cancelTryOut('DELETEapi-conceptType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-conceptType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/conceptType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-conceptType--id-"
+               value="14"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the conceptType.</p>
+            </p>
+                    </form>
+
+        <h1 id="contract-type">Contract Type</h1>
+
+    
+
+            <h2 id="contract-type-GETapi-contractType">GET api/contractType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-contractType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contractType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-contractType">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-contractType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-contractType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contractType"></code></pre>
+</span>
+<span id="execution-error-GETapi-contractType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contractType"></code></pre>
+</span>
+<form id="form-GETapi-contractType" data-method="GET"
+      data-path="api/contractType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-contractType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-contractType"
+                    onclick="tryItOut('GETapi-contractType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-contractType"
+                    onclick="cancelTryOut('GETapi-contractType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-contractType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/contractType</code></b>
+        </p>
+                    </form>
+
+            <h2 id="contract-type-POSTapi-contractType">POST api/contractType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-contractType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/contractType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Indefinido',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-contractType">
+</span>
+<span id="execution-results-POSTapi-contractType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-contractType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-contractType"></code></pre>
+</span>
+<span id="execution-error-POSTapi-contractType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-contractType"></code></pre>
+</span>
+<form id="form-POSTapi-contractType" data-method="POST"
+      data-path="api/contractType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-contractType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-contractType"
+                    onclick="tryItOut('POSTapi-contractType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-contractType"
+                    onclick="cancelTryOut('POSTapi-contractType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-contractType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/contractType</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-contractType"
+               value="Indefinido"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del contrato.</p>
+        </p>
+        </form>
+
+            <h2 id="contract-type-GETapi-contractType--id-">GET api/contractType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-contractType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contractType/10',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-contractType--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-contractType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-contractType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contractType--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-contractType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contractType--id-"></code></pre>
+</span>
+<form id="form-GETapi-contractType--id-" data-method="GET"
+      data-path="api/contractType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-contractType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-contractType--id-"
+                    onclick="tryItOut('GETapi-contractType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-contractType--id-"
+                    onclick="cancelTryOut('GETapi-contractType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-contractType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/contractType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-contractType--id-"
+               value="10"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contractType.</p>
+            </p>
+                    </form>
+
+            <h2 id="contract-type-PUTapi-contractType--id-">PUT api/contractType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-contractType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/contractType/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Indefinido',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-contractType--id-">
+</span>
+<span id="execution-results-PUTapi-contractType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-contractType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-contractType--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-contractType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-contractType--id-"></code></pre>
+</span>
+<form id="form-PUTapi-contractType--id-" data-method="PUT"
+      data-path="api/contractType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-contractType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-contractType--id-"
+                    onclick="tryItOut('PUTapi-contractType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-contractType--id-"
+                    onclick="cancelTryOut('PUTapi-contractType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-contractType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/contractType/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/contractType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-contractType--id-"
+               value="13"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contractType.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-contractType--id-"
+               value="Indefinido"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del contrato.</p>
+        </p>
+        </form>
+
+            <h2 id="contract-type-DELETEapi-contractType--id-">DELETE api/contractType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-contractType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/contractType/19',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-contractType--id-">
+</span>
+<span id="execution-results-DELETEapi-contractType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-contractType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-contractType--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-contractType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-contractType--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-contractType--id-" data-method="DELETE"
+      data-path="api/contractType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-contractType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-contractType--id-"
+                    onclick="tryItOut('DELETEapi-contractType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-contractType--id-"
+                    onclick="cancelTryOut('DELETEapi-contractType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-contractType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/contractType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-contractType--id-"
+               value="19"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the contractType.</p>
+            </p>
+                    </form>
+
+        <h1 id="covenant">Covenant</h1>
+
+    
+
+            <h2 id="covenant-GETapi-covenant">GET api/covenant</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-covenant">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenant',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-covenant">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-covenant" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-covenant"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-covenant"></code></pre>
+</span>
+<span id="execution-error-GETapi-covenant" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-covenant"></code></pre>
+</span>
+<form id="form-GETapi-covenant" data-method="GET"
+      data-path="api/covenant"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenant', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-covenant"
+                    onclick="tryItOut('GETapi-covenant');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-covenant"
+                    onclick="cancelTryOut('GETapi-covenant');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-covenant" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/covenant</code></b>
+        </p>
+                    </form>
+
+            <h2 id="covenant-POSTapi-covenant">POST api/covenant</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-covenant">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/covenant',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'corporis',
+            'value' =&gt; 15,
+            'covenant_type_id' =&gt; 7,
+            'periodicity_type_id' =&gt; 11,
+            'provider_id' =&gt; 1,
+            'concept_name' =&gt; 'Cuota de convenio por salud',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-covenant">
+</span>
+<span id="execution-results-POSTapi-covenant" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-covenant"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-covenant"></code></pre>
+</span>
+<span id="execution-error-POSTapi-covenant" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-covenant"></code></pre>
+</span>
+<form id="form-POSTapi-covenant" data-method="POST"
+      data-path="api/covenant"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-covenant', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-covenant"
+                    onclick="tryItOut('POSTapi-covenant');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-covenant"
+                    onclick="cancelTryOut('POSTapi-covenant');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-covenant" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/covenant</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-covenant"
+               value="corporis"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="value"
+               data-endpoint="POSTapi-covenant"
+               value="15"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>covenant_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="covenant_type_id"
+               data-endpoint="POSTapi-covenant"
+               value="7"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="periodicity_type_id"
+               data-endpoint="POSTapi-covenant"
+               value="11"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>provider_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="provider_id"
+               data-endpoint="POSTapi-covenant"
+               value="1"
+               data-component="body" hidden>
+    <br>
+<p>Es el id del proveedor.</p>
+        </p>
+                <p>
+            <b><code>concept_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="concept_name"
+               data-endpoint="POSTapi-covenant"
+               value="Cuota de convenio por salud"
+               data-component="body" hidden>
+    <br>
+<p>Es el nombre del concepto con el que se cargará en la nomina.</p>
+        </p>
+        </form>
+
+            <h2 id="covenant-GETapi-covenant--id-">GET api/covenant/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-covenant--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenant/9',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-covenant--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-covenant--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-covenant--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-covenant--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-covenant--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-covenant--id-"></code></pre>
+</span>
+<form id="form-GETapi-covenant--id-" data-method="GET"
+      data-path="api/covenant/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenant--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-covenant--id-"
+                    onclick="tryItOut('GETapi-covenant--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-covenant--id-"
+                    onclick="cancelTryOut('GETapi-covenant--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-covenant--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/covenant/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-covenant--id-"
+               value="9"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the covenant.</p>
+            </p>
+                    </form>
+
+            <h2 id="covenant-PUTapi-covenant--id-">PUT api/covenant/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-covenant--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/covenant/6',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'ducimus',
+            'active' =&gt; true,
+            'value' =&gt; 2,
+            'covenant_type_id' =&gt; 12,
+            'periodicity_type_id' =&gt; 10,
+            'provider_id' =&gt; 14,
+            'concept_name' =&gt; 'f',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-covenant--id-">
+</span>
+<span id="execution-results-PUTapi-covenant--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-covenant--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-covenant--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-covenant--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-covenant--id-"></code></pre>
+</span>
+<form id="form-PUTapi-covenant--id-" data-method="PUT"
+      data-path="api/covenant/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-covenant--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-covenant--id-"
+                    onclick="tryItOut('PUTapi-covenant--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-covenant--id-"
+                    onclick="cancelTryOut('PUTapi-covenant--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-covenant--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/covenant/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/covenant/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-covenant--id-"
+               value="6"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the covenant.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-covenant--id-"
+               value="ducimus"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>active</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
+                <label data-endpoint="PUTapi-covenant--id-" hidden>
+            <input type="radio" name="active"
+                   value="true"
+                   data-endpoint="PUTapi-covenant--id-"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="PUTapi-covenant--id-" hidden>
+            <input type="radio" name="active"
+                   value="false"
+                   data-endpoint="PUTapi-covenant--id-"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
+    <br>
+
+        </p>
+                <p>
+            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="value"
+               data-endpoint="PUTapi-covenant--id-"
+               value="2"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>covenant_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="covenant_type_id"
+               data-endpoint="PUTapi-covenant--id-"
+               value="12"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="periodicity_type_id"
+               data-endpoint="PUTapi-covenant--id-"
+               value="10"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>provider_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="provider_id"
+               data-endpoint="PUTapi-covenant--id-"
+               value="14"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>concept_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="concept_name"
+               data-endpoint="PUTapi-covenant--id-"
+               value="f"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 3 characters.</p>
+        </p>
+        </form>
+
+            <h2 id="covenant-DELETEapi-covenant--id-">DELETE api/covenant/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-covenant--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/covenant/6',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-covenant--id-">
+</span>
+<span id="execution-results-DELETEapi-covenant--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-covenant--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-covenant--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-covenant--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-covenant--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-covenant--id-" data-method="DELETE"
+      data-path="api/covenant/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-covenant--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-covenant--id-"
+                    onclick="tryItOut('DELETEapi-covenant--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-covenant--id-"
+                    onclick="cancelTryOut('DELETEapi-covenant--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-covenant--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/covenant/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-covenant--id-"
+               value="6"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the covenant.</p>
+            </p>
+                    </form>
+
+            <h2 id="covenant-GETapi-consultaCovenant">GET api/consultaCovenant</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-consultaCovenant">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/consultaCovenant',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'covenant_id'=&gt; '1',
+            'concept_type_id'=&gt; '1',
+            'periodicity_type_id'=&gt; '1',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-consultaCovenant">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-consultaCovenant" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-consultaCovenant"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-consultaCovenant"></code></pre>
+</span>
+<span id="execution-error-GETapi-consultaCovenant" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-consultaCovenant"></code></pre>
+</span>
+<form id="form-GETapi-consultaCovenant" data-method="GET"
+      data-path="api/consultaCovenant"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-consultaCovenant', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-consultaCovenant"
+                    onclick="tryItOut('GETapi-consultaCovenant');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-consultaCovenant"
+                    onclick="cancelTryOut('GETapi-consultaCovenant');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-consultaCovenant" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/consultaCovenant</code></b>
+        </p>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>covenant_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="covenant_id"
+               data-endpoint="GETapi-consultaCovenant"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>ID de llave foranea para el convenio.</p>
+            </p>
+                    <p>
+                <b><code>concept_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="concept_type_id"
+               data-endpoint="GETapi-consultaCovenant"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>ID de llave foranea para el tipo de concepto (deduccion, devengado).</p>
+            </p>
+                    <p>
+                <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="periodicity_type_id"
+               data-endpoint="GETapi-consultaCovenant"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>ID de llave foranea para el periodo (quincenal, mensual).</p>
+            </p>
+                </form>
+
+        <h1 id="covenant-type">Covenant Type</h1>
+
+    
+
+            <h2 id="covenant-type-GETapi-covenantType">GET api/covenantType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-covenantType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenantType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-covenantType">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-covenantType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-covenantType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-covenantType"></code></pre>
+</span>
+<span id="execution-error-GETapi-covenantType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-covenantType"></code></pre>
+</span>
+<form id="form-GETapi-covenantType" data-method="GET"
+      data-path="api/covenantType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenantType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-covenantType"
+                    onclick="tryItOut('GETapi-covenantType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-covenantType"
+                    onclick="cancelTryOut('GETapi-covenantType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-covenantType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/covenantType</code></b>
+        </p>
+                    </form>
+
+            <h2 id="covenant-type-POSTapi-covenantType">POST api/covenantType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-covenantType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/covenantType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Cuotas',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-covenantType">
+</span>
+<span id="execution-results-POSTapi-covenantType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-covenantType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-covenantType"></code></pre>
+</span>
+<span id="execution-error-POSTapi-covenantType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-covenantType"></code></pre>
+</span>
+<form id="form-POSTapi-covenantType" data-method="POST"
+      data-path="api/covenantType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-covenantType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-covenantType"
+                    onclick="tryItOut('POSTapi-covenantType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-covenantType"
+                    onclick="cancelTryOut('POSTapi-covenantType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-covenantType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/covenantType</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-covenantType"
+               value="Cuotas"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del tipo de convenio, cuotas o permanente, ya viene definido.</p>
+        </p>
+        </form>
+
+            <h2 id="covenant-type-GETapi-covenantType--id-">GET api/covenantType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-covenantType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/covenantType/4',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-covenantType--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-covenantType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-covenantType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-covenantType--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-covenantType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-covenantType--id-"></code></pre>
+</span>
+<form id="form-GETapi-covenantType--id-" data-method="GET"
+      data-path="api/covenantType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenantType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-covenantType--id-"
+                    onclick="tryItOut('GETapi-covenantType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-covenantType--id-"
+                    onclick="cancelTryOut('GETapi-covenantType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-covenantType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/covenantType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-covenantType--id-"
+               value="4"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the covenantType.</p>
+            </p>
+                    </form>
+
+            <h2 id="covenant-type-PUTapi-covenantType--id-">PUT api/covenantType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-covenantType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/covenantType/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Cuotas',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-covenantType--id-">
+</span>
+<span id="execution-results-PUTapi-covenantType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-covenantType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-covenantType--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-covenantType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-covenantType--id-"></code></pre>
+</span>
+<form id="form-PUTapi-covenantType--id-" data-method="PUT"
+      data-path="api/covenantType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-covenantType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-covenantType--id-"
+                    onclick="tryItOut('PUTapi-covenantType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-covenantType--id-"
+                    onclick="cancelTryOut('PUTapi-covenantType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-covenantType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/covenantType/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/covenantType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-covenantType--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the covenantType.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-covenantType--id-"
+               value="Cuotas"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del tipo de convenio, cuotas o permanente, ya viene definido.</p>
+        </p>
+        </form>
+
+            <h2 id="covenant-type-DELETEapi-covenantType--id-">DELETE api/covenantType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-covenantType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/covenantType/16',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-covenantType--id-">
+</span>
+<span id="execution-results-DELETEapi-covenantType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-covenantType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-covenantType--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-covenantType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-covenantType--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-covenantType--id-" data-method="DELETE"
+      data-path="api/covenantType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-covenantType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-covenantType--id-"
+                    onclick="tryItOut('DELETEapi-covenantType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-covenantType--id-"
+                    onclick="cancelTryOut('DELETEapi-covenantType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-covenantType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/covenantType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-covenantType--id-"
+               value="16"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the covenantType.</p>
+            </p>
+                    </form>
+
+        <h1 id="emergency-contact">Emergency Contact</h1>
+
+    
+
+            <h2 id="emergency-contact-GETapi-emergencyContact">GET api/emergencyContact</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-emergencyContact">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/emergencyContact',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-emergencyContact">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 58
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Patricia&quot;,
+            &quot;phone&quot;: 3113012618,
+            &quot;kinship_id&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-emergencyContact" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-emergencyContact"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-emergencyContact"></code></pre>
+</span>
+<span id="execution-error-GETapi-emergencyContact" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-emergencyContact"></code></pre>
+</span>
+<form id="form-GETapi-emergencyContact" data-method="GET"
+      data-path="api/emergencyContact"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-emergencyContact', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-emergencyContact"
+                    onclick="tryItOut('GETapi-emergencyContact');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-emergencyContact"
+                    onclick="cancelTryOut('GETapi-emergencyContact');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-emergencyContact" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/emergencyContact</code></b>
+        </p>
+                    </form>
+
+            <h2 id="emergency-contact-POSTapi-emergencyContact">POST api/emergencyContact</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-emergencyContact">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/emergencyContact',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-emergencyContact">
+</span>
+<span id="execution-results-POSTapi-emergencyContact" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-emergencyContact"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-emergencyContact"></code></pre>
+</span>
+<span id="execution-error-POSTapi-emergencyContact" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-emergencyContact"></code></pre>
+</span>
+<form id="form-POSTapi-emergencyContact" data-method="POST"
+      data-path="api/emergencyContact"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-emergencyContact', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-emergencyContact"
+                    onclick="tryItOut('POSTapi-emergencyContact');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-emergencyContact"
+                    onclick="cancelTryOut('POSTapi-emergencyContact');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-emergencyContact" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/emergencyContact</code></b>
+        </p>
+                    </form>
+
+            <h2 id="emergency-contact-GETapi-emergencyContact--id-">GET api/emergencyContact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-emergencyContact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/emergencyContact/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-emergencyContact--id-">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 57
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Patricia&quot;,
+        &quot;phone&quot;: 3113012618,
+        &quot;kinship_id&quot;: 1,
+        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;deleted_at&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-emergencyContact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-emergencyContact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-emergencyContact--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-emergencyContact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-emergencyContact--id-"></code></pre>
+</span>
+<form id="form-GETapi-emergencyContact--id-" data-method="GET"
+      data-path="api/emergencyContact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-emergencyContact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-emergencyContact--id-"
+                    onclick="tryItOut('GETapi-emergencyContact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-emergencyContact--id-"
+                    onclick="cancelTryOut('GETapi-emergencyContact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-emergencyContact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/emergencyContact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-emergencyContact--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the emergencyContact.</p>
+            </p>
+                    </form>
+
+            <h2 id="emergency-contact-PUTapi-emergencyContact--id-">PUT api/emergencyContact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-emergencyContact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/emergencyContact/4',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-emergencyContact--id-">
+</span>
+<span id="execution-results-PUTapi-emergencyContact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-emergencyContact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-emergencyContact--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-emergencyContact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-emergencyContact--id-"></code></pre>
+</span>
+<form id="form-PUTapi-emergencyContact--id-" data-method="PUT"
+      data-path="api/emergencyContact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-emergencyContact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-emergencyContact--id-"
+                    onclick="tryItOut('PUTapi-emergencyContact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-emergencyContact--id-"
+                    onclick="cancelTryOut('PUTapi-emergencyContact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-emergencyContact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/emergencyContact/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/emergencyContact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-emergencyContact--id-"
+               value="4"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the emergencyContact.</p>
+            </p>
+                    </form>
+
+            <h2 id="emergency-contact-DELETEapi-emergencyContact--id-">DELETE api/emergencyContact/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-emergencyContact--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/emergencyContact/14',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-emergencyContact--id-">
+</span>
+<span id="execution-results-DELETEapi-emergencyContact--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-emergencyContact--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-emergencyContact--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-emergencyContact--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-emergencyContact--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-emergencyContact--id-" data-method="DELETE"
+      data-path="api/emergencyContact/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-emergencyContact--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-emergencyContact--id-"
+                    onclick="tryItOut('DELETEapi-emergencyContact--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-emergencyContact--id-"
+                    onclick="cancelTryOut('DELETEapi-emergencyContact--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-emergencyContact--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/emergencyContact/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-emergencyContact--id-"
+               value="14"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the emergencyContact.</p>
+            </p>
+                    </form>
+
+        <h1 id="endpoints">Endpoints</h1>
+
+    
+
+            <h2 id="endpoints-GETapi-checkLogin">GET api/checkLogin</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-checkLogin">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/checkLogin',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-checkLogin">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 59
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;isLogined&quot;: false
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-checkLogin" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-checkLogin"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-checkLogin"></code></pre>
+</span>
+<span id="execution-error-GETapi-checkLogin" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-checkLogin"></code></pre>
+</span>
+<form id="form-GETapi-checkLogin" data-method="GET"
+      data-path="api/checkLogin"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-checkLogin', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-checkLogin"
+                    onclick="tryItOut('GETapi-checkLogin');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-checkLogin"
+                    onclick="cancelTryOut('GETapi-checkLogin');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-checkLogin" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/checkLogin</code></b>
+        </p>
+                    </form>
+
+        <h1 id="headquarter">Headquarter</h1>
+
+    
+
+            <h2 id="headquarter-GETapi-headQuarter">GET api/headQuarter</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-headQuarter">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/headQuarter',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-headQuarter">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-headQuarter" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-headQuarter"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-headQuarter"></code></pre>
+</span>
+<span id="execution-error-GETapi-headQuarter" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-headQuarter"></code></pre>
+</span>
+<form id="form-GETapi-headQuarter" data-method="GET"
+      data-path="api/headQuarter"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-headQuarter', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-headQuarter"
+                    onclick="tryItOut('GETapi-headQuarter');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-headQuarter"
+                    onclick="cancelTryOut('GETapi-headQuarter');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-headQuarter" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/headQuarter</code></b>
+        </p>
+                    </form>
+
+            <h2 id="headquarter-POSTapi-headQuarter">POST api/headQuarter</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-headQuarter">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/headQuarter',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Pereira',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-headQuarter">
+</span>
+<span id="execution-results-POSTapi-headQuarter" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-headQuarter"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-headQuarter"></code></pre>
+</span>
+<span id="execution-error-POSTapi-headQuarter" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-headQuarter"></code></pre>
+</span>
+<form id="form-POSTapi-headQuarter" data-method="POST"
+      data-path="api/headQuarter"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-headQuarter', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-headQuarter"
+                    onclick="tryItOut('POSTapi-headQuarter');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-headQuarter"
+                    onclick="cancelTryOut('POSTapi-headQuarter');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-headQuarter" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/headQuarter</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-headQuarter"
+               value="Pereira"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la sucursal.</p>
+        </p>
+        </form>
+
+            <h2 id="headquarter-GETapi-headQuarter--id-">GET api/headQuarter/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-headQuarter--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/headQuarter/20',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-headQuarter--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-headQuarter--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-headQuarter--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-headQuarter--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-headQuarter--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-headQuarter--id-"></code></pre>
+</span>
+<form id="form-GETapi-headQuarter--id-" data-method="GET"
+      data-path="api/headQuarter/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-headQuarter--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-headQuarter--id-"
+                    onclick="tryItOut('GETapi-headQuarter--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-headQuarter--id-"
+                    onclick="cancelTryOut('GETapi-headQuarter--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-headQuarter--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/headQuarter/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-headQuarter--id-"
+               value="20"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the headQuarter.</p>
+            </p>
+                    </form>
+
+            <h2 id="headquarter-PUTapi-headQuarter--id-">PUT api/headQuarter/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-headQuarter--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/headQuarter/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Pereira',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-headQuarter--id-">
+</span>
+<span id="execution-results-PUTapi-headQuarter--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-headQuarter--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-headQuarter--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-headQuarter--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-headQuarter--id-"></code></pre>
+</span>
+<form id="form-PUTapi-headQuarter--id-" data-method="PUT"
+      data-path="api/headQuarter/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-headQuarter--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-headQuarter--id-"
+                    onclick="tryItOut('PUTapi-headQuarter--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-headQuarter--id-"
+                    onclick="cancelTryOut('PUTapi-headQuarter--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-headQuarter--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/headQuarter/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/headQuarter/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-headQuarter--id-"
+               value="18"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the headQuarter.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-headQuarter--id-"
+               value="Pereira"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de la sucursal.</p>
+        </p>
+        </form>
+
+            <h2 id="headquarter-DELETEapi-headQuarter--id-">DELETE api/headQuarter/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-headQuarter--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/headQuarter/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-headQuarter--id-">
+</span>
+<span id="execution-results-DELETEapi-headQuarter--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-headQuarter--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-headQuarter--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-headQuarter--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-headQuarter--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-headQuarter--id-" data-method="DELETE"
+      data-path="api/headQuarter/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-headQuarter--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-headQuarter--id-"
+                    onclick="tryItOut('DELETEapi-headQuarter--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-headQuarter--id-"
+                    onclick="cancelTryOut('DELETEapi-headQuarter--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-headQuarter--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/headQuarter/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-headQuarter--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the headQuarter.</p>
+            </p>
+                    </form>
+
+        <h1 id="health-provider">Health Provider</h1>
+
+    
+
+            <h2 id="health-provider-GETapi-healthProvider">GET api/healthProvider</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-healthProvider">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/healthProvider',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-healthProvider">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 54
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Salud total&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Sura&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Nueva EPS&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-healthProvider" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-healthProvider"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-healthProvider"></code></pre>
+</span>
+<span id="execution-error-GETapi-healthProvider" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-healthProvider"></code></pre>
+</span>
+<form id="form-GETapi-healthProvider" data-method="GET"
+      data-path="api/healthProvider"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-healthProvider', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-healthProvider"
+                    onclick="tryItOut('GETapi-healthProvider');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-healthProvider"
+                    onclick="cancelTryOut('GETapi-healthProvider');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-healthProvider" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/healthProvider</code></b>
+        </p>
+                    </form>
+
+            <h2 id="health-provider-POSTapi-healthProvider">POST api/healthProvider</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-healthProvider">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/healthProvider',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-healthProvider">
+</span>
+<span id="execution-results-POSTapi-healthProvider" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-healthProvider"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-healthProvider"></code></pre>
+</span>
+<span id="execution-error-POSTapi-healthProvider" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-healthProvider"></code></pre>
+</span>
+<form id="form-POSTapi-healthProvider" data-method="POST"
+      data-path="api/healthProvider"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-healthProvider', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-healthProvider"
+                    onclick="tryItOut('POSTapi-healthProvider');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-healthProvider"
+                    onclick="cancelTryOut('POSTapi-healthProvider');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-healthProvider" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/healthProvider</code></b>
+        </p>
+                    </form>
+
+            <h2 id="health-provider-GETapi-healthProvider--id-">GET api/healthProvider/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-healthProvider--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/healthProvider/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-healthProvider--id-">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 53
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Salud total&quot;,
+        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;deleted_at&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-healthProvider--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-healthProvider--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-healthProvider--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-healthProvider--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-healthProvider--id-"></code></pre>
+</span>
+<form id="form-GETapi-healthProvider--id-" data-method="GET"
+      data-path="api/healthProvider/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-healthProvider--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-healthProvider--id-"
+                    onclick="tryItOut('GETapi-healthProvider--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-healthProvider--id-"
+                    onclick="cancelTryOut('GETapi-healthProvider--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-healthProvider--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/healthProvider/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-healthProvider--id-"
+               value="13"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the healthProvider.</p>
+            </p>
+                    </form>
+
+            <h2 id="health-provider-PUTapi-healthProvider--id-">PUT api/healthProvider/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-healthProvider--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/healthProvider/11',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-healthProvider--id-">
+</span>
+<span id="execution-results-PUTapi-healthProvider--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-healthProvider--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-healthProvider--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-healthProvider--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-healthProvider--id-"></code></pre>
+</span>
+<form id="form-PUTapi-healthProvider--id-" data-method="PUT"
+      data-path="api/healthProvider/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-healthProvider--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-healthProvider--id-"
+                    onclick="tryItOut('PUTapi-healthProvider--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-healthProvider--id-"
+                    onclick="cancelTryOut('PUTapi-healthProvider--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-healthProvider--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/healthProvider/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/healthProvider/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-healthProvider--id-"
+               value="11"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the healthProvider.</p>
+            </p>
+                    </form>
+
+            <h2 id="health-provider-DELETEapi-healthProvider--id-">DELETE api/healthProvider/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-healthProvider--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/healthProvider/14',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-healthProvider--id-">
+</span>
+<span id="execution-results-DELETEapi-healthProvider--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-healthProvider--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-healthProvider--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-healthProvider--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-healthProvider--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-healthProvider--id-" data-method="DELETE"
+      data-path="api/healthProvider/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-healthProvider--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-healthProvider--id-"
+                    onclick="tryItOut('DELETEapi-healthProvider--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-healthProvider--id-"
+                    onclick="cancelTryOut('DELETEapi-healthProvider--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-healthProvider--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/healthProvider/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-healthProvider--id-"
+               value="14"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the healthProvider.</p>
+            </p>
+                    </form>
+
+        <h1 id="identification-type">Identification Type</h1>
+
+    
+
+            <h2 id="identification-type-GETapi-identificationType">GET api/identificationType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-identificationType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/identificationType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-identificationType">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-identificationType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-identificationType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-identificationType"></code></pre>
+</span>
+<span id="execution-error-GETapi-identificationType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-identificationType"></code></pre>
+</span>
+<form id="form-GETapi-identificationType" data-method="GET"
+      data-path="api/identificationType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-identificationType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-identificationType"
+                    onclick="tryItOut('GETapi-identificationType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-identificationType"
+                    onclick="cancelTryOut('GETapi-identificationType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-identificationType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/identificationType</code></b>
+        </p>
+                    </form>
+
+            <h2 id="identification-type-POSTapi-identificationType">POST api/identificationType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-identificationType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/identificationType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Cedula de ciudadania',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-identificationType">
+</span>
+<span id="execution-results-POSTapi-identificationType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-identificationType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-identificationType"></code></pre>
+</span>
+<span id="execution-error-POSTapi-identificationType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-identificationType"></code></pre>
+</span>
+<form id="form-POSTapi-identificationType" data-method="POST"
+      data-path="api/identificationType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-identificationType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-identificationType"
+                    onclick="tryItOut('POSTapi-identificationType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-identificationType"
+                    onclick="cancelTryOut('POSTapi-identificationType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-identificationType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/identificationType</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-identificationType"
+               value="Cedula de ciudadania"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del tipo de identificacion.</p>
+        </p>
+        </form>
+
+            <h2 id="identification-type-GETapi-identificationType--id-">GET api/identificationType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-identificationType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/identificationType/11',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-identificationType--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-identificationType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-identificationType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-identificationType--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-identificationType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-identificationType--id-"></code></pre>
+</span>
+<form id="form-GETapi-identificationType--id-" data-method="GET"
+      data-path="api/identificationType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-identificationType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-identificationType--id-"
+                    onclick="tryItOut('GETapi-identificationType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-identificationType--id-"
+                    onclick="cancelTryOut('GETapi-identificationType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-identificationType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/identificationType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-identificationType--id-"
+               value="11"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the identificationType.</p>
+            </p>
+                    </form>
+
+            <h2 id="identification-type-PUTapi-identificationType--id-">PUT api/identificationType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-identificationType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/identificationType/3',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Cedula de ciudadania',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-identificationType--id-">
+</span>
+<span id="execution-results-PUTapi-identificationType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-identificationType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-identificationType--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-identificationType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-identificationType--id-"></code></pre>
+</span>
+<form id="form-PUTapi-identificationType--id-" data-method="PUT"
+      data-path="api/identificationType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-identificationType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-identificationType--id-"
+                    onclick="tryItOut('PUTapi-identificationType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-identificationType--id-"
+                    onclick="cancelTryOut('PUTapi-identificationType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-identificationType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/identificationType/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/identificationType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-identificationType--id-"
+               value="3"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the identificationType.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-identificationType--id-"
+               value="Cedula de ciudadania"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del tipo de identificacion.</p>
+        </p>
+        </form>
+
+            <h2 id="identification-type-DELETEapi-identificationType--id-">DELETE api/identificationType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-identificationType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/identificationType/9',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-identificationType--id-">
+</span>
+<span id="execution-results-DELETEapi-identificationType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-identificationType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-identificationType--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-identificationType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-identificationType--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-identificationType--id-" data-method="DELETE"
+      data-path="api/identificationType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-identificationType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-identificationType--id-"
+                    onclick="tryItOut('DELETEapi-identificationType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-identificationType--id-"
+                    onclick="cancelTryOut('DELETEapi-identificationType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-identificationType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/identificationType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-identificationType--id-"
+               value="9"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the identificationType.</p>
+            </p>
+                    </form>
+
+        <h1 id="payroll">Payroll</h1>
+
+    
+
+            <h2 id="payroll-GETapi-payroll">GET api/payroll</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-payroll">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/payroll',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-payroll">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-payroll" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-payroll"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-payroll"></code></pre>
+</span>
+<span id="execution-error-GETapi-payroll" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-payroll"></code></pre>
+</span>
+<form id="form-GETapi-payroll" data-method="GET"
+      data-path="api/payroll"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-payroll', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-payroll"
+                    onclick="tryItOut('GETapi-payroll');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-payroll"
+                    onclick="cancelTryOut('GETapi-payroll');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-payroll" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/payroll</code></b>
+        </p>
+                    </form>
+
+            <h2 id="payroll-POSTapi-payroll">POST api/payroll</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-payroll">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/payroll',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'period_id' =&gt; 1,
+            'user_id' =&gt; 2,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-payroll">
+</span>
+<span id="execution-results-POSTapi-payroll" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-payroll"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-payroll"></code></pre>
+</span>
+<span id="execution-error-POSTapi-payroll" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-payroll"></code></pre>
+</span>
+<form id="form-POSTapi-payroll" data-method="POST"
+      data-path="api/payroll"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-payroll', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-payroll"
+                    onclick="tryItOut('POSTapi-payroll');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-payroll"
+                    onclick="cancelTryOut('POSTapi-payroll');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-payroll" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/payroll</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="period_id"
+               data-endpoint="POSTapi-payroll"
+               value="1"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.</p>
+        </p>
+                <p>
+            <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="POSTapi-payroll"
+               value="2"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del usuario.</p>
+        </p>
+        </form>
+
+            <h2 id="payroll-GETapi-payroll--id-">GET api/payroll/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-payroll--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/payroll/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-payroll--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-payroll--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-payroll--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-payroll--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-payroll--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-payroll--id-"></code></pre>
+</span>
+<form id="form-GETapi-payroll--id-" data-method="GET"
+      data-path="api/payroll/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-payroll--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-payroll--id-"
+                    onclick="tryItOut('GETapi-payroll--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-payroll--id-"
+                    onclick="cancelTryOut('GETapi-payroll--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-payroll--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/payroll/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-payroll--id-"
+               value="13"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the payroll.</p>
+            </p>
+                    </form>
+
+            <h2 id="payroll-PUTapi-payroll--id-">PUT api/payroll/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-payroll--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/payroll/8',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'period_id' =&gt; 1,
+            'user_id' =&gt; 2,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-payroll--id-">
+</span>
+<span id="execution-results-PUTapi-payroll--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-payroll--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-payroll--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-payroll--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-payroll--id-"></code></pre>
+</span>
+<form id="form-PUTapi-payroll--id-" data-method="PUT"
+      data-path="api/payroll/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-payroll--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-payroll--id-"
+                    onclick="tryItOut('PUTapi-payroll--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-payroll--id-"
+                    onclick="cancelTryOut('PUTapi-payroll--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-payroll--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/payroll/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/payroll/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-payroll--id-"
+               value="8"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the payroll.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="period_id"
+               data-endpoint="PUTapi-payroll--id-"
+               value="1"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.</p>
+        </p>
+                <p>
+            <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="PUTapi-payroll--id-"
+               value="2"
+               data-component="body" hidden>
+    <br>
+<p>ID de llave foranea del usuario.</p>
+        </p>
+        </form>
+
+            <h2 id="payroll-DELETEapi-payroll--id-">DELETE api/payroll/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-payroll--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/payroll/19',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-payroll--id-">
+</span>
+<span id="execution-results-DELETEapi-payroll--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-payroll--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-payroll--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-payroll--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-payroll--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-payroll--id-" data-method="DELETE"
+      data-path="api/payroll/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-payroll--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-payroll--id-"
+                    onclick="tryItOut('DELETEapi-payroll--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-payroll--id-"
+                    onclick="cancelTryOut('DELETEapi-payroll--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-payroll--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/payroll/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-payroll--id-"
+               value="19"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the payroll.</p>
+            </p>
+                    </form>
+
+            <h2 id="payroll-GETapi-consultaPayroll">GET api/consultaPayroll</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-consultaPayroll">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/consultaPayroll',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'period_id'=&gt; '1',
+            'user_id'=&gt; '2',
+            'created_at'=&gt; '12',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-consultaPayroll">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-consultaPayroll" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-consultaPayroll"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-consultaPayroll"></code></pre>
+</span>
+<span id="execution-error-GETapi-consultaPayroll" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-consultaPayroll"></code></pre>
+</span>
+<form id="form-GETapi-consultaPayroll" data-method="GET"
+      data-path="api/consultaPayroll"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-consultaPayroll', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-consultaPayroll"
+                    onclick="tryItOut('GETapi-consultaPayroll');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-consultaPayroll"
+                    onclick="cancelTryOut('GETapi-consultaPayroll');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-consultaPayroll" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/consultaPayroll</code></b>
+        </p>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="period_id"
+               data-endpoint="GETapi-consultaPayroll"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>El id del periodo de la nomina que se va a consultar.</p>
+            </p>
+                    <p>
+                <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="GETapi-consultaPayroll"
+               value="2"
+               data-component="query" hidden>
+    <br>
+<p>El id del usuario de la nomina.</p>
+            </p>
+                    <p>
+                <b><code>created_at</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="created_at"
+               data-endpoint="GETapi-consultaPayroll"
+               value="12"
+               data-component="query" hidden>
+    <br>
+<p>date La fecha con el MES de la nomina.</p>
+            </p>
+                </form>
+
+            <h2 id="payroll-GETapi-consultDeduccion">GET api/consultDeduccion</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-consultDeduccion">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/consultDeduccion',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'period_id'=&gt; '1',
+            'covenants_id'=&gt; '1',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-consultDeduccion">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-consultDeduccion" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-consultDeduccion"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-consultDeduccion"></code></pre>
+</span>
+<span id="execution-error-GETapi-consultDeduccion" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-consultDeduccion"></code></pre>
+</span>
+<form id="form-GETapi-consultDeduccion" data-method="GET"
+      data-path="api/consultDeduccion"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-consultDeduccion', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-consultDeduccion"
+                    onclick="tryItOut('GETapi-consultDeduccion');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-consultDeduccion"
+                    onclick="cancelTryOut('GETapi-consultDeduccion');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-consultDeduccion" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/consultDeduccion</code></b>
+        </p>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="period_id"
+               data-endpoint="GETapi-consultDeduccion"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>ID de llave foranea para el periodo de la nomina que se va a consultar (5 a 19, 20 a 4).</p>
+            </p>
+                    <p>
+                <b><code>covenants_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="covenants_id"
+               data-endpoint="GETapi-consultDeduccion"
+               value="1"
+               data-component="query" hidden>
+    <br>
+<p>ID de llave foranea para el convenio que se va a consultar.</p>
+            </p>
+                </form>
+
+            <h2 id="payroll-GETapi-payroll-user--user-">GET api/payroll/user/{user}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-payroll-user--user-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/payroll/user/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-payroll-user--user-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-payroll-user--user-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-payroll-user--user-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-payroll-user--user-"></code></pre>
+</span>
+<span id="execution-error-GETapi-payroll-user--user-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-payroll-user--user-"></code></pre>
+</span>
+<form id="form-GETapi-payroll-user--user-" data-method="GET"
+      data-path="api/payroll/user/{user}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-payroll-user--user-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-payroll-user--user-"
+                    onclick="tryItOut('GETapi-payroll-user--user-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-payroll-user--user-"
+                    onclick="cancelTryOut('GETapi-payroll-user--user-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-payroll-user--user-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/payroll/user/{user}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>user</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user"
+               data-endpoint="GETapi-payroll-user--user-"
+               value="18"
+               data-component="url" hidden>
+    <br>
+
+            </p>
+                    </form>
+
+            <h2 id="payroll-POSTapi-payrollConcept--payroll_id-">POST api/payrollConcept/{payroll_id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-payrollConcept--payroll_id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/payrollConcept/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'count' =&gt; 15,
+            'unit_value' =&gt; 30000,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-payrollConcept--payroll_id-">
+</span>
+<span id="execution-results-POSTapi-payrollConcept--payroll_id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-payrollConcept--payroll_id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-payrollConcept--payroll_id-"></code></pre>
+</span>
+<span id="execution-error-POSTapi-payrollConcept--payroll_id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-payrollConcept--payroll_id-"></code></pre>
+</span>
+<form id="form-POSTapi-payrollConcept--payroll_id-" data-method="POST"
+      data-path="api/payrollConcept/{payroll_id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-payrollConcept--payroll_id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-payrollConcept--payroll_id-"
+                    onclick="tryItOut('POSTapi-payrollConcept--payroll_id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-payrollConcept--payroll_id-"
+                    onclick="cancelTryOut('POSTapi-payrollConcept--payroll_id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-payrollConcept--payroll_id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/payrollConcept/{payroll_id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>payroll_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="payroll_id"
+               data-endpoint="POSTapi-payrollConcept--payroll_id-"
+               value="1"
+               data-component="url" hidden>
+    <br>
+<p>El id de la nomina a la que se le asignará el concepto.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>count</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="count"
+               data-endpoint="POSTapi-payrollConcept--payroll_id-"
+               value="15"
+               data-component="body" hidden>
+    <br>
+<p>La cantidad de veces que se cobra un concepto en la nomina.</p>
+        </p>
+                <p>
+            <b><code>unit_value</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="unit_value"
+               data-endpoint="POSTapi-payrollConcept--payroll_id-"
+               value="30000"
+               data-component="body" hidden>
+    <br>
+<p>El valor unitario del concepto.</p>
+        </p>
+        </form>
+
+            <h2 id="payroll-DELETEapi-payrollDeleteConcept--payroll_id-">DELETE api/payrollDeleteConcept/{payroll_id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-payrollDeleteConcept--payroll_id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/payrollDeleteConcept/8',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'query' =&gt; [
+            'conceptPivotId'=&gt; '10',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-payrollDeleteConcept--payroll_id-">
+</span>
+<span id="execution-results-DELETEapi-payrollDeleteConcept--payroll_id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-payrollDeleteConcept--payroll_id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-payrollDeleteConcept--payroll_id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-payrollDeleteConcept--payroll_id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-payrollDeleteConcept--payroll_id-"></code></pre>
+</span>
+<form id="form-DELETEapi-payrollDeleteConcept--payroll_id-" data-method="DELETE"
+      data-path="api/payrollDeleteConcept/{payroll_id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-payrollDeleteConcept--payroll_id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-payrollDeleteConcept--payroll_id-"
+                    onclick="tryItOut('DELETEapi-payrollDeleteConcept--payroll_id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-payrollDeleteConcept--payroll_id-"
+                    onclick="cancelTryOut('DELETEapi-payrollDeleteConcept--payroll_id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-payrollDeleteConcept--payroll_id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/payrollDeleteConcept/{payroll_id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>payroll_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="payroll_id"
+               data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
+               value="8"
+               data-component="url" hidden>
+    <br>
+<p>El id de la nomina a la que se le eliminará el concepto</p>
+            </p>
+                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
+                    <p>
+                <b><code>conceptPivotId</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="conceptPivotId"
+               data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
+               value="10"
+               data-component="query" hidden>
+    <br>
+<p>El id del concepto que se eliminará ubicado en la pivot</p>
+            </p>
+                </form>
+
+        <h1 id="pension-fund">Pension Fund</h1>
+
+    
+
+            <h2 id="pension-fund-GETapi-pensionFund">GET api/pensionFund</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-pensionFund">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/pensionFund',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-pensionFund">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 52
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Porvenir&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Protecci&oacute;n&quot;,
+            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-pensionFund" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-pensionFund"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-pensionFund"></code></pre>
+</span>
+<span id="execution-error-GETapi-pensionFund" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-pensionFund"></code></pre>
+</span>
+<form id="form-GETapi-pensionFund" data-method="GET"
+      data-path="api/pensionFund"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-pensionFund', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-pensionFund"
+                    onclick="tryItOut('GETapi-pensionFund');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-pensionFund"
+                    onclick="cancelTryOut('GETapi-pensionFund');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-pensionFund" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/pensionFund</code></b>
+        </p>
+                    </form>
+
+            <h2 id="pension-fund-POSTapi-pensionFund">POST api/pensionFund</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-pensionFund">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/pensionFund',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-pensionFund">
+</span>
+<span id="execution-results-POSTapi-pensionFund" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-pensionFund"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-pensionFund"></code></pre>
+</span>
+<span id="execution-error-POSTapi-pensionFund" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-pensionFund"></code></pre>
+</span>
+<form id="form-POSTapi-pensionFund" data-method="POST"
+      data-path="api/pensionFund"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-pensionFund', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-pensionFund"
+                    onclick="tryItOut('POSTapi-pensionFund');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-pensionFund"
+                    onclick="cancelTryOut('POSTapi-pensionFund');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-pensionFund" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/pensionFund</code></b>
+        </p>
+                    </form>
+
+            <h2 id="pension-fund-GETapi-pensionFund--id-">GET api/pensionFund/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-pensionFund--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/pensionFund/9',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-pensionFund--id-">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 51
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: {
+        &quot;id&quot;: 1,
+        &quot;name&quot;: &quot;Porvenir&quot;,
+        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;deleted_at&quot;: null
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-pensionFund--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-pensionFund--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-pensionFund--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-pensionFund--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-pensionFund--id-"></code></pre>
+</span>
+<form id="form-GETapi-pensionFund--id-" data-method="GET"
+      data-path="api/pensionFund/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-pensionFund--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-pensionFund--id-"
+                    onclick="tryItOut('GETapi-pensionFund--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-pensionFund--id-"
+                    onclick="cancelTryOut('GETapi-pensionFund--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-pensionFund--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/pensionFund/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-pensionFund--id-"
+               value="9"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the pensionFund.</p>
+            </p>
+                    </form>
+
+            <h2 id="pension-fund-PUTapi-pensionFund--id-">PUT api/pensionFund/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-pensionFund--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/pensionFund/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-pensionFund--id-">
+</span>
+<span id="execution-results-PUTapi-pensionFund--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-pensionFund--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-pensionFund--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-pensionFund--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-pensionFund--id-"></code></pre>
+</span>
+<form id="form-PUTapi-pensionFund--id-" data-method="PUT"
+      data-path="api/pensionFund/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-pensionFund--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-pensionFund--id-"
+                    onclick="tryItOut('PUTapi-pensionFund--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-pensionFund--id-"
+                    onclick="cancelTryOut('PUTapi-pensionFund--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-pensionFund--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/pensionFund/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/pensionFund/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-pensionFund--id-"
+               value="18"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the pensionFund.</p>
+            </p>
+                    </form>
+
+            <h2 id="pension-fund-DELETEapi-pensionFund--id-">DELETE api/pensionFund/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-pensionFund--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/pensionFund/20',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-pensionFund--id-">
+</span>
+<span id="execution-results-DELETEapi-pensionFund--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-pensionFund--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-pensionFund--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-pensionFund--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-pensionFund--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-pensionFund--id-" data-method="DELETE"
+      data-path="api/pensionFund/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-pensionFund--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-pensionFund--id-"
+                    onclick="tryItOut('DELETEapi-pensionFund--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-pensionFund--id-"
+                    onclick="cancelTryOut('DELETEapi-pensionFund--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-pensionFund--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/pensionFund/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-pensionFund--id-"
+               value="20"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the pensionFund.</p>
+            </p>
+                    </form>
+
+        <h1 id="period">Period</h1>
+
+    
+
+            <h2 id="period-GETapi-period">GET api/period</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-period">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/period',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-period">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-period" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-period"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-period"></code></pre>
+</span>
+<span id="execution-error-GETapi-period" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-period"></code></pre>
+</span>
+<form id="form-GETapi-period" data-method="GET"
+      data-path="api/period"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-period', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-period"
+                    onclick="tryItOut('GETapi-period');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-period"
+                    onclick="cancelTryOut('GETapi-period');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-period" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/period</code></b>
+        </p>
+                    </form>
+
+            <h2 id="period-POSTapi-period">POST api/period</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-period">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/period',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; '5 a 19',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-period">
+</span>
+<span id="execution-results-POSTapi-period" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-period"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-period"></code></pre>
+</span>
+<span id="execution-error-POSTapi-period" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-period"></code></pre>
+</span>
+<form id="form-POSTapi-period" data-method="POST"
+      data-path="api/period"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-period', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-period"
+                    onclick="tryItOut('POSTapi-period');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-period"
+                    onclick="cancelTryOut('POSTapi-period');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-period" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/period</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-period"
+               value="5 a 19"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.</p>
+        </p>
+        </form>
+
+            <h2 id="period-GETapi-period--id-">GET api/period/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-period--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/period/16',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-period--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-period--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-period--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-period--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-period--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-period--id-"></code></pre>
+</span>
+<form id="form-GETapi-period--id-" data-method="GET"
+      data-path="api/period/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-period--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-period--id-"
+                    onclick="tryItOut('GETapi-period--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-period--id-"
+                    onclick="cancelTryOut('GETapi-period--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-period--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/period/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-period--id-"
+               value="16"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the period.</p>
+            </p>
+                    </form>
+
+            <h2 id="period-PUTapi-period--id-">PUT api/period/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-period--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/period/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; '5 a 19',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-period--id-">
+</span>
+<span id="execution-results-PUTapi-period--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-period--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-period--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-period--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-period--id-"></code></pre>
+</span>
+<form id="form-PUTapi-period--id-" data-method="PUT"
+      data-path="api/period/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-period--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-period--id-"
+                    onclick="tryItOut('PUTapi-period--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-period--id-"
+                    onclick="cancelTryOut('PUTapi-period--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-period--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/period/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/period/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-period--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the period.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-period--id-"
+               value="5 a 19"
+               data-component="body" hidden>
+    <br>
+<p>El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.</p>
+        </p>
+        </form>
+
+            <h2 id="period-DELETEapi-period--id-">DELETE api/period/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-period--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/period/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-period--id-">
+</span>
+<span id="execution-results-DELETEapi-period--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-period--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-period--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-period--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-period--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-period--id-" data-method="DELETE"
+      data-path="api/period/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-period--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-period--id-"
+                    onclick="tryItOut('DELETEapi-period--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-period--id-"
+                    onclick="cancelTryOut('DELETEapi-period--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-period--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/period/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-period--id-"
+               value="18"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the period.</p>
+            </p>
+                    </form>
+
+        <h1 id="periodicity-type">Periodicity Type</h1>
+
+    
+
+            <h2 id="periodicity-type-GETapi-periodicityType">GET api/periodicityType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-periodicityType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/periodicityType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-periodicityType">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-periodicityType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-periodicityType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-periodicityType"></code></pre>
+</span>
+<span id="execution-error-GETapi-periodicityType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-periodicityType"></code></pre>
+</span>
+<form id="form-GETapi-periodicityType" data-method="GET"
+      data-path="api/periodicityType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-periodicityType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-periodicityType"
+                    onclick="tryItOut('GETapi-periodicityType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-periodicityType"
+                    onclick="cancelTryOut('GETapi-periodicityType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-periodicityType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/periodicityType</code></b>
+        </p>
+                    </form>
+
+            <h2 id="periodicity-type-POSTapi-periodicityType">POST api/periodicityType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-periodicityType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/periodicityType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'numquam',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-periodicityType">
+</span>
+<span id="execution-results-POSTapi-periodicityType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-periodicityType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-periodicityType"></code></pre>
+</span>
+<span id="execution-error-POSTapi-periodicityType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-periodicityType"></code></pre>
+</span>
+<form id="form-POSTapi-periodicityType" data-method="POST"
+      data-path="api/periodicityType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-periodicityType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-periodicityType"
+                    onclick="tryItOut('POSTapi-periodicityType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-periodicityType"
+                    onclick="cancelTryOut('POSTapi-periodicityType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-periodicityType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/periodicityType</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-periodicityType"
+               value="numquam"
+               data-component="body" hidden>
+    <br>
+<p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
+        </p>
+        </form>
+
+            <h2 id="periodicity-type-GETapi-periodicityType--id-">GET api/periodicityType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-periodicityType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/periodicityType/4',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-periodicityType--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-periodicityType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-periodicityType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-periodicityType--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-periodicityType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-periodicityType--id-"></code></pre>
+</span>
+<form id="form-GETapi-periodicityType--id-" data-method="GET"
+      data-path="api/periodicityType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-periodicityType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-periodicityType--id-"
+                    onclick="tryItOut('GETapi-periodicityType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-periodicityType--id-"
+                    onclick="cancelTryOut('GETapi-periodicityType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-periodicityType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/periodicityType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-periodicityType--id-"
+               value="4"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the periodicityType.</p>
+            </p>
+                    </form>
+
+            <h2 id="periodicity-type-PUTapi-periodicityType--id-">PUT api/periodicityType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-periodicityType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/periodicityType/16',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'minus',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-periodicityType--id-">
+</span>
+<span id="execution-results-PUTapi-periodicityType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-periodicityType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-periodicityType--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-periodicityType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-periodicityType--id-"></code></pre>
+</span>
+<form id="form-PUTapi-periodicityType--id-" data-method="PUT"
+      data-path="api/periodicityType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-periodicityType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-periodicityType--id-"
+                    onclick="tryItOut('PUTapi-periodicityType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-periodicityType--id-"
+                    onclick="cancelTryOut('PUTapi-periodicityType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-periodicityType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/periodicityType/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/periodicityType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-periodicityType--id-"
+               value="16"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the periodicityType.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-periodicityType--id-"
+               value="minus"
+               data-component="body" hidden>
+    <br>
+<p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
+        </p>
+        </form>
+
+            <h2 id="periodicity-type-DELETEapi-periodicityType--id-">DELETE api/periodicityType/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-periodicityType--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/periodicityType/11',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-periodicityType--id-">
+</span>
+<span id="execution-results-DELETEapi-periodicityType--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-periodicityType--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-periodicityType--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-periodicityType--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-periodicityType--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-periodicityType--id-" data-method="DELETE"
+      data-path="api/periodicityType/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-periodicityType--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-periodicityType--id-"
+                    onclick="tryItOut('DELETEapi-periodicityType--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-periodicityType--id-"
+                    onclick="cancelTryOut('DELETEapi-periodicityType--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-periodicityType--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/periodicityType/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-periodicityType--id-"
+               value="11"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the periodicityType.</p>
+            </p>
+                    </form>
+
+        <h1 id="position">Position</h1>
+
+    
+
+            <h2 id="position-GETapi-position">GET api/position</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-position">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/position',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-position">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-position" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-position"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-position"></code></pre>
+</span>
+<span id="execution-error-GETapi-position" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-position"></code></pre>
+</span>
+<form id="form-GETapi-position" data-method="GET"
+      data-path="api/position"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-position', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-position"
+                    onclick="tryItOut('GETapi-position');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-position"
+                    onclick="cancelTryOut('GETapi-position');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-position" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/position</code></b>
+        </p>
+                    </form>
+
+            <h2 id="position-POSTapi-position">POST api/position</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-position">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/position',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Jefe',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-position">
+</span>
+<span id="execution-results-POSTapi-position" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-position"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-position"></code></pre>
+</span>
+<span id="execution-error-POSTapi-position" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-position"></code></pre>
+</span>
+<form id="form-POSTapi-position" data-method="POST"
+      data-path="api/position"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-position', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-position"
+                    onclick="tryItOut('POSTapi-position');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-position"
+                    onclick="cancelTryOut('POSTapi-position');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-position" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/position</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-position"
+               value="Jefe"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del cargo.</p>
+        </p>
+        </form>
+
+            <h2 id="position-GETapi-position--id-">GET api/position/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-position--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/position/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-position--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-position--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-position--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-position--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-position--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-position--id-"></code></pre>
+</span>
+<form id="form-GETapi-position--id-" data-method="GET"
+      data-path="api/position/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-position--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-position--id-"
+                    onclick="tryItOut('GETapi-position--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-position--id-"
+                    onclick="cancelTryOut('GETapi-position--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-position--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/position/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-position--id-"
+               value="18"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the position.</p>
+            </p>
+                    </form>
+
+            <h2 id="position-PUTapi-position--id-">PUT api/position/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-position--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/position/18',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'Jefe',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-position--id-">
+</span>
+<span id="execution-results-PUTapi-position--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-position--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-position--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-position--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-position--id-"></code></pre>
+</span>
+<form id="form-PUTapi-position--id-" data-method="PUT"
+      data-path="api/position/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-position--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-position--id-"
+                    onclick="tryItOut('PUTapi-position--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-position--id-"
+                    onclick="cancelTryOut('PUTapi-position--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-position--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/position/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/position/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-position--id-"
+               value="18"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the position.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-position--id-"
+               value="Jefe"
+               data-component="body" hidden>
+    <br>
+<p>El nombre del cargo.</p>
+        </p>
+        </form>
+
+            <h2 id="position-DELETEapi-position--id-">DELETE api/position/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-position--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/position/5',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-position--id-">
+</span>
+<span id="execution-results-DELETEapi-position--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-position--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-position--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-position--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-position--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-position--id-" data-method="DELETE"
+      data-path="api/position/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-position--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-position--id-"
+                    onclick="tryItOut('DELETEapi-position--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-position--id-"
+                    onclick="cancelTryOut('DELETEapi-position--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-position--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/position/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-position--id-"
+               value="5"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the position.</p>
+            </p>
+                    </form>
+
+        <h1 id="provider">Provider</h1>
+
+    
+
+            <h2 id="provider-GETapi-provider">GET api/provider</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-provider">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/provider',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-provider">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-provider" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-provider"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-provider"></code></pre>
+</span>
+<span id="execution-error-GETapi-provider" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-provider"></code></pre>
+</span>
+<form id="form-GETapi-provider" data-method="GET"
+      data-path="api/provider"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-provider', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-provider"
+                    onclick="tryItOut('GETapi-provider');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-provider"
+                    onclick="cancelTryOut('GETapi-provider');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-provider" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/provider</code></b>
+        </p>
+                    </form>
+
+            <h2 id="provider-POSTapi-provider">POST api/provider</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-provider">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;post(
+    'http://localhost:8000/api/provider',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; '',
+            'last_name' =&gt; '',
+            'trade_name' =&gt; 'km',
+            'address' =&gt; '',
+            'phone' =&gt; 'egnm',
+            'identification_number' =&gt; 'nqh',
+            'identification_type_id' =&gt; 11,
+            'iva' =&gt; false,
+            'email' =&gt; 'yvon@example.com',
+            'password' =&gt; 'cupiditate',
+            'constitution_type_id' =&gt; 4,
+            'city_id' =&gt; 16,
+            'responsability_type_id' =&gt; 14,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-provider">
+</span>
+<span id="execution-results-POSTapi-provider" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-provider"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-provider"></code></pre>
+</span>
+<span id="execution-error-POSTapi-provider" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-provider"></code></pre>
+</span>
+<form id="form-POSTapi-provider" data-method="POST"
+      data-path="api/provider"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-provider', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-provider"
+                    onclick="tryItOut('POSTapi-provider');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-provider"
+                    onclick="cancelTryOut('POSTapi-provider');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-provider" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/provider</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="POSTapi-provider"
+               value=""
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 3 characters.</p>
+        </p>
+                <p>
+            <b><code>last_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="last_name"
+               data-endpoint="POSTapi-provider"
+               value=""
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 3 characters.</p>
+        </p>
+                <p>
+            <b><code>trade_name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="trade_name"
+               data-endpoint="POSTapi-provider"
+               value="km"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 3 characters.</p>
+        </p>
+                <p>
+            <b><code>address</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="address"
+               data-endpoint="POSTapi-provider"
+               value=""
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 5 characters.</p>
+        </p>
+                <p>
+            <b><code>phone</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="phone"
+               data-endpoint="POSTapi-provider"
+               value="egnm"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 5 characters.</p>
+        </p>
+                <p>
+            <b><code>identification_number</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="identification_number"
+               data-endpoint="POSTapi-provider"
+               value="nqh"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 5 characters.</p>
+        </p>
+                <p>
+            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="identification_type_id"
+               data-endpoint="POSTapi-provider"
+               value="11"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>iva</code></b>&nbsp;&nbsp;<small>boolean</small>  &nbsp;
+                <label data-endpoint="POSTapi-provider" hidden>
+            <input type="radio" name="iva"
+                   value="true"
+                   data-endpoint="POSTapi-provider"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="POSTapi-provider" hidden>
+            <input type="radio" name="iva"
+                   value="false"
+                   data-endpoint="POSTapi-provider"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
+    <br>
+
+        </p>
+                <p>
+            <b><code>email</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="email"
+               data-endpoint="POSTapi-provider"
+               value="yvon@example.com"
+               data-component="body" hidden>
+    <br>
+<p>Must be a valid email address.</p>
+        </p>
+                <p>
+            <b><code>password</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+                <input type="text"
+               name="password"
+               data-endpoint="POSTapi-provider"
+               value="cupiditate"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>constitution_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="constitution_type_id"
+               data-endpoint="POSTapi-provider"
+               value="4"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>city_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="city_id"
+               data-endpoint="POSTapi-provider"
+               value="16"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>responsability_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="responsability_type_id"
+               data-endpoint="POSTapi-provider"
+               value="14"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+        </form>
+
+            <h2 id="provider-GETapi-provider--id-">GET api/provider/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-provider--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/provider/11',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-provider--id-">
+            <blockquote>
+            <p>Example response (401):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;message&quot;: &quot;Unauthenticated.&quot;
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-provider--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-provider--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-provider--id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-provider--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-provider--id-"></code></pre>
+</span>
+<form id="form-GETapi-provider--id-" data-method="GET"
+      data-path="api/provider/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-provider--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-provider--id-"
+                    onclick="tryItOut('GETapi-provider--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-provider--id-"
+                    onclick="cancelTryOut('GETapi-provider--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-provider--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/provider/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="GETapi-provider--id-"
+               value="11"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the provider.</p>
+            </p>
+                    </form>
+
+            <h2 id="provider-PUTapi-provider--id-">PUT api/provider/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-PUTapi-provider--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;put(
+    'http://localhost:8000/api/provider/9',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'name' =&gt; 'quam',
+            'last_name' =&gt; 'kgb',
+            'trade_name' =&gt; 'fugiat',
+            'address' =&gt; 'h',
+            'phone' =&gt; 'qk',
+            'identification_number' =&gt; 'nihil',
+            'identification_type_id' =&gt; 19,
+            'iva' =&gt; false,
+            'email' =&gt; 'nader.letitia@example.org',
+            'password' =&gt; 'distinctio',
+            'constitution_type_id' =&gt; 11,
+            'city_id' =&gt; 13,
+            'responsability_type_id' =&gt; 18,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-PUTapi-provider--id-">
+</span>
+<span id="execution-results-PUTapi-provider--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-PUTapi-provider--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-PUTapi-provider--id-"></code></pre>
+</span>
+<span id="execution-error-PUTapi-provider--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-PUTapi-provider--id-"></code></pre>
+</span>
+<form id="form-PUTapi-provider--id-" data-method="PUT"
+      data-path="api/provider/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('PUTapi-provider--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-PUTapi-provider--id-"
+                    onclick="tryItOut('PUTapi-provider--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-PUTapi-provider--id-"
+                    onclick="cancelTryOut('PUTapi-provider--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-PUTapi-provider--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-darkblue">PUT</small>
+            <b><code>api/provider/{id}</code></b>
+        </p>
+            <p>
+            <small class="badge badge-purple">PATCH</small>
+            <b><code>api/provider/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="PUTapi-provider--id-"
+               value="9"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the provider.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="name"
+               data-endpoint="PUTapi-provider--id-"
+               value="quam"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>last_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="last_name"
+               data-endpoint="PUTapi-provider--id-"
+               value="kgb"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 3 characters.</p>
+        </p>
+                <p>
+            <b><code>trade_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="trade_name"
+               data-endpoint="PUTapi-provider--id-"
+               value="fugiat"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>address</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="address"
+               data-endpoint="PUTapi-provider--id-"
+               value="h"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 5 characters.</p>
+        </p>
+                <p>
+            <b><code>phone</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="phone"
+               data-endpoint="PUTapi-provider--id-"
+               value="qk"
+               data-component="body" hidden>
+    <br>
+<p>Must be at least 5 characters.</p>
+        </p>
+                <p>
+            <b><code>identification_number</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="identification_number"
+               data-endpoint="PUTapi-provider--id-"
+               value="nihil"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="identification_type_id"
+               data-endpoint="PUTapi-provider--id-"
+               value="19"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>iva</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
+                <label data-endpoint="PUTapi-provider--id-" hidden>
+            <input type="radio" name="iva"
+                   value="true"
+                   data-endpoint="PUTapi-provider--id-"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="PUTapi-provider--id-" hidden>
+            <input type="radio" name="iva"
+                   value="false"
+                   data-endpoint="PUTapi-provider--id-"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
+    <br>
+
+        </p>
+                <p>
+            <b><code>email</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="email"
+               data-endpoint="PUTapi-provider--id-"
+               value="nader.letitia@example.org"
+               data-component="body" hidden>
+    <br>
+<p>Must be a valid email address.</p>
+        </p>
+                <p>
+            <b><code>password</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="password"
+               data-endpoint="PUTapi-provider--id-"
+               value="distinctio"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>constitution_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="constitution_type_id"
+               data-endpoint="PUTapi-provider--id-"
+               value="11"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>city_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="city_id"
+               data-endpoint="PUTapi-provider--id-"
+               value="13"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>responsability_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
+               name="responsability_type_id"
+               data-endpoint="PUTapi-provider--id-"
+               value="18"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+        </form>
+
+            <h2 id="provider-DELETEapi-provider--id-">DELETE api/provider/{id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-provider--id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/provider/13',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-provider--id-">
+</span>
+<span id="execution-results-DELETEapi-provider--id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-provider--id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-provider--id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-provider--id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-provider--id-"></code></pre>
+</span>
+<form id="form-DELETEapi-provider--id-" data-method="DELETE"
+      data-path="api/provider/{id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-provider--id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-provider--id-"
+                    onclick="tryItOut('DELETEapi-provider--id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-provider--id-"
+                    onclick="cancelTryOut('DELETEapi-provider--id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-provider--id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/provider/{id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="id"
+               data-endpoint="DELETEapi-provider--id-"
+               value="13"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the provider.</p>
+            </p>
+                    </form>
 
         <h1 id="province">Province</h1>
 
@@ -1809,9394 +11241,6 @@ access-control-allow-origin: *
             </p>
                 </form>
 
-        <h1 id="business-line">Business Line</h1>
-
-    
-
-            <h2 id="business-line-GETapi-businessLine">GET api/businessLine</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-businessLine">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/businessLine',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-businessLine">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-businessLine" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-businessLine"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-businessLine"></code></pre>
-</span>
-<span id="execution-error-GETapi-businessLine" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-businessLine"></code></pre>
-</span>
-<form id="form-GETapi-businessLine" data-method="GET"
-      data-path="api/businessLine"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-businessLine', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-businessLine"
-                    onclick="tryItOut('GETapi-businessLine');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-businessLine"
-                    onclick="cancelTryOut('GETapi-businessLine');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-businessLine" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/businessLine</code></b>
-        </p>
-                    </form>
-
-            <h2 id="business-line-POSTapi-businessLine">POST api/businessLine</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-businessLine">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/businessLine',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'SyC Group',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-businessLine">
-</span>
-<span id="execution-results-POSTapi-businessLine" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-businessLine"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-businessLine"></code></pre>
-</span>
-<span id="execution-error-POSTapi-businessLine" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-businessLine"></code></pre>
-</span>
-<form id="form-POSTapi-businessLine" data-method="POST"
-      data-path="api/businessLine"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-businessLine', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-businessLine"
-                    onclick="tryItOut('POSTapi-businessLine');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-businessLine"
-                    onclick="cancelTryOut('POSTapi-businessLine');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-businessLine" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/businessLine</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-businessLine"
-               value="SyC Group"
-               data-component="body" hidden>
-    <br>
-<p>El nombre de la linea de negocions.</p>
-        </p>
-        </form>
-
-            <h2 id="business-line-GETapi-businessLine--id-">GET api/businessLine/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-businessLine--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/businessLine/15',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-businessLine--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-businessLine--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-businessLine--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-businessLine--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-businessLine--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-businessLine--id-"></code></pre>
-</span>
-<form id="form-GETapi-businessLine--id-" data-method="GET"
-      data-path="api/businessLine/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-businessLine--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-businessLine--id-"
-                    onclick="tryItOut('GETapi-businessLine--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-businessLine--id-"
-                    onclick="cancelTryOut('GETapi-businessLine--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-businessLine--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/businessLine/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-businessLine--id-"
-               value="15"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the businessLine.</p>
-            </p>
-                    </form>
-
-            <h2 id="business-line-PUTapi-businessLine--id-">PUT api/businessLine/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-businessLine--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/businessLine/19',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'SyC Group',
-            'active' =&gt; false,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-businessLine--id-">
-</span>
-<span id="execution-results-PUTapi-businessLine--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-businessLine--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-businessLine--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-businessLine--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-businessLine--id-"></code></pre>
-</span>
-<form id="form-PUTapi-businessLine--id-" data-method="PUT"
-      data-path="api/businessLine/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-businessLine--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-businessLine--id-"
-                    onclick="tryItOut('PUTapi-businessLine--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-businessLine--id-"
-                    onclick="cancelTryOut('PUTapi-businessLine--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-businessLine--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/businessLine/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/businessLine/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-businessLine--id-"
-               value="19"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the businessLine.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-businessLine--id-"
-               value="SyC Group"
-               data-component="body" hidden>
-    <br>
-<p>El nombre de la linea de negocions.</p>
-        </p>
-                <p>
-            <b><code>active</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
-                <label data-endpoint="PUTapi-businessLine--id-" hidden>
-            <input type="radio" name="active"
-                   value="true"
-                   data-endpoint="PUTapi-businessLine--id-"
-                   data-component="body"
-            >
-            <code>true</code>
-        </label>
-        <label data-endpoint="PUTapi-businessLine--id-" hidden>
-            <input type="radio" name="active"
-                   value="false"
-                   data-endpoint="PUTapi-businessLine--id-"
-                   data-component="body"
-            >
-            <code>false</code>
-        </label>
-    <br>
-<p>El estado de la linea de negocios, si esta activa o no.</p>
-        </p>
-        </form>
-
-            <h2 id="business-line-DELETEapi-businessLine--id-">DELETE api/businessLine/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-businessLine--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/businessLine/8',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-businessLine--id-">
-</span>
-<span id="execution-results-DELETEapi-businessLine--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-businessLine--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-businessLine--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-businessLine--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-businessLine--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-businessLine--id-" data-method="DELETE"
-      data-path="api/businessLine/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-businessLine--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-businessLine--id-"
-                    onclick="tryItOut('DELETEapi-businessLine--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-businessLine--id-"
-                    onclick="cancelTryOut('DELETEapi-businessLine--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-businessLine--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/businessLine/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-businessLine--id-"
-               value="8"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the businessLine.</p>
-            </p>
-                    </form>
-
-        <h1 id="concept">Concept</h1>
-
-    
-
-            <h2 id="concept-GETapi-concept">GET api/concept</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-concept">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/concept',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'query' =&gt; [
-            'type'=&gt; '1',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-concept">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-concept" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-concept"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-concept"></code></pre>
-</span>
-<span id="execution-error-GETapi-concept" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-concept"></code></pre>
-</span>
-<form id="form-GETapi-concept" data-method="GET"
-      data-path="api/concept"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-concept', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-concept"
-                    onclick="tryItOut('GETapi-concept');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-concept"
-                    onclick="cancelTryOut('GETapi-concept');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-concept" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/concept</code></b>
-        </p>
-                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
-                    <p>
-                <b><code>type</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="type"
-               data-endpoint="GETapi-concept"
-               value="1"
-               data-component="query" hidden>
-    <br>
-<p>Filtro para buscar por tipo, 1 = devengado, 2 = deducciones.</p>
-            </p>
-                </form>
-
-            <h2 id="concept-POSTapi-concept">POST api/concept</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-concept">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/concept',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'uf',
-            'calculated' =&gt; false,
-            'concept_type_id' =&gt; 18,
-            'setting_id' =&gt; 20,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-concept">
-</span>
-<span id="execution-results-POSTapi-concept" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-concept"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-concept"></code></pre>
-</span>
-<span id="execution-error-POSTapi-concept" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-concept"></code></pre>
-</span>
-<form id="form-POSTapi-concept" data-method="POST"
-      data-path="api/concept"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-concept', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-concept"
-                    onclick="tryItOut('POSTapi-concept');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-concept"
-                    onclick="cancelTryOut('POSTapi-concept');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-concept" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/concept</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-concept"
-               value="uf"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 5 characters.</p>
-        </p>
-                <p>
-            <b><code>calculated</code></b>&nbsp;&nbsp;<small>boolean</small>  &nbsp;
-                <label data-endpoint="POSTapi-concept" hidden>
-            <input type="radio" name="calculated"
-                   value="true"
-                   data-endpoint="POSTapi-concept"
-                   data-component="body"
-            >
-            <code>true</code>
-        </label>
-        <label data-endpoint="POSTapi-concept" hidden>
-            <input type="radio" name="calculated"
-                   value="false"
-                   data-endpoint="POSTapi-concept"
-                   data-component="body"
-            >
-            <code>false</code>
-        </label>
-    <br>
-
-        </p>
-                <p>
-            <b><code>concept_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="concept_type_id"
-               data-endpoint="POSTapi-concept"
-               value="18"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>setting_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="setting_id"
-               data-endpoint="POSTapi-concept"
-               value="20"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-        </form>
-
-            <h2 id="concept-GETapi-concept--id-">GET api/concept/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-concept--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/concept/4',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-concept--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-concept--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-concept--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-concept--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-concept--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-concept--id-"></code></pre>
-</span>
-<form id="form-GETapi-concept--id-" data-method="GET"
-      data-path="api/concept/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-concept--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-concept--id-"
-                    onclick="tryItOut('GETapi-concept--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-concept--id-"
-                    onclick="cancelTryOut('GETapi-concept--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-concept--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/concept/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-concept--id-"
-               value="4"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the concept.</p>
-            </p>
-                    </form>
-
-            <h2 id="concept-PUTapi-concept--id-">PUT api/concept/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-concept--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/concept/16',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'recusandae',
-            'calculated' =&gt; false,
-            'concept_type_id' =&gt; 11,
-            'setting_id' =&gt; 6,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-concept--id-">
-</span>
-<span id="execution-results-PUTapi-concept--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-concept--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-concept--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-concept--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-concept--id-"></code></pre>
-</span>
-<form id="form-PUTapi-concept--id-" data-method="PUT"
-      data-path="api/concept/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-concept--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-concept--id-"
-                    onclick="tryItOut('PUTapi-concept--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-concept--id-"
-                    onclick="cancelTryOut('PUTapi-concept--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-concept--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/concept/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/concept/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-concept--id-"
-               value="16"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the concept.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-concept--id-"
-               value="recusandae"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>calculated</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
-                <label data-endpoint="PUTapi-concept--id-" hidden>
-            <input type="radio" name="calculated"
-                   value="true"
-                   data-endpoint="PUTapi-concept--id-"
-                   data-component="body"
-            >
-            <code>true</code>
-        </label>
-        <label data-endpoint="PUTapi-concept--id-" hidden>
-            <input type="radio" name="calculated"
-                   value="false"
-                   data-endpoint="PUTapi-concept--id-"
-                   data-component="body"
-            >
-            <code>false</code>
-        </label>
-    <br>
-
-        </p>
-                <p>
-            <b><code>concept_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="concept_type_id"
-               data-endpoint="PUTapi-concept--id-"
-               value="11"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>setting_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="setting_id"
-               data-endpoint="PUTapi-concept--id-"
-               value="6"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-        </form>
-
-            <h2 id="concept-DELETEapi-concept--id-">DELETE api/concept/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-concept--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/concept/17',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-concept--id-">
-</span>
-<span id="execution-results-DELETEapi-concept--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-concept--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-concept--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-concept--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-concept--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-concept--id-" data-method="DELETE"
-      data-path="api/concept/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-concept--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-concept--id-"
-                    onclick="tryItOut('DELETEapi-concept--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-concept--id-"
-                    onclick="cancelTryOut('DELETEapi-concept--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-concept--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/concept/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-concept--id-"
-               value="17"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the concept.</p>
-            </p>
-                    </form>
-
-        <h1 id="concept-type">Concept Type</h1>
-
-    
-
-            <h2 id="concept-type-GETapi-conceptType">GET api/conceptType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-conceptType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/conceptType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-conceptType">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-conceptType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-conceptType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-conceptType"></code></pre>
-</span>
-<span id="execution-error-GETapi-conceptType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-conceptType"></code></pre>
-</span>
-<form id="form-GETapi-conceptType" data-method="GET"
-      data-path="api/conceptType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-conceptType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-conceptType"
-                    onclick="tryItOut('GETapi-conceptType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-conceptType"
-                    onclick="cancelTryOut('GETapi-conceptType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-conceptType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/conceptType</code></b>
-        </p>
-                    </form>
-
-            <h2 id="concept-type-POSTapi-conceptType">POST api/conceptType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-conceptType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/conceptType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Devengado',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-conceptType">
-</span>
-<span id="execution-results-POSTapi-conceptType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-conceptType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-conceptType"></code></pre>
-</span>
-<span id="execution-error-POSTapi-conceptType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-conceptType"></code></pre>
-</span>
-<form id="form-POSTapi-conceptType" data-method="POST"
-      data-path="api/conceptType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-conceptType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-conceptType"
-                    onclick="tryItOut('POSTapi-conceptType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-conceptType"
-                    onclick="cancelTryOut('POSTapi-conceptType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-conceptType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/conceptType</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-conceptType"
-               value="Devengado"
-               data-component="body" hidden>
-    <br>
-<p>El tipo de concepto, ya viene definido (Deduccion, devengado).</p>
-        </p>
-        </form>
-
-            <h2 id="concept-type-GETapi-conceptType--id-">GET api/conceptType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-conceptType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/conceptType/18',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-conceptType--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-conceptType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-conceptType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-conceptType--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-conceptType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-conceptType--id-"></code></pre>
-</span>
-<form id="form-GETapi-conceptType--id-" data-method="GET"
-      data-path="api/conceptType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-conceptType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-conceptType--id-"
-                    onclick="tryItOut('GETapi-conceptType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-conceptType--id-"
-                    onclick="cancelTryOut('GETapi-conceptType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-conceptType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/conceptType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-conceptType--id-"
-               value="18"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the conceptType.</p>
-            </p>
-                    </form>
-
-            <h2 id="concept-type-PUTapi-conceptType--id-">PUT api/conceptType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-conceptType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/conceptType/3',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Devengado',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-conceptType--id-">
-</span>
-<span id="execution-results-PUTapi-conceptType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-conceptType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-conceptType--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-conceptType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-conceptType--id-"></code></pre>
-</span>
-<form id="form-PUTapi-conceptType--id-" data-method="PUT"
-      data-path="api/conceptType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-conceptType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-conceptType--id-"
-                    onclick="tryItOut('PUTapi-conceptType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-conceptType--id-"
-                    onclick="cancelTryOut('PUTapi-conceptType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-conceptType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/conceptType/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/conceptType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-conceptType--id-"
-               value="3"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the conceptType.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-conceptType--id-"
-               value="Devengado"
-               data-component="body" hidden>
-    <br>
-<p>El tipo de concepto, ya viene definido (Deduccion, devengado).</p>
-        </p>
-        </form>
-
-            <h2 id="concept-type-DELETEapi-conceptType--id-">DELETE api/conceptType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-conceptType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/conceptType/11',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-conceptType--id-">
-</span>
-<span id="execution-results-DELETEapi-conceptType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-conceptType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-conceptType--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-conceptType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-conceptType--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-conceptType--id-" data-method="DELETE"
-      data-path="api/conceptType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-conceptType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-conceptType--id-"
-                    onclick="tryItOut('DELETEapi-conceptType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-conceptType--id-"
-                    onclick="cancelTryOut('DELETEapi-conceptType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-conceptType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/conceptType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-conceptType--id-"
-               value="11"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the conceptType.</p>
-            </p>
-                    </form>
-
-        <h1 id="contract-type">Contract Type</h1>
-
-    
-
-            <h2 id="contract-type-GETapi-contractType">GET api/contractType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-contractType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/contractType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-contractType">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-contractType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-contractType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-contractType"></code></pre>
-</span>
-<span id="execution-error-GETapi-contractType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-contractType"></code></pre>
-</span>
-<form id="form-GETapi-contractType" data-method="GET"
-      data-path="api/contractType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-contractType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-contractType"
-                    onclick="tryItOut('GETapi-contractType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-contractType"
-                    onclick="cancelTryOut('GETapi-contractType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-contractType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/contractType</code></b>
-        </p>
-                    </form>
-
-            <h2 id="contract-type-POSTapi-contractType">POST api/contractType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-contractType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/contractType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Indefinido',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-contractType">
-</span>
-<span id="execution-results-POSTapi-contractType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-contractType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-contractType"></code></pre>
-</span>
-<span id="execution-error-POSTapi-contractType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-contractType"></code></pre>
-</span>
-<form id="form-POSTapi-contractType" data-method="POST"
-      data-path="api/contractType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-contractType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-contractType"
-                    onclick="tryItOut('POSTapi-contractType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-contractType"
-                    onclick="cancelTryOut('POSTapi-contractType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-contractType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/contractType</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-contractType"
-               value="Indefinido"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del contrato.</p>
-        </p>
-        </form>
-
-            <h2 id="contract-type-GETapi-contractType--id-">GET api/contractType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-contractType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/contractType/5',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-contractType--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-contractType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-contractType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-contractType--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-contractType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-contractType--id-"></code></pre>
-</span>
-<form id="form-GETapi-contractType--id-" data-method="GET"
-      data-path="api/contractType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-contractType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-contractType--id-"
-                    onclick="tryItOut('GETapi-contractType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-contractType--id-"
-                    onclick="cancelTryOut('GETapi-contractType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-contractType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/contractType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-contractType--id-"
-               value="5"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contractType.</p>
-            </p>
-                    </form>
-
-            <h2 id="contract-type-PUTapi-contractType--id-">PUT api/contractType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-contractType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/contractType/6',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Indefinido',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-contractType--id-">
-</span>
-<span id="execution-results-PUTapi-contractType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-contractType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-contractType--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-contractType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-contractType--id-"></code></pre>
-</span>
-<form id="form-PUTapi-contractType--id-" data-method="PUT"
-      data-path="api/contractType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-contractType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-contractType--id-"
-                    onclick="tryItOut('PUTapi-contractType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-contractType--id-"
-                    onclick="cancelTryOut('PUTapi-contractType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-contractType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/contractType/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/contractType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-contractType--id-"
-               value="6"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contractType.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-contractType--id-"
-               value="Indefinido"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del contrato.</p>
-        </p>
-        </form>
-
-            <h2 id="contract-type-DELETEapi-contractType--id-">DELETE api/contractType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-contractType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/contractType/18',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-contractType--id-">
-</span>
-<span id="execution-results-DELETEapi-contractType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-contractType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-contractType--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-contractType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-contractType--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-contractType--id-" data-method="DELETE"
-      data-path="api/contractType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-contractType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-contractType--id-"
-                    onclick="tryItOut('DELETEapi-contractType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-contractType--id-"
-                    onclick="cancelTryOut('DELETEapi-contractType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-contractType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/contractType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-contractType--id-"
-               value="18"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contractType.</p>
-            </p>
-                    </form>
-
-        <h1 id="covenant">Covenant</h1>
-
-    
-
-            <h2 id="covenant-GETapi-covenant">GET api/covenant</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-covenant">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/covenant',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-covenant">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-covenant" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-covenant"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-covenant"></code></pre>
-</span>
-<span id="execution-error-GETapi-covenant" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-covenant"></code></pre>
-</span>
-<form id="form-GETapi-covenant" data-method="GET"
-      data-path="api/covenant"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenant', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-covenant"
-                    onclick="tryItOut('GETapi-covenant');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-covenant"
-                    onclick="cancelTryOut('GETapi-covenant');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-covenant" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/covenant</code></b>
-        </p>
-                    </form>
-
-            <h2 id="covenant-POSTapi-covenant">POST api/covenant</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-covenant">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/covenant',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'adipisci',
-            'value' =&gt; 8,
-            'covenant_type_id' =&gt; 12,
-            'periodicity_type_id' =&gt; 13,
-            'provider_id' =&gt; 1,
-            'concept_name' =&gt; 'Cuota de convenio por salud',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-covenant">
-</span>
-<span id="execution-results-POSTapi-covenant" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-covenant"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-covenant"></code></pre>
-</span>
-<span id="execution-error-POSTapi-covenant" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-covenant"></code></pre>
-</span>
-<form id="form-POSTapi-covenant" data-method="POST"
-      data-path="api/covenant"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-covenant', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-covenant"
-                    onclick="tryItOut('POSTapi-covenant');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-covenant"
-                    onclick="cancelTryOut('POSTapi-covenant');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-covenant" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/covenant</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-covenant"
-               value="adipisci"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="value"
-               data-endpoint="POSTapi-covenant"
-               value="8"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>covenant_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="covenant_type_id"
-               data-endpoint="POSTapi-covenant"
-               value="12"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="periodicity_type_id"
-               data-endpoint="POSTapi-covenant"
-               value="13"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>provider_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="provider_id"
-               data-endpoint="POSTapi-covenant"
-               value="1"
-               data-component="body" hidden>
-    <br>
-<p>Es el id del proveedor.</p>
-        </p>
-                <p>
-            <b><code>concept_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="concept_name"
-               data-endpoint="POSTapi-covenant"
-               value="Cuota de convenio por salud"
-               data-component="body" hidden>
-    <br>
-<p>Es el nombre del concepto con el que se cargará en la nomina.</p>
-        </p>
-        </form>
-
-            <h2 id="covenant-GETapi-covenant--id-">GET api/covenant/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-covenant--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/covenant/13',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-covenant--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-covenant--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-covenant--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-covenant--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-covenant--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-covenant--id-"></code></pre>
-</span>
-<form id="form-GETapi-covenant--id-" data-method="GET"
-      data-path="api/covenant/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenant--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-covenant--id-"
-                    onclick="tryItOut('GETapi-covenant--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-covenant--id-"
-                    onclick="cancelTryOut('GETapi-covenant--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-covenant--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/covenant/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-covenant--id-"
-               value="13"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the covenant.</p>
-            </p>
-                    </form>
-
-            <h2 id="covenant-PUTapi-covenant--id-">PUT api/covenant/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-covenant--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/covenant/8',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'nostrum',
-            'active' =&gt; true,
-            'value' =&gt; 18,
-            'covenant_type_id' =&gt; 15,
-            'periodicity_type_id' =&gt; 2,
-            'provider_id' =&gt; 16,
-            'concept_name' =&gt; '',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-covenant--id-">
-</span>
-<span id="execution-results-PUTapi-covenant--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-covenant--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-covenant--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-covenant--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-covenant--id-"></code></pre>
-</span>
-<form id="form-PUTapi-covenant--id-" data-method="PUT"
-      data-path="api/covenant/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-covenant--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-covenant--id-"
-                    onclick="tryItOut('PUTapi-covenant--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-covenant--id-"
-                    onclick="cancelTryOut('PUTapi-covenant--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-covenant--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/covenant/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/covenant/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-covenant--id-"
-               value="8"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the covenant.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-covenant--id-"
-               value="nostrum"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>active</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
-                <label data-endpoint="PUTapi-covenant--id-" hidden>
-            <input type="radio" name="active"
-                   value="true"
-                   data-endpoint="PUTapi-covenant--id-"
-                   data-component="body"
-            >
-            <code>true</code>
-        </label>
-        <label data-endpoint="PUTapi-covenant--id-" hidden>
-            <input type="radio" name="active"
-                   value="false"
-                   data-endpoint="PUTapi-covenant--id-"
-                   data-component="body"
-            >
-            <code>false</code>
-        </label>
-    <br>
-
-        </p>
-                <p>
-            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="value"
-               data-endpoint="PUTapi-covenant--id-"
-               value="18"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>covenant_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="covenant_type_id"
-               data-endpoint="PUTapi-covenant--id-"
-               value="15"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="periodicity_type_id"
-               data-endpoint="PUTapi-covenant--id-"
-               value="2"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>provider_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="provider_id"
-               data-endpoint="PUTapi-covenant--id-"
-               value="16"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>concept_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="concept_name"
-               data-endpoint="PUTapi-covenant--id-"
-               value=""
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 3 characters.</p>
-        </p>
-        </form>
-
-            <h2 id="covenant-DELETEapi-covenant--id-">DELETE api/covenant/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-covenant--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/covenant/19',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-covenant--id-">
-</span>
-<span id="execution-results-DELETEapi-covenant--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-covenant--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-covenant--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-covenant--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-covenant--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-covenant--id-" data-method="DELETE"
-      data-path="api/covenant/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-covenant--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-covenant--id-"
-                    onclick="tryItOut('DELETEapi-covenant--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-covenant--id-"
-                    onclick="cancelTryOut('DELETEapi-covenant--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-covenant--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/covenant/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-covenant--id-"
-               value="19"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the covenant.</p>
-            </p>
-                    </form>
-
-            <h2 id="covenant-GETapi-consultaCovenant">GET api/consultaCovenant</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-consultaCovenant">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/consultaCovenant',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'query' =&gt; [
-            'covenant_id'=&gt; '1',
-            'concept_type_id'=&gt; '1',
-            'periodicity_type_id'=&gt; '1',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-consultaCovenant">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-consultaCovenant" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-consultaCovenant"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-consultaCovenant"></code></pre>
-</span>
-<span id="execution-error-GETapi-consultaCovenant" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-consultaCovenant"></code></pre>
-</span>
-<form id="form-GETapi-consultaCovenant" data-method="GET"
-      data-path="api/consultaCovenant"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-consultaCovenant', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-consultaCovenant"
-                    onclick="tryItOut('GETapi-consultaCovenant');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-consultaCovenant"
-                    onclick="cancelTryOut('GETapi-consultaCovenant');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-consultaCovenant" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/consultaCovenant</code></b>
-        </p>
-                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
-                    <p>
-                <b><code>covenant_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="covenant_id"
-               data-endpoint="GETapi-consultaCovenant"
-               value="1"
-               data-component="query" hidden>
-    <br>
-<p>ID de llave foranea para el convenio.</p>
-            </p>
-                    <p>
-                <b><code>concept_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="concept_type_id"
-               data-endpoint="GETapi-consultaCovenant"
-               value="1"
-               data-component="query" hidden>
-    <br>
-<p>ID de llave foranea para el tipo de concepto (deduccion, devengado).</p>
-            </p>
-                    <p>
-                <b><code>periodicity_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="periodicity_type_id"
-               data-endpoint="GETapi-consultaCovenant"
-               value="1"
-               data-component="query" hidden>
-    <br>
-<p>ID de llave foranea para el periodo (quincenal, mensual).</p>
-            </p>
-                </form>
-
-        <h1 id="covenant-type">Covenant Type</h1>
-
-    
-
-            <h2 id="covenant-type-GETapi-covenantType">GET api/covenantType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-covenantType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/covenantType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-covenantType">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-covenantType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-covenantType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-covenantType"></code></pre>
-</span>
-<span id="execution-error-GETapi-covenantType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-covenantType"></code></pre>
-</span>
-<form id="form-GETapi-covenantType" data-method="GET"
-      data-path="api/covenantType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenantType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-covenantType"
-                    onclick="tryItOut('GETapi-covenantType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-covenantType"
-                    onclick="cancelTryOut('GETapi-covenantType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-covenantType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/covenantType</code></b>
-        </p>
-                    </form>
-
-            <h2 id="covenant-type-POSTapi-covenantType">POST api/covenantType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-covenantType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/covenantType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Cuotas',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-covenantType">
-</span>
-<span id="execution-results-POSTapi-covenantType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-covenantType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-covenantType"></code></pre>
-</span>
-<span id="execution-error-POSTapi-covenantType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-covenantType"></code></pre>
-</span>
-<form id="form-POSTapi-covenantType" data-method="POST"
-      data-path="api/covenantType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-covenantType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-covenantType"
-                    onclick="tryItOut('POSTapi-covenantType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-covenantType"
-                    onclick="cancelTryOut('POSTapi-covenantType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-covenantType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/covenantType</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-covenantType"
-               value="Cuotas"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del tipo de convenio, cuotas o permanente, ya viene definido.</p>
-        </p>
-        </form>
-
-            <h2 id="covenant-type-GETapi-covenantType--id-">GET api/covenantType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-covenantType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/covenantType/1',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-covenantType--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-covenantType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-covenantType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-covenantType--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-covenantType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-covenantType--id-"></code></pre>
-</span>
-<form id="form-GETapi-covenantType--id-" data-method="GET"
-      data-path="api/covenantType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-covenantType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-covenantType--id-"
-                    onclick="tryItOut('GETapi-covenantType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-covenantType--id-"
-                    onclick="cancelTryOut('GETapi-covenantType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-covenantType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/covenantType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-covenantType--id-"
-               value="1"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the covenantType.</p>
-            </p>
-                    </form>
-
-            <h2 id="covenant-type-PUTapi-covenantType--id-">PUT api/covenantType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-covenantType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/covenantType/3',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Cuotas',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-covenantType--id-">
-</span>
-<span id="execution-results-PUTapi-covenantType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-covenantType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-covenantType--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-covenantType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-covenantType--id-"></code></pre>
-</span>
-<form id="form-PUTapi-covenantType--id-" data-method="PUT"
-      data-path="api/covenantType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-covenantType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-covenantType--id-"
-                    onclick="tryItOut('PUTapi-covenantType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-covenantType--id-"
-                    onclick="cancelTryOut('PUTapi-covenantType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-covenantType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/covenantType/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/covenantType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-covenantType--id-"
-               value="3"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the covenantType.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-covenantType--id-"
-               value="Cuotas"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del tipo de convenio, cuotas o permanente, ya viene definido.</p>
-        </p>
-        </form>
-
-            <h2 id="covenant-type-DELETEapi-covenantType--id-">DELETE api/covenantType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-covenantType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/covenantType/6',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-covenantType--id-">
-</span>
-<span id="execution-results-DELETEapi-covenantType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-covenantType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-covenantType--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-covenantType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-covenantType--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-covenantType--id-" data-method="DELETE"
-      data-path="api/covenantType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-covenantType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-covenantType--id-"
-                    onclick="tryItOut('DELETEapi-covenantType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-covenantType--id-"
-                    onclick="cancelTryOut('DELETEapi-covenantType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-covenantType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/covenantType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-covenantType--id-"
-               value="6"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the covenantType.</p>
-            </p>
-                    </form>
-
-        <h1 id="endpoints">Endpoints</h1>
-
-    
-
-            <h2 id="endpoints-GETapi-checkLogin">GET api/checkLogin</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-checkLogin">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/checkLogin',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-checkLogin">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 59
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;isLogined&quot;: false
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-checkLogin" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-checkLogin"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-checkLogin"></code></pre>
-</span>
-<span id="execution-error-GETapi-checkLogin" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-checkLogin"></code></pre>
-</span>
-<form id="form-GETapi-checkLogin" data-method="GET"
-      data-path="api/checkLogin"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-checkLogin', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-checkLogin"
-                    onclick="tryItOut('GETapi-checkLogin');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-checkLogin"
-                    onclick="cancelTryOut('GETapi-checkLogin');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-checkLogin" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/checkLogin</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-emergencyContact">GET api/emergencyContact</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-emergencyContact">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/emergencyContact',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-emergencyContact">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 58
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Patricia&quot;,
-            &quot;phone&quot;: 3113012618,
-            &quot;kinship_id&quot;: 1,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;deleted_at&quot;: null
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-emergencyContact" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-emergencyContact"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-emergencyContact"></code></pre>
-</span>
-<span id="execution-error-GETapi-emergencyContact" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-emergencyContact"></code></pre>
-</span>
-<form id="form-GETapi-emergencyContact" data-method="GET"
-      data-path="api/emergencyContact"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-emergencyContact', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-emergencyContact"
-                    onclick="tryItOut('GETapi-emergencyContact');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-emergencyContact"
-                    onclick="cancelTryOut('GETapi-emergencyContact');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-emergencyContact" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/emergencyContact</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-POSTapi-emergencyContact">POST api/emergencyContact</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-emergencyContact">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/emergencyContact',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-emergencyContact">
-</span>
-<span id="execution-results-POSTapi-emergencyContact" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-emergencyContact"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-emergencyContact"></code></pre>
-</span>
-<span id="execution-error-POSTapi-emergencyContact" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-emergencyContact"></code></pre>
-</span>
-<form id="form-POSTapi-emergencyContact" data-method="POST"
-      data-path="api/emergencyContact"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-emergencyContact', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-emergencyContact"
-                    onclick="tryItOut('POSTapi-emergencyContact');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-emergencyContact"
-                    onclick="cancelTryOut('POSTapi-emergencyContact');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-emergencyContact" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/emergencyContact</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-emergencyContact--id-">GET api/emergencyContact/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-emergencyContact--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/emergencyContact/3',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-emergencyContact--id-">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 57
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Patricia&quot;,
-        &quot;phone&quot;: 3113012618,
-        &quot;kinship_id&quot;: 1,
-        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;deleted_at&quot;: null
-    }
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-emergencyContact--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-emergencyContact--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-emergencyContact--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-emergencyContact--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-emergencyContact--id-"></code></pre>
-</span>
-<form id="form-GETapi-emergencyContact--id-" data-method="GET"
-      data-path="api/emergencyContact/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-emergencyContact--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-emergencyContact--id-"
-                    onclick="tryItOut('GETapi-emergencyContact--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-emergencyContact--id-"
-                    onclick="cancelTryOut('GETapi-emergencyContact--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-emergencyContact--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/emergencyContact/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-emergencyContact--id-"
-               value="3"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the emergencyContact.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-PUTapi-emergencyContact--id-">PUT api/emergencyContact/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-emergencyContact--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/emergencyContact/20',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-emergencyContact--id-">
-</span>
-<span id="execution-results-PUTapi-emergencyContact--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-emergencyContact--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-emergencyContact--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-emergencyContact--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-emergencyContact--id-"></code></pre>
-</span>
-<form id="form-PUTapi-emergencyContact--id-" data-method="PUT"
-      data-path="api/emergencyContact/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-emergencyContact--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-emergencyContact--id-"
-                    onclick="tryItOut('PUTapi-emergencyContact--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-emergencyContact--id-"
-                    onclick="cancelTryOut('PUTapi-emergencyContact--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-emergencyContact--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/emergencyContact/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/emergencyContact/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-emergencyContact--id-"
-               value="20"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the emergencyContact.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-DELETEapi-emergencyContact--id-">DELETE api/emergencyContact/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-emergencyContact--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/emergencyContact/11',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-emergencyContact--id-">
-</span>
-<span id="execution-results-DELETEapi-emergencyContact--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-emergencyContact--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-emergencyContact--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-emergencyContact--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-emergencyContact--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-emergencyContact--id-" data-method="DELETE"
-      data-path="api/emergencyContact/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-emergencyContact--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-emergencyContact--id-"
-                    onclick="tryItOut('DELETEapi-emergencyContact--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-emergencyContact--id-"
-                    onclick="cancelTryOut('DELETEapi-emergencyContact--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-emergencyContact--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/emergencyContact/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-emergencyContact--id-"
-               value="11"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the emergencyContact.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-contact">GET api/contact</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-contact">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/contact',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-contact">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 56
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: []
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-contact" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-contact"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-contact"></code></pre>
-</span>
-<span id="execution-error-GETapi-contact" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-contact"></code></pre>
-</span>
-<form id="form-GETapi-contact" data-method="GET"
-      data-path="api/contact"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-contact"
-                    onclick="tryItOut('GETapi-contact');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-contact"
-                    onclick="cancelTryOut('GETapi-contact');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-contact" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/contact</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-POSTapi-contact">POST api/contact</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-contact">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/contact',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-contact">
-</span>
-<span id="execution-results-POSTapi-contact" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-contact"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-contact"></code></pre>
-</span>
-<span id="execution-error-POSTapi-contact" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-contact"></code></pre>
-</span>
-<form id="form-POSTapi-contact" data-method="POST"
-      data-path="api/contact"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-contact', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-contact"
-                    onclick="tryItOut('POSTapi-contact');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-contact"
-                    onclick="cancelTryOut('POSTapi-contact');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-contact" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/contact</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-contact--id-">GET api/contact/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-contact--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/contact/8',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-contact--id-">
-            <blockquote>
-            <p>Example response (404):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 55
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;No query results for model [App\\Models\\Contact] 1&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-    &quot;line&quot;: 385,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-            &quot;line&quot;: 332,
-            &quot;function&quot;: &quot;prepareException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 172,
-            &quot;function&quot;: &quot;handleException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 127,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;handleRequest&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
-            &quot;line&quot;: 55,
-            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 697,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 672,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 636,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 625,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
-            &quot;line&quot;: 52,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 222,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 179,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 117,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 75,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 48,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 653,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 136,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 298,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 1005,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 94,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-contact--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-contact--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-contact--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-contact--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-contact--id-"></code></pre>
-</span>
-<form id="form-GETapi-contact--id-" data-method="GET"
-      data-path="api/contact/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-contact--id-"
-                    onclick="tryItOut('GETapi-contact--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-contact--id-"
-                    onclick="cancelTryOut('GETapi-contact--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-contact--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/contact/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-contact--id-"
-               value="8"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contact.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-PUTapi-contact--id-">PUT api/contact/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-contact--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/contact/8',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-contact--id-">
-</span>
-<span id="execution-results-PUTapi-contact--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-contact--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-contact--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-contact--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-contact--id-"></code></pre>
-</span>
-<form id="form-PUTapi-contact--id-" data-method="PUT"
-      data-path="api/contact/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-contact--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-contact--id-"
-                    onclick="tryItOut('PUTapi-contact--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-contact--id-"
-                    onclick="cancelTryOut('PUTapi-contact--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-contact--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/contact/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/contact/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-contact--id-"
-               value="8"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contact.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-DELETEapi-contact--id-">DELETE api/contact/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-contact--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/contact/14',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-contact--id-">
-</span>
-<span id="execution-results-DELETEapi-contact--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-contact--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-contact--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-contact--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-contact--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-contact--id-" data-method="DELETE"
-      data-path="api/contact/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-contact--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-contact--id-"
-                    onclick="tryItOut('DELETEapi-contact--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-contact--id-"
-                    onclick="cancelTryOut('DELETEapi-contact--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-contact--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/contact/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-contact--id-"
-               value="14"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the contact.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-healthProvider">GET api/healthProvider</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-healthProvider">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/healthProvider',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-healthProvider">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 54
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Salud total&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;deleted_at&quot;: null
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Sura&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;deleted_at&quot;: null
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;Nueva EPS&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;deleted_at&quot;: null
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-healthProvider" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-healthProvider"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-healthProvider"></code></pre>
-</span>
-<span id="execution-error-GETapi-healthProvider" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-healthProvider"></code></pre>
-</span>
-<form id="form-GETapi-healthProvider" data-method="GET"
-      data-path="api/healthProvider"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-healthProvider', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-healthProvider"
-                    onclick="tryItOut('GETapi-healthProvider');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-healthProvider"
-                    onclick="cancelTryOut('GETapi-healthProvider');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-healthProvider" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/healthProvider</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-POSTapi-healthProvider">POST api/healthProvider</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-healthProvider">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/healthProvider',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-healthProvider">
-</span>
-<span id="execution-results-POSTapi-healthProvider" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-healthProvider"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-healthProvider"></code></pre>
-</span>
-<span id="execution-error-POSTapi-healthProvider" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-healthProvider"></code></pre>
-</span>
-<form id="form-POSTapi-healthProvider" data-method="POST"
-      data-path="api/healthProvider"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-healthProvider', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-healthProvider"
-                    onclick="tryItOut('POSTapi-healthProvider');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-healthProvider"
-                    onclick="cancelTryOut('POSTapi-healthProvider');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-healthProvider" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/healthProvider</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-healthProvider--id-">GET api/healthProvider/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-healthProvider--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/healthProvider/12',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-healthProvider--id-">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 53
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Salud total&quot;,
-        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;deleted_at&quot;: null
-    }
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-healthProvider--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-healthProvider--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-healthProvider--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-healthProvider--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-healthProvider--id-"></code></pre>
-</span>
-<form id="form-GETapi-healthProvider--id-" data-method="GET"
-      data-path="api/healthProvider/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-healthProvider--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-healthProvider--id-"
-                    onclick="tryItOut('GETapi-healthProvider--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-healthProvider--id-"
-                    onclick="cancelTryOut('GETapi-healthProvider--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-healthProvider--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/healthProvider/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-healthProvider--id-"
-               value="12"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the healthProvider.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-PUTapi-healthProvider--id-">PUT api/healthProvider/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-healthProvider--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/healthProvider/10',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-healthProvider--id-">
-</span>
-<span id="execution-results-PUTapi-healthProvider--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-healthProvider--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-healthProvider--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-healthProvider--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-healthProvider--id-"></code></pre>
-</span>
-<form id="form-PUTapi-healthProvider--id-" data-method="PUT"
-      data-path="api/healthProvider/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-healthProvider--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-healthProvider--id-"
-                    onclick="tryItOut('PUTapi-healthProvider--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-healthProvider--id-"
-                    onclick="cancelTryOut('PUTapi-healthProvider--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-healthProvider--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/healthProvider/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/healthProvider/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-healthProvider--id-"
-               value="10"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the healthProvider.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-DELETEapi-healthProvider--id-">DELETE api/healthProvider/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-healthProvider--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/healthProvider/16',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-healthProvider--id-">
-</span>
-<span id="execution-results-DELETEapi-healthProvider--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-healthProvider--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-healthProvider--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-healthProvider--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-healthProvider--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-healthProvider--id-" data-method="DELETE"
-      data-path="api/healthProvider/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-healthProvider--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-healthProvider--id-"
-                    onclick="tryItOut('DELETEapi-healthProvider--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-healthProvider--id-"
-                    onclick="cancelTryOut('DELETEapi-healthProvider--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-healthProvider--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/healthProvider/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-healthProvider--id-"
-               value="16"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the healthProvider.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-pensionFund">GET api/pensionFund</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-pensionFund">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/pensionFund',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-pensionFund">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 52
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Porvenir&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;deleted_at&quot;: null
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Protecci&oacute;n&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;deleted_at&quot;: null
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-pensionFund" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-pensionFund"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-pensionFund"></code></pre>
-</span>
-<span id="execution-error-GETapi-pensionFund" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-pensionFund"></code></pre>
-</span>
-<form id="form-GETapi-pensionFund" data-method="GET"
-      data-path="api/pensionFund"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-pensionFund', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-pensionFund"
-                    onclick="tryItOut('GETapi-pensionFund');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-pensionFund"
-                    onclick="cancelTryOut('GETapi-pensionFund');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-pensionFund" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/pensionFund</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-POSTapi-pensionFund">POST api/pensionFund</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-pensionFund">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/pensionFund',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-pensionFund">
-</span>
-<span id="execution-results-POSTapi-pensionFund" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-pensionFund"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-pensionFund"></code></pre>
-</span>
-<span id="execution-error-POSTapi-pensionFund" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-pensionFund"></code></pre>
-</span>
-<form id="form-POSTapi-pensionFund" data-method="POST"
-      data-path="api/pensionFund"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-pensionFund', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-pensionFund"
-                    onclick="tryItOut('POSTapi-pensionFund');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-pensionFund"
-                    onclick="cancelTryOut('POSTapi-pensionFund');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-pensionFund" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/pensionFund</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-GETapi-pensionFund--id-">GET api/pensionFund/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-pensionFund--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/pensionFund/14',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-pensionFund--id-">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 51
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Porvenir&quot;,
-        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;deleted_at&quot;: null
-    }
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-pensionFund--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-pensionFund--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-pensionFund--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-pensionFund--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-pensionFund--id-"></code></pre>
-</span>
-<form id="form-GETapi-pensionFund--id-" data-method="GET"
-      data-path="api/pensionFund/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-pensionFund--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-pensionFund--id-"
-                    onclick="tryItOut('GETapi-pensionFund--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-pensionFund--id-"
-                    onclick="cancelTryOut('GETapi-pensionFund--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-pensionFund--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/pensionFund/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-pensionFund--id-"
-               value="14"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the pensionFund.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-PUTapi-pensionFund--id-">PUT api/pensionFund/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-pensionFund--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/pensionFund/18',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-pensionFund--id-">
-</span>
-<span id="execution-results-PUTapi-pensionFund--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-pensionFund--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-pensionFund--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-pensionFund--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-pensionFund--id-"></code></pre>
-</span>
-<form id="form-PUTapi-pensionFund--id-" data-method="PUT"
-      data-path="api/pensionFund/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-pensionFund--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-pensionFund--id-"
-                    onclick="tryItOut('PUTapi-pensionFund--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-pensionFund--id-"
-                    onclick="cancelTryOut('PUTapi-pensionFund--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-pensionFund--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/pensionFund/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/pensionFund/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-pensionFund--id-"
-               value="18"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the pensionFund.</p>
-            </p>
-                    </form>
-
-            <h2 id="endpoints-DELETEapi-pensionFund--id-">DELETE api/pensionFund/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-pensionFund--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/pensionFund/11',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-pensionFund--id-">
-</span>
-<span id="execution-results-DELETEapi-pensionFund--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-pensionFund--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-pensionFund--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-pensionFund--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-pensionFund--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-pensionFund--id-" data-method="DELETE"
-      data-path="api/pensionFund/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-pensionFund--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-pensionFund--id-"
-                    onclick="tryItOut('DELETEapi-pensionFund--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-pensionFund--id-"
-                    onclick="cancelTryOut('DELETEapi-pensionFund--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-pensionFund--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/pensionFund/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-pensionFund--id-"
-               value="11"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the pensionFund.</p>
-            </p>
-                    </form>
-
-        <h1 id="headquarter">Headquarter</h1>
-
-    
-
-            <h2 id="headquarter-GETapi-headQuarter">GET api/headQuarter</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-headQuarter">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/headQuarter',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-headQuarter">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-headQuarter" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-headQuarter"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-headQuarter"></code></pre>
-</span>
-<span id="execution-error-GETapi-headQuarter" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-headQuarter"></code></pre>
-</span>
-<form id="form-GETapi-headQuarter" data-method="GET"
-      data-path="api/headQuarter"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-headQuarter', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-headQuarter"
-                    onclick="tryItOut('GETapi-headQuarter');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-headQuarter"
-                    onclick="cancelTryOut('GETapi-headQuarter');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-headQuarter" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/headQuarter</code></b>
-        </p>
-                    </form>
-
-            <h2 id="headquarter-POSTapi-headQuarter">POST api/headQuarter</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-headQuarter">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/headQuarter',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Pereira',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-headQuarter">
-</span>
-<span id="execution-results-POSTapi-headQuarter" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-headQuarter"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-headQuarter"></code></pre>
-</span>
-<span id="execution-error-POSTapi-headQuarter" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-headQuarter"></code></pre>
-</span>
-<form id="form-POSTapi-headQuarter" data-method="POST"
-      data-path="api/headQuarter"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-headQuarter', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-headQuarter"
-                    onclick="tryItOut('POSTapi-headQuarter');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-headQuarter"
-                    onclick="cancelTryOut('POSTapi-headQuarter');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-headQuarter" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/headQuarter</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-headQuarter"
-               value="Pereira"
-               data-component="body" hidden>
-    <br>
-<p>El nombre de la sucursal.</p>
-        </p>
-        </form>
-
-            <h2 id="headquarter-GETapi-headQuarter--id-">GET api/headQuarter/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-headQuarter--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/headQuarter/5',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-headQuarter--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-headQuarter--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-headQuarter--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-headQuarter--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-headQuarter--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-headQuarter--id-"></code></pre>
-</span>
-<form id="form-GETapi-headQuarter--id-" data-method="GET"
-      data-path="api/headQuarter/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-headQuarter--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-headQuarter--id-"
-                    onclick="tryItOut('GETapi-headQuarter--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-headQuarter--id-"
-                    onclick="cancelTryOut('GETapi-headQuarter--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-headQuarter--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/headQuarter/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-headQuarter--id-"
-               value="5"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the headQuarter.</p>
-            </p>
-                    </form>
-
-            <h2 id="headquarter-PUTapi-headQuarter--id-">PUT api/headQuarter/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-headQuarter--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/headQuarter/5',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Pereira',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-headQuarter--id-">
-</span>
-<span id="execution-results-PUTapi-headQuarter--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-headQuarter--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-headQuarter--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-headQuarter--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-headQuarter--id-"></code></pre>
-</span>
-<form id="form-PUTapi-headQuarter--id-" data-method="PUT"
-      data-path="api/headQuarter/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-headQuarter--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-headQuarter--id-"
-                    onclick="tryItOut('PUTapi-headQuarter--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-headQuarter--id-"
-                    onclick="cancelTryOut('PUTapi-headQuarter--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-headQuarter--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/headQuarter/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/headQuarter/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-headQuarter--id-"
-               value="5"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the headQuarter.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-headQuarter--id-"
-               value="Pereira"
-               data-component="body" hidden>
-    <br>
-<p>El nombre de la sucursal.</p>
-        </p>
-        </form>
-
-            <h2 id="headquarter-DELETEapi-headQuarter--id-">DELETE api/headQuarter/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-headQuarter--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/headQuarter/15',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-headQuarter--id-">
-</span>
-<span id="execution-results-DELETEapi-headQuarter--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-headQuarter--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-headQuarter--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-headQuarter--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-headQuarter--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-headQuarter--id-" data-method="DELETE"
-      data-path="api/headQuarter/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-headQuarter--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-headQuarter--id-"
-                    onclick="tryItOut('DELETEapi-headQuarter--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-headQuarter--id-"
-                    onclick="cancelTryOut('DELETEapi-headQuarter--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-headQuarter--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/headQuarter/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-headQuarter--id-"
-               value="15"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the headQuarter.</p>
-            </p>
-                    </form>
-
-        <h1 id="identification-type">Identification Type</h1>
-
-    
-
-            <h2 id="identification-type-GETapi-identificationType">GET api/identificationType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-identificationType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/identificationType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-identificationType">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-identificationType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-identificationType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-identificationType"></code></pre>
-</span>
-<span id="execution-error-GETapi-identificationType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-identificationType"></code></pre>
-</span>
-<form id="form-GETapi-identificationType" data-method="GET"
-      data-path="api/identificationType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-identificationType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-identificationType"
-                    onclick="tryItOut('GETapi-identificationType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-identificationType"
-                    onclick="cancelTryOut('GETapi-identificationType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-identificationType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/identificationType</code></b>
-        </p>
-                    </form>
-
-            <h2 id="identification-type-POSTapi-identificationType">POST api/identificationType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-identificationType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/identificationType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Cedula de ciudadania',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-identificationType">
-</span>
-<span id="execution-results-POSTapi-identificationType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-identificationType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-identificationType"></code></pre>
-</span>
-<span id="execution-error-POSTapi-identificationType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-identificationType"></code></pre>
-</span>
-<form id="form-POSTapi-identificationType" data-method="POST"
-      data-path="api/identificationType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-identificationType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-identificationType"
-                    onclick="tryItOut('POSTapi-identificationType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-identificationType"
-                    onclick="cancelTryOut('POSTapi-identificationType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-identificationType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/identificationType</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-identificationType"
-               value="Cedula de ciudadania"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del tipo de identificacion.</p>
-        </p>
-        </form>
-
-            <h2 id="identification-type-GETapi-identificationType--id-">GET api/identificationType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-identificationType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/identificationType/2',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-identificationType--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-identificationType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-identificationType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-identificationType--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-identificationType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-identificationType--id-"></code></pre>
-</span>
-<form id="form-GETapi-identificationType--id-" data-method="GET"
-      data-path="api/identificationType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-identificationType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-identificationType--id-"
-                    onclick="tryItOut('GETapi-identificationType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-identificationType--id-"
-                    onclick="cancelTryOut('GETapi-identificationType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-identificationType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/identificationType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-identificationType--id-"
-               value="2"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the identificationType.</p>
-            </p>
-                    </form>
-
-            <h2 id="identification-type-PUTapi-identificationType--id-">PUT api/identificationType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-identificationType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/identificationType/18',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Cedula de ciudadania',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-identificationType--id-">
-</span>
-<span id="execution-results-PUTapi-identificationType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-identificationType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-identificationType--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-identificationType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-identificationType--id-"></code></pre>
-</span>
-<form id="form-PUTapi-identificationType--id-" data-method="PUT"
-      data-path="api/identificationType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-identificationType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-identificationType--id-"
-                    onclick="tryItOut('PUTapi-identificationType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-identificationType--id-"
-                    onclick="cancelTryOut('PUTapi-identificationType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-identificationType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/identificationType/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/identificationType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-identificationType--id-"
-               value="18"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the identificationType.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-identificationType--id-"
-               value="Cedula de ciudadania"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del tipo de identificacion.</p>
-        </p>
-        </form>
-
-            <h2 id="identification-type-DELETEapi-identificationType--id-">DELETE api/identificationType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-identificationType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/identificationType/19',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-identificationType--id-">
-</span>
-<span id="execution-results-DELETEapi-identificationType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-identificationType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-identificationType--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-identificationType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-identificationType--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-identificationType--id-" data-method="DELETE"
-      data-path="api/identificationType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-identificationType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-identificationType--id-"
-                    onclick="tryItOut('DELETEapi-identificationType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-identificationType--id-"
-                    onclick="cancelTryOut('DELETEapi-identificationType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-identificationType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/identificationType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-identificationType--id-"
-               value="19"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the identificationType.</p>
-            </p>
-                    </form>
-
-        <h1 id="payroll">Payroll</h1>
-
-    
-
-            <h2 id="payroll-GETapi-payroll">GET api/payroll</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-payroll">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/payroll',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-payroll">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-payroll" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-payroll"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-payroll"></code></pre>
-</span>
-<span id="execution-error-GETapi-payroll" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-payroll"></code></pre>
-</span>
-<form id="form-GETapi-payroll" data-method="GET"
-      data-path="api/payroll"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-payroll', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-payroll"
-                    onclick="tryItOut('GETapi-payroll');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-payroll"
-                    onclick="cancelTryOut('GETapi-payroll');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-payroll" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/payroll</code></b>
-        </p>
-                    </form>
-
-            <h2 id="payroll-POSTapi-payroll">POST api/payroll</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-payroll">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/payroll',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'period_id' =&gt; 1,
-            'user_id' =&gt; 2,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-payroll">
-</span>
-<span id="execution-results-POSTapi-payroll" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-payroll"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-payroll"></code></pre>
-</span>
-<span id="execution-error-POSTapi-payroll" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-payroll"></code></pre>
-</span>
-<form id="form-POSTapi-payroll" data-method="POST"
-      data-path="api/payroll"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-payroll', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-payroll"
-                    onclick="tryItOut('POSTapi-payroll');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-payroll"
-                    onclick="cancelTryOut('POSTapi-payroll');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-payroll" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/payroll</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="period_id"
-               data-endpoint="POSTapi-payroll"
-               value="1"
-               data-component="body" hidden>
-    <br>
-<p>ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.</p>
-        </p>
-                <p>
-            <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="user_id"
-               data-endpoint="POSTapi-payroll"
-               value="2"
-               data-component="body" hidden>
-    <br>
-<p>ID de llave foranea del usuario.</p>
-        </p>
-        </form>
-
-            <h2 id="payroll-GETapi-payroll--id-">GET api/payroll/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-payroll--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/20',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-payroll--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-payroll--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-payroll--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-payroll--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-payroll--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-payroll--id-"></code></pre>
-</span>
-<form id="form-GETapi-payroll--id-" data-method="GET"
-      data-path="api/payroll/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-payroll--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-payroll--id-"
-                    onclick="tryItOut('GETapi-payroll--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-payroll--id-"
-                    onclick="cancelTryOut('GETapi-payroll--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-payroll--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/payroll/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-payroll--id-"
-               value="20"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the payroll.</p>
-            </p>
-                    </form>
-
-            <h2 id="payroll-PUTapi-payroll--id-">PUT api/payroll/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-payroll--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/payroll/2',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'period_id' =&gt; 1,
-            'user_id' =&gt; 2,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-payroll--id-">
-</span>
-<span id="execution-results-PUTapi-payroll--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-payroll--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-payroll--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-payroll--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-payroll--id-"></code></pre>
-</span>
-<form id="form-PUTapi-payroll--id-" data-method="PUT"
-      data-path="api/payroll/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-payroll--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-payroll--id-"
-                    onclick="tryItOut('PUTapi-payroll--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-payroll--id-"
-                    onclick="cancelTryOut('PUTapi-payroll--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-payroll--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/payroll/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/payroll/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-payroll--id-"
-               value="2"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the payroll.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="period_id"
-               data-endpoint="PUTapi-payroll--id-"
-               value="1"
-               data-component="body" hidden>
-    <br>
-<p>ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.</p>
-        </p>
-                <p>
-            <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="user_id"
-               data-endpoint="PUTapi-payroll--id-"
-               value="2"
-               data-component="body" hidden>
-    <br>
-<p>ID de llave foranea del usuario.</p>
-        </p>
-        </form>
-
-            <h2 id="payroll-DELETEapi-payroll--id-">DELETE api/payroll/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-payroll--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/payroll/5',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-payroll--id-">
-</span>
-<span id="execution-results-DELETEapi-payroll--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-payroll--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-payroll--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-payroll--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-payroll--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-payroll--id-" data-method="DELETE"
-      data-path="api/payroll/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-payroll--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-payroll--id-"
-                    onclick="tryItOut('DELETEapi-payroll--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-payroll--id-"
-                    onclick="cancelTryOut('DELETEapi-payroll--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-payroll--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/payroll/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-payroll--id-"
-               value="5"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the payroll.</p>
-            </p>
-                    </form>
-
-            <h2 id="payroll-GETapi-consultaPayroll">GET api/consultaPayroll</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-consultaPayroll">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/consultaPayroll',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'query' =&gt; [
-            'period_id'=&gt; '1',
-            'user_id'=&gt; '2',
-            'created_at'=&gt; '12',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-consultaPayroll">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-consultaPayroll" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-consultaPayroll"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-consultaPayroll"></code></pre>
-</span>
-<span id="execution-error-GETapi-consultaPayroll" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-consultaPayroll"></code></pre>
-</span>
-<form id="form-GETapi-consultaPayroll" data-method="GET"
-      data-path="api/consultaPayroll"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-consultaPayroll', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-consultaPayroll"
-                    onclick="tryItOut('GETapi-consultaPayroll');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-consultaPayroll"
-                    onclick="cancelTryOut('GETapi-consultaPayroll');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-consultaPayroll" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/consultaPayroll</code></b>
-        </p>
-                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
-                    <p>
-                <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="period_id"
-               data-endpoint="GETapi-consultaPayroll"
-               value="1"
-               data-component="query" hidden>
-    <br>
-<p>El id del periodo de la nomina que se va a consultar.</p>
-            </p>
-                    <p>
-                <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="user_id"
-               data-endpoint="GETapi-consultaPayroll"
-               value="2"
-               data-component="query" hidden>
-    <br>
-<p>El id del usuario de la nomina.</p>
-            </p>
-                    <p>
-                <b><code>created_at</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="created_at"
-               data-endpoint="GETapi-consultaPayroll"
-               value="12"
-               data-component="query" hidden>
-    <br>
-<p>date La fecha con el MES de la nomina.</p>
-            </p>
-                </form>
-
-            <h2 id="payroll-GETapi-consultDeduccion">GET api/consultDeduccion</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-consultDeduccion">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/consultDeduccion',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'query' =&gt; [
-            'period_id'=&gt; '1',
-            'covenants_id'=&gt; '1',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-consultDeduccion">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-consultDeduccion" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-consultDeduccion"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-consultDeduccion"></code></pre>
-</span>
-<span id="execution-error-GETapi-consultDeduccion" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-consultDeduccion"></code></pre>
-</span>
-<form id="form-GETapi-consultDeduccion" data-method="GET"
-      data-path="api/consultDeduccion"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-consultDeduccion', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-consultDeduccion"
-                    onclick="tryItOut('GETapi-consultDeduccion');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-consultDeduccion"
-                    onclick="cancelTryOut('GETapi-consultDeduccion');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-consultDeduccion" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/consultDeduccion</code></b>
-        </p>
-                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
-                    <p>
-                <b><code>period_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="period_id"
-               data-endpoint="GETapi-consultDeduccion"
-               value="1"
-               data-component="query" hidden>
-    <br>
-<p>ID de llave foranea para el periodo de la nomina que se va a consultar (5 a 19, 20 a 4).</p>
-            </p>
-                    <p>
-                <b><code>covenants_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="covenants_id"
-               data-endpoint="GETapi-consultDeduccion"
-               value="1"
-               data-component="query" hidden>
-    <br>
-<p>ID de llave foranea para el convenio que se va a consultar.</p>
-            </p>
-                </form>
-
-            <h2 id="payroll-GETapi-payroll-user--user-">GET api/payroll/user/{user}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-payroll-user--user-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/user/1',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-payroll-user--user-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-payroll-user--user-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-payroll-user--user-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-payroll-user--user-"></code></pre>
-</span>
-<span id="execution-error-GETapi-payroll-user--user-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-payroll-user--user-"></code></pre>
-</span>
-<form id="form-GETapi-payroll-user--user-" data-method="GET"
-      data-path="api/payroll/user/{user}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-payroll-user--user-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-payroll-user--user-"
-                    onclick="tryItOut('GETapi-payroll-user--user-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-payroll-user--user-"
-                    onclick="cancelTryOut('GETapi-payroll-user--user-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-payroll-user--user-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/payroll/user/{user}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>user</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="user"
-               data-endpoint="GETapi-payroll-user--user-"
-               value="1"
-               data-component="url" hidden>
-    <br>
-
-            </p>
-                    </form>
-
-            <h2 id="payroll-POSTapi-payrollConcept--payroll_id-">POST api/payrollConcept/{payroll_id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-payrollConcept--payroll_id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/payrollConcept/1',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'count' =&gt; 15,
-            'unit_value' =&gt; 30000,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-payrollConcept--payroll_id-">
-</span>
-<span id="execution-results-POSTapi-payrollConcept--payroll_id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-payrollConcept--payroll_id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-payrollConcept--payroll_id-"></code></pre>
-</span>
-<span id="execution-error-POSTapi-payrollConcept--payroll_id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-payrollConcept--payroll_id-"></code></pre>
-</span>
-<form id="form-POSTapi-payrollConcept--payroll_id-" data-method="POST"
-      data-path="api/payrollConcept/{payroll_id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-payrollConcept--payroll_id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-payrollConcept--payroll_id-"
-                    onclick="tryItOut('POSTapi-payrollConcept--payroll_id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-payrollConcept--payroll_id-"
-                    onclick="cancelTryOut('POSTapi-payrollConcept--payroll_id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-payrollConcept--payroll_id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/payrollConcept/{payroll_id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>payroll_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="payroll_id"
-               data-endpoint="POSTapi-payrollConcept--payroll_id-"
-               value="1"
-               data-component="url" hidden>
-    <br>
-<p>El id de la nomina a la que se le asignará el concepto.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>count</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="count"
-               data-endpoint="POSTapi-payrollConcept--payroll_id-"
-               value="15"
-               data-component="body" hidden>
-    <br>
-<p>La cantidad de veces que se cobra un concepto en la nomina.</p>
-        </p>
-                <p>
-            <b><code>unit_value</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="unit_value"
-               data-endpoint="POSTapi-payrollConcept--payroll_id-"
-               value="30000"
-               data-component="body" hidden>
-    <br>
-<p>El valor unitario del concepto.</p>
-        </p>
-        </form>
-
-            <h2 id="payroll-DELETEapi-payrollDeleteConcept--payroll_id-">DELETE api/payrollDeleteConcept/{payroll_id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-payrollDeleteConcept--payroll_id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/payrollDeleteConcept/7',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'query' =&gt; [
-            'conceptPivotId'=&gt; '5',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-payrollDeleteConcept--payroll_id-">
-</span>
-<span id="execution-results-DELETEapi-payrollDeleteConcept--payroll_id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-payrollDeleteConcept--payroll_id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-payrollDeleteConcept--payroll_id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-payrollDeleteConcept--payroll_id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-payrollDeleteConcept--payroll_id-"></code></pre>
-</span>
-<form id="form-DELETEapi-payrollDeleteConcept--payroll_id-" data-method="DELETE"
-      data-path="api/payrollDeleteConcept/{payroll_id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-payrollDeleteConcept--payroll_id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-payrollDeleteConcept--payroll_id-"
-                    onclick="tryItOut('DELETEapi-payrollDeleteConcept--payroll_id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-payrollDeleteConcept--payroll_id-"
-                    onclick="cancelTryOut('DELETEapi-payrollDeleteConcept--payroll_id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-payrollDeleteConcept--payroll_id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/payrollDeleteConcept/{payroll_id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>payroll_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="payroll_id"
-               data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
-               value="7"
-               data-component="url" hidden>
-    <br>
-<p>El id de la nomina a la que se le eliminará el concepto</p>
-            </p>
-                        <h4 class="fancy-heading-panel"><b>Query Parameters</b></h4>
-                    <p>
-                <b><code>conceptPivotId</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="conceptPivotId"
-               data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
-               value="5"
-               data-component="query" hidden>
-    <br>
-<p>El id del concepto que se eliminará ubicado en la pivot</p>
-            </p>
-                </form>
-
-        <h1 id="period">Period</h1>
-
-    
-
-            <h2 id="period-GETapi-period">GET api/period</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-period">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/period',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-period">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-period" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-period"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-period"></code></pre>
-</span>
-<span id="execution-error-GETapi-period" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-period"></code></pre>
-</span>
-<form id="form-GETapi-period" data-method="GET"
-      data-path="api/period"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-period', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-period"
-                    onclick="tryItOut('GETapi-period');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-period"
-                    onclick="cancelTryOut('GETapi-period');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-period" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/period</code></b>
-        </p>
-                    </form>
-
-            <h2 id="period-POSTapi-period">POST api/period</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-period">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/period',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; '5 a 19',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-period">
-</span>
-<span id="execution-results-POSTapi-period" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-period"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-period"></code></pre>
-</span>
-<span id="execution-error-POSTapi-period" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-period"></code></pre>
-</span>
-<form id="form-POSTapi-period" data-method="POST"
-      data-path="api/period"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-period', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-period"
-                    onclick="tryItOut('POSTapi-period');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-period"
-                    onclick="cancelTryOut('POSTapi-period');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-period" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/period</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-period"
-               value="5 a 19"
-               data-component="body" hidden>
-    <br>
-<p>El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.</p>
-        </p>
-        </form>
-
-            <h2 id="period-GETapi-period--id-">GET api/period/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-period--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/period/20',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-period--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-period--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-period--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-period--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-period--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-period--id-"></code></pre>
-</span>
-<form id="form-GETapi-period--id-" data-method="GET"
-      data-path="api/period/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-period--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-period--id-"
-                    onclick="tryItOut('GETapi-period--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-period--id-"
-                    onclick="cancelTryOut('GETapi-period--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-period--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/period/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-period--id-"
-               value="20"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the period.</p>
-            </p>
-                    </form>
-
-            <h2 id="period-PUTapi-period--id-">PUT api/period/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-period--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/period/20',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; '5 a 19',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-period--id-">
-</span>
-<span id="execution-results-PUTapi-period--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-period--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-period--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-period--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-period--id-"></code></pre>
-</span>
-<form id="form-PUTapi-period--id-" data-method="PUT"
-      data-path="api/period/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-period--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-period--id-"
-                    onclick="tryItOut('PUTapi-period--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-period--id-"
-                    onclick="cancelTryOut('PUTapi-period--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-period--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/period/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/period/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-period--id-"
-               value="20"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the period.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-period--id-"
-               value="5 a 19"
-               data-component="body" hidden>
-    <br>
-<p>El nombre de periodo que se usaria para la nomina, ya viene definido por defecto.</p>
-        </p>
-        </form>
-
-            <h2 id="period-DELETEapi-period--id-">DELETE api/period/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-period--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/period/16',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-period--id-">
-</span>
-<span id="execution-results-DELETEapi-period--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-period--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-period--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-period--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-period--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-period--id-" data-method="DELETE"
-      data-path="api/period/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-period--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-period--id-"
-                    onclick="tryItOut('DELETEapi-period--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-period--id-"
-                    onclick="cancelTryOut('DELETEapi-period--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-period--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/period/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-period--id-"
-               value="16"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the period.</p>
-            </p>
-                    </form>
-
-        <h1 id="periodicity-type">Periodicity Type</h1>
-
-    
-
-            <h2 id="periodicity-type-GETapi-periodicityType">GET api/periodicityType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-periodicityType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/periodicityType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-periodicityType">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-periodicityType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-periodicityType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-periodicityType"></code></pre>
-</span>
-<span id="execution-error-GETapi-periodicityType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-periodicityType"></code></pre>
-</span>
-<form id="form-GETapi-periodicityType" data-method="GET"
-      data-path="api/periodicityType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-periodicityType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-periodicityType"
-                    onclick="tryItOut('GETapi-periodicityType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-periodicityType"
-                    onclick="cancelTryOut('GETapi-periodicityType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-periodicityType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/periodicityType</code></b>
-        </p>
-                    </form>
-
-            <h2 id="periodicity-type-POSTapi-periodicityType">POST api/periodicityType</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-periodicityType">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/periodicityType',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'adipisci',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-periodicityType">
-</span>
-<span id="execution-results-POSTapi-periodicityType" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-periodicityType"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-periodicityType"></code></pre>
-</span>
-<span id="execution-error-POSTapi-periodicityType" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-periodicityType"></code></pre>
-</span>
-<form id="form-POSTapi-periodicityType" data-method="POST"
-      data-path="api/periodicityType"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-periodicityType', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-periodicityType"
-                    onclick="tryItOut('POSTapi-periodicityType');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-periodicityType"
-                    onclick="cancelTryOut('POSTapi-periodicityType');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-periodicityType" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/periodicityType</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-periodicityType"
-               value="adipisci"
-               data-component="body" hidden>
-    <br>
-<p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
-        </p>
-        </form>
-
-            <h2 id="periodicity-type-GETapi-periodicityType--id-">GET api/periodicityType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-periodicityType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/periodicityType/1',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-periodicityType--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-periodicityType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-periodicityType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-periodicityType--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-periodicityType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-periodicityType--id-"></code></pre>
-</span>
-<form id="form-GETapi-periodicityType--id-" data-method="GET"
-      data-path="api/periodicityType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-periodicityType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-periodicityType--id-"
-                    onclick="tryItOut('GETapi-periodicityType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-periodicityType--id-"
-                    onclick="cancelTryOut('GETapi-periodicityType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-periodicityType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/periodicityType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-periodicityType--id-"
-               value="1"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the periodicityType.</p>
-            </p>
-                    </form>
-
-            <h2 id="periodicity-type-PUTapi-periodicityType--id-">PUT api/periodicityType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-periodicityType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/periodicityType/19',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'voluptas',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-periodicityType--id-">
-</span>
-<span id="execution-results-PUTapi-periodicityType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-periodicityType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-periodicityType--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-periodicityType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-periodicityType--id-"></code></pre>
-</span>
-<form id="form-PUTapi-periodicityType--id-" data-method="PUT"
-      data-path="api/periodicityType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-periodicityType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-periodicityType--id-"
-                    onclick="tryItOut('PUTapi-periodicityType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-periodicityType--id-"
-                    onclick="cancelTryOut('PUTapi-periodicityType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-periodicityType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/periodicityType/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/periodicityType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-periodicityType--id-"
-               value="19"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the periodicityType.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-periodicityType--id-"
-               value="voluptas"
-               data-component="body" hidden>
-    <br>
-<p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
-        </p>
-        </form>
-
-            <h2 id="periodicity-type-DELETEapi-periodicityType--id-">DELETE api/periodicityType/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-periodicityType--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/periodicityType/6',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-periodicityType--id-">
-</span>
-<span id="execution-results-DELETEapi-periodicityType--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-periodicityType--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-periodicityType--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-periodicityType--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-periodicityType--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-periodicityType--id-" data-method="DELETE"
-      data-path="api/periodicityType/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-periodicityType--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-periodicityType--id-"
-                    onclick="tryItOut('DELETEapi-periodicityType--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-periodicityType--id-"
-                    onclick="cancelTryOut('DELETEapi-periodicityType--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-periodicityType--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/periodicityType/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-periodicityType--id-"
-               value="6"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the periodicityType.</p>
-            </p>
-                    </form>
-
-        <h1 id="position">Position</h1>
-
-    
-
-            <h2 id="position-GETapi-position">GET api/position</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-position">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/position',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-position">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-position" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-position"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-position"></code></pre>
-</span>
-<span id="execution-error-GETapi-position" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-position"></code></pre>
-</span>
-<form id="form-GETapi-position" data-method="GET"
-      data-path="api/position"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-position', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-position"
-                    onclick="tryItOut('GETapi-position');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-position"
-                    onclick="cancelTryOut('GETapi-position');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-position" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/position</code></b>
-        </p>
-                    </form>
-
-            <h2 id="position-POSTapi-position">POST api/position</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-position">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/position',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Jefe',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-position">
-</span>
-<span id="execution-results-POSTapi-position" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-position"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-position"></code></pre>
-</span>
-<span id="execution-error-POSTapi-position" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-position"></code></pre>
-</span>
-<form id="form-POSTapi-position" data-method="POST"
-      data-path="api/position"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-position', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-position"
-                    onclick="tryItOut('POSTapi-position');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-position"
-                    onclick="cancelTryOut('POSTapi-position');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-position" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/position</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-position"
-               value="Jefe"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del cargo.</p>
-        </p>
-        </form>
-
-            <h2 id="position-GETapi-position--id-">GET api/position/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-position--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/position/9',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-position--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-position--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-position--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-position--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-position--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-position--id-"></code></pre>
-</span>
-<form id="form-GETapi-position--id-" data-method="GET"
-      data-path="api/position/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-position--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-position--id-"
-                    onclick="tryItOut('GETapi-position--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-position--id-"
-                    onclick="cancelTryOut('GETapi-position--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-position--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/position/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-position--id-"
-               value="9"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the position.</p>
-            </p>
-                    </form>
-
-            <h2 id="position-PUTapi-position--id-">PUT api/position/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-position--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/position/2',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'Jefe',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-position--id-">
-</span>
-<span id="execution-results-PUTapi-position--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-position--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-position--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-position--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-position--id-"></code></pre>
-</span>
-<form id="form-PUTapi-position--id-" data-method="PUT"
-      data-path="api/position/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-position--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-position--id-"
-                    onclick="tryItOut('PUTapi-position--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-position--id-"
-                    onclick="cancelTryOut('PUTapi-position--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-position--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/position/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/position/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-position--id-"
-               value="2"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the position.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>required</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-position--id-"
-               value="Jefe"
-               data-component="body" hidden>
-    <br>
-<p>El nombre del cargo.</p>
-        </p>
-        </form>
-
-            <h2 id="position-DELETEapi-position--id-">DELETE api/position/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-position--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/position/19',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-position--id-">
-</span>
-<span id="execution-results-DELETEapi-position--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-position--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-position--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-position--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-position--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-position--id-" data-method="DELETE"
-      data-path="api/position/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-position--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-position--id-"
-                    onclick="tryItOut('DELETEapi-position--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-position--id-"
-                    onclick="cancelTryOut('DELETEapi-position--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-position--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/position/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-position--id-"
-               value="19"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the position.</p>
-            </p>
-                    </form>
-
-        <h1 id="provider">Provider</h1>
-
-    
-
-            <h2 id="provider-GETapi-provider">GET api/provider</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-provider">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/provider',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-provider">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-provider" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-provider"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-provider"></code></pre>
-</span>
-<span id="execution-error-GETapi-provider" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-provider"></code></pre>
-</span>
-<form id="form-GETapi-provider" data-method="GET"
-      data-path="api/provider"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-provider', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-provider"
-                    onclick="tryItOut('GETapi-provider');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-provider"
-                    onclick="cancelTryOut('GETapi-provider');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-provider" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/provider</code></b>
-        </p>
-                    </form>
-
-            <h2 id="provider-POSTapi-provider">POST api/provider</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-POSTapi-provider">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;post(
-    'http://localhost:8000/api/provider',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'e',
-            'last_name' =&gt; 'ehl',
-            'trade_name' =&gt; 'q',
-            'address' =&gt; 'xpwfc',
-            'phone' =&gt; 'eio',
-            'identification_number' =&gt; 'wmew',
-            'identification_type_id' =&gt; 13,
-            'iva' =&gt; true,
-            'email' =&gt; 'sbauch@example.net',
-            'password' =&gt; 'odio',
-            'constitution_type_id' =&gt; 15,
-            'city_id' =&gt; 14,
-            'responsability_type_id' =&gt; 5,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-POSTapi-provider">
-</span>
-<span id="execution-results-POSTapi-provider" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-POSTapi-provider"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-POSTapi-provider"></code></pre>
-</span>
-<span id="execution-error-POSTapi-provider" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-POSTapi-provider"></code></pre>
-</span>
-<form id="form-POSTapi-provider" data-method="POST"
-      data-path="api/provider"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('POSTapi-provider', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-POSTapi-provider"
-                    onclick="tryItOut('POSTapi-provider');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-POSTapi-provider"
-                    onclick="cancelTryOut('POSTapi-provider');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-POSTapi-provider" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-black">POST</small>
-            <b><code>api/provider</code></b>
-        </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="POSTapi-provider"
-               value="e"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 3 characters.</p>
-        </p>
-                <p>
-            <b><code>last_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="last_name"
-               data-endpoint="POSTapi-provider"
-               value="ehl"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 3 characters.</p>
-        </p>
-                <p>
-            <b><code>trade_name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="trade_name"
-               data-endpoint="POSTapi-provider"
-               value="q"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 3 characters.</p>
-        </p>
-                <p>
-            <b><code>address</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="address"
-               data-endpoint="POSTapi-provider"
-               value="xpwfc"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 5 characters.</p>
-        </p>
-                <p>
-            <b><code>phone</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="phone"
-               data-endpoint="POSTapi-provider"
-               value="eio"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 5 characters.</p>
-        </p>
-                <p>
-            <b><code>identification_number</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="identification_number"
-               data-endpoint="POSTapi-provider"
-               value="wmew"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 5 characters.</p>
-        </p>
-                <p>
-            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="identification_type_id"
-               data-endpoint="POSTapi-provider"
-               value="13"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>iva</code></b>&nbsp;&nbsp;<small>boolean</small>  &nbsp;
-                <label data-endpoint="POSTapi-provider" hidden>
-            <input type="radio" name="iva"
-                   value="true"
-                   data-endpoint="POSTapi-provider"
-                   data-component="body"
-            >
-            <code>true</code>
-        </label>
-        <label data-endpoint="POSTapi-provider" hidden>
-            <input type="radio" name="iva"
-                   value="false"
-                   data-endpoint="POSTapi-provider"
-                   data-component="body"
-            >
-            <code>false</code>
-        </label>
-    <br>
-
-        </p>
-                <p>
-            <b><code>email</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="email"
-               data-endpoint="POSTapi-provider"
-               value="sbauch@example.net"
-               data-component="body" hidden>
-    <br>
-<p>Must be a valid email address.</p>
-        </p>
-                <p>
-            <b><code>password</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
-               name="password"
-               data-endpoint="POSTapi-provider"
-               value="odio"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>constitution_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="constitution_type_id"
-               data-endpoint="POSTapi-provider"
-               value="15"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>city_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="city_id"
-               data-endpoint="POSTapi-provider"
-               value="14"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>responsability_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="responsability_type_id"
-               data-endpoint="POSTapi-provider"
-               value="5"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-        </form>
-
-            <h2 id="provider-GETapi-provider--id-">GET api/provider/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-provider--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/provider/4',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-provider--id-">
-            <blockquote>
-            <p>Example response (401):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;message&quot;: &quot;Unauthenticated.&quot;
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-provider--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-provider--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-provider--id-"></code></pre>
-</span>
-<span id="execution-error-GETapi-provider--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-provider--id-"></code></pre>
-</span>
-<form id="form-GETapi-provider--id-" data-method="GET"
-      data-path="api/provider/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-provider--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-provider--id-"
-                    onclick="tryItOut('GETapi-provider--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-provider--id-"
-                    onclick="cancelTryOut('GETapi-provider--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-provider--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/provider/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="GETapi-provider--id-"
-               value="4"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the provider.</p>
-            </p>
-                    </form>
-
-            <h2 id="provider-PUTapi-provider--id-">PUT api/provider/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-PUTapi-provider--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;put(
-    'http://localhost:8000/api/provider/5',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-        'json' =&gt; [
-            'name' =&gt; 'perferendis',
-            'last_name' =&gt; 'cl',
-            'trade_name' =&gt; 'nostrum',
-            'address' =&gt; 'xql',
-            'phone' =&gt; 'yia',
-            'identification_number' =&gt; 'odit',
-            'identification_type_id' =&gt; 17,
-            'iva' =&gt; true,
-            'email' =&gt; 'ratke.roosevelt@example.com',
-            'password' =&gt; 'sapiente',
-            'constitution_type_id' =&gt; 14,
-            'city_id' =&gt; 4,
-            'responsability_type_id' =&gt; 15,
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-PUTapi-provider--id-">
-</span>
-<span id="execution-results-PUTapi-provider--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-PUTapi-provider--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-PUTapi-provider--id-"></code></pre>
-</span>
-<span id="execution-error-PUTapi-provider--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-PUTapi-provider--id-"></code></pre>
-</span>
-<form id="form-PUTapi-provider--id-" data-method="PUT"
-      data-path="api/provider/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('PUTapi-provider--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-PUTapi-provider--id-"
-                    onclick="tryItOut('PUTapi-provider--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-PUTapi-provider--id-"
-                    onclick="cancelTryOut('PUTapi-provider--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-PUTapi-provider--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-darkblue">PUT</small>
-            <b><code>api/provider/{id}</code></b>
-        </p>
-            <p>
-            <small class="badge badge-purple">PATCH</small>
-            <b><code>api/provider/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="PUTapi-provider--id-"
-               value="5"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the provider.</p>
-            </p>
-                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
-        <p>
-            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="name"
-               data-endpoint="PUTapi-provider--id-"
-               value="perferendis"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>last_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="last_name"
-               data-endpoint="PUTapi-provider--id-"
-               value="cl"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 3 characters.</p>
-        </p>
-                <p>
-            <b><code>trade_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="trade_name"
-               data-endpoint="PUTapi-provider--id-"
-               value="nostrum"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>address</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="address"
-               data-endpoint="PUTapi-provider--id-"
-               value="xql"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 5 characters.</p>
-        </p>
-                <p>
-            <b><code>phone</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="phone"
-               data-endpoint="PUTapi-provider--id-"
-               value="yia"
-               data-component="body" hidden>
-    <br>
-<p>Must be at least 5 characters.</p>
-        </p>
-                <p>
-            <b><code>identification_number</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="identification_number"
-               data-endpoint="PUTapi-provider--id-"
-               value="odit"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>identification_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="identification_type_id"
-               data-endpoint="PUTapi-provider--id-"
-               value="17"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>iva</code></b>&nbsp;&nbsp;<small>boolean</small>     <i>optional</i> &nbsp;
-                <label data-endpoint="PUTapi-provider--id-" hidden>
-            <input type="radio" name="iva"
-                   value="true"
-                   data-endpoint="PUTapi-provider--id-"
-                   data-component="body"
-            >
-            <code>true</code>
-        </label>
-        <label data-endpoint="PUTapi-provider--id-" hidden>
-            <input type="radio" name="iva"
-                   value="false"
-                   data-endpoint="PUTapi-provider--id-"
-                   data-component="body"
-            >
-            <code>false</code>
-        </label>
-    <br>
-
-        </p>
-                <p>
-            <b><code>email</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="email"
-               data-endpoint="PUTapi-provider--id-"
-               value="ratke.roosevelt@example.com"
-               data-component="body" hidden>
-    <br>
-<p>Must be a valid email address.</p>
-        </p>
-                <p>
-            <b><code>password</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
-               name="password"
-               data-endpoint="PUTapi-provider--id-"
-               value="sapiente"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>constitution_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="constitution_type_id"
-               data-endpoint="PUTapi-provider--id-"
-               value="14"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>city_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="city_id"
-               data-endpoint="PUTapi-provider--id-"
-               value="4"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>responsability_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="responsability_type_id"
-               data-endpoint="PUTapi-provider--id-"
-               value="15"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-        </form>
-
-            <h2 id="provider-DELETEapi-provider--id-">DELETE api/provider/{id}</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-DELETEapi-provider--id-">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;delete(
-    'http://localhost:8000/api/provider/11',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-DELETEapi-provider--id-">
-</span>
-<span id="execution-results-DELETEapi-provider--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETEapi-provider--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETEapi-provider--id-"></code></pre>
-</span>
-<span id="execution-error-DELETEapi-provider--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETEapi-provider--id-"></code></pre>
-</span>
-<form id="form-DELETEapi-provider--id-" data-method="DELETE"
-      data-path="api/provider/{id}"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-provider--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETEapi-provider--id-"
-                    onclick="tryItOut('DELETEapi-provider--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETEapi-provider--id-"
-                    onclick="cancelTryOut('DELETEapi-provider--id-');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETEapi-provider--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>api/provider/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="id"
-               data-endpoint="DELETEapi-provider--id-"
-               value="11"
-               data-component="url" hidden>
-    <br>
-<p>The ID of the provider.</p>
-            </p>
-                    </form>
-
         <h1 id="salary-type">Salary Type</h1>
 
     
@@ -11386,7 +11430,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/salaryType/2',
+    'http://localhost:8000/api/salaryType/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11463,7 +11507,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-salaryType--id-"
-               value="2"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11484,7 +11528,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/salaryType/18',
+    'http://localhost:8000/api/salaryType/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11551,7 +11595,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-salaryType--id-"
-               value="18"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11583,7 +11627,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/salaryType/19',
+    'http://localhost:8000/api/salaryType/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11643,7 +11687,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-salaryType--id-"
-               value="19"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11762,8 +11806,8 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'cycccpdupiryufwfpnsdlvnzciwwhddc',
-            'value' =&gt; 1,
+            'name' =&gt; 'mopvnrxiisdfzxjgpwakoprxxva',
+            'value' =&gt; 17,
         ],
     ]
 );
@@ -11819,7 +11863,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-setting"
-               value="cycccpdupiryufwfpnsdlvnzciwwhddc"
+               value="mopvnrxiisdfzxjgpwakoprxxva"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 45 characters.</p>
@@ -11829,7 +11873,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-setting"
-               value="1"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -11850,7 +11894,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/setting/4',
+    'http://localhost:8000/api/setting/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11927,7 +11971,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-setting--id-"
-               value="4"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -11948,15 +11992,15 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/setting/4',
+    'http://localhost:8000/api/setting/7',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'lu',
-            'value' =&gt; 9,
+            'name' =&gt; 'gsy',
+            'value' =&gt; 6,
         ],
     ]
 );
@@ -12016,7 +12060,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-setting--id-"
-               value="4"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -12027,7 +12071,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-setting--id-"
-               value="lu"
+               value="gsy"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -12037,7 +12081,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-setting--id-"
-               value="9"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -12058,7 +12102,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/setting/10',
+    'http://localhost:8000/api/setting/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12118,7 +12162,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-setting--id-"
-               value="10"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -12262,35 +12306,35 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'klty',
-            'last_name' =&gt; 'fpt',
-            'second_last_name' =&gt; 'nemo',
-            'identification_number' =&gt; 'provident',
-            'email' =&gt; 'vboyle@example.net',
-            'password' =&gt; 'aspernatur',
-            'admission_date' =&gt; '2022-01-27T10:02:39',
-            'out_date' =&gt; '2022-01-27T10:02:39',
-            'address' =&gt; 'alias',
-            'neighborhood' =&gt; 'quaerat',
-            'birthday' =&gt; 'sed',
-            'children' =&gt; 'nihil',
-            'base_salary' =&gt; 10,
-            'position_id' =&gt; 14,
-            'contract_type_id' =&gt; 2,
-            'salary_type_id' =&gt; 18,
-            'headquarter_id' =&gt; 6,
-            'identification_type_id' =&gt; 16,
-            'gender_id' =&gt; 4,
-            'health_provider_id' =&gt; 20,
+            'name' =&gt; 'wnrm',
+            'last_name' =&gt; 'f',
+            'second_last_name' =&gt; 'est',
+            'identification_number' =&gt; 'nulla',
+            'email' =&gt; 'emilio.hand@example.com',
+            'password' =&gt; 'molestias',
+            'admission_date' =&gt; '2022-01-27T10:23:31',
+            'out_date' =&gt; '2022-01-27T10:23:31',
+            'address' =&gt; 'consequatur',
+            'neighborhood' =&gt; 'hic',
+            'birthday' =&gt; 'nesciunt',
+            'children' =&gt; 'excepturi',
+            'base_salary' =&gt; 12,
+            'position_id' =&gt; 5,
+            'contract_type_id' =&gt; 3,
+            'salary_type_id' =&gt; 14,
+            'headquarter_id' =&gt; 1,
+            'identification_type_id' =&gt; 15,
+            'gender_id' =&gt; 5,
+            'health_provider_id' =&gt; 9,
             'pension_fund_id' =&gt; 7,
-            'civil_statu_id' =&gt; 12,
-            'work_city_id' =&gt; 11,
-            'residence_city_id' =&gt; 19,
-            'expedition_place_id' =&gt; 20,
-            'strata_id' =&gt; 17,
-            'education_level_id' =&gt; 10,
-            'active' =&gt; 10,
-            'emergency_contact_id' =&gt; 2,
+            'civil_statu_id' =&gt; 4,
+            'work_city_id' =&gt; 17,
+            'residence_city_id' =&gt; 17,
+            'expedition_place_id' =&gt; 10,
+            'strata_id' =&gt; 8,
+            'education_level_id' =&gt; 2,
+            'active' =&gt; 1,
+            'emergency_contact_id' =&gt; 20,
         ],
     ]
 );
@@ -12346,7 +12390,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-user"
-               value="klty"
+               value="wnrm"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -12356,7 +12400,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-user"
-               value="fpt"
+               value="f"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -12366,7 +12410,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="POSTapi-user"
-               value="nemo"
+               value="est"
                data-component="body" hidden>
     <br>
 
@@ -12376,7 +12420,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-user"
-               value="provident"
+               value="nulla"
                data-component="body" hidden>
     <br>
 
@@ -12386,7 +12430,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user"
-               value="vboyle@example.net"
+               value="emilio.hand@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -12396,7 +12440,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user"
-               value="aspernatur"
+               value="molestias"
                data-component="body" hidden>
     <br>
 
@@ -12406,7 +12450,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T10:02:39"
+               value="2022-01-27T10:23:31"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -12416,7 +12460,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T10:02:39"
+               value="2022-01-27T10:23:31"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -12426,7 +12470,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-user"
-               value="alias"
+               value="consequatur"
                data-component="body" hidden>
     <br>
 
@@ -12436,7 +12480,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="POSTapi-user"
-               value="quaerat"
+               value="hic"
                data-component="body" hidden>
     <br>
 
@@ -12446,7 +12490,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="POSTapi-user"
-               value="sed"
+               value="nesciunt"
                data-component="body" hidden>
     <br>
 
@@ -12456,7 +12500,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="children"
                data-endpoint="POSTapi-user"
-               value="nihil"
+               value="excepturi"
                data-component="body" hidden>
     <br>
 
@@ -12466,7 +12510,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -12476,7 +12520,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="POSTapi-user"
-               value="14"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -12486,7 +12530,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="POSTapi-user"
-               value="2"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -12496,7 +12540,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="POSTapi-user"
-               value="18"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -12506,7 +12550,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="POSTapi-user"
-               value="6"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -12516,7 +12560,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-user"
-               value="16"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -12526,7 +12570,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="POSTapi-user"
-               value="4"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -12536,7 +12580,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="POSTapi-user"
-               value="20"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -12556,7 +12600,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="POSTapi-user"
-               value="12"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -12566,7 +12610,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="POSTapi-user"
-               value="11"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -12576,7 +12620,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="POSTapi-user"
-               value="19"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -12586,7 +12630,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="expedition_place_id"
                data-endpoint="POSTapi-user"
-               value="20"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -12596,7 +12640,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="POSTapi-user"
-               value="17"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -12606,7 +12650,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="education_level_id"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -12616,7 +12660,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -12626,7 +12670,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="emergency_contact_id"
                data-endpoint="POSTapi-user"
-               value="2"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -12647,7 +12691,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/user/8',
+    'http://localhost:8000/api/user/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12724,7 +12768,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-user--id-"
-               value="8"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12745,7 +12789,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/user/10',
+    'http://localhost:8000/api/user/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12805,7 +12849,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-user--id-"
-               value="10"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12826,42 +12870,42 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/user/4',
+    'http://localhost:8000/api/user/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'ggwru',
-            'last_name' =&gt; 'puo',
-            'second_last_name' =&gt; 'suscipit',
-            'identification_number' =&gt; 'et',
-            'email' =&gt; 'beatrice35@example.com',
-            'password' =&gt; 'autem',
-            'admission_date' =&gt; '2022-01-27T10:02:39',
-            'out_date' =&gt; '2022-01-27T10:02:39',
-            'address' =&gt; 'quia',
-            'neighborhood' =&gt; 'temporibus',
-            'birthday' =&gt; 'et',
-            'children' =&gt; 'doloremque',
-            'base_salary' =&gt; 2,
-            'position_id' =&gt; 9,
-            'contract_type_id' =&gt; 11,
-            'salary_type_id' =&gt; 12,
-            'headquarter_id' =&gt; 16,
-            'identification_type_id' =&gt; 11,
-            'gender_id' =&gt; 8,
-            'health_provider_id' =&gt; 14,
-            'pension_fund_id' =&gt; 10,
-            'civil_statu_id' =&gt; 8,
-            'work_city_id' =&gt; 16,
-            'residence_city_id' =&gt; 1,
-            'expedition_place_id' =&gt; 12,
-            'strata_id' =&gt; 10,
-            'education_level_id' =&gt; 4,
-            'active' =&gt; 19,
-            'emergency_contact_id' =&gt; 6,
+            'name' =&gt; '',
+            'last_name' =&gt; 'dr',
+            'second_last_name' =&gt; 'laudantium',
+            'identification_number' =&gt; 'quasi',
+            'email' =&gt; 'darian.hagenes@example.org',
+            'password' =&gt; 'qui',
+            'admission_date' =&gt; '2022-01-27T10:23:31',
+            'out_date' =&gt; '2022-01-27T10:23:31',
+            'address' =&gt; 'ut',
+            'neighborhood' =&gt; 'rerum',
+            'birthday' =&gt; 'officiis',
+            'children' =&gt; 'voluptatem',
+            'base_salary' =&gt; 1,
+            'position_id' =&gt; 11,
+            'contract_type_id' =&gt; 16,
+            'salary_type_id' =&gt; 19,
+            'headquarter_id' =&gt; 3,
+            'identification_type_id' =&gt; 9,
+            'gender_id' =&gt; 19,
+            'health_provider_id' =&gt; 3,
+            'pension_fund_id' =&gt; 5,
+            'civil_statu_id' =&gt; 10,
+            'work_city_id' =&gt; 1,
+            'residence_city_id' =&gt; 8,
+            'expedition_place_id' =&gt; 8,
+            'strata_id' =&gt; 13,
+            'education_level_id' =&gt; 2,
+            'active' =&gt; 12,
+            'emergency_contact_id' =&gt; 3,
         ],
     ]
 );
@@ -12921,7 +12965,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-user--id-"
-               value="4"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12932,7 +12976,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-user--id-"
-               value="ggwru"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -12942,7 +12986,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-user--id-"
-               value="puo"
+               value="dr"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -12952,7 +12996,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="PUTapi-user--id-"
-               value="suscipit"
+               value="laudantium"
                data-component="body" hidden>
     <br>
 
@@ -12962,7 +13006,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-user--id-"
-               value="et"
+               value="quasi"
                data-component="body" hidden>
     <br>
 
@@ -12972,7 +13016,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-user--id-"
-               value="beatrice35@example.com"
+               value="darian.hagenes@example.org"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -12982,7 +13026,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-user--id-"
-               value="autem"
+               value="qui"
                data-component="body" hidden>
     <br>
 
@@ -12992,7 +13036,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T10:02:39"
+               value="2022-01-27T10:23:31"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -13002,7 +13046,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T10:02:39"
+               value="2022-01-27T10:23:31"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -13012,7 +13056,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-user--id-"
-               value="quia"
+               value="ut"
                data-component="body" hidden>
     <br>
 
@@ -13022,7 +13066,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="PUTapi-user--id-"
-               value="temporibus"
+               value="rerum"
                data-component="body" hidden>
     <br>
 
@@ -13032,7 +13076,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="PUTapi-user--id-"
-               value="et"
+               value="officiis"
                data-component="body" hidden>
     <br>
 
@@ -13042,7 +13086,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="children"
                data-endpoint="PUTapi-user--id-"
-               value="doloremque"
+               value="voluptatem"
                data-component="body" hidden>
     <br>
 
@@ -13052,7 +13096,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="PUTapi-user--id-"
-               value="2"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -13062,7 +13106,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="PUTapi-user--id-"
-               value="9"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -13072,7 +13116,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="11"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -13082,7 +13126,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -13092,7 +13136,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="PUTapi-user--id-"
-               value="16"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -13102,7 +13146,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="11"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -13112,7 +13156,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="PUTapi-user--id-"
-               value="8"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -13122,7 +13166,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="PUTapi-user--id-"
-               value="14"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -13132,7 +13176,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="pension_fund_id"
                data-endpoint="PUTapi-user--id-"
-               value="10"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -13142,7 +13186,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="PUTapi-user--id-"
-               value="8"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -13152,7 +13196,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="16"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -13162,7 +13206,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="1"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -13172,7 +13216,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="expedition_place_id"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="8"
                data-component="body" hidden>
     <br>
 
@@ -13182,7 +13226,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="PUTapi-user--id-"
-               value="10"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -13192,7 +13236,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="education_level_id"
                data-endpoint="PUTapi-user--id-"
-               value="4"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -13202,7 +13246,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="PUTapi-user--id-"
-               value="19"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -13212,7 +13256,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="emergency_contact_id"
                data-endpoint="PUTapi-user--id-"
-               value="6"
+               value="3"
                data-component="body" hidden>
     <br>
 

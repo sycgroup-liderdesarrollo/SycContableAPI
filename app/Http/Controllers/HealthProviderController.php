@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\HealthProvider;
 use Illuminate\Http\Request;
-
+/**
+ * @group Health Provider
+ */
 class HealthProviderController extends Controller
 {
     public function index()

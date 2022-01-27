@@ -1,10 +1,10 @@
-name: Position
+name: Payroll
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/position
+    uri: api/payroll
     metadata:
       title: ''
       description: ''
@@ -29,7 +29,7 @@ endpoints:
   -
     httpMethods:
       - POST
-    uri: api/position
+    uri: api/payroll
     metadata:
       title: ''
       description: ''
@@ -41,19 +41,26 @@ endpoints:
     urlParameters: []
     queryParameters: []
     bodyParameters:
-      name:
-        name: name
-        description: 'El nombre del cargo.'
-        required: false
-        example: Jefe
-        type: required
+      period_id:
+        name: period_id
+        description: 'ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+      user_id:
+        name: user_id
+        description: 'ID de llave foranea del usuario.'
+        required: true
+        example: 2
+        type: integer
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - GET
-    uri: 'api/position/{id}'
+    uri: 'api/payroll/{id}'
     metadata:
       title: ''
       description: ''
@@ -65,9 +72,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the payroll.'
         required: true
-        example: 9
+        example: 13
         type: integer
         custom: []
     queryParameters: []
@@ -86,7 +93,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/position/{id}'
+    uri: 'api/payroll/{id}'
     metadata:
       title: ''
       description: ''
@@ -98,26 +105,33 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the payroll.'
         required: true
-        example: 2
+        example: 8
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
-      name:
-        name: name
-        description: 'El nombre del cargo.'
-        required: false
-        example: Jefe
-        type: required
+      period_id:
+        name: period_id
+        description: 'ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+      user_id:
+        name: user_id
+        description: 'ID de llave foranea del usuario.'
+        required: true
+        example: 2
+        type: integer
         custom: []
     responses: []
     responseFields: []
   -
     httpMethods:
       - DELETE
-    uri: 'api/position/{id}'
+    uri: 'api/payroll/{id}'
     metadata:
       title: ''
       description: ''
@@ -129,12 +143,198 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the position.'
+        description: 'The ID of the payroll.'
         required: true
         example: 19
         type: integer
         custom: []
     queryParameters: []
+    bodyParameters: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/consultaPayroll
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters:
+      period_id:
+        name: period_id
+        description: 'El id del periodo de la nomina que se va a consultar.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+      user_id:
+        name: user_id
+        description: 'El id del usuario de la nomina.'
+        required: true
+        example: 2
+        type: integer
+        custom: []
+      created_at:
+        name: created_at
+        description: 'date La fecha con el MES de la nomina.'
+        required: true
+        example: '12'
+        type: string
+        custom: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/consultDeduccion
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters:
+      period_id:
+        name: period_id
+        description: 'ID de llave foranea para el periodo de la nomina que se va a consultar (5 a 19, 20 a 4).'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+      covenants_id:
+        name: covenants_id
+        description: 'ID de llave foranea para el convenio que se va a consultar.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/payroll/user/{user}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      user:
+        name: user
+        description: ''
+        required: true
+        example: 18
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: 'api/payrollConcept/{payroll_id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      payroll_id:
+        name: payroll_id
+        description: 'El id de la nomina a la que se le asignará el concepto.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      count:
+        name: count
+        description: 'La cantidad de veces que se cobra un concepto en la nomina.'
+        required: true
+        example: 15
+        type: integer
+        custom: []
+      unit_value:
+        name: unit_value
+        description: 'El valor unitario del concepto.'
+        required: true
+        example: 30000
+        type: integer
+        custom: []
+    responses: []
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/payrollDeleteConcept/{payroll_id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      payroll_id:
+        name: payroll_id
+        description: 'El id de la nomina a la que se le eliminará el concepto'
+        required: true
+        example: 8
+        type: integer
+        custom: []
+    queryParameters:
+      conceptPivotId:
+        name: conceptPivotId
+        description: 'El id del concepto que se eliminará ubicado en la pivot'
+        required: true
+        example: 10
+        type: integer
+        custom: []
     bodyParameters: []
     responses: []
     responseFields: []

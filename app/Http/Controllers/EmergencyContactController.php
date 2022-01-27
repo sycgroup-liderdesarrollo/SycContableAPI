@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\EmergencyContact;
 use Illuminate\Http\Request;
-
+/**
+ * @group Emergency Contact
+ */
 class EmergencyContactController extends Controller
 {
 

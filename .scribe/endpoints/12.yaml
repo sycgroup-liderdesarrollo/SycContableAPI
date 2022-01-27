@@ -1,10 +1,10 @@
-name: 'Periodicity Type'
+name: 'Identification Type'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/periodicityType
+    uri: api/identificationType
     metadata:
       title: ''
       description: ''
@@ -29,7 +29,7 @@ endpoints:
   -
     httpMethods:
       - POST
-    uri: api/periodicityType
+    uri: api/identificationType
     metadata:
       title: ''
       description: ''
@@ -43,9 +43,9 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
+        description: 'El nombre del tipo de identificacion.'
         required: false
-        example: adipisci
+        example: 'Cedula de ciudadania'
         type: required
         custom: []
     responses: []
@@ -53,7 +53,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/periodicityType/{id}'
+    uri: 'api/identificationType/{id}'
     metadata:
       title: ''
       description: ''
@@ -65,9 +65,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the periodicityType.'
+        description: 'The ID of the identificationType.'
         required: true
-        example: 1
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -86,7 +86,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/periodicityType/{id}'
+    uri: 'api/identificationType/{id}'
     metadata:
       title: ''
       description: ''
@@ -98,18 +98,18 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the periodicityType.'
+        description: 'The ID of the identificationType.'
         required: true
-        example: 19
+        example: 3
         type: integer
         custom: []
     queryParameters: []
     bodyParameters:
       name:
         name: name
-        description: 'El nombre, si es quincenal o mensual, ya viene definido por defecto'
+        description: 'El nombre del tipo de identificacion.'
         required: false
-        example: voluptas
+        example: 'Cedula de ciudadania'
         type: required
         custom: []
     responses: []
@@ -117,7 +117,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/periodicityType/{id}'
+    uri: 'api/identificationType/{id}'
     metadata:
       title: ''
       description: ''
@@ -129,9 +129,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the periodicityType.'
+        description: 'The ID of the identificationType.'
         required: true
-        example: 6
+        example: 9
         type: integer
         custom: []
     queryParameters: []
