@@ -5,6 +5,7 @@ use App\Http\Controllers\CityController;
 use App\Http\Controllers\CivilStatuController;
 use App\Http\Controllers\ConceptController;
 use App\Http\Controllers\ConceptTypeController;
+use App\Http\Controllers\ConstitutionTypeController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ContractTypeController;
 use App\Http\Controllers\CovenantController;
@@ -22,11 +23,14 @@ use App\Http\Controllers\PeriodicityTypeController;
 use App\Http\Controllers\PositionController;
 use App\Http\Controllers\ProviderController;
 use App\Http\Controllers\ProvinceController;
+use App\Http\Controllers\ResponsabilityTypeController;
 use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\StrataController;
 use App\Http\Controllers\UserController;
+use App\Models\ConstitutionType;
 use App\Models\EducationLevel;
+use App\Models\ResponsabilityType;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -86,6 +90,8 @@ Route::middleware(['auth:api'])->group(function () {
     Route::apiResource('civilStatu', CivilStatuController::class);
     Route::apiResource('strata', StrataController::class);
     Route::apiResource('educationLevel', EducationLevelController::class);
+    Route::apiResource('constitutionType', ConstitutionTypeController::class);
+    Route::apiResource('responsabilityType', ResponsabilityTypeController::class);
 
 
 
