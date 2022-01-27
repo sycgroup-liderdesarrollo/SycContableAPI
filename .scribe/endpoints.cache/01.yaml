@@ -54,28 +54,28 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: azw
+        example: xsy
         type: string
         custom: []
       calculated:
         name: calculated
         description: ''
         required: true
-        example: true
+        example: false
         type: boolean
         custom: []
       concept_type_id:
         name: concept_type_id
         description: ''
         required: true
-        example: 3
+        example: 18
         type: integer
         custom: []
       setting_id:
         name: setting_id
         description: ''
         required: false
-        example: 18
+        example: 19
         type: integer
         custom: []
     responses: []
@@ -97,7 +97,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 3
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -130,7 +130,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 6
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -139,7 +139,7 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: illo
+        example: et
         type: string
         custom: []
       calculated:
@@ -153,14 +153,14 @@ endpoints:
         name: concept_type_id
         description: ''
         required: false
-        example: 15
+        example: 20
         type: integer
         custom: []
       setting_id:
         name: setting_id
         description: ''
         required: false
-        example: 12
+        example: 7
         type: integer
         custom: []
     responses: []
@@ -182,7 +182,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 19
+        example: 7
         type: integer
         custom: []
     queryParameters: []

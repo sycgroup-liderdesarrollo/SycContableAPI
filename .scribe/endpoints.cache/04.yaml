@@ -47,28 +47,28 @@ endpoints:
         name: name
         description: ''
         required: true
-        example: eos
+        example: ut
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 3
+        example: 12
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: true
-        example: 16
+        example: 10
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: true
-        example: 8
+        example: 1
         type: integer
         custom: []
       provider_id:
@@ -104,7 +104,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 18
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +137,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 16
+        example: 15
         type: integer
         custom: []
     queryParameters: []
@@ -146,42 +146,42 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: consectetur
+        example: quod
         type: string
         custom: []
       active:
         name: active
         description: ''
         required: false
-        example: false
+        example: true
         type: boolean
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 18
+        example: 11
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: false
-        example: 6
+        example: 1
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: false
-        example: 12
+        example: 5
         type: integer
         custom: []
       provider_id:
         name: provider_id
         description: ''
         required: false
-        example: 14
+        example: 7
         type: integer
         custom: []
       concept_name:
@@ -210,7 +210,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 10
+        example: 19
         type: integer
         custom: []
     queryParameters: []

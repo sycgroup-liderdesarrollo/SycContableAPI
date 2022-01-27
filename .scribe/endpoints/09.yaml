@@ -74,7 +74,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 19
+        example: 13
         type: integer
         custom: []
     queryParameters: []
@@ -107,7 +107,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 2
+        example: 9
         type: integer
         custom: []
     queryParameters: []
@@ -145,7 +145,7 @@ endpoints:
         name: id
         description: 'The ID of the payroll.'
         required: true
-        example: 8
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -254,7 +254,7 @@ endpoints:
         name: user
         description: ''
         required: true
-        example: 14
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -324,7 +324,7 @@ endpoints:
         name: payroll_id
         description: 'El id de la nomina a la que se le eliminará el concepto'
         required: true
-        example: 2
+        example: 5
         type: integer
         custom: []
     queryParameters:
@@ -332,7 +332,7 @@ endpoints:
         name: conceptPivotId
         description: 'El id del concepto que se eliminará ubicado en la pivot'
         required: true
-        example: 9
+        example: 5
         type: integer
         custom: []
     bodyParameters: []

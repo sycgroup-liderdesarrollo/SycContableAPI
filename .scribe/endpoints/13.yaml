@@ -43,37 +43,93 @@ endpoints:
     bodyParameters:
       name:
         name: name
-        description: 'Must be at least 5 characters.'
+        description: 'Must be at least 3 characters.'
         required: true
-        example: vicss
+        example: p
+        type: string
+        custom: []
+      last_name:
+        name: last_name
+        description: 'Must be at least 3 characters.'
+        required: false
+        example: ''
+        type: string
+        custom: []
+      trade_name:
+        name: trade_name
+        description: 'Must be at least 3 characters.'
+        required: true
+        example: i
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: true
-        example: oecwm
+        example: ylt
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: true
-        example: ehyi
+        example: vuetk
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: 'Must be at least 5 characters.'
         required: true
-        example: mxvp
+        example: gnq
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: true
-        example: 10
+        example: 2
+        type: integer
+        custom: []
+      iva:
+        name: iva
+        description: ''
+        required: true
+        example: false
+        type: boolean
+        custom: []
+      email:
+        name: email
+        description: 'Must be a valid email address.'
+        required: true
+        example: kweissnat@example.org
+        type: string
+        custom: []
+      password:
+        name: password
+        description: ''
+        required: true
+        example: nobis
+        type: string
+        custom: []
+      constitution_type_id:
+        name: constitution_type_id
+        description: ''
+        required: true
+        example: 13
+        type: integer
+        custom: []
+      city_id:
+        name: city_id
+        description: ''
+        required: true
+        example: 20
+        type: integer
+        custom: []
+      responsability_type_id:
+        name: responsability_type_id
+        description: ''
+        required: true
+        example: 13
         type: integer
         custom: []
     responses: []
@@ -95,7 +151,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 16
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -128,7 +184,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 6
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -137,35 +193,91 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: ab
+        example: exercitationem
+        type: string
+        custom: []
+      last_name:
+        name: last_name
+        description: 'Must be at least 3 characters.'
+        required: false
+        example: ''
+        type: string
+        custom: []
+      trade_name:
+        name: trade_name
+        description: ''
+        required: false
+        example: illum
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: false
-        example: ofvey
+        example: ''
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: false
-        example: ''
+        example: omlni
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: ''
         required: false
-        example: sed
+        example: debitis
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: false
-        example: 16
+        example: 1
+        type: integer
+        custom: []
+      iva:
+        name: iva
+        description: ''
+        required: false
+        example: true
+        type: boolean
+        custom: []
+      email:
+        name: email
+        description: 'Must be a valid email address.'
+        required: false
+        example: kmclaughlin@example.org
+        type: string
+        custom: []
+      password:
+        name: password
+        description: ''
+        required: false
+        example: vel
+        type: string
+        custom: []
+      constitution_type_id:
+        name: constitution_type_id
+        description: ''
+        required: false
+        example: 6
+        type: integer
+        custom: []
+      city_id:
+        name: city_id
+        description: ''
+        required: false
+        example: 14
+        type: integer
+        custom: []
+      responsability_type_id:
+        name: responsability_type_id
+        description: ''
+        required: false
+        example: 13
         type: integer
         custom: []
     responses: []
@@ -187,7 +299,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 1
+        example: 13
         type: integer
         custom: []
     queryParameters: []

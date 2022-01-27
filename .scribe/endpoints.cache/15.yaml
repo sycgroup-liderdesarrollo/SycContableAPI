@@ -47,14 +47,14 @@ endpoints:
         name: name
         description: 'Must not be greater than 45 characters.'
         required: true
-        example: vyuz
+        example: dzgekypwbirszqnsfypulraezcxtngfejkv
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: true
-        example: 13
+        example: 14
         type: integer
         custom: []
     responses: []
@@ -76,7 +76,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 12
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -109,7 +109,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 19
+        example: 8
         type: integer
         custom: []
     queryParameters: []
@@ -118,14 +118,14 @@ endpoints:
         name: name
         description: 'Must be at least 3 characters.'
         required: false
-        example: ''
+        example: xvo
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 16
+        example: 4
         type: integer
         custom: []
     responses: []
@@ -147,7 +147,7 @@ endpoints:
         name: id
         description: 'The ID of the setting.'
         required: true
-        example: 7
+        example: 5
         type: integer
         custom: []
     queryParameters: []
