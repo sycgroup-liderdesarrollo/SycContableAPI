@@ -24,11 +24,19 @@ class CreateProviderRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'string|required|min:5|unique:providers,name',
+            'name' => 'string|required|min:3|unique:providers,name',
+            'last_name'=>'string|min:3',
+            'trade_name'=>'string|min:3|required|unique:providers,name',
             'address' => 'string|required|min:5',
             'phone' => 'string|required|min:5',
             'identification_number' => 'string|required|min:5|unique:providers,identification_number',
-            'identification_type_id' => 'required|integer'
+            'identification_type_id' => 'required|integer',
+            'iva'=>'boolean|required',
+            'email'=>'email|required',
+            'password'=>'string|required',
+            'constitution_type_id' => 'required|integer',
+            'city_id' => 'required|integer',
+            'responsability_type_id' => 'required|integer',
         ];
     }
 }

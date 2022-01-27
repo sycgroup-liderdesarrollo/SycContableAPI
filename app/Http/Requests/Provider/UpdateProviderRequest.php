@@ -29,13 +29,24 @@ class UpdateProviderRequest extends FormRequest
                 'string',
                 Rule::unique('providers','name')->ignore($this->provider)
             ],
+            'last_name'=>'string|min:3',
+            'trade_name' => [
+                'string',
+                Rule::unique('providers','name')->ignore($this->provider)
+            ],
             'address' => 'string|min:5',
             'phone' => 'string|min:5',
             'identification_number' => [
                 'string',
                 Rule::unique('providers','identification_number')->ignore($this->provider)
             ],
-            'identification_type_id' => 'integer'
+            'identification_type_id' => 'integer',
+            'iva'=>'boolean',
+            'email'=>'email',
+            'password'=>'string',
+            'constitution_type_id' => 'integer',
+            'city_id' => 'integer',
+            'responsability_type_id' => 'integer',
         ];
     }
 }
