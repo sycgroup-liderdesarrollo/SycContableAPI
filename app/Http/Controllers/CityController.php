@@ -15,7 +15,7 @@ class CityController extends Controller
      */
     public function index(Request $request)
     {
-        $filter = $request->query('name',null);
+        $filter = $request->query('province_id',null);
 
         $cities = City::filter($filter)->get();
 

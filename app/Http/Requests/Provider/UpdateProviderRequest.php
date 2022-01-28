@@ -29,7 +29,7 @@ class UpdateProviderRequest extends FormRequest
                 'string',
                 Rule::unique('providers','name')->ignore($this->provider)
             ],
-            'last_name'=>'string|min:3',
+            'last_name',
             'trade_name' => [
                 'string',
                 Rule::unique('providers','name')->ignore($this->provider)

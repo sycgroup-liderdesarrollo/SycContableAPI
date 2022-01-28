@@ -25,7 +25,7 @@ class CreateProviderRequest extends FormRequest
     {
         return [
             'name' => 'string|required|min:3|unique:providers,name',
-            'last_name'=>'string|min:3',
+            'last_name',
             'trade_name'=>'string|min:3|required|unique:providers,name',
             'address' => 'string|required|min:5',
             'phone' => 'string|required|min:5',

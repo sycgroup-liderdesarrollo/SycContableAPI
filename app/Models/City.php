@@ -12,7 +12,7 @@ class City extends Model
 
     public function scopeFilter($query, $filter)
     {
-        return $query->where('name', 'like', '%'.$filter.'%');
+        return $query->where('province_id', 'like', '%'.$filter.'%');
     }
 
     public function province()
