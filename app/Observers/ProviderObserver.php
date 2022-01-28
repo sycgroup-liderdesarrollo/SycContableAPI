@@ -9,7 +9,7 @@ class ProviderObserver
 {
     public function created(Provider $provider)
     {
-        if (request()->constitution_type_id == 1) {
+        if (request()->constitution_type_id != 2) {
             Contact::create(['name'=>request()->name,'last_name'=>request()->last_name,
             'email'=>request()->email,'phone'=>request()->phone,'provider_id'=>$provider->id]);
         }
