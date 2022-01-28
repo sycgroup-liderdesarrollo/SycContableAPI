@@ -29,6 +29,7 @@ use App\Http\Controllers\SettingController;
 use App\Http\Controllers\StrataController;
 use App\Http\Controllers\UserController;
 use App\Models\ConstitutionType;
+use App\Models\Contact;
 use App\Models\EducationLevel;
 use App\Models\ResponsabilityType;
 use Illuminate\Support\Facades\Auth;
@@ -81,7 +82,13 @@ Route::middleware(['auth:api'])->group(function () {
         return response()->json(['isLogined'=>false]);
     });
     Route::apiResource('emergencyContact', EmergencyContactController::class);
+
     Route::apiResource('contact', ContactController::class);
+
+    Route::prefix('contact')->group(function(){
+        Route::get('provider/{provider_id}',[ContactController::class,'providerContact']);
+    });
+
     Route::apiResource('healthProvider', HealthProviderController::class);
     Route::apiResource('pensionFund', PensionFundController::class);
     Route::apiResource('city', CityController::class);

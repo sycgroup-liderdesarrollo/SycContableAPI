@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+
 /**
  * @group Contact
  */
 class ContactController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         $contacts=Contact::all();
         return response()->json(['status'=>true,'data'=>$contacts]);
@@ -32,5 +34,10 @@ class ContactController extends Controller
     {
         $contact->delete();
         return response()->json(['status'=>true,'data'=>$contact]);
+    }
+    public function providerContact($provider_id)
+    {
+        $contact= Contact::where('provider_id', $provider_id)->get();
+        return $contact;
     }
 }
