@@ -24,7 +24,8 @@ class CreateProvidersTable extends Migration
             $table->foreignId('identification_type_id')->references('id')->on('identification_types');
             $table->foreignId('constitution_type_id')->references('id')->on('constitution_types');
             $table->foreignId('city_id')->references('id')->on('cities');
-            $table->foreignId('responsability_type_id')->references('id')->on('responsability_types');
+            $table->unsignedBigInteger('responsability_type_id')->nullable();
+            $table->foreign('responsability_type_id')->references('id')->on('responsability_types');
             //
             $table->timestamps();
             $table->softDeletes();

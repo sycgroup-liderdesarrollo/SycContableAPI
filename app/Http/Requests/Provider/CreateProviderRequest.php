@@ -36,7 +36,7 @@ class CreateProviderRequest extends FormRequest
             'password'=>'string|required',
             'constitution_type_id' => 'required|integer',
             'city_id' => 'required|integer',
-            'responsability_type_id' => 'required|integer',
+            'responsability_type_id',
         ];
     }
 }

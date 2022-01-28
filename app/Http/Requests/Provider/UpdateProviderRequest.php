@@ -46,7 +46,7 @@ class UpdateProviderRequest extends FormRequest
             'password'=>'string',
             'constitution_type_id' => 'integer',
             'city_id' => 'integer',
-            'responsability_type_id' => 'integer',
+            'responsability_type_id',
         ];
     }
 }
