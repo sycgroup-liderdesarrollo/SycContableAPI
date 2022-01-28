@@ -17,7 +17,7 @@ class CreateContactsTable extends Migration
             $table->string('position')->nullable();
             $table->double('phone');
             //llave foranea
-            $table->foreignId('provider_id')->references('id')->on('providers');
+            $table->foreignId('provider_id')->references('id')->on('providers')->onDelete('cascade');
             //
             $table->timestamps();
             $table->softDeletes();
