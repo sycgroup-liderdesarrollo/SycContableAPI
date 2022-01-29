@@ -31,7 +31,7 @@ class UpdateCovenantRequest extends FormRequest
                 Rule::unique('covenants', 'name')->ignore($this->covenant)
             ],
             'active'=>'boolean',
-            'value'=>'integer',
+            'value',
             'covenant_type_id'=>'integer',
             'periodicity_type_id'=>'integer',
             'provider_id'=>'integer',
