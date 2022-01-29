@@ -38,6 +38,7 @@ class ContactController extends Controller
     public function providerContact($provider_id)
     {
         $contact= Contact::where('provider_id', $provider_id)->get();
-        return $contact;
+        return response()->json(['status'=>true,'data'=>$contact]);
+
     }
 }

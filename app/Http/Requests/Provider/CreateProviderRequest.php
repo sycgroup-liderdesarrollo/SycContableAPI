@@ -24,15 +24,15 @@ class CreateProviderRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'string|required|min:3|unique:providers,name',
+            'name' => 'string|required|min:3',
             'last_name',
-            'trade_name'=>'string|min:3|required|unique:providers,name',
+            'trade_name'=>'string|min:3|required|unique:providers,trade_name',
             'address' => 'string|required|min:5',
             'phone' => 'string|required|min:5',
             'identification_number' => 'string|required|min:5|unique:providers,identification_number',
             'identification_type_id' => 'required|integer',
             'iva'=>'boolean|required',
-            'email'=>'email|required',
+            'email'=>'email|required|unique:providers,email',
             'password'=>'string|required',
             'constitution_type_id' => 'required|integer',
             'city_id' => 'required|integer',

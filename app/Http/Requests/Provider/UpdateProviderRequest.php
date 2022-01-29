@@ -32,7 +32,7 @@ class UpdateProviderRequest extends FormRequest
             'last_name',
             'trade_name' => [
                 'string',
-                Rule::unique('providers','name')->ignore($this->provider)
+                Rule::unique('providers','trade_name')->ignore($this->provider)
             ],
             'address' => 'string|min:5',
             'phone' => 'string|min:5',
@@ -42,7 +42,10 @@ class UpdateProviderRequest extends FormRequest
             ],
             'identification_type_id' => 'integer',
             'iva'=>'boolean',
-            'email'=>'email',
+            'email'=>[
+                'email',
+                Rule::unique('providers','email')->ignore($this->provider)
+            ],
             'password'=>'string',
             'constitution_type_id' => 'integer',
             'city_id' => 'integer',
