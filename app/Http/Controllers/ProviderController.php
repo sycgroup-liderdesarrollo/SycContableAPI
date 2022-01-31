@@ -27,8 +27,6 @@ class ProviderController extends Controller
             return response()->json(['status'=>true,'data'=>$provider,'message'=> " Se creó un contacto con los mismos datos del proveedor!"]);
         }
         return response()->json(['status'=>true,'data'=>$provider]);
-
-
     }
     public function update(UpdateProviderRequest $request, Provider $provider)
     {

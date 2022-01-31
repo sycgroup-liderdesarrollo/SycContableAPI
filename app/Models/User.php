@@ -45,7 +45,7 @@ class User extends Authenticatable
     ];
 
     protected $hidden = ['password','remember_token','gender_id','position_id'];
-    protected $with = ['gender'];
+    protected $with = ['gender','position'];
 
     protected $casts = ['email_verified_at' => 'datetime'];
 
