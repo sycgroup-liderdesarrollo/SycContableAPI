@@ -7,6 +7,7 @@ use App\Models\Payroll;
 use App\Models\User;
 use PDF;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use SebastianBergmann\Environment\Console;
@@ -103,24 +104,28 @@ class PayrollController extends Controller
      */
     public function consultDeduccion(Request $request)
     {
+        Log::info($request->query());
         $payroll = DB::table('payrolls')
         ->join('concept_payroll', 'concept_payroll.payroll_id', '=', 'payrolls.id')
         ->join('concepts', 'concept_payroll.concept_id', '=', 'concepts.id')
-        ->join('concept_types', 'concepts.concept_type_id', '=', 'concept_types.id')
         ->join('covenants', 'covenants.concept_id', '=', 'concepts.id')
         ->join('users', 'payrolls.user_id', '=', 'users.id')
         ->join('periods', 'payrolls.period_id', '=', 'periods.id')
         ->select(
-            'payrolls.id AS nomina_id',
-            'concepts.name AS concepto',
-            'concept_types.name AS tipo_concepto',
-            'covenants.name AS convenio',
-            'users.name AS nombre_usuario',
-            'periods.name AS periodo',
-            'concept_payroll.total_value AS valor_cobrado'
+            'payrolls.id AS payroll_id',
+            'covenants.id AS covenants_id',
+            'concepts.name AS concept_name',
+            'covenants.name AS covenant_name',
+            'users.name AS user_name',
+            'periods.name AS period_name',
+            'concept_payroll.total_value AS value_charged',
+            'payrolls.period_id AS periodo',
+            'payrolls.created_at AS fecha',
         )
-        ->where('periods.id', $request->input('period_id'))
-        ->where('covenants.id', $request->input('covenants_id'))
+        ->where('periods.id', $request->query('period_id'))
+        ->where('covenants.id', $request->query('covenants_id'))
+        ->whereYear('payrolls.created_at',  $request->query('date_year'))
+        ->whereMonth('payrolls.created_at',  $request->query('date_month'))
         ->get();
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
