@@ -121,11 +121,12 @@ class PayrollController extends Controller
             'concept_payroll.total_value AS value_charged',
             'payrolls.period_id AS periodo',
             'payrolls.created_at AS fecha',
+            'users.identification_number AS identification_number'
         )
         ->where('periods.id', $request->query('period_id'))
         ->where('covenants.id', $request->query('covenants_id'))
-        ->whereYear('payrolls.created_at',  $request->query('date_year'))
-        ->whereMonth('payrolls.created_at',  $request->query('date_month'))
+        ->whereYear('payrolls.created_at', date('Y', strtotime($request->query('created_at'))))
+        ->whereMonth('payrolls.created_at',  date('m', strtotime($request->query('created_at'))))
         ->get();
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
