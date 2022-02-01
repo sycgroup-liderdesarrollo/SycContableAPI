@@ -10,7 +10,6 @@ use Illuminate\Http\Request;
  */
 class ContractTypeController extends Controller
 {
-
     public function index()
     {
         $contractTypes = ContractType::all();
@@ -24,7 +23,6 @@ class ContractTypeController extends Controller
         $contractType = ContractType::create($request->all());
         return response()->json(['status'=>true,'data'=>$contractType]);
     }
-
     public function show(ContractType $contractType)
     {
         $contractType->users;
@@ -38,7 +36,6 @@ class ContractTypeController extends Controller
         $contractType->update($request->all());
         return response()->json(['status'=>true,'data'=>$contractType]);
     }
-
     public function destroy(ContractType $contractType)
     {
         $contractType->delete();

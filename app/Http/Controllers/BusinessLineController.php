@@ -15,7 +15,6 @@ class BusinessLineController extends Controller
     public function index()
     {
         $businessLines = BusinessLine::all();
-
         return response()->json(['status'=>true,'data'=> $businessLines]);
     }
     /**
@@ -27,15 +26,12 @@ class BusinessLineController extends Controller
         return response()->json(['status'=>true,'data'=> $businessLine]);
 
     }
-
-
     public function show(BusinessLine $businessLine)
     {
         $businessLine->users;
         return response()->json(['status'=>true,'data'=> $businessLine]);
 
     }
-
     /**
      * @bodyParam name required El nombre de la linea de negocions. Example: SyC Group
      * @bodyParam active boolean El estado de la linea de negocios, si esta activa o no.
@@ -46,7 +42,6 @@ class BusinessLineController extends Controller
         return response()->json(['status'=>true,'data'=> $businessLine]);
 
     }
-
     public function destroy(BusinessLine $businessLine)
     {
         $businessLine->delete();

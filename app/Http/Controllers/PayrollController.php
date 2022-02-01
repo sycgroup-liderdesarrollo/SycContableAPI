@@ -2,24 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Events\NominaEvent;
-use App\Models\Concept;
 use App\Models\Covenant;
 use App\Models\Payroll;
 use App\Models\User;
 use Carbon\Carbon;
-use GuzzleHttp\Psr7\Message;
 use PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 /**
  * @group Payroll
  */
 class PayrollController extends Controller
 {
-
     public function index()
     {
         $payrolls = Payroll::all();
@@ -59,16 +54,15 @@ class PayrollController extends Controller
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
     /**
-     * @urlParam id int required El id de la nomina a la que se le asignará el concepto. Example: 1
-     * @urlParam id2 int required El id del concepto. Example: 2
+     * @urlParam payroll_id int required El id de la nomina a la que se le asignará el concepto. Example: 1
+     * @urlParam concept_id int required El id del concepto. Example: 2
      * @bodyParam count int required La cantidad de veces que se cobra un concepto en la nomina. Example: 15
      * @bodyParam unit_value int required El valor unitario del concepto. Example: 30000
      */
-    public function asignarConcepto($id, $id2, Request $request)
-    {   //id para la payroll y el id2 para el concepto
-        $payroll = Payroll::find($id);
-
-        $payroll->concepts()->attach($id2, ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
+    public function asignarConcepto($payroll_id, $concept_id, Request $request)
+    {
+        $payroll = Payroll::find($payroll_id);
+        $payroll->concepts()->attach($concept_id, ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
         $payroll->concepts;
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
@@ -76,9 +70,7 @@ class PayrollController extends Controller
     public function PDFi($payroll)
     {
         $payroll = Payroll::find($payroll);
-
         $pdf = PDF::loadView('payroll.payroll', ['payroll'=>$payroll]);
-
         return $pdf->stream(); //se peude usar un ->download() y stream();
     }
 
@@ -124,67 +116,4 @@ class PayrollController extends Controller
         ->get();
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
-
-    public function prueba()
-    {
-        $covenants = Covenant::where('covenant_type_id',2)->get();
-
-        $comunConcepts = Concept::where('id', '<=', '2')->get();
-        Log::info($comunConcepts);
-        $actualDate = Carbon::now()->format('Y-m-d');
-        Log::info($actualDate. " fecha actual");
-
-        $ifExistCovenantPayroll = DB::table('concept_payroll')
-        ->whereDate('created_at', Carbon::now()->format('Y-m-d'))
-        ->select(DB::raw('DATE_FORMAT(created_at, "%Y-%m-%d") as created_at'))
-        ->value('created_at');
-        Log::info($ifExistCovenantPayroll. " fecha database");
-
-        $usersComun = DB::table('users')
-        ->where('active', '=','1')
-        ->get();
-        Log::info($usersComun." usuarios que existen");
-
-        $value = DB::table('settings')
-        ->where('id',2)
-        ->select('value')
-        ->value('value');
-        if($ifExistCovenantPayroll != $actualDate){
-            foreach ($covenants as $covenant) {
-                $users = $covenant->users;
-                foreach ($users as $user) {
-
-                    Log::info($user->id." id del usurio");
-                    Log::info("entró al for");
-
-                    $payrollUser = $user->lastPayroll;
-
-                    Log::info($covenant->concept_id." id concepto ".$user." id usuario");
-
-                    $payrollUser->concepts()->attach($covenant->concept_id, ['count' => 1,'unit_value'=>$covenant->value , 'total_value'=>$covenant->value]);
-
-                    Log::info('lo creó');
-                }
-            }
-            foreach($usersComun as $userComun){
-
-                Log::info('entró al foreach de conceptos comunes');
-
-                Log::info($userComun->id." id del usuario activo");
-
-                $payrollUserComun = $user->lastPayroll;
-
-                $payrollUser->concepts()->attach(1 ,['count' => 15, 'unit_value'=>$payrollUser->user->base_salary/30, 'total_value'=>($payrollUser->count ?? 15)*($payrollUser->user->base_salary/30)]);
-                $payrollUser->concepts()->attach(2 ,['count' => 1, 'unit_value'=>$value, 'total_value'=>$value]);
-
-                Log::info('lo creó '.$payrollUser);
-            }
-        }
-        else {
-            return response()->json(['status'=>true,'data'=> "No se puede volver a crear el mismo concepto en la payroll!"]);
-
-        }
-        return response()->json(['status'=>true,'data'=>$payrollUser]);
-    }
 }
-//arreglar poner conceptos comunes de salario y aux trans en la nomina sin que se repita

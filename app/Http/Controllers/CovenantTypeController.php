@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
  */
 class CovenantTypeController extends Controller
 {
-
     public function index()
     {
         $covenantTypes = CovenantType::all();
@@ -36,7 +35,6 @@ class CovenantTypeController extends Controller
         $covenantType->update($request->all());
         return response()->json(['status'=>true,'data'=>$covenantType]);
     }
-
     public function destroy(CovenantType $covenantType)
     {
         $covenantType->delete();

@@ -32,14 +32,9 @@ class User extends Authenticatable
         'deleted_at'
     ];
 
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
+    protected $hidden = ['password','remember_token',];
 
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+    protected $casts = ['email_verified_at' => 'datetime',];
 
     public function businessLine()
     {
@@ -77,17 +72,14 @@ class User extends Authenticatable
     {
         return $this->hasMany(Payroll::class);
     }
-
     public function lastPayroll()
     {
         return $this->hasOne(Payroll::class)->latestOfMany();
     }
-
     public function scopeFilter($query, $filter)
     {
         return $query->where('name','like','%'.$filter.'%');
     }
-
     public function scopeActive($query, $active)
     {
         return $query->where('active', 'like','%'.$active);

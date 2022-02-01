@@ -21,7 +21,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Salud Jhonatan","address":"Pererira","phone":"3113012618","identification_number":"12325587","identification_type_id":2,"created_at":"2022-01-03T19:04:14.000000Z","updated_at":"2022-01-03T19:04:14.000000Z","deleted_at":null,"identification_type":{"id":2,"name":"NIT","created_at":null,"updated_at":null,"deleted_at":null}}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Salud Jhonatan","address":"Pererira","phone":"3113012618","identification_number":"12325587","identification_type_id":2,"created_at":"2022-01-04T00:04:14.000000Z","updated_at":"2022-01-04T00:04:14.000000Z","deleted_at":null,"identification_type":{"id":2,"name":"NIT","created_at":null,"updated_at":null,"deleted_at":null}}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -49,35 +49,35 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: c
+        example: dun
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: true
-        example: ld
+        example: fyi
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: true
-        example: yi
+        example: ndplm
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: 'Must be at least 5 characters.'
         required: true
-        example: o
+        example: cgxiv
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: true
-        example: 13
+        example: 8
         type: integer
         custom: []
     responses: []
@@ -99,7 +99,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 3
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -107,7 +107,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Salud Jhonatan","address":"Pererira","phone":"3113012618","identification_number":"12325587","identification_type_id":2,"created_at":"2022-01-03T19:04:14.000000Z","updated_at":"2022-01-03T19:04:14.000000Z","deleted_at":null,"identification_type":{"id":2,"name":"NIT","created_at":null,"updated_at":null,"deleted_at":null}}}'
+        content: '{"status":true,"data":{"id":1,"name":"Salud Jhonatan","address":"Pererira","phone":"3113012618","identification_number":"12325587","identification_type_id":2,"created_at":"2022-01-04T00:04:14.000000Z","updated_at":"2022-01-04T00:04:14.000000Z","deleted_at":null,"identification_type":{"id":2,"name":"NIT","created_at":null,"updated_at":null,"deleted_at":null}}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -143,35 +143,35 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: sed
+        example: exercitationem
         type: string
         custom: []
       address:
         name: address
         description: 'Must be at least 5 characters.'
         required: false
-        example: coyyr
+        example: o
         type: string
         custom: []
       phone:
         name: phone
         description: 'Must be at least 5 characters.'
         required: false
-        example: ''
+        example: s
         type: string
         custom: []
       identification_number:
         name: identification_number
         description: ''
         required: false
-        example: modi
+        example: quis
         type: string
         custom: []
       identification_type_id:
         name: identification_type_id
         description: ''
         required: false
-        example: 8
+        example: 4
         type: integer
         custom: []
     responses: []
@@ -193,7 +193,7 @@ endpoints:
         name: id
         description: 'The ID of the provider.'
         required: true
-        example: 10
+        example: 4
         type: integer
         custom: []
     queryParameters: []

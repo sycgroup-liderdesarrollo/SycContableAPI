@@ -8,8 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class PeriodicityType extends Model
 {
     use HasFactory;
-    protected $fillable=['name',
-    'deleted_at'];
+    protected $fillable=['name','deleted_at'];
 
     public function covenant()
     {

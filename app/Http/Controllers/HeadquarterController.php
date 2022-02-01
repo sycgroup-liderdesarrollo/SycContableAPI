@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
  */
 class HeadquarterController extends Controller
 {
-
     public function index()
     {
         $headQuarters = Headquarter::all();
@@ -23,7 +22,6 @@ class HeadquarterController extends Controller
         $headQuarter = Headquarter::create($request->all());
         return response()->json(['status'=>true,'data'=>$headQuarter]);
     }
-
     public function show(Headquarter $headQuarter)
     {
         $headQuarter->users;
@@ -37,7 +35,6 @@ class HeadquarterController extends Controller
         $headQuarter->update($request->all());
         return response()->json(['status'=>true,'data'=>$headQuarter]);
     }
-
     public function destroy(Headquarter $headQuarter)
     {
         $headQuarter->delete();

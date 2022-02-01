@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
  */
 class IdentificationTypeController extends Controller
 {
-
     public function index()
     {
         $identificationTypes = identificationType::all();
@@ -23,7 +22,6 @@ class IdentificationTypeController extends Controller
         $identificationType = identificationType::create($request->all());
         return response()->json(['status'=>true,'data'=>$identificationType]);
     }
-
     public function show(identificationType $identificationType)
     {
         $identificationType->users;
@@ -38,7 +36,6 @@ class IdentificationTypeController extends Controller
         $identificationType->update($request->all());
         return response()->json(['status'=>true,'data'=>$identificationType]);
     }
-
     public function destroy(identificationType $identificationType)
     {
         $identificationType->delete();

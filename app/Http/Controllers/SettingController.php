@@ -16,25 +16,21 @@ class SettingController extends Controller
         $settings = Setting::all();
         return response()->json(['status'=>true,'data'=>$settings]);
     }
-
     public function store(CreateSettingRequest $request)
     {
         $setting = Setting::create($request->all());
         return response()->json(['status'=>true,'data'=>$setting]);
 
     }
-
     public function show(Setting $setting)
     {
         return response()->json(['status'=>true,'data'=>$setting]);
     }
-
     public function update(UpdateSettingRequest $request, Setting $setting)
     {
         $setting->update($request->all());
         return response()->json(['status'=>true,'data'=>$setting]);
     }
-
     public function destroy(Setting $setting)
     {
         $setting->delete();

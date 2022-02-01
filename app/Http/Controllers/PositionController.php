@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
  */
 class PositionController extends Controller
 {
-
     public function index()
     {
         $positions = Position::all();
@@ -23,13 +22,10 @@ class PositionController extends Controller
         $position = Position::create($request->all());
         return response()->json(['status'=>true,'data'=>$position]);
     }
-
-
     public function show(Position $position)
     {
         return response()->json(['status'=>true,'data'=>$position]);
     }
-
     /**
      * @bodyParam name required El nombre del cargo. Example: Jefe
      */
@@ -38,8 +34,6 @@ class PositionController extends Controller
         $position->update($request->all());
         return response()->json(['status'=>true,'data'=>$position]);
     }
-
-
     public function destroy(Position $position)
     {
         $position->delete();

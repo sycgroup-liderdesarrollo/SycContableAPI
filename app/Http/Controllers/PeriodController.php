@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
  */
 class PeriodController extends Controller
 {
-
     public function index()
     {
         $periods = Period::all();
@@ -23,7 +22,6 @@ class PeriodController extends Controller
         $period = Period::create($request->all());
         return response()->json(['status'=>true,'data'=>$period]);
     }
-
     public function show(Period $period)
     {
         return response()->json(['status'=>true,'data'=>$period]);
@@ -36,7 +34,6 @@ class PeriodController extends Controller
         $period->update($request->all());
         return response()->json(['status'=>true,'data'=>$period]);
     }
-
     public function destroy(Period $period)
     {
         $period->delete();

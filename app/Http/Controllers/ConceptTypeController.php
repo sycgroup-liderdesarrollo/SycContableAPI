@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
  */
 class ConceptTypeController extends Controller
 {
-
     public function index()
     {
         $conceptTypes = ConceptType::all();

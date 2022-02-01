@@ -10,8 +10,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class BusinessLine extends Model
 {
     use HasFactory, SoftDeletes;
-    protected $fillable = ['name',
-    'deleted_at'];
+    protected $fillable = ['name','deleted_at'];
 
     public function users()
     {

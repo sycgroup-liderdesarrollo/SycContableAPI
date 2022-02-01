@@ -69,7 +69,6 @@ class CovenantController extends Controller
             'concepts.name AS concepto',
             'concept_types.name AS tipo',
             'periodicity_types.name AS periodo')
-
         ->where('covenants.id', $request->input('covenant_id'))
         ->where('concept_types.id', $request->input('concept_type_id'))
         ->where('periodicity_types.id', $request->input('periodicity_type_id'))
