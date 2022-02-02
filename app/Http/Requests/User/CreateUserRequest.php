@@ -24,8 +24,8 @@ class CreateUserRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'required|string|min:5',
-            'last_name'=>'required|string|min:5',
+            'name'=>'required|string|min:3',
+            'last_name'=>'required|string|min:3',
             'second_last_name' => 'string',
             'identification_number'=>'required|unique:users,identification_number|string',
 
