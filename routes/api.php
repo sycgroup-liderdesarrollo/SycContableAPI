@@ -16,6 +16,7 @@ use App\Http\Controllers\GenderController;
 use App\Http\Controllers\HeadquarterController;
 use App\Http\Controllers\HealthProviderController;
 use App\Http\Controllers\IdentificationTypeController;
+use App\Http\Controllers\KinkshipController;
 use App\Http\Controllers\PayrollController;
 use App\Http\Controllers\PensionFundController;
 use App\Http\Controllers\PeriodController;
@@ -83,9 +84,7 @@ Route::middleware(['auth:api'])->group(function () {
         return response()->json(['isLogined'=>false]);
     });
     Route::apiResource('emergencyContact', EmergencyContactController::class);
-
     Route::apiResource('contact', ContactController::class);
-
     Route::prefix('contact')->group(function(){
         Route::get('provider/{provider_id}',[ContactController::class,'providerContact']);
     });
@@ -100,6 +99,7 @@ Route::middleware(['auth:api'])->group(function () {
     Route::apiResource('educationLevel', EducationLevelController::class);
     Route::apiResource('constitutionType', ConstitutionTypeController::class);
     Route::apiResource('responsabilityType', ResponsabilityTypeController::class);
+    Route::apiResource('kinship', KinkshipController::class);
 
 
 
