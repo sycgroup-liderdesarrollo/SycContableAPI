@@ -69,46 +69,6 @@
                                                 </ul>
                     
                     <ul id="tocify-header-2" class="tocify-header">
-                <li class="tocify-item level-1" data-unique="civil-statu">
-                    <a href="#civil-statu">Civil Statu</a>
-                </li>
-                                    <ul id="tocify-subheader-civil-statu" class="tocify-subheader">
-                                                    <li class="tocify-item level-2" data-unique="civil-statu-GETapi-civilStatu">
-                        <a href="#civil-statu-GETapi-civilStatu">GET api/civilStatu</a>
-                    </li>
-                                                    </ul>
-                            </ul>
-                    <ul id="tocify-header-3" class="tocify-header">
-                <li class="tocify-item level-1" data-unique="education-level">
-                    <a href="#education-level">Education Level</a>
-                </li>
-                                    <ul id="tocify-subheader-education-level" class="tocify-subheader">
-                                                    <li class="tocify-item level-2" data-unique="education-level-GETapi-educationLevel">
-                        <a href="#education-level-GETapi-educationLevel">GET api/educationLevel</a>
-                    </li>
-                                                    </ul>
-                            </ul>
-                    <ul id="tocify-header-4" class="tocify-header">
-                <li class="tocify-item level-1" data-unique="gender">
-                    <a href="#gender">Gender</a>
-                </li>
-                                    <ul id="tocify-subheader-gender" class="tocify-subheader">
-                                                    <li class="tocify-item level-2" data-unique="gender-GETapi-gender">
-                        <a href="#gender-GETapi-gender">GET api/gender</a>
-                    </li>
-                                                    </ul>
-                            </ul>
-                    <ul id="tocify-header-5" class="tocify-header">
-                <li class="tocify-item level-1" data-unique="strata">
-                    <a href="#strata">Strata</a>
-                </li>
-                                    <ul id="tocify-subheader-strata" class="tocify-subheader">
-                                                    <li class="tocify-item level-2" data-unique="strata-GETapi-strata">
-                        <a href="#strata-GETapi-strata">GET api/strata</a>
-                    </li>
-                                                    </ul>
-                            </ul>
-                    <ul id="tocify-header-6" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="business-line">
                     <a href="#business-line">Business Line</a>
                 </li>
@@ -130,7 +90,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-7" class="tocify-header">
+                    <ul id="tocify-header-3" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="city">
                     <a href="#city">City</a>
                 </li>
@@ -140,7 +100,17 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-8" class="tocify-header">
+                    <ul id="tocify-header-4" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="civil-statu">
+                    <a href="#civil-statu">Civil Statu</a>
+                </li>
+                                    <ul id="tocify-subheader-civil-statu" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="civil-statu-GETapi-civilStatu">
+                        <a href="#civil-statu-GETapi-civilStatu">GET api/civilStatu</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-5" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="concept">
                     <a href="#concept">Concept</a>
                 </li>
@@ -162,7 +132,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-9" class="tocify-header">
+                    <ul id="tocify-header-6" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="concept-type">
                     <a href="#concept-type">Concept Type</a>
                 </li>
@@ -184,7 +154,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-10" class="tocify-header">
+                    <ul id="tocify-header-7" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="contact">
                     <a href="#contact">Contact</a>
                 </li>
@@ -204,9 +174,12 @@
                                     <li class="tocify-item level-2" data-unique="contact-DELETEapi-contact--id-">
                         <a href="#contact-DELETEapi-contact--id-">DELETE api/contact/{id}</a>
                     </li>
+                                    <li class="tocify-item level-2" data-unique="contact-GETapi-contact-provider--provider_id-">
+                        <a href="#contact-GETapi-contact-provider--provider_id-">GET api/contact/provider/{provider_id}</a>
+                    </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-11" class="tocify-header">
+                    <ul id="tocify-header-8" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="contract-type">
                     <a href="#contract-type">Contract Type</a>
                 </li>
@@ -228,7 +201,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-12" class="tocify-header">
+                    <ul id="tocify-header-9" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="covenant">
                     <a href="#covenant">Covenant</a>
                 </li>
@@ -253,7 +226,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-13" class="tocify-header">
+                    <ul id="tocify-header-10" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="covenant-type">
                     <a href="#covenant-type">Covenant Type</a>
                 </li>
@@ -275,7 +248,17 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-14" class="tocify-header">
+                    <ul id="tocify-header-11" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="education-level">
+                    <a href="#education-level">Education Level</a>
+                </li>
+                                    <ul id="tocify-subheader-education-level" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="education-level-GETapi-educationLevel">
+                        <a href="#education-level-GETapi-educationLevel">GET api/educationLevel</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-12" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="emergency-contact">
                     <a href="#emergency-contact">Emergency Contact</a>
                 </li>
@@ -297,7 +280,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-15" class="tocify-header">
+                    <ul id="tocify-header-13" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="endpoints">
                     <a href="#endpoints">Endpoints</a>
                 </li>
@@ -305,9 +288,25 @@
                                                     <li class="tocify-item level-2" data-unique="endpoints-GETapi-checkLogin">
                         <a href="#endpoints-GETapi-checkLogin">GET api/checkLogin</a>
                     </li>
+                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-constitutionType">
+                        <a href="#endpoints-GETapi-constitutionType">GET api/constitutionType</a>
+                    </li>
+                                    <li class="tocify-item level-2" data-unique="endpoints-GETapi-responsabilityType">
+                        <a href="#endpoints-GETapi-responsabilityType">GET api/responsabilityType</a>
+                    </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-16" class="tocify-header">
+                    <ul id="tocify-header-14" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="gender">
+                    <a href="#gender">Gender</a>
+                </li>
+                                    <ul id="tocify-subheader-gender" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="gender-GETapi-gender">
+                        <a href="#gender-GETapi-gender">GET api/gender</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-15" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="headquarter">
                     <a href="#headquarter">Headquarter</a>
                 </li>
@@ -329,7 +328,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-17" class="tocify-header">
+                    <ul id="tocify-header-16" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="health-provider">
                     <a href="#health-provider">Health Provider</a>
                 </li>
@@ -351,7 +350,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-18" class="tocify-header">
+                    <ul id="tocify-header-17" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="identification-type">
                     <a href="#identification-type">Identification Type</a>
                 </li>
@@ -373,7 +372,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-19" class="tocify-header">
+                    <ul id="tocify-header-18" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="payroll">
                     <a href="#payroll">Payroll</a>
                 </li>
@@ -410,7 +409,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-20" class="tocify-header">
+                    <ul id="tocify-header-19" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="pension-fund">
                     <a href="#pension-fund">Pension Fund</a>
                 </li>
@@ -432,7 +431,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-21" class="tocify-header">
+                    <ul id="tocify-header-20" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="period">
                     <a href="#period">Period</a>
                 </li>
@@ -454,7 +453,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-22" class="tocify-header">
+                    <ul id="tocify-header-21" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="periodicity-type">
                     <a href="#periodicity-type">Periodicity Type</a>
                 </li>
@@ -476,7 +475,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-23" class="tocify-header">
+                    <ul id="tocify-header-22" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="position">
                     <a href="#position">Position</a>
                 </li>
@@ -498,7 +497,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-24" class="tocify-header">
+                    <ul id="tocify-header-23" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="provider">
                     <a href="#provider">Provider</a>
                 </li>
@@ -520,7 +519,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-25" class="tocify-header">
+                    <ul id="tocify-header-24" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="province">
                     <a href="#province">Province</a>
                 </li>
@@ -530,7 +529,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-26" class="tocify-header">
+                    <ul id="tocify-header-25" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="salary-type">
                     <a href="#salary-type">Salary Type</a>
                 </li>
@@ -552,7 +551,7 @@
                     </li>
                                                     </ul>
                             </ul>
-                    <ul id="tocify-header-27" class="tocify-header">
+                    <ul id="tocify-header-26" class="tocify-header">
                 <li class="tocify-item level-1" data-unique="setting">
                     <a href="#setting">Setting</a>
                 </li>
@@ -571,6 +570,16 @@
                     </li>
                                     <li class="tocify-item level-2" data-unique="setting-DELETEapi-setting--id-">
                         <a href="#setting-DELETEapi-setting--id-">DELETE api/setting/{id}</a>
+                    </li>
+                                                    </ul>
+                            </ul>
+                    <ul id="tocify-header-27" class="tocify-header">
+                <li class="tocify-item level-1" data-unique="strata">
+                    <a href="#strata">Strata</a>
+                </li>
+                                    <ul id="tocify-subheader-strata" class="tocify-subheader">
+                                                    <li class="tocify-item level-2" data-unique="strata-GETapi-strata">
+                        <a href="#strata-GETapi-strata">GET api/strata</a>
                     </li>
                                                     </ul>
                             </ul>
@@ -597,6 +606,9 @@
                                     <li class="tocify-item level-2" data-unique="user-POSTapi-user-asignarConvenio--user_id-">
                         <a href="#user-POSTapi-user-asignarConvenio--user_id-">POST api/user/asignarConvenio/{user_id}</a>
                     </li>
+                                    <li class="tocify-item level-2" data-unique="user-DELETEapi-user-eliminarConvenio--user_id-">
+                        <a href="#user-DELETEapi-user-eliminarConvenio--user_id-">DELETE api/user/eliminarConvenio/{user_id}</a>
+                    </li>
                                                     </ul>
                             </ul>
         
@@ -609,7 +621,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: January 27 2022</li>
+        <li>Last updated: February 4 2022</li>
     </ul>
 </div>
 
@@ -626,476 +638,6 @@
 
         <h1 id="authenticating-requests">Authenticating requests</h1>
 <p>This API is not authenticated.</p>
-
-        <h1 id="civil-statu">Civil Statu</h1>
-
-    
-
-            <h2 id="civil-statu-GETapi-civilStatu">GET api/civilStatu</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-civilStatu">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/civilStatu',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-civilStatu">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 47
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Soltero&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Casado&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;Union Libre&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-civilStatu" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-civilStatu"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-civilStatu"></code></pre>
-</span>
-<span id="execution-error-GETapi-civilStatu" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-civilStatu"></code></pre>
-</span>
-<form id="form-GETapi-civilStatu" data-method="GET"
-      data-path="api/civilStatu"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-civilStatu', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-civilStatu"
-                    onclick="tryItOut('GETapi-civilStatu');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-civilStatu"
-                    onclick="cancelTryOut('GETapi-civilStatu');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-civilStatu" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/civilStatu</code></b>
-        </p>
-                    </form>
-
-        <h1 id="education-level">Education Level</h1>
-
-    
-
-            <h2 id="education-level-GETapi-educationLevel">GET api/educationLevel</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-educationLevel">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/educationLevel',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-educationLevel">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 45
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Basica&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Bachiller&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;Tecnico&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Profesional&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-educationLevel" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-educationLevel"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-educationLevel"></code></pre>
-</span>
-<span id="execution-error-GETapi-educationLevel" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-educationLevel"></code></pre>
-</span>
-<form id="form-GETapi-educationLevel" data-method="GET"
-      data-path="api/educationLevel"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-educationLevel', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-educationLevel"
-                    onclick="tryItOut('GETapi-educationLevel');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-educationLevel"
-                    onclick="cancelTryOut('GETapi-educationLevel');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-educationLevel" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/educationLevel</code></b>
-        </p>
-                    </form>
-
-        <h1 id="gender">Gender</h1>
-
-    
-
-            <h2 id="gender-GETapi-gender">GET api/gender</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-gender">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/gender',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-gender">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 48
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Masculino&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Femenino&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-gender" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-gender"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-gender"></code></pre>
-</span>
-<span id="execution-error-GETapi-gender" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-gender"></code></pre>
-</span>
-<form id="form-GETapi-gender" data-method="GET"
-      data-path="api/gender"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-gender', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-gender"
-                    onclick="tryItOut('GETapi-gender');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-gender"
-                    onclick="cancelTryOut('GETapi-gender');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-gender" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/gender</code></b>
-        </p>
-                    </form>
-
-        <h1 id="strata">Strata</h1>
-
-    
-
-            <h2 id="strata-GETapi-strata">GET api/strata</h2>
-
-<p>
-</p>
-
-
-
-<span id="example-requests-GETapi-strata">
-<blockquote>Example request:</blockquote>
-
-
-<div class="PHP-example">
-    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
-$response = $client-&gt;get(
-    'http://localhost:8000/api/strata',
-    [
-        'headers' =&gt; [
-            'Content-Type' =&gt; 'application/json',
-            'Accept' =&gt; 'application/json',
-        ],
-    ]
-);
-$body = $response-&gt;getBody();
-print_r(json_decode((string) $body));</code></pre></div>
-
-</span>
-
-<span id="example-responses-GETapi-strata">
-            <blockquote>
-            <p>Example response (200):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre><code class="language-http">cache-control: no-cache, private
-content-type: application/json
-x-ratelimit-limit: 60
-x-ratelimit-remaining: 46
-access-control-allow-origin: *
- </code></pre>
-        </details>         <pre>
-
-<code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;Estato 1&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Estato 2&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;Estato 3&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Estato 4&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 5,
-            &quot;name&quot;: &quot;Estato 5&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        },
-        {
-            &quot;id&quot;: 6,
-            &quot;name&quot;: &quot;Estato 6&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;
-        }
-    ]
-}</code>
- </pre>
-    </span>
-<span id="execution-results-GETapi-strata" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GETapi-strata"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-strata"></code></pre>
-</span>
-<span id="execution-error-GETapi-strata" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-strata"></code></pre>
-</span>
-<form id="form-GETapi-strata" data-method="GET"
-      data-path="api/strata"
-      data-authed="0"
-      data-hasfiles="0"
-      data-isarraybody="0"
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-strata', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-strata"
-                    onclick="tryItOut('GETapi-strata');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-strata"
-                    onclick="cancelTryOut('GETapi-strata');" hidden>Cancel 🛑
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-strata" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>api/strata</code></b>
-        </p>
-                    </form>
 
         <h1 id="business-line">Business Line</h1>
 
@@ -1286,7 +828,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/businessLine/9',
+    'http://localhost:8000/api/businessLine/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1363,7 +905,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-businessLine--id-"
-               value="9"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1384,7 +926,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/businessLine/7',
+    'http://localhost:8000/api/businessLine/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1392,7 +934,7 @@ $response = $client-&gt;put(
         ],
         'json' =&gt; [
             'name' =&gt; 'SyC Group',
-            'active' =&gt; false,
+            'active' =&gt; true,
         ],
     ]
 );
@@ -1452,7 +994,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-businessLine--id-"
-               value="7"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1505,7 +1047,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/businessLine/10',
+    'http://localhost:8000/api/businessLine/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -1565,7 +1107,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-businessLine--id-"
-               value="10"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the businessLine.</p>
@@ -1617,7 +1159,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 50
+x-ratelimit-remaining: 49
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -1626,13 +1168,11233 @@ access-control-allow-origin: *
     &quot;status&quot;: true,
     &quot;data&quot;: [
         {
+            &quot;id&quot;: 1,
+            &quot;danecode&quot;: 5001,
+            &quot;name&quot;: &quot;Medell&iacute;n&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;danecode&quot;: 5002,
+            &quot;name&quot;: &quot;Abejorral&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;danecode&quot;: 5004,
+            &quot;name&quot;: &quot;Abriaqu&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;danecode&quot;: 5021,
+            &quot;name&quot;: &quot;Alejandr&iacute;a&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 5,
+            &quot;danecode&quot;: 503,
+            &quot;name&quot;: &quot;Amag&aacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 6,
+            &quot;danecode&quot;: 5031,
+            &quot;name&quot;: &quot;Amalfi&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 7,
+            &quot;danecode&quot;: 5034,
+            &quot;name&quot;: &quot;Andes&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 8,
+            &quot;danecode&quot;: 5036,
+            &quot;name&quot;: &quot;Angel&oacute;polis&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 9,
+            &quot;danecode&quot;: 5038,
+            &quot;name&quot;: &quot;Angostura&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 10,
+            &quot;danecode&quot;: 504,
+            &quot;name&quot;: &quot;Anor&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 11,
+            &quot;danecode&quot;: 15832,
+            &quot;name&quot;: &quot;Tunungu&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 12,
+            &quot;danecode&quot;: 5044,
+            &quot;name&quot;: &quot;Anza&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 13,
+            &quot;danecode&quot;: 5045,
+            &quot;name&quot;: &quot;Apartad&oacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 14,
+            &quot;danecode&quot;: 5051,
+            &quot;name&quot;: &quot;Arboletes&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 15,
+            &quot;danecode&quot;: 5055,
+            &quot;name&quot;: &quot;Argelia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 16,
+            &quot;danecode&quot;: 5059,
+            &quot;name&quot;: &quot;Armenia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 17,
+            &quot;danecode&quot;: 5079,
+            &quot;name&quot;: &quot;Barbosa&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 18,
+            &quot;danecode&quot;: 5088,
+            &quot;name&quot;: &quot;Bello&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 19,
+            &quot;danecode&quot;: 5091,
+            &quot;name&quot;: &quot;Betania&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 20,
+            &quot;danecode&quot;: 5093,
+            &quot;name&quot;: &quot;Betulia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 21,
+            &quot;danecode&quot;: 5101,
+            &quot;name&quot;: &quot;Ciudad Bol&iacute;var&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 22,
+            &quot;danecode&quot;: 5107,
+            &quot;name&quot;: &quot;Brice&ntilde;o&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 23,
+            &quot;danecode&quot;: 5113,
+            &quot;name&quot;: &quot;Buritic&aacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 24,
+            &quot;danecode&quot;: 512,
+            &quot;name&quot;: &quot;C&aacute;ceres&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 25,
+            &quot;danecode&quot;: 5125,
+            &quot;name&quot;: &quot;Caicedo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 26,
+            &quot;danecode&quot;: 5129,
+            &quot;name&quot;: &quot;Caldas&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 27,
+            &quot;danecode&quot;: 5134,
+            &quot;name&quot;: &quot;Campamento&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 28,
+            &quot;danecode&quot;: 5138,
+            &quot;name&quot;: &quot;Ca&ntilde;asgordas&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 29,
+            &quot;danecode&quot;: 5142,
+            &quot;name&quot;: &quot;Caracol&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 30,
+            &quot;danecode&quot;: 5145,
+            &quot;name&quot;: &quot;Caramanta&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 31,
+            &quot;danecode&quot;: 5147,
+            &quot;name&quot;: &quot;Carepa&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 32,
+            &quot;danecode&quot;: 15476,
+            &quot;name&quot;: &quot;Motavita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 33,
+            &quot;danecode&quot;: 515,
+            &quot;name&quot;: &quot;Carolina&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 34,
+            &quot;danecode&quot;: 5154,
+            &quot;name&quot;: &quot;Caucasia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 35,
+            &quot;danecode&quot;: 5172,
+            &quot;name&quot;: &quot;Chigorod&oacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 36,
+            &quot;danecode&quot;: 519,
+            &quot;name&quot;: &quot;Cisneros&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 37,
+            &quot;danecode&quot;: 5197,
+            &quot;name&quot;: &quot;Cocorn&aacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 38,
+            &quot;danecode&quot;: 5206,
+            &quot;name&quot;: &quot;Concepci&oacute;n&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 39,
+            &quot;danecode&quot;: 5209,
+            &quot;name&quot;: &quot;Concordia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 40,
+            &quot;danecode&quot;: 5212,
+            &quot;name&quot;: &quot;Copacabana&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 41,
+            &quot;danecode&quot;: 5234,
+            &quot;name&quot;: &quot;Dabeiba&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 42,
+            &quot;danecode&quot;: 5237,
+            &quot;name&quot;: &quot;Don Mat&iacute;as&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 43,
+            &quot;danecode&quot;: 524,
+            &quot;name&quot;: &quot;Eb&eacute;jico&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 44,
+            &quot;danecode&quot;: 525,
+            &quot;name&quot;: &quot;El Bagre&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 45,
+            &quot;danecode&quot;: 5264,
+            &quot;name&quot;: &quot;Entrerrios&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 46,
+            &quot;danecode&quot;: 5266,
+            &quot;name&quot;: &quot;Envigado&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 47,
+            &quot;danecode&quot;: 5282,
+            &quot;name&quot;: &quot;Fredonia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 48,
+            &quot;danecode&quot;: 23675,
+            &quot;name&quot;: &quot;San Bernardo del Viento&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 49,
+            &quot;danecode&quot;: 5306,
+            &quot;name&quot;: &quot;Giraldo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 50,
+            &quot;danecode&quot;: 5308,
+            &quot;name&quot;: &quot;Girardota&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 51,
+            &quot;danecode&quot;: 531,
+            &quot;name&quot;: &quot;G&oacute;mez Plata&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 52,
+            &quot;danecode&quot;: 27361,
+            &quot;name&quot;: &quot;Istmina&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 53,
+            &quot;danecode&quot;: 5315,
+            &quot;name&quot;: &quot;Guadalupe&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 54,
+            &quot;danecode&quot;: 5318,
+            &quot;name&quot;: &quot;Guarne&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 55,
+            &quot;danecode&quot;: 5321,
+            &quot;name&quot;: &quot;Guatap&eacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 56,
+            &quot;danecode&quot;: 5347,
+            &quot;name&quot;: &quot;Heliconia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 57,
+            &quot;danecode&quot;: 5353,
+            &quot;name&quot;: &quot;Hispania&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 58,
+            &quot;danecode&quot;: 536,
+            &quot;name&quot;: &quot;Itagui&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 59,
+            &quot;danecode&quot;: 5361,
+            &quot;name&quot;: &quot;Ituango&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 60,
+            &quot;danecode&quot;: 5086,
+            &quot;name&quot;: &quot;Belmira&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 61,
+            &quot;danecode&quot;: 5368,
+            &quot;name&quot;: &quot;Jeric&oacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 62,
+            &quot;danecode&quot;: 5376,
+            &quot;name&quot;: &quot;La Ceja&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 63,
+            &quot;danecode&quot;: 538,
+            &quot;name&quot;: &quot;La Estrella&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 64,
+            &quot;danecode&quot;: 539,
+            &quot;name&quot;: &quot;La Pintada&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 65,
+            &quot;danecode&quot;: 54,
+            &quot;name&quot;: &quot;La Uni&oacute;n&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 66,
+            &quot;danecode&quot;: 5411,
+            &quot;name&quot;: &quot;Liborina&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 67,
+            &quot;danecode&quot;: 5425,
+            &quot;name&quot;: &quot;Maceo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 68,
+            &quot;danecode&quot;: 544,
+            &quot;name&quot;: &quot;Marinilla&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 69,
+            &quot;danecode&quot;: 5467,
+            &quot;name&quot;: &quot;Montebello&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 70,
+            &quot;danecode&quot;: 5475,
+            &quot;name&quot;: &quot;Murind&oacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 71,
+            &quot;danecode&quot;: 548,
+            &quot;name&quot;: &quot;Mutat&aacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 72,
+            &quot;danecode&quot;: 5483,
+            &quot;name&quot;: &quot;Nari&ntilde;o&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 73,
+            &quot;danecode&quot;: 549,
+            &quot;name&quot;: &quot;Necocl&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 74,
+            &quot;danecode&quot;: 5495,
+            &quot;name&quot;: &quot;Nech&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 75,
+            &quot;danecode&quot;: 5501,
+            &quot;name&quot;: &quot;Olaya&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 76,
+            &quot;danecode&quot;: 5541,
+            &quot;name&quot;: &quot;Pe&ntilde;ol&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 77,
+            &quot;danecode&quot;: 5543,
+            &quot;name&quot;: &quot;Peque&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 78,
+            &quot;danecode&quot;: 5576,
+            &quot;name&quot;: &quot;Pueblorrico&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 79,
+            &quot;danecode&quot;: 5579,
+            &quot;name&quot;: &quot;Puerto Berr&iacute;o&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 80,
+            &quot;danecode&quot;: 5585,
+            &quot;name&quot;: &quot;Puerto Nare&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 81,
+            &quot;danecode&quot;: 5591,
+            &quot;name&quot;: &quot;Puerto Triunfo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 82,
+            &quot;danecode&quot;: 5604,
+            &quot;name&quot;: &quot;Remedios&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 83,
+            &quot;danecode&quot;: 5607,
+            &quot;name&quot;: &quot;Retiro&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 84,
+            &quot;danecode&quot;: 5615,
+            &quot;name&quot;: &quot;Rionegro&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 85,
+            &quot;danecode&quot;: 5628,
+            &quot;name&quot;: &quot;Sabanalarga&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 86,
+            &quot;danecode&quot;: 5631,
+            &quot;name&quot;: &quot;Sabaneta&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 87,
+            &quot;danecode&quot;: 5642,
+            &quot;name&quot;: &quot;Salgar&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 88,
+            &quot;danecode&quot;: 15189,
+            &quot;name&quot;: &quot;Ci&eacute;nega&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 89,
+            &quot;danecode&quot;: 52699,
+            &quot;name&quot;: &quot;Santacruz&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 90,
+            &quot;danecode&quot;: 5652,
+            &quot;name&quot;: &quot;San Francisco&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 91,
+            &quot;danecode&quot;: 5656,
+            &quot;name&quot;: &quot;San Jer&oacute;nimo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 92,
+            &quot;danecode&quot;: 68575,
+            &quot;name&quot;: &quot;Puerto Wilches&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 93,
+            &quot;danecode&quot;: 68573,
+            &quot;name&quot;: &quot;Puerto Parra&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 94,
+            &quot;danecode&quot;: 566,
+            &quot;name&quot;: &quot;San Luis&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 95,
+            &quot;danecode&quot;: 5664,
+            &quot;name&quot;: &quot;San Pedro&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 96,
+            &quot;danecode&quot;: 5667,
+            &quot;name&quot;: &quot;San Rafael&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 97,
+            &quot;danecode&quot;: 567,
+            &quot;name&quot;: &quot;San Roque&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 98,
+            &quot;danecode&quot;: 5674,
+            &quot;name&quot;: &quot;San Vicente&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 99,
+            &quot;danecode&quot;: 5679,
+            &quot;name&quot;: &quot;Santa B&aacute;rbara&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 100,
+            &quot;danecode&quot;: 569,
+            &quot;name&quot;: &quot;Santo Domingo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 101,
+            &quot;danecode&quot;: 5697,
+            &quot;name&quot;: &quot;El Santuario&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 102,
+            &quot;danecode&quot;: 5736,
+            &quot;name&quot;: &quot;Segovia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 103,
+            &quot;danecode&quot;: 5761,
+            &quot;name&quot;: &quot;Sopetr&aacute;n&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 104,
+            &quot;danecode&quot;: 5789,
+            &quot;name&quot;: &quot;T&aacute;mesis&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 105,
+            &quot;danecode&quot;: 579,
+            &quot;name&quot;: &quot;Taraz&aacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 106,
+            &quot;danecode&quot;: 5792,
+            &quot;name&quot;: &quot;Tarso&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 107,
+            &quot;danecode&quot;: 5809,
+            &quot;name&quot;: &quot;Titirib&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 108,
+            &quot;danecode&quot;: 5819,
+            &quot;name&quot;: &quot;Toledo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 109,
+            &quot;danecode&quot;: 5837,
+            &quot;name&quot;: &quot;Turbo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 110,
+            &quot;danecode&quot;: 5842,
+            &quot;name&quot;: &quot;Uramita&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 111,
+            &quot;danecode&quot;: 5847,
+            &quot;name&quot;: &quot;Urrao&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 112,
+            &quot;danecode&quot;: 5854,
+            &quot;name&quot;: &quot;Valdivia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 113,
+            &quot;danecode&quot;: 5856,
+            &quot;name&quot;: &quot;Valpara&iacute;so&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 114,
+            &quot;danecode&quot;: 5858,
+            &quot;name&quot;: &quot;Vegach&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 115,
+            &quot;danecode&quot;: 5861,
+            &quot;name&quot;: &quot;Venecia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 116,
+            &quot;danecode&quot;: 5885,
+            &quot;name&quot;: &quot;Yal&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 117,
+            &quot;danecode&quot;: 5887,
+            &quot;name&quot;: &quot;Yarumal&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 118,
+            &quot;danecode&quot;: 589,
+            &quot;name&quot;: &quot;Yolomb&oacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 119,
+            &quot;danecode&quot;: 5893,
+            &quot;name&quot;: &quot;Yond&oacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 120,
+            &quot;danecode&quot;: 5895,
+            &quot;name&quot;: &quot;Zaragoza&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 121,
+            &quot;danecode&quot;: 8001,
+            &quot;name&quot;: &quot;Barranquilla&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 122,
+            &quot;danecode&quot;: 8078,
+            &quot;name&quot;: &quot;Baranoa&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 123,
+            &quot;danecode&quot;: 8141,
+            &quot;name&quot;: &quot;Candelaria&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 124,
+            &quot;danecode&quot;: 8296,
+            &quot;name&quot;: &quot;Galapa&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 125,
+            &quot;danecode&quot;: 8421,
+            &quot;name&quot;: &quot;Luruaco&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 126,
+            &quot;danecode&quot;: 8433,
+            &quot;name&quot;: &quot;Malambo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 127,
+            &quot;danecode&quot;: 8436,
+            &quot;name&quot;: &quot;Manat&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 128,
+            &quot;danecode&quot;: 8549,
+            &quot;name&quot;: &quot;Pioj&oacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 129,
+            &quot;danecode&quot;: 8558,
+            &quot;name&quot;: &quot;Polonuevo&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 130,
+            &quot;danecode&quot;: 8634,
+            &quot;name&quot;: &quot;Sabanagrande&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 131,
+            &quot;danecode&quot;: 8638,
+            &quot;name&quot;: &quot;Sabanalarga&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 132,
+            &quot;danecode&quot;: 8675,
+            &quot;name&quot;: &quot;Santa Luc&iacute;a&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 133,
+            &quot;danecode&quot;: 8685,
+            &quot;name&quot;: &quot;Santo Tom&aacute;s&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 134,
+            &quot;danecode&quot;: 8758,
+            &quot;name&quot;: &quot;Soledad&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 135,
+            &quot;danecode&quot;: 877,
+            &quot;name&quot;: &quot;Suan&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 136,
+            &quot;danecode&quot;: 8832,
+            &quot;name&quot;: &quot;Tubar&aacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 137,
+            &quot;danecode&quot;: 8849,
+            &quot;name&quot;: &quot;Usiacur&iacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 138,
+            &quot;danecode&quot;: 13006,
+            &quot;name&quot;: &quot;Ach&iacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 139,
+            &quot;danecode&quot;: 13042,
+            &quot;name&quot;: &quot;Arenal&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 140,
+            &quot;danecode&quot;: 13052,
+            &quot;name&quot;: &quot;Arjona&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 141,
+            &quot;danecode&quot;: 13062,
+            &quot;name&quot;: &quot;Arroyohondo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 142,
+            &quot;danecode&quot;: 1314,
+            &quot;name&quot;: &quot;Calamar&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 143,
+            &quot;danecode&quot;: 1316,
+            &quot;name&quot;: &quot;Cantagallo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 144,
+            &quot;danecode&quot;: 13188,
+            &quot;name&quot;: &quot;Cicuco&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 145,
+            &quot;danecode&quot;: 13212,
+            &quot;name&quot;: &quot;C&oacute;rdoba&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 146,
+            &quot;danecode&quot;: 13222,
+            &quot;name&quot;: &quot;Clemencia&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 147,
+            &quot;danecode&quot;: 13248,
+            &quot;name&quot;: &quot;El Guamo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 148,
+            &quot;danecode&quot;: 1343,
+            &quot;name&quot;: &quot;Magangu&eacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 149,
+            &quot;danecode&quot;: 13433,
+            &quot;name&quot;: &quot;Mahates&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 150,
+            &quot;danecode&quot;: 1344,
+            &quot;name&quot;: &quot;Margarita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 151,
+            &quot;danecode&quot;: 13458,
+            &quot;name&quot;: &quot;Montecristo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 152,
+            &quot;danecode&quot;: 13468,
+            &quot;name&quot;: &quot;Momp&oacute;s&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 153,
+            &quot;danecode&quot;: 13473,
+            &quot;name&quot;: &quot;Morales&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 154,
+            &quot;danecode&quot;: 1349,
+            &quot;name&quot;: &quot;Noros&iacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 155,
+            &quot;danecode&quot;: 13549,
+            &quot;name&quot;: &quot;Pinillos&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 156,
+            &quot;danecode&quot;: 1358,
+            &quot;name&quot;: &quot;Regidor&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 157,
+            &quot;danecode&quot;: 136,
+            &quot;name&quot;: &quot;R&iacute;o Viejo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 158,
+            &quot;danecode&quot;: 13647,
+            &quot;name&quot;: &quot;San Estanislao&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 159,
+            &quot;danecode&quot;: 1365,
+            &quot;name&quot;: &quot;San Fernando&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 160,
+            &quot;danecode&quot;: 13657,
+            &quot;name&quot;: &quot;San Juan Nepomuceno&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 161,
+            &quot;danecode&quot;: 13673,
+            &quot;name&quot;: &quot;Santa Catalina&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 162,
+            &quot;danecode&quot;: 13683,
+            &quot;name&quot;: &quot;Santa Rosa&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 163,
+            &quot;danecode&quot;: 13744,
+            &quot;name&quot;: &quot;Simit&iacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 164,
+            &quot;danecode&quot;: 1376,
+            &quot;name&quot;: &quot;Soplaviento&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 165,
+            &quot;danecode&quot;: 1378,
+            &quot;name&quot;: &quot;Talaigua Nuevo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 166,
+            &quot;danecode&quot;: 1381,
+            &quot;name&quot;: &quot;Tiquisio&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 167,
+            &quot;danecode&quot;: 13836,
+            &quot;name&quot;: &quot;Turbaco&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 168,
+            &quot;danecode&quot;: 13838,
+            &quot;name&quot;: &quot;Turban&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 169,
+            &quot;danecode&quot;: 13873,
+            &quot;name&quot;: &quot;Villanueva&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 170,
+            &quot;danecode&quot;: 15001,
+            &quot;name&quot;: &quot;Tunja&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 171,
+            &quot;danecode&quot;: 15022,
+            &quot;name&quot;: &quot;Almeida&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 172,
+            &quot;danecode&quot;: 15047,
+            &quot;name&quot;: &quot;Aquitania&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 173,
+            &quot;danecode&quot;: 15051,
+            &quot;name&quot;: &quot;Arcabuco&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 174,
+            &quot;danecode&quot;: 1509,
+            &quot;name&quot;: &quot;Berbeo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 175,
+            &quot;danecode&quot;: 15092,
+            &quot;name&quot;: &quot;Bet&eacute;itiva&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 176,
+            &quot;danecode&quot;: 15097,
+            &quot;name&quot;: &quot;Boavita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 177,
+            &quot;danecode&quot;: 15104,
+            &quot;name&quot;: &quot;Boyac&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 178,
+            &quot;danecode&quot;: 15106,
+            &quot;name&quot;: &quot;Brice&ntilde;o&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 179,
+            &quot;danecode&quot;: 15109,
+            &quot;name&quot;: &quot;Buena Vista&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 180,
+            &quot;danecode&quot;: 15114,
+            &quot;name&quot;: &quot;Busbanz&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 181,
+            &quot;danecode&quot;: 15131,
+            &quot;name&quot;: &quot;Caldas&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 182,
+            &quot;danecode&quot;: 15135,
+            &quot;name&quot;: &quot;Campohermoso&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 183,
+            &quot;danecode&quot;: 15162,
+            &quot;name&quot;: &quot;Cerinza&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 184,
+            &quot;danecode&quot;: 15172,
+            &quot;name&quot;: &quot;Chinavita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 185,
+            &quot;danecode&quot;: 15176,
+            &quot;name&quot;: &quot;Chiquinquir&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 186,
+            &quot;danecode&quot;: 1518,
+            &quot;name&quot;: &quot;Chiscas&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 187,
+            &quot;danecode&quot;: 15183,
+            &quot;name&quot;: &quot;Chita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 188,
+            &quot;danecode&quot;: 15185,
+            &quot;name&quot;: &quot;Chitaraque&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 189,
+            &quot;danecode&quot;: 15187,
+            &quot;name&quot;: &quot;Chivat&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 190,
+            &quot;danecode&quot;: 15204,
+            &quot;name&quot;: &quot;C&oacute;mbita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 191,
+            &quot;danecode&quot;: 15212,
+            &quot;name&quot;: &quot;Coper&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 192,
+            &quot;danecode&quot;: 15215,
+            &quot;name&quot;: &quot;Corrales&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 193,
+            &quot;danecode&quot;: 15218,
+            &quot;name&quot;: &quot;Covarach&iacute;a&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 194,
+            &quot;danecode&quot;: 15223,
+            &quot;name&quot;: &quot;Cubar&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 195,
+            &quot;danecode&quot;: 15224,
+            &quot;name&quot;: &quot;Cucaita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 196,
+            &quot;danecode&quot;: 15226,
+            &quot;name&quot;: &quot;Cu&iacute;tiva&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 197,
+            &quot;danecode&quot;: 15232,
+            &quot;name&quot;: &quot;Ch&iacute;quiza&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 198,
+            &quot;danecode&quot;: 15236,
+            &quot;name&quot;: &quot;Chivor&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 199,
+            &quot;danecode&quot;: 15238,
+            &quot;name&quot;: &quot;Duitama&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 200,
+            &quot;danecode&quot;: 15244,
+            &quot;name&quot;: &quot;El Cocuy&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 201,
+            &quot;danecode&quot;: 15248,
+            &quot;name&quot;: &quot;El Espino&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 202,
+            &quot;danecode&quot;: 15272,
+            &quot;name&quot;: &quot;Firavitoba&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 203,
+            &quot;danecode&quot;: 15276,
+            &quot;name&quot;: &quot;Floresta&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 204,
+            &quot;danecode&quot;: 15293,
+            &quot;name&quot;: &quot;Gachantiv&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 205,
+            &quot;danecode&quot;: 15296,
+            &quot;name&quot;: &quot;Gameza&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 206,
+            &quot;danecode&quot;: 15299,
+            &quot;name&quot;: &quot;Garagoa&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 207,
+            &quot;danecode&quot;: 15317,
+            &quot;name&quot;: &quot;Guacamayas&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 208,
+            &quot;danecode&quot;: 15322,
+            &quot;name&quot;: &quot;Guateque&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 209,
+            &quot;danecode&quot;: 15325,
+            &quot;name&quot;: &quot;Guayat&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 210,
+            &quot;danecode&quot;: 15332,
+            &quot;name&quot;: &quot;G&uuml;ic&aacute;n&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 211,
+            &quot;danecode&quot;: 15362,
+            &quot;name&quot;: &quot;Iza&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 212,
+            &quot;danecode&quot;: 15367,
+            &quot;name&quot;: &quot;Jenesano&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 213,
+            &quot;danecode&quot;: 15368,
+            &quot;name&quot;: &quot;Jeric&oacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 214,
+            &quot;danecode&quot;: 15377,
+            &quot;name&quot;: &quot;Labranzagrande&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 215,
+            &quot;danecode&quot;: 1538,
+            &quot;name&quot;: &quot;La Capilla&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 216,
+            &quot;danecode&quot;: 15401,
+            &quot;name&quot;: &quot;La Victoria&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 217,
+            &quot;danecode&quot;: 15425,
+            &quot;name&quot;: &quot;Macanal&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 218,
+            &quot;danecode&quot;: 15442,
+            &quot;name&quot;: &quot;Marip&iacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 219,
+            &quot;danecode&quot;: 15455,
+            &quot;name&quot;: &quot;Miraflores&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 220,
+            &quot;danecode&quot;: 15464,
+            &quot;name&quot;: &quot;Mongua&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 221,
+            &quot;danecode&quot;: 15466,
+            &quot;name&quot;: &quot;Mongu&iacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 222,
+            &quot;danecode&quot;: 15469,
+            &quot;name&quot;: &quot;Moniquir&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 223,
+            &quot;danecode&quot;: 1548,
+            &quot;name&quot;: &quot;Muzo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 224,
+            &quot;danecode&quot;: 15491,
+            &quot;name&quot;: &quot;Nobsa&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 225,
+            &quot;danecode&quot;: 15494,
+            &quot;name&quot;: &quot;Nuevo Col&oacute;n&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 226,
+            &quot;danecode&quot;: 155,
+            &quot;name&quot;: &quot;Oicat&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 227,
+            &quot;danecode&quot;: 15507,
+            &quot;name&quot;: &quot;Otanche&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 228,
+            &quot;danecode&quot;: 15511,
+            &quot;name&quot;: &quot;Pachavita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 229,
+            &quot;danecode&quot;: 15514,
+            &quot;name&quot;: &quot;P&aacute;ez&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 230,
+            &quot;danecode&quot;: 15516,
+            &quot;name&quot;: &quot;Paipa&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 231,
+            &quot;danecode&quot;: 15518,
+            &quot;name&quot;: &quot;Pajarito&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 232,
+            &quot;danecode&quot;: 15522,
+            &quot;name&quot;: &quot;Panqueba&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 233,
+            &quot;danecode&quot;: 15531,
+            &quot;name&quot;: &quot;Pauna&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 234,
+            &quot;danecode&quot;: 15533,
+            &quot;name&quot;: &quot;Paya&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 235,
+            &quot;danecode&quot;: 15542,
+            &quot;name&quot;: &quot;Pesca&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 236,
+            &quot;danecode&quot;: 1555,
+            &quot;name&quot;: &quot;Pisba&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 237,
+            &quot;danecode&quot;: 15572,
+            &quot;name&quot;: &quot;Puerto Boyac&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 238,
+            &quot;danecode&quot;: 1558,
+            &quot;name&quot;: &quot;Qu&iacute;pama&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 239,
+            &quot;danecode&quot;: 15599,
+            &quot;name&quot;: &quot;Ramiriqu&iacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 240,
+            &quot;danecode&quot;: 156,
+            &quot;name&quot;: &quot;R&aacute;quira&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 241,
+            &quot;danecode&quot;: 15621,
+            &quot;name&quot;: &quot;Rond&oacute;n&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 242,
+            &quot;danecode&quot;: 15632,
+            &quot;name&quot;: &quot;Saboy&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 243,
+            &quot;danecode&quot;: 15638,
+            &quot;name&quot;: &quot;S&aacute;chica&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 244,
+            &quot;danecode&quot;: 15646,
+            &quot;name&quot;: &quot;Samac&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 245,
+            &quot;danecode&quot;: 1566,
+            &quot;name&quot;: &quot;San Eduardo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 246,
+            &quot;danecode&quot;: 15673,
+            &quot;name&quot;: &quot;San Mateo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 247,
+            &quot;danecode&quot;: 15686,
+            &quot;name&quot;: &quot;Santana&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 248,
+            &quot;danecode&quot;: 1569,
+            &quot;name&quot;: &quot;Santa Mar&iacute;a&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 249,
+            &quot;danecode&quot;: 15696,
+            &quot;name&quot;: &quot;Santa Sof&iacute;a&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 250,
+            &quot;danecode&quot;: 1572,
+            &quot;name&quot;: &quot;Sativanorte&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 251,
+            &quot;danecode&quot;: 15723,
+            &quot;name&quot;: &quot;Sativasur&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 252,
+            &quot;danecode&quot;: 1574,
+            &quot;name&quot;: &quot;Siachoque&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 253,
+            &quot;danecode&quot;: 15753,
+            &quot;name&quot;: &quot;Soat&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 254,
+            &quot;danecode&quot;: 15755,
+            &quot;name&quot;: &quot;Socot&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 255,
+            &quot;danecode&quot;: 15757,
+            &quot;name&quot;: &quot;Socha&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 256,
+            &quot;danecode&quot;: 15759,
+            &quot;name&quot;: &quot;Sogamoso&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 257,
+            &quot;danecode&quot;: 15761,
+            &quot;name&quot;: &quot;Somondoco&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 258,
+            &quot;danecode&quot;: 15762,
+            &quot;name&quot;: &quot;Sora&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 259,
+            &quot;danecode&quot;: 15763,
+            &quot;name&quot;: &quot;Sotaquir&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 260,
+            &quot;danecode&quot;: 15764,
+            &quot;name&quot;: &quot;Sorac&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 261,
+            &quot;danecode&quot;: 15774,
+            &quot;name&quot;: &quot;Susac&oacute;n&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 262,
+            &quot;danecode&quot;: 15776,
+            &quot;name&quot;: &quot;Sutamarch&aacute;n&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 263,
+            &quot;danecode&quot;: 15778,
+            &quot;name&quot;: &quot;Sutatenza&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 264,
+            &quot;danecode&quot;: 1579,
+            &quot;name&quot;: &quot;Tasco&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 265,
+            &quot;danecode&quot;: 15798,
+            &quot;name&quot;: &quot;Tenza&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 266,
+            &quot;danecode&quot;: 15804,
+            &quot;name&quot;: &quot;Tiban&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 267,
+            &quot;danecode&quot;: 15808,
+            &quot;name&quot;: &quot;Tinjac&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 268,
+            &quot;danecode&quot;: 1581,
+            &quot;name&quot;: &quot;Tipacoque&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 269,
+            &quot;danecode&quot;: 15814,
+            &quot;name&quot;: &quot;Toca&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 270,
+            &quot;danecode&quot;: 1582,
+            &quot;name&quot;: &quot;T&oacute;paga&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 271,
+            &quot;danecode&quot;: 15822,
+            &quot;name&quot;: &quot;Tota&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 272,
+            &quot;danecode&quot;: 15835,
+            &quot;name&quot;: &quot;Turmequ&eacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 273,
+            &quot;danecode&quot;: 15839,
+            &quot;name&quot;: &quot;Tutaz&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 274,
+            &quot;danecode&quot;: 15842,
+            &quot;name&quot;: &quot;Umbita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 275,
+            &quot;danecode&quot;: 15861,
+            &quot;name&quot;: &quot;Ventaquemada&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 276,
+            &quot;danecode&quot;: 15879,
+            &quot;name&quot;: &quot;Viracach&aacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 277,
+            &quot;danecode&quot;: 15897,
+            &quot;name&quot;: &quot;Zetaquira&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 278,
+            &quot;danecode&quot;: 17001,
+            &quot;name&quot;: &quot;Manizales&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 279,
+            &quot;danecode&quot;: 17013,
+            &quot;name&quot;: &quot;Aguadas&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 280,
+            &quot;danecode&quot;: 17042,
+            &quot;name&quot;: &quot;Anserma&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 281,
+            &quot;danecode&quot;: 1705,
+            &quot;name&quot;: &quot;Aranzazu&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 282,
+            &quot;danecode&quot;: 17088,
+            &quot;name&quot;: &quot;Belalc&aacute;zar&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 283,
+            &quot;danecode&quot;: 17174,
+            &quot;name&quot;: &quot;Chinchin&aacute;&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 284,
+            &quot;danecode&quot;: 17272,
+            &quot;name&quot;: &quot;Filadelfia&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 285,
+            &quot;danecode&quot;: 1738,
+            &quot;name&quot;: &quot;La Dorada&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 286,
+            &quot;danecode&quot;: 17388,
+            &quot;name&quot;: &quot;La Merced&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 287,
+            &quot;danecode&quot;: 17433,
+            &quot;name&quot;: &quot;Manzanares&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 288,
+            &quot;danecode&quot;: 17442,
+            &quot;name&quot;: &quot;Marmato&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 289,
+            &quot;danecode&quot;: 17446,
+            &quot;name&quot;: &quot;Marulanda&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 290,
+            &quot;danecode&quot;: 17486,
+            &quot;name&quot;: &quot;Neira&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 291,
+            &quot;danecode&quot;: 17495,
+            &quot;name&quot;: &quot;Norcasia&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 292,
+            &quot;danecode&quot;: 17513,
+            &quot;name&quot;: &quot;P&aacute;cora&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 293,
+            &quot;danecode&quot;: 17524,
+            &quot;name&quot;: &quot;Palestina&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 294,
+            &quot;danecode&quot;: 17541,
+            &quot;name&quot;: &quot;Pensilvania&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 295,
+            &quot;danecode&quot;: 17614,
+            &quot;name&quot;: &quot;Riosucio&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 296,
+            &quot;danecode&quot;: 17616,
+            &quot;name&quot;: &quot;Risaralda&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 297,
+            &quot;danecode&quot;: 17653,
+            &quot;name&quot;: &quot;Salamina&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 298,
+            &quot;danecode&quot;: 17662,
+            &quot;name&quot;: &quot;Saman&aacute;&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 299,
+            &quot;danecode&quot;: 17665,
+            &quot;name&quot;: &quot;San Jos&eacute;&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 300,
+            &quot;danecode&quot;: 17777,
+            &quot;name&quot;: &quot;Sup&iacute;a&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 301,
+            &quot;danecode&quot;: 17867,
+            &quot;name&quot;: &quot;Victoria&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 302,
+            &quot;danecode&quot;: 17873,
+            &quot;name&quot;: &quot;Villamar&iacute;a&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 303,
+            &quot;danecode&quot;: 17877,
+            &quot;name&quot;: &quot;Viterbo&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 304,
+            &quot;danecode&quot;: 18001,
+            &quot;name&quot;: &quot;Florencia&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 305,
+            &quot;danecode&quot;: 18029,
+            &quot;name&quot;: &quot;Albania&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 306,
+            &quot;danecode&quot;: 18205,
+            &quot;name&quot;: &quot;Curillo&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 307,
+            &quot;danecode&quot;: 18247,
+            &quot;name&quot;: &quot;El Doncello&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 308,
+            &quot;danecode&quot;: 18256,
+            &quot;name&quot;: &quot;El Paujil&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 309,
+            &quot;danecode&quot;: 18479,
+            &quot;name&quot;: &quot;Morelia&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 310,
+            &quot;danecode&quot;: 18592,
+            &quot;name&quot;: &quot;Puerto Rico&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 311,
+            &quot;danecode&quot;: 18756,
+            &quot;name&quot;: &quot;Solano&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 312,
+            &quot;danecode&quot;: 18785,
+            &quot;name&quot;: &quot;Solita&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 313,
+            &quot;danecode&quot;: 1886,
+            &quot;name&quot;: &quot;Valpara&iacute;so&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 314,
+            &quot;danecode&quot;: 19001,
+            &quot;name&quot;: &quot;Popay&aacute;n&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 315,
+            &quot;danecode&quot;: 19022,
+            &quot;name&quot;: &quot;Almaguer&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 316,
+            &quot;danecode&quot;: 1905,
+            &quot;name&quot;: &quot;Argelia&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 317,
+            &quot;danecode&quot;: 19075,
+            &quot;name&quot;: &quot;Balboa&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 318,
+            &quot;danecode&quot;: 191,
+            &quot;name&quot;: &quot;Bol&iacute;var&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 319,
+            &quot;danecode&quot;: 1911,
+            &quot;name&quot;: &quot;Buenos Aires&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 320,
+            &quot;danecode&quot;: 1913,
+            &quot;name&quot;: &quot;Cajib&iacute;o&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 321,
+            &quot;danecode&quot;: 19137,
+            &quot;name&quot;: &quot;Caldono&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 322,
+            &quot;danecode&quot;: 19142,
+            &quot;name&quot;: &quot;Caloto&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 323,
+            &quot;danecode&quot;: 19212,
+            &quot;name&quot;: &quot;Corinto&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 324,
+            &quot;danecode&quot;: 19256,
+            &quot;name&quot;: &quot;El Tambo&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 325,
+            &quot;danecode&quot;: 1929,
+            &quot;name&quot;: &quot;Florencia&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 326,
+            &quot;danecode&quot;: 193,
+            &quot;name&quot;: &quot;Guachen&eacute;&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 327,
+            &quot;danecode&quot;: 19318,
+            &quot;name&quot;: &quot;Guapi&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 328,
+            &quot;danecode&quot;: 19355,
+            &quot;name&quot;: &quot;Inz&aacute;&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 329,
+            &quot;danecode&quot;: 19364,
+            &quot;name&quot;: &quot;Jambal&oacute;&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 330,
+            &quot;danecode&quot;: 19392,
+            &quot;name&quot;: &quot;La Sierra&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 331,
+            &quot;danecode&quot;: 19397,
+            &quot;name&quot;: &quot;La Vega&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 332,
+            &quot;danecode&quot;: 19418,
+            &quot;name&quot;: &quot;L&oacute;pez&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 333,
+            &quot;danecode&quot;: 1945,
+            &quot;name&quot;: &quot;Mercaderes&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 334,
+            &quot;danecode&quot;: 19455,
+            &quot;name&quot;: &quot;Miranda&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 335,
+            &quot;danecode&quot;: 19473,
+            &quot;name&quot;: &quot;Morales&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 336,
+            &quot;danecode&quot;: 19513,
+            &quot;name&quot;: &quot;Padilla&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 337,
+            &quot;danecode&quot;: 19532,
+            &quot;name&quot;: &quot;Pat&iacute;a&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 338,
+            &quot;danecode&quot;: 19533,
+            &quot;name&quot;: &quot;Piamonte&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 339,
+            &quot;danecode&quot;: 19548,
+            &quot;name&quot;: &quot;Piendam&oacute;&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 340,
+            &quot;danecode&quot;: 19573,
+            &quot;name&quot;: &quot;Puerto Tejada&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 341,
+            &quot;danecode&quot;: 19585,
+            &quot;name&quot;: &quot;Purac&eacute;&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 342,
+            &quot;danecode&quot;: 19622,
+            &quot;name&quot;: &quot;Rosas&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 343,
+            &quot;danecode&quot;: 19701,
+            &quot;name&quot;: &quot;Santa Rosa&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 344,
+            &quot;danecode&quot;: 19743,
+            &quot;name&quot;: &quot;Silvia&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 345,
+            &quot;danecode&quot;: 1976,
+            &quot;name&quot;: &quot;Sotara&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 346,
+            &quot;danecode&quot;: 1978,
+            &quot;name&quot;: &quot;Su&aacute;rez&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 347,
+            &quot;danecode&quot;: 19785,
+            &quot;name&quot;: &quot;Sucre&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 348,
+            &quot;danecode&quot;: 19807,
+            &quot;name&quot;: &quot;Timb&iacute;o&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 349,
+            &quot;danecode&quot;: 19809,
+            &quot;name&quot;: &quot;Timbiqu&iacute;&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 350,
+            &quot;danecode&quot;: 19821,
+            &quot;name&quot;: &quot;Toribio&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 351,
+            &quot;danecode&quot;: 19824,
+            &quot;name&quot;: &quot;Totor&oacute;&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 352,
+            &quot;danecode&quot;: 19845,
+            &quot;name&quot;: &quot;Villa Rica&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 353,
+            &quot;danecode&quot;: 20001,
+            &quot;name&quot;: &quot;Valledupar&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 354,
+            &quot;danecode&quot;: 20011,
+            &quot;name&quot;: &quot;Aguachica&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 355,
+            &quot;danecode&quot;: 20013,
+            &quot;name&quot;: &quot;Agust&iacute;n Codazzi&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 356,
+            &quot;danecode&quot;: 20032,
+            &quot;name&quot;: &quot;Astrea&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 357,
+            &quot;danecode&quot;: 20045,
+            &quot;name&quot;: &quot;Becerril&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 358,
+            &quot;danecode&quot;: 2006,
+            &quot;name&quot;: &quot;Bosconia&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 359,
+            &quot;danecode&quot;: 20175,
+            &quot;name&quot;: &quot;Chimichagua&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 360,
+            &quot;danecode&quot;: 20178,
+            &quot;name&quot;: &quot;Chiriguan&aacute;&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 361,
+            &quot;danecode&quot;: 20228,
+            &quot;name&quot;: &quot;Curuman&iacute;&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 362,
+            &quot;danecode&quot;: 20238,
+            &quot;name&quot;: &quot;El Copey&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 363,
+            &quot;danecode&quot;: 2025,
+            &quot;name&quot;: &quot;El Paso&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 364,
+            &quot;danecode&quot;: 20295,
+            &quot;name&quot;: &quot;Gamarra&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 365,
+            &quot;danecode&quot;: 2031,
+            &quot;name&quot;: &quot;Gonz&aacute;lez&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 366,
+            &quot;danecode&quot;: 20383,
+            &quot;name&quot;: &quot;La Gloria&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 367,
+            &quot;danecode&quot;: 20443,
+            &quot;name&quot;: &quot;Manaure&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 368,
+            &quot;danecode&quot;: 20517,
+            &quot;name&quot;: &quot;Pailitas&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 369,
+            &quot;danecode&quot;: 2055,
+            &quot;name&quot;: &quot;Pelaya&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 370,
+            &quot;danecode&quot;: 2057,
+            &quot;name&quot;: &quot;Pueblo Bello&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 371,
+            &quot;danecode&quot;: 20621,
+            &quot;name&quot;: &quot;La Paz&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 372,
+            &quot;danecode&quot;: 2071,
+            &quot;name&quot;: &quot;San Alberto&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 373,
+            &quot;danecode&quot;: 2075,
+            &quot;name&quot;: &quot;San Diego&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 374,
+            &quot;danecode&quot;: 2077,
+            &quot;name&quot;: &quot;San Mart&iacute;n&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 375,
+            &quot;danecode&quot;: 20787,
+            &quot;name&quot;: &quot;Tamalameque&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 376,
+            &quot;danecode&quot;: 23001,
+            &quot;name&quot;: &quot;Monter&iacute;a&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 377,
+            &quot;danecode&quot;: 23068,
+            &quot;name&quot;: &quot;Ayapel&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 378,
+            &quot;danecode&quot;: 23079,
+            &quot;name&quot;: &quot;Buenavista&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 379,
+            &quot;danecode&quot;: 2309,
+            &quot;name&quot;: &quot;Canalete&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 380,
+            &quot;danecode&quot;: 23162,
+            &quot;name&quot;: &quot;Ceret&eacute;&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 381,
+            &quot;danecode&quot;: 23168,
+            &quot;name&quot;: &quot;Chim&aacute;&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 382,
+            &quot;danecode&quot;: 23182,
+            &quot;name&quot;: &quot;Chin&uacute;&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 383,
+            &quot;danecode&quot;: 233,
+            &quot;name&quot;: &quot;Cotorra&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 384,
+            &quot;danecode&quot;: 23417,
+            &quot;name&quot;: &quot;Lorica&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 385,
+            &quot;danecode&quot;: 23419,
+            &quot;name&quot;: &quot;Los C&oacute;rdobas&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 386,
+            &quot;danecode&quot;: 23464,
+            &quot;name&quot;: &quot;Momil&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 387,
+            &quot;danecode&quot;: 235,
+            &quot;name&quot;: &quot;Mo&ntilde;itos&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 388,
+            &quot;danecode&quot;: 23555,
+            &quot;name&quot;: &quot;Planeta Rica&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 389,
+            &quot;danecode&quot;: 2357,
+            &quot;name&quot;: &quot;Pueblo Nuevo&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 390,
+            &quot;danecode&quot;: 23574,
+            &quot;name&quot;: &quot;Puerto Escondido&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 391,
+            &quot;danecode&quot;: 23586,
+            &quot;name&quot;: &quot;Pur&iacute;sima&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 392,
+            &quot;danecode&quot;: 2366,
+            &quot;name&quot;: &quot;Sahag&uacute;n&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 393,
+            &quot;danecode&quot;: 2367,
+            &quot;name&quot;: &quot;San Andr&eacute;s Sotavento&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 394,
+            &quot;danecode&quot;: 23672,
+            &quot;name&quot;: &quot;San Antero&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 395,
+            &quot;danecode&quot;: 23686,
+            &quot;name&quot;: &quot;San Pelayo&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 396,
+            &quot;danecode&quot;: 23807,
+            &quot;name&quot;: &quot;Tierralta&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 397,
+            &quot;danecode&quot;: 23815,
+            &quot;name&quot;: &quot;Tuch&iacute;n&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 398,
+            &quot;danecode&quot;: 23855,
+            &quot;name&quot;: &quot;Valencia&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 399,
+            &quot;danecode&quot;: 25035,
+            &quot;name&quot;: &quot;Anapoima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 400,
+            &quot;danecode&quot;: 25053,
+            &quot;name&quot;: &quot;Arbel&aacute;ez&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 401,
+            &quot;danecode&quot;: 25086,
+            &quot;name&quot;: &quot;Beltr&aacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 402,
+            &quot;danecode&quot;: 25095,
+            &quot;name&quot;: &quot;Bituima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 403,
+            &quot;danecode&quot;: 25099,
+            &quot;name&quot;: &quot;Bojac&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 404,
+            &quot;danecode&quot;: 2512,
+            &quot;name&quot;: &quot;Cabrera&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 405,
+            &quot;danecode&quot;: 25123,
+            &quot;name&quot;: &quot;Cachipay&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 406,
+            &quot;danecode&quot;: 25126,
+            &quot;name&quot;: &quot;Cajic&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 407,
+            &quot;danecode&quot;: 25148,
+            &quot;name&quot;: &quot;Caparrap&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 408,
+            &quot;danecode&quot;: 25151,
+            &quot;name&quot;: &quot;Caqueza&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 409,
+            &quot;danecode&quot;: 25168,
+            &quot;name&quot;: &quot;Chaguan&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 410,
+            &quot;danecode&quot;: 25178,
+            &quot;name&quot;: &quot;Chipaque&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 411,
+            &quot;danecode&quot;: 25181,
+            &quot;name&quot;: &quot;Choach&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 412,
+            &quot;danecode&quot;: 25183,
+            &quot;name&quot;: &quot;Chocont&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 413,
+            &quot;danecode&quot;: 252,
+            &quot;name&quot;: &quot;Cogua&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 414,
+            &quot;danecode&quot;: 25214,
+            &quot;name&quot;: &quot;Cota&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 415,
+            &quot;danecode&quot;: 25224,
+            &quot;name&quot;: &quot;Cucunub&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 416,
+            &quot;danecode&quot;: 25245,
+            &quot;name&quot;: &quot;El Colegio&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 417,
+            &quot;danecode&quot;: 2526,
+            &quot;name&quot;: &quot;El Rosal&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 418,
+            &quot;danecode&quot;: 25279,
+            &quot;name&quot;: &quot;Fomeque&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 419,
+            &quot;danecode&quot;: 25281,
+            &quot;name&quot;: &quot;Fosca&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 420,
+            &quot;danecode&quot;: 25286,
+            &quot;name&quot;: &quot;Funza&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 421,
+            &quot;danecode&quot;: 25288,
+            &quot;name&quot;: &quot;F&uacute;quene&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 422,
+            &quot;danecode&quot;: 25293,
+            &quot;name&quot;: &quot;Gachala&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 423,
+            &quot;danecode&quot;: 25295,
+            &quot;name&quot;: &quot;Gachancip&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 424,
+            &quot;danecode&quot;: 25297,
+            &quot;name&quot;: &quot;Gachet&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 425,
+            &quot;danecode&quot;: 25307,
+            &quot;name&quot;: &quot;Girardot&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 426,
+            &quot;danecode&quot;: 25312,
+            &quot;name&quot;: &quot;Granada&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 427,
+            &quot;danecode&quot;: 25317,
+            &quot;name&quot;: &quot;Guachet&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 428,
+            &quot;danecode&quot;: 2532,
+            &quot;name&quot;: &quot;Guaduas&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 429,
+            &quot;danecode&quot;: 25322,
+            &quot;name&quot;: &quot;Guasca&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 430,
+            &quot;danecode&quot;: 25324,
+            &quot;name&quot;: &quot;Guataqu&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 431,
+            &quot;danecode&quot;: 25326,
+            &quot;name&quot;: &quot;Guatavita&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 432,
+            &quot;danecode&quot;: 25335,
+            &quot;name&quot;: &quot;Guayabetal&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 433,
+            &quot;danecode&quot;: 25339,
+            &quot;name&quot;: &quot;Guti&eacute;rrez&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 434,
+            &quot;danecode&quot;: 25368,
+            &quot;name&quot;: &quot;Jerusal&eacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 435,
+            &quot;danecode&quot;: 25372,
+            &quot;name&quot;: &quot;Jun&iacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 436,
+            &quot;danecode&quot;: 25377,
+            &quot;name&quot;: &quot;La Calera&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 437,
+            &quot;danecode&quot;: 25386,
+            &quot;name&quot;: &quot;La Mesa&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 438,
+            &quot;danecode&quot;: 25394,
+            &quot;name&quot;: &quot;La Palma&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 439,
+            &quot;danecode&quot;: 25398,
+            &quot;name&quot;: &quot;La Pe&ntilde;a&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 440,
+            &quot;danecode&quot;: 25402,
+            &quot;name&quot;: &quot;La Vega&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 441,
+            &quot;danecode&quot;: 25407,
+            &quot;name&quot;: &quot;Lenguazaque&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 442,
+            &quot;danecode&quot;: 25426,
+            &quot;name&quot;: &quot;Macheta&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 443,
+            &quot;danecode&quot;: 2543,
+            &quot;name&quot;: &quot;Madrid&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 444,
+            &quot;danecode&quot;: 25436,
+            &quot;name&quot;: &quot;Manta&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 445,
+            &quot;danecode&quot;: 25438,
+            &quot;name&quot;: &quot;Medina&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 446,
+            &quot;danecode&quot;: 25473,
+            &quot;name&quot;: &quot;Mosquera&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 447,
+            &quot;danecode&quot;: 25483,
+            &quot;name&quot;: &quot;Nari&ntilde;o&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 448,
+            &quot;danecode&quot;: 25486,
+            &quot;name&quot;: &quot;Nemoc&oacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 449,
+            &quot;danecode&quot;: 25488,
+            &quot;name&quot;: &quot;Nilo&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 450,
+            &quot;danecode&quot;: 25489,
+            &quot;name&quot;: &quot;Nimaima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 451,
+            &quot;danecode&quot;: 25491,
+            &quot;name&quot;: &quot;Nocaima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 452,
+            &quot;danecode&quot;: 25506,
+            &quot;name&quot;: &quot;Venecia&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 453,
+            &quot;danecode&quot;: 25513,
+            &quot;name&quot;: &quot;Pacho&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 454,
+            &quot;danecode&quot;: 25518,
+            &quot;name&quot;: &quot;Paime&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 455,
+            &quot;danecode&quot;: 25524,
+            &quot;name&quot;: &quot;Pandi&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 456,
+            &quot;danecode&quot;: 2553,
+            &quot;name&quot;: &quot;Paratebueno&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 457,
+            &quot;danecode&quot;: 25535,
+            &quot;name&quot;: &quot;Pasca&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 458,
+            &quot;danecode&quot;: 25572,
+            &quot;name&quot;: &quot;Puerto Salgar&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 459,
+            &quot;danecode&quot;: 2558,
+            &quot;name&quot;: &quot;Pul&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 460,
+            &quot;danecode&quot;: 25592,
+            &quot;name&quot;: &quot;Quebradanegra&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 461,
+            &quot;danecode&quot;: 25594,
+            &quot;name&quot;: &quot;Quetame&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 462,
+            &quot;danecode&quot;: 25596,
+            &quot;name&quot;: &quot;Quipile&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 463,
+            &quot;danecode&quot;: 25599,
+            &quot;name&quot;: &quot;Apulo&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 464,
+            &quot;danecode&quot;: 25612,
+            &quot;name&quot;: &quot;Ricaurte&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 465,
+            &quot;danecode&quot;: 25649,
+            &quot;name&quot;: &quot;San Bernardo&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 466,
+            &quot;danecode&quot;: 25653,
+            &quot;name&quot;: &quot;San Cayetano&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 467,
+            &quot;danecode&quot;: 25658,
+            &quot;name&quot;: &quot;San Francisco&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 468,
+            &quot;danecode&quot;: 25736,
+            &quot;name&quot;: &quot;Sesquil&eacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 469,
+            &quot;danecode&quot;: 2574,
+            &quot;name&quot;: &quot;Sibat&eacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 470,
+            &quot;danecode&quot;: 25743,
+            &quot;name&quot;: &quot;Silvania&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 471,
+            &quot;danecode&quot;: 25745,
+            &quot;name&quot;: &quot;Simijaca&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 472,
+            &quot;danecode&quot;: 25754,
+            &quot;name&quot;: &quot;Soacha&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 473,
+            &quot;danecode&quot;: 25769,
+            &quot;name&quot;: &quot;Subachoque&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 474,
+            &quot;danecode&quot;: 25772,
+            &quot;name&quot;: &quot;Suesca&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 475,
+            &quot;danecode&quot;: 25777,
+            &quot;name&quot;: &quot;Supat&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 476,
+            &quot;danecode&quot;: 25779,
+            &quot;name&quot;: &quot;Susa&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 477,
+            &quot;danecode&quot;: 25781,
+            &quot;name&quot;: &quot;Sutatausa&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 478,
+            &quot;danecode&quot;: 25785,
+            &quot;name&quot;: &quot;Tabio&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 479,
+            &quot;danecode&quot;: 25793,
+            &quot;name&quot;: &quot;Tausa&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 480,
+            &quot;danecode&quot;: 25797,
+            &quot;name&quot;: &quot;Tena&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 481,
+            &quot;danecode&quot;: 25799,
+            &quot;name&quot;: &quot;Tenjo&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 482,
+            &quot;danecode&quot;: 25805,
+            &quot;name&quot;: &quot;Tibacuy&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 483,
+            &quot;danecode&quot;: 25807,
+            &quot;name&quot;: &quot;Tibirita&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 484,
+            &quot;danecode&quot;: 25815,
+            &quot;name&quot;: &quot;Tocaima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 485,
+            &quot;danecode&quot;: 25817,
+            &quot;name&quot;: &quot;Tocancip&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 486,
+            &quot;danecode&quot;: 25823,
+            &quot;name&quot;: &quot;Topaip&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 487,
+            &quot;danecode&quot;: 25839,
+            &quot;name&quot;: &quot;Ubal&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 488,
+            &quot;danecode&quot;: 25841,
+            &quot;name&quot;: &quot;Ubaque&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 489,
+            &quot;danecode&quot;: 25845,
+            &quot;name&quot;: &quot;Une&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 490,
+            &quot;danecode&quot;: 25851,
+            &quot;name&quot;: &quot;&Uacute;tica&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 491,
+            &quot;danecode&quot;: 25867,
+            &quot;name&quot;: &quot;Vian&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 492,
+            &quot;danecode&quot;: 25871,
+            &quot;name&quot;: &quot;Villag&oacute;mez&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 493,
+            &quot;danecode&quot;: 25873,
+            &quot;name&quot;: &quot;Villapinz&oacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 494,
+            &quot;danecode&quot;: 25875,
+            &quot;name&quot;: &quot;Villeta&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 495,
+            &quot;danecode&quot;: 25878,
+            &quot;name&quot;: &quot;Viot&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 496,
+            &quot;danecode&quot;: 25898,
+            &quot;name&quot;: &quot;Zipac&oacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 497,
+            &quot;danecode&quot;: 27001,
+            &quot;name&quot;: &quot;Quibd&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 498,
+            &quot;danecode&quot;: 27006,
+            &quot;name&quot;: &quot;Acand&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 499,
+            &quot;danecode&quot;: 27025,
+            &quot;name&quot;: &quot;Alto Baudo&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 500,
+            &quot;danecode&quot;: 2705,
+            &quot;name&quot;: &quot;Atrato&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 501,
+            &quot;danecode&quot;: 27073,
+            &quot;name&quot;: &quot;Bagad&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 502,
+            &quot;danecode&quot;: 27075,
+            &quot;name&quot;: &quot;Bah&iacute;a Solano&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 503,
+            &quot;danecode&quot;: 27077,
+            &quot;name&quot;: &quot;Bajo Baud&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 504,
+            &quot;danecode&quot;: 27099,
+            &quot;name&quot;: &quot;Bojaya&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 505,
+            &quot;danecode&quot;: 2716,
+            &quot;name&quot;: &quot;C&eacute;rtegui&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 506,
+            &quot;danecode&quot;: 27205,
+            &quot;name&quot;: &quot;Condoto&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 507,
+            &quot;danecode&quot;: 27372,
+            &quot;name&quot;: &quot;Jurad&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 508,
+            &quot;danecode&quot;: 27413,
+            &quot;name&quot;: &quot;Llor&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 509,
+            &quot;danecode&quot;: 27425,
+            &quot;name&quot;: &quot;Medio Atrato&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 510,
+            &quot;danecode&quot;: 2743,
+            &quot;name&quot;: &quot;Medio Baud&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 511,
+            &quot;danecode&quot;: 2745,
+            &quot;name&quot;: &quot;Medio San Juan&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 512,
+            &quot;danecode&quot;: 27491,
+            &quot;name&quot;: &quot;N&oacute;vita&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 513,
+            &quot;danecode&quot;: 27495,
+            &quot;name&quot;: &quot;Nuqu&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 514,
+            &quot;danecode&quot;: 2758,
+            &quot;name&quot;: &quot;R&iacute;o Iro&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 515,
+            &quot;danecode&quot;: 276,
+            &quot;name&quot;: &quot;R&iacute;o Quito&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 516,
+            &quot;danecode&quot;: 27615,
+            &quot;name&quot;: &quot;Riosucio&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 517,
+            &quot;danecode&quot;: 27745,
+            &quot;name&quot;: &quot;Sip&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 518,
+            &quot;danecode&quot;: 278,
+            &quot;name&quot;: &quot;Ungu&iacute;a&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 519,
+            &quot;danecode&quot;: 41001,
+            &quot;name&quot;: &quot;Neiva&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 520,
+            &quot;danecode&quot;: 41006,
+            &quot;name&quot;: &quot;Acevedo&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 521,
+            &quot;danecode&quot;: 41013,
+            &quot;name&quot;: &quot;Agrado&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 522,
+            &quot;danecode&quot;: 41016,
+            &quot;name&quot;: &quot;Aipe&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 523,
+            &quot;danecode&quot;: 4102,
+            &quot;name&quot;: &quot;Algeciras&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 524,
+            &quot;danecode&quot;: 41026,
+            &quot;name&quot;: &quot;Altamira&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 525,
+            &quot;danecode&quot;: 41078,
+            &quot;name&quot;: &quot;Baraya&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 526,
+            &quot;danecode&quot;: 41132,
+            &quot;name&quot;: &quot;Campoalegre&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 527,
+            &quot;danecode&quot;: 41206,
+            &quot;name&quot;: &quot;Colombia&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 528,
+            &quot;danecode&quot;: 41244,
+            &quot;name&quot;: &quot;El&iacute;as&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 529,
+            &quot;danecode&quot;: 41298,
+            &quot;name&quot;: &quot;Garz&oacute;n&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 530,
+            &quot;danecode&quot;: 41306,
+            &quot;name&quot;: &quot;Gigante&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 531,
+            &quot;danecode&quot;: 41319,
+            &quot;name&quot;: &quot;Guadalupe&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 532,
+            &quot;danecode&quot;: 41349,
+            &quot;name&quot;: &quot;Hobo&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 533,
+            &quot;danecode&quot;: 41357,
+            &quot;name&quot;: &quot;Iquira&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 534,
+            &quot;danecode&quot;: 41359,
+            &quot;name&quot;: &quot;Isnos&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 535,
+            &quot;danecode&quot;: 41378,
+            &quot;name&quot;: &quot;La Argentina&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 536,
+            &quot;danecode&quot;: 41396,
+            &quot;name&quot;: &quot;La Plata&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 537,
+            &quot;danecode&quot;: 41483,
+            &quot;name&quot;: &quot;N&aacute;taga&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 538,
+            &quot;danecode&quot;: 41503,
+            &quot;name&quot;: &quot;Oporapa&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 539,
+            &quot;danecode&quot;: 41518,
+            &quot;name&quot;: &quot;Paicol&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 540,
+            &quot;danecode&quot;: 41524,
+            &quot;name&quot;: &quot;Palermo&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 541,
+            &quot;danecode&quot;: 4153,
+            &quot;name&quot;: &quot;Palestina&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 542,
+            &quot;danecode&quot;: 41548,
+            &quot;name&quot;: &quot;Pital&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 543,
+            &quot;danecode&quot;: 41551,
+            &quot;name&quot;: &quot;Pitalito&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 544,
+            &quot;danecode&quot;: 41615,
+            &quot;name&quot;: &quot;Rivera&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 545,
+            &quot;danecode&quot;: 4166,
+            &quot;name&quot;: &quot;Saladoblanco&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 546,
+            &quot;danecode&quot;: 41676,
+            &quot;name&quot;: &quot;Santa Mar&iacute;a&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 547,
+            &quot;danecode&quot;: 4177,
+            &quot;name&quot;: &quot;Suaza&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 548,
+            &quot;danecode&quot;: 41791,
+            &quot;name&quot;: &quot;Tarqui&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 549,
+            &quot;danecode&quot;: 41797,
+            &quot;name&quot;: &quot;Tesalia&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 550,
+            &quot;danecode&quot;: 41799,
+            &quot;name&quot;: &quot;Tello&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 551,
+            &quot;danecode&quot;: 41801,
+            &quot;name&quot;: &quot;Teruel&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 552,
+            &quot;danecode&quot;: 41807,
+            &quot;name&quot;: &quot;Timan&aacute;&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 553,
+            &quot;danecode&quot;: 41872,
+            &quot;name&quot;: &quot;Villavieja&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 554,
+            &quot;danecode&quot;: 41885,
+            &quot;name&quot;: &quot;Yaguar&aacute;&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 555,
+            &quot;danecode&quot;: 44001,
+            &quot;name&quot;: &quot;Riohacha&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 556,
+            &quot;danecode&quot;: 44035,
+            &quot;name&quot;: &quot;Albania&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 557,
+            &quot;danecode&quot;: 44078,
+            &quot;name&quot;: &quot;Barrancas&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 558,
+            &quot;danecode&quot;: 4409,
+            &quot;name&quot;: &quot;Dibula&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 559,
+            &quot;danecode&quot;: 44098,
+            &quot;name&quot;: &quot;Distracci&oacute;n&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 560,
+            &quot;danecode&quot;: 4411,
+            &quot;name&quot;: &quot;El Molino&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 561,
+            &quot;danecode&quot;: 44279,
+            &quot;name&quot;: &quot;Fonseca&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 562,
+            &quot;danecode&quot;: 44378,
+            &quot;name&quot;: &quot;Hatonuevo&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 563,
+            &quot;danecode&quot;: 4443,
+            &quot;name&quot;: &quot;Maicao&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 564,
+            &quot;danecode&quot;: 4456,
+            &quot;name&quot;: &quot;Manaure&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 565,
+            &quot;danecode&quot;: 44847,
+            &quot;name&quot;: &quot;Uribia&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 566,
+            &quot;danecode&quot;: 44855,
+            &quot;name&quot;: &quot;Urumita&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 567,
+            &quot;danecode&quot;: 44874,
+            &quot;name&quot;: &quot;Villanueva&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 568,
+            &quot;danecode&quot;: 47001,
+            &quot;name&quot;: &quot;Santa Marta&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 569,
+            &quot;danecode&quot;: 4703,
+            &quot;name&quot;: &quot;Algarrobo&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 570,
+            &quot;danecode&quot;: 47053,
+            &quot;name&quot;: &quot;Aracataca&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 571,
+            &quot;danecode&quot;: 47058,
+            &quot;name&quot;: &quot;Ariguan&iacute;&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 572,
+            &quot;danecode&quot;: 47161,
+            &quot;name&quot;: &quot;Cerro San Antonio&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 573,
+            &quot;danecode&quot;: 4717,
+            &quot;name&quot;: &quot;Chivolo&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 574,
+            &quot;danecode&quot;: 47205,
+            &quot;name&quot;: &quot;Concordia&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 575,
+            &quot;danecode&quot;: 47245,
+            &quot;name&quot;: &quot;El Banco&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 576,
+            &quot;danecode&quot;: 47258,
+            &quot;name&quot;: &quot;El Pi&ntilde;on&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 577,
+            &quot;danecode&quot;: 47268,
+            &quot;name&quot;: &quot;El Ret&eacute;n&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 578,
+            &quot;danecode&quot;: 47288,
+            &quot;name&quot;: &quot;Fundaci&oacute;n&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 579,
+            &quot;danecode&quot;: 47318,
+            &quot;name&quot;: &quot;Guamal&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 580,
+            &quot;danecode&quot;: 4746,
+            &quot;name&quot;: &quot;Nueva Granada&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 581,
+            &quot;danecode&quot;: 47541,
+            &quot;name&quot;: &quot;Pedraza&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 582,
+            &quot;danecode&quot;: 47551,
+            &quot;name&quot;: &quot;Pivijay&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 583,
+            &quot;danecode&quot;: 47555,
+            &quot;name&quot;: &quot;Plato&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 584,
+            &quot;danecode&quot;: 47605,
+            &quot;name&quot;: &quot;Remolino&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 585,
+            &quot;danecode&quot;: 47675,
+            &quot;name&quot;: &quot;Salamina&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 586,
+            &quot;danecode&quot;: 47703,
+            &quot;name&quot;: &quot;San Zen&oacute;n&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 587,
+            &quot;danecode&quot;: 47707,
+            &quot;name&quot;: &quot;Santa Ana&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 588,
+            &quot;danecode&quot;: 47745,
+            &quot;name&quot;: &quot;Sitionuevo&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 589,
+            &quot;danecode&quot;: 47798,
+            &quot;name&quot;: &quot;Tenerife&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 590,
+            &quot;danecode&quot;: 4796,
+            &quot;name&quot;: &quot;Zapay&aacute;n&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 591,
+            &quot;danecode&quot;: 4798,
+            &quot;name&quot;: &quot;Zona Bananera&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 592,
+            &quot;danecode&quot;: 50001,
+            &quot;name&quot;: &quot;Villavicencio&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 593,
+            &quot;danecode&quot;: 50006,
+            &quot;name&quot;: &quot;Acacias&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 594,
+            &quot;danecode&quot;: 50124,
+            &quot;name&quot;: &quot;Cabuyaro&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 595,
+            &quot;danecode&quot;: 50223,
+            &quot;name&quot;: &quot;Cubarral&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 596,
+            &quot;danecode&quot;: 50226,
+            &quot;name&quot;: &quot;Cumaral&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 597,
+            &quot;danecode&quot;: 50245,
+            &quot;name&quot;: &quot;El Calvario&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 598,
+            &quot;danecode&quot;: 50251,
+            &quot;name&quot;: &quot;El Castillo&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 599,
+            &quot;danecode&quot;: 5027,
+            &quot;name&quot;: &quot;El Dorado&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 600,
+            &quot;danecode&quot;: 50313,
+            &quot;name&quot;: &quot;Granada&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 601,
+            &quot;danecode&quot;: 50318,
+            &quot;name&quot;: &quot;Guamal&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 602,
+            &quot;danecode&quot;: 50325,
+            &quot;name&quot;: &quot;Mapirip&aacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 603,
+            &quot;danecode&quot;: 5033,
+            &quot;name&quot;: &quot;Mesetas&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 604,
+            &quot;danecode&quot;: 5035,
+            &quot;name&quot;: &quot;La Macarena&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 605,
+            &quot;danecode&quot;: 5037,
+            &quot;name&quot;: &quot;Uribe&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 606,
+            &quot;danecode&quot;: 504,
+            &quot;name&quot;: &quot;Lejan&iacute;as&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 607,
+            &quot;danecode&quot;: 5045,
+            &quot;name&quot;: &quot;Puerto Concordia&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 608,
+            &quot;danecode&quot;: 50568,
+            &quot;name&quot;: &quot;Puerto Gait&aacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 609,
+            &quot;danecode&quot;: 50573,
+            &quot;name&quot;: &quot;Puerto L&oacute;pez&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 610,
+            &quot;danecode&quot;: 50577,
+            &quot;name&quot;: &quot;Puerto Lleras&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 611,
+            &quot;danecode&quot;: 5059,
+            &quot;name&quot;: &quot;Puerto Rico&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 612,
+            &quot;danecode&quot;: 50606,
+            &quot;name&quot;: &quot;Restrepo&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 613,
+            &quot;danecode&quot;: 50686,
+            &quot;name&quot;: &quot;San Juanito&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 614,
+            &quot;danecode&quot;: 50689,
+            &quot;name&quot;: &quot;San Mart&iacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 615,
+            &quot;danecode&quot;: 50711,
+            &quot;name&quot;: &quot;Vista Hermosa&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 616,
+            &quot;danecode&quot;: 52001,
+            &quot;name&quot;: &quot;Pasto&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 617,
+            &quot;danecode&quot;: 52019,
+            &quot;name&quot;: &quot;Alb&aacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 618,
+            &quot;danecode&quot;: 52022,
+            &quot;name&quot;: &quot;Aldana&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 619,
+            &quot;danecode&quot;: 52036,
+            &quot;name&quot;: &quot;Ancuy&aacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 620,
+            &quot;danecode&quot;: 52079,
+            &quot;name&quot;: &quot;Barbacoas&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 621,
+            &quot;danecode&quot;: 52203,
+            &quot;name&quot;: &quot;Col&oacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 622,
+            &quot;danecode&quot;: 52207,
+            &quot;name&quot;: &quot;Consaca&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 623,
+            &quot;danecode&quot;: 5221,
+            &quot;name&quot;: &quot;Contadero&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 624,
+            &quot;danecode&quot;: 52215,
+            &quot;name&quot;: &quot;C&oacute;rdoba&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 625,
+            &quot;danecode&quot;: 52224,
+            &quot;name&quot;: &quot;Cuaspud&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 626,
+            &quot;danecode&quot;: 52227,
+            &quot;name&quot;: &quot;Cumbal&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 627,
+            &quot;danecode&quot;: 52233,
+            &quot;name&quot;: &quot;Cumbitara&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 628,
+            &quot;danecode&quot;: 5225,
+            &quot;name&quot;: &quot;El Charco&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 629,
+            &quot;danecode&quot;: 52254,
+            &quot;name&quot;: &quot;El Pe&ntilde;ol&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 630,
+            &quot;danecode&quot;: 52256,
+            &quot;name&quot;: &quot;El Rosario&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 631,
+            &quot;danecode&quot;: 5226,
+            &quot;name&quot;: &quot;El Tambo&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 632,
+            &quot;danecode&quot;: 52287,
+            &quot;name&quot;: &quot;Funes&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 633,
+            &quot;danecode&quot;: 52317,
+            &quot;name&quot;: &quot;Guachucal&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 634,
+            &quot;danecode&quot;: 5232,
+            &quot;name&quot;: &quot;Guaitarilla&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 635,
+            &quot;danecode&quot;: 52323,
+            &quot;name&quot;: &quot;Gualmat&aacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 636,
+            &quot;danecode&quot;: 52352,
+            &quot;name&quot;: &quot;Iles&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 637,
+            &quot;danecode&quot;: 52354,
+            &quot;name&quot;: &quot;Imu&eacute;s&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 638,
+            &quot;danecode&quot;: 52356,
+            &quot;name&quot;: &quot;Ipiales&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 639,
+            &quot;danecode&quot;: 52378,
+            &quot;name&quot;: &quot;La Cruz&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 640,
+            &quot;danecode&quot;: 52381,
+            &quot;name&quot;: &quot;La Florida&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 641,
+            &quot;danecode&quot;: 52385,
+            &quot;name&quot;: &quot;La Llanada&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 642,
+            &quot;danecode&quot;: 5239,
+            &quot;name&quot;: &quot;La Tola&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 643,
+            &quot;danecode&quot;: 52399,
+            &quot;name&quot;: &quot;La Uni&oacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 644,
+            &quot;danecode&quot;: 52405,
+            &quot;name&quot;: &quot;Leiva&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 645,
+            &quot;danecode&quot;: 52411,
+            &quot;name&quot;: &quot;Linares&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 646,
+            &quot;danecode&quot;: 52418,
+            &quot;name&quot;: &quot;Los Andes&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 647,
+            &quot;danecode&quot;: 52427,
+            &quot;name&quot;: &quot;Mag&uuml;&iacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 648,
+            &quot;danecode&quot;: 52435,
+            &quot;name&quot;: &quot;Mallama&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 649,
+            &quot;danecode&quot;: 52473,
+            &quot;name&quot;: &quot;Mosquera&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 650,
+            &quot;danecode&quot;: 5248,
+            &quot;name&quot;: &quot;Nari&ntilde;o&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 651,
+            &quot;danecode&quot;: 5249,
+            &quot;name&quot;: &quot;Olaya Herrera&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 652,
+            &quot;danecode&quot;: 52506,
+            &quot;name&quot;: &quot;Ospina&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 653,
+            &quot;danecode&quot;: 5252,
+            &quot;name&quot;: &quot;Francisco Pizarro&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 654,
+            &quot;danecode&quot;: 5254,
+            &quot;name&quot;: &quot;Policarpa&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 655,
+            &quot;danecode&quot;: 5256,
+            &quot;name&quot;: &quot;Potos&iacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 656,
+            &quot;danecode&quot;: 52565,
+            &quot;name&quot;: &quot;Providencia&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 657,
+            &quot;danecode&quot;: 52573,
+            &quot;name&quot;: &quot;Puerres&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 658,
+            &quot;danecode&quot;: 52585,
+            &quot;name&quot;: &quot;Pupiales&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 659,
+            &quot;danecode&quot;: 52612,
+            &quot;name&quot;: &quot;Ricaurte&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 660,
+            &quot;danecode&quot;: 52621,
+            &quot;name&quot;: &quot;Roberto Pay&aacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 661,
+            &quot;danecode&quot;: 52678,
+            &quot;name&quot;: &quot;Samaniego&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 662,
+            &quot;danecode&quot;: 52683,
+            &quot;name&quot;: &quot;Sandon&aacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 663,
+            &quot;danecode&quot;: 52685,
+            &quot;name&quot;: &quot;San Bernardo&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 664,
+            &quot;danecode&quot;: 52687,
+            &quot;name&quot;: &quot;San Lorenzo&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 665,
+            &quot;danecode&quot;: 52693,
+            &quot;name&quot;: &quot;San Pablo&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 666,
+            &quot;danecode&quot;: 52696,
+            &quot;name&quot;: &quot;Santa B&aacute;rbara&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 667,
+            &quot;danecode&quot;: 5272,
+            &quot;name&quot;: &quot;Sapuyes&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 668,
+            &quot;danecode&quot;: 52786,
+            &quot;name&quot;: &quot;Taminango&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 669,
+            &quot;danecode&quot;: 52788,
+            &quot;name&quot;: &quot;Tangua&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 670,
+            &quot;danecode&quot;: 52838,
+            &quot;name&quot;: &quot;T&uacute;querres&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 671,
+            &quot;danecode&quot;: 52885,
+            &quot;name&quot;: &quot;Yacuanquer&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 672,
+            &quot;danecode&quot;: 63001,
+            &quot;name&quot;: &quot;Armenia&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 673,
+            &quot;danecode&quot;: 63111,
+            &quot;name&quot;: &quot;Buenavista&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 674,
+            &quot;danecode&quot;: 6319,
+            &quot;name&quot;: &quot;Circasia&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 675,
+            &quot;danecode&quot;: 63212,
+            &quot;name&quot;: &quot;C&oacute;rdoba&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 676,
+            &quot;danecode&quot;: 63272,
+            &quot;name&quot;: &quot;Filandia&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 677,
+            &quot;danecode&quot;: 63401,
+            &quot;name&quot;: &quot;La Tebaida&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 678,
+            &quot;danecode&quot;: 6347,
+            &quot;name&quot;: &quot;Montenegro&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 679,
+            &quot;danecode&quot;: 63548,
+            &quot;name&quot;: &quot;Pijao&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 680,
+            &quot;danecode&quot;: 63594,
+            &quot;name&quot;: &quot;Quimbaya&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 681,
+            &quot;danecode&quot;: 6369,
+            &quot;name&quot;: &quot;Salento&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
             &quot;id&quot;: 682,
             &quot;danecode&quot;: 66001,
             &quot;name&quot;: &quot;Pereira&quot;,
             &quot;province_id&quot;: 19,
             &quot;active&quot;: 1,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 683,
+            &quot;danecode&quot;: 66045,
+            &quot;name&quot;: &quot;Ap&iacute;a&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 684,
+            &quot;danecode&quot;: 66075,
+            &quot;name&quot;: &quot;Balboa&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 685,
+            &quot;danecode&quot;: 6617,
+            &quot;name&quot;: &quot;Dosquebradas&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 686,
+            &quot;danecode&quot;: 66318,
+            &quot;name&quot;: &quot;Gu&aacute;tica&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 687,
+            &quot;danecode&quot;: 66383,
+            &quot;name&quot;: &quot;La Celia&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 688,
+            &quot;danecode&quot;: 664,
+            &quot;name&quot;: &quot;La Virginia&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 689,
+            &quot;danecode&quot;: 6644,
+            &quot;name&quot;: &quot;Marsella&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 690,
+            &quot;danecode&quot;: 66456,
+            &quot;name&quot;: &quot;Mistrat&oacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 691,
+            &quot;danecode&quot;: 66572,
+            &quot;name&quot;: &quot;Pueblo Rico&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 692,
+            &quot;danecode&quot;: 66594,
+            &quot;name&quot;: &quot;Quinch&iacute;a&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 693,
+            &quot;danecode&quot;: 66687,
+            &quot;name&quot;: &quot;Santuario&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 694,
+            &quot;danecode&quot;: 68001,
+            &quot;name&quot;: &quot;Bucaramanga&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 695,
+            &quot;danecode&quot;: 68013,
+            &quot;name&quot;: &quot;Aguada&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 696,
+            &quot;danecode&quot;: 6802,
+            &quot;name&quot;: &quot;Albania&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 697,
+            &quot;danecode&quot;: 68051,
+            &quot;name&quot;: &quot;Aratoca&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 698,
+            &quot;danecode&quot;: 68077,
+            &quot;name&quot;: &quot;Barbosa&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 699,
+            &quot;danecode&quot;: 68079,
+            &quot;name&quot;: &quot;Barichara&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 700,
+            &quot;danecode&quot;: 68081,
+            &quot;name&quot;: &quot;Barrancabermeja&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 701,
+            &quot;danecode&quot;: 68092,
+            &quot;name&quot;: &quot;Betulia&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 702,
+            &quot;danecode&quot;: 68101,
+            &quot;name&quot;: &quot;Bol&iacute;var&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 703,
+            &quot;danecode&quot;: 68121,
+            &quot;name&quot;: &quot;Cabrera&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 704,
+            &quot;danecode&quot;: 68132,
+            &quot;name&quot;: &quot;California&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 705,
+            &quot;danecode&quot;: 68152,
+            &quot;name&quot;: &quot;Carcas&iacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 706,
+            &quot;danecode&quot;: 6816,
+            &quot;name&quot;: &quot;Cepit&aacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 707,
+            &quot;danecode&quot;: 68162,
+            &quot;name&quot;: &quot;Cerrito&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 708,
+            &quot;danecode&quot;: 68167,
+            &quot;name&quot;: &quot;Charal&aacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 709,
+            &quot;danecode&quot;: 68169,
+            &quot;name&quot;: &quot;Charta&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 710,
+            &quot;danecode&quot;: 68179,
+            &quot;name&quot;: &quot;Chipat&aacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 711,
+            &quot;danecode&quot;: 6819,
+            &quot;name&quot;: &quot;Cimitarra&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 712,
+            &quot;danecode&quot;: 68207,
+            &quot;name&quot;: &quot;Concepci&oacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 713,
+            &quot;danecode&quot;: 68209,
+            &quot;name&quot;: &quot;Confines&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 714,
+            &quot;danecode&quot;: 68211,
+            &quot;name&quot;: &quot;Contrataci&oacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 715,
+            &quot;danecode&quot;: 68217,
+            &quot;name&quot;: &quot;Coromoro&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 716,
+            &quot;danecode&quot;: 68229,
+            &quot;name&quot;: &quot;Curit&iacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 717,
+            &quot;danecode&quot;: 68245,
+            &quot;name&quot;: &quot;El Guacamayo&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 718,
+            &quot;danecode&quot;: 68255,
+            &quot;name&quot;: &quot;El Play&oacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 719,
+            &quot;danecode&quot;: 68264,
+            &quot;name&quot;: &quot;Encino&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 720,
+            &quot;danecode&quot;: 68266,
+            &quot;name&quot;: &quot;Enciso&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 721,
+            &quot;danecode&quot;: 68271,
+            &quot;name&quot;: &quot;Flori&aacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 722,
+            &quot;danecode&quot;: 68276,
+            &quot;name&quot;: &quot;Floridablanca&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 723,
+            &quot;danecode&quot;: 68296,
+            &quot;name&quot;: &quot;Gal&aacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 724,
+            &quot;danecode&quot;: 68298,
+            &quot;name&quot;: &quot;Gambita&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 725,
+            &quot;danecode&quot;: 68307,
+            &quot;name&quot;: &quot;Gir&oacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 726,
+            &quot;danecode&quot;: 68318,
+            &quot;name&quot;: &quot;Guaca&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 727,
+            &quot;danecode&quot;: 6832,
+            &quot;name&quot;: &quot;Guadalupe&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 728,
+            &quot;danecode&quot;: 68322,
+            &quot;name&quot;: &quot;Guapot&aacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 729,
+            &quot;danecode&quot;: 68324,
+            &quot;name&quot;: &quot;Guavat&aacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 730,
+            &quot;danecode&quot;: 68327,
+            &quot;name&quot;: &quot;G&uuml;epsa&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 731,
+            &quot;danecode&quot;: 68368,
+            &quot;name&quot;: &quot;Jes&uacute;s Mar&iacute;a&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 732,
+            &quot;danecode&quot;: 6837,
+            &quot;name&quot;: &quot;Jord&aacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 733,
+            &quot;danecode&quot;: 68377,
+            &quot;name&quot;: &quot;La Belleza&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 734,
+            &quot;danecode&quot;: 68385,
+            &quot;name&quot;: &quot;Land&aacute;zuri&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 735,
+            &quot;danecode&quot;: 68397,
+            &quot;name&quot;: &quot;La Paz&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 736,
+            &quot;danecode&quot;: 68406,
+            &quot;name&quot;: &quot;Lebr&iacute;ja&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 737,
+            &quot;danecode&quot;: 68418,
+            &quot;name&quot;: &quot;Los Santos&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 738,
+            &quot;danecode&quot;: 68425,
+            &quot;name&quot;: &quot;Macaravita&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 739,
+            &quot;danecode&quot;: 68432,
+            &quot;name&quot;: &quot;M&aacute;laga&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 740,
+            &quot;danecode&quot;: 68444,
+            &quot;name&quot;: &quot;Matanza&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 741,
+            &quot;danecode&quot;: 68464,
+            &quot;name&quot;: &quot;Mogotes&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 742,
+            &quot;danecode&quot;: 68468,
+            &quot;name&quot;: &quot;Molagavita&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 743,
+            &quot;danecode&quot;: 68498,
+            &quot;name&quot;: &quot;Ocamonte&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 744,
+            &quot;danecode&quot;: 685,
+            &quot;name&quot;: &quot;Oiba&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 745,
+            &quot;danecode&quot;: 68502,
+            &quot;name&quot;: &quot;Onzaga&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 746,
+            &quot;danecode&quot;: 68522,
+            &quot;name&quot;: &quot;Palmar&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 747,
+            &quot;danecode&quot;: 68533,
+            &quot;name&quot;: &quot;P&aacute;ramo&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 748,
+            &quot;danecode&quot;: 68547,
+            &quot;name&quot;: &quot;Piedecuesta&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 749,
+            &quot;danecode&quot;: 68549,
+            &quot;name&quot;: &quot;Pinchote&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 750,
+            &quot;danecode&quot;: 68572,
+            &quot;name&quot;: &quot;Puente Nacional&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 751,
+            &quot;danecode&quot;: 68615,
+            &quot;name&quot;: &quot;Rionegro&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 752,
+            &quot;danecode&quot;: 68669,
+            &quot;name&quot;: &quot;San Andr&eacute;s&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 753,
+            &quot;danecode&quot;: 68679,
+            &quot;name&quot;: &quot;San Gil&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 754,
+            &quot;danecode&quot;: 68682,
+            &quot;name&quot;: &quot;San Joaqu&iacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 755,
+            &quot;danecode&quot;: 68686,
+            &quot;name&quot;: &quot;San Miguel&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 756,
+            &quot;danecode&quot;: 68705,
+            &quot;name&quot;: &quot;Santa B&aacute;rbara&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 757,
+            &quot;danecode&quot;: 68745,
+            &quot;name&quot;: &quot;Simacota&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 758,
+            &quot;danecode&quot;: 68755,
+            &quot;name&quot;: &quot;Socorro&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 759,
+            &quot;danecode&quot;: 6877,
+            &quot;name&quot;: &quot;Suaita&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 760,
+            &quot;danecode&quot;: 68773,
+            &quot;name&quot;: &quot;Sucre&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 761,
+            &quot;danecode&quot;: 6878,
+            &quot;name&quot;: &quot;Surat&aacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 762,
+            &quot;danecode&quot;: 6882,
+            &quot;name&quot;: &quot;Tona&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 763,
+            &quot;danecode&quot;: 68861,
+            &quot;name&quot;: &quot;V&eacute;lez&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 764,
+            &quot;danecode&quot;: 68867,
+            &quot;name&quot;: &quot;Vetas&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 765,
+            &quot;danecode&quot;: 68872,
+            &quot;name&quot;: &quot;Villanueva&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 766,
+            &quot;danecode&quot;: 68895,
+            &quot;name&quot;: &quot;Zapatoca&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 767,
+            &quot;danecode&quot;: 70001,
+            &quot;name&quot;: &quot;Sincelejo&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 768,
+            &quot;danecode&quot;: 7011,
+            &quot;name&quot;: &quot;Buenavista&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 769,
+            &quot;danecode&quot;: 70124,
+            &quot;name&quot;: &quot;Caimito&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 770,
+            &quot;danecode&quot;: 70204,
+            &quot;name&quot;: &quot;Coloso&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 771,
+            &quot;danecode&quot;: 70221,
+            &quot;name&quot;: &quot;Cove&ntilde;as&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 772,
+            &quot;danecode&quot;: 7023,
+            &quot;name&quot;: &quot;Chal&aacute;n&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 773,
+            &quot;danecode&quot;: 70233,
+            &quot;name&quot;: &quot;El Roble&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 774,
+            &quot;danecode&quot;: 70235,
+            &quot;name&quot;: &quot;Galeras&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 775,
+            &quot;danecode&quot;: 70265,
+            &quot;name&quot;: &quot;Guaranda&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 776,
+            &quot;danecode&quot;: 704,
+            &quot;name&quot;: &quot;La Uni&oacute;n&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 777,
+            &quot;danecode&quot;: 70418,
+            &quot;name&quot;: &quot;Los Palmitos&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 778,
+            &quot;danecode&quot;: 70429,
+            &quot;name&quot;: &quot;Majagual&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 779,
+            &quot;danecode&quot;: 70473,
+            &quot;name&quot;: &quot;Morroa&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 780,
+            &quot;danecode&quot;: 70508,
+            &quot;name&quot;: &quot;Ovejas&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 781,
+            &quot;danecode&quot;: 70523,
+            &quot;name&quot;: &quot;Palmito&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 782,
+            &quot;danecode&quot;: 70678,
+            &quot;name&quot;: &quot;San Benito Abad&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 783,
+            &quot;danecode&quot;: 70708,
+            &quot;name&quot;: &quot;San Marcos&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 784,
+            &quot;danecode&quot;: 70713,
+            &quot;name&quot;: &quot;San Onofre&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 785,
+            &quot;danecode&quot;: 70717,
+            &quot;name&quot;: &quot;San Pedro&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 786,
+            &quot;danecode&quot;: 70771,
+            &quot;name&quot;: &quot;Sucre&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 787,
+            &quot;danecode&quot;: 70823,
+            &quot;name&quot;: &quot;Tol&uacute; Viejo&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 788,
+            &quot;danecode&quot;: 73024,
+            &quot;name&quot;: &quot;Alpujarra&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 789,
+            &quot;danecode&quot;: 73026,
+            &quot;name&quot;: &quot;Alvarado&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 790,
+            &quot;danecode&quot;: 7303,
+            &quot;name&quot;: &quot;Ambalema&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 791,
+            &quot;danecode&quot;: 73055,
+            &quot;name&quot;: &quot;Armero&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 792,
+            &quot;danecode&quot;: 73067,
+            &quot;name&quot;: &quot;Ataco&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 793,
+            &quot;danecode&quot;: 73124,
+            &quot;name&quot;: &quot;Cajamarca&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 794,
+            &quot;danecode&quot;: 73168,
+            &quot;name&quot;: &quot;Chaparral&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 795,
+            &quot;danecode&quot;: 732,
+            &quot;name&quot;: &quot;Coello&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 796,
+            &quot;danecode&quot;: 73217,
+            &quot;name&quot;: &quot;Coyaima&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 797,
+            &quot;danecode&quot;: 73226,
+            &quot;name&quot;: &quot;Cunday&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 798,
+            &quot;danecode&quot;: 73236,
+            &quot;name&quot;: &quot;Dolores&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 799,
+            &quot;danecode&quot;: 73268,
+            &quot;name&quot;: &quot;Espinal&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 800,
+            &quot;danecode&quot;: 7327,
+            &quot;name&quot;: &quot;Falan&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 801,
+            &quot;danecode&quot;: 73275,
+            &quot;name&quot;: &quot;Flandes&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 802,
+            &quot;danecode&quot;: 73283,
+            &quot;name&quot;: &quot;Fresno&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 803,
+            &quot;danecode&quot;: 73319,
+            &quot;name&quot;: &quot;Guamo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 804,
+            &quot;danecode&quot;: 73347,
+            &quot;name&quot;: &quot;Herveo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 805,
+            &quot;danecode&quot;: 73349,
+            &quot;name&quot;: &quot;Honda&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 806,
+            &quot;danecode&quot;: 73352,
+            &quot;name&quot;: &quot;Icononzo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 807,
+            &quot;danecode&quot;: 73443,
+            &quot;name&quot;: &quot;Mariquita&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 808,
+            &quot;danecode&quot;: 73449,
+            &quot;name&quot;: &quot;Melgar&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 809,
+            &quot;danecode&quot;: 73461,
+            &quot;name&quot;: &quot;Murillo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 810,
+            &quot;danecode&quot;: 73483,
+            &quot;name&quot;: &quot;Natagaima&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 811,
+            &quot;danecode&quot;: 73504,
+            &quot;name&quot;: &quot;Ortega&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 812,
+            &quot;danecode&quot;: 7352,
+            &quot;name&quot;: &quot;Palocabildo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 813,
+            &quot;danecode&quot;: 73547,
+            &quot;name&quot;: &quot;Piedras&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 814,
+            &quot;danecode&quot;: 73555,
+            &quot;name&quot;: &quot;Planadas&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 815,
+            &quot;danecode&quot;: 73563,
+            &quot;name&quot;: &quot;Prado&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 816,
+            &quot;danecode&quot;: 73585,
+            &quot;name&quot;: &quot;Purificaci&oacute;n&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 817,
+            &quot;danecode&quot;: 73616,
+            &quot;name&quot;: &quot;Rio Blanco&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 818,
+            &quot;danecode&quot;: 73622,
+            &quot;name&quot;: &quot;Roncesvalles&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 819,
+            &quot;danecode&quot;: 73624,
+            &quot;name&quot;: &quot;Rovira&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 820,
+            &quot;danecode&quot;: 73671,
+            &quot;name&quot;: &quot;Salda&ntilde;a&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 821,
+            &quot;danecode&quot;: 73686,
+            &quot;name&quot;: &quot;Santa Isabel&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 822,
+            &quot;danecode&quot;: 73861,
+            &quot;name&quot;: &quot;Venadillo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 823,
+            &quot;danecode&quot;: 7387,
+            &quot;name&quot;: &quot;Villahermosa&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 824,
+            &quot;danecode&quot;: 73873,
+            &quot;name&quot;: &quot;Villarrica&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 825,
+            &quot;danecode&quot;: 81065,
+            &quot;name&quot;: &quot;Arauquita&quot;,
+            &quot;province_id&quot;: 22,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 826,
+            &quot;danecode&quot;: 8122,
+            &quot;name&quot;: &quot;Cravo Norte&quot;,
+            &quot;province_id&quot;: 22,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 827,
+            &quot;danecode&quot;: 813,
+            &quot;name&quot;: &quot;Fortul&quot;,
+            &quot;province_id&quot;: 22,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 828,
+            &quot;danecode&quot;: 81591,
+            &quot;name&quot;: &quot;Puerto Rond&oacute;n&quot;,
+            &quot;province_id&quot;: 22,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 829,
+            &quot;danecode&quot;: 81736,
+            &quot;name&quot;: &quot;Saravena&quot;,
+            &quot;province_id&quot;: 22,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 830,
+            &quot;danecode&quot;: 81794,
+            &quot;name&quot;: &quot;Tame&quot;,
+            &quot;province_id&quot;: 22,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 831,
+            &quot;danecode&quot;: 81001,
+            &quot;name&quot;: &quot;Arauca&quot;,
+            &quot;province_id&quot;: 22,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 832,
+            &quot;danecode&quot;: 85001,
+            &quot;name&quot;: &quot;Yopal&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 833,
+            &quot;danecode&quot;: 8501,
+            &quot;name&quot;: &quot;Aguazul&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 834,
+            &quot;danecode&quot;: 85015,
+            &quot;name&quot;: &quot;Ch&aacute;meza&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 835,
+            &quot;danecode&quot;: 85125,
+            &quot;name&quot;: &quot;Hato Corozal&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 836,
+            &quot;danecode&quot;: 85136,
+            &quot;name&quot;: &quot;La Salina&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 837,
+            &quot;danecode&quot;: 85162,
+            &quot;name&quot;: &quot;Monterrey&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 838,
+            &quot;danecode&quot;: 85263,
+            &quot;name&quot;: &quot;Pore&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 839,
+            &quot;danecode&quot;: 85279,
+            &quot;name&quot;: &quot;Recetor&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 840,
+            &quot;danecode&quot;: 853,
+            &quot;name&quot;: &quot;Sabanalarga&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 841,
+            &quot;danecode&quot;: 85315,
+            &quot;name&quot;: &quot;S&aacute;cama&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 842,
+            &quot;danecode&quot;: 8541,
+            &quot;name&quot;: &quot;Tauramena&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 843,
+            &quot;danecode&quot;: 8543,
+            &quot;name&quot;: &quot;Trinidad&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 844,
+            &quot;danecode&quot;: 8544,
+            &quot;name&quot;: &quot;Villanueva&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 845,
+            &quot;danecode&quot;: 86001,
+            &quot;name&quot;: &quot;Mocoa&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 846,
+            &quot;danecode&quot;: 86219,
+            &quot;name&quot;: &quot;Col&oacute;n&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 847,
+            &quot;danecode&quot;: 8632,
+            &quot;name&quot;: &quot;Orito&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 848,
+            &quot;danecode&quot;: 86569,
+            &quot;name&quot;: &quot;Puerto Caicedo&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 849,
+            &quot;danecode&quot;: 86571,
+            &quot;name&quot;: &quot;Puerto Guzm&aacute;n&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 850,
+            &quot;danecode&quot;: 86573,
+            &quot;name&quot;: &quot;Legu&iacute;zamo&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 851,
+            &quot;danecode&quot;: 86749,
+            &quot;name&quot;: &quot;Sibundoy&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 852,
+            &quot;danecode&quot;: 86755,
+            &quot;name&quot;: &quot;San Francisco&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 853,
+            &quot;danecode&quot;: 86757,
+            &quot;name&quot;: &quot;San Miguel&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 854,
+            &quot;danecode&quot;: 8676,
+            &quot;name&quot;: &quot;Santiago&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 855,
+            &quot;danecode&quot;: 91001,
+            &quot;name&quot;: &quot;Leticia&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 856,
+            &quot;danecode&quot;: 91263,
+            &quot;name&quot;: &quot;El Encanto&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 857,
+            &quot;danecode&quot;: 91405,
+            &quot;name&quot;: &quot;La Chorrera&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 858,
+            &quot;danecode&quot;: 91407,
+            &quot;name&quot;: &quot;La Pedrera&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 859,
+            &quot;danecode&quot;: 9143,
+            &quot;name&quot;: &quot;La Victoria&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 860,
+            &quot;danecode&quot;: 91536,
+            &quot;name&quot;: &quot;Puerto Arica&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 861,
+            &quot;danecode&quot;: 9154,
+            &quot;name&quot;: &quot;Puerto Nari&ntilde;o&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 862,
+            &quot;danecode&quot;: 91669,
+            &quot;name&quot;: &quot;Puerto Santander&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 863,
+            &quot;danecode&quot;: 91798,
+            &quot;name&quot;: &quot;Tarapac&aacute;&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 864,
+            &quot;danecode&quot;: 94001,
+            &quot;name&quot;: &quot;In&iacute;rida&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 865,
+            &quot;danecode&quot;: 94343,
+            &quot;name&quot;: &quot;Barranco Minas&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 866,
+            &quot;danecode&quot;: 94663,
+            &quot;name&quot;: &quot;Mapiripana&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 867,
+            &quot;danecode&quot;: 94883,
+            &quot;name&quot;: &quot;San Felipe&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 868,
+            &quot;danecode&quot;: 94884,
+            &quot;name&quot;: &quot;Puerto Colombia&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 869,
+            &quot;danecode&quot;: 94885,
+            &quot;name&quot;: &quot;La Guadalupe&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 870,
+            &quot;danecode&quot;: 94886,
+            &quot;name&quot;: &quot;Cacahual&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 871,
+            &quot;danecode&quot;: 94887,
+            &quot;name&quot;: &quot;Pana Pana&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 872,
+            &quot;danecode&quot;: 94888,
+            &quot;name&quot;: &quot;Morichal&quot;,
+            &quot;province_id&quot;: 26,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 873,
+            &quot;danecode&quot;: 97001,
+            &quot;name&quot;: &quot;Mit&uacute;&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 874,
+            &quot;danecode&quot;: 97161,
+            &quot;name&quot;: &quot;Caruru&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 875,
+            &quot;danecode&quot;: 97511,
+            &quot;name&quot;: &quot;Pacoa&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 876,
+            &quot;danecode&quot;: 97666,
+            &quot;name&quot;: &quot;Taraira&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 877,
+            &quot;danecode&quot;: 97777,
+            &quot;name&quot;: &quot;Papunaua&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 878,
+            &quot;danecode&quot;: 99001,
+            &quot;name&quot;: &quot;Puerto Carre&ntilde;o&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 879,
+            &quot;danecode&quot;: 99524,
+            &quot;name&quot;: &quot;La Primavera&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 880,
+            &quot;danecode&quot;: 99624,
+            &quot;name&quot;: &quot;Santa Rosal&iacute;a&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 881,
+            &quot;danecode&quot;: 99773,
+            &quot;name&quot;: &quot;Cumaribo&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 882,
+            &quot;danecode&quot;: 1861,
+            &quot;name&quot;: &quot;San Jos&eacute; del Fragua&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 883,
+            &quot;danecode&quot;: 5011,
+            &quot;name&quot;: &quot;Barranca de Up&iacute;a&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 884,
+            &quot;danecode&quot;: 68524,
+            &quot;name&quot;: &quot;Palmas del Socorro&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 885,
+            &quot;danecode&quot;: 25662,
+            &quot;name&quot;: &quot;San Juan de R&iacute;o Seco&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 886,
+            &quot;danecode&quot;: 8372,
+            &quot;name&quot;: &quot;Juan de Acosta&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 887,
+            &quot;danecode&quot;: 50287,
+            &quot;name&quot;: &quot;Fuente de Oro&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 888,
+            &quot;danecode&quot;: 85325,
+            &quot;name&quot;: &quot;San Luis de Gaceno&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 889,
+            &quot;danecode&quot;: 2725,
+            &quot;name&quot;: &quot;El Litoral del San Juan&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 890,
+            &quot;danecode&quot;: 25843,
+            &quot;name&quot;: &quot;Villa de San Diego de Ubate&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 891,
+            &quot;danecode&quot;: 13074,
+            &quot;name&quot;: &quot;Barranco de Loba&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 892,
+            &quot;danecode&quot;: 15816,
+            &quot;name&quot;: &quot;Tog&uuml;&iacute;&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 893,
+            &quot;danecode&quot;: 13688,
+            &quot;name&quot;: &quot;Santa Rosa del Sur&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 894,
+            &quot;danecode&quot;: 27135,
+            &quot;name&quot;: &quot;El Cant&oacute;n del San Pablo&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 895,
+            &quot;danecode&quot;: 15407,
+            &quot;name&quot;: &quot;Villa de Leyva&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 896,
+            &quot;danecode&quot;: 47692,
+            &quot;name&quot;: &quot;San Sebasti&aacute;n de Buenavista&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 897,
+            &quot;danecode&quot;: 15537,
+            &quot;name&quot;: &quot;Paz de R&iacute;o&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 898,
+            &quot;danecode&quot;: 133,
+            &quot;name&quot;: &quot;Hatillo de Loba&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 899,
+            &quot;danecode&quot;: 4766,
+            &quot;name&quot;: &quot;Sabanas de San Angel&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 900,
+            &quot;danecode&quot;: 95015,
+            &quot;name&quot;: &quot;Calamar&quot;,
+            &quot;province_id&quot;: 29,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 901,
+            &quot;danecode&quot;: 20614,
+            &quot;name&quot;: &quot;R&iacute;o de Oro&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 902,
+            &quot;danecode&quot;: 5665,
+            &quot;name&quot;: &quot;San Pedro de Uraba&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 903,
+            &quot;danecode&quot;: 95001,
+            &quot;name&quot;: &quot;San Jos&eacute; del Guaviare&quot;,
+            &quot;province_id&quot;: 29,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 904,
+            &quot;danecode&quot;: 15693,
+            &quot;name&quot;: &quot;Santa Rosa de Viterbo&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 905,
+            &quot;danecode&quot;: 19698,
+            &quot;name&quot;: &quot;Santander de Quilichao&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 906,
+            &quot;danecode&quot;: 952,
+            &quot;name&quot;: &quot;Miraflores&quot;,
+            &quot;province_id&quot;: 29,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 907,
+            &quot;danecode&quot;: 5042,
+            &quot;name&quot;: &quot;Santaf&eacute; de Antioquia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 908,
+            &quot;danecode&quot;: 5068,
+            &quot;name&quot;: &quot;San Carlos de Guaroa&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 909,
+            &quot;danecode&quot;: 852,
+            &quot;name&quot;: &quot;Palmar de Varela&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 910,
+            &quot;danecode&quot;: 5686,
+            &quot;name&quot;: &quot;Santa Rosa de Osos&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 911,
+            &quot;danecode&quot;: 5647,
+            &quot;name&quot;: &quot;San Andr&eacute;s de Cuerqu&iacute;a&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 912,
+            &quot;danecode&quot;: 73854,
+            &quot;name&quot;: &quot;Valle de San Juan&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 913,
+            &quot;danecode&quot;: 68689,
+            &quot;name&quot;: &quot;San Vicente de Chucur&iacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 914,
+            &quot;danecode&quot;: 68684,
+            &quot;name&quot;: &quot;San Jos&eacute; de Miranda&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 915,
+            &quot;danecode&quot;: 88564,
+            &quot;name&quot;: &quot;Providencia&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 916,
+            &quot;danecode&quot;: 66682,
+            &quot;name&quot;: &quot;Santa Rosa de Cabal&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 917,
+            &quot;danecode&quot;: 25328,
+            &quot;name&quot;: &quot;Guayabal de Siquima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 918,
+            &quot;danecode&quot;: 18094,
+            &quot;name&quot;: &quot;Bel&eacute;n de Los Andaquies&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 919,
+            &quot;danecode&quot;: 8525,
+            &quot;name&quot;: &quot;Paz de Ariporo&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 920,
+            &quot;danecode&quot;: 6872,
+            &quot;name&quot;: &quot;Santa Helena del Op&oacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 921,
+            &quot;danecode&quot;: 15681,
+            &quot;name&quot;: &quot;San Pablo de Borbur&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 922,
+            &quot;danecode&quot;: 4442,
+            &quot;name&quot;: &quot;La Jagua del Pilar&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 923,
+            &quot;danecode&quot;: 204,
+            &quot;name&quot;: &quot;La Jagua de Ibirico&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 924,
+            &quot;danecode&quot;: 70742,
+            &quot;name&quot;: &quot;San Luis de Sinc&eacute;&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 925,
+            &quot;danecode&quot;: 15667,
+            &quot;name&quot;: &quot;San Luis de Gaceno&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 926,
+            &quot;danecode&quot;: 13244,
+            &quot;name&quot;: &quot;El Carmen de Bol&iacute;var&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 927,
+            &quot;danecode&quot;: 27245,
+            &quot;name&quot;: &quot;El Carmen de Atrato&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 928,
+            &quot;danecode&quot;: 70702,
+            &quot;name&quot;: &quot;San Juan de Betulia&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 929,
+            &quot;danecode&quot;: 47545,
+            &quot;name&quot;: &quot;Piji&ntilde;o del Carmen&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 930,
+            &quot;danecode&quot;: 5873,
+            &quot;name&quot;: &quot;Vig&iacute;a del Fuerte&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 931,
+            &quot;danecode&quot;: 13667,
+            &quot;name&quot;: &quot;San Mart&iacute;n de Loba&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 932,
+            &quot;danecode&quot;: 1303,
+            &quot;name&quot;: &quot;Altos del Rosario&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 933,
+            &quot;danecode&quot;: 73148,
+            &quot;name&quot;: &quot;Carmen de Apicala&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 934,
+            &quot;danecode&quot;: 25645,
+            &quot;name&quot;: &quot;San Antonio del Tequendama&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 935,
+            &quot;danecode&quot;: 68655,
+            &quot;name&quot;: &quot;Sabana de Torres&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 936,
+            &quot;danecode&quot;: 95025,
+            &quot;name&quot;: &quot;El Retorno&quot;,
+            &quot;province_id&quot;: 29,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 937,
+            &quot;danecode&quot;: 23682,
+            &quot;name&quot;: &quot;San Jos&eacute; de Ur&eacute;&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 938,
+            &quot;danecode&quot;: 52694,
+            &quot;name&quot;: &quot;San Pedro de Cartago&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 939,
+            &quot;danecode&quot;: 8137,
+            &quot;name&quot;: &quot;Campo de La Cruz&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 940,
+            &quot;danecode&quot;: 50683,
+            &quot;name&quot;: &quot;San Juan de Arama&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 941,
+            &quot;danecode&quot;: 5658,
+            &quot;name&quot;: &quot;San Jos&eacute; de La Monta&ntilde;a&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 942,
+            &quot;danecode&quot;: 1815,
+            &quot;name&quot;: &quot;Cartagena del Chair&aacute;&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 943,
+            &quot;danecode&quot;: 2766,
+            &quot;name&quot;: &quot;San Jos&eacute; del Palmar&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 944,
+            &quot;danecode&quot;: 25001,
+            &quot;name&quot;: &quot;Agua de Dios&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 945,
+            &quot;danecode&quot;: 13655,
+            &quot;name&quot;: &quot;San Jacinto del Cauca&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 946,
+            &quot;danecode&quot;: 41668,
+            &quot;name&quot;: &quot;San Agust&iacute;n&quot;,
+            &quot;province_id&quot;: 14,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 947,
+            &quot;danecode&quot;: 52258,
+            &quot;name&quot;: &quot;El Tabl&oacute;n de G&oacute;mez&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 948,
+            &quot;danecode&quot;: 88001,
+            &quot;name&quot;: &quot;San Andr&eacute;s&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 949,
+            &quot;danecode&quot;: 15664,
+            &quot;name&quot;: &quot;San Jos&eacute; de Pare&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 950,
+            &quot;danecode&quot;: 86865,
+            &quot;name&quot;: &quot;Valle de Guamez&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 951,
+            &quot;danecode&quot;: 1367,
+            &quot;name&quot;: &quot;San Pablo de Borbur&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 952,
+            &quot;danecode&quot;: 7082,
+            &quot;name&quot;: &quot;Santiago de Tol&uacute;&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 953,
+            &quot;danecode&quot;: 11001,
+            &quot;name&quot;: &quot;Bogot&aacute; D.C.&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 954,
+            &quot;danecode&quot;: 25154,
+            &quot;name&quot;: &quot;Carmen de Carupa&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 955,
+            &quot;danecode&quot;: 23189,
+            &quot;name&quot;: &quot;Ci&eacute;naga de Oro&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 956,
+            &quot;danecode&quot;: 5659,
+            &quot;name&quot;: &quot;San Juan de Urab&aacute;&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 957,
+            &quot;danecode&quot;: 4465,
+            &quot;name&quot;: &quot;San Juan del Cesar&quot;,
+            &quot;province_id&quot;: 15,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 958,
+            &quot;danecode&quot;: 68235,
+            &quot;name&quot;: &quot;El Carmen de Chucur&iacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 959,
+            &quot;danecode&quot;: 5148,
+            &quot;name&quot;: &quot;El Carmen de Viboral&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 960,
+            &quot;danecode&quot;: 66088,
+            &quot;name&quot;: &quot;Bel&eacute;n de Umbr&iacute;a&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 961,
+            &quot;danecode&quot;: 27086,
+            &quot;name&quot;: &quot;Bel&eacute;n de Bajira&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 962,
+            &quot;danecode&quot;: 68855,
+            &quot;name&quot;: &quot;Valle de San Jos&eacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 963,
+            &quot;danecode&quot;: 73678,
+            &quot;name&quot;: &quot;San Luis&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 964,
+            &quot;danecode&quot;: 15676,
+            &quot;name&quot;: &quot;San Miguel de Sema&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 965,
+            &quot;danecode&quot;: 73675,
+            &quot;name&quot;: &quot;San Antonio&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 966,
+            &quot;danecode&quot;: 68673,
+            &quot;name&quot;: &quot;San Benito&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 967,
+            &quot;danecode&quot;: 25862,
+            &quot;name&quot;: &quot;Vergara&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 968,
+            &quot;danecode&quot;: 23678,
+            &quot;name&quot;: &quot;San Carlos&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 969,
+            &quot;danecode&quot;: 9153,
+            &quot;name&quot;: &quot;Puerto Alegr&iacute;a&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 970,
+            &quot;danecode&quot;: 68344,
+            &quot;name&quot;: &quot;Hato&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 971,
+            &quot;danecode&quot;: 13654,
+            &quot;name&quot;: &quot;San Jacinto&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 972,
+            &quot;danecode&quot;: 19693,
+            &quot;name&quot;: &quot;San Sebasti&aacute;n&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 973,
+            &quot;danecode&quot;: 5649,
+            &quot;name&quot;: &quot;San Carlos&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 974,
+            &quot;danecode&quot;: 15837,
+            &quot;name&quot;: &quot;Tuta&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 975,
+            &quot;danecode&quot;: 54743,
+            &quot;name&quot;: &quot;Silos&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 976,
+            &quot;danecode&quot;: 54125,
+            &quot;name&quot;: &quot;C&aacute;cota&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 977,
+            &quot;danecode&quot;: 7625,
+            &quot;name&quot;: &quot;El Dovio&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 978,
+            &quot;danecode&quot;: 5482,
+            &quot;name&quot;: &quot;Toledo&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 979,
+            &quot;danecode&quot;: 76622,
+            &quot;name&quot;: &quot;Roldanillo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 980,
+            &quot;danecode&quot;: 5448,
+            &quot;name&quot;: &quot;Mutiscua&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 981,
+            &quot;danecode&quot;: 76054,
+            &quot;name&quot;: &quot;Argelia&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 982,
+            &quot;danecode&quot;: 54261,
+            &quot;name&quot;: &quot;El Zulia&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 983,
+            &quot;danecode&quot;: 5466,
+            &quot;name&quot;: &quot;Salazar&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 984,
+            &quot;danecode&quot;: 76736,
+            &quot;name&quot;: &quot;Sevilla&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 985,
+            &quot;danecode&quot;: 76895,
+            &quot;name&quot;: &quot;Zarzal&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 986,
+            &quot;danecode&quot;: 54223,
+            &quot;name&quot;: &quot;Cucutilla&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 987,
+            &quot;danecode&quot;: 76248,
+            &quot;name&quot;: &quot;El Cerrito&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 988,
+            &quot;danecode&quot;: 76147,
+            &quot;name&quot;: &quot;Cartago&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 989,
+            &quot;danecode&quot;: 76122,
+            &quot;name&quot;: &quot;Caicedonia&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 990,
+            &quot;danecode&quot;: 54553,
+            &quot;name&quot;: &quot;Puerto Santander&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 991,
+            &quot;danecode&quot;: 54313,
+            &quot;name&quot;: &quot;Gramalote&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 992,
+            &quot;danecode&quot;: 76246,
+            &quot;name&quot;: &quot;El Cairo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 993,
+            &quot;danecode&quot;: 5425,
+            &quot;name&quot;: &quot;El Tarra&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 994,
+            &quot;danecode&quot;: 764,
+            &quot;name&quot;: &quot;La Uni&oacute;n&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 995,
+            &quot;danecode&quot;: 76606,
+            &quot;name&quot;: &quot;Restrepo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 996,
+            &quot;danecode&quot;: 548,
+            &quot;name&quot;: &quot;Teorama&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 997,
+            &quot;danecode&quot;: 76233,
+            &quot;name&quot;: &quot;Dagua&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 998,
+            &quot;danecode&quot;: 54051,
+            &quot;name&quot;: &quot;Arboledas&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 999,
+            &quot;danecode&quot;: 76318,
+            &quot;name&quot;: &quot;Guacar&iacute;&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1000,
+            &quot;danecode&quot;: 54418,
+            &quot;name&quot;: &quot;Lourdes&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1001,
+            &quot;danecode&quot;: 76041,
+            &quot;name&quot;: &quot;Ansermanuevo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1002,
+            &quot;danecode&quot;: 54099,
+            &quot;name&quot;: &quot;Bochalema&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1003,
+            &quot;danecode&quot;: 76113,
+            &quot;name&quot;: &quot;Bugalagrande&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1004,
+            &quot;danecode&quot;: 54206,
+            &quot;name&quot;: &quot;Convenci&oacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1005,
+            &quot;danecode&quot;: 54344,
+            &quot;name&quot;: &quot;Hacar&iacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1006,
+            &quot;danecode&quot;: 76403,
+            &quot;name&quot;: &quot;La Victoria&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1007,
+            &quot;danecode&quot;: 54347,
+            &quot;name&quot;: &quot;Herr&aacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1008,
+            &quot;danecode&quot;: 76306,
+            &quot;name&quot;: &quot;Ginebra&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1009,
+            &quot;danecode&quot;: 76892,
+            &quot;name&quot;: &quot;Yumbo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1010,
+            &quot;danecode&quot;: 76497,
+            &quot;name&quot;: &quot;Obando&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1011,
+            &quot;danecode&quot;: 5481,
+            &quot;name&quot;: &quot;Tib&uacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1012,
+            &quot;danecode&quot;: 54673,
+            &quot;name&quot;: &quot;San Cayetano&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1013,
+            &quot;danecode&quot;: 5467,
+            &quot;name&quot;: &quot;San Calixto&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1014,
+            &quot;danecode&quot;: 761,
+            &quot;name&quot;: &quot;Bol&iacute;var&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1015,
+            &quot;danecode&quot;: 54398,
+            &quot;name&quot;: &quot;La Playa&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1016,
+            &quot;danecode&quot;: 76001,
+            &quot;name&quot;: &quot;Cali&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1017,
+            &quot;danecode&quot;: 7667,
+            &quot;name&quot;: &quot;San Pedro&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1018,
+            &quot;danecode&quot;: 76111,
+            &quot;name&quot;: &quot;Guadalajara de Buga&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1019,
+            &quot;danecode&quot;: 54172,
+            &quot;name&quot;: &quot;Chin&aacute;cota&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1020,
+            &quot;danecode&quot;: 54599,
+            &quot;name&quot;: &quot;Ragonvalia&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1021,
+            &quot;danecode&quot;: 54385,
+            &quot;name&quot;: &quot;La Esperanza&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1022,
+            &quot;danecode&quot;: 54874,
+            &quot;name&quot;: &quot;Villa del Rosario&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1023,
+            &quot;danecode&quot;: 54174,
+            &quot;name&quot;: &quot;Chitag&aacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1024,
+            &quot;danecode&quot;: 76126,
+            &quot;name&quot;: &quot;Calima&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1025,
+            &quot;danecode&quot;: 5472,
+            &quot;name&quot;: &quot;Sardinata&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1026,
+            &quot;danecode&quot;: 76036,
+            &quot;name&quot;: &quot;Andaluc&iacute;a&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1027,
+            &quot;danecode&quot;: 76563,
+            &quot;name&quot;: &quot;Pradera&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1028,
+            &quot;danecode&quot;: 54003,
+            &quot;name&quot;: &quot;Abrego&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1029,
+            &quot;danecode&quot;: 54405,
+            &quot;name&quot;: &quot;Los Patios&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1030,
+            &quot;danecode&quot;: 54498,
+            &quot;name&quot;: &quot;Oca&ntilde;a&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1031,
+            &quot;danecode&quot;: 54109,
+            &quot;name&quot;: &quot;Bucarasica&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1032,
+            &quot;danecode&quot;: 7689,
+            &quot;name&quot;: &quot;Yotoco&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1033,
+            &quot;danecode&quot;: 7652,
+            &quot;name&quot;: &quot;Palmira&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1034,
+            &quot;danecode&quot;: 76616,
+            &quot;name&quot;: &quot;Riofr&iacute;o&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1035,
+            &quot;danecode&quot;: 5468,
+            &quot;name&quot;: &quot;Santiago&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1036,
+            &quot;danecode&quot;: 7602,
+            &quot;name&quot;: &quot;Alcal&aacute;&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1037,
+            &quot;danecode&quot;: 76863,
+            &quot;name&quot;: &quot;Versalles&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1038,
+            &quot;danecode&quot;: 54377,
+            &quot;name&quot;: &quot;Labateca&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1039,
+            &quot;danecode&quot;: 54128,
+            &quot;name&quot;: &quot;Cachir&aacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1040,
+            &quot;danecode&quot;: 54871,
+            &quot;name&quot;: &quot;Villa Caro&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1041,
+            &quot;danecode&quot;: 54239,
+            &quot;name&quot;: &quot;Durania&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1042,
+            &quot;danecode&quot;: 76243,
+            &quot;name&quot;: &quot;El &Aacute;guila&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1043,
+            &quot;danecode&quot;: 76823,
+            &quot;name&quot;: &quot;Toro&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1044,
+            &quot;danecode&quot;: 7613,
+            &quot;name&quot;: &quot;Candelaria&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1045,
+            &quot;danecode&quot;: 76377,
+            &quot;name&quot;: &quot;La Cumbre&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1046,
+            &quot;danecode&quot;: 76845,
+            &quot;name&quot;: &quot;Ulloa&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1047,
+            &quot;danecode&quot;: 76828,
+            &quot;name&quot;: &quot;Trujillo&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1048,
+            &quot;danecode&quot;: 76869,
+            &quot;name&quot;: &quot;Vijes&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1049,
+            &quot;danecode&quot;: 68176,
+            &quot;name&quot;: &quot;Chim&aacute;&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1050,
+            &quot;danecode&quot;: 7067,
+            &quot;name&quot;: &quot;Sampu&eacute;s&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1051,
+            &quot;danecode&quot;: 85225,
+            &quot;name&quot;: &quot;Nunch&iacute;a&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1052,
+            &quot;danecode&quot;: 54518,
+            &quot;name&quot;: &quot;Pamplona&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1053,
+            &quot;danecode&quot;: 25019,
+            &quot;name&quot;: &quot;Alb&aacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1054,
+            &quot;danecode&quot;: 97889,
+            &quot;name&quot;: &quot;Yavarat&eacute;&quot;,
+            &quot;province_id&quot;: 33,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1055,
+            &quot;danecode&quot;: 23466,
+            &quot;name&quot;: &quot;Montel&iacute;bano&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1056,
+            &quot;danecode&quot;: 86568,
+            &quot;name&quot;: &quot;Puerto As&iacute;s&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1057,
+            &quot;danecode&quot;: 70215,
+            &quot;name&quot;: &quot;Corozal&quot;,
+            &quot;province_id&quot;: 20,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1058,
+            &quot;danecode&quot;: 5211,
+            &quot;name&quot;: &quot;Buesaco&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1059,
+            &quot;danecode&quot;: 85139,
+            &quot;name&quot;: &quot;Man&iacute;&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1060,
+            &quot;danecode&quot;: 13268,
+            &quot;name&quot;: &quot;El Pe&ntilde;&oacute;n&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1061,
+            &quot;danecode&quot;: 76834,
+            &quot;name&quot;: &quot;Tulu&aacute;&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1062,
+            &quot;danecode&quot;: 73152,
+            &quot;name&quot;: &quot;Casabianca&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1063,
+            &quot;danecode&quot;: 2504,
+            &quot;name&quot;: &quot;Anolaima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1064,
+            &quot;danecode&quot;: 25175,
+            &quot;name&quot;: &quot;Ch&iacute;a&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1065,
+            &quot;danecode&quot;: 52835,
+            &quot;name&quot;: &quot;San Andr&eacute;s de Tumaco&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1066,
+            &quot;danecode&quot;: 1846,
+            &quot;name&quot;: &quot;Mil&aacute;n&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1067,
+            &quot;danecode&quot;: 68147,
+            &quot;name&quot;: &quot;Capitanejo&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1068,
+            &quot;danecode&quot;: 73043,
+            &quot;name&quot;: &quot;Anzo&aacute;tegui&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1069,
+            &quot;danecode&quot;: 76275,
+            &quot;name&quot;: &quot;Florida&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1070,
+            &quot;danecode&quot;: 8606,
+            &quot;name&quot;: &quot;Repel&oacute;n&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1071,
+            &quot;danecode&quot;: 5284,
+            &quot;name&quot;: &quot;Frontino&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1072,
+            &quot;danecode&quot;: 25258,
+            &quot;name&quot;: &quot;El Pe&ntilde;&oacute;n&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1073,
+            &quot;danecode&quot;: 5452,
+            &quot;name&quot;: &quot;Pamplonita&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1074,
+            &quot;danecode&quot;: 9146,
+            &quot;name&quot;: &quot;Miriti Paran&aacute;&quot;,
+            &quot;province_id&quot;: 25,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1075,
+            &quot;danecode&quot;: 854,
+            &quot;name&quot;: &quot;T&aacute;mara&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1076,
+            &quot;danecode&quot;: 15806,
+            &quot;name&quot;: &quot;Tibasosa&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1077,
+            &quot;danecode&quot;: 19517,
+            &quot;name&quot;: &quot;P&aacute;ez&quot;,
+            &quot;province_id&quot;: 11,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1078,
+            &quot;danecode&quot;: 73001,
+            &quot;name&quot;: &quot;Ibagu&eacute;&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1079,
+            &quot;danecode&quot;: 8573,
+            &quot;name&quot;: &quot;Puerto Colombia&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1080,
+            &quot;danecode&quot;: 52083,
+            &quot;name&quot;: &quot;Bel&eacute;n&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1081,
+            &quot;danecode&quot;: 25758,
+            &quot;name&quot;: &quot;Sop&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1082,
+            &quot;danecode&quot;: 2715,
+            &quot;name&quot;: &quot;Carmen del Darien&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1083,
+            &quot;danecode&quot;: 25299,
+            &quot;name&quot;: &quot;Gama&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1084,
+            &quot;danecode&quot;: 25718,
+            &quot;name&quot;: &quot;Sasaima&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1085,
+            &quot;danecode&quot;: 5224,
+            &quot;name&quot;: &quot;Chachag&uuml;&iacute;&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1086,
+            &quot;danecode&quot;: 54001,
+            &quot;name&quot;: &quot;C&uacute;cuta&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1087,
+            &quot;danecode&quot;: 13001,
+            &quot;name&quot;: &quot;Cartagena&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1088,
+            &quot;danecode&quot;: 5313,
+            &quot;name&quot;: &quot;Granada&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1089,
+            &quot;danecode&quot;: 4772,
+            &quot;name&quot;: &quot;Santa B&aacute;rbara de Pinto&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1090,
+            &quot;danecode&quot;: 13442,
+            &quot;name&quot;: &quot;Mar&iacute;a la Baja&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1091,
+            &quot;danecode&quot;: 1841,
+            &quot;name&quot;: &quot;La Monta&ntilde;ita&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1092,
+            &quot;danecode&quot;: 18753,
+            &quot;name&quot;: &quot;San Vicente del Cagu&aacute;n&quot;,
+            &quot;province_id&quot;: 10,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1093,
+            &quot;danecode&quot;: 6825,
+            &quot;name&quot;: &quot;El Pe&ntilde;&oacute;n&quot;,
+            &quot;province_id&quot;: 19,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1094,
+            &quot;danecode&quot;: 5364,
+            &quot;name&quot;: &quot;Jard&iacute;n&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1095,
+            &quot;danecode&quot;: 76364,
+            &quot;name&quot;: &quot;Jamund&iacute;&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1096,
+            &quot;danecode&quot;: 27787,
+            &quot;name&quot;: &quot;Tad&oacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1097,
+            &quot;danecode&quot;: 8523,
+            &quot;name&quot;: &quot;Orocu&eacute;&quot;,
+            &quot;province_id&quot;: 23,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1098,
+            &quot;danecode&quot;: 73411,
+            &quot;name&quot;: &quot;L&iacute;bano&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1099,
+            &quot;danecode&quot;: 25885,
+            &quot;name&quot;: &quot;Yacop&iacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1100,
+            &quot;danecode&quot;: 6313,
+            &quot;name&quot;: &quot;Calarc&aacute;&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1101,
+            &quot;danecode&quot;: 5756,
+            &quot;name&quot;: &quot;Sons&oacute;n&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1102,
+            &quot;danecode&quot;: 54245,
+            &quot;name&quot;: &quot;El Carmen&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1103,
+            &quot;danecode&quot;: 73408,
+            &quot;name&quot;: &quot;L&eacute;rida&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1104,
+            &quot;danecode&quot;: 2335,
+            &quot;name&quot;: &quot;La Apartada&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1105,
+            &quot;danecode&quot;: 1362,
+            &quot;name&quot;: &quot;San Crist&oacute;bal&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1106,
+            &quot;danecode&quot;: 2529,
+            &quot;name&quot;: &quot;Fusagasug&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1107,
+            &quot;danecode&quot;: 13894,
+            &quot;name&quot;: &quot;Zambrano&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1108,
+            &quot;danecode&quot;: 15403,
+            &quot;name&quot;: &quot;La Uvita&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1109,
+            &quot;danecode&quot;: 25899,
+            &quot;name&quot;: &quot;Zipaquir&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1110,
+            &quot;danecode&quot;: 63302,
+            &quot;name&quot;: &quot;G&eacute;nova&quot;,
+            &quot;province_id&quot;: 18,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1111,
+            &quot;danecode&quot;: 7377,
+            &quot;name&quot;: &quot;Su&aacute;rez&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1112,
+            &quot;danecode&quot;: 5015,
+            &quot;name&quot;: &quot;Castilla la Nueva&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1113,
+            &quot;danecode&quot;: 15087,
+            &quot;name&quot;: &quot;Bel&eacute;n&quot;,
+            &quot;province_id&quot;: 8,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1114,
+            &quot;danecode&quot;: 2781,
+            &quot;name&quot;: &quot;Uni&oacute;n Panamericana&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1115,
+            &quot;danecode&quot;: 4757,
+            &quot;name&quot;: &quot;Pueblo Viejo&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1116,
+            &quot;danecode&quot;: 86885,
+            &quot;name&quot;: &quot;Villagarz&oacute;n&quot;,
+            &quot;province_id&quot;: 24,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1117,
+            &quot;danecode&quot;: 25269,
+            &quot;name&quot;: &quot;Facatativ&aacute;&quot;,
+            &quot;province_id&quot;: 13,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1118,
+            &quot;danecode&quot;: 2358,
+            &quot;name&quot;: &quot;Puerto Libertador&quot;,
+            &quot;province_id&quot;: 12,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1119,
+            &quot;danecode&quot;: 17444,
+            &quot;name&quot;: &quot;Marquetalia&quot;,
+            &quot;province_id&quot;: 9,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1120,
+            &quot;danecode&quot;: 52051,
+            &quot;name&quot;: &quot;Arboleda&quot;,
+            &quot;province_id&quot;: 17,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1121,
+            &quot;danecode&quot;: 76109,
+            &quot;name&quot;: &quot;Buenaventura&quot;,
+            &quot;province_id&quot;: 21,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1122,
+            &quot;danecode&quot;: 47189,
+            &quot;name&quot;: &quot;Ci&eacute;naga&quot;,
+            &quot;province_id&quot;: 16,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;deleted_at&quot;: null
+        },
+        {
+            &quot;id&quot;: 1123,
+            &quot;danecode&quot;: 856,
+            &quot;name&quot;: &quot;Ponedera&quot;,
+            &quot;province_id&quot;: 1,
+            &quot;active&quot;: 1,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
             &quot;deleted_at&quot;: null
         }
     ]
@@ -1690,6 +12452,119 @@ access-control-allow-origin: *
 <p>Filtro para buscar ciudades por nombre.</p>
             </p>
                 </form>
+
+        <h1 id="civil-statu">Civil Statu</h1>
+
+    
+
+            <h2 id="civil-statu-GETapi-civilStatu">GET api/civilStatu</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-civilStatu">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/civilStatu',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-civilStatu">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 46
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Soltero&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Casado&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Union Libre&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-civilStatu" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-civilStatu"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-civilStatu"></code></pre>
+</span>
+<span id="execution-error-GETapi-civilStatu" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-civilStatu"></code></pre>
+</span>
+<form id="form-GETapi-civilStatu" data-method="GET"
+      data-path="api/civilStatu"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-civilStatu', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-civilStatu"
+                    onclick="tryItOut('GETapi-civilStatu');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-civilStatu"
+                    onclick="cancelTryOut('GETapi-civilStatu');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-civilStatu" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/civilStatu</code></b>
+        </p>
+                    </form>
 
         <h1 id="concept">Concept</h1>
 
@@ -1817,10 +12692,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'mnfbh',
+            'name' =&gt; 'inf',
             'calculated' =&gt; true,
-            'concept_type_id' =&gt; 3,
-            'setting_id' =&gt; 19,
+            'concept_type_id' =&gt; 17,
+            'setting_id' =&gt; 13,
         ],
     ]
 );
@@ -1876,7 +12751,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-concept"
-               value="mnfbh"
+               value="inf"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -1907,7 +12782,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_type_id"
                data-endpoint="POSTapi-concept"
-               value="3"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -1917,7 +12792,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="POSTapi-concept"
-               value="19"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -1938,7 +12813,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/concept/2',
+    'http://localhost:8000/api/concept/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2015,7 +12890,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-concept--id-"
-               value="2"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -2036,17 +12911,17 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/concept/11',
+    'http://localhost:8000/api/concept/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'minus',
+            'name' =&gt; 'officiis',
             'calculated' =&gt; false,
-            'concept_type_id' =&gt; 12,
-            'setting_id' =&gt; 15,
+            'concept_type_id' =&gt; 11,
+            'setting_id' =&gt; 11,
         ],
     ]
 );
@@ -2106,7 +12981,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-concept--id-"
-               value="11"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -2117,7 +12992,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-concept--id-"
-               value="minus"
+               value="officiis"
                data-component="body" hidden>
     <br>
 
@@ -2148,7 +13023,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="concept_type_id"
                data-endpoint="PUTapi-concept--id-"
-               value="12"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -2158,7 +13033,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="setting_id"
                data-endpoint="PUTapi-concept--id-"
-               value="15"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -2179,7 +13054,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/concept/16',
+    'http://localhost:8000/api/concept/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2239,7 +13114,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-concept--id-"
-               value="16"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the concept.</p>
@@ -2435,7 +13310,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/conceptType/20',
+    'http://localhost:8000/api/conceptType/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2512,7 +13387,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-conceptType--id-"
-               value="20"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2533,7 +13408,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/conceptType/9',
+    'http://localhost:8000/api/conceptType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2600,7 +13475,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-conceptType--id-"
-               value="9"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2632,7 +13507,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/conceptType/5',
+    'http://localhost:8000/api/conceptType/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2692,7 +13567,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-conceptType--id-"
-               value="5"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the conceptType.</p>
@@ -2748,20 +13623,7 @@ access-control-allow-origin: *
 
 <code class="language-json">{
     &quot;status&quot;: true,
-    &quot;data&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;name&quot;: &quot;JhonatanChe&quot;,
-            &quot;last_name&quot;: &quot;Velandia&quot;,
-            &quot;email&quot;: &quot;JhonatanGA3@gmail.com&quot;,
-            &quot;position&quot;: null,
-            &quot;phone&quot;: 26183232,
-            &quot;provider_id&quot;: 2,
-            &quot;created_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
-            &quot;deleted_at&quot;: null
-        }
-    ]
+    &quot;data&quot;: []
 }</code>
  </pre>
     </span>
@@ -2890,7 +13752,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contact/12',
+    'http://localhost:8000/api/contact/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -2905,7 +13767,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 
 <span id="example-responses-GETapi-contact--id-">
             <blockquote>
-            <p>Example response (200):</p>
+            <p>Example response (404):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -2920,19 +13782,418 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;status&quot;: true,
-    &quot;data&quot;: {
-        &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;JhonatanChe&quot;,
-        &quot;last_name&quot;: &quot;Velandia&quot;,
-        &quot;email&quot;: &quot;JhonatanGA3@gmail.com&quot;,
-        &quot;position&quot;: null,
-        &quot;phone&quot;: 26183232,
-        &quot;provider_id&quot;: 2,
-        &quot;created_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2022-01-27T15:33:32.000000Z&quot;,
-        &quot;deleted_at&quot;: null
-    }
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Contact] 1&quot;,
+    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
+    &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+    &quot;line&quot;: 385,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+            &quot;line&quot;: 332,
+            &quot;function&quot;: &quot;prepareException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 172,
+            &quot;function&quot;: &quot;handleException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 127,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;handleRequest&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php&quot;,
+            &quot;line&quot;: 55,
+            &quot;function&quot;: &quot;handleRequestUsingNamedLimiter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Middleware\\ThrottleRequests&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 697,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 672,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 636,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 625,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
+            &quot;line&quot;: 31,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php&quot;,
+            &quot;line&quot;: 52,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fruitcake\\Cors\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
+            &quot;line&quot;: 39,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 142,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 111,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 287,
+            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 89,
+            &quot;function&quot;: &quot;makeApiCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;makeResponseCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 35,
+            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 222,
+            &quot;function&quot;: &quot;__invoke&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 179,
+            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;fetchResponses&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 117,
+            &quot;function&quot;: &quot;processRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 75,
+            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 48,
+            &quot;function&quot;: &quot;get&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 36,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;callBoundMethod&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
+            &quot;line&quot;: 653,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 136,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Command\\Command.php&quot;,
+            &quot;line&quot;: 298,
+            &quot;function&quot;: &quot;execute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 121,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 1005,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;doRunCommand&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;doRun&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
+            &quot;line&quot;: 94,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
+            &quot;line&quot;: 129,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\Users\\User\\Documents\\Laravel backend\\syc_contable\\artisan&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
 }</code>
  </pre>
     </span>
@@ -2981,7 +14242,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-contact--id-"
-               value="12"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the contact.</p>
@@ -3087,7 +14348,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/contact/9',
+    'http://localhost:8000/api/contact/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3147,10 +14408,111 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contact--id-"
-               value="9"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the contact.</p>
+            </p>
+                    </form>
+
+            <h2 id="contact-GETapi-contact-provider--provider_id-">GET api/contact/provider/{provider_id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-contact-provider--provider_id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/contact/provider/16',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-contact-provider--provider_id-">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 54
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: []
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-contact-provider--provider_id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-contact-provider--provider_id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-contact-provider--provider_id-"></code></pre>
+</span>
+<span id="execution-error-GETapi-contact-provider--provider_id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-contact-provider--provider_id-"></code></pre>
+</span>
+<form id="form-GETapi-contact-provider--provider_id-" data-method="GET"
+      data-path="api/contact/provider/{provider_id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-contact-provider--provider_id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-contact-provider--provider_id-"
+                    onclick="tryItOut('GETapi-contact-provider--provider_id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-contact-provider--provider_id-"
+                    onclick="cancelTryOut('GETapi-contact-provider--provider_id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-contact-provider--provider_id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/contact/provider/{provider_id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>provider_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="provider_id"
+               data-endpoint="GETapi-contact-provider--provider_id-"
+               value="16"
+               data-component="url" hidden>
+    <br>
+<p>The ID of the provider.</p>
             </p>
                     </form>
 
@@ -3343,7 +14705,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/contractType/2',
+    'http://localhost:8000/api/contractType/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3420,7 +14782,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-contractType--id-"
-               value="2"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3441,7 +14803,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/contractType/9',
+    'http://localhost:8000/api/contractType/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3508,7 +14870,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-contractType--id-"
-               value="9"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3540,7 +14902,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/contractType/15',
+    'http://localhost:8000/api/contractType/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3600,7 +14962,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-contractType--id-"
-               value="15"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the contractType.</p>
@@ -3719,10 +15081,10 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'quia',
+            'name' =&gt; 'possimus',
             'value' =&gt; 4,
-            'covenant_type_id' =&gt; 9,
-            'periodicity_type_id' =&gt; 3,
+            'covenant_type_id' =&gt; 3,
+            'periodicity_type_id' =&gt; 5,
             'provider_id' =&gt; 1,
             'concept_name' =&gt; 'Cuota de convenio por salud',
         ],
@@ -3780,7 +15142,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-covenant"
-               value="quia"
+               value="possimus"
                data-component="body" hidden>
     <br>
 
@@ -3800,7 +15162,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="POSTapi-covenant"
-               value="9"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -3810,7 +15172,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="POSTapi-covenant"
-               value="3"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -3851,7 +15213,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenant/10',
+    'http://localhost:8000/api/covenant/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -3928,7 +15290,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenant--id-"
-               value="10"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -3949,20 +15311,19 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenant/13',
+    'http://localhost:8000/api/covenant/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'eos',
+            'name' =&gt; 'asperiores',
             'active' =&gt; false,
-            'value' =&gt; 5,
-            'covenant_type_id' =&gt; 18,
-            'periodicity_type_id' =&gt; 9,
+            'covenant_type_id' =&gt; 17,
+            'periodicity_type_id' =&gt; 17,
             'provider_id' =&gt; 13,
-            'concept_name' =&gt; 'h',
+            'concept_name' =&gt; '',
         ],
     ]
 );
@@ -4022,7 +15383,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenant--id-"
-               value="13"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -4033,7 +15394,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-covenant--id-"
-               value="eos"
+               value="asperiores"
                data-component="body" hidden>
     <br>
 
@@ -4060,11 +15421,11 @@ print_r(json_decode((string) $body));</code></pre></div>
 
         </p>
                 <p>
-            <b><code>value</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="value"
+            <b><code>0</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="0"
                data-endpoint="PUTapi-covenant--id-"
-               value="5"
+               value=""
                data-component="body" hidden>
     <br>
 
@@ -4074,7 +15435,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="covenant_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="18"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -4084,7 +15445,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="periodicity_type_id"
                data-endpoint="PUTapi-covenant--id-"
-               value="9"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -4104,7 +15465,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="concept_name"
                data-endpoint="PUTapi-covenant--id-"
-               value="h"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -4125,7 +15486,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/covenant/11',
+    'http://localhost:8000/api/covenant/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4185,7 +15546,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-covenant--id-"
-               value="11"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenant.</p>
@@ -4504,7 +15865,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/covenantType/13',
+    'http://localhost:8000/api/covenantType/7',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4581,7 +15942,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-covenantType--id-"
-               value="13"
+               value="7"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4602,7 +15963,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/covenantType/16',
+    'http://localhost:8000/api/covenantType/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4669,7 +16030,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-covenantType--id-"
-               value="16"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the covenantType.</p>
@@ -4768,6 +16129,125 @@ print_r(json_decode((string) $body));</code></pre></div>
             </p>
                     </form>
 
+        <h1 id="education-level">Education Level</h1>
+
+    
+
+            <h2 id="education-level-GETapi-educationLevel">GET api/educationLevel</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-educationLevel">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/educationLevel',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-educationLevel">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 44
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Basica&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Bachiller&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Tecnico&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Profesional&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-educationLevel" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-educationLevel"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-educationLevel"></code></pre>
+</span>
+<span id="execution-error-GETapi-educationLevel" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-educationLevel"></code></pre>
+</span>
+<form id="form-GETapi-educationLevel" data-method="GET"
+      data-path="api/educationLevel"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-educationLevel', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-educationLevel"
+                    onclick="tryItOut('GETapi-educationLevel');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-educationLevel"
+                    onclick="cancelTryOut('GETapi-educationLevel');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-educationLevel" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/educationLevel</code></b>
+        </p>
+                    </form>
+
         <h1 id="emergency-contact">Emergency Contact</h1>
 
     
@@ -4823,8 +16303,8 @@ access-control-allow-origin: *
             &quot;name&quot;: &quot;Patricia&quot;,
             &quot;phone&quot;: 3113012618,
             &quot;kinship_id&quot;: 1,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
             &quot;deleted_at&quot;: null
         }
     ]
@@ -4956,7 +16436,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/emergencyContact/1',
+    'http://localhost:8000/api/emergencyContact/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -4992,8 +16472,8 @@ access-control-allow-origin: *
         &quot;name&quot;: &quot;Patricia&quot;,
         &quot;phone&quot;: 3113012618,
         &quot;kinship_id&quot;: 1,
-        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
         &quot;deleted_at&quot;: null
     }
 }</code>
@@ -5044,7 +16524,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-emergencyContact--id-"
-               value="1"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -5065,7 +16545,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/emergencyContact/4',
+    'http://localhost:8000/api/emergencyContact/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5129,7 +16609,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-emergencyContact--id-"
-               value="4"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -5150,7 +16630,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/emergencyContact/16',
+    'http://localhost:8000/api/emergencyContact/1',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5210,7 +16690,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-emergencyContact--id-"
-               value="16"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the emergencyContact.</p>
@@ -5307,6 +16787,319 @@ access-control-allow-origin: *
             <p>
             <small class="badge badge-green">GET</small>
             <b><code>api/checkLogin</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-GETapi-constitutionType">GET api/constitutionType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-constitutionType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/constitutionType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-constitutionType">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 43
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Natural&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Juridica&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-constitutionType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-constitutionType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-constitutionType"></code></pre>
+</span>
+<span id="execution-error-GETapi-constitutionType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-constitutionType"></code></pre>
+</span>
+<form id="form-GETapi-constitutionType" data-method="GET"
+      data-path="api/constitutionType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-constitutionType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-constitutionType"
+                    onclick="tryItOut('GETapi-constitutionType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-constitutionType"
+                    onclick="cancelTryOut('GETapi-constitutionType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-constitutionType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/constitutionType</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-GETapi-responsabilityType">GET api/responsabilityType</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-responsabilityType">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/responsabilityType',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-responsabilityType">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 42
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Responsable de IVA&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;No responsable de IVA&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-responsabilityType" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-responsabilityType"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-responsabilityType"></code></pre>
+</span>
+<span id="execution-error-GETapi-responsabilityType" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-responsabilityType"></code></pre>
+</span>
+<form id="form-GETapi-responsabilityType" data-method="GET"
+      data-path="api/responsabilityType"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-responsabilityType', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-responsabilityType"
+                    onclick="tryItOut('GETapi-responsabilityType');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-responsabilityType"
+                    onclick="cancelTryOut('GETapi-responsabilityType');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-responsabilityType" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/responsabilityType</code></b>
+        </p>
+                    </form>
+
+        <h1 id="gender">Gender</h1>
+
+    
+
+            <h2 id="gender-GETapi-gender">GET api/gender</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-gender">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/gender',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-gender">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 47
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Masculino&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Femenino&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-gender" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-gender"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-gender"></code></pre>
+</span>
+<span id="execution-error-GETapi-gender" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-gender"></code></pre>
+</span>
+<form id="form-GETapi-gender" data-method="GET"
+      data-path="api/gender"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-gender', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-gender"
+                    onclick="tryItOut('GETapi-gender');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-gender"
+                    onclick="cancelTryOut('GETapi-gender');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-gender" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/gender</code></b>
         </p>
                     </form>
 
@@ -5499,7 +17292,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/headQuarter/2',
+    'http://localhost:8000/api/headQuarter/15',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5576,7 +17369,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-headQuarter--id-"
-               value="2"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -5597,7 +17390,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/headQuarter/17',
+    'http://localhost:8000/api/headQuarter/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5664,7 +17457,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-headQuarter--id-"
-               value="17"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -5696,7 +17489,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/headQuarter/1',
+    'http://localhost:8000/api/headQuarter/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5756,7 +17549,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-headQuarter--id-"
-               value="1"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the headQuarter.</p>
@@ -5805,7 +17598,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 54
+x-ratelimit-remaining: 53
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -5816,22 +17609,22 @@ access-control-allow-origin: *
         {
             &quot;id&quot;: 1,
             &quot;name&quot;: &quot;Salud total&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
             &quot;deleted_at&quot;: null
         },
         {
             &quot;id&quot;: 2,
             &quot;name&quot;: &quot;Sura&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
             &quot;deleted_at&quot;: null
         },
         {
             &quot;id&quot;: 3,
             &quot;name&quot;: &quot;Nueva EPS&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
             &quot;deleted_at&quot;: null
         }
     ]
@@ -5963,7 +17756,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/healthProvider/12',
+    'http://localhost:8000/api/healthProvider/18',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -5987,7 +17780,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 53
+x-ratelimit-remaining: 52
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -5997,8 +17790,8 @@ access-control-allow-origin: *
     &quot;data&quot;: {
         &quot;id&quot;: 1,
         &quot;name&quot;: &quot;Salud total&quot;,
-        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
         &quot;deleted_at&quot;: null
     }
 }</code>
@@ -6049,7 +17842,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-healthProvider--id-"
-               value="12"
+               value="18"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -6070,7 +17863,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/healthProvider/19',
+    'http://localhost:8000/api/healthProvider/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6134,7 +17927,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-healthProvider--id-"
-               value="19"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -6155,7 +17948,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/healthProvider/3',
+    'http://localhost:8000/api/healthProvider/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6215,7 +18008,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-healthProvider--id-"
-               value="3"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the healthProvider.</p>
@@ -6411,7 +18204,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/identificationType/3',
+    'http://localhost:8000/api/identificationType/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6488,7 +18281,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-identificationType--id-"
-               value="3"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6509,7 +18302,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/identificationType/19',
+    'http://localhost:8000/api/identificationType/17',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6576,7 +18369,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-identificationType--id-"
-               value="19"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6608,7 +18401,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/identificationType/4',
+    'http://localhost:8000/api/identificationType/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -6668,7 +18461,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-identificationType--id-"
-               value="4"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the identificationType.</p>
@@ -6973,7 +18766,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/payroll/8',
+    'http://localhost:8000/api/payroll/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7041,7 +18834,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-payroll--id-"
-               value="8"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -7083,7 +18876,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/payroll/19',
+    'http://localhost:8000/api/payroll/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7143,7 +18936,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-payroll--id-"
-               value="19"
+               value="6"
                data-component="url" hidden>
     <br>
 <p>The ID of the payroll.</p>
@@ -7399,7 +19192,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/payroll/user/20',
+    'http://localhost:8000/api/payroll/user/6',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7476,7 +19269,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="user"
                data-endpoint="GETapi-payroll-user--user-"
-               value="20"
+               value="6"
                data-component="url" hidden>
     <br>
 
@@ -7603,14 +19396,14 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/payrollDeleteConcept/11',
+    'http://localhost:8000/api/payrollDeleteConcept/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'query' =&gt; [
-            'conceptPivotId'=&gt; '9',
+            'conceptPivotId'=&gt; '6',
         ],
     ]
 );
@@ -7666,7 +19459,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="payroll_id"
                data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
-               value="11"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>El id de la nomina a la que se le eliminará el concepto</p>
@@ -7677,7 +19470,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="conceptPivotId"
                data-endpoint="DELETEapi-payrollDeleteConcept--payroll_id-"
-               value="9"
+               value="6"
                data-component="query" hidden>
     <br>
 <p>El id del concepto que se eliminará ubicado en la pivot</p>
@@ -7726,7 +19519,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 52
+x-ratelimit-remaining: 51
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -7737,15 +19530,15 @@ access-control-allow-origin: *
         {
             &quot;id&quot;: 1,
             &quot;name&quot;: &quot;Porvenir&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
             &quot;deleted_at&quot;: null
         },
         {
             &quot;id&quot;: 2,
             &quot;name&quot;: &quot;Protecci&oacute;n&quot;,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
             &quot;deleted_at&quot;: null
         }
     ]
@@ -7877,7 +19670,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/pensionFund/18',
+    'http://localhost:8000/api/pensionFund/13',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -7901,7 +19694,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 51
+x-ratelimit-remaining: 50
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -7911,8 +19704,8 @@ access-control-allow-origin: *
     &quot;data&quot;: {
         &quot;id&quot;: 1,
         &quot;name&quot;: &quot;Porvenir&quot;,
-        &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+        &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
         &quot;deleted_at&quot;: null
     }
 }</code>
@@ -7963,7 +19756,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-pensionFund--id-"
-               value="18"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -7984,7 +19777,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/pensionFund/7',
+    'http://localhost:8000/api/pensionFund/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8048,7 +19841,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-pensionFund--id-"
-               value="7"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -8069,7 +19862,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/pensionFund/4',
+    'http://localhost:8000/api/pensionFund/12',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8129,7 +19922,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-pensionFund--id-"
-               value="4"
+               value="12"
                data-component="url" hidden>
     <br>
 <p>The ID of the pensionFund.</p>
@@ -8325,7 +20118,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/period/10',
+    'http://localhost:8000/api/period/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8402,7 +20195,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-period--id-"
-               value="10"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8423,7 +20216,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/period/19',
+    'http://localhost:8000/api/period/20',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8490,7 +20283,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-period--id-"
-               value="19"
+               value="20"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8522,7 +20315,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/period/16',
+    'http://localhost:8000/api/period/5',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8582,7 +20375,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-period--id-"
-               value="16"
+               value="5"
                data-component="url" hidden>
     <br>
 <p>The ID of the period.</p>
@@ -8701,7 +20494,7 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'qui',
+            'name' =&gt; 'natus',
         ],
     ]
 );
@@ -8757,7 +20550,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-periodicityType"
-               value="qui"
+               value="natus"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8778,7 +20571,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/periodicityType/8',
+    'http://localhost:8000/api/periodicityType/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -8855,7 +20648,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-periodicityType--id-"
-               value="8"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8876,14 +20669,14 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/periodicityType/16',
+    'http://localhost:8000/api/periodicityType/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'aut',
+            'name' =&gt; 'in',
         ],
     ]
 );
@@ -8943,7 +20736,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="16"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -8954,7 +20747,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-periodicityType--id-"
-               value="aut"
+               value="in"
                data-component="body" hidden>
     <br>
 <p>El nombre, si es quincenal o mensual, ya viene definido por defecto</p>
@@ -8975,7 +20768,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/periodicityType/12',
+    'http://localhost:8000/api/periodicityType/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9035,7 +20828,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-periodicityType--id-"
-               value="12"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the periodicityType.</p>
@@ -9231,7 +21024,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/position/6',
+    'http://localhost:8000/api/position/13',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9308,7 +21101,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-position--id-"
-               value="6"
+               value="13"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9329,7 +21122,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/position/13',
+    'http://localhost:8000/api/position/19',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9396,7 +21189,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-position--id-"
-               value="13"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9428,7 +21221,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/position/11',
+    'http://localhost:8000/api/position/8',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9488,7 +21281,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-position--id-"
-               value="11"
+               value="8"
                data-component="url" hidden>
     <br>
 <p>The ID of the position.</p>
@@ -9607,19 +21400,17 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'o',
-            'last_name' =&gt; 'ucz',
-            'trade_name' =&gt; 'v',
-            'address' =&gt; 'tszl',
-            'phone' =&gt; 'xte',
-            'identification_number' =&gt; 'euutn',
-            'identification_type_id' =&gt; 1,
+            'name' =&gt; 'nls',
+            'trade_name' =&gt; 'g',
+            'address' =&gt; '',
+            'phone' =&gt; 'j',
+            'identification_number' =&gt; 'lsqri',
+            'identification_type_id' =&gt; 6,
             'iva' =&gt; true,
-            'email' =&gt; 'stacy66@example.org',
-            'password' =&gt; 'sit',
-            'constitution_type_id' =&gt; 16,
-            'city_id' =&gt; 17,
-            'responsability_type_id' =&gt; 7,
+            'email' =&gt; 'jones.mabel@example.net',
+            'password' =&gt; 'voluptas',
+            'constitution_type_id' =&gt; 9,
+            'city_id' =&gt; 16,
         ],
     ]
 );
@@ -9675,27 +21466,27 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-provider"
-               value="o"
+               value="nls"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
         </p>
                 <p>
-            <b><code>last_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+            <b><code>0</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
                 <input type="text"
-               name="last_name"
+               name="0"
                data-endpoint="POSTapi-provider"
-               value="ucz"
+               value=""
                data-component="body" hidden>
     <br>
-<p>Must be at least 3 characters.</p>
+
         </p>
                 <p>
             <b><code>trade_name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
                 <input type="text"
                name="trade_name"
                data-endpoint="POSTapi-provider"
-               value="v"
+               value="g"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -9705,7 +21496,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-provider"
-               value="tszl"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9715,7 +21506,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="POSTapi-provider"
-               value="xte"
+               value="j"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9725,7 +21516,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-provider"
-               value="euutn"
+               value="lsqri"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -9735,7 +21526,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="POSTapi-provider"
-               value="1"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -9766,7 +21557,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-provider"
-               value="stacy66@example.org"
+               value="jones.mabel@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -9776,7 +21567,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-provider"
-               value="sit"
+               value="voluptas"
                data-component="body" hidden>
     <br>
 
@@ -9786,7 +21577,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="constitution_type_id"
                data-endpoint="POSTapi-provider"
-               value="16"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -9796,17 +21587,17 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="city_id"
                data-endpoint="POSTapi-provider"
-               value="17"
+               value="16"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>responsability_type_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
-                <input type="number"
-               name="responsability_type_id"
+            <b><code>1</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="1"
                data-endpoint="POSTapi-provider"
-               value="7"
+               value=""
                data-component="body" hidden>
     <br>
 
@@ -9827,7 +21618,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/provider/8',
+    'http://localhost:8000/api/provider/10',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -9904,7 +21695,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-provider--id-"
-               value="8"
+               value="10"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -9925,26 +21716,24 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/provider/3',
+    'http://localhost:8000/api/provider/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'qui',
-            'last_name' =&gt; 'dyc',
-            'trade_name' =&gt; 'optio',
-            'address' =&gt; 'j',
-            'phone' =&gt; 'ru',
-            'identification_number' =&gt; 'et',
-            'identification_type_id' =&gt; 11,
+            'name' =&gt; 'eveniet',
+            'trade_name' =&gt; 'nisi',
+            'address' =&gt; 'bwdic',
+            'phone' =&gt; 'xhl',
+            'identification_number' =&gt; 'occaecati',
+            'identification_type_id' =&gt; 6,
             'iva' =&gt; true,
-            'email' =&gt; 'sydnee.adams@example.com',
-            'password' =&gt; 'fuga',
-            'constitution_type_id' =&gt; 14,
-            'city_id' =&gt; 19,
-            'responsability_type_id' =&gt; 9,
+            'email' =&gt; 'pamela.keeling@example.org',
+            'password' =&gt; 'voluptatem',
+            'constitution_type_id' =&gt; 10,
+            'city_id' =&gt; 11,
         ],
     ]
 );
@@ -10004,7 +21793,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-provider--id-"
-               value="3"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -10015,27 +21804,27 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-provider--id-"
-               value="qui"
+               value="eveniet"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>last_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+            <b><code>0</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
                 <input type="text"
-               name="last_name"
+               name="0"
                data-endpoint="PUTapi-provider--id-"
-               value="dyc"
+               value=""
                data-component="body" hidden>
     <br>
-<p>Must be at least 3 characters.</p>
+
         </p>
                 <p>
             <b><code>trade_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
                 <input type="text"
                name="trade_name"
                data-endpoint="PUTapi-provider--id-"
-               value="optio"
+               value="nisi"
                data-component="body" hidden>
     <br>
 
@@ -10045,7 +21834,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-provider--id-"
-               value="j"
+               value="bwdic"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -10055,7 +21844,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="phone"
                data-endpoint="PUTapi-provider--id-"
-               value="ru"
+               value="xhl"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -10065,7 +21854,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-provider--id-"
-               value="et"
+               value="occaecati"
                data-component="body" hidden>
     <br>
 
@@ -10075,7 +21864,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="11"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -10106,7 +21895,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-provider--id-"
-               value="sydnee.adams@example.com"
+               value="pamela.keeling@example.org"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -10116,7 +21905,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-provider--id-"
-               value="fuga"
+               value="voluptatem"
                data-component="body" hidden>
     <br>
 
@@ -10126,7 +21915,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="constitution_type_id"
                data-endpoint="PUTapi-provider--id-"
-               value="14"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -10136,17 +21925,17 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="city_id"
                data-endpoint="PUTapi-provider--id-"
-               value="19"
+               value="11"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>responsability_type_id</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
-                <input type="number"
-               name="responsability_type_id"
+            <b><code>1</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
+                <input type="text"
+               name="1"
                data-endpoint="PUTapi-provider--id-"
-               value="9"
+               value=""
                data-component="body" hidden>
     <br>
 
@@ -10167,7 +21956,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/provider/3',
+    'http://localhost:8000/api/provider/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -10227,7 +22016,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-provider--id-"
-               value="3"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the provider.</p>
@@ -10279,7 +22068,7 @@ print_r(json_decode((string) $body));</code></pre></div>
             <pre><code class="language-http">cache-control: no-cache, private
 content-type: application/json
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 49
+x-ratelimit-remaining: 48
 access-control-allow-origin: *
  </code></pre>
         </details>         <pre>
@@ -10293,8 +22082,8 @@ access-control-allow-origin: *
             &quot;name&quot;: &quot;Risaralda&quot;,
             &quot;prefix&quot;: 606,
             &quot;active&quot;: 1,
-            &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
             &quot;deleted_at&quot;: null,
             &quot;cities&quot;: [
                 {
@@ -10303,8 +22092,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Puerto Wilches&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10313,8 +22102,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Puerto Parra&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:57.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10323,8 +22112,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Pereira&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10333,8 +22122,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Ap&iacute;a&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10343,8 +22132,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Balboa&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10353,8 +22142,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Dosquebradas&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10363,8 +22152,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Gu&aacute;tica&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10373,8 +22162,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;La Celia&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10383,8 +22172,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;La Virginia&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10393,8 +22182,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Marsella&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10403,8 +22192,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Mistrat&oacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10413,8 +22202,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Pueblo Rico&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10423,8 +22212,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Quinch&iacute;a&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10433,8 +22222,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Santuario&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10443,8 +22232,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Bucaramanga&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10453,8 +22242,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Aguada&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10463,8 +22252,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Albania&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10473,8 +22262,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Aratoca&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10483,8 +22272,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Barbosa&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10493,8 +22282,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Barichara&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10503,8 +22292,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Barrancabermeja&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10513,8 +22302,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Betulia&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10523,8 +22312,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Bol&iacute;var&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10533,8 +22322,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Cabrera&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10543,8 +22332,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;California&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10553,8 +22342,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Carcas&iacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10563,8 +22352,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Cepit&aacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10573,8 +22362,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Cerrito&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10583,8 +22372,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Charal&aacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10593,8 +22382,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Charta&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10603,8 +22392,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Chipat&aacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10613,8 +22402,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Cimitarra&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10623,8 +22412,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Concepci&oacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10633,8 +22422,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Confines&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10643,8 +22432,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Contrataci&oacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10653,8 +22442,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Coromoro&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10663,8 +22452,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Curit&iacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10673,8 +22462,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;El Guacamayo&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10683,8 +22472,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;El Play&oacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10693,8 +22482,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Encino&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10703,8 +22492,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Enciso&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10713,8 +22502,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Flori&aacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10723,8 +22512,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Floridablanca&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10733,8 +22522,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Gal&aacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10743,8 +22532,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Gambita&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10753,8 +22542,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Gir&oacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10763,8 +22552,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Guaca&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10773,8 +22562,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Guadalupe&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10783,8 +22572,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Guapot&aacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10793,8 +22582,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Guavat&aacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10803,8 +22592,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;G&uuml;epsa&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10813,8 +22602,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Jes&uacute;s Mar&iacute;a&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10823,8 +22612,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Jord&aacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10833,8 +22622,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;La Belleza&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10843,8 +22632,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Land&aacute;zuri&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10853,8 +22642,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;La Paz&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10863,8 +22652,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Lebr&iacute;ja&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10873,8 +22662,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Los Santos&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10883,8 +22672,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Macaravita&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10893,8 +22682,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;M&aacute;laga&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10903,8 +22692,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Matanza&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10913,8 +22702,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Mogotes&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10923,8 +22712,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Molagavita&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10933,8 +22722,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Ocamonte&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10943,8 +22732,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Oiba&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10953,8 +22742,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Onzaga&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10963,8 +22752,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Palmar&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10973,8 +22762,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;P&aacute;ramo&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10983,8 +22772,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Piedecuesta&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -10993,8 +22782,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Pinchote&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11003,8 +22792,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Puente Nacional&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11013,8 +22802,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Rionegro&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11023,8 +22812,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;San Andr&eacute;s&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11033,8 +22822,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;San Gil&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11043,8 +22832,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;San Joaqu&iacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11053,8 +22842,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;San Miguel&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11063,8 +22852,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Santa B&aacute;rbara&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11073,8 +22862,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Simacota&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11083,8 +22872,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Socorro&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11093,8 +22882,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Suaita&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11103,8 +22892,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Sucre&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11113,8 +22902,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Surat&aacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11123,8 +22912,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Tona&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11133,8 +22922,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;V&eacute;lez&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11143,8 +22932,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Vetas&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11153,8 +22942,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Villanueva&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11163,8 +22952,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Zapatoca&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:50.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11173,8 +22962,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Palmas del Socorro&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11183,8 +22972,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;San Vicente de Chucur&iacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11193,8 +22982,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;San Jos&eacute; de Miranda&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11203,8 +22992,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Santa Rosa de Cabal&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11213,8 +23002,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Santa Helena del Op&oacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11223,8 +23012,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Sabana de Torres&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11233,8 +23022,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;El Carmen de Chucur&iacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11243,8 +23032,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Bel&eacute;n de Umbr&iacute;a&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11253,8 +23042,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Valle de San Jos&eacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11263,8 +23052,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;San Benito&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11273,8 +23062,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Hato&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11283,8 +23072,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Chim&aacute;&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11293,8 +23082,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;Capitanejo&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 },
                 {
@@ -11303,8 +23092,8 @@ access-control-allow-origin: *
                     &quot;name&quot;: &quot;El Pe&ntilde;&oacute;n&quot;,
                     &quot;province_id&quot;: 19,
                     &quot;active&quot;: 1,
-                    &quot;created_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
-                    &quot;updated_at&quot;: &quot;2022-01-27T14:40:51.000000Z&quot;,
+                    &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+                    &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
                     &quot;deleted_at&quot;: null
                 }
             ]
@@ -11554,7 +23343,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/salaryType/10',
+    'http://localhost:8000/api/salaryType/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11631,7 +23420,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-salaryType--id-"
-               value="10"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11652,7 +23441,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/salaryType/5',
+    'http://localhost:8000/api/salaryType/3',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11719,7 +23508,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-salaryType--id-"
-               value="5"
+               value="3"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11751,7 +23540,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/salaryType/15',
+    'http://localhost:8000/api/salaryType/14',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -11811,7 +23600,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-salaryType--id-"
-               value="15"
+               value="14"
                data-component="url" hidden>
     <br>
 <p>The ID of the salaryType.</p>
@@ -11930,8 +23719,8 @@ $response = $client-&gt;post(
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'xicxywwnmnuhsh',
-            'value' =&gt; 12,
+            'name' =&gt; 'cibohfdgjjrkijxlmvnonlpzfhyvugzmpdfofgqtn',
+            'value' =&gt; 3,
         ],
     ]
 );
@@ -11987,7 +23776,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-setting"
-               value="xicxywwnmnuhsh"
+               value="cibohfdgjjrkijxlmvnonlpzfhyvugzmpdfofgqtn"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 45 characters.</p>
@@ -11997,7 +23786,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="POSTapi-setting"
-               value="12"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -12018,7 +23807,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/setting/11',
+    'http://localhost:8000/api/setting/4',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12095,7 +23884,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-setting--id-"
-               value="11"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -12116,15 +23905,15 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/setting/11',
+    'http://localhost:8000/api/setting/9',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
             'Accept' =&gt; 'application/json',
         ],
         'json' =&gt; [
-            'name' =&gt; 'xet',
-            'value' =&gt; 5,
+            'name' =&gt; 'c',
+            'value' =&gt; 6,
         ],
     ]
 );
@@ -12184,7 +23973,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-setting--id-"
-               value="11"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
@@ -12195,7 +23984,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="name"
                data-endpoint="PUTapi-setting--id-"
-               value="xet"
+               value="c"
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -12205,7 +23994,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="value"
                data-endpoint="PUTapi-setting--id-"
-               value="5"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -12226,7 +24015,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/setting/6',
+    'http://localhost:8000/api/setting/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12286,11 +24075,142 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-setting--id-"
-               value="6"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the setting.</p>
             </p>
+                    </form>
+
+        <h1 id="strata">Strata</h1>
+
+    
+
+            <h2 id="strata-GETapi-strata">GET api/strata</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-strata">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;get(
+    'http://localhost:8000/api/strata',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-strata">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 45
+access-control-allow-origin: *
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: true,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: 1,
+            &quot;name&quot;: &quot;Estato 1&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Estato 2&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 3,
+            &quot;name&quot;: &quot;Estato 3&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;name&quot;: &quot;Estato 4&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 5,
+            &quot;name&quot;: &quot;Estato 5&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        },
+        {
+            &quot;id&quot;: 6,
+            &quot;name&quot;: &quot;Estato 6&quot;,
+            &quot;created_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;,
+            &quot;updated_at&quot;: &quot;2022-02-04T14:01:58.000000Z&quot;
+        }
+    ]
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-strata" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-strata"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-strata"></code></pre>
+</span>
+<span id="execution-error-GETapi-strata" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-strata"></code></pre>
+</span>
+<form id="form-GETapi-strata" data-method="GET"
+      data-path="api/strata"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-strata', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-strata"
+                    onclick="tryItOut('GETapi-strata');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-strata"
+                    onclick="cancelTryOut('GETapi-strata');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-strata" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/strata</code></b>
+        </p>
                     </form>
 
         <h1 id="user">User</h1>
@@ -12431,34 +24351,34 @@ $response = $client-&gt;post(
         ],
         'json' =&gt; [
             'name' =&gt; '',
-            'last_name' =&gt; 'vchtk',
-            'second_last_name' =&gt; 'et',
-            'identification_number' =&gt; 'eligendi',
-            'email' =&gt; 'welch.darion@example.com',
-            'password' =&gt; 'consequuntur',
-            'admission_date' =&gt; '2022-01-27T11:03:49',
-            'out_date' =&gt; '2022-01-27T11:03:49',
-            'address' =&gt; 'iste',
-            'neighborhood' =&gt; 'blanditiis',
-            'birthday' =&gt; 'nobis',
-            'children' =&gt; 'nisi',
-            'base_salary' =&gt; 10,
-            'position_id' =&gt; 13,
-            'contract_type_id' =&gt; 7,
-            'salary_type_id' =&gt; 9,
-            'headquarter_id' =&gt; 12,
+            'last_name' =&gt; 'k',
+            'second_last_name' =&gt; 'quia',
+            'identification_number' =&gt; 'cum',
+            'email' =&gt; 'jonatan.oconnell@example.net',
+            'password' =&gt; 'et',
+            'admission_date' =&gt; '2022-02-04T09:48:14',
+            'out_date' =&gt; '2022-02-04T09:48:14',
+            'address' =&gt; 'ipsum',
+            'neighborhood' =&gt; 'eius',
+            'birthday' =&gt; 'repellendus',
+            'children' =&gt; 3,
+            'base_salary' =&gt; 4,
+            'position_id' =&gt; 2,
+            'contract_type_id' =&gt; 4,
+            'salary_type_id' =&gt; 18,
+            'headquarter_id' =&gt; 4,
             'identification_type_id' =&gt; 3,
-            'gender_id' =&gt; 8,
-            'health_provider_id' =&gt; 19,
+            'gender_id' =&gt; 10,
+            'health_provider_id' =&gt; 12,
             'pension_fund_id' =&gt; 1,
-            'civil_statu_id' =&gt; 13,
-            'work_city_id' =&gt; 20,
-            'residence_city_id' =&gt; 2,
+            'civil_statu_id' =&gt; 15,
+            'work_city_id' =&gt; 3,
+            'residence_city_id' =&gt; 11,
             'expedition_place_id' =&gt; 17,
-            'strata_id' =&gt; 17,
-            'education_level_id' =&gt; 6,
-            'active' =&gt; 16,
-            'emergency_contact_id' =&gt; 18,
+            'strata_id' =&gt; 12,
+            'education_level_id' =&gt; 7,
+            'active' =&gt; 18,
+            'emergency_contact_id' =&gt; 2,
         ],
     ]
 );
@@ -12517,24 +24437,24 @@ print_r(json_decode((string) $body));</code></pre></div>
                value=""
                data-component="body" hidden>
     <br>
-<p>Must be at least 5 characters.</p>
+<p>Must be at least 3 characters.</p>
         </p>
                 <p>
             <b><code>last_name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-user"
-               value="vchtk"
+               value="k"
                data-component="body" hidden>
     <br>
-<p>Must be at least 5 characters.</p>
+<p>Must be at least 3 characters.</p>
         </p>
                 <p>
             <b><code>second_last_name</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
                 <input type="text"
                name="second_last_name"
                data-endpoint="POSTapi-user"
-               value="et"
+               value="quia"
                data-component="body" hidden>
     <br>
 
@@ -12544,7 +24464,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="POSTapi-user"
-               value="eligendi"
+               value="cum"
                data-component="body" hidden>
     <br>
 
@@ -12554,7 +24474,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user"
-               value="welch.darion@example.com"
+               value="jonatan.oconnell@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -12564,7 +24484,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user"
-               value="consequuntur"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -12574,7 +24494,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T11:03:49"
+               value="2022-02-04T09:48:14"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -12584,7 +24504,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="POSTapi-user"
-               value="2022-01-27T11:03:49"
+               value="2022-02-04T09:48:14"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -12594,7 +24514,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="POSTapi-user"
-               value="iste"
+               value="ipsum"
                data-component="body" hidden>
     <br>
 
@@ -12604,7 +24524,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="POSTapi-user"
-               value="blanditiis"
+               value="eius"
                data-component="body" hidden>
     <br>
 
@@ -12614,17 +24534,17 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="POSTapi-user"
-               value="nobis"
+               value="repellendus"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>children</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-                <input type="text"
+            <b><code>children</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
                name="children"
                data-endpoint="POSTapi-user"
-               value="nisi"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -12634,7 +24554,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="POSTapi-user"
-               value="10"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -12644,7 +24564,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="POSTapi-user"
-               value="13"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -12654,7 +24574,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="POSTapi-user"
-               value="7"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -12664,7 +24584,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="POSTapi-user"
-               value="9"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -12674,7 +24594,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="headquarter_id"
                data-endpoint="POSTapi-user"
-               value="12"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -12694,7 +24614,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="POSTapi-user"
-               value="8"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -12704,7 +24624,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="POSTapi-user"
-               value="19"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -12724,7 +24644,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="POSTapi-user"
-               value="13"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -12734,7 +24654,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="POSTapi-user"
-               value="20"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -12744,7 +24664,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="POSTapi-user"
-               value="2"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -12764,7 +24684,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="POSTapi-user"
-               value="17"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -12774,7 +24694,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="education_level_id"
                data-endpoint="POSTapi-user"
-               value="6"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -12784,7 +24704,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="POSTapi-user"
-               value="16"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -12794,7 +24714,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="emergency_contact_id"
                data-endpoint="POSTapi-user"
-               value="18"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -12815,7 +24735,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;get(
-    'http://localhost:8000/api/user/20',
+    'http://localhost:8000/api/user/16',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12892,7 +24812,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-user--id-"
-               value="20"
+               value="16"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12913,7 +24833,7 @@ access-control-allow-origin: *
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;delete(
-    'http://localhost:8000/api/user/16',
+    'http://localhost:8000/api/user/2',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -12973,7 +24893,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-user--id-"
-               value="16"
+               value="2"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -12994,7 +24914,7 @@ print_r(json_decode((string) $body));</code></pre></div>
 <div class="PHP-example">
     <pre><code class="language-php">$client = new \GuzzleHttp\Client();
 $response = $client-&gt;put(
-    'http://localhost:8000/api/user/9',
+    'http://localhost:8000/api/user/11',
     [
         'headers' =&gt; [
             'Content-Type' =&gt; 'application/json',
@@ -13002,34 +24922,34 @@ $response = $client-&gt;put(
         ],
         'json' =&gt; [
             'name' =&gt; '',
-            'last_name' =&gt; 'fkx',
-            'second_last_name' =&gt; 'optio',
-            'identification_number' =&gt; 'voluptas',
-            'email' =&gt; 'justine.balistreri@example.com',
-            'password' =&gt; 'cumque',
-            'admission_date' =&gt; '2022-01-27T11:03:49',
-            'out_date' =&gt; '2022-01-27T11:03:49',
-            'address' =&gt; 'non',
-            'neighborhood' =&gt; 'rem',
-            'birthday' =&gt; 'quam',
-            'children' =&gt; 'non',
-            'base_salary' =&gt; 9,
-            'position_id' =&gt; 6,
-            'contract_type_id' =&gt; 11,
-            'salary_type_id' =&gt; 1,
+            'last_name' =&gt; 'r',
+            'second_last_name' =&gt; 'excepturi',
+            'identification_number' =&gt; 'iusto',
+            'email' =&gt; 'zsauer@example.org',
+            'password' =&gt; 'rerum',
+            'admission_date' =&gt; '2022-02-04T09:48:14',
+            'out_date' =&gt; '2022-02-04T09:48:14',
+            'address' =&gt; 'mollitia',
+            'neighborhood' =&gt; 'natus',
+            'birthday' =&gt; 'quia',
+            'children' =&gt; 12,
+            'base_salary' =&gt; 19,
+            'position_id' =&gt; 2,
+            'contract_type_id' =&gt; 9,
+            'salary_type_id' =&gt; 5,
             'headquarter_id' =&gt; 14,
-            'identification_type_id' =&gt; 6,
-            'gender_id' =&gt; 12,
-            'health_provider_id' =&gt; 2,
-            'pension_fund_id' =&gt; 13,
-            'civil_statu_id' =&gt; 2,
-            'work_city_id' =&gt; 7,
-            'residence_city_id' =&gt; 4,
-            'expedition_place_id' =&gt; 14,
-            'strata_id' =&gt; 18,
+            'identification_type_id' =&gt; 1,
+            'gender_id' =&gt; 5,
+            'health_provider_id' =&gt; 17,
+            'pension_fund_id' =&gt; 14,
+            'civil_statu_id' =&gt; 13,
+            'work_city_id' =&gt; 11,
+            'residence_city_id' =&gt; 9,
+            'expedition_place_id' =&gt; 6,
+            'strata_id' =&gt; 12,
             'education_level_id' =&gt; 4,
-            'active' =&gt; 15,
-            'emergency_contact_id' =&gt; 14,
+            'active' =&gt; 13,
+            'emergency_contact_id' =&gt; 16,
         ],
     ]
 );
@@ -13089,7 +25009,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-user--id-"
-               value="9"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of the user.</p>
@@ -13110,7 +25030,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="last_name"
                data-endpoint="PUTapi-user--id-"
-               value="fkx"
+               value="r"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters.</p>
@@ -13120,7 +25040,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="second_last_name"
                data-endpoint="PUTapi-user--id-"
-               value="optio"
+               value="excepturi"
                data-component="body" hidden>
     <br>
 
@@ -13130,7 +25050,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="identification_number"
                data-endpoint="PUTapi-user--id-"
-               value="voluptas"
+               value="iusto"
                data-component="body" hidden>
     <br>
 
@@ -13140,7 +25060,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="email"
                data-endpoint="PUTapi-user--id-"
-               value="justine.balistreri@example.com"
+               value="zsauer@example.org"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -13150,7 +25070,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="password"
                data-endpoint="PUTapi-user--id-"
-               value="cumque"
+               value="rerum"
                data-component="body" hidden>
     <br>
 
@@ -13160,7 +25080,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="admission_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T11:03:49"
+               value="2022-02-04T09:48:14"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -13170,7 +25090,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="out_date"
                data-endpoint="PUTapi-user--id-"
-               value="2022-01-27T11:03:49"
+               value="2022-02-04T09:48:14"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -13180,7 +25100,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="address"
                data-endpoint="PUTapi-user--id-"
-               value="non"
+               value="mollitia"
                data-component="body" hidden>
     <br>
 
@@ -13190,7 +25110,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="neighborhood"
                data-endpoint="PUTapi-user--id-"
-               value="rem"
+               value="natus"
                data-component="body" hidden>
     <br>
 
@@ -13200,17 +25120,17 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="text"
                name="birthday"
                data-endpoint="PUTapi-user--id-"
-               value="quam"
+               value="quia"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
-            <b><code>children</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-                <input type="text"
+            <b><code>children</code></b>&nbsp;&nbsp;<small>integer</small>     <i>optional</i> &nbsp;
+                <input type="number"
                name="children"
                data-endpoint="PUTapi-user--id-"
-               value="non"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -13220,7 +25140,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="base_salary"
                data-endpoint="PUTapi-user--id-"
-               value="9"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -13230,7 +25150,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="position_id"
                data-endpoint="PUTapi-user--id-"
-               value="6"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -13240,7 +25160,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="contract_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="11"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -13250,7 +25170,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="salary_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="1"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -13270,7 +25190,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="identification_type_id"
                data-endpoint="PUTapi-user--id-"
-               value="6"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -13280,7 +25200,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="gender_id"
                data-endpoint="PUTapi-user--id-"
-               value="12"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -13290,7 +25210,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="health_provider_id"
                data-endpoint="PUTapi-user--id-"
-               value="2"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -13300,7 +25220,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="pension_fund_id"
                data-endpoint="PUTapi-user--id-"
-               value="13"
+               value="14"
                data-component="body" hidden>
     <br>
 
@@ -13310,7 +25230,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="civil_statu_id"
                data-endpoint="PUTapi-user--id-"
-               value="2"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -13320,7 +25240,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="work_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="7"
+               value="11"
                data-component="body" hidden>
     <br>
 
@@ -13330,7 +25250,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="residence_city_id"
                data-endpoint="PUTapi-user--id-"
-               value="4"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -13340,7 +25260,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="expedition_place_id"
                data-endpoint="PUTapi-user--id-"
-               value="14"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -13350,7 +25270,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="strata_id"
                data-endpoint="PUTapi-user--id-"
-               value="18"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -13370,7 +25290,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="active"
                data-endpoint="PUTapi-user--id-"
-               value="15"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -13380,7 +25300,7 @@ print_r(json_decode((string) $body));</code></pre></div>
                 <input type="number"
                name="emergency_contact_id"
                data-endpoint="PUTapi-user--id-"
-               value="14"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -13501,6 +25421,101 @@ print_r(json_decode((string) $body));</code></pre></div>
                data-component="body" hidden>
     <br>
 <p>Las deudas totales del usuario.</p>
+        </p>
+        </form>
+
+            <h2 id="user-DELETEapi-user-eliminarConvenio--user_id-">DELETE api/user/eliminarConvenio/{user_id}</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-DELETEapi-user-eliminarConvenio--user_id-">
+<blockquote>Example request:</blockquote>
+
+
+<div class="PHP-example">
+    <pre><code class="language-php">$client = new \GuzzleHttp\Client();
+$response = $client-&gt;delete(
+    'http://localhost:8000/api/user/eliminarConvenio/1',
+    [
+        'headers' =&gt; [
+            'Content-Type' =&gt; 'application/json',
+            'Accept' =&gt; 'application/json',
+        ],
+        'json' =&gt; [
+            'covenant_pivot_id' =&gt; 1,
+        ],
+    ]
+);
+$body = $response-&gt;getBody();
+print_r(json_decode((string) $body));</code></pre></div>
+
+</span>
+
+<span id="example-responses-DELETEapi-user-eliminarConvenio--user_id-">
+</span>
+<span id="execution-results-DELETEapi-user-eliminarConvenio--user_id-" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-DELETEapi-user-eliminarConvenio--user_id-"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-DELETEapi-user-eliminarConvenio--user_id-"></code></pre>
+</span>
+<span id="execution-error-DELETEapi-user-eliminarConvenio--user_id-" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-DELETEapi-user-eliminarConvenio--user_id-"></code></pre>
+</span>
+<form id="form-DELETEapi-user-eliminarConvenio--user_id-" data-method="DELETE"
+      data-path="api/user/eliminarConvenio/{user_id}"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('DELETEapi-user-eliminarConvenio--user_id-', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-DELETEapi-user-eliminarConvenio--user_id-"
+                    onclick="tryItOut('DELETEapi-user-eliminarConvenio--user_id-');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-DELETEapi-user-eliminarConvenio--user_id-"
+                    onclick="cancelTryOut('DELETEapi-user-eliminarConvenio--user_id-');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-DELETEapi-user-eliminarConvenio--user_id-" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-red">DELETE</small>
+            <b><code>api/user/eliminarConvenio/{user_id}</code></b>
+        </p>
+                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
+                    <p>
+                <b><code>user_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="DELETEapi-user-eliminarConvenio--user_id-"
+               value="1"
+               data-component="url" hidden>
+    <br>
+<p>El id del usuario.</p>
+            </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>covenant_pivot_id</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+                <input type="number"
+               name="covenant_pivot_id"
+               data-endpoint="DELETEapi-user-eliminarConvenio--user_id-"
+               value="1"
+               data-component="body" hidden>
+    <br>
+<p>El id de la tabla pivot del registro que desea eliminar.</p>
         </p>
         </form>
 

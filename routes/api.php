@@ -73,8 +73,9 @@ Route::middleware(['auth:api'])->group(function () {
     Route::post('payrollConcept/{payroll_id}', [PayrollController::class, 'asignarConcepto']);
     //eliminar conceptos
     Route::delete('payrollDeleteConcept/{payroll_id}', [PayrollController::class, 'eliminarConceptoPayroll']);
-    //asignar un convenio a un usuario
+    //asignar un convenio a un usuario y eliminar convenio
     Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
+    Route::delete('user/eliminarConvenio/{user_id}', [UserController::class, 'eliminarConvenio']);
     Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
     });
     Route::get('checkLogin', function (){

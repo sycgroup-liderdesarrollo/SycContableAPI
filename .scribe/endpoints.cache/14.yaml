@@ -21,12 +21,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Salud total","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":2,"name":"Sura","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null},{"id":3,"name":"Nueva EPS","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Salud total","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null},{"id":2,"name":"Sura","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null},{"id":3,"name":"Nueva EPS","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '54'
+          x-ratelimit-remaining: '53'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -64,7 +64,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 12
+        example: 18
         type: integer
         custom: []
     queryParameters: []
@@ -72,12 +72,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Salud total","created_at":"2022-01-27T14:40:51.000000Z","updated_at":"2022-01-27T14:40:51.000000Z","deleted_at":null}}'
+        content: '{"status":true,"data":{"id":1,"name":"Salud total","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '53'
+          x-ratelimit-remaining: '52'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -99,7 +99,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 19
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -123,7 +123,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 3
+        example: 6
         type: integer
         custom: []
     queryParameters: []

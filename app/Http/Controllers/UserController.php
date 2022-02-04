@@ -7,6 +7,7 @@ use App\Http\Requests\User\UpdateUserRequest;
 use App\Models\Covenant;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 
@@ -34,7 +35,7 @@ class UserController extends Controller
         return response()->json(['status'=>true,'data'=>$user]);
     }
     public function show(User $user)
-    {
+    {   $user->covenants;
         return response()->json(['status'=>true,'data'=>$user]);
     }
     public function update(UpdateUserRequest $request, User $user)
@@ -59,6 +60,19 @@ class UserController extends Controller
     {
         $user = User::find($user_id);
         $value = Covenant::find($request->input('covenant_id'));
+
+        foreach ($user->covenants as $userCovenat) {
+            if ($value->covenant_type_id == 1){
+                if ($userCovenat->pivot->dues != $userCovenat->pivot->paid_dues) {
+                    return response()->json(['data'=> 'Todas las deudas aun no han sido pagadas']);
+                }
+            }
+            if ($value->covenant_type_id == 2){
+                if ($userCovenat->pivot->covenant_id == $value->id) {
+                    return response()->json(['data'=> 'No se puede volver a cargar convenio permanente']);
+                }
+            }
+        }
         if ($value->covenant_type_id == 2) {
             $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>0, 'paid_dues'=>0, 'value'=>$value->value]);
             return response()->json(['status'=>true,'data'=>"convenio asignado: '{$value->name}' al usuario '{$user->name}'"]);
@@ -67,5 +81,21 @@ class UserController extends Controller
             $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>$request->dues, 'paid_dues'=>0, 'value'=>$request->value]);
             return response()->json(['status'=>true,'data'=>"convenio asignado: '{$value->name}' al usuario '{$user->name}'"]);
         }
+    }
+
+    /**
+     * @urlParam user_id int required El id del usuario. Example: 1
+     * @bodyParam covenant_pivot_id int required El id de la tabla pivot del registro que desea eliminar. Example: 1
+     */
+    public function eliminarConvenio($user_id, Request $request)
+    {
+        $user = User::find($user_id);
+        foreach ($user->covenants as $userCovenat) {
+            if ($userCovenat->pivot->id == $request->input('covenant_pivot_id')) {
+                $user->covenants()->wherePivot('id', $request->input('covenant_pivot_id'))->detach();
+                return response()->json(['status'=>true, 'data'=>"Se elimió el convenio en el usuario '{$user->name}'"]);
+            }
+        }
+        return response()->json(['status' => true, 'data'=>"No se encontró coincidencia entre usuario e id del pivot"]);
     }
 }

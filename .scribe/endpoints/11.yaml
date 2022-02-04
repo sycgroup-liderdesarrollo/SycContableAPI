@@ -28,3 +28,57 @@ endpoints:
           access-control-allow-origin: '*'
         description: null
     responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/constitutionType
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":[{"id":1,"name":"Natural","created_at":"2022-02-04T14:01:57.000000Z","updated_at":"2022-02-04T14:01:57.000000Z"},{"id":2,"name":"Juridica","created_at":"2022-02-04T14:01:57.000000Z","updated_at":"2022-02-04T14:01:57.000000Z"}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '43'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: api/responsabilityType
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"status":true,"data":[{"id":1,"name":"Responsable de IVA","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z"},{"id":2,"name":"No responsable de IVA","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z"}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '42'
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []

@@ -71,7 +71,7 @@ class User extends Authenticatable
     }
     public function covenants()
     {
-        return $this->belongsToMany(Covenant::class)->withTimestamps(); //el timestamps es para mandar las horas
+        return $this->belongsToMany(Covenant::class)->withTimestamps()->withPivot('id','covenant_id','dues','paid_dues','value');
     }
     public function roles()
     {
