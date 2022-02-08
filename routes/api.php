@@ -103,7 +103,7 @@ Route::middleware(['auth:api'])->group(function () {
     Route::apiResource('kinship', KinkshipController::class);
     Route::apiResource('vacation', VacationController::class);
     Route::post('vacationsCalc/{payroll_id}', [VacationController::class, 'vacationCalc']);
-    Route::post('prueba/', [VacationController::class, 'prueba']);
+    Route::post('calcDays', [VacationController::class, 'calcDays']);
 
 
 

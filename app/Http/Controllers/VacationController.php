@@ -16,8 +16,8 @@ class VacationController extends Controller
         return response()->json(['status'=>true,'data'=>$vacations]);
     }
     /**
-     * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY/MM/DD
-     * @bodyParam end_date date El final de las vacaciones. Example: YYYY/MM/DD
+     * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY-MM-DD
+     * @bodyParam end_date date El final de las vacaciones. Example: YYYY-MM-DD
      * @bodyParam user_id int El id del usuario. Example: 1
      */
     public function store(Request $request)
@@ -45,8 +45,8 @@ class VacationController extends Controller
     }
     /**
      * @urlParam id int El id de las vacaciones
-     * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY/MM/DD
-     * @bodyParam end_date date El final de las vacaciones. Example: YYYY/MM/DD
+     * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY-MM-DD
+     * @bodyParam end_date date El final de las vacaciones. Example: YYYY-MM-DD
      * @bodyParam user_id int El id del usuario. Example: 1
      */
     public function update(Vacation $vacation, Request $request)
@@ -58,5 +58,14 @@ class VacationController extends Controller
     {
         $vacation->delete();
         return response()->json(['status'=>true,'data'=>$vacation]);
+    }
+    /**
+     * @bodyParam start_date data Fecha de inicio. Example: YYYY-MM-DD
+     * @bodyParam end_date data Fecha final. Example: YYYY-MM-DD
+     */
+    public function calcDays(Request $request)
+    {
+        $daysWeek = daysWeek($request->start_date, $request->end_date);
+        return response()->json(['status'=>true, 'data'=>$daysWeek->original['days']]);
     }
 }
