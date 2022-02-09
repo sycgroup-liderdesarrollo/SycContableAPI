@@ -10,7 +10,7 @@ class CreateProvisionsTable extends Migration
     {
         Schema::create('provisions', function (Blueprint $table) {
             $table->id();
-            $table->
+            $table->foreignId('period_id')->references('id')->on('periods');
             $table->integer('pension_contribution')->nullable();
             $table->integer('occupational_risk_contributions')->nullable();
             $table->integer('health_contribution')->nullable();
