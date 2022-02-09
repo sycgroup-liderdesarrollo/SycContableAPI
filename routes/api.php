@@ -17,6 +17,7 @@ use App\Http\Controllers\HeadquarterController;
 use App\Http\Controllers\HealthProviderController;
 use App\Http\Controllers\IdentificationTypeController;
 use App\Http\Controllers\KinkshipController;
+use App\Http\Controllers\OccupationalRiskManagerController;
 use App\Http\Controllers\PayrollController;
 use App\Http\Controllers\PensionFundController;
 use App\Http\Controllers\PeriodController;
@@ -24,16 +25,19 @@ use App\Http\Controllers\PeriodicityTypeController;
 use App\Http\Controllers\PositionController;
 use App\Http\Controllers\ProviderController;
 use App\Http\Controllers\ProvinceController;
+use App\Http\Controllers\ProvisionController;
 use App\Http\Controllers\ResponsabilityTypeController;
 use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\StrataController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VacationController;
+use App\Http\Resources\UsersResource;
 use App\Models\ConstitutionType;
 use App\Models\Contact;
 use App\Models\EducationLevel;
 use App\Models\ResponsabilityType;
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -104,6 +108,11 @@ Route::middleware(['auth:api'])->group(function () {
     Route::apiResource('vacation', VacationController::class);
     Route::post('vacationsCalc/{payroll_id}', [VacationController::class, 'vacationCalc']);
     Route::post('calcDays', [VacationController::class, 'calcDays']);
+    Route::apiResource('occupationalRiskManager', OccupationalRiskManagerController::class);
+    Route::apiResource('provision', ProvisionController::class);
+    Route::get('usersColletion',function () {
+        return UsersResource::collection(User::all());
+    });
 
 
 

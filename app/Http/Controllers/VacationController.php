@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\VacationResource;
 use App\Models\Vacation;
 use Illuminate\Http\Request;
 
@@ -13,7 +14,7 @@ class VacationController extends Controller
     public function index()
     {
         $vacations = Vacation::all();
-        return response()->json(['status'=>true,'data'=>$vacations]);
+        return response()->json(['status'=>true,'data'=>VacationResource::collection($vacations)]);
     }
     /**
      * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY-MM-DD
@@ -41,7 +42,7 @@ class VacationController extends Controller
     }
     public function show(Vacation $vacation)
     {
-        return response()->json(['status'=>true,'data'=>$vacation]);
+        return response()->json(['status'=>true,'data'=>new VacationResource($vacation)]);
     }
     /**
      * @urlParam id int El id de las vacaciones

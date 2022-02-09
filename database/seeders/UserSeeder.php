@@ -39,6 +39,7 @@ class UserSeeder extends Seeder
             'strata_id'=>4,
             'education_level_id'=>3,
             'emergency_contact_id'=>1,
+            'occupational_risk_manager_id'=>1,
         ]);
     }
 }

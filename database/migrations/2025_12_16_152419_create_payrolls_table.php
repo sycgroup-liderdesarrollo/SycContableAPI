@@ -18,6 +18,7 @@ class CreatePayrollsTable extends Migration
             //llave foranea
             $table->foreignId('period_id')->references('id')->on('periods');
             $table->foreignId('user_id')->references('id')->on('users');
+            $table->foreignId('provision_id')->references('id')->on('provisions');
             //
             $table->timestamps();
             $table->softDeletes();

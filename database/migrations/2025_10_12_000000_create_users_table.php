@@ -48,6 +48,7 @@ class CreateUsersTable extends Migration
             $table->foreignId('strata_id')->references('id')->on('stratas');
             $table->foreignId('education_level_id')->references('id')->on('education_levels');
             $table->foreignId('emergency_contact_id')->references('id')->on('emergency_contacts');
+            $table->foreignId('occupational_risk_manager_id')->references('id')->on('occupational_risk_managers');
             //
             $table->rememberToken();
             $table->timestamps();
