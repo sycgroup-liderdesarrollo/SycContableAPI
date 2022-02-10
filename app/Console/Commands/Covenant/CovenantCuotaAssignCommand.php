@@ -19,8 +19,6 @@ class CovenantCuotaAssignCommand extends Command
     }
     public function handle()
     {
-        Log::info('Entró al command');
-
         CovenantCuotaAssignJob::dispatch();
     }
 }

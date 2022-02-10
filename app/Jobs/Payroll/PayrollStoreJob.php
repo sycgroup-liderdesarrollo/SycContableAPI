@@ -3,6 +3,7 @@
 namespace App\Jobs\Payroll;
 
 use App\Models\Payroll;
+use App\Models\Provision;
 use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;
@@ -10,7 +11,6 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\DB;
 
 class PayrollStoreJob implements ShouldQueue
 {
@@ -34,6 +34,8 @@ class PayrollStoreJob implements ShouldQueue
             default:
                 break;
         }
+        $provision['period_id'] = period(Carbon::now()->format('d'));
+        $provision = Provision::create($provision);
 
         $payrollActual = Payroll::whereMonth('created_at', Carbon::now()->format('m'))
         ->whereYear('created_at', Carbon::now()->format('Y'))
@@ -42,11 +44,9 @@ class PayrollStoreJob implements ShouldQueue
         ->first();
 
         if( !$payrollActual ){
-
             $users = User::where('active', 1)->get();
-
             foreach ($users as $user){
-                Payroll::create(['period_id'=>$period,'user_id'=>$user->id]);
+                Payroll::create(['period_id'=>$period,'user_id'=>$user->id,'provision_id'=>$provision->id]);
             }
         }
 

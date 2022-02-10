@@ -2,19 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Concept;
 use App\Models\Payroll;
 use App\Models\User;
-use Carbon\Carbon;
-use DateInterval;
-use DatePeriod;
-use DateTime;
-use PDF;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
-use SebastianBergmann\Environment\Console;
 
 /**
  * @group Payroll
@@ -80,7 +71,6 @@ class PayrollController extends Controller
         $payroll->concepts()->wherePivot('id', $request->input('conceptPivotId'))->detach();
         return response()->json(['status'=>true,'data'=>"Se eliminó con exitó el conceptPivotId: {$request->input('conceptPivotId')}"]);
     }
-    //hacer un detach para eliminar el ID de la pivot que se seleccione
     // public function PDFi($payroll)
     // {
     //     $payroll = Payroll::find($payroll);
@@ -108,7 +98,6 @@ class PayrollController extends Controller
      */
     public function consultDeduccion(Request $request)
     {
-        Log::info($request->query());
         $payroll = DB::table('payrolls')
         ->join('concept_payroll', 'concept_payroll.payroll_id', '=', 'payrolls.id')
         ->join('concepts', 'concept_payroll.concept_id', '=', 'concepts.id')
@@ -132,33 +121,6 @@ class PayrollController extends Controller
         ->whereYear('payrolls.created_at', date('Y', strtotime($request->query('created_at'))))
         ->whereMonth('payrolls.created_at',  date('m', strtotime($request->query('created_at'))))
         ->get();
-        return response()->json(['status'=>true,'data'=>$payroll]);
-    }
-
-    public function aaa($payroll_id, Request $request)
-    {
-        $payroll = Payroll::findOrFail($payroll_id);
-        Log::info($payroll->concepts[0]->pivot->count);
-        Log::info($payroll->created_at);
-        $dias = $payroll->concepts[0]->pivot->count;
-
-        $fecha = Carbon::parse(now());
-        $fecha2= Carbon::parse($request->fecha);
-        $difeDias = date_diff($fecha, $fecha2)->format('%R%a');
-        $diferencia = $difeDias+ $dias;
-        Log::info($fecha);
-        Log::info($fecha2);
-        Log::info($difeDias);
-        Log::info($diferencia);
-        $payroll->concepts()->updateExistingPivot(1,
-        [
-            'count'=> $request->count,
-            'unit_value'=>$payroll->user->base_salary/30,
-            'total_value'=>$request->count*($payroll->user->base_salary/30)
-        ]);
-
-        $payroll->concepts()->detach(2);
-
         return response()->json(['status'=>true,'data'=>$payroll]);
     }
 }

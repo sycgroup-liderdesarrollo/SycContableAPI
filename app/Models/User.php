@@ -42,6 +42,7 @@ class User extends Authenticatable
         'education_level_id',
         'active',
         'emergency_contact_id',
+        'phone'
     ];
 
     protected $hidden = ['password','remember_token','gender_id','position_id'];

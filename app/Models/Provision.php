@@ -18,6 +18,7 @@ class Provision extends Model
         'vacation_provision',
         'wage_premium',
         'total_provisions',
-        'total_payroll'
+        'total_payroll',
+        'period_id',
     ];
 }

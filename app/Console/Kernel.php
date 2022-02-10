@@ -17,6 +17,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('payroll:store')->twiceMonthly(1, 16, '00:00');
         $schedule->command('covenant:assign')->twiceMonthly(1, 16, '01:00');
         $schedule->command('covenant:cuota')->twiceMonthly(1, 16, '01:10');
+        $schedule->command('command:provision')->twiceMonthly(1, 16,'2:00');
         $schedule->command('command:vacation')->daily();
     }
 

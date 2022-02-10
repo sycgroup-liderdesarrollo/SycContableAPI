@@ -33,10 +33,6 @@ use App\Http\Controllers\StrataController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VacationController;
 use App\Http\Resources\UsersResource;
-use App\Models\ConstitutionType;
-use App\Models\Contact;
-use App\Models\EducationLevel;
-use App\Models\ResponsabilityType;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -113,7 +109,7 @@ Route::middleware(['auth:api'])->group(function () {
     Route::get('usersColletion',function () {
         return UsersResource::collection(User::all());
     });
-
+    Route::post('prueba', [ProvisionController::class, 'prueba']);
 
 
 
