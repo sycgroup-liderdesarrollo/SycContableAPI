@@ -67,7 +67,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 7
+        example: 9
         type: integer
         custom: []
     queryParameters: []
@@ -100,7 +100,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 20
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -131,7 +131,7 @@ endpoints:
         name: id
         description: 'The ID of the headQuarter.'
         required: true
-        example: 4
+        example: 5
         type: integer
         custom: []
     queryParameters: []

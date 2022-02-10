@@ -21,12 +21,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '5'
+          x-ratelimit-remaining: '58'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -64,7 +64,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 9
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -72,12 +72,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null}}'
+        content: '{"status":true,"data":{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '4'
+          x-ratelimit-remaining: '57'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -99,7 +99,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 12
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -123,7 +123,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 15
+        example: 8
         type: integer
         custom: []
     queryParameters: []
