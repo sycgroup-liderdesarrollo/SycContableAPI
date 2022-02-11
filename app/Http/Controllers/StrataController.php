@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Strata;
-use Illuminate\Http\Request;
 /**
  * @group Strata
  */

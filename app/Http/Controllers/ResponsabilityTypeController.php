@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\ResponsabilityType;
-use Illuminate\Http\Request;
 
 class ResponsabilityTypeController extends Controller
 {

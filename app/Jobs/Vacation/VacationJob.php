@@ -11,7 +11,6 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 class VacationJob implements ShouldQueue
 {
@@ -22,10 +21,8 @@ class VacationJob implements ShouldQueue
     public function handle()
     {
         $vacations = Vacation::where('end_date', '>', Carbon::now()->format('Y-m-d'))->get();
-        Log::info($vacations);
-        Log::info(json_encode(empty($vacations)));
-        if (!empty($vacations)) {
-            Log::info('entró');
+        $empty = count($vacations);
+        if ($empty >= 1) {
             foreach($vacations as $vacation){
                 $date_vacation = date_create($vacation->start_date)->format('Y-m');
                 $date_now = Carbon::now()->format('Y-m');

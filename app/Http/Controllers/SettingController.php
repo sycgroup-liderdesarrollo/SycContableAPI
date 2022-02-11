@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\Setting\CreateSettingRequest;
 use App\Http\Requests\Setting\UpdateSettingRequest;
 use App\Models\Setting;
-use Illuminate\Http\Request;
 /**
  * @group Setting
  */

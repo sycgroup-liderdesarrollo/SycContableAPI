@@ -1,10 +1,10 @@
-name: Endpoints
+name: 'Emergency Contact'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/checkLogin
+    uri: api/emergencyContact
     metadata:
       title: ''
       description: ''
@@ -19,127 +19,19 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"isLogined":false}'
+        content: '{"status":true,"data":[{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '59'
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: api/constitutionType
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Natural","created_at":"2022-02-16T07:02:28.000000Z","updated_at":"2022-02-16T07:02:28.000000Z"},{"id":2,"name":"Juridica","created_at":"2022-02-16T07:02:28.000000Z","updated_at":"2022-02-16T07:02:28.000000Z"}]}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '43'
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: api/responsabilityType
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Responsable de IVA","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z"},{"id":2,"name":"No responsable de IVA","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z"}]}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '42'
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: api/kinship
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Madre","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z"},{"id":2,"name":"Padre","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z"},{"id":3,"name":"Hermano(a)","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z"}]}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '41'
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: api/provision
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 200
-        content: '{"status":true,"data":[{"id":1,"period_id":1,"pension_contribution":132000,"occupational_risk_contributions":5742,"health_contribution":132000,"compensation_funds":44000,"layoffs":96063.8091,"Interest_on_severance_pay":11527.657092,"vacation_provision":45870,"wage_premium":96063.8091,"total_provisions":563267.275292,"total_payroll":977227,"created_at":"2022-02-01T05:00:03.000000Z","updated_at":"2022-02-16T07:00:00.000000Z"},{"id":2,"period_id":2,"pension_contribution":132000,"occupational_risk_contributions":5742,"health_contribution":132000,"compensation_funds":44000,"layoffs":96063.8091,"Interest_on_severance_pay":11527.657092,"vacation_provision":45870,"wage_premium":96063.8091,"total_provisions":563267.275292,"total_payroll":977227,"created_at":"2022-02-16T05:00:02.000000Z","updated_at":"2022-03-01T07:00:06.000000Z"},{"id":3,"period_id":1,"pension_contribution":null,"occupational_risk_contributions":null,"health_contribution":null,"compensation_funds":null,"layoffs":null,"Interest_on_severance_pay":null,"vacation_provision":null,"wage_premium":null,"total_provisions":null,"total_payroll":null,"created_at":"2022-03-01T05:00:30.000000Z","updated_at":"2022-03-01T05:00:30.000000Z"},{"id":4,"period_id":1,"pension_contribution":null,"occupational_risk_contributions":null,"health_contribution":null,"compensation_funds":null,"layoffs":null,"Interest_on_severance_pay":null,"vacation_provision":null,"wage_premium":null,"total_provisions":null,"total_payroll":null,"created_at":"2022-03-01T05:00:15.000000Z","updated_at":"2022-03-01T05:00:15.000000Z"}]}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '37'
+          x-ratelimit-remaining: '57'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
   -
     httpMethods:
       - POST
-    uri: api/provision
+    uri: api/emergencyContact
     metadata:
       title: ''
       description: ''
@@ -156,7 +48,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: 'api/provision/{id}'
+    uri: 'api/emergencyContact/{id}'
     metadata:
       title: ''
       description: ''
@@ -168,9 +60,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the provision.'
+        description: 'The ID of the emergencyContact.'
         required: true
-        example: 11
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -178,12 +70,12 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"period_id":1,"pension_contribution":132000,"occupational_risk_contributions":5742,"health_contribution":132000,"compensation_funds":44000,"layoffs":96063.8091,"Interest_on_severance_pay":11527.657092,"vacation_provision":45870,"wage_premium":96063.8091,"total_provisions":563267.275292,"total_payroll":977227,"created_at":"2022-02-01T05:00:03.000000Z","updated_at":"2022-02-16T07:00:00.000000Z"}}'
+        content: '{"status":true,"data":{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
           x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '36'
+          x-ratelimit-remaining: '56'
           access-control-allow-origin: '*'
         description: null
     responseFields: []
@@ -191,7 +83,7 @@ endpoints:
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/provision/{id}'
+    uri: 'api/emergencyContact/{id}'
     metadata:
       title: ''
       description: ''
@@ -203,9 +95,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the provision.'
+        description: 'The ID of the emergencyContact.'
         required: true
-        example: 1
+        example: 15
         type: integer
         custom: []
     queryParameters: []
@@ -215,7 +107,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/provision/{id}'
+    uri: 'api/emergencyContact/{id}'
     metadata:
       title: ''
       description: ''
@@ -227,55 +119,11 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the provision.'
+        description: 'The ID of the emergencyContact.'
         required: true
-        example: 13
+        example: 5
         type: integer
         custom: []
-    queryParameters: []
-    bodyParameters: []
-    responses: []
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: api/usersColletion
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 200
-        content: '{"data":[{"id":1,"name":"Michael","identification_number":"1088355971"},{"id":2,"name":"Jhonatan","identification_number":"1232599679"},{"id":3,"name":"jhonatana","identification_number":"123154854"}]}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '35'
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - POST
-    uri: api/prueba
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
     queryParameters: []
     bodyParameters: []
     responses: []

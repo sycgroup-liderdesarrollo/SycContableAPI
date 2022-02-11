@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\City;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Log;
 /**
  * @group City
  */

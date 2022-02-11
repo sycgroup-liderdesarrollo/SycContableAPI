@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Kinship;
-use Illuminate\Http\Request;
 
+/**
+ * @group Kinkship
+ */
 class KinkshipController extends Controller
 {
     public function index()

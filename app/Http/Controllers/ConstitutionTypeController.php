@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\ConstitutionType;
-use Illuminate\Http\Request;
 
+/**
+ * @group ConstitutionType
+ */
 class ConstitutionTypeController extends Controller
 {
     public function index()

@@ -7,9 +7,7 @@ use App\Http\Requests\User\UpdateUserRequest;
 use App\Models\Covenant;
 use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Log;
 
 /**
  * @group User

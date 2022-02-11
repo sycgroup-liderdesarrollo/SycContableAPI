@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Covenant\UpdateCovenantRequest;
 use App\Http\Requests\Covenant\CreateCovenantRequest;
-use App\Models\Concept;
 use App\Models\Covenant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

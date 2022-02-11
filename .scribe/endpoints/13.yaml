@@ -1,10 +1,10 @@
-name: Headquarter
+name: Gender
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/headQuarter
+    uri: api/gender
     metadata:
       title: ''
       description: ''
@@ -18,123 +18,13 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
+        status: 200
+        content: '{"status":true,"data":[{"id":1,"name":"Masculino","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z"},{"id":2,"name":"Femenino","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z"}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '46'
           access-control-allow-origin: '*'
         description: null
-    responseFields: []
-  -
-    httpMethods:
-      - POST
-    uri: api/headQuarter
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'El nombre de la sucursal.'
-        required: false
-        example: Pereira
-        type: required
-        custom: []
-    responses: []
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: 'api/headQuarter/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the headQuarter.'
-        required: true
-        example: 9
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - PUT
-      - PATCH
-    uri: 'api/headQuarter/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the headQuarter.'
-        required: true
-        example: 16
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'El nombre de la sucursal.'
-        required: false
-        example: Pereira
-        type: required
-        custom: []
-    responses: []
-    responseFields: []
-  -
-    httpMethods:
-      - DELETE
-    uri: 'api/headQuarter/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the headQuarter.'
-        required: true
-        example: 5
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters: []
-    responses: []
     responseFields: []
