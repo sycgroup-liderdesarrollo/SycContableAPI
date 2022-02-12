@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Resources\VacationResource;
 use App\Models\Vacation;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 /**
  * @group Vacation
@@ -23,20 +24,29 @@ class VacationController extends Controller
      */
     public function store(Request $request)
     {
-        $bdVacation = Vacation::where('user_id',$request->user_id)->orderBy('created_at','desc')->first();
+        if ($request->start_date > $request->end_date) {
+            return response()->json(['status'=>true,'data'=>'La fecha inicial debe ser mayor a la final']);
+        }
+        $bdVacation   = Vacation::where('user_id',$request->user_id)->orderBy('created_at','desc')->first();
         $dataVacation = daysWeekForPayroll($request->start_date, $request->end_date);
+
         if ($bdVacation) {
-            $bdVacation->created_at->format('Y-m');
-            $date = date_create($request->start_date);
-            if ($bdVacation->created_at->format('Y-m') == $date->format('Y-m')) {
+            $date           = date_create($request->start_date)->format('Y-m');
+            $dateVacationbd = date_create($bdVacation->start_date)->format('Y-m');
+            if ($dateVacationbd == $date) {
                 return response()->json(['status'=>true,'data'=>'No se puede volver a cargar vacaciones este mes']);
             }
         }
         $vacation = $request->all();
-        $dayWeek = daysWeek($request->start_date, $request->end_date);
+        $dayWeek  = daysWeek($request->start_date, $request->end_date);
+
+        if($dayWeek->original['days'] > 60){
+            return response()->json(['status'=>true,'data'=>'No se puede cargar vacaciones por mas de 60 dias habiles']);
+        }
         $vacation['total_days'] = $dayWeek->original['days'];
-        $vacation['end_date'] = $dayWeek->original['end_date'];
+        $vacation['end_date']   = $dayWeek->original['end_date'];
         $vacation['days_apart'] = $dataVacation->original['diferentDayPeriod'];
+
         $vacation = Vacation::create($vacation);
         return response()->json(['status'=>true,'data'=>$vacation,'vacation'=>$dataVacation->original]);
     }
