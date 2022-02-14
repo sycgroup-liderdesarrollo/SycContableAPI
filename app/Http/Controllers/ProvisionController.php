@@ -2,14 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Covenant;
 use App\Models\Provision;
-use App\Models\Setting;
-use App\Models\User;
-use App\Models\Vacation;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 /**
  * @group Provision
@@ -25,7 +20,19 @@ class ProvisionController extends Controller
     {
         return response()->json(['status'=>true,'data'=>$provision]);
     }
-
+    /**
+     * @bodyParam period_id int
+     * @bodyParam pension_contribution int
+     * @bodyParam occupational_risk_contributions int
+     * @bodyParam health_contribution int
+     * @bodyParam compensation_funds int
+     * @bodyParam layoffs int
+     * @bodyParam Interest_on_severance_pay int
+     * @bodyParam vacation_provision int
+     * @bodyParam wage_premium int
+     * @bodyParam total_provisiones int
+     * @bodyParam total_payroll int
+     */
     public function store(Request $request)
     {
         $provision = $request->all();
@@ -33,7 +40,19 @@ class ProvisionController extends Controller
         $provision = Provision::create($provision);
         return response()->json(['status'=>true,'data'=>$provision]);
     }
-
+    /**
+     * @bodyParam period_id int
+     * @bodyParam pension_contribution int
+     * @bodyParam occupational_risk_contributions int
+     * @bodyParam health_contribution int
+     * @bodyParam compensation_funds int
+     * @bodyParam layoffs int
+     * @bodyParam Interest_on_severance_pay int
+     * @bodyParam vacation_provision int
+     * @bodyParam wage_premium int
+     * @bodyParam total_provisiones int
+     * @bodyParam total_payroll int
+     */
     public function update(Provision $provision, Request $request)
     {
         $provision->update($request->all());
