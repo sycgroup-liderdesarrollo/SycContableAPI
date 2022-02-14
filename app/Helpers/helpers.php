@@ -70,6 +70,20 @@ function daysWeekForPayroll($inicio, $fin){
         $diferentDayPeriod  = daysWeek($endDayForCalc->format('Y-m-d'), $end->format('Y-m-d'));
         return response()->json(['totalDays'=> $days,'paidDays'=> $paidDays->original['days'], 'diferentDayPeriod'=> $diferentDayPeriod->original['days'],'workdedDays'=> $workedDays->original['days'] + 1]);
     }
+    if(($periodStart > $periodEnd)) {
+        if (($start->modify('+17 days')->format('m') == $end->format('m'))) {
+            $start->modify('-17 days');
+            $end->modify('-1 day');
+            $endDayForCalc->setDate($startDayForCalc->format('Y'),$startDayForCalc->format('m'),  $startDayForCalc->modify('last day of')->format('d'));
+            $auxStartDayForCalc->setDate($auxStartDayForCalc->format('Y'),$auxStartDayForCalc->format('m'), 16);
+            $workedDays         = daysWeek($auxStartDayForCalc->format('Y-m-d'), $start->format('Y-m-d'));
+            $paidDays           = daysWeek($start->format('Y-m-d'), $endDayForCalc->format('Y-m-d'));
+            $diferentDayPeriod  = daysWeek($endDayForCalc->format('Y-m-d'), $end->format('Y-m-d'));
+            return response()->json(['totalDays'=> $days,'paidDays'=> $paidDays->original['days'], 'diferentDayPeriod'=> $diferentDayPeriod->original['days'] - 1, 'workdedDays'=> $workedDays->original['days'] +1]);
+        }else {
+            $start->modify('-17 days');
+        }
+    }
     if (($periodStart == $periodEnd) && ($start->format('m') == $end->format('m'))) {
         return response()->json(['paidDays'=> $days, 'workdedDays'=> 15 - $days, 'diferentDayPeriod'=> null]);
     }
@@ -80,13 +94,15 @@ function daysWeekForPayroll($inicio, $fin){
             $startDayForCalc->setDate($startDayForCalc->format('Y'),$startDayForCalc->format('m'), 1);
             $paidDays           = daysWeek($start->format('Y-m-d'), $endDayForCalc->format('Y-m-d'));
             $workedDays         = daysWeek($startDayForCalc->format('Y-m-d'), $start->format('Y-m-d'));
-            return response()->json(['**totalDays'=> $days, 'paidDays'=>$paidDays->original['days'],'workdedDays'=>$workedDays->original['days'] +1, 'diferentDayPeriod'=>$days - 15]);
+            $diferentDayPeriod  = daysWeek($endDayForCalc->format('Y-m-d'), $end->format('Y-m-d'));
+            return response()->json(['totalDays'=> $days, 'paidDays'=>$paidDays->original['days'],'workdedDays'=>$workedDays->original['days'] +1, 'diferentDayPeriod'=> $diferentDayPeriod->original['days'] - 1]);
         }else {
             $endDayForCalc->setDate($startDayForCalc->format('Y'),$startDayForCalc->format('m'),  $startDayForCalc->modify('last day of')->format('d'));
             $auxStartDayForCalc->setDate($auxStartDayForCalc->format('Y'),$auxStartDayForCalc->format('m'), 16);
             $workedDays         = daysWeek($auxStartDayForCalc->format('Y-m-d'), $start->format('Y-m-d'));
             $paidDays           = daysWeek($start->format('Y-m-d'), $endDayForCalc->format('Y-m-d'));
-            return response()->json(['*/*totalDays'=> $days, 'paidDays'=>$paidDays->original['days'],'workdedDays'=>$workedDays->original['days'] +1, 'diferentDayPeriod'=>$days - 15]);
+            $diferentDayPeriod  = daysWeek($endDayForCalc->format('Y-m-d'), $end->format('Y-m-d'));
+            return response()->json(['totalDays'=> $days, 'paidDays'=>$paidDays->original['days'],'workdedDays'=>$workedDays->original['days'] +1, 'diferentDayPeriod'=> $diferentDayPeriod->original['days'] - 1]);
         }
     }
     if (($periodStart != $periodEnd) && ($start->format('m') != $end->format('m'))) {
@@ -96,25 +112,17 @@ function daysWeekForPayroll($inicio, $fin){
             $startDayForCalc->setDate($startDayForCalc->format('Y'),$startDayForCalc->format('m'), 1);
             $workedDays         = daysWeek($startDayForCalc->format('Y-m-d'), $start->format('Y-m-d'));
             $paidDays           = daysWeek($start->format('Y-m-d'), $endDayForCalc->format('Y-m-d'));
-            return response()->json(['1totalDays'=> $days,'paidDays'=> $paidDays->original['days'], 'workdedDays'=> $workedDays->original['days'] +1,'diferentDayPeriod'=> $days - 15]);
+            $diferentDayPeriod  = daysWeek($endDayForCalc->format('Y-m-d'), $end->format('Y-m-d'));
+            return response()->json(['totalDays'=> $days,'paidDays'=> $paidDays->original['days'], 'workdedDays'=> $workedDays->original['days'] +1,'diferentDayPeriod'=> $diferentDayPeriod->original['days'] - 1]);
         }
         else {
             $endDayForCalc->setDate($auxStartDayForCalc->format('Y'),$auxStartDayForCalc->format('m'),  $auxStartDayForCalc->modify('last day of')->format('d'));
             $auxStartDayForCalc->setDate($start->format('Y'),$start->format('m'), 16);
             $workedDays         = daysWeek($auxStartDayForCalc->format('Y-m-d'), $start->format('Y-m-d'));
             $paidDays           = daysWeek($start->format('Y-m-d'), $endDayForCalc->format('Y-m-d'));
-            return response()->json(['2totalDays'=> $days, 'paidDays'=>$paidDays->original['days'],'workdedDays'=>$workedDays->original['days'], 'diferentDayPeriod'=>$days - 15]);
+            $diferentDayPeriod  = daysWeek($endDayForCalc->format('Y-m-d'), $end->format('Y-m-d'));
+            return response()->json(['totalDays'=> $days, 'paidDays'=>$paidDays->original['days'],'workdedDays'=>$workedDays->original['days'], 'diferentDayPeriod'=> $diferentDayPeriod->original['days'] - 1]);
         }
-    }
-    if(($periodStart > $periodEnd) && ($start->modify('+17 days')->format('m') == $end->format('m')) ) {
-        $start->modify('-17 days');
-        $end->modify('-1 day');
-        $endDayForCalc->setDate($startDayForCalc->format('Y'),$startDayForCalc->format('m'),  $startDayForCalc->modify('last day of')->format('d'));
-        $auxStartDayForCalc->setDate($auxStartDayForCalc->format('Y'),$auxStartDayForCalc->format('m'), 16);
-        $workedDays         = daysWeek($auxStartDayForCalc->format('Y-m-d'), $start->format('Y-m-d'));
-        $paidDays           = daysWeek($start->format('Y-m-d'), $endDayForCalc->format('Y-m-d'));
-        $diferentDayPeriod  = daysWeek($endDayForCalc->format('Y-m-d'), $end->format('Y-m-d'));
-        return response()->json(['totalDays'=> $days,'paidDays'=> $paidDays->original['days'], 'diferentDayPeriod'=> $diferentDayPeriod->original['days'] - 1, 'workdedDays'=> $workedDays->original['days'] +1]);
     }
 }
 function datas_for_the_provision(){

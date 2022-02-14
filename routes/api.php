@@ -109,7 +109,6 @@ Route::middleware(['auth:api'])->group(function () {
     Route::get('usersColletion',function () {
         return UsersResource::collection(User::all());
     });
-    Route::post('prueba/{inicio}/{fin}', [ProvisionController::class, 'prueba']);
 
 
 

@@ -67,4 +67,5 @@ class VacationJob implements ShouldQueue
             }
             return response()->json(['status'=>true,'data'=>$vacationDays]);
         }
-    }}
+    }
+}

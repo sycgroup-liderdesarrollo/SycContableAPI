@@ -12,7 +12,6 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Log;
 
 class CovenantAssignJob implements ShouldQueue
 {
@@ -23,15 +22,15 @@ class CovenantAssignJob implements ShouldQueue
         //
     }
 
-    public function handle()
-    {
+    public function handle(){
+
         $covenants  = Covenant::where('covenant_type_id',2)->get();
         $usersComun = User::where('active', '=','1')->get();
         $setting    = Setting::all();
         $continue   = true;
 
         foreach($usersComun as $userComun){
-
+            $continue = true;
             $payrollUserComun = $userComun->lastPayroll;
 
             $vacation = Vacation::where('user_id', $userComun->id)->orderBy('created_at','desc')->first();
@@ -40,13 +39,20 @@ class CovenantAssignJob implements ShouldQueue
                     $vacationPeriod = period(date_create($vacation->end_date)->format('d'));
                     $nowPeriod      = period(Carbon::now()->format('d'));
                     if ($vacationPeriod == $nowPeriod) {
-                        $payrollUserComun->concepts()->attach(1 ,['count' =>15-$vacation->days_apart, 'unit_value'=>$payrollUserComun->user->base_salary/30, 'total_value'=>(15-$vacation->days_apart)*($payrollUserComun->user->base_salary/30)]);
-                        $payrollUserComun->concepts()->attach(5 ,['count' => $vacation->days_apart, 'unit_value'=>$payrollUserComun->user->base_salary/30, 'total_value'=>($vacation->days_apart)*($payrollUserComun->user->base_salary/30)]);
+                        $days = daysWeek(Carbon::now()->format('Y-m-d'), $vacation->end_date);
+
+                        $payrollUserComun->concepts()->attach(1 ,['count' =>15 - $days->original['days'], 'unit_value'=>$payrollUserComun->user->base_salary/30, 'total_value'=>(15 - $days->original['days'])*($payrollUserComun->user->base_salary/30)]);
+                        $payrollUserComun->concepts()->attach(5 ,['count' => $days->original['days'], 'unit_value'=>$payrollUserComun->user->base_salary/30, 'total_value'=>($days->original['days'])*($payrollUserComun->user->base_salary/30)]);
+
                         if ($userComun->base_salary < ($setting[0]->value*2)) {
-                            $payrollUserComun->concepts()->attach(2 ,['count' => 15-$vacation->days_apart, 'unit_value'=>$setting[1]->value/30, 'total_value'=>($setting[1]->value/30)*(15-$vacation->days_apart)]);
+                            $payrollUserComun->concepts()->attach(2 ,['count' => 15 - $days->original['days'], 'unit_value'=>$setting[1]->value/30, 'total_value'=>($setting[1]->value/30)*(15 - $days->original['days'])]);
                         }
                         $continue = false;
                     }
+                }
+                if (($vacation->days_apart >= 15) && (date_create($vacation->end_date)->format('Y-m-d') > Carbon::now()->format('Y-m-d')) && ($continue)) {
+                    $payrollUserComun->concepts()->attach(5 ,['count' => 15, 'unit_value'=>$payrollUserComun->user->base_salary/30, 'total_value'=>15*($payrollUserComun->user->base_salary/30)]);
+                    $continue = false;
                 }
             }
             if ($continue) {
@@ -67,3 +73,4 @@ class CovenantAssignJob implements ShouldQueue
         }
     }
 }
+

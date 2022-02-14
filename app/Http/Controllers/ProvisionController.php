@@ -8,12 +8,8 @@ use App\Models\Setting;
 use App\Models\User;
 use App\Models\Vacation;
 use Carbon\Carbon;
-use DateInterval;
-use DatePeriod;
-use DateTime;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 /**
  * @group Provision
@@ -46,10 +42,6 @@ class ProvisionController extends Controller
     {
         $provision->delete();
     }
-    public function prueba(){
-        
-    }
-
 }
 
 
