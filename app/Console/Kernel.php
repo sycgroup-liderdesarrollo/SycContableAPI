@@ -11,24 +11,15 @@ class Kernel extends ConsoleKernel
         Commands\Payroll\PayrollStoreCommand::class,
         Commands\Covenant\CovenantAssignCommand::class
     ];
-    /**
-     * Define the application's command schedule.
-     *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
-     * @return void
-     */
+
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('payroll:store')->twiceMonthly(1, 16, '00:00');
         $schedule->command('covenant:assign')->twiceMonthly(1, 16, '01:00');
         $schedule->command('covenant:cuota')->twiceMonthly(1, 16, '01:10');
+        $schedule->command('command:vacation')->daily();
     }
 
-    /**
-     * Register the commands for the application.
-     *
-     * @return void
-     */
     protected function commands()
     {
         $this->load(__DIR__.'/Commands');

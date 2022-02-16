@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Jobs\Vacation\VacationJob;
 use App\Models\Vacation;
 use Illuminate\Http\Request;
 
@@ -38,7 +37,6 @@ class VacationController extends Controller
         $vacation['end_date'] = $dayWeek->original['end_date'];
         $vacation['days_apart'] = $dataVacation->original['diferentDayPeriod'];
         $vacation = Vacation::create($vacation);
-        VacationJob::dispatch($vacation);
         return response()->json(['status'=>true,'data'=>$vacation,'vacation'=>$dataVacation->original]);
     }
     public function show(Vacation $vacation)
