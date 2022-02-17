@@ -48,7 +48,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware(['auth:api'])->group(function () {
+// Route::middleware(['auth:api'])->group(function () {
+    // });
 
     Route::apiResource('user', UserController::class);
     Route::apiResource('covenant', CovenantController::class);
@@ -79,7 +80,6 @@ Route::middleware(['auth:api'])->group(function () {
     Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
     Route::delete('user/eliminarConvenio/{user_id}', [UserController::class, 'eliminarConvenio']);
     Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
-    });
     Route::get('checkLogin', function (){
         if(Auth::guard('api')->check()) return response()->json(['isLogined'=>true]);
         return response()->json(['isLogined'=>false]);
