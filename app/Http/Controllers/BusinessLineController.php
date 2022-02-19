@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\BusinessLineResource;
 use App\Models\BusinessLine;
 use Illuminate\Http\Request;
 
@@ -15,7 +16,8 @@ class BusinessLineController extends Controller
     public function index()
     {
         $businessLines = BusinessLine::all();
-        return response()->json(['status'=>true,'data'=> $businessLines]);
+
+        return BusinessLineResource::collection($businessLines);
     }
     /**
      * @bodyParam name required El nombre de la linea de negocions. Example: SyC Group
@@ -23,14 +25,14 @@ class BusinessLineController extends Controller
     public function store(Request $request)
     {
         $businessLine=BusinessLine::create($request->all());
-        return response()->json(['status'=>true,'data'=> $businessLine]);
-
+        return new BusinessLineResource($businessLine);
     }
+
     public function show(BusinessLine $businessLine)
     {
-        return response()->json(['status'=>true,'data'=> $businessLine]);
-
+        return new BusinessLineResource($businessLine);
     }
+
     /**
      * @bodyParam name required El nombre de la linea de negocions. Example: SyC Group
      * @bodyParam active boolean El estado de la linea de negocios, si esta activa o no.
@@ -38,13 +40,12 @@ class BusinessLineController extends Controller
     public function update(Request $request, BusinessLine $businessLine)
     {
         $businessLine->update($request->all());
-        return response()->json(['status'=>true,'data'=> $businessLine]);
-
+        return new BusinessLineResource($businessLine);
     }
+
     public function destroy(BusinessLine $businessLine)
     {
         $businessLine->delete();
-        return response()->json(['status'=>true,'data'=> $businessLine]);
-
+        return new BusinessLineResource($businessLine);
     }
 }

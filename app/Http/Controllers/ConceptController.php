@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Concept\CreateConceptRequest;
 use App\Http\Requests\Concept\UpdateConceptRequest;
+use App\Http\Resources\Concept\ConceptResource;
+use App\Http\Resources\Concept\ConceptsResource;
 use App\Models\Concept;
 use Illuminate\Http\Request;
 /**
@@ -18,27 +20,27 @@ class ConceptController extends Controller
     {
         $concept_type_id = $request->query('type', null);
         $concepts = Concept::conceptTypeFilter($concept_type_id)->get();
-        return response()->json(['status'=>true,'data'=>$concepts]);
+        return ConceptResource::collection($concepts);
     }
     public function store(CreateConceptRequest $request)
     {
         $concept = Concept::create($request->all());
-        return response()->json(['status'=>true,'data'=>$concept]);
+        return new ConceptResource($concept);
     }
     public function show(Concept $concept)
     {
         $concept->payrolls;
         $concept->covenant;
-        return response()->json(['status'=>true,'data'=>$concept]);
+        return new ConceptResource($concept);
     }
     public function update(UpdateConceptRequest $request, Concept $concept)
     {
         $concept->update($request->all());
-        return response()->json(['status'=>true,'data'=>$concept]);
+        return new ConceptResource($concept);
     }
     public function destroy(Concept $concept)
     {
         $concept->delete();
-        return response()->json(['status'=>true,'data'=>$concept]);
+        return new ConceptResource($concept);
     }
 }

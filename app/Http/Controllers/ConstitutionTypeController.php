@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ConstitutionTypeResource;
 use App\Models\ConstitutionType;
 
 /**
@@ -12,6 +13,6 @@ class ConstitutionTypeController extends Controller
     public function index()
     {
         $constitutionTypes = ConstitutionType::all();
-        return response()->json(['status'=>true,'data'=>$constitutionTypes]);
+        return ConstitutionTypeResource::collection($constitutionTypes);
     }
 }

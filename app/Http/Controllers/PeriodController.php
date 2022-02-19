@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PeriodResource;
 use App\Models\Period;
 use Illuminate\Http\Request;
 /**
@@ -12,7 +13,7 @@ class PeriodController extends Controller
     public function index()
     {
         $periods = Period::all();
-        return response()->json(['status'=>true,'data'=>$periods]);
+        return PeriodResource::collection($periods);
     }
     /**
      * @bodyParam name required El nombre de periodo que se usaria para la nomina, ya viene definido por defecto. Example: 5 a 19
@@ -20,11 +21,11 @@ class PeriodController extends Controller
     public function store(Request $request)
     {
         $period = Period::create($request->all());
-        return response()->json(['status'=>true,'data'=>$period]);
+        return new PeriodResource($period);
     }
     public function show(Period $period)
     {
-        return response()->json(['status'=>true,'data'=>$period]);
+        return new PeriodResource($period);
     }
     /**
      * @bodyParam name required El nombre de periodo que se usaria para la nomina, ya viene definido por defecto. Example: 5 a 19
@@ -32,11 +33,11 @@ class PeriodController extends Controller
     public function update(Request $request, Period $period)
     {
         $period->update($request->all());
-        return response()->json(['status'=>true,'data'=>$period]);
+        return new PeriodResource($period);
     }
     public function destroy(Period $period)
     {
         $period->delete();
-        return response()->json(['status'=>true,'data'=>$period]);
+        return new PeriodResource($period);
     }
 }

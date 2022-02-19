@@ -21,6 +21,10 @@ class Payroll extends Model
     {
         return $this->belongsTo(Period::class);
     }
+    public function provision()
+    {
+        return $this->belongsTo(Provision::class);
+    }
     public function user()
     {
         return $this->belongsTo(User::class);

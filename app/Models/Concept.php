@@ -24,7 +24,7 @@ class Concept extends Model
     }
     public function setting()
     {
-        $this->belongsTo(Setting::class);
+        return $this->belongsTo(Setting::class);
     }
     public function scopeConceptTypeFilter($query, $type)
     {

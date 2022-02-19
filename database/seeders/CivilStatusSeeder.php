@@ -2,15 +2,15 @@
 
 namespace Database\Seeders;
 
-use App\Models\CivilStatu;
+use App\Models\CivilStatus;
 use Illuminate\Database\Seeder;
 
 class CivilStatusSeeder extends Seeder
 {
     public function run()
     {
-        CivilStatu::create(['name'=>'Soltero']);
-        CivilStatu::create(['name'=>'Casado']);
-        CivilStatu::create(['name'=>'Union Libre']);
+        CivilStatus::create(['name'=>'Soltero']);
+        CivilStatus::create(['name'=>'Casado']);
+        CivilStatus::create(['name'=>'Union Libre']);
     }
 }

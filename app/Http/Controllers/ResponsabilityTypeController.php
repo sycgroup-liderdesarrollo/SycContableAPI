@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ResponsabilityTypeResource;
 use App\Models\ResponsabilityType;
 
 class ResponsabilityTypeController extends Controller
@@ -9,6 +10,6 @@ class ResponsabilityTypeController extends Controller
     public function index()
     {
         $responsabilityTypes = ResponsabilityType::all();
-        return response()->json(['status'=>true,'data'=>$responsabilityTypes]);
+        return ResponsabilityTypeResource::collection($responsabilityTypes);
     }
 }

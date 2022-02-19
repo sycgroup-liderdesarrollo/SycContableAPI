@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\BusinessLineController;
 use App\Http\Controllers\CityController;
-use App\Http\Controllers\CivilStatuController;
+use App\Http\Controllers\CivilStatusController;
 use App\Http\Controllers\ConceptController;
 use App\Http\Controllers\ConceptTypeController;
 use App\Http\Controllers\ConstitutionTypeController;
@@ -60,7 +60,7 @@ use Illuminate\Support\Facades\Route;
     Route::apiResource('position', PositionController::class);
     Route::apiResource('contractType', ContractTypeController::class);
     Route::apiResource('salaryType', SalaryTypeController::class);
-    Route::apiResource('headQuarter', HeadquarterController::class);
+    Route::apiResource('headquarter', HeadquarterController::class);
     Route::apiResource('identificationType', IdentificationTypeController::class);
     Route::apiResource('period', PeriodController::class);
     Route::apiResource('setting', SettingController::class);
@@ -95,7 +95,7 @@ use Illuminate\Support\Facades\Route;
     Route::apiResource('city', CityController::class);
     Route::apiResource('province', ProvinceController::class);
     Route::apiResource('gender', GenderController::class);
-    Route::apiResource('civilStatu', CivilStatuController::class);
+    Route::apiResource('civilStatus', CivilStatusController::class);
     Route::apiResource('strata', StrataController::class);
     Route::apiResource('educationLevel', EducationLevelController::class);
     Route::apiResource('constitutionType', ConstitutionTypeController::class);
@@ -104,7 +104,7 @@ use Illuminate\Support\Facades\Route;
     Route::apiResource('vacation', VacationController::class);
     Route::post('vacationsCalc/{payroll_id}', [VacationController::class, 'vacationCalc']);
     Route::post('calcDays', [VacationController::class, 'calcDays']);
-    Route::apiResource('occupationalRiskManager', OccupationalRiskManagerController::class);
+    Route::apiResource('ocupationalRiskManager', OccupationalRiskManagerController::class);
     Route::apiResource('provision', ProvisionController::class);
     Route::get('usersColletion',function () {
         return UsersResource::collection(User::all());

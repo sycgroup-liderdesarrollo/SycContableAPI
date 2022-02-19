@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ProvissionResource;
 use App\Models\Provision;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -14,11 +15,11 @@ class ProvisionController extends Controller
     public function index()
     {
         $provisions = Provision::all();
-        return response()->json(['status'=>true,'data'=>$provisions]);
+        return ProvissionResource::collection($provisions);
     }
     public function show(Provision $provision)
     {
-        return response()->json(['status'=>true,'data'=>$provision]);
+        return new ProvisionResource($provision);
     }
     /**
      * @bodyParam period_id int
@@ -38,7 +39,7 @@ class ProvisionController extends Controller
         $provision = $request->all();
         $provision['period_id'] = period(Carbon::now()->format('d'));
         $provision = Provision::create($provision);
-        return response()->json(['status'=>true,'data'=>$provision]);
+        return new ProvisionResource($provision);
     }
     /**
      * @bodyParam period_id int
@@ -56,10 +57,12 @@ class ProvisionController extends Controller
     public function update(Provision $provision, Request $request)
     {
         $provision->update($request->all());
+        return new ProvisionResource($provision);
     }
     public function destroy(Provision $provision)
     {
         $provision->delete();
+        return new ProvisionResource($provision);
     }
 }
 

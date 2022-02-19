@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ProvincesResource;
 use App\Models\Province;
 use Illuminate\Http\Request;
 /**
@@ -16,7 +17,7 @@ class ProvinceController extends Controller
     {
         $filter = $request->query('name',null);
         $provinces = Province::filter($filter)->get();
-        return response()->json(['status'=>true,'data'=>$provinces]);
 
+        return ProvincesResource::collection($provinces);
     }
 }

@@ -18,4 +18,8 @@ class EmergencyContact extends Model
     {
         return $this->belongsTo(Kinship::class);
     }
+    public function user()
+    {
+        return $this->hasMany(User::class);
+    }
 }

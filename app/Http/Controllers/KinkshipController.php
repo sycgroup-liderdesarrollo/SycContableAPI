@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\KinkshipResource;
 use App\Models\Kinship;
 
 /**
@@ -11,7 +12,7 @@ class KinkshipController extends Controller
 {
     public function index()
     {
-        $kinships = Kinship::all();
-        return response()->json(['status'=> true,'data'=>$kinships]);
+        $kinkships = Kinship::all();
+        return KinkshipResource::collection($kinkships);
     }
 }

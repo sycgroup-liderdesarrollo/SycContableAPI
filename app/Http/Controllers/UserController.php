@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\User\CreateUserRequest;
 use App\Http\Requests\User\UpdateUserRequest;
+use App\Http\Resources\UserResource;
+use App\Http\Resources\UsersResource;
 use App\Models\Covenant;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -23,30 +25,30 @@ class UserController extends Controller
         $filter = $request->query('filter', null);
         $active = $request->query('active', null);
         $users = User::filter($filter)->active($active)->with('position')->get();
-        return response()->json(['status'=>true,'data'=>$users]);
+        return UsersResource::collection($users);
     }
     public function store(CreateUserRequest $request)
     {
         $user = $request->all();
         $user['password'] = Hash::make($request->password);
         $user = User::create($user);
-        return response()->json(['status'=>true,'data'=>$user]);
+        return new UserResource($user);
     }
     public function show(User $user)
     {   $user->covenants;
-        return response()->json(['status'=>true,'data'=>$user]);
+        return new UserResource($user);
     }
     public function update(UpdateUserRequest $request, User $user)
     {
         $user->fill($request->all());
         $user->password = Hash::make($user->password);
         $user->save();
-        return response()->json(['status'=>true,'data'=>$user]);
+        return new UserResource($user);
     }
     public function destroy(User $user)
     {
         $user->delete();
-        return $user;
+        return new UserResource($user);
     }
     /**
      * @urlParam user_id int required El id del usuario. Example: 1

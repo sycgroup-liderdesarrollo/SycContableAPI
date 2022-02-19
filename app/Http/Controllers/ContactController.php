@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\Contact\ContactResource;
+use App\Http\Resources\Contact\ContactsResource;
 use App\Models\Contact;
 use Illuminate\Http\Request;
 
@@ -13,31 +15,30 @@ class ContactController extends Controller
     public function index(Request $request)
     {
         $contacts=Contact::all();
-        return response()->json(['status'=>true,'data'=>$contacts]);
+        return ContactsResource::collection($contacts);
     }
     public function store(Request $request)
     {
         $contact = Contact::create($request->all());
-        return response()->json(['status'=>true,'data'=>$contact]);
+        return new ContactResource($contact);
     }
     public function show(Contact $contact)
     {
-        return response()->json(['status'=>true,'data'=>$contact]);
+        return new ContactResource($contact);
     }
     public function update(Request $request, Contact $contact)
     {
         $contact->update($request->all());
-        return response()->json(['status'=>true,'data'=>$contact]);
+        return new ContactResource($contact);
     }
     public function destroy(Contact $contact)
     {
         $contact->delete();
-        return response()->json(['status'=>true,'data'=>$contact]);
+        return new ContactResource($contact);
     }
     public function providerContact($provider_id)
     {
         $contact= Contact::where('provider_id', $provider_id)->get();
-        return response()->json(['status'=>true,'data'=>$contact]);
-
+        return new ContactResource($contact);
     }
 }

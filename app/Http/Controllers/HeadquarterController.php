@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\HeadquarterResource;
 use App\Models\Headquarter;
 use Illuminate\Http\Request;
 /**
@@ -11,33 +12,33 @@ class HeadquarterController extends Controller
 {
     public function index()
     {
-        $headQuarters = Headquarter::all();
-        return response()->json(['status'=>true,'data'=>$headQuarters]);
+        $headquarters = Headquarter::all();
+        return HeadquarterResource::collection($headquarters);
     }
     /**
      * @bodyParam name required El nombre de la sucursal. Example: Pereira
      */
     public function store(Request $request)
     {
-        $headQuarter = Headquarter::create($request->all());
-        return response()->json(['status'=>true,'data'=>$headQuarter]);
+        $headquarter = Headquarter::create($request->all());
+        return new HeadquarterResource($headquarter);
     }
-    public function show(Headquarter $headQuarter)
+    public function show(Headquarter $headquarter)
     {
-        $headQuarter->users;
-        return response()->json(['status'=>true,'data'=>$headQuarter]);
+        $headquarter->users;
+        return new HeadquarterResource($headquarter);
     }
     /**
      * @bodyParam name required El nombre de la sucursal. Example: Pereira
      */
-    public function update(Request $request, Headquarter $headQuarter)
+    public function update(Request $request, Headquarter $headquarter)
     {
-        $headQuarter->update($request->all());
-        return response()->json(['status'=>true,'data'=>$headQuarter]);
+        $headquarter->update($request->all());
+        return new HeadquarterResource($headquarter);
     }
-    public function destroy(Headquarter $headQuarter)
+    public function destroy(Headquarter $headquarter)
     {
-        $headQuarter->delete();
-        return response()->json(['status'=>true,'data'=>$headQuarter]);
+        $headquarter->delete();
+        return new HeadquarterResource($headquarter);
     }
 }

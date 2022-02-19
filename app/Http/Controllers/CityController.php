@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\CitiesResource;
 use App\Models\City;
 use Illuminate\Http\Request;
 /**
@@ -18,6 +19,6 @@ class CityController extends Controller
 
         $cities = City::filter($filter)->get();
 
-        return response()->json(['status'=>true,'data'=>$cities]);
+        return CitiesResource::collection($cities);
     }
 }

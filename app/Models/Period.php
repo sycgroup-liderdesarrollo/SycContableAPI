@@ -14,4 +14,8 @@ class Period extends Model
     {
         return $this->hasMany(Payroll::class);
     }
+    public function provision()
+    {
+        return $this->hasOne(Provision::class);
+    }
 }

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Provider\CreateProviderRequest;
 use App\Http\Requests\Provider\UpdateProviderRequest;
+use App\Http\Resources\Provider\ProviderResource;
+use App\Http\Resources\Provider\ProvidersResource;
 use App\Models\Provider;
 use Illuminate\Support\Facades\Hash;
 
@@ -15,7 +17,7 @@ class ProviderController extends Controller
     public function index()
     {
         $providers = Provider::all();
-        return response()->json(['status'=>true,'data'=>$providers]);
+        return ProvidersResource::collection($providers);
     }
     public function store(CreateProviderRequest $request, Provider $provider)
     {
@@ -23,26 +25,23 @@ class ProviderController extends Controller
         $provider = $request->all();
         $provider['password'] = Hash::make($request->password);
         $provider = Provider::create($provider);
-        if ($request->constitution_type_id == 1) {
-            return response()->json(['status'=>true,'data'=>$provider,'message'=> " Se creó un contacto con los mismos datos del proveedor!"]);
-        }
-        return response()->json(['status'=>true,'data'=>$provider]);
+        return new ProviderResource($provider);
     }
     public function update(UpdateProviderRequest $request, Provider $provider)
     {
         $provider->fill($request->all());
         $provider->password = Hash::make($provider->password);
         $provider->save();
-        return response()->json(['status'=>true,'data'=>$provider]);
+        return new ProviderResource($provider);
     }
     public function show(Provider $provider)
     {
         $provider->identificationType;
-        return response()->json(['status'=>true,'data'=>$provider]);
+        return new ProviderResource($provider);
     }
     public function destroy(Provider $provider)
     {
         $provider->delete();
-        return response()->json(['status'=>true,'data'=>$provider]);
+        return new ProviderResource($provider);
     }
 }

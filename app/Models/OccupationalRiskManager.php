@@ -9,4 +9,9 @@ class OccupationalRiskManager extends Model
 {
     use HasFactory;
     protected $fillable = ['name','class','porcentage'];
+
+    public function user()
+    {
+        return $this->hasOne(User::class);
+    }
 }

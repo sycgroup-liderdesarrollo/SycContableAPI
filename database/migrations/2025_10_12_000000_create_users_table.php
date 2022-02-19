@@ -41,7 +41,7 @@ class CreateUsersTable extends Migration
             $table->foreignId('gender_id')->references('id')->on('genders');
             $table->foreignId('health_provider_id')->references('id')->on('health_providers');
             $table->foreignId('pension_fund_id')->references('id')->on('pension_funds');
-            $table->foreignId('civil_statu_id')->references('id')->on('civil_status');
+            $table->foreignId('civil_status_id')->references('id')->on('civil_statuses');
             $table->foreignId('work_city_id')->references('id')->on('cities');
             $table->foreignId('residence_city_id')->references('id')->on('cities');
             $table->foreignId('expedition_place_id')->references('id')->on('cities');

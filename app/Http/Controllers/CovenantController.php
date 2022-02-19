@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Covenant\UpdateCovenantRequest;
 use App\Http\Requests\Covenant\CreateCovenantRequest;
+use App\Http\Resources\Convenant\CovenantResource;
+use App\Http\Resources\Convenant\CovenantsResource;
 use App\Models\Covenant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -15,7 +17,7 @@ class CovenantController extends Controller
     public function index()
     {
         $covenants = Covenant::all();
-        return response()->json(['status'=>true,'data'=>$covenants]);
+        return CovenantsResource::collection($covenants);
     }
     /**
      * @bodyParam provider_id int Es el id del proveedor. Example: 1
@@ -25,15 +27,14 @@ class CovenantController extends Controller
     {
         $covenant = Covenant::create($request->all());
         $covenant->save();
-
-        return response()->json(['status'=>true,'data'=>$covenant]);
+        return new CovenantResource($covenant);
     }
     public function show(Covenant $covenant)
     {
         $covenant->covenantType;
         $covenant->periodicityType;
         $covenant->concept;
-        return response()->json(['status'=>true,'data'=>$covenant]);
+        return new CovenantResource($covenant);
     }
     public function update(UpdateCovenantRequest $request, Covenant $covenant)
     {
@@ -44,13 +45,13 @@ class CovenantController extends Controller
             $covenant->concept->save();
         }
 
-        return response()->json(['status'=>true,'data'=>$covenant]);
+        return new CovenantResource($covenant);
 
     }
     public function destroy(Covenant $covenant)
     {
         $covenant->delete();
-        return response()->json(['status'=>true,'data'=>$covenant]);
+        return new CovenantResource($covenant);
     }
     /**
      * @queryParam covenant_id int ID de llave foranea para el convenio. Example: 1
@@ -73,6 +74,6 @@ class CovenantController extends Controller
         ->where('concept_types.id', $request->input('concept_type_id'))
         ->where('periodicity_types.id', $request->input('periodicity_type_id'))
         ->get();
-        return response()->json(['status'=>true,'data'=>$covenant]);
+        return new CovenantResource($covenant);
     }
 }

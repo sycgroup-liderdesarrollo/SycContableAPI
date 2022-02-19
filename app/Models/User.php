@@ -34,7 +34,7 @@ class User extends Authenticatable
         'gender_id',
         'health_provider_id',
         'pension_fund_id',
-        'civil_statu_id',
+        'civil_status_id',
         'work_city_id',
         'residence_city_id',
         'expedition_place_id',
@@ -95,13 +95,21 @@ class User extends Authenticatable
     {
         return $query->where('active', 'like','%'.$active);
     }
-    public function city()
+    public function workCity()
+    {
+        return $this->belongsTo(City::class);
+    }
+    public function residenceCity()
+    {
+        return $this->belongsTo(City::class);
+    }
+    public function expeditionPlace()
     {
         return $this->belongsTo(City::class);
     }
     public function civilStatus()
     {
-        return $this->belongsTo(CivilStatu::class);
+        return $this->belongsTo(CivilStatus::class);
     }
     public function educationLevel()
     {
@@ -111,7 +119,7 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Gender::class);
     }
-    public function heatlhProvider()
+    public function healthProvider()
     {
         return $this->belongsTo(HealthProvider::class);
     }
@@ -122,6 +130,14 @@ class User extends Authenticatable
     public function strata()
     {
         return $this->belongsTo(Strata::class);
+    }
+    public function emergencyContact()
+    {
+        return $this->belongsTo(EmergencyContact::class);
+    }
+    public function occupationalRiskManager()
+    {
+        return $this->belongsTo(OccupationalRiskManager::class);
     }
     public function vacation()
     {

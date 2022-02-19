@@ -21,4 +21,13 @@ class Provision extends Model
         'total_payroll',
         'period_id',
     ];
+
+    public function payroll()
+    {
+        return $this->hasMany(Payroll::class);
+    }
+    public function period()
+    {
+        return $this->belongsTo(Period::class);
+    }
 }

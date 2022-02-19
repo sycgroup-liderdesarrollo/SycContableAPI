@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PensionFundResource;
 use App\Models\PensionFund;
 use Illuminate\Http\Request;
 /**
@@ -12,25 +13,25 @@ class PensionFundController extends Controller
     public function index()
     {
         $pensionFunds = PensionFund::all();
-        return response()->json(['status'=>true,'data'=>$pensionFunds]);
+        return PensionFundResource::collection($pensionFunds);
     }
     public function store(Request $request)
     {
         $pensionFund = PensionFund::create($request->all());
-        return response()->json(['status'=>true,'data'=>$pensionFund]);
+        return new PensionFundResource($pensionFund);
     }
     public function show(PensionFund $pensionFund)
     {
-        return response()->json(['status'=>true,'data'=>$pensionFund]);
+        return new PensionFundResource($pensionFund);
     }
     public function update(Request $request, PensionFund $pensionFund)
     {
         $pensionFund->update($request->all());
-        return response()->json(['status'=>true,'data'=>$pensionFund]);
+        return new PensionFundResource($pensionFund);
     }
     public function destroy(PensionFund $pensionFund)
     {
         $pensionFund->delete();
-        return response()->json(['status'=>true,'data'=>$pensionFund]);
+        return new PensionFundResource($pensionFund);
     }
 }

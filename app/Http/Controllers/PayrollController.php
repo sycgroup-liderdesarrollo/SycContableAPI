@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PayrollResource;
 use App\Models\Payroll;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -15,7 +16,7 @@ class PayrollController extends Controller
     public function index()
     {
         $payrolls = Payroll::all();
-        return response()->json(['status'=>true,'data'=>$payrolls]);
+        return PayrollResource::collection($payrolls);
     }
 /**
  * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
@@ -24,16 +25,16 @@ class PayrollController extends Controller
     public function store(Request $request)
     {
        $payroll = Payroll::create($request->all());
-       return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
     public function show(Payroll $payroll)
     {
-        return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
     public function userPayroll(User $user)
     {
         $payroll = $user->lastPayroll;
-        return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
 /**
  * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
@@ -42,13 +43,13 @@ class PayrollController extends Controller
     public function update(Request $request, Payroll $payroll)
     {
         $payroll->update($request->all());
-        return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
 
     public function destroy(Payroll $payroll)
     {
         $payroll->delete();
-        return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
     /**
      * @urlParam payroll_id int required El id de la nomina a la que se le asignará el concepto. Example: 1
@@ -59,7 +60,7 @@ class PayrollController extends Controller
     {
         $payroll = Payroll::find($payroll_id);
         $payroll->concepts()->attach(['concept_id'=>$request->concept_id], ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
-        return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
     /**
      * @urlParam payroll_id int required El id de la nomina a la que se le eliminará el concepto
@@ -90,7 +91,7 @@ class PayrollController extends Controller
         ->where('user_id', '=', $request->input('user_id'))
         ->whereMonth('created_at', '=', $request->input('created_at'))
         ->get();
-        return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
     /**
      * @queryParam period_id int required ID de llave foranea para el periodo de la nomina que se va a consultar (5 a 19, 20 a 4). Example: 1
@@ -121,6 +122,6 @@ class PayrollController extends Controller
         ->whereYear('payrolls.created_at', date('Y', strtotime($request->query('created_at'))))
         ->whereMonth('payrolls.created_at',  date('m', strtotime($request->query('created_at'))))
         ->get();
-        return response()->json(['status'=>true,'data'=>$payroll]);
+        return new PayrollResource($payroll);
     }
 }
