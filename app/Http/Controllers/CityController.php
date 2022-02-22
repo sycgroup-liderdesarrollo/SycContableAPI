@@ -16,8 +16,9 @@ class CityController extends Controller
     public function index(Request $request)
     {
         $filter = $request->query('province_id',null);
+        $paginate = $request->query('paginate') ?? 10;
 
-        $cities = City::filter($filter)->get();
+        $cities = City::filter($filter)->paginate($paginate);
 
         return CitiesResource::collection($cities);
     }

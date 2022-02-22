@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class ConceptTypeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $conceptTypes = ConceptType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $conceptTypes = ConceptType::filter($filter)->paginate($paginate);
         return ConceptTypeResource::collection($conceptTypes);
     }
     /**

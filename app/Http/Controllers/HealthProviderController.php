@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class HealthProviderController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $healthProviders = HealthProvider::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $healthProviders = HealthProvider::filter($filter)->paginate($paginate);
         return HealthProviderResource::collection($healthProviders);
     }
     public function store(Request $request)

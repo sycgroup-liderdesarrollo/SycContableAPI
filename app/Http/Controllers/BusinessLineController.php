@@ -13,9 +13,11 @@ use Illuminate\Http\Request;
 class BusinessLineController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-        $businessLines = BusinessLine::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $businessLines = BusinessLine::filter($filter)->paginate($paginate);
 
         return BusinessLineResource::collection($businessLines);
     }

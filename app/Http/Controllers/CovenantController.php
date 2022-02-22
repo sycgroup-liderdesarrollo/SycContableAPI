@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\DB;
  */
 class CovenantController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $covenants = Covenant::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $covenants = Covenant::filter($filter)->paginate($paginate);
         return CovenantsResource::collection($covenants);
     }
     /**

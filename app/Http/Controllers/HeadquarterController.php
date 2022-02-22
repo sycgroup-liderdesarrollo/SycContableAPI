@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class HeadquarterController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $headquarters = Headquarter::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $headquarters = Headquarter::filter($filter)->paginate($paginate);
         return HeadquarterResource::collection($headquarters);
     }
     /**

@@ -14,7 +14,9 @@ class ContactController extends Controller
 {
     public function index(Request $request)
     {
-        $contacts=Contact::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $contacts=Contact::filter($filter)->paginate($paginate);
         return ContactsResource::collection($contacts);
     }
     public function store(Request $request)

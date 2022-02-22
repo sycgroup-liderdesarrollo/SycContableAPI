@@ -13,6 +13,10 @@ class Payroll extends Model
     protected $fillable=['period_id', 'user_id','provision_id','deleted_at'];
     protected $with = ['period','user', 'concepts'];
 
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('id', 'like', '%' . $filter . '%');
+    }
     public function concepts()
     {
         return $this->belongsToMany(Concept::class)->withTimestamps()->withPivot('count', 'unit_value','total_value', 'id');

@@ -16,4 +16,8 @@ class CovenantType extends Model
     {
         return $this->hasMany(Covenant::class);
     }
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
 }

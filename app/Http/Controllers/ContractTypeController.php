@@ -11,9 +11,11 @@ use Illuminate\Http\Request;
  */
 class ContractTypeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $contractTypes = ContractType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $contractTypes = ContractType::filter($filter)->paginate($paginate);
         return ContractTypeResource::collection($contractTypes);
     }
     /**

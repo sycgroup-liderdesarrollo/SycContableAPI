@@ -13,6 +13,10 @@ class Position extends Model
     protected $hidden = ['business_line_id'];
     protected $with = ['businessLine'];
 
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
     public function user()
     {
         return $this->hasMany(User::class);

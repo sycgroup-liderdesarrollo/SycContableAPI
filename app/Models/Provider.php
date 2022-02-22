@@ -28,6 +28,10 @@ class Provider extends Model
     protected $with = ['identificationType','constitutionType','responsabilityType','city'];
     protected $hidden = ['identification_type_id','responsability_type_id','constitution_type_id','city_id'];
 
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
     public function identificationType()
     {
         return $this->belongsTo(identificationType::class);

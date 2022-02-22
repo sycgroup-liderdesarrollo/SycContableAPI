@@ -11,6 +11,10 @@ class identificationType extends Model
     use HasFactory, SoftDeletes;
     protected $fillable = ['name','deleted_at'];
 
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
     public function users()
     {
         return $this->hasMany(User::class);

@@ -14,4 +14,8 @@ class Kinship extends Model
     {
         return $this->hasMany(EmergencyContact::class);
     }
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
 }

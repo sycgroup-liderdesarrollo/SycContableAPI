@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class PensionFundController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $pensionFunds = PensionFund::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $pensionFunds = PensionFund::filter($filter)->paginate($paginate);
         return PensionFundResource::collection($pensionFunds);
     }
     public function store(Request $request)

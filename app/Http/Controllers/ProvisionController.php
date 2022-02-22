@@ -12,9 +12,11 @@ use Illuminate\Http\Request;
  */
 class ProvisionController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $provisions = Provision::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $provisions = Provision::filter($filter)->paginate($paginate);
         return ProvissionResource::collection($provisions);
     }
     public function show(Provision $provision)

@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class PositionController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $positions = Position::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $positions = Position::filter($filter)->paginate($paginate);
         return PositionResource::collection($positions);
     }
     /**

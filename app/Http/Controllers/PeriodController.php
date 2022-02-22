@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class PeriodController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $periods = Period::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $periods = Period::filter($filter)->paginate($paginate);
         return PeriodResource::collection($periods);
     }
     /**

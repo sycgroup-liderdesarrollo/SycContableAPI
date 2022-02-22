@@ -18,8 +18,9 @@ class ConceptController extends Controller
      */
     public function index(Request $request)
     {
+        $paginate = $request->query('paginate') ?? 10;
         $concept_type_id = $request->query('type', null);
-        $concepts = Concept::conceptTypeFilter($concept_type_id)->get();
+        $concepts = Concept::conceptTypeFilter($concept_type_id)->paginate($paginate);
         return ConceptResource::collection($concepts);
     }
     public function store(CreateConceptRequest $request)

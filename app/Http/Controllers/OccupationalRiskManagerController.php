@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class OccupationalRiskManagerController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $occupationals = OccupationalRiskManager::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $occupationals = OccupationalRiskManager::filter($filter)->paginate($paginate);
         return OcupationalRiskManagerResource::collection($occupationals);
     }
 }

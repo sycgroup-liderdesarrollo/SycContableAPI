@@ -12,10 +12,12 @@ use Illuminate\Support\Facades\Log;
  */
 class VacationController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $vacations = Vacation::all();
-        return response()->json(['status'=>true,'data'=>VacationResource::collection($vacations)]);
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $vacations = Vacation::filter($filter)->paginate($paginate);
+        return VacationResource::collection($vacations);
     }
     /**
      * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY-MM-DD

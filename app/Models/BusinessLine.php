@@ -15,4 +15,8 @@ class BusinessLine extends Model
     {
         return $this->hasOne(Position::class);
     }
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
 }

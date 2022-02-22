@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class PeriodicityTypeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $periodicityTypes = PeriodicityType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $periodicityTypes = PeriodicityType::filter($filter)->paginate($paginate);
         return PeriodicityTypeResource::collection($periodicityTypes);
     }
     /**

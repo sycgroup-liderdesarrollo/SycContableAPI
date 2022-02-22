@@ -10,6 +10,10 @@ class Period extends Model
     use HasFactory;
     protected $fillable =['name','deleted_at'];
 
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
     public function payroll()
     {
         return $this->hasMany(Payroll::class);

@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class SalaryTypeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $salaryTypes = SalaryType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $salaryTypes = SalaryType::filter($filter)->paginate($paginate);
         return SalaryTypeResource::collection($salaryTypes);
     }
     /**

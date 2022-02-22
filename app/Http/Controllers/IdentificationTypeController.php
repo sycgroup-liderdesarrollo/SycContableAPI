@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class IdentificationTypeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $identificationTypes = identificationType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $identificationTypes = identificationType::filter($filter)->paginate($paginate);
         return IdentificationTypeResource::collection($identificationTypes);
     }
     /**

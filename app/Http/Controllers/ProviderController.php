@@ -7,6 +7,7 @@ use App\Http\Requests\Provider\UpdateProviderRequest;
 use App\Http\Resources\Provider\ProviderResource;
 use App\Http\Resources\Provider\ProvidersResource;
 use App\Models\Provider;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
 /**
@@ -14,9 +15,11 @@ use Illuminate\Support\Facades\Hash;
  */
 class ProviderController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $providers = Provider::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $providers = Provider::filter($filter)->paginate($paginate);
         return ProvidersResource::collection($providers);
     }
     public function store(CreateProviderRequest $request, Provider $provider)

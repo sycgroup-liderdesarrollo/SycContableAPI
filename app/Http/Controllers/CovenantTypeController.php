@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
  */
 class CovenantTypeController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $covenantTypes = CovenantType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $covenantTypes = CovenantType::filter($filter)->paginate($paginate);
         return CovenantTypeResource::collection($covenantTypes);
     }
     /**

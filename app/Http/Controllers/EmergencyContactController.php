@@ -10,9 +10,11 @@ use Illuminate\Http\Request;
 class EmergencyContactController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-        $emergencyContacts = EmergencyContact::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $emergencyContacts = EmergencyContact::filter($filter)->paginate($paginate);
         return response()->json(['status'=>true,'data'=>$emergencyContacts]);
     }
 

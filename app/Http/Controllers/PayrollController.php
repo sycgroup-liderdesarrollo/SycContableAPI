@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\DB;
  */
 class PayrollController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $payrolls = Payroll::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $payrolls = Payroll::filter($filter)->paginate($paginate);
         return PayrollResource::collection($payrolls);
     }
 /**
