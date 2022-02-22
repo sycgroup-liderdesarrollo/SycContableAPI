@@ -11,6 +11,10 @@ use Illuminate\Http\Request;
  */
 class GenderController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\GenderResource
+     * @apiResourceModel App\Models\Gender
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);

@@ -13,6 +13,10 @@ use Illuminate\Http\Request;
  */
 class SettingController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\Concept\SettingResource
+     * @apiResourceModel App\Models\Setting
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
@@ -20,20 +24,36 @@ class SettingController extends Controller
         $settings = Setting::filter($filter)->paginate($paginate);
         return SettingResource::collection($settings);
     }
+    /**
+     * @apiResource App\Http\Resources\Concept\SettingResource
+     * @apiResourceModel App\Models\Setting
+     */
     public function store(CreateSettingRequest $request)
     {
         $setting = Setting::create($request->all());
         return new SettingResource($setting);
     }
+    /**
+     * @apiResource App\Http\Resources\Concept\SettingResource
+     * @apiResourceModel App\Models\Setting
+     */
     public function show(Setting $setting)
     {
         return new SettingResource($setting);
     }
+    /**
+     * @apiResource App\Http\Resources\Concept\SettingResource
+     * @apiResourceModel App\Models\Setting
+     */
     public function update(UpdateSettingRequest $request, Setting $setting)
     {
         $setting->update($request->all());
         return new SettingResource($setting);
     }
+    /**
+     * @apiResource App\Http\Resources\Concept\SettingResource
+     * @apiResourceModel App\Models\Setting
+     */
     public function destroy(Setting $setting)
     {
         $setting->delete();

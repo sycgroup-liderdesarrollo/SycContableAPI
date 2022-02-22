@@ -21,13 +21,8 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Salud total","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null},{"id":2,"name":"Sura","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null},{"id":3,"name":"Nueva EPS","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null}]}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '7'
-          access-control-allow-origin: '*'
+        content: '{"data":[{"id":1,"name":"Salud total"},{"id":1,"name":"Salud total"}]}'
+        headers: []
         description: null
     responseFields: []
   -
@@ -45,7 +40,12 @@ endpoints:
     urlParameters: []
     queryParameters: []
     bodyParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Salud total"}}'
+        headers: []
+        description: null
     responseFields: []
   -
     httpMethods:
@@ -72,13 +72,8 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Salud total","created_at":"2022-02-16T07:02:30.000000Z","updated_at":"2022-02-16T07:02:30.000000Z","deleted_at":null}}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          x-ratelimit-limit: '60'
-          x-ratelimit-remaining: '6'
-          access-control-allow-origin: '*'
+        content: '{"data":{"id":1,"name":"Salud total"}}'
+        headers: []
         description: null
     responseFields: []
   -
@@ -99,12 +94,17 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 11
+        example: 1
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Salud total"}}'
+        headers: []
+        description: null
     responseFields: []
   -
     httpMethods:
@@ -123,10 +123,15 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 4
+        example: 1
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Salud total"}}'
+        headers: []
+        description: null
     responseFields: []

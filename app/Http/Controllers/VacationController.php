@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Log;
  */
 class VacationController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\VacationResource
+     * @apiResourceModel App\Models\Vacation
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
@@ -23,6 +27,8 @@ class VacationController extends Controller
      * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY-MM-DD
      * @bodyParam end_date date El final de las vacaciones. Example: YYYY-MM-DD
      * @bodyParam user_id int El id del usuario. Example: 1
+     * @apiResource App\Http\Resources\VacationResource
+     * @apiResourceModel App\Models\Vacation
      */
     public function store(Request $request)
     {
@@ -52,6 +58,10 @@ class VacationController extends Controller
         $vacation = Vacation::create($vacation);
         return response()->json(['status'=>true,'data'=>$vacation,'vacation'=>$dataVacation->original]);
     }
+    /**
+     * @apiResource App\Http\Resources\VacationResource
+     * @apiResourceModel App\Models\Vacation
+     */
     public function show(Vacation $vacation)
     {
         return response()->json(['status'=>true,'data'=>new VacationResource($vacation)]);
@@ -61,12 +71,18 @@ class VacationController extends Controller
      * @bodyParam start_date date El inicio de las vacaciones. Example: YYYY-MM-DD
      * @bodyParam end_date date El final de las vacaciones. Example: YYYY-MM-DD
      * @bodyParam user_id int El id del usuario. Example: 1
+     * @apiResource App\Http\Resources\VacationResource
+     * @apiResourceModel App\Models\Vacation
      */
     public function update(Vacation $vacation, Request $request)
     {
         $vacation->update($request->all());
         return response()->json(['status'=>true,'data'=>$vacation]);
     }
+    /**
+     * @apiResource App\Http\Resources\VacationResource
+     * @apiResourceModel App\Models\Vacation
+     */
     public function destroy(Vacation $vacation)
     {
         $vacation->delete();

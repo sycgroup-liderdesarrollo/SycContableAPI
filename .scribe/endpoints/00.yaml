@@ -1,10 +1,10 @@
-name: 'Business Line'
+name: 'Civil Status'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/businessLine
+    uri: api/civilStatus
     metadata:
       title: ''
       description: ''
@@ -18,130 +18,8 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":[{"id":1,"name":"Soltero"},{"id":1,"name":"Soltero"}]}'
+        headers: []
         description: null
-    responseFields: []
-  -
-    httpMethods:
-      - POST
-    uri: api/businessLine
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters: []
-    queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'El nombre de la linea de negocions.'
-        required: false
-        example: 'SyC Group'
-        type: required
-        custom: []
-    responses: []
-    responseFields: []
-  -
-    httpMethods:
-      - GET
-    uri: 'api/businessLine/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the businessLine.'
-        required: true
-        example: 9
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters: []
-    responses:
-      -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
-        description: null
-    responseFields: []
-  -
-    httpMethods:
-      - PUT
-      - PATCH
-    uri: 'api/businessLine/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the businessLine.'
-        required: true
-        example: 17
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters:
-      name:
-        name: name
-        description: 'El nombre de la linea de negocions.'
-        required: false
-        example: 'SyC Group'
-        type: required
-        custom: []
-      active:
-        name: active
-        description: 'El estado de la linea de negocios, si esta activa o no.'
-        required: false
-        example: true
-        type: boolean
-        custom: []
-    responses: []
-    responseFields: []
-  -
-    httpMethods:
-      - DELETE
-    uri: 'api/businessLine/{id}'
-    metadata:
-      title: ''
-      description: ''
-      authenticated: false
-      custom: []
-    headers:
-      Content-Type: application/json
-      Accept: application/json
-    urlParameters:
-      id:
-        name: id
-        description: 'The ID of the businessLine.'
-        required: true
-        example: 6
-        type: integer
-        custom: []
-    queryParameters: []
-    bodyParameters: []
-    responses: []
     responseFields: []

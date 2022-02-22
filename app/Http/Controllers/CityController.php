@@ -12,6 +12,8 @@ class CityController extends Controller
 {
     /**
      * @queryParam name Filtro para buscar ciudades por nombre. Example: Pereira
+     * @apiResourceCollection App\Http\Resources\CitiesResource
+     * @apiResourceModel App\Models\City
      */
     public function index(Request $request)
     {

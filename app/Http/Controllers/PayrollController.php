@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\DB;
  */
 class PayrollController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\PayrollResource
+     * @apiResourceModel App\Models\Payroll
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
@@ -20,15 +24,21 @@ class PayrollController extends Controller
         $payrolls = Payroll::filter($filter)->paginate($paginate);
         return PayrollResource::collection($payrolls);
     }
-/**
- * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
- * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
- */
+    /**
+     * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
+     * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
+     * @apiResource App\Http\Resources\PayrollResource
+     * @apiResourceModel App\Models\Payroll
+     */
     public function store(Request $request)
     {
        $payroll = Payroll::create($request->all());
         return new PayrollResource($payroll);
     }
+    /**
+     * @apiResource App\Http\Resources\PayrollResource
+     * @apiResourceModel App\Models\Payroll
+     */
     public function show(Payroll $payroll)
     {
         return new PayrollResource($payroll);
@@ -38,16 +48,21 @@ class PayrollController extends Controller
         $payroll = $user->lastPayroll;
         return new PayrollResource($payroll);
     }
-/**
- * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
- * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
- */
+    /**
+     * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1
+     * @bodyParam user_id int required ID de llave foranea del usuario. Example: 2
+     * @apiResource App\Http\Resources\PayrollResource
+     * @apiResourceModel App\Models\Payroll
+     */
     public function update(Request $request, Payroll $payroll)
     {
         $payroll->update($request->all());
         return new PayrollResource($payroll);
     }
-
+    /**
+     * @apiResource App\Http\Resources\PayrollResource
+     * @apiResourceModel App\Models\Payroll
+     */
     public function destroy(Payroll $payroll)
     {
         $payroll->delete();

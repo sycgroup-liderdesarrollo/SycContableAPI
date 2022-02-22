@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\DB;
  */
 class CovenantController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\Convenant\CovenantsResource
+     * @apiResourceModel App\Models\Covenant
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
@@ -25,6 +29,8 @@ class CovenantController extends Controller
     /**
      * @bodyParam provider_id int Es el id del proveedor. Example: 1
      * @bodyParam concept_name string Es el nombre del concepto con el que se cargará en la nomina. Example: Cuota de convenio por salud
+     * @apiResource  App\Http\Resources\Convenant\CovenantResource
+     * @apiResourceModel App\Models\Covenant
      */
     public function store(CreateCovenantRequest $request)
     {
@@ -39,10 +45,18 @@ class CovenantController extends Controller
         }
         return new CovenantResource($covenant);
     }
+    /**
+     * @apiResource  App\Http\Resources\Convenant\CovenantResource
+     * @apiResourceModel App\Models\Covenant
+     */
     public function show(Covenant $covenant)
     {
         return new CovenantResource($covenant);
     }
+    /**
+     * @apiResource  App\Http\Resources\Convenant\CovenantResource
+     * @apiResourceModel App\Models\Covenant
+     */
     public function update(UpdateCovenantRequest $request, Covenant $covenant)
     {
 
@@ -70,6 +84,8 @@ class CovenantController extends Controller
      * @queryParam covenant_id int ID de llave foranea para el convenio. Example: 1
      * @queryParam concept_type_id int ID de llave foranea para el tipo de concepto (deduccion, devengado). Example: 1
      * @queryParam periodicity_type_id int ID de llave foranea para el periodo (quincenal, mensual). Example: 1
+     * @apiResource  App\Http\Resources\Convenant\CovenantResource
+     * @apiResourceModel App\Models\Covenant
      */
     public function consultCovenant(Request $request)
     {

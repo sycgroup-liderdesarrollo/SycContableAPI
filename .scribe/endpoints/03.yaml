@@ -25,12 +25,9 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":[{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}]}'
+        headers: []
         description: null
     responseFields: []
   -
@@ -52,7 +49,7 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: yfzsp
+        example: ''
         type: string
         custom: []
       calculated:
@@ -66,17 +63,22 @@ endpoints:
         name: concept_type_id
         description: ''
         required: true
-        example: 18
+        example: 12
         type: integer
         custom: []
       setting_id:
         name: setting_id
         description: ''
         required: false
-        example: 2
+        example: 7
         type: integer
         custom: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}}'
+        headers: []
+        description: null
     responseFields: []
   -
     httpMethods:
@@ -95,19 +97,16 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 12
+        example: 1
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}}'
+        headers: []
         description: null
     responseFields: []
   -
@@ -128,7 +127,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 4
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +136,7 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: et
+        example: itaque
         type: string
         custom: []
       calculated:
@@ -151,17 +150,22 @@ endpoints:
         name: concept_type_id
         description: ''
         required: false
-        example: 17
+        example: 3
         type: integer
         custom: []
       setting_id:
         name: setting_id
         description: ''
         required: false
-        example: 4
+        example: 19
         type: integer
         custom: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}}'
+        headers: []
+        description: null
     responseFields: []
   -
     httpMethods:
@@ -180,10 +184,15 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 6
+        example: 1
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}}'
+        headers: []
+        description: null
     responseFields: []

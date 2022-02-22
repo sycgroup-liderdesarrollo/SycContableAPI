@@ -12,6 +12,10 @@ use Illuminate\Http\Request;
  */
 class ProvisionController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\ProvissionResource
+     * @apiResourceModel App\Models\Provision
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
@@ -19,6 +23,10 @@ class ProvisionController extends Controller
         $provisions = Provision::filter($filter)->paginate($paginate);
         return ProvissionResource::collection($provisions);
     }
+    /**
+     * @apiResource App\Http\Resources\ProvissionResource
+     * @apiResourceModel App\Models\Provision
+     */
     public function show(Provision $provision)
     {
         return new ProvisionResource($provision);
@@ -35,6 +43,8 @@ class ProvisionController extends Controller
      * @bodyParam wage_premium int
      * @bodyParam total_provisiones int
      * @bodyParam total_payroll int
+     * @apiResource App\Http\Resources\ProvissionResource
+     * @apiResourceModel App\Models\Provision
      */
     public function store(Request $request)
     {
@@ -55,12 +65,18 @@ class ProvisionController extends Controller
      * @bodyParam wage_premium int
      * @bodyParam total_provisiones int
      * @bodyParam total_payroll int
+     * @apiResource App\Http\Resources\ProvissionResource
+     * @apiResourceModel App\Models\Provision
      */
     public function update(Provision $provision, Request $request)
     {
         $provision->update($request->all());
         return new ProvisionResource($provision);
     }
+    /**
+     * @apiResource App\Http\Resources\ProvissionResource
+     * @apiResourceModel App\Models\Provision
+     */
     public function destroy(Provision $provision)
     {
         $provision->delete();

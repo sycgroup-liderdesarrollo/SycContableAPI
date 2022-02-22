@@ -11,6 +11,10 @@ use Illuminate\Http\Request;
  */
 class StrataController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\StrataResource
+     * @apiResourceModel App\Models\Strata
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);

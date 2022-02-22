@@ -9,7 +9,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpI
 ###
 
 
-GET http://127.0.0.1:8000/api/businessLine?paginate=4
+GET http://127.0.0.1:8000/api/payroll/2
 Accept: application/json
 Content-Type: application/json
 

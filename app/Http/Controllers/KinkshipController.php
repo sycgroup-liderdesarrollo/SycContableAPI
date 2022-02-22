@@ -11,6 +11,10 @@ use Illuminate\Http\Request;
  */
 class KinkshipController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\KinkshipResource
+     * @apiResourceModel App\Models\Kinship
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);

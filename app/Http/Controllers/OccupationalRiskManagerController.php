@@ -10,6 +10,10 @@ use Illuminate\Http\Request;
  */
 class OccupationalRiskManagerController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\OcupationalRiskManagerResource
+     * @apiResourceModel App\Models\OccupationalRiskManager
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);

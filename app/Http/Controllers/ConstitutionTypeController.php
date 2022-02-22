@@ -11,6 +11,10 @@ use Illuminate\Http\Request;
  */
 class ConstitutionTypeController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\ConstitutionTypeResource
+     * @apiResourceModel App\Models\ConstitutionType
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);

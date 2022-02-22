@@ -11,6 +11,10 @@ use Illuminate\Http\Request;
  */
 class EducationLevelController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\EducationLevelResource
+     * @apiResourceModel App\Models\EducationLevel
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);

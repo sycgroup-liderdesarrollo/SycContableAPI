@@ -12,6 +12,8 @@ class ProvinceController extends Controller
 {
     /**
      * @queryParam name Filtro para buscar departamentos. Example: Risaralda
+     * @apiResourceCollection App\Http\Resources\ProvincesResource
+     * @apiResourceModel App\Models\Province
      */
     public function index(Request $request)
     {

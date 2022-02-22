@@ -10,6 +10,10 @@ use Illuminate\Http\Request;
  */
 class CovenantTypeController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\Convenant\CovenantTypeResource
+     * @apiResourceModel App\Models\CovenantType
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
@@ -19,6 +23,8 @@ class CovenantTypeController extends Controller
     }
     /**
      * @bodyParam name string required El nombre del tipo de convenio, cuotas o permanente, ya viene definido. Example: Cuotas
+     * @apiResource App\Http\Resources\Convenant\CovenantTypeResource
+     * @apiResourceModel App\Models\CovenantType
      */
     public function store(Request $request)
     {
@@ -26,6 +32,10 @@ class CovenantTypeController extends Controller
         return new CovenantTypeResource($covenantType);
 
     }
+    /**
+     * @apiResource App\Http\Resources\Convenant\CovenantTypeResource
+     * @apiResourceModel App\Models\CovenantType
+     */
     public function show(CovenantType $covenantType)
     {
         $covenantType->covenant;
@@ -33,12 +43,18 @@ class CovenantTypeController extends Controller
     }
     /**
      * @bodyParam name string required El nombre del tipo de convenio, cuotas o permanente, ya viene definido. Example: Cuotas
+     * @apiResource App\Http\Resources\Convenant\CovenantTypeResource
+     * @apiResourceModel App\Models\CovenantType
      */
     public function update(Request $request, CovenantType $covenantType)
     {
         $covenantType->update($request->all());
         return new CovenantTypeResource($covenantType);
     }
+    /**
+     * @apiResource App\Http\Resources\Convenant\CovenantTypeResource
+     * @apiResourceModel App\Models\CovenantType
+     */
     public function destroy(CovenantType $covenantType)
     {
         $covenantType->delete();

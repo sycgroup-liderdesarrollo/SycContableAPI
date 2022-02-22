@@ -8,6 +8,10 @@ use Illuminate\Http\Request;
 
 class ResponsabilityTypeController extends Controller
 {
+    /**
+     * @apiResourceCollection App\Http\Resources\ResponsabilityTypeResource
+     * @apiResourceModel App\Models\ResponsabilityType
+     */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
