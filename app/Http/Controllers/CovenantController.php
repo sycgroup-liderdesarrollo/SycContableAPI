@@ -9,6 +9,7 @@ use App\Http\Resources\Convenant\CovenantsResource;
 use App\Models\Covenant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+
 /**
  * @group Covenant
  */
@@ -23,28 +24,38 @@ class CovenantController extends Controller
      * @bodyParam provider_id int Es el id del proveedor. Example: 1
      * @bodyParam concept_name string Es el nombre del concepto con el que se cargará en la nomina. Example: Cuota de convenio por salud
      */
-    public function store(CreateCovenantRequest $request, Covenant $covenant)
+    public function store(CreateCovenantRequest $request)
     {
-        $covenant = Covenant::create($request->all());
-        $covenant->save();
+        if ($request->covenant_type_id == 1) {
+            $covenantData = $request->all();
+            $covenantData['value'] = 0;
+            $covenantData['active'] = 1;
+            $covenant = Covenant::create($covenantData);
+        }
+        else{
+            $covenant = Covenant::create($request->all());
+        }
         return new CovenantResource($covenant);
     }
     public function show(Covenant $covenant)
     {
-        $covenant->covenantType;
-        $covenant->periodicityType;
-        $covenant->concept;
         return new CovenantResource($covenant);
     }
     public function update(UpdateCovenantRequest $request, Covenant $covenant)
     {
-        $covenant->update($request->all());
 
         if($request->concept_name){
             $covenant->concept->name = $request->concept_name;
             $covenant->concept->save();
         }
-
+        if ($request->covenant_type_id == 1) {
+            $covenantData = $request->all();
+            $covenantData['value'] = 0;
+            $covenant->update($covenantData);
+        }
+        else{
+            $covenant->update($request->all());
+        }
         return new CovenantResource($covenant);
 
     }

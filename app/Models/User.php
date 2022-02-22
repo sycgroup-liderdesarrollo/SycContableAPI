@@ -132,6 +132,7 @@ class User extends Authenticatable
         return $this->belongsTo(Strata::class);
     }
     public function emergencyContact()
+
     {
         return $this->belongsTo(EmergencyContact::class);
     }

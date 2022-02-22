@@ -4,7 +4,9 @@ namespace App\Http\Resources\Convenant;
 
 use App\Http\Resources\Concept\ConceptResource;
 use App\Http\Resources\PeriodicityTypeResource;
-use App\Http\Resources\Provider\ProvidersResource;
+use App\Http\Resources\Provider\ProviderResource;
+use App\Http\Resources\UserResource;
+use App\Http\Resources\UsersResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class CovenantResource extends JsonResource
@@ -25,7 +27,8 @@ class CovenantResource extends JsonResource
             'covenantType' => new CovenantTypeResource($this->covenantType),
             'periodicityType' => new PeriodicityTypeResource($this->periodicityType),
             'concept' => new ConceptResource($this->concept),
-            'provider' => new ProvidersResource($this->provider)
+            'provider' => new ProviderResource($this->provider),
+            'users' => $this->users
         ];
     }
 }
