@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources\Convenant;
 
+use App\Http\Resources\Concept\ConceptResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class CovenantsResource extends JsonResource
