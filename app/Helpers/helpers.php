@@ -4,6 +4,7 @@ use App\Models\Payroll;
 use App\Models\Provision;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
 function daysWeek($inicio, $fin){
 
@@ -172,4 +173,20 @@ function datas_for_the_provision(){
     }else{
         return null;
     }
+}
+
+function saveFile($file,$directory, $name)
+{
+    $data = explode( ',', $file);
+        $format = explode(';',$data[0]);
+        $format = explode('/',$format[0]);
+        $name = str_replace(' ','_',$name);
+
+        $path = $directory.'/'.time().'_'.$name.'.'.$format[1];
+        Storage::disk('public')->put($path,base64_decode($data[1]));
+        return 'storage/'.$path;
+}
+function deleteFile($path){
+    $path = str_replace('storage','public',$path);
+    Storage::delete([$path]);
 }

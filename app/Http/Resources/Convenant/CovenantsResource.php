@@ -18,6 +18,7 @@ class CovenantsResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
+            'image' => $this->image,
             'covenantType' => new CovenantTypeResource($this->covenantType),
             'concept' => new ConceptResource($this->concept)
         ];

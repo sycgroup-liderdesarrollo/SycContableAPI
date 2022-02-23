@@ -6,9 +6,11 @@ use App\Http\Requests\Covenant\UpdateCovenantRequest;
 use App\Http\Requests\Covenant\CreateCovenantRequest;
 use App\Http\Resources\Convenant\CovenantResource;
 use App\Http\Resources\Convenant\CovenantsResource;
+use App\Jobs\Covenant\CovenantSaveImageJob;
 use App\Models\Covenant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 /**
  * @group Covenant
@@ -27,14 +29,15 @@ class CovenantController extends Controller
     public function store(CreateCovenantRequest $request)
     {
         if ($request->covenant_type_id == 1) {
-            $covenantData = $request->all();
-            $covenantData['value'] = 0;
-            $covenantData['active'] = 1;
-            $covenant = Covenant::create($covenantData);
+            $covenant = Covenant::create($request->except('image', 'value'));
+            $covenant->save();
         }
         else{
-            $covenant = Covenant::create($request->all());
+            $covenant = Covenant::create($request->except('image'));
+            $covenant->save();
         }
+        if(isset($request->image)) CovenantSaveImageJob::dispatch($request->image, 'covenants', $covenant->id, $covenant->name);
+
         return new CovenantResource($covenant);
     }
     public function show(Covenant $covenant)
@@ -56,6 +59,9 @@ class CovenantController extends Controller
         else{
             $covenant->update($request->all());
         }
+
+        if(isset($request->image)) CovenantSaveImageJob::dispatch($request->image, 'covenants', $covenant->id, $covenant->name);
+
         return new CovenantResource($covenant);
 
     }

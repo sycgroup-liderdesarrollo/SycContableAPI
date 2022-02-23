@@ -32,6 +32,7 @@ class UpdateCovenantRequest extends FormRequest
             ],
             'active'=>'boolean',
             'value',
+            'image'=>'string',
             'covenant_type_id'=>'integer',
             'periodicity_type_id'=>'integer',
             'provider_id'=>'integer',

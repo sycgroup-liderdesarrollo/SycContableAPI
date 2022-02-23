@@ -19,6 +19,7 @@ class CreateCovenantsTable extends Migration
             $table->string('name');
             $table->boolean('active')->default(true);
             $table->integer('value')->nullable();
+            $table->string('image')->nullable();
             //llaves foraneas
             $table->foreignId('covenant_type_id')->references('id')->on('covenant_types');
             $table->foreignId('periodicity_type_id')->references('id')->on('periodicity_types');
