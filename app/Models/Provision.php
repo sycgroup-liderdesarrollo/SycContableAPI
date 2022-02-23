@@ -22,6 +22,10 @@ class Provision extends Model
         'period_id',
     ];
 
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('total_provisions', 'like', '%' . $filter . '%');
+    }
     public function payroll()
     {
         return $this->hasMany(Payroll::class);

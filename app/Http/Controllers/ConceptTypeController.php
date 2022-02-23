@@ -10,20 +10,31 @@ use Illuminate\Http\Request;
  */
 class ConceptTypeController extends Controller
 {
-    public function index()
+    /**
+     * @apiResourceCollection App\Http\Resources\Concept\ConceptTypeResource
+     * @apiResourceModel App\Models\ConceptType
+     */
+    public function index(Request $request)
     {
-        $conceptTypes = ConceptType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $conceptTypes = ConceptType::filter($filter)->paginate($paginate);
         return ConceptTypeResource::collection($conceptTypes);
     }
     /**
      * @bodyParam name required El tipo de concepto, ya viene definido (Deduccion, devengado). Example: Devengado
+     * @apiResource  App\Http\Resources\Concept\ConceptTypeResource
+     * @apiResourceModel App\Models\ConceptType
      */
     public function store(Request $request)
     {
         $conceptType = ConceptType::create($request->all());
         return new ConceptTypeResource($conceptType);
     }
-
+    /**
+    * @apiResource  App\Http\Resources\Concept\ConceptTypeResource
+    * @apiResourceModel App\Models\ConceptType
+    */
     public function show(ConceptType $conceptType)
     {
         $conceptType->concept;
@@ -31,13 +42,18 @@ class ConceptTypeController extends Controller
     }
     /**
      * @bodyParam name required El tipo de concepto, ya viene definido (Deduccion, devengado). Example: Devengado
+     * @apiResource  App\Http\Resources\Concept\ConceptTypeResource
+     * @apiResourceModel App\Models\ConceptType
      */
     public function update(Request $request, ConceptType $conceptType)
     {
         $conceptType->update($request->all());
         return new ConceptTypeResource($conceptType);
     }
-
+    /**
+     * @apiResource  App\Http\Resources\Concept\ConceptTypeResource
+     * @apiResourceModel App\Models\ConceptType
+     */
     public function destroy(ConceptType $conceptType)
     {
         $conceptType->delete();

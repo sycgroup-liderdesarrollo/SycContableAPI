@@ -18,12 +18,9 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":[{"id":1,"name":"\u00f1andu","covenantType":{"id":1,"name":"Cuota"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}},{"id":1,"name":"\u00f1andu","covenantType":{"id":1,"name":"Cuota"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}}]}'
+        headers: []
         description: null
     responseFields: []
   -
@@ -45,28 +42,28 @@ endpoints:
         name: name
         description: ''
         required: true
-        example: placeat
+        example: nisi
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 1
+        example: 3
         type: integer
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: true
-        example: 16
+        example: 10
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: true
-        example: 7
+        example: 5
         type: integer
         custom: []
       provider_id:
@@ -83,7 +80,12 @@ endpoints:
         example: 'Cuota de convenio por salud'
         type: string
         custom: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        headers: []
+        description: null
     responseFields: []
   -
     httpMethods:
@@ -102,19 +104,16 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 19
+        example: 1
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        headers: []
         description: null
     responseFields: []
   -
@@ -135,7 +134,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 4
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -144,14 +143,14 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: debitis
+        example: occaecati
         type: string
         custom: []
       active:
         name: active
         description: ''
         required: false
-        example: true
+        example: false
         type: boolean
         custom: []
       0:
@@ -165,31 +164,36 @@ endpoints:
         name: covenant_type_id
         description: ''
         required: false
-        example: 15
+        example: 8
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: false
-        example: 9
+        example: 14
         type: integer
         custom: []
       provider_id:
         name: provider_id
         description: ''
         required: false
-        example: 1
+        example: 7
         type: integer
         custom: []
       concept_name:
         name: concept_name
         description: 'Must be at least 3 characters.'
         required: false
-        example: tlp
+        example: do
         type: string
         custom: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        headers: []
+        description: null
     responseFields: []
   -
     httpMethods:
@@ -208,7 +212,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 17
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -253,11 +257,8 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        headers: []
         description: null
     responseFields: []

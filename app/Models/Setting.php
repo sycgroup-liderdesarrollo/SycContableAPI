@@ -14,4 +14,9 @@ class Setting extends Model
     {
         $this->hasMany(Concept::class);
     }
+
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
 }

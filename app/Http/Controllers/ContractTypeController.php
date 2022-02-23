@@ -11,32 +11,49 @@ use Illuminate\Http\Request;
  */
 class ContractTypeController extends Controller
 {
-    public function index()
+    /**
+     * @apiResourceCollection App\Http\Resources\ContractTypeResource
+     * @apiResourceModel App\Models\ContractType
+     */
+    public function index(Request $request)
     {
-        $contractTypes = ContractType::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $contractTypes = ContractType::filter($filter)->paginate($paginate);
         return ContractTypeResource::collection($contractTypes);
     }
     /**
      * @bodyParam name required El nombre del contrato. Example: Indefinido
+     * @apiResource  App\Http\Resources\ContractTypeResource
+     * @apiResourceModel App\Models\ContractType
      */
     public function store(Request $request)
     {
         $contractType = ContractType::create($request->all());
         return new ContractTypeResource($contractType);
     }
+    /**
+     * @apiResource  App\Http\Resources\ContractTypeResource
+     * @apiResourceModel App\Models\ContractType
+     */
     public function show(ContractType $contractType)
     {
         $contractType->users;
         return new ContractTypeResource($contractType);
     }
     /**
-     * @bodyParam name required El nombre del contrato. Example: Indefinido
+     * @apiResource  App\Http\Resources\ContractTypeResource
+     * @apiResourceModel App\Models\ContractType
      */
     public function update(Request $request, ContractType $contractType)
     {
         $contractType->update($request->all());
         return new ContractTypeResource($contractType);
     }
+    /**
+     * @apiResource  App\Http\Resources\ContractTypeResource
+     * @apiResourceModel App\Models\ContractType
+     */
     public function destroy(ContractType $contractType)
     {
         $contractType->delete();

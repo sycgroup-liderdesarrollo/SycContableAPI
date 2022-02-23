@@ -22,4 +22,8 @@ class EmergencyContact extends Model
     {
         return $this->hasMany(User::class);
     }
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
 }

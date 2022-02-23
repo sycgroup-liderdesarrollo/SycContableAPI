@@ -4,14 +4,22 @@ namespace App\Http\Controllers;
 
 use App\Http\Resources\CivilStatusResource;
 use App\Models\CivilStatus;
+use Illuminate\Http\Request;
+
 /**
- * @group Civil Statu
+ * @group Civil Status
  */
 class CivilStatusController extends Controller
 {
-    public function index()
+    /**
+     * @apiResourceCollection App\Http\Resources\CivilStatusResource
+     * @apiResourceModel App\Models\CivilStatus
+     */
+    public function index(Request $request)
     {
-        $civilStatuses = CivilStatus::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $civilStatuses = CivilStatus::filter($filter)->paginate($paginate);
 
         return CivilStatusResource::collection($civilStatuses);
     }

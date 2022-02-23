@@ -6,7 +6,7 @@ endpoints:
   -
     httpMethods:
       - GET
-    uri: api/headQuarter
+    uri: api/headquarter
     metadata:
       title: ''
       description: ''
@@ -20,18 +20,15 @@ endpoints:
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":[{"id":1,"name":"Pereira"},{"id":1,"name":"Pereira"}]}'
+        headers: []
         description: null
     responseFields: []
   -
     httpMethods:
       - POST
-    uri: api/headQuarter
+    uri: api/headquarter
     metadata:
       title: ''
       description: ''
@@ -50,12 +47,17 @@ endpoints:
         example: Pereira
         type: required
         custom: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Pereira"}}'
+        headers: []
+        description: null
     responseFields: []
   -
     httpMethods:
       - GET
-    uri: 'api/headQuarter/{id}'
+    uri: 'api/headquarter/{id}'
     metadata:
       title: ''
       description: ''
@@ -67,28 +69,25 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the headQuarter.'
+        description: 'The ID of the headquarter.'
         required: true
-        example: 19
+        example: 1
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 401
-        content: '{"message":"Unauthenticated."}'
-        headers:
-          cache-control: 'no-cache, private'
-          content-type: application/json
-          access-control-allow-origin: '*'
+        status: 200
+        content: '{"data":{"id":1,"name":"Pereira"}}'
+        headers: []
         description: null
     responseFields: []
   -
     httpMethods:
       - PUT
       - PATCH
-    uri: 'api/headQuarter/{id}'
+    uri: 'api/headquarter/{id}'
     metadata:
       title: ''
       description: ''
@@ -100,9 +99,9 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the headQuarter.'
+        description: 'The ID of the headquarter.'
         required: true
-        example: 3
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -111,7 +110,9 @@ endpoints:
         name: name
         description: 'El nombre de la sucursal.'
         required: false
-        example: Pereira
+        example: |-
+          Pereira
+          * @apiResource App\Http\Resources\HeadquarterResource
         type: required
         custom: []
     responses: []
@@ -119,7 +120,7 @@ endpoints:
   -
     httpMethods:
       - DELETE
-    uri: 'api/headQuarter/{id}'
+    uri: 'api/headquarter/{id}'
     metadata:
       title: ''
       description: ''
@@ -131,12 +132,17 @@ endpoints:
     urlParameters:
       id:
         name: id
-        description: 'The ID of the headQuarter.'
+        description: 'The ID of the headquarter.'
         required: true
-        example: 10
+        example: 1
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
-    responses: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Pereira"}}'
+        headers: []
+        description: null
     responseFields: []

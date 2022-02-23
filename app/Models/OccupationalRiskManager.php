@@ -14,4 +14,8 @@ class OccupationalRiskManager extends Model
     {
         return $this->hasOne(User::class);
     }
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
 }

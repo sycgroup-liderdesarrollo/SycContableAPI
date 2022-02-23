@@ -19,14 +19,21 @@ class UserController extends Controller
     /**
      * @queryParam filter Aplica filtro para el nombre. Example: Jhonatan
      * @queryParam active int Filtro para buscar por estado activo o inactivo 1=activo, 0=inactivo. Example: 1
+     * @apiResourceCollection App\Http\Resources\UsersResource
+     * @apiResourceModel App\Models\User
      */
     public function index(Request $request)
     {
         $filter = $request->query('filter', null);
         $active = $request->query('active', null);
-        $users = User::filter($filter)->active($active)->with('position')->get();
+        $paginate = $request->query('paginate') ?? 10;
+        $users = User::filter($filter)->active($active)->with('position')->paginate($paginate);
         return UsersResource::collection($users);
     }
+    /**
+     * @apiResource App\Http\Resources\UserResource
+     * @apiResourceModel App\Models\User
+     */
     public function store(CreateUserRequest $request)
     {
         $user = $request->all();
@@ -34,10 +41,18 @@ class UserController extends Controller
         $user = User::create($user);
         return new UserResource($user);
     }
+     /**
+     * @apiResource App\Http\Resources\UserResource
+     * @apiResourceModel App\Models\User
+     */
     public function show(User $user)
     {   $user->covenants;
         return new UserResource($user);
     }
+     /**
+     * @apiResource App\Http\Resources\UserResource
+     * @apiResourceModel App\Models\User
+     */
     public function update(UpdateUserRequest $request, User $user)
     {
         $user->fill($request->all());
@@ -45,6 +60,10 @@ class UserController extends Controller
         $user->save();
         return new UserResource($user);
     }
+     /**
+     * @apiResource App\Http\Resources\UserResource
+     * @apiResourceModel App\Models\User
+     */
     public function destroy(User $user)
     {
         $user->delete();

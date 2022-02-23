@@ -4,14 +4,22 @@ namespace App\Http\Controllers;
 
 use App\Http\Resources\EducationLevelResource;
 use App\Models\EducationLevel;
+use Illuminate\Http\Request;
+
 /**
  * @group Education Level
  */
 class EducationLevelController extends Controller
 {
-    public function index()
+    /**
+     * @apiResourceCollection App\Http\Resources\EducationLevelResource
+     * @apiResourceModel App\Models\EducationLevel
+     */
+    public function index(Request $request)
     {
-        $educationLevels = EducationLevel::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $educationLevels = EducationLevel::filter($filter)->paginate($paginate);
         return EducationLevelResource::collection($educationLevels);
     }
 }

@@ -21,6 +21,11 @@ class Covenant extends Model
         'deleted_at'
     ];
     protected $with = ['covenantType','concept','periodicityType','provider','users'];
+
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
     public function periodicityType()
     {
         return $this->belongsTo(PeriodicityType::class);

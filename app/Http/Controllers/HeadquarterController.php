@@ -10,19 +10,31 @@ use Illuminate\Http\Request;
  */
 class HeadquarterController extends Controller
 {
-    public function index()
+    /**
+     * @apiResourceCollection App\Http\Resources\HeadquarterResource
+     * @apiResourceModel App\Models\Headquarter
+     */
+    public function index(Request $request)
     {
-        $headquarters = Headquarter::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $headquarters = Headquarter::filter($filter)->paginate($paginate);
         return HeadquarterResource::collection($headquarters);
     }
     /**
      * @bodyParam name required El nombre de la sucursal. Example: Pereira
+     * @apiResource App\Http\Resources\HeadquarterResource
+     * @apiResourceModel App\Models\Headquarter
      */
     public function store(Request $request)
     {
         $headquarter = Headquarter::create($request->all());
         return new HeadquarterResource($headquarter);
     }
+    /**
+     * @apiResource App\Http\Resources\HeadquarterResource
+     * @apiResourceModel App\Models\Headquarter
+     */
     public function show(Headquarter $headquarter)
     {
         $headquarter->users;
@@ -30,12 +42,18 @@ class HeadquarterController extends Controller
     }
     /**
      * @bodyParam name required El nombre de la sucursal. Example: Pereira
+     * * @apiResource App\Http\Resources\HeadquarterResource
+     * @apiResourceModel App\Models\Headquarter
      */
     public function update(Request $request, Headquarter $headquarter)
     {
         $headquarter->update($request->all());
         return new HeadquarterResource($headquarter);
     }
+    /**
+     * @apiResource App\Http\Resources\HeadquarterResource
+     * @apiResourceModel App\Models\Headquarter
+     */
     public function destroy(Headquarter $headquarter)
     {
         $headquarter->delete();

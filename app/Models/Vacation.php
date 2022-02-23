@@ -15,4 +15,8 @@ class Vacation extends Model
     {
         return $this->belongsTo(User::class);
     }
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('start_date', 'like', '%' . $filter . '%');
+    }
 }

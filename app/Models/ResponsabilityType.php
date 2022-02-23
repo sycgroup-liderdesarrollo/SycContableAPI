@@ -14,4 +14,8 @@ class ResponsabilityType extends Model
     {
         return $this->hasMany(Provider::class);
     }
+    public function scopeFilter($query, $filter)
+    {
+        return $query->where('name', 'like', '%' . $filter . '%');
+    }
 }

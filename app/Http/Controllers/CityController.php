@@ -12,12 +12,15 @@ class CityController extends Controller
 {
     /**
      * @queryParam name Filtro para buscar ciudades por nombre. Example: Pereira
+     * @apiResourceCollection App\Http\Resources\CitiesResource
+     * @apiResourceModel App\Models\City
      */
     public function index(Request $request)
     {
         $filter = $request->query('province_id',null);
+        $paginate = $request->query('paginate') ?? 10;
 
-        $cities = City::filter($filter)->get();
+        $cities = City::filter($filter)->paginate($paginate);
 
         return CitiesResource::collection($cities);
     }

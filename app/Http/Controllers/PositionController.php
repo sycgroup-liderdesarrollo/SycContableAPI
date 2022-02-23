@@ -10,31 +10,49 @@ use Illuminate\Http\Request;
  */
 class PositionController extends Controller
 {
-    public function index()
+    /**
+     * @apiResourceCollection App\Http\Resources\PositionResource
+     * @apiResourceModel App\Models\Position
+     */
+    public function index(Request $request)
     {
-        $positions = Position::all();
+        $filter = $request->query('filter', null);
+        $paginate = $request->query('paginate') ?? 10;
+        $positions = Position::filter($filter)->paginate($paginate);
         return PositionResource::collection($positions);
     }
     /**
      * @bodyParam name required El nombre del cargo. Example: Jefe
+     * @apiResource App\Http\Resources\PositionResource
+     * @apiResourceModel App\Models\Position
      */
     public function store(Request $request)
     {
         $position = Position::create($request->all());
         return new PositionResource($position);
     }
+    /**
+     * @apiResource App\Http\Resources\PositionResource
+     * @apiResourceModel App\Models\Position
+     */
     public function show(Position $position)
     {
         return new PositionResource($position);
     }
     /**
      * @bodyParam name required El nombre del cargo. Example: Jefe
+     * @apiResource App\Http\Resources\PositionResource
+     * @apiResourceModel App\Models\Position
      */
     public function update(Request $request, Position $position)
     {
         $position->update($request->all());
         return new PositionResource($position);
     }
+    /**
+     * @apiResource App\Http\Resources\PositionResource
+     * @apiResourceModel App\Models\Position
+     */
     public function destroy(Position $position)
     {
         $position->delete();
