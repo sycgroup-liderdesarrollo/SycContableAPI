@@ -68,12 +68,10 @@ class CovenantController extends Controller
             $covenant->concept->save();
         }
         if ($request->covenant_type_id == 1) {
-            $covenantData = $request->all();
-            $covenantData['value'] = 0;
-            $covenant->update($covenantData);
+            $covenant->update($request->except('image', 'value'));
         }
         else{
-            $covenant->update($request->all());
+            $covenant->update($request->except('image'));
         }
 
         if(isset($request->image)) CovenantSaveImageJob::dispatch($request->image, 'covenants', $covenant->id, $covenant->name);

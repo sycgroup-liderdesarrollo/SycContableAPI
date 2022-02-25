@@ -82,7 +82,7 @@ class UserController extends Controller
 
         foreach ($user->covenants as $userCovenat) {
             if ($value->covenant_type_id == 1){
-                if ($userCovenat->pivot->dues != $userCovenat->pivot->paid_dues) {
+                if (($userCovenat->pivot->dues != $userCovenat->pivot->paid_dues) && ($userCovenat->pivot->covenant_id == $value->id)) {
                     return response()->json(['data'=> 'Todas las deudas aun no han sido pagadas']);
                 }
             }
