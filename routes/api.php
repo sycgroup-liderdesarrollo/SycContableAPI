@@ -49,8 +49,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::middleware(['auth:api'])->group(function () {
-});
-
     Route::apiResource('user', UserController::class);
     Route::apiResource('covenant', CovenantController::class);
     Route::apiResource('covenantType', CovenantTypeController::class);
@@ -109,3 +107,4 @@ Route::middleware(['auth:api'])->group(function () {
     Route::get('usersColletion',function () {
         return UsersResource::collection(User::all());
     });
+});
