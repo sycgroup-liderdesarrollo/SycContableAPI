@@ -17,9 +17,9 @@ class CreateCovenantRequest extends FormRequest
             'name'=>'required|string|unique:covenants,name',
             'value'=>'integer|nullable',
             'image'=>'string',
-            'covenant_type_id'=>'required|integer',
-            'periodicity_type_id'=>'required|integer',
-            'provider_id'=>'required|integer',
+            'covenant_type_id'=>'exists:App\Models\CovenantType,id|required|integer',
+            'periodicity_type_id'=>'exists:App\Models\PeriodicityType,id|required|integer',
+            'provider_id'=>'exists:App\Models\Provider,id|required|integer',
             'concept_name'=>'required|string|min:3'
         ];
     }

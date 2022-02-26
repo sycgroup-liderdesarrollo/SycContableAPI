@@ -81,7 +81,9 @@ class CovenantController extends Controller
     }
     public function destroy(Covenant $covenant)
     {
+        $covenant->concept->delete();
         $covenant->delete();
+
         return new CovenantResource($covenant);
     }
     /**
