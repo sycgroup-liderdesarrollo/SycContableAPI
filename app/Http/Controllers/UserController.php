@@ -83,22 +83,22 @@ class UserController extends Controller
         foreach ($user->covenants as $userCovenat) {
             if ($value->covenant_type_id == 1){
                 if (($userCovenat->pivot->dues != $userCovenat->pivot->paid_dues) && ($userCovenat->pivot->covenant_id == $value->id)) {
-                    return response()->json(['data'=> 'Todas las deudas aun no han sido pagadas']);
+                    return response()->json(['data'=> 'No se puede volver a cargar convenio ya que todas las deudas aun no han sido pagadas', 'warning' => 1]);
                 }
             }
             if ($value->covenant_type_id == 2){
                 if ($userCovenat->pivot->covenant_id == $value->id) {
-                    return response()->json(['data'=> 'No se puede volver a cargar convenio permanente']);
+                    return response()->json(['data'=> 'Convenio ya ha sido asignado, no se puede volver a cargar convenio permanente', 'warning' => 1]);
                 }
             }
         }
         if ($value->covenant_type_id == 2) {
             $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>0, 'paid_dues'=>0, 'value'=>$value->value]);
-            return response()->json(['status'=>true,'data'=>"convenio asignado: '{$value->name}' al usuario '{$user->name}'"]);
+            return response()->json(['status'=>true,'data'=>"convenio asignado: {$value->name} al usuario {$user->name}", 'warning' => 0]);
         }
         else {
             $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>$request->dues, 'paid_dues'=>0, 'value'=>$request->value]);
-            return response()->json(['status'=>true,'data'=>"convenio asignado: '{$value->name}' al usuario '{$user->name}'"]);
+            return response()->json(['status'=>true,'data'=>"convenio asignado: {$value->name} al usuario {$user->name}", 'warning' => 0]);
         }
     }
 
