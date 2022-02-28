@@ -70,7 +70,7 @@ class PayrollController extends Controller
         return new PayrollResource($payroll);
     }
 
-    public function asignarConcepto($payroll_id, AddConceptsRequest $request)
+    public function addConcept($payroll_id, AddConceptsRequest $request)
     {
         $payroll = Payroll::find($payroll_id);
         $payroll->concepts()->attach(['concept_id'=>$request->concept_id], ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
@@ -80,7 +80,7 @@ class PayrollController extends Controller
      * @urlParam payroll_id int required El id de la nomina a la que se le eliminará el concepto
      * @queryParam conceptPivotId int required El id del concepto que se eliminará ubicado en la pivot
      */
-    public function eliminarConceptoPayroll($payroll_id,Request $request)
+    public function deleteConcept($payroll_id,Request $request)
     {
         $payroll = Payroll::find($payroll_id);
         $payroll->concepts()->wherePivot('id', $request->input('conceptPivotId'))->detach();
@@ -104,7 +104,7 @@ class PayrollController extends Controller
      * @queryParam period_id int required ID de llave foranea para el periodo de la nomina que se va a consultar (5 a 19, 20 a 4). Example: 1
      * @queryParam covenants_id int required ID de llave foranea para el convenio que se va a consultar. Example: 1
      */
-    public function consultDeduccion(Request $request)
+    public function consultDeduction(Request $request)
     {
         $payroll = DB::table('payrolls')
         ->join('concept_payroll', 'concept_payroll.payroll_id', '=', 'payrolls.id')

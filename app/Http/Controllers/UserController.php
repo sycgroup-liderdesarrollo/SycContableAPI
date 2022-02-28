@@ -75,38 +75,37 @@ class UserController extends Controller
      * @bodyParam value int El valor de la cuota que se le va a cobrar a éste usuario unicamente. Example: 5000
      * @bodyParam dues int required Las deudas totales del usuario. Example: 9
      */
-    public function asignarConvenio($user_id, Request $request)
+    public function assignCovenant($user_id, Request $request)
     {
         $user = User::find($user_id);
-        $value = Covenant::find($request->input('covenant_id'));
+        $covenant = Covenant::find($request->input('covenant_id'));
 
         foreach ($user->covenants as $userCovenat) {
-            if ($value->covenant_type_id == 1){
-                if (($userCovenat->pivot->dues != $userCovenat->pivot->paid_dues) && ($userCovenat->pivot->covenant_id == $value->id)) {
+            if ($covenant->covenant_type_id == 1){
+                if (($userCovenat->pivot->dues != $userCovenat->pivot->paid_dues) && ($userCovenat->pivot->covenant_id == $covenant->id)) {
                     return response()->json(['data'=> 'No se puede volver a cargar convenio ya que todas las deudas aun no han sido pagadas', 'warning' => 1]);
                 }
             }
-            if ($value->covenant_type_id == 2){
-                if ($userCovenat->pivot->covenant_id == $value->id) {
+            if ($covenant->covenant_type_id == 2){
+                if ($userCovenat->pivot->covenant_id == $covenant->id) {
                     return response()->json(['data'=> 'Convenio ya ha sido asignado, no se puede volver a cargar convenio permanente', 'warning' => 1]);
                 }
             }
         }
-        if ($value->covenant_type_id == 2) {
-            $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>0, 'paid_dues'=>0, 'value'=>$value->value]);
-            return response()->json(['status'=>true,'data'=>"convenio asignado: {$value->name} al usuario {$user->name}", 'warning' => 0]);
+        if ($covenant->covenant_type_id == 2) {
+            $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>0, 'paid_dues'=>0, 'value'=>$covenant->value]);
+            return response()->json(['status'=>true,'data'=>"convenio asignado: {$covenant->name} al usuario {$user->name}", 'warning' => 0]);
         }
         else {
             $user->covenants()->attach(['covenant_id'=>$request->covenant_id],['dues'=>$request->dues, 'paid_dues'=>0, 'value'=>$request->value]);
-            return response()->json(['status'=>true,'data'=>"convenio asignado: {$value->name} al usuario {$user->name}", 'warning' => 0]);
+            return response()->json(['status'=>true,'data'=>"convenio asignado: {$covenant->name} al usuario {$user->name}", 'warning' => 0]);
         }
     }
-
     /**
      * @urlParam user_id int required El id del usuario. Example: 1
      * @bodyParam covenant_pivot_id int required El id de la tabla pivot del registro que desea eliminar. Example: 1
      */
-    public function eliminarConvenio($user_id, Request $request)
+    public function deleteCovenant($user_id, Request $request)
     {
         $user = User::find($user_id);
         foreach ($user->covenants as $userCovenat) {

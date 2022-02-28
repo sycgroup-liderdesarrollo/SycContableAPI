@@ -62,7 +62,7 @@ endpoints:
         name: id
         description: 'The ID of the contact.'
         required: true
-        example: 5
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -92,7 +92,7 @@ endpoints:
         name: id
         description: 'The ID of the contact.'
         required: true
-        example: 8
+        example: 12
         type: integer
         custom: []
     queryParameters: []
@@ -121,7 +121,7 @@ endpoints:
         name: id
         description: 'The ID of the contact.'
         required: true
-        example: 2
+        example: 11
         type: integer
         custom: []
     queryParameters: []
@@ -150,7 +150,7 @@ endpoints:
         name: provider_id
         description: 'The ID of the provider.'
         required: true
-        example: 12
+        example: 7
         type: integer
         custom: []
     queryParameters: []

@@ -10,7 +10,6 @@ use App\Jobs\Covenant\CovenantSaveImageJob;
 use App\Models\Covenant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 /**
  * @group Covenant

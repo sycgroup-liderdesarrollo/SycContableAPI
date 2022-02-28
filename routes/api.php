@@ -37,16 +37,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
+/* -----------------------------------------------------------------*/
 
 Route::middleware(['auth:api'])->group(function () {
     Route::apiResource('user', UserController::class);
@@ -68,16 +59,13 @@ Route::middleware(['auth:api'])->group(function () {
     Route::prefix('payroll')->group( function(){
         Route::get('user/{user}',[PayrollController::class,'userPayroll']);
     });
-    Route::get('consultaPayroll', [PayrollController::class, 'consultDatePeriod']);
+    Route::get('consultDatePeriod', [PayrollController::class, 'consultDatePeriod']);
     Route::get('consultaCovenant', [CovenantController::class, 'consultCovenant']);
-    //cargar conceptos, devengados y deducciones
-    Route::post('payrollConcept/{payroll_id}', [PayrollController::class, 'asignarConcepto']);
-    //eliminar conceptos
-    Route::delete('payrollDeleteConcept/{payroll_id}', [PayrollController::class, 'eliminarConceptoPayroll']);
-    //asignar un convenio a un usuario y eliminar convenio
-    Route::post('user/asignarConvenio/{user_id}', [UserController::class, 'asignarConvenio']);
-    Route::delete('user/eliminarConvenio/{user_id}', [UserController::class, 'eliminarConvenio']);
-    Route::get('consultDeduccion', [PayrollController::class, 'consultDeduccion']);
+    Route::post('addConcept/{payroll_id}', [PayrollController::class, 'addConcept']);
+    Route::delete('deleteConcept/{payroll_id}', [PayrollController::class, 'deleteConcept']);
+    Route::post('user/assignCovenant/{user_id}', [UserController::class, 'assignCovenant']);
+    Route::delete('user/deleteCovenant/{user_id}', [UserController::class, 'deleteCovenant']);
+    Route::get('consultDeduction', [PayrollController::class, 'consultDeduction']);
     Route::get('checkLogin', function (){
         if(Auth::guard('api')->check()) return response()->json(['isLogined'=>true]);
         return response()->json(['isLogined'=>false]);
@@ -87,7 +75,6 @@ Route::middleware(['auth:api'])->group(function () {
     Route::prefix('contact')->group(function(){
         Route::get('provider/{provider_id}',[ContactController::class,'providerContact']);
     });
-
     Route::apiResource('healthProvider', HealthProviderController::class);
     Route::apiResource('pensionFund', PensionFundController::class);
     Route::apiResource('city', CityController::class);
