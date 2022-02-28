@@ -1,10 +1,10 @@
-name: 'Civil Status'
+name: 'Business Line'
 description: ''
 endpoints:
   -
     httpMethods:
       - GET
-    uri: api/civilStatus
+    uri: api/businessLine
     metadata:
       title: ''
       description: ''
@@ -19,7 +19,131 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":[{"id":1,"name":"Soltero"},{"id":1,"name":"Soltero"}]}'
+        content: '{"data":[{"id":1,"name":"SyC Group"},{"id":1,"name":"SyC Group"}]}'
+        headers: []
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - POST
+    uri: api/businessLine
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"SyC Group"}}'
+        headers: []
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/businessLine/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the businessLine.'
+        required: true
+        example: 20
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"SyC Group"}}'
+        headers: []
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - PUT
+      - PATCH
+    uri: 'api/businessLine/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the businessLine.'
+        required: true
+        example: 4
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: 'El nombre de la linea de negocions.'
+        required: false
+        example: 'SyC Group'
+        type: required
+        custom: []
+      active:
+        name: active
+        description: 'El estado de la linea de negocios, si esta activa o no.'
+        required: false
+        example: true
+        type: boolean
+        custom: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"SyC Group"}}'
+        headers: []
+        description: null
+    responseFields: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/businessLine/{id}'
+    metadata:
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the businessLine.'
+        required: true
+        example: 3
+        type: integer
+        custom: []
+    queryParameters: []
+    bodyParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"SyC Group"}}'
         headers: []
         description: null
     responseFields: []

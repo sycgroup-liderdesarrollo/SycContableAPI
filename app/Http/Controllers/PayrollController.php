@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Payroll\AddConceptsRequest;
 use App\Http\Resources\PayrollResource;
 use App\Models\Payroll;
 use App\Models\User;
@@ -68,12 +69,8 @@ class PayrollController extends Controller
         $payroll->delete();
         return new PayrollResource($payroll);
     }
-    /**
-     * @urlParam payroll_id int required El id de la nomina a la que se le asignará el concepto. Example: 1
-     * @bodyParam count int required La cantidad de veces que se cobra un concepto en la nomina. Example: 15
-     * @bodyParam unit_value int required El valor unitario del concepto. Example: 30000
-     */
-    public function asignarConcepto($payroll_id, Request $request)
+
+    public function asignarConcepto($payroll_id, AddConceptsRequest $request)
     {
         $payroll = Payroll::find($payroll_id);
         $payroll->concepts()->attach(['concept_id'=>$request->concept_id], ['count' => $request->count,'unit_value'=>$request->unit_value , 'total_value'=> $request->count * $request->unit_value]); //asigna el concepto segun la payroll
@@ -89,13 +86,6 @@ class PayrollController extends Controller
         $payroll->concepts()->wherePivot('id', $request->input('conceptPivotId'))->detach();
         return response()->json(['status'=>true,'data'=>"Se eliminó con exitó el conceptPivotId: {$request->input('conceptPivotId')}"]);
     }
-    // public function PDFi($payroll)
-    // {
-    //     $payroll = Payroll::find($payroll);
-    //     $pdf = PDF::loadView('payroll.payroll', ['payroll'=>$payroll]);
-    //     return $pdf->stream(); //se peude usar un ->download() y stream();
-    // }
-
     /**
      * @queryParam period_id int required El id del periodo de la nomina que se va a consultar. Example: 1
      * @queryParam user_id int required El id del usuario de la nomina. Example: 2

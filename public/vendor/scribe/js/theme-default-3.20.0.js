@@ -5,8 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const navButton = document.getElementById('nav-button');
     const menuWrapper = document.querySelector('.tocify-wrapper');
-    function toggleSidebar(event) {
-        event.preventDefault();
+    function toggleSidebar() {
         if (menuWrapper) {
             menuWrapper.classList.toggle('open');
             navButton.classList.toggle('open');

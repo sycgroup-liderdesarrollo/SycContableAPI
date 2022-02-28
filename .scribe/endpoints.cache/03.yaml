@@ -72,7 +72,7 @@ endpoints:
         name: setting_id
         description: ''
         required: false
-        example: 7
+        example: 19
         type: integer
         custom: []
     responses:
@@ -99,7 +99,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 1
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -129,7 +129,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 1
+        example: 10
         type: integer
         custom: []
     queryParameters: []
@@ -138,7 +138,7 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: itaque
+        example: quibusdam
         type: string
         custom: []
       calculated:
@@ -152,14 +152,14 @@ endpoints:
         name: concept_type_id
         description: ''
         required: false
-        example: 3
+        example: 5
         type: integer
         custom: []
       setting_id:
         name: setting_id
         description: ''
         required: false
-        example: 19
+        example: 7
         type: integer
         custom: []
     responses:
@@ -186,7 +186,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 1
+        example: 7
         type: integer
         custom: []
     queryParameters: []

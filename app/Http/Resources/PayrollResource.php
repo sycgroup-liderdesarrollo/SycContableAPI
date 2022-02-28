@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use App\Http\Resources\Concept\ConceptResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class PayrollResource extends JsonResource
@@ -18,7 +19,8 @@ class PayrollResource extends JsonResource
             'id' => $this->id,
             'period' => new PeriodResource($this->period),
             'user' => new UsersResource($this->user),
-            'provision' => new ProvissionResource($this->provision)
+            'provision' => new ProvissionResource($this->provision),
+            'concepts' => $this->concepts
         ];
     }
 }

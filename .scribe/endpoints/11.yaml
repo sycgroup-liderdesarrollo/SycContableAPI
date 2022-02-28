@@ -62,7 +62,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 1
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -92,7 +92,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 1
+        example: 7
         type: integer
         custom: []
     queryParameters: []
@@ -121,7 +121,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 1
+        example: 19
         type: integer
         custom: []
     queryParameters: []

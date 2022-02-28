@@ -19,7 +19,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":[{"id":1,"name":"\u00f1andu","covenantType":{"id":1,"name":"Cuota"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}},{"id":1,"name":"\u00f1andu","covenantType":{"id":1,"name":"Cuota"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}}}]}'
+        content: '{"data":[{"id":9,"name":"prueba 1000","image":"storage\/covenants\/1646072471_prueba_1000.jpeg","covenantType":{"id":1,"name":"Cuota"},"concept":{"id":14,"name":"preuab 1000","calculated":0,"conceptType":{"id":2,"name":"Deduccion"},"setting":null}},{"id":9,"name":"prueba 1000","image":"storage\/covenants\/1646072471_prueba_1000.jpeg","covenantType":{"id":1,"name":"Cuota"},"concept":{"id":14,"name":"preuab 1000","calculated":0,"conceptType":{"id":2,"name":"Deduccion"},"setting":null}}]}'
         headers: []
         description: null
     responseFields: []
@@ -42,28 +42,35 @@ endpoints:
         name: name
         description: ''
         required: true
-        example: nisi
+        example: dolores
         type: string
         custom: []
       value:
         name: value
         description: ''
         required: false
-        example: 3
+        example: 7
         type: integer
+        custom: []
+      image:
+        name: image
+        description: ''
+        required: false
+        example: nam
+        type: string
         custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: true
-        example: 10
+        example: 8
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: true
-        example: 5
+        example: 10
         type: integer
         custom: []
       provider_id:
@@ -83,7 +90,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        content: '{"data":{"id":9,"name":"prueba 1000","active":1,"value":null,"image":"storage\/covenants\/1646072471_prueba_1000.jpeg","covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":14,"name":"preuab 1000","calculated":0,"conceptType":{"id":2,"name":"Deduccion"},"setting":null},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
         headers: []
         description: null
     responseFields: []
@@ -104,7 +111,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 1
+        example: 4
         type: integer
         custom: []
     queryParameters: []
@@ -112,7 +119,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        content: '{"data":{"id":9,"name":"prueba 1000","active":1,"value":null,"image":"storage\/covenants\/1646072471_prueba_1000.jpeg","covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":14,"name":"preuab 1000","calculated":0,"conceptType":{"id":2,"name":"Deduccion"},"setting":null},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
         headers: []
         description: null
     responseFields: []
@@ -134,7 +141,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 1
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -143,7 +150,7 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: occaecati
+        example: aspernatur
         type: string
         custom: []
       active:
@@ -160,18 +167,25 @@ endpoints:
         example: null
         type: string
         custom: []
+      image:
+        name: image
+        description: ''
+        required: false
+        example: tenetur
+        type: string
+        custom: []
       covenant_type_id:
         name: covenant_type_id
         description: ''
         required: false
-        example: 8
+        example: 1
         type: integer
         custom: []
       periodicity_type_id:
         name: periodicity_type_id
         description: ''
         required: false
-        example: 14
+        example: 11
         type: integer
         custom: []
       provider_id:
@@ -185,13 +199,13 @@ endpoints:
         name: concept_name
         description: 'Must be at least 3 characters.'
         required: false
-        example: do
+        example: 'y'
         type: string
         custom: []
     responses:
       -
         status: 200
-        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        content: '{"data":{"id":9,"name":"prueba 1000","active":1,"value":null,"image":"storage\/covenants\/1646072471_prueba_1000.jpeg","covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":14,"name":"preuab 1000","calculated":0,"conceptType":{"id":2,"name":"Deduccion"},"setting":null},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
         headers: []
         description: null
     responseFields: []
@@ -212,7 +226,7 @@ endpoints:
         name: id
         description: 'The ID of the covenant.'
         required: true
-        example: 1
+        example: 3
         type: integer
         custom: []
     queryParameters: []
@@ -258,7 +272,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"data":{"id":1,"name":"\u00f1andu","active":1,"value":1000,"covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":1,"name":"Salario basico","calculated":0,"conceptType":{"id":1,"name":"Devengado"},"setting":{"id":1,"name":"Salario minimo","value":908526}},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
+        content: '{"data":{"id":9,"name":"prueba 1000","active":1,"value":null,"image":"storage\/covenants\/1646072471_prueba_1000.jpeg","covenantType":{"id":1,"name":"Cuota"},"periodicityType":{"id":1,"name":"Quincenal"},"concept":{"id":14,"name":"preuab 1000","calculated":0,"conceptType":{"id":2,"name":"Deduccion"},"setting":null},"provider":{"id":1,"name":"Jhonatan","last_name":"Gamboa","trade_name":"Jhonata SAS","address":"calle 13","phone":"3113012618","identification_number":"1232599679","iva":1,"email":"jhonatan@gmail.com","identificationType":{"id":2,"name":"NIT"},"ConstitutionType":{"id":2,"name":"Juridica"},"city":{"id":1,"name":"Medell\u00edn","province":{"id":1,"name":"Antioquia","prefix":606,"active":1},"active":1},"responsabilityType":{"id":1,"name":"Responsable de IVA"}},"users":[]}}'
         headers: []
         description: null
     responseFields: []

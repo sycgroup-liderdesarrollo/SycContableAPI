@@ -64,7 +64,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 1
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -94,7 +94,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 1
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -123,7 +123,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 1
+        example: 20
         type: integer
         custom: []
     queryParameters: []
