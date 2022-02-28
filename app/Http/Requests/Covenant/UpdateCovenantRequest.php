@@ -33,9 +33,9 @@ class UpdateCovenantRequest extends FormRequest
             'active'=>'boolean',
             'value',
             'image'=>'string',
-            'covenant_type_id'=>'integer',
-            'periodicity_type_id'=>'integer',
-            'provider_id'=>'integer',
+            'covenant_type_id'=>'exists:App\Models\CovenantType,id|integer',
+            'periodicity_type_id'=>'exists:App\Models\PeriodicityType,id|integer',
+            'provider_id'=>'exists:App\Models\Provider,id|integer',
             'concept_name'=>'string|min:3'
         ];
     }
