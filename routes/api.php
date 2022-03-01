@@ -29,6 +29,7 @@ use App\Http\Controllers\SalaryTypeController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\StrataController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\VacationController;
 use App\Models\ConstitutionType;
 use App\Models\Contact;
 use App\Models\EducationLevel;
@@ -100,6 +101,10 @@ Route::middleware(['auth:api'])->group(function () {
     Route::apiResource('constitutionType', ConstitutionTypeController::class);
     Route::apiResource('responsabilityType', ResponsabilityTypeController::class);
     Route::apiResource('kinship', KinkshipController::class);
+    Route::apiResource('vacation', VacationController::class);
+    Route::post('vacationsCalc/{payroll_id}', [VacationController::class, 'vacationCalc']);
+    Route::post('prueba/', [VacationController::class, 'prueba']);
+
 
 
 

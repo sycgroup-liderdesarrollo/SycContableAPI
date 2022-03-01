@@ -21,7 +21,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Salud total","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null},{"id":2,"name":"Sura","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null},{"id":3,"name":"Nueva EPS","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Salud total","created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null},{"id":2,"name":"Sura","created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null},{"id":3,"name":"Nueva EPS","created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -64,7 +64,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 18
+        example: 2
         type: integer
         custom: []
     queryParameters: []
@@ -72,7 +72,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Salud total","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null}}'
+        content: '{"status":true,"data":{"id":1,"name":"Salud total","created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -99,7 +99,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 16
+        example: 20
         type: integer
         custom: []
     queryParameters: []
@@ -123,7 +123,7 @@ endpoints:
         name: id
         description: 'The ID of the healthProvider.'
         required: true
-        example: 6
+        example: 14
         type: integer
         custom: []
     queryParameters: []

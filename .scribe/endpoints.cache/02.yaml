@@ -21,7 +21,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Soltero","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z"},{"id":2,"name":"Casado","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z"},{"id":3,"name":"Union Libre","created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z"}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Soltero","created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z"},{"id":2,"name":"Casado","created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z"},{"id":3,"name":"Union Libre","created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z"}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json

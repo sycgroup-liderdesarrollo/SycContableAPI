@@ -19,7 +19,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":[{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null}]}'
+        content: '{"status":true,"data":[{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -62,7 +62,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 8
+        example: 14
         type: integer
         custom: []
     queryParameters: []
@@ -70,7 +70,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"status":true,"data":{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-02-04T14:01:58.000000Z","updated_at":"2022-02-04T14:01:58.000000Z","deleted_at":null}}'
+        content: '{"status":true,"data":{"id":1,"name":"Patricia","phone":3113012618,"kinship_id":1,"created_at":"2022-03-08T18:17:24.000000Z","updated_at":"2022-03-08T18:17:24.000000Z","deleted_at":null}}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -97,7 +97,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 15
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -121,7 +121,7 @@ endpoints:
         name: id
         description: 'The ID of the emergencyContact.'
         required: true
-        example: 1
+        example: 2
         type: integer
         custom: []
     queryParameters: []

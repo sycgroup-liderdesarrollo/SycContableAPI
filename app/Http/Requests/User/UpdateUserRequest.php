@@ -47,6 +47,7 @@ class UpdateUserRequest extends FormRequest
             'neighborhood'=>'string',
             'birthday'=>'string',
             'children'=>'integer',
+            'phone'=>'integer',
 
             'base_salary'=>'integer',
             'position_id'=>'integer',

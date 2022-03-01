@@ -31,6 +31,7 @@ class CreateUsersTable extends Migration
             $table->string('neighborhood');
             $table->date('birthday');
             $table->integer('children');
+            $table->double('phone');
             //llaves foraneas
             $table->foreignId('position_id')->references('id')->on('positions');
             $table->foreignId('contract_type_id')->references('id')->on('contract_types');

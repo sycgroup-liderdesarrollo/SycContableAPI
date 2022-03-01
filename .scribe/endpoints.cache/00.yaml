@@ -69,7 +69,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 19
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -102,7 +102,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 8
+        example: 9
         type: integer
         custom: []
     queryParameters: []
@@ -118,7 +118,7 @@ endpoints:
         name: active
         description: 'El estado de la linea de negocios, si esta activa o no.'
         required: false
-        example: true
+        example: false
         type: boolean
         custom: []
     responses: []
@@ -140,7 +140,7 @@ endpoints:
         name: id
         description: 'The ID of the businessLine.'
         required: true
-        example: 8
+        example: 16
         type: integer
         custom: []
     queryParameters: []

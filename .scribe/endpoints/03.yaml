@@ -52,7 +52,7 @@ endpoints:
         name: name
         description: 'Must be at least 5 characters.'
         required: true
-        example: inf
+        example: lk
         type: string
         custom: []
       calculated:
@@ -66,14 +66,14 @@ endpoints:
         name: concept_type_id
         description: ''
         required: true
-        example: 17
+        example: 9
         type: integer
         custom: []
       setting_id:
         name: setting_id
         description: ''
         required: false
-        example: 13
+        example: 18
         type: integer
         custom: []
     responses: []
@@ -95,7 +95,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 6
+        example: 16
         type: integer
         custom: []
     queryParameters: []
@@ -128,7 +128,7 @@ endpoints:
         name: id
         description: 'The ID of the concept.'
         required: true
-        example: 15
+        example: 19
         type: integer
         custom: []
     queryParameters: []
@@ -137,7 +137,7 @@ endpoints:
         name: name
         description: ''
         required: false
-        example: officiis
+        example: molestiae
         type: string
         custom: []
       calculated:
@@ -151,14 +151,14 @@ endpoints:
         name: concept_type_id
         description: ''
         required: false
-        example: 11
+        example: 19
         type: integer
         custom: []
       setting_id:
         name: setting_id
         description: ''
         required: false
-        example: 11
+        example: 1
         type: integer
         custom: []
     responses: []

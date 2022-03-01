@@ -38,6 +38,7 @@ class CreateUserRequest extends FormRequest
             'neighborhood'=>'required|string',
             'birthday'=>'required|string',
             'children'=>'required|integer',
+            'phone'=>'required|integer',
 
             'base_salary'=>'required|integer',
             'position_id'=>'required|integer',

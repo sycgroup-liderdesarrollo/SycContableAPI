@@ -22,6 +22,7 @@ class UserSeeder extends Seeder
             'address'=>'Direccion',
             'neighborhood'=>'barrio',
             'birthday'=> today(),
+            'phone'=>3113012618,
             'children'=>0,
             'position_id'=>1,
             'contract_type_id'=>1,

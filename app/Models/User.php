@@ -121,4 +121,8 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Strata::class);
     }
+    public function vacation()
+    {
+        return $this->hasMany(Vacation::class);
+    }
 }
