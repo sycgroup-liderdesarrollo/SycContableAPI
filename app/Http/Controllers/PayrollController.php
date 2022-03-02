@@ -8,6 +8,7 @@ use App\Models\Payroll;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 /**
  * @group Payroll
@@ -47,7 +48,11 @@ class PayrollController extends Controller
     public function userPayroll(User $user)
     {
         $payroll = $user->lastPayroll;
-        return new PayrollResource($payroll);
+        if(empty($payroll) == 1){
+            return response()->json(0);
+        }else{
+            return new PayrollResource($payroll);
+        }
     }
     /**
      * @bodyParam period_id int required ID de llave foranea del tipo de periodo, 5 a 19 o 20 a 4. Example: 1

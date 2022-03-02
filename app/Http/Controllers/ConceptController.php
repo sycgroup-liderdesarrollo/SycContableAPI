@@ -22,7 +22,8 @@ class ConceptController extends Controller
     {
         $paginate = $request->query('paginate') ?? 10;
         $concept_type_id = $request->query('type', null);
-        $concepts = Concept::conceptTypeFilter($concept_type_id)->paginate($paginate);
+        $name = $request->query('name', null);
+        $concepts = Concept::conceptTypeFilter($concept_type_id)->nameFilter($name)->paginate($paginate);
         return ConceptResource::collection($concepts);
     }
     /**

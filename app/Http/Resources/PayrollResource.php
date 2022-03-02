@@ -20,7 +20,8 @@ class PayrollResource extends JsonResource
             'period' => new PeriodResource($this->period),
             'user' => new UsersResource($this->user),
             'provision' => new ProvissionResource($this->provision),
-            'concepts' => $this->concepts
+            'concepts' => $this->concepts,
+            'created_at' => $this->created_at
         ];
     }
 }
