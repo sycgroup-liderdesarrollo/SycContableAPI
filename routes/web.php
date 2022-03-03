@@ -21,4 +21,4 @@ Route::get('/', function () {
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('nomina/{payroll}', [PayrollController::class, 'PDFi'])->name('nomina');
+Route::get('payroll/{payroll}', [PayrollController::class, 'PDFi'])->name('nomina');

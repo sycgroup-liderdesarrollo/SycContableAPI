@@ -6,9 +6,9 @@ use App\Http\Requests\Payroll\AddConceptsRequest;
 use App\Http\Resources\PayrollResource;
 use App\Models\Payroll;
 use App\Models\User;
+use Barryvdh\DomPDF\Facade as PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 /**
  * @group Payroll
@@ -135,5 +135,11 @@ class PayrollController extends Controller
         ->whereMonth('payrolls.created_at',  date('m', strtotime($request->query('created_at'))))
         ->get();
         return new PayrollResource($payroll);
+    }
+    public function PDFi($payroll)
+    {
+        $payroll = Payroll::find($payroll);
+        $pdf = PDF::loadView('payroll.payroll', ['payroll'=>$payroll]);
+        return $pdf->stream(); //se peude usar un ->download() y stream();
     }
 }
