@@ -49,7 +49,7 @@ class PayrollController extends Controller
     {
         $payroll = $user->lastPayroll;
         if(empty($payroll) == 1){
-            return response()->json(0);
+            return response()->json(['length' => 0]);
         }else{
             return new PayrollResource($payroll);
         }
