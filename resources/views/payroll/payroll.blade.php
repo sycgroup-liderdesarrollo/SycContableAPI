@@ -43,7 +43,7 @@
     </style>
 </head>
 <body>
-<h1>Nómina de {{$payroll->user->name}} {{$payroll->user->last_name}}</h1>
+<h1>Nómina de {{ $payroll->user->name }} {{ $payroll->user->last_name }}</h1>
 <br>
     <table id="table-head">
         <tr>
@@ -62,16 +62,16 @@
     <table id="table-head">
         <tr>
             <th>
-                <h4>C.C: <strong id="sub-text">{{$payroll->user->identification_number}}</strong></h4>
+                <h4>C.C: <strong id="sub-text">{{ $payroll->user->identification_number }}</strong></h4>
             </th>
             <th>
-                <h4>Id de nomina: <strong id="sub-text"> {{$payroll->id}}</strong></h4>
+                <h4>Id de nomina: <strong id="sub-text"> {{ $payroll->id }}</strong></h4>
             </th>
             <th>
-                <h4>Fecha: <strong id="sub-text">{{$payroll->created_at}}</strong></h4>
+                <h4>Fecha: <strong id="sub-text">{{ $payroll->created_at->format('Y-m') }}</strong></h4>
             </th>
             <th>
-                <h4>Periodo: <strong id="sub-text">{{$payroll->period->name}}</strong></h4>
+                <h4>Periodo: <strong id="sub-text">{{ $payroll->period->name }}</strong></h4>
             </th>
         </tr>
     </table>
@@ -90,15 +90,15 @@
             @foreach ($payroll->concepts as $concept)
                 <tr>
                     <td id="td">
-                        {{$concept->id}}
+                        {{ $concept->id }}
                     </td>
                     <td id="td">
-                        {{$concept->name}}
+                        {{ $concept->name }}
                     </td>
                     <td id="td">
-                        {{$concept->pivot->count}}
+                        {{ $concept->pivot->count }}
                     </td>
-                    <td id="td">{{number_format($concept->pivot->unit_value,2)}}</td>
+                    <td id="td">{{ number_format($concept->pivot->unit_value,2) }}</td>
                     @if ( $concept->concept_type_id == 1 )
                         <td id="td">{{ number_format($concept->pivot->total_value,2) }}</td>
                         <td id="td"></td>

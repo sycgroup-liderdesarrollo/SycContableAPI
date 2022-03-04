@@ -31,8 +31,8 @@ class Concept extends Model
     {
         return $query->where('concept_type_id','like','%'.$type.'%');
     }
-    public function scopeNameFilter($query, $name)
+    public function scopeFilter($query, $filter)
     {
-        return $query->where('name', 'like','%'.$name.'%');
+        return $query->where('name', 'like','%'.$filter.'%')->orWhere('id', 'like', '%'.$filter.'%');
     }
 }
