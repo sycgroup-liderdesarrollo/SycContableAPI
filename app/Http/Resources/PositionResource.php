@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use App\Models\BusinessLine;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class PositionResource extends JsonResource
@@ -16,7 +17,8 @@ class PositionResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'name' => $this->name
+            'name' => $this->name,
+            'business_line' => $this->businessLine
         ];
     }
 }
