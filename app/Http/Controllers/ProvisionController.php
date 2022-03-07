@@ -29,7 +29,7 @@ class ProvisionController extends Controller
      */
     public function show(Provision $provision)
     {
-        return new ProvisionResource($provision);
+        return new ProvissionResource($provision);
     }
     /**
      * @bodyParam period_id int
@@ -51,7 +51,7 @@ class ProvisionController extends Controller
         $provision = $request->all();
         $provision['period_id'] = period(Carbon::now()->format('d'));
         $provision = Provision::create($provision);
-        return new ProvisionResource($provision);
+        return new ProvissionResource($provision);
     }
     /**
      * @bodyParam period_id int
@@ -71,7 +71,7 @@ class ProvisionController extends Controller
     public function update(Provision $provision, Request $request)
     {
         $provision->update($request->all());
-        return new ProvisionResource($provision);
+        return new ProvissionResource($provision);
     }
     /**
      * @apiResource App\Http\Resources\ProvissionResource
@@ -80,7 +80,7 @@ class ProvisionController extends Controller
     public function destroy(Provision $provision)
     {
         $provision->delete();
-        return new ProvisionResource($provision);
+        return new ProvissionResource($provision);
     }
 }
 

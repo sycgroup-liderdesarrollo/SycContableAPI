@@ -17,7 +17,7 @@ class ProvinceController extends Controller
      */
     public function index(Request $request)
     {
-        $paginate = $request->query('paginate') ?? 10;
+        $paginate = $request->query('paginate') ?? 34;
         $filter = $request->query('name',null);
         $provinces = Province::filter($filter)->paginate($paginate);
 

@@ -33,7 +33,7 @@ class CreateUserRequest extends FormRequest
             'password'=>'required|string',
 
             'admission_date'=>'required|date',
-            'out_date'=>'date',
+            'out_date'=>'date|nullable',
             'address'=>'required|string',
             'neighborhood'=>'required|string',
             'birthday'=>'required|string',
@@ -49,7 +49,7 @@ class CreateUserRequest extends FormRequest
             'gender_id'=> 'required|integer',
             'health_provider_id'=> 'required|integer',
             'pension_fund_id'=> 'required|integer',
-            'civil_statu_id'=> 'required|integer',
+            'civil_status_id'=> 'required|integer',
             'work_city_id'=> 'required|integer',
             'residence_city_id'=> 'required|integer',
             'expedition_place_id'=> 'required|integer',

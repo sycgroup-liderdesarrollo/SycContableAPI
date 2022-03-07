@@ -43,7 +43,7 @@ class User extends Authenticatable
         'active',
         'emergency_contact_id',
         'phone',
-        'occupational_risk_manager_id'
+        'occupational_risk_manager_id',
     ];
 
     protected $hidden = ['password','remember_token','gender_id','position_id'];

@@ -26,7 +26,7 @@ class UserController extends Controller
     {
         $filter = $request->query('filter', null);
         $active = $request->query('active', null);
-        $paginate = $request->query('paginate') ?? 10;
+        $paginate = $request->query('paginate') ?? 5;
         $users = User::filter($filter)->active($active)->with('position')->paginate($paginate);
         return UsersResource::collection($users);
     }

@@ -11,14 +11,14 @@ use Illuminate\Http\Request;
 class CityController extends Controller
 {
     /**
-     * @queryParam name Filtro para buscar ciudades por nombre. Example: Pereira
+     * @queryParam name Filtro para buscar ciudades por id de departamento. Example: 1
      * @apiResourceCollection App\Http\Resources\CitiesResource
      * @apiResourceModel App\Models\City
      */
     public function index(Request $request)
     {
         $filter = $request->query('province_id',null);
-        $paginate = $request->query('paginate') ?? 10;
+        $paginate = $request->query('paginate') ?? 200;
 
         $cities = City::filter($filter)->paginate($paginate);
 

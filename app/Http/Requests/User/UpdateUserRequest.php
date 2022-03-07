@@ -42,7 +42,7 @@ class UpdateUserRequest extends FormRequest
 
             'password'=>'string',
             'admission_date'=>'date',
-            'out_date'=>'date',
+            'out_date'=>'date|nullable',
             'address'=>'string',
             'neighborhood'=>'string',
             'birthday'=>'string',
@@ -58,7 +58,7 @@ class UpdateUserRequest extends FormRequest
             'gender_id'=> 'integer',
             'health_provider_id'=> 'integer',
             'pension_fund_id'=> 'integer',
-            'civil_statu_id'=> 'integer',
+            'civil_status_id'=> 'integer',
             'work_city_id'=> 'integer',
             'residence_city_id'=> 'integer',
             'expedition_place_id'=> 'integer',
