@@ -57,6 +57,7 @@ class CreateUserRequest extends FormRequest
             'education_level_id'=> 'required|integer',
             'active'=> 'required|integer',
             'emergency_contact_id'=> 'required|integer',
+            'image' => 'string',
         ];
     }
 }

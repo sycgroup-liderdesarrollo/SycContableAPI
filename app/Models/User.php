@@ -44,6 +44,7 @@ class User extends Authenticatable
         'emergency_contact_id',
         'phone',
         'occupational_risk_manager_id',
+        'image'
     ];
 
     protected $hidden = ['password','remember_token','gender_id','position_id'];

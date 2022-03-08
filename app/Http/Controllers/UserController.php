@@ -6,6 +6,7 @@ use App\Http\Requests\User\CreateUserRequest;
 use App\Http\Requests\User\UpdateUserRequest;
 use App\Http\Resources\UserResource;
 use App\Http\Resources\UsersResource;
+use App\Jobs\saveImage\SaveImageJob;
 use App\Models\Covenant;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -36,9 +37,13 @@ class UserController extends Controller
      */
     public function store(CreateUserRequest $request)
     {
-        $user = $request->all();
+
+        $user = $request->except('image');
         $user['password'] = Hash::make($request->password);
         $user = User::create($user);
+
+        if(isset($request->image)) SaveImageJob::dispatch($request->image, 'users', $user->id, $user->name);
+
         return new UserResource($user);
     }
      /**
@@ -55,7 +60,7 @@ class UserController extends Controller
      */
     public function update(UpdateUserRequest $request, User $user)
     {
-        $user->fill($request->all());
+        $user->fill($request->except('image'));
         $user->password = Hash::make($user->password);
         $user->save();
         return new UserResource($user);

@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Jobs\Covenant;
+namespace App\Jobs\saveImage;
 
 use App\Models\Covenant;
+use App\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Log;
 
-class CovenantSaveImageJob implements ShouldQueue
+class SaveImageJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
@@ -29,11 +29,17 @@ class CovenantSaveImageJob implements ShouldQueue
 
     public function handle()
     {
-        Log::info('entró');
-        $imagePath = saveFile($this->image, 'covenants', $this->name);
+        $imagePath = saveFile($this->image, $this->table, $this->name);
 
-        $covenant = Covenant::where('id', $this->id)->first();
-        deleteFile($covenant->image);
-        $covenant->update(['image' => $imagePath]);
+        if ($this->table == 'covenants') {
+            $covenant = Covenant::where('id', $this->id)->first();
+            deleteFile($covenant->image);
+            $covenant->update(['image' => $imagePath]);
+        }
+        if ($this->table == 'users') {
+            $user = User::where('id', $this->id)->first();
+            deleteFile($user->image);
+            $user->update(['image' => $imagePath]);
+        }
     }
 }

@@ -22,7 +22,8 @@ class UsersResource extends JsonResource
             'active'=> $this->active,
             'email'=> $this->email,
             'base_salary'=> $this->base_salary,
-            'position' => new PositionResource($this->position)
+            'position' => new PositionResource($this->position),
+            'image' => $this->image
 
         ];
     }

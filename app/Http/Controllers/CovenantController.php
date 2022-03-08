@@ -6,7 +6,7 @@ use App\Http\Requests\Covenant\UpdateCovenantRequest;
 use App\Http\Requests\Covenant\CreateCovenantRequest;
 use App\Http\Resources\Convenant\CovenantResource;
 use App\Http\Resources\Convenant\CovenantsResource;
-use App\Jobs\Covenant\CovenantSaveImageJob;
+use App\Jobs\saveImage\SaveImageJob;
 use App\Models\Covenant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -43,7 +43,7 @@ class CovenantController extends Controller
             $covenant = Covenant::create($request->except('image'));
             $covenant->save();
         }
-        if(isset($request->image)) CovenantSaveImageJob::dispatch($request->image, 'covenants', $covenant->id, $covenant->name);
+        if(isset($request->image)) SaveImageJob::dispatch($request->image, 'covenants', $covenant->id, $covenant->name);
 
         return new CovenantResource($covenant);
     }
@@ -73,7 +73,7 @@ class CovenantController extends Controller
             $covenant->update($request->except('image'));
         }
 
-        if(isset($request->image)) CovenantSaveImageJob::dispatch($request->image, 'covenants', $covenant->id, $covenant->name);
+        if(isset($request->image)) SaveImageJob::dispatch($request->image, 'covenants', $covenant->id, $covenant->name);
 
         return new CovenantResource($covenant);
 

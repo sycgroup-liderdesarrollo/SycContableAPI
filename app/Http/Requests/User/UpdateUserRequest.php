@@ -66,6 +66,7 @@ class UpdateUserRequest extends FormRequest
             'education_level_id'=> 'integer',
             'active'=> 'integer',
             'emergency_contact_id'=> 'integer',
+            'image' => 'string',
 
         ];
     }

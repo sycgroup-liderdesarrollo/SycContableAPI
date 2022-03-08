@@ -45,7 +45,8 @@ class UserResource extends JsonResource
             'educationLevel' => new EducationLevelResource($this->educationLevel),
             'emergencyContact' => new EmergencyContactResource($this->emergencyContact),
             'occupationalRiskManager' => new OcupationalRiskManagerResource($this->occupationalRiskManager),
-            'active' => $this->active
+            'active' => $this->active,
+            'image' => $this->image
         ];;
     }
 }
