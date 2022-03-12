@@ -38,7 +38,7 @@ class UserResource extends JsonResource
             'healthProvider' => new HealthProviderResource($this->healthProvider),
             'pensionFund' => new PensionFundResource($this->pensionFund),
             'civilStatus' => new CivilStatusResource($this->civilStatus),
-            'work_city' => new CitiesResource($this->city),
+            'work_city' => new CitiesResource($this->workCity),
             'residenceCity' => new CitiesResource($this->residenceCity),
             'expeditionPlace' => new CitiesResource($this->expeditionPlace),
             'strata' => new StrataResource($this->strata),
