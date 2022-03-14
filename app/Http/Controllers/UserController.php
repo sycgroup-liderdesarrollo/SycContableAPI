@@ -63,6 +63,8 @@ class UserController extends Controller
         $user->fill($request->except('image'));
         $user->password = Hash::make($user->password);
         $user->save();
+        if(isset($request->image)) SaveImageJob::dispatch($request->image, 'users', $user->id, $user->name);
+
         return new UserResource($user);
     }
      /**
