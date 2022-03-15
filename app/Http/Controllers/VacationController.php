@@ -56,7 +56,7 @@ class VacationController extends Controller
         $vacation['days_apart'] = $dataVacation->original['diferentDayPeriod'];
 
         $vacation = Vacation::create($vacation);
-        return response()->json(['status'=>true,'data'=>$vacation,'vacation'=>$dataVacation->original]);
+        return response()->json(['status'=>true,'data'=>'Se cargaron vacaciones correctamente']);
     }
     /**
      * @apiResource App\Http\Resources\VacationResource
