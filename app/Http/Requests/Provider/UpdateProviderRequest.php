@@ -50,6 +50,7 @@ class UpdateProviderRequest extends FormRequest
             'constitution_type_id' => 'integer',
             'city_id' => 'integer',
             'responsability_type_id',
+            'active' => 'boolean'
         ];
     }
 }

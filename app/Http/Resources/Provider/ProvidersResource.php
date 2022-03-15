@@ -18,7 +18,11 @@ class ProvidersResource extends JsonResource
             'id' => $this->id,
             'name' => $this->name,
             'last_name' => $this->last_name,
-            'trade_name' => $this->trade_name
+            'trade_name' => $this->trade_name,
+            'phone' => $this->phone,
+            'status' => $this->status,
+            'identification_number' => $this->identification_number,
+            'email' => $this->email,
         ];
     }
 }

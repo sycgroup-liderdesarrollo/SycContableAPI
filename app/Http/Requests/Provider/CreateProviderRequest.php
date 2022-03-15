@@ -37,6 +37,7 @@ class CreateProviderRequest extends FormRequest
             'constitution_type_id' => 'required|integer',
             'city_id' => 'required|integer',
             'responsability_type_id',
+            'active' => 'boolean'
         ];
     }
 }

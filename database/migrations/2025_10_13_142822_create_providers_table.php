@@ -20,6 +20,7 @@ class CreateProvidersTable extends Migration
             $table->boolean('iva');
             $table->string('email')->unique();
             $table->string('password');
+            $table->boolean('status')->default(true);
             //llave foranea
             $table->foreignId('identification_type_id')->references('id')->on('identification_types');
             $table->foreignId('constitution_type_id')->references('id')->on('constitution_types');

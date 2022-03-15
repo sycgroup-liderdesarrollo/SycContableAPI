@@ -4,9 +4,11 @@ namespace App\Http\Resources\Provider;
 
 use App\Http\Resources\CitiesResource;
 use App\Http\Resources\ConstitutionTypeResource;
+use App\Http\Resources\Convenant\CovenantResource;
 use App\Http\Resources\IdentificationTypeResource;
 use App\Http\Resources\ResponsabilityTypeResource;
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Facades\Log;
 
 class ProviderResource extends JsonResource
 {
@@ -25,13 +27,16 @@ class ProviderResource extends JsonResource
             'trade_name' => $this->trade_name,
             'address' => $this->address,
             'phone' => $this->phone,
+            'status' => $this->status,
             'identification_number' => $this->identification_number,
             'iva' => $this->iva,
             'email' => $this->email,
             'identificationType' => new IdentificationTypeResource($this->identificationType),
-            'ConstitutionType' => new ConstitutionTypeResource($this->constitutionType),
+            'constitutionType' => new ConstitutionTypeResource($this->constitutionType),
             'city' => new CitiesResource($this->city),
-            'responsabilityType' => new ResponsabilityTypeResource($this->responsabilityType)
+            'responsabilityType' => new ResponsabilityTypeResource($this->responsabilityType),
+            'contact' => $this->contacts,
+            'covenants' => $this->covenant,
         ];
     }
 }

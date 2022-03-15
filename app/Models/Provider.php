@@ -20,6 +20,7 @@ class Provider extends Model
         'iva',
         'email',
         'password',
+        'status',
         'constitution_type_id',
         'city_id',
         'responsability_type_id',
@@ -38,7 +39,7 @@ class Provider extends Model
     }
     public function covenant()
     {
-        return $this->hasOne(Covenant::class);
+        return $this->hasMany(Covenant::class);
     }
     public function city()
     {

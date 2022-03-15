@@ -20,6 +20,7 @@ class ProviderSeeder extends Seeder
             'identification_number'=>1232599679,
             'identification_type_id'=>2,
             'iva'=>1,
+            'status'=>true,
             'email'=>'jhonatan@gmail.com',
             'password'=>Hash::make('12345678'),
             'constitution_type_id'=>2,
